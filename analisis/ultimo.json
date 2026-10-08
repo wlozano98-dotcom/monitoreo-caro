@@ -1,0 +1,59 @@
+{
+  "vinetas": [
+    "Solo medios: 58 piezas en 24 h frente a 46 ayer; cero piezas de redes, falta medir a la gente.",
+    "Esmeraldas domina: emergencia provincial de 90 días y 3.500 familias bajo el agua en Isla Luis Vargas Torres (FM Mundo).",
+    "Radio Pichincha atribuye a la Secretaría raciones insuficientes en Esmeraldas; piezas críticas suben de 5 a 6 en medios.",
+    "Feriado 9-11 con alerta costera del 10 al 15; circulan cifras distintas de afectados: 16.000 y 15.500."
+  ],
+  "acciones": [
+    {
+      "accion": "Verificar en Isla Luis Vargas Torres raciones y albergues con COE provincial; publicar balance.",
+      "porque": "FM Mundo reporta 3.500 familias bajo el agua; Radio Pichincha y Diario Extra señalan raciones insuficientes y angustia en San Gregorio.",
+      "base_legal": "Art. 14, 21.4 y 73"
+    },
+    {
+      "accion": "Antes del feriado, boletín oficial único: afectados, albergues y alerta costera 10-15 octubre.",
+      "porque": "Medios citan 16.000 y 15.500 afectados; Ecuador Chequea califica de imprecisa una alerta de El Niño de alta intensidad.",
+      "base_legal": "Art. 61, 64.6 y 72"
+    },
+    {
+      "accion": "Ofrecer al Municipio de Quito apoyo técnico subsidiario para los 321 barrios en riesgo.",
+      "porque": "Granizada de hasta 35 cm (Vistazo), cierres del Metro y Concejo sin fecha para tratar afectaciones (Ecuavisa).",
+      "base_legal": "Art. 13, 21.4 y 23.4"
+    }
+  ],
+  "narrativas": [
+    {
+      "titulo": "La ayuda estatal llega tarde y es insuficiente",
+      "explicacion": "Radio Pichincha, FM Mundo y Diario Extra recogen testimonios de Esmeraldas que piden alimentos y albergue; Radio Pichincha lo atribuye a la Secretaría. Es el mayor riesgo directo para Carolina Lozano si el feriado agrava la emergencia.",
+      "ids": ["b597f08395", "76b678cf95", "b4550bb613", "e8f742da78", "45d8fe5101"]
+    },
+    {
+      "titulo": "Las lluvias empeorarán y no estamos preparados",
+      "explicacion": "Medios nacionales amplifican pronósticos del Inamhi, el Banco Mundial y titulares como 'lo peor está por venir'. Oportunidad de vocería anticipatoria de la Secretaría con datos claros antes del feriado.",
+      "ids": ["7993af7b02", "e5ea2496fc", "ebbe0dc87e", "8f5b7082d4", "556272e814", "651e96fca8", "58b9b51c4b", "d0e20a7ed5", "35850de487", "12b930e601", "8c23a68a77", "7bc9ab97c4"]
+    },
+    {
+      "titulo": "Coordinación preventiva y entrega de asistencia oficial",
+      "explicacion": "Medios locales difunden COE cantonales activos en Manabí, el bono de 284 dólares y la asistencia a 5.600 personas. Respalda la imagen técnica de la Secretaría si se acompaña de cifras actualizadas.",
+      "ids": ["dd2ab8f97a", "0cf2aec79e", "5ff9cabf9f", "8b0f529fa1", "493d8f3973", "f8b8025d62", "d4e95ebb36", "336cf3d2b0", "8312d77711", "26ee724093", "dd39a03bc1"]
+    },
+    {
+      "titulo": "Quito se inunda y el Concejo no decide",
+      "explicacion": "Vistazo, Radio Pichincha y Ecuavisa contrastan granizadas y alcantarillas colapsadas con un Concejo sin quórum ni fecha. La culpa recae en el Municipio, pero puede extenderse al Estado si no se ve coordinación.",
+      "ids": ["0488768cbd", "84441eaf65", "6198eec520", "4f47fd31bc", "cb79afd761", "15c26e436a", "a184ef023c", "691da712f2", "1f591d933a"]
+    },
+    {
+      "titulo": "Las lluvias destruyen la producción y afectan la economía",
+      "explicacion": "Medios económicos y gremios hablan de zafra suspendida, cacao en riesgo y alertas del Banco Mundial. Riesgo de que se reclame al Gobierno un plan de mitigación productiva.",
+      "ids": ["2c298f454a", "30cac51a9e", "45d8fe5101", "d12621bc47", "80e002c7ae", "45df345a69", "dd19f1d211", "f7eb325503", "3920b6d6e1", "3702e0dd92"]
+    }
+  ],
+  "rumores": [
+    {
+      "titulo": "Alerta de El Niño de alta intensidad",
+      "explicacion": "Ecuador Chequea califica de imprecisa una alerta que circula sobre un Niño de alta intensidad. Responder con la etapa oficial del fenómeno y el pronóstico del Inamhi, por canales de la Secretaría (arts. 61 y 72).",
+      "ids": ["3947b47203"]
+    }
+  ]
+}
