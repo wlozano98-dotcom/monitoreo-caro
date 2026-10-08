@@ -618,6 +618,10 @@ def clasificar(db, maximo):
 
 # Resumen propio de la Ley Orgánica para la Gestión Integral del Riesgo de Desastres (no el texto de LEXIS).
 MARCO_LEGAL = open(os.path.join(AQUI, "marco_legal.md"), encoding="utf-8").read()
+# Texto completo (Registro Oficial): va al resumen para que cada base legal se pueda verificar contra la ley.
+LEY_COMPLETA = re.sub(
+    r"[ \t]+", " ", open(os.path.join(AQUI, "ley", "ley_gestion_integral_riesgo_desastres.md"), encoding="utf-8").read()
+)
 
 INSTRUCCIONES_RESUMEN = """Eres el asesor estratégico de comunicación de la secretaria Carolina Lozano, titular de la
 Secretaría Nacional de Gestión de Riesgos (SNGR) de Ecuador, durante El Niño 2026. Ella tiene 2 minutos para leerte.
@@ -629,7 +633,7 @@ Piensa primero: qué cambió frente a ayer, qué crece, quién lo empuja, qué r
 Secretaría y para ella, qué oportunidad hay, y qué haría un buen equipo de crisis hoy.
 
 Luego escribe:
-- vinetas: 4 a 6 frases cortas. Primero lo más importante para decidir, no lo más obvio. Cada una con un dato concreto
+- vinetas: 4 frases cortas. Primero lo más importante para decidir, no lo más obvio. Cada una con un dato concreto
   sacado de las piezas (cifra, medio, provincia, cuenta). Distingue lo que dicen los medios de lo que dice la gente en
   redes. Si algo crece o cae frente a ayer, dilo.
 - acciones: exactamente 3 decisiones para HOY, de comunicación o de gestión, ordenadas por urgencia. Cada una debe ser
@@ -640,8 +644,9 @@ Luego escribe:
   GAD, al COE o a la Presidencia, la acción es coordinar, pedir, apoyar de forma subsidiaria o emitir lineamientos, no
   ejecutarlo ella. Nunca propongas algo que cruce los límites de la sección 4 del marco legal.
 No inventes datos. Si la información es poca, dilo y propone qué vigilar.
+Sé breve: cada viñeta en máximo 18 palabras; cada acción en máximo 12 palabras; cada "porque" en máximo 20 palabras.
 
-""" + MARCO_LEGAL
+""" + MARCO_LEGAL + "\n\nTEXTO COMPLETO DE LA LEY (para verificar competencias y artículos):\n" + LEY_COMPLETA
 
 
 def resumen_del_dia(db, vigentes=None):

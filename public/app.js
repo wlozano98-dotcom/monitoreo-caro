@@ -113,7 +113,7 @@ function pintar(d) {
   $("estado").innerHTML = d.corrida
     ? `<span class="punto${viejo ? " viejo" : ""}"></span>Actualizado <b>${esc(hace(d.corrida.fin))}</b>${d.pendientes ? ` · ${num(d.pendientes)} por clasificar` : ""}`
     : "Sin corridas todavía";
-  $("fecha-hoy").textContent = new Date(d.hoy + "T12:00:00Z").toLocaleDateString("es-EC", { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" });
+  $("fecha-hoy").textContent = new Date(d.hoy + "T12:00:00Z").toLocaleDateString("es-EC", { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" });
   pintarResumen(d.resumen);
   pintarNivel(d);
   pintarNarrativas(d.narrativas);
@@ -185,9 +185,8 @@ function pintarResumen(r) {
   $("resumen").innerHTML = r && r.vinetas?.length ? r.vinetas.map((v) => `<li>${esc(v)}</li>`).join("") : `<li class="vacio">Todavía no hay resumen: aparece cuando la IA clasifica lo recogido.</li>`;
   const acciones = r?.acciones || [];
   $("acciones").innerHTML = acciones.length
-    ? acciones.map((a) => `<li><b>${esc(a.accion)}</b><span>${esc(a.porque)}${a.base_legal ? `<em class="ley">${esc(a.base_legal)} · Ley de Gestión Integral del Riesgo</em>` : ""}</span></li>`).join("")
+    ? acciones.map((a) => `<li><b>${esc(a.accion)}</b><span>${esc(a.porque)}</span>${a.base_legal ? `<em class="ley">${esc(a.base_legal)}</em>` : ""}</li>`).join("")
     : `<li class="vacio">Aparecerán aquí 3 acciones sugeridas cuando la IA haya clasificado lo del día.</li>`;
-  $("acciones-caja").querySelector("h3").innerHTML = `${icono("chispa")}Qué conviene hacer hoy`;
   $("resumen-pie").textContent = r ? `Últimas 24 horas · escrito por IA ${hace(r.creado)} · no depende de los filtros.` : "";
 }
 
@@ -205,22 +204,24 @@ function pintarNivel(d) {
     }
   }
   const pct = hoy.total ? Math.round((100 * hoy.critico) / hoy.total) : 0;
-  // Las alertas suben un nivel: 1 o 2 alertas → al menos naranja; 3 o más → roja.
-  let i = NIVELES.findIndex((n) => pct < n.hasta);
+  // Por el % de críticas; las alertas suben el nivel: 1 o 2 → al menos naranja; 3 o más → roja.
+  const porCriticas = NIVELES.findIndex((n) => pct < n.hasta);
+  let i = porCriticas;
   if (hoy.alertas >= 3) i = 3;
   else if (hoy.alertas >= 1) i = Math.max(i, 2);
   const nivel = NIVELES[i];
   const sinDatos = !hoy.total;
   $("nivel").innerHTML = sinDatos ? "—" : `<i style="background:${nivel.color}"></i>${nivel.nombre}`;
-  $("nivel-detalle").textContent = sinDatos ? "Sin piezas clasificadas hoy" : `${nivel.texto}. ${pct}% de lo de hoy es crítico${hoy.alertas ? ` y hay ${hoy.alertas} alerta${hoy.alertas > 1 ? "s" : ""}` : ""}.`;
+  const alertas = `${hoy.alertas} alerta${hoy.alertas === 1 ? "" : "s"}`;
+  $("nivel-detalle").textContent = sinDatos ? "Sin piezas clasificadas hoy" : i > porCriticas ? `Por ${alertas}. Críticas: ${pct}%` : `${pct}% de lo de hoy es crítico`;
   requestAnimationFrame(() => {
-    const alto = sinDatos ? 0 : Math.max(3, pct);
-    $("agua").style.height = alto + "%";
-    $("marca-nivel").style.bottom = `calc(${alto}% + 9px)`;
-    $("marca-nivel").textContent = sinDatos ? "" : pct + "%";
+    const ancho = sinDatos ? 0 : Math.max(2, pct);
+    $("agua").style.clipPath = `inset(0 ${100 - ancho}% 0 0 round 4px)`;
+    $("marca-nivel").style.left = ancho + "%";
+    $("marca-nivel").hidden = sinDatos;
   });
   const dif = hoy.total - ayer.total;
-  const cambio = dif === 0 ? "igual que ayer" : `${dif > 0 ? "+" : "−"}${num(Math.abs(dif))} frente a ayer`;
+  const cambio = dif === 0 ? "igual que ayer" : `${dif > 0 ? "+" : "−"}${num(Math.abs(dif))} vs. ayer`;
   $("cifras-hoy").innerHTML = `
     <div><dt>Menciones</dt><dd>${num(hoy.total)}<small>${cambio}</small></dd></div>
     <div><dt>Sobre Carolina</dt><dd>${num(hoy.carolina)}<small>${num(hoy.carolinaCritico)} críticas</small></dd></div>
@@ -229,7 +230,7 @@ function pintarNivel(d) {
   const n = d.alertas.length;
   const aviso = $("aviso-alertas");
   aviso.hidden = !n;
-  aviso.innerHTML = n ? `${icono("alerta")}<span>${n} alerta${n > 1 ? "s" : ""} en ${d.dias === 1 ? "el día" : `los últimos ${d.dias} días`}: críticas fuertes o noticias que piden reacción</span>${icono("flecha")}` : "";
+  aviso.innerHTML = n ? `${icono("alerta")}<span>${n} alerta${n > 1 ? "s" : ""} ${d.dias === 1 ? "hoy" : `en ${d.dias} días`}: ver cuáles</span>${icono("flecha")}` : "";
   aviso.onclick = () => {
     $("publicado").open = true;
     document.querySelector('[data-lista="alertas"]').click();
@@ -518,6 +519,7 @@ function tooltipEn(el, html) {
 
 leerURL();
 pintarFiltros();
+$("resumen-caja").open = matchMedia("(min-width: 901px)").matches;
 prepararSecciones();
 cargar();
 setInterval(cargar, 10 * 60 * 1000);

@@ -37,31 +37,31 @@
       <p class="actualizado" id="estado">Cargando…</p>
     </div>
 
-    <section class="hoy" aria-labelledby="t-hoy">
-      <div class="hoy-texto">
-        <h2 id="t-hoy">Hoy, <span id="fecha-hoy"></span></h2>
-        <ul class="vinetas" id="resumen"><li class="vacio">Todavía no hay resumen.</li></ul>
-        <div class="acciones" id="acciones-caja">
-          <h3>Qué conviene hacer hoy</h3>
-          <ol id="acciones"></ol>
+    <section class="hoy" aria-label="Hoy">
+      <div class="estado-hoy" aria-labelledby="t-nivel">
+        <div class="nivel-fila">
+          <h2 id="t-nivel"><span class="etq">Nivel de la conversación</span><span class="nivel" id="nivel">—</span></h2>
+          <p class="nivel-razon" id="nivel-detalle"></p>
         </div>
-        <p class="nota-ia" id="resumen-pie"></p>
-      </div>
-
-      <aside class="medidor" aria-labelledby="t-nivel">
-        <h3 id="t-nivel">Nivel de la conversación</h3>
-        <div class="limnimetro">
-          <div class="regla" aria-hidden="true">
-            <div class="agua" id="agua"></div>
-            <span class="marca-nivel" id="marca-nivel"></span>
-          </div>
-          <div class="nivel-texto">
-            <p class="nivel" id="nivel">—</p>
-            <p class="nivel-detalle" id="nivel-detalle"></p>
-          </div>
+        <div class="regla" aria-hidden="true">
+          <span class="tramo verde"></span><span class="tramo amarilla"></span><span class="tramo naranja"></span><span class="tramo roja"></span>
+          <span class="agua" id="agua"></span>
+          <span class="marca-nivel" id="marca-nivel"></span>
         </div>
         <dl class="cifras-hoy" id="cifras-hoy"></dl>
-      </aside>
+      </div>
+
+      <div class="hoy-texto">
+        <div class="acciones" id="acciones-caja">
+          <h2><svg class="icono" aria-hidden="true"><use href="#i-chispa"/></svg>Qué hacer hoy</h2>
+          <ol id="acciones"></ol>
+        </div>
+        <details class="resumen-dia" id="resumen-caja">
+          <summary><span>Lo que pasa hoy</span><span class="fecha" id="fecha-hoy"></span><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg></summary>
+          <ul class="vinetas" id="resumen"><li class="vacio">Todavía no hay resumen.</li></ul>
+          <p class="nota-ia" id="resumen-pie"></p>
+        </details>
+      </div>
     </section>
   </header>
 

@@ -101,56 +101,73 @@ a { color: inherit; text-underline-offset: 3px; text-decoration-thickness: 1px; 
 .actualizado .punto { width: 7px; height: 7px; border-radius: 50%; background: var(--n-verde); box-shadow: 0 0 0 3px rgba(12, 163, 12, .22); }
 .actualizado .punto.viejo { background: var(--n-amarilla); box-shadow: 0 0 0 3px rgba(250, 178, 25, .22); }
 
-.hoy { display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 24px 48px; padding-block: 28px 36px; }
-@media (max-width: 900px) { .hoy { grid-template-columns: 1fr; padding-block: 20px 28px; } }
-.hoy h2 { font-family: var(--serif); font-weight: 500; font-size: clamp(26px, 3.4vw, 36px); line-height: 1.1; letter-spacing: -.015em; color: #fff; margin-bottom: 16px; text-wrap: balance; }
-.vinetas { display: grid; gap: 10px; max-width: 72ch; }
-.vinetas li { position: relative; padding-left: 20px; color: var(--oceano-texto); font-size: 16px; line-height: 1.5; }
-.vinetas li::before { content: ""; position: absolute; left: 2px; top: .62em; width: 8px; height: 2px; background: var(--espuma); border-radius: 2px; }
+/* Encabezado pensado para el celular: primero el estado, luego qué hacer, el resumen plegado. */
+.hoy { display: grid; grid-template-columns: minmax(0, 1fr) 360px; grid-template-areas: "texto estado"; gap: 20px 32px; padding-block: 14px 24px; align-items: start; }
+.estado-hoy { grid-area: estado; }
+.hoy-texto { grid-area: texto; display: grid; gap: 14px; min-width: 0; }
+@media (max-width: 900px) { .hoy { grid-template-columns: 1fr; grid-template-areas: "estado" "texto"; gap: 14px; padding-block: 8px 18px; } }
+
+.estado-hoy { background: var(--oceano-2); border: 1px solid var(--oceano-3); border-radius: var(--r); padding: 16px 18px; display: grid; gap: 12px; }
+.nivel-fila { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; flex-wrap: wrap; }
+.nivel-fila h2 { display: grid; gap: 2px; font-weight: 400; }
+.etq { font-size: 12px; color: var(--oceano-texto-2); }
+.nivel { font-size: 28px; font-weight: 700; letter-spacing: -.02em; line-height: 1.05; color: #fff; display: flex; align-items: center; gap: 8px; }
+.nivel i { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+.nivel-razon { font-size: 13px; color: var(--oceano-texto); text-align: right; max-width: 22ch; line-height: 1.35; }
+
+/* el gesto: la regla de nivel de río, horizontal */
+.regla { position: relative; height: 14px; display: grid; grid-template-columns: 30fr 15fr 15fr 40fr; gap: 2px; }
+.tramo { border-radius: 2px; opacity: .35; }
+.tramo.verde { background: var(--n-verde); border-radius: 4px 2px 2px 4px; }
+.tramo.amarilla { background: var(--n-amarilla); }
+.tramo.naranja { background: var(--n-naranja); }
+.tramo.roja { background: var(--n-roja); border-radius: 2px 4px 4px 2px; }
+.agua {
+  position: absolute; inset: 0; border-radius: 4px;
+  /* el agua "enciende" la regla hasta el nivel actual; marcas cada 10 % */
+  background:
+    repeating-linear-gradient(to right, transparent 0 calc(10% - 1px), rgba(10, 37, 48, .35) calc(10% - 1px) 10%),
+    linear-gradient(to right, var(--n-verde) 0 30%, var(--n-amarilla) 30% 45%, var(--n-naranja) 45% 60%, var(--n-roja) 60% 100%);
+  clip-path: inset(0 100% 0 0 round 4px);
+  transition: clip-path 1s var(--ease);
+}
+.marca-nivel { position: absolute; top: -5px; bottom: -5px; left: 0; width: 3px; margin-left: -1.5px; background: #fff; border-radius: 2px; box-shadow: 0 0 0 2px var(--oceano-2); transition: left 1s var(--ease); }
+@media (prefers-reduced-motion: reduce) { .agua, .marca-nivel { transition: none; } }
+
+.cifras-hoy { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; padding-top: 12px; border-top: 1px solid var(--oceano-3); }
+.cifras-hoy dt { font-size: 12px; color: var(--oceano-texto-2); }
+.cifras-hoy dd { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; color: #fff; line-height: 1.2; }
+.cifras-hoy small { display: block; font-size: 11px; font-weight: 400; color: var(--oceano-texto-2); }
+
+.acciones h2, .resumen-dia summary { font-size: 15px; font-weight: 700; color: #fff; display: flex; align-items: center; gap: 8px; }
+.acciones h2 .icono { color: var(--espuma); width: 16px; height: 16px; }
+.acciones ol { display: grid; gap: 8px; margin-top: 10px; counter-reset: accion; }
+.acciones li { counter-increment: accion; display: grid; grid-template-columns: 26px 1fr; gap: 3px 10px; padding: 12px 14px; background: var(--oceano-2); border: 1px solid var(--oceano-3); border-radius: var(--r-chico); }
+.acciones li::before { content: counter(accion); grid-row: span 3; width: 24px; height: 24px; border-radius: 50%; background: var(--espuma); color: var(--oceano); font-size: 13px; font-weight: 700; display: grid; place-items: center; }
+.acciones b { font-weight: 600; color: #fff; font-size: 15px; line-height: 1.35; }
+.acciones span { font-size: 13px; color: var(--oceano-texto-2); line-height: 1.4; }
+.acciones .ley { display: inline-flex; width: fit-content; margin-top: 2px; font-style: normal; font-size: 11px; font-weight: 600; color: var(--espuma); background: rgba(99, 199, 230, .12); border-radius: 999px; padding: 1px 8px; }
+
+.resumen-dia { background: transparent; border-top: 1px solid var(--oceano-3); padding-top: 12px; }
+.resumen-dia summary { list-style: none; cursor: pointer; }
+.resumen-dia summary::-webkit-details-marker { display: none; }
+.resumen-dia summary .fecha { font-weight: 400; font-size: 13px; color: var(--oceano-texto-2); }
+.resumen-dia summary .icono { margin-left: auto; color: var(--oceano-texto-2); transition: transform .2s var(--ease); }
+.resumen-dia[open] summary .icono { transform: rotate(90deg); }
+.vinetas { display: grid; gap: 8px; margin-top: 10px; }
+.vinetas li { position: relative; padding-left: 16px; color: var(--oceano-texto); font-size: 14px; line-height: 1.45; max-width: 75ch; }
+.vinetas li::before { content: ""; position: absolute; left: 0; top: .6em; width: 7px; height: 2px; background: var(--espuma); border-radius: 2px; }
 .vinetas .vacio { color: var(--oceano-texto-2); padding: 0; }
 .vinetas .vacio::before { display: none; }
-.acciones { margin-top: 24px; padding: 16px 18px; background: var(--oceano-2); border: 1px solid var(--oceano-3); border-radius: var(--r); max-width: 72ch; }
-.acciones h3 { font-size: 13px; font-weight: 600; color: var(--espuma); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
-.acciones ol { display: grid; gap: 12px; counter-reset: accion; }
-.acciones li { counter-increment: accion; display: grid; grid-template-columns: 24px 1fr; gap: 2px 8px; }
-.acciones li::before { content: counter(accion); grid-row: span 2; width: 22px; height: 22px; border-radius: 50%; background: var(--oceano-3); color: #fff; font-size: 12px; font-weight: 600; display: grid; place-items: center; }
-.acciones b { font-weight: 600; color: #fff; }
-.acciones span { font-size: 13px; color: var(--oceano-texto-2); }
-.nota-ia { margin-top: 14px; font-size: 12px; color: var(--oceano-texto-2); }
+.nota-ia { margin-top: 10px; font-size: 12px; color: var(--oceano-texto-2); }
 
-/* el gesto: limnímetro */
-.medidor { align-self: start; background: var(--oceano-2); border: 1px solid var(--oceano-3); border-radius: var(--r); padding: 18px 20px; }
-.medidor h3 { font-size: 13px; font-weight: 600; color: var(--oceano-texto-2); margin-bottom: 14px; }
-.limnimetro { display: grid; grid-template-columns: 56px 1fr; gap: 18px; align-items: stretch; }
-.regla {
-  position: relative; height: 168px; border-radius: 4px; overflow: hidden;
-  /* bandas de alerta (abajo verde, arriba roja) con marcas de regla cada 10 % */
-  background:
-    repeating-linear-gradient(to top, transparent 0 calc(10% - 1px), rgba(255, 255, 255, .55) calc(10% - 1px) 10%),
-    linear-gradient(to top, var(--n-verde) 0 30%, var(--n-amarilla) 30% 45%, var(--n-naranja) 45% 60%, var(--n-roja) 60% 100%);
+.marca h1 { font-size: 16px; }
+@media (max-width: 560px) {
+  .shell-barra { padding-block: 12px 2px; }
+  .marca svg { width: 28px; height: 28px; }
+  .marca p { display: none; }
+  .actualizado { font-size: 12px; }
 }
-.regla::after { content: ""; position: absolute; inset: 0; z-index: 1; background: rgba(10, 37, 48, .5); }
-.agua {
-  position: absolute; left: 0; right: 0; bottom: 0; height: 0; z-index: 2;
-  /* el agua "destapa" los colores de la regla hasta el nivel actual */
-  background:
-    repeating-linear-gradient(to top, transparent 0 16.8px, rgba(255, 255, 255, .6) 16.8px 18.48px),
-    linear-gradient(to top, var(--n-verde) 0 50.4px, var(--n-amarilla) 50.4px 75.6px, var(--n-naranja) 75.6px 100.8px, var(--n-roja) 100.8px 168px);
-  background-position: bottom; background-size: 100% 168px; background-repeat: no-repeat;
-  border-top: 2px solid #fff;
-  box-shadow: 0 -6px 14px rgba(99, 199, 230, .35);
-  transition: height 1.1s var(--ease);
-}
-.marca-nivel { position: absolute; right: 4px; z-index: 3; bottom: 0; transform: translateY(50%); font-size: 11px; font-weight: 700; color: #fff; text-shadow: 0 1px 2px rgba(0, 0, 0, .5); transition: bottom 1.1s var(--ease); font-variant-numeric: tabular-nums; }
-.nivel-texto { display: flex; flex-direction: column; justify-content: flex-end; gap: 4px; }
-.nivel { font-size: 30px; font-weight: 700; letter-spacing: -.02em; line-height: 1; color: #fff; display: flex; align-items: center; gap: 8px; }
-.nivel i { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
-.nivel-detalle { font-size: 13px; color: var(--oceano-texto-2); }
-.cifras-hoy { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--oceano-3); }
-.cifras-hoy dt { font-size: 12px; color: var(--oceano-texto-2); }
-.cifras-hoy dd { font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; color: #fff; line-height: 1.2; }
-.cifras-hoy small { display: block; font-size: 11px; font-weight: 400; color: var(--oceano-texto-2); }
-@media (prefers-reduced-motion: reduce) { .agua, .marca-nivel { transition: none; } }
 
 /* ------------------------------------------------------------ aviso de alertas */
 .aviso-alertas {
@@ -340,4 +357,18 @@ footer p { max-width: 100ch; }
 [hidden] { display: none !important; }
 .acciones li.vacio { display: block; color: var(--oceano-texto-2); font-size: 14px; }
 .acciones li.vacio::before { display: none; }
-.acciones .ley { display: block; margin-top: 4px; font-style: normal; font-size: 12px; color: var(--espuma); }
+
+/* Celular: filtros en dos filas compactas y sin quedar pegados arriba (ocupan pantalla). */
+@media (max-width: 560px) {
+  .controles { position: static; backdrop-filter: none; }
+  .filtros { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; padding-block: 10px; }
+  .segmentado { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(4, 1fr); }
+  .segmentado button { padding: 7px 4px; }
+  .filtros label { display: block; }
+  .filtros select { width: 100%; padding: 7px 24px 7px 8px; font-size: 13px; background-position: right 6px center; }
+  .todo { display: none; }
+  .seccion > summary { padding: 14px; }
+  .seccion[open] > summary { padding-inline: 2px; }
+  .seccion-titulo { font-size: 18px; }
+  main { padding-top: 16px; gap: 16px; }
+}
