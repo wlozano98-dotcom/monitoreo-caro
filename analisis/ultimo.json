@@ -1,156 +1,138 @@
 {
   "vinetas": [
-    "Bolívar es el nuevo foco: ríos desbordados en Las Naves y Echeandía, agua potable suspendida y clases suspendidas.",
-    "Medios difieren en afectados: más de 16.000 (Ecuavisa, Expreso) y más de 17.000 en 21 provincias (Metro Ecuador).",
-    "CN-ERFEN prevé lluvias superiores a lo normal del 10 al 15 de octubre, sobre todo en la Costa.",
-    "En X: 13 positivas y 7 críticas en 24 h (ayer, 1 crítica); se replica su cita de $656 millones."
+    "Volumen sube a 111 piezas en 24 h frente a 77; las críticas pasan de 10 a 14, sobre todo medios y YouTube.",
+    "Radio Pichincha: más de 100 familias de Esmeraldas denuncian ausencia de autoridades pese a la emergencia provincial de 90 días.",
+    "La prefecta Paola Pabón denuncia en Radio Pichincha que Sercop bloqueó USD 8 millones para emergencias en Pichincha.",
+    "Las cifras de afectados difieren entre medios: 15.500, 16.000 y más de 17.000 en 21 provincias."
   ],
   "fuentes_vinetas": [
+    [],
     [
-      "481cda146e",
-      "553600aa85",
-      "215383583a",
-      "71666266ab"
+      "ef033973d1",
+      "941e147266"
     ],
     [
+      "e9bfd29df7"
+    ],
+    [
+      "f6aacabc9c",
       "43839f0a34",
-      "edb622d44d",
       "770f630d76"
-    ],
-    [
-      "ff611f09c6",
-      "8f5b7082d4",
-      "3d126ac43f"
-    ],
-    [
-      "83282b0c2d",
-      "02522361cb",
-      "22dfd0c19b",
-      "8afc94629b"
     ]
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy un boletín único de afectados y asistidos, con hora de corte y fuente.",
-      "porque": "Cifras nacionales difieren: más de 16.000 (Ecuavisa, Expreso) y más de 17.000 (Metro Ecuador); en X se cuestionan los atendidos.",
-      "base_legal": "Art. 61 y 72",
+      "accion": "Publicar hoy una cifra oficial única de afectados y kits entregados, por provincia",
+      "porque": "Medios publican 15.500, 16.000 y más de 17.000 afectados; la SNGR reportó kits a más de 7.800 personas.",
+      "base_legal": "Art. 61, 72 y 73",
       "fuentes": [
+        "f6aacabc9c",
         "43839f0a34",
-        "edb622d44d",
         "770f630d76",
-        "44d3dd8b25"
+        "c49dc8f2d2"
       ]
     },
     {
-      "accion": "Ofrecer apoyo subsidiario al GAD de Las Naves: agua segura, maquinaria y evaluación.",
-      "porque": "Diario Extra: agua potable suspendida; El Universo: limpieza con maquinaria particular; Radio Pichincha: daños también en Echeandía.",
-      "base_legal": "Art. 13, 21.4 y 68",
+      "accion": "Ofrecer al COE de Esmeraldas apoyo subsidiario en albergues y alimentos para zonas rurales",
+      "porque": "Radio Pichincha recoge más de 100 familias sin atención; Wuanplus cuestiona un albergue de 44 camas; El Universo cita 14.493 perjudicados.",
+      "base_legal": "Art. 13, 14 y 21.4",
       "fuentes": [
-        "481cda146e",
-        "71666266ab",
-        "553600aa85"
+        "ef033973d1",
+        "67cb12876e",
+        "6086f2c34f"
       ]
     },
     {
-      "accion": "Antes del feriado, difundir en radios costeras recomendaciones para lluvias del 10-15 octubre.",
-      "porque": "CN-ERFEN prevé lluvias superiores a lo normal en la Costa del 10 al 15 de octubre; Teleamazonas anuncia lluvias intensas.",
-      "base_legal": "Art. 61",
+      "accion": "Emitir boletín preventivo con Inamhi para el feriado y 10-15 de octubre, en medios costeros",
+      "porque": "CN-ERFEN prevé lluvias superiores a lo normal en la Costa del 10 al 15; El Comercio anticipa tormentas en el feriado.",
+      "base_legal": "Art. 61 y 62",
       "fuentes": [
         "ff611f09c6",
         "8f5b7082d4",
-        "3d126ac43f"
+        "a49be82918"
       ]
     }
   ],
   "narrativas": [
     {
-      "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "La cuenta de la Secretaría en TikTok, la Alcaldía de Muisne, CONGOPE y medios difunden kits a más de 7.800 personas; en X se replica la cita de Carolina sobre $656 millones y 150.000 kits en bodegas. Refuerza su imagen técnica, pero obliga a mostrar que esos kits llegan.",
-      "ids": [
-        "636c121803",
-        "c49dc8f2d2",
-        "912ade1c4a",
-        "7dbdee30d9",
-        "7c1f29cc3d",
-        "1c36a8520c",
-        "83282b0c2d",
-        "02522361cb",
-        "72b097da7f"
-      ]
-    },
-    {
-      "titulo": "Quito se inunda y el Concejo no decide",
-      "explicacion": "Ecuavisa y El Universo muestran un Concejo sin fecha ni quórum para tratar las inundaciones; el COE Metropolitano reporta 37 eventos atendidos y vías habilitadas. La culpa recae en el Municipio, aunque ciudadanos etiquetan a @Riesgos_Ec.",
-      "ids": [
-        "15c26e436a",
-        "a184ef023c",
-        "84441eaf65",
-        "f55e399370",
-        "166fec556b",
-        "6198eec520",
-        "4f47fd31bc",
-        "5c87947764",
-        "97d2f125b9",
-        "1f55484cdd"
-      ]
-    },
-    {
-      "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Medios amplifican el aviso del CN-ERFEN para el 10-15 de octubre, alertas del Inamhi para el feriado y titulares como 'lo peor está por venir'. Oportunidad de vocería anticipatoria de la Secretaría antes del feriado.",
-      "ids": [
-        "ff611f09c6",
-        "8f5b7082d4",
-        "3d126ac43f",
-        "5f6ece9436",
-        "7993af7b02",
-        "651e96fca8",
-        "7bc9ab97c4"
-      ]
-    },
-    {
       "titulo": "La ayuda estatal llega tarde y es insuficiente",
-      "explicacion": "Radio Pichincha, FM Mundo y Diario Extra recogen testimonios de Esmeraldas sobre raciones insuficientes y familias bajo el agua; en X se cuestionan las cifras de atendidos. Es el mayor riesgo directo para la Secretaría si las lluvias del 10-15 de octubre agravan la emergencia.",
+      "explicacion": "Radio Pichincha recoge familias de Esmeraldas sin atención y raciones insuficientes, y Diario Extra la angustia en San Gregorio; Wuanplus pregunta a Gestión de Riesgos por un albergue de 44 camas. Es el mayor riesgo directo para la Secretaría antes de las lluvias del 10 al 15 de octubre.",
       "ids": [
+        "ef033973d1",
         "76b678cf95",
-        "b4550bb613",
         "b597f08395",
-        "44d3dd8b25",
+        "67cb12876e",
         "8afc94629b",
         "2d259cf001"
       ]
     },
     {
-      "titulo": "Las lluvias destruyen la producción y afectan la economía",
-      "explicacion": "Finanzas Digital e Infobae citan al Banco Mundial sobre inflación y riesgos económicos; se suspendió la zafra y el COE de Esmeraldas reporta 1.700 hectáreas de cultivos destruidas. Riesgo de que se reclame al Gobierno un plan productivo.",
+      "titulo": "Coordinación preventiva y entrega de asistencia oficial",
+      "explicacion": "La cuenta de la SNGR en TikTok (77 interacciones), la Alcaldía de Muisne, CONGOPE y medios difunden kits a más de 7.800 personas y la cita de Carolina sobre 150.000 kits en bodegas. Refuerza su imagen técnica, pero contrasta con las denuncias desde Esmeraldas.",
       "ids": [
-        "d985d95f3f",
-        "dd19f1d211",
-        "2c298f454a",
-        "6086f2c34f",
-        "ab704c0731"
+        "636c121803",
+        "c49dc8f2d2",
+        "912ade1c4a",
+        "7dbdee30d9",
+        "1c36a8520c",
+        "83282b0c2d",
+        "02522361cb",
+        "7c1f29cc3d"
+      ]
+    },
+    {
+      "titulo": "Las lluvias empeorarán y no estamos preparados",
+      "explicacion": "Medios amplifican el aviso del CN-ERFEN para el 10-15 de octubre, las alertas del Inamhi para el feriado y titulares como 'lo peor está por venir'. Oportunidad de vocería anticipatoria de la Secretaría.",
+      "ids": [
+        "ff611f09c6",
+        "8f5b7082d4",
+        "7993af7b02",
+        "a49be82918",
+        "13a88340d5",
+        "3d126ac43f",
+        "2dd6d89ea9",
+        "ebbe0dc87e"
       ]
     },
     {
       "titulo": "La prevención era tarea de los GAD",
-      "explicacion": "Centro Digital difundió que Carolina atribuye la preparación a los GAD (63 interacciones) y usuarios en X culpan a alcaldes. Oportunidad si se acompaña de apoyo subsidiario visible, como en Las Naves; riesgo si se lee como deslinde.",
+      "explicacion": "Tras la entrevista de Carolina en Centro Digital (63 interacciones), Wuanplus, un experto en CORAPE y usuarios culpan a alcaldes y prefecturas; en Portoviejo vecinos reclaman falta de prevención. Riesgo de que se lea como deslinde si no hay apoyo subsidiario visible.",
       "ids": [
         "ae24b8876c",
+        "6918553d89",
+        "50bafd2d71",
+        "b700ba1dc1",
         "7a9a1dd6b7",
-        "1d00515196"
+        "2525cee4a4"
+      ]
+    },
+    {
+      "titulo": "Quito se inunda y el Concejo no decide",
+      "explicacion": "Ecuavisa reporta un Concejo sin fecha para tratar las lluvias; el COE Metropolitano informa 37 eventos atendidos y vías habilitadas, y ciudadanos etiquetan a @Riesgos_Ec. La culpa recae en el Municipio.",
+      "ids": [
+        "15c26e436a",
+        "f55e399370",
+        "84441eaf65",
+        "166fec556b",
+        "1f55484cdd",
+        "5c87947764"
+      ]
+    },
+    {
+      "titulo": "Las lluvias destruyen la producción y afectan la economía",
+      "explicacion": "Finanzas Digital y altavoz.pe citan al Banco Mundial sobre impacto económico; El Universo reporta 1.700 hectáreas de cultivos destruidas en Esmeraldas. Riesgo de reclamo por un plan productivo.",
+      "ids": [
+        "d985d95f3f",
+        "68c3a5e6e0",
+        "6086f2c34f",
+        "44cac70866"
       ]
     }
   ],
   "rumores": [
     {
-      "titulo": "Cae un asteroide y habrá terremotos por El Niño",
-      "explicacion": "Video de YouTube con 44 interacciones mezcla El Niño, terremotos y un asteroide. Responder con información oficial sobre qué es y qué no es El Niño (arts. 61 y 72).",
-      "ids": [
-        "c08f530474"
-      ]
-    },
-    {
       "titulo": "Alerta de El Niño de alta intensidad",
-      "explicacion": "Ecuador Chequea calificó de imprecisa una alerta que circula sobre un El Niño de alta intensidad. Conviene enlazar el pronóstico oficial vigente para evitar alarma (arts. 61 y 72).",
+      "explicacion": "Ecuador Chequea califica de imprecisa una alerta que circula sobre un El Niño de alta intensidad. Respuesta sugerida: difundir el pronóstico oficial vigente del CN-ERFEN e Inamhi (arts. 61 y 72).",
       "ids": [
         "3947b47203"
       ]
