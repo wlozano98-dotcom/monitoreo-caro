@@ -189,7 +189,7 @@ NECESIDADES = [
 
 # A quién se le atribuye la respuesta (para bien o para mal).
 ACTORES = [
-    "Secretaría de Gestión de Riesgos", "Carolina Lozano", "Presidencia y Gobierno central", "Ministerios",
+    "Secretaría de Gestión de Riesgos", "Carolina Lozano", "Gobierno central",
     "Municipio o Prefectura", "Fuerzas Armadas y Policía", "Bomberos y Cruz Roja", "Ninguno",
 ]
 
@@ -228,6 +228,8 @@ Para cada pieza numerada (noticia, publicación o comentario) devuelve:
   como afirmación genérica; si no, "". No marques como rumor las críticas u opiniones, solo afirmaciones de hecho dudosas.
 - necesidad: lo que la gente pide o le falta, uno de {json.dumps(NECESIDADES, ensure_ascii=False)}.
 - actor: a quién se le atribuye la respuesta (el mérito o la culpa), uno de {json.dumps(ACTORES, ensure_ascii=False)}.
+  "Gobierno central" reúne a la Presidencia, los ministerios y demás entidades del Ejecutivo, salvo la Secretaría de
+  Gestión de Riesgos y Carolina Lozano, que van aparte.
 No inventes: si la pieza no dice algo (provincia, actor, necesidad), deja el campo vacío o en "Ninguno".
 Responde solo con el JSON pedido, una entrada por cada número recibido."""
 
