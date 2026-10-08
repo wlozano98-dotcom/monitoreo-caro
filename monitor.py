@@ -70,6 +70,7 @@ def fecha_iso(texto):
             return datetime.fromtimestamp(int(texto), timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
         texto = str(texto)
         if re.match(r"^\d{4}-\d{2}-\d{2}", texto):
+            texto = re.sub(r"(T\d{2}:\d{2}:\d{2})\.\d+", r"\1", texto)  # sin milisegundos (TikTok, Facebook)
             d = datetime.fromisoformat(texto.replace("Z", "+00:00")[:25])
             if d.tzinfo is None:
                 d = d.replace(tzinfo=timezone.utc)
