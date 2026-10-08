@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Monitoreo de la Conversación Pública · SNGR</title>
   <meta name="description" content="Qué dicen los medios y las redes sobre El Niño, la Secretaría de Gestión de Riesgos y Carolina Lozano.">
-  <meta name="theme-color" content="#0a2530">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230a2530'/><path d='M6 19c2.5-4 5-4 7.5 0s5 4 7.5 0 4-4 5 -1' stroke='%2363c7e6' stroke-width='3' fill='none' stroke-linecap='round'/></svg>">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="escudo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -25,45 +25,50 @@
     </defs>
   </svg>
 
-  <header class="shell">
-    <div class="shell-barra">
-      <div class="marca">
-        <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 19c2.5-4 5-4 7.5 0s5 4 7.5 0 5-4 7 -1" /></svg>
-        <div>
-          <h1>Monitoreo de la Conversación Pública</h1>
-          <p>Secretaría Nacional de Gestión de Riesgos</p>
+  <header class="barra">
+    <div class="marca">
+      <img src="escudo.png" alt="Escudo del Ecuador" width="46" height="55">
+      <div>
+        <h1>Monitoreo de la conversación pública</h1>
+        <p>Secretaría Nacional de Gestión de Riesgos</p>
+      </div>
+    </div>
+    <p class="actualizado" id="estado">Cargando…</p>
+  </header>
+
+  <section class="hoy" aria-label="Hoy">
+    <div class="panel termo" aria-labelledby="t-nivel">
+      <h2 class="pastilla oscura" id="t-nivel">Nivel de la conversación</h2>
+      <div class="termo-fila">
+        <span class="termo-bulbo" id="termo-bulbo"><svg class="icono" aria-hidden="true"><use href="#i-alerta"/></svg></span>
+        <div class="termo-cuerpo">
+          <div class="regla" aria-hidden="true">
+            <span class="tramo verde"></span><span class="tramo amarilla"></span><span class="tramo naranja"></span><span class="tramo roja"></span>
+            <span class="agua" id="agua"></span>
+            <span class="marca-nivel" id="marca-nivel"></span>
+          </div>
+          <div class="escala" aria-hidden="true"><span>Verde</span><span>Amarilla</span><span>Naranja</span><span>Roja</span></div>
         </div>
       </div>
-      <p class="actualizado" id="estado">Cargando…</p>
+      <div class="nivel-fila">
+        <p class="nivel" id="nivel">—</p>
+        <p class="nivel-razon" id="nivel-detalle"></p>
+      </div>
+      <dl class="cifras-hoy" id="cifras-hoy"></dl>
     </div>
 
-    <section class="hoy" aria-label="Hoy">
-      <div class="estado-hoy" aria-labelledby="t-nivel">
-        <div class="nivel-fila">
-          <h2 id="t-nivel"><span class="etq">Nivel de la conversación</span><span class="nivel" id="nivel">—</span></h2>
-          <p class="nivel-razon" id="nivel-detalle"></p>
-        </div>
-        <div class="regla" aria-hidden="true">
-          <span class="tramo verde"></span><span class="tramo amarilla"></span><span class="tramo naranja"></span><span class="tramo roja"></span>
-          <span class="agua" id="agua"></span>
-          <span class="marca-nivel" id="marca-nivel"></span>
-        </div>
-        <dl class="cifras-hoy" id="cifras-hoy"></dl>
-      </div>
-
-      <div class="hoy-texto">
-        <div class="acciones" id="acciones-caja">
-          <h2><svg class="icono" aria-hidden="true"><use href="#i-chispa"/></svg>Qué hacer hoy</h2>
-          <ol id="acciones"></ol>
-        </div>
-        <details class="resumen-dia" id="resumen-caja">
-          <summary><span>Lo que pasa hoy</span><span class="fecha" id="fecha-hoy"></span><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg></summary>
-          <ul class="vinetas" id="resumen"><li class="vacio">Todavía no hay resumen.</li></ul>
-          <p class="nota-ia" id="resumen-pie"></p>
-        </details>
-      </div>
-    </section>
-  </header>
+    <div class="hoy-grid">
+      <section class="panel resumen-dia" aria-labelledby="t-resumen">
+        <h2 class="pastilla" id="t-resumen">Lo que pasa hoy <span class="fecha" id="fecha-hoy"></span></h2>
+        <ul class="vinetas" id="resumen"><li class="vacio">Todavía no hay resumen.</li></ul>
+        <p class="nota-ia" id="resumen-pie"></p>
+      </section>
+      <section class="panel acciones" id="acciones-caja" aria-labelledby="t-acciones">
+        <h2 class="pastilla oscura" id="t-acciones">Qué hacer hoy</h2>
+        <ol id="acciones"></ol>
+      </section>
+    </div>
+  </section>
 
   <a class="aviso-alertas" id="aviso-alertas" href="#publicado" hidden></a>
 

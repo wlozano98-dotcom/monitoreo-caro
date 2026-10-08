@@ -36,6 +36,9 @@ export default {
 async function tablero(db, p) {
   const dias = Math.min(Math.max(parseInt(p.get("dias") || "7", 10) || 7, 1), 60);
   const hoyEc = new Date(Date.now() - 5 * 3600e3).toISOString().slice(0, 10);
+  const iso = (ms) => new Date(ms).toISOString().slice(0, 19) + "Z";
+  const hace24 = iso(Date.now() - 24 * 3600e3);
+  const hace48 = iso(Date.now() - 48 * 3600e3);
   const desde = new Date(Date.parse(hoyEc) - (dias - 1) * 86400e3).toISOString().slice(0, 10);
 
   // Filtros: solo valores conocidos (nunca texto del navegador directo al SQL).
@@ -66,8 +69,8 @@ async function tablero(db, p) {
     q(`SELECT fuente, medio, autor, url, titulo, resumen, sobre, tono, tema, provincia, fecha, interacciones FROM piezas ${W} AND alerta = 1 ORDER BY COALESCE(fecha, recogido) DESC LIMIT 15`),
     q(`SELECT fuente, medio, autor, url, titulo, resumen, sobre, tono, tema, provincia, fecha, interacciones FROM piezas ${W} AND fuente = 'medios' ORDER BY COALESCE(fecha, recogido) DESC LIMIT 80`),
     q(`SELECT fuente, medio, autor, url, titulo, texto, resumen, sobre, tono, tema, fecha, interacciones FROM piezas ${W} AND fuente != 'medios' ORDER BY interacciones DESC LIMIT 25`),
-    // hoyEc lo arma el servidor (AAAA-MM-DD), por eso va en el texto: así no se corre el orden de los parámetros.
-    q(`SELECT ${DIA} = '${hoyEc}' AS es_hoy, sobre, tono, alerta, COUNT(*) AS n FROM piezas ${W} AND ${DIA} >= date('${hoyEc}', '-1 day') GROUP BY es_hoy, sobre, tono, alerta`),
+    // "Hoy" = últimas 24 horas; "ayer" = las 24 anteriores (así no se vacía a medianoche). Las fechas las arma el servidor.
+    q(`SELECT COALESCE(fecha, recogido) >= '${hace24}' AS es_hoy, sobre, tono, alerta, COUNT(*) AS n FROM piezas ${W} AND COALESCE(fecha, recogido) >= '${hace48}' GROUP BY es_hoy, sobre, tono, alerta`),
     db.prepare("SELECT fecha, texto, creado FROM resumenes ORDER BY fecha DESC LIMIT 1"),
     db.prepare("SELECT inicio, fin, detalle FROM corridas ORDER BY inicio DESC LIMIT 1"),
     db.prepare("SELECT COUNT(*) AS n FROM piezas WHERE clasificado = 0"),

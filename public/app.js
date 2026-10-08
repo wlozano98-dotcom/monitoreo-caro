@@ -7,10 +7,10 @@ const ASPECTOS = ["Rapidez de la respuesta", "Llegada de la ayuda", "Presencia e
 const ACTORES = ["Secretaría de Gestión de Riesgos", "Carolina Lozano", "Presidencia y Gobierno central", "Ministerios", "Municipio o Prefectura", "Fuerzas Armadas y Policía", "Bomberos y Cruz Roja"];
 // Niveles de la conversación con los mismos nombres que las alertas de la Secretaría.
 const NIVELES = [
-  { nombre: "Verde", color: "var(--n-verde)", hasta: 30, texto: "Conversación tranquila" },
-  { nombre: "Amarilla", color: "var(--n-amarilla)", hasta: 45, texto: "Hay que estar atentos" },
-  { nombre: "Naranja", color: "var(--n-naranja)", hasta: 60, texto: "Críticas en aumento" },
-  { nombre: "Roja", color: "var(--n-roja)", hasta: 101, texto: "Crisis de opinión" },
+  { nombre: "Verde", color: "var(--n-verde)", texto_color: "var(--n-verde-texto)", hasta: 30 },
+  { nombre: "Amarilla", color: "var(--n-amarilla)", texto_color: "var(--n-amarilla-texto)", hasta: 45 },
+  { nombre: "Naranja", color: "var(--n-naranja)", texto_color: "var(--n-naranja-texto)", hasta: 60 },
+  { nombre: "Roja", color: "var(--n-roja)", texto_color: "var(--n-roja-texto)", hasta: 101 },
 ];
 
 const color = (tipo, clave) => `var(--${tipo}-${clave})`;
@@ -211,21 +211,23 @@ function pintarNivel(d) {
   else if (hoy.alertas >= 1) i = Math.max(i, 2);
   const nivel = NIVELES[i];
   const sinDatos = !hoy.total;
-  $("nivel").innerHTML = sinDatos ? "—" : `<i style="background:${nivel.color}"></i>${nivel.nombre}`;
+  $("nivel").textContent = sinDatos ? "—" : nivel.nombre;
+  $("nivel").style.color = sinDatos ? "" : nivel.texto_color;
+  $("termo-bulbo").style.background = sinDatos ? "" : nivel.color;
   const alertas = `${hoy.alertas} alerta${hoy.alertas === 1 ? "" : "s"}`;
-  $("nivel-detalle").textContent = sinDatos ? "Sin piezas clasificadas hoy" : i > porCriticas ? `Por ${alertas}. Críticas: ${pct}%` : `${pct}% de lo de hoy es crítico`;
+  $("nivel-detalle").textContent = sinDatos ? "Sin piezas clasificadas en 24 horas" : i > porCriticas ? `Por ${alertas}. Críticas: ${pct}%` : `${pct}% de lo de las últimas 24 h es crítico`;
   requestAnimationFrame(() => {
     const ancho = sinDatos ? 0 : Math.max(2, pct);
-    $("agua").style.clipPath = `inset(0 ${100 - ancho}% 0 0 round 4px)`;
+    $("agua").style.clipPath = `inset(0 ${100 - ancho}% 0 0 round 999px)`;
     $("marca-nivel").style.left = ancho + "%";
     $("marca-nivel").hidden = sinDatos;
   });
   const dif = hoy.total - ayer.total;
   const cambio = dif === 0 ? "igual que ayer" : `${dif > 0 ? "+" : "−"}${num(Math.abs(dif))} vs. ayer`;
   $("cifras-hoy").innerHTML = `
-    <div><dt>Menciones</dt><dd>${num(hoy.total)}<small>${cambio}</small></dd></div>
+    <div><dt>Menciones 24 h</dt><dd>${num(hoy.total)}<small>${cambio}</small></dd></div>
     <div><dt>Sobre Carolina</dt><dd>${num(hoy.carolina)}<small>${num(hoy.carolinaCritico)} críticas</small></dd></div>
-    <div><dt>Alertas</dt><dd>${num(hoy.alertas)}<small>hoy</small></dd></div>`;
+    <div><dt>Alertas</dt><dd>${num(hoy.alertas)}<small>24 horas</small></dd></div>`;
 
   const n = d.alertas.length;
   const aviso = $("aviso-alertas");
@@ -519,7 +521,6 @@ function tooltipEn(el, html) {
 
 leerURL();
 pintarFiltros();
-$("resumen-caja").open = matchMedia("(min-width: 901px)").matches;
 prepararSecciones();
 cargar();
 setInterval(cargar, 10 * 60 * 1000);
