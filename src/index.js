@@ -12,7 +12,8 @@ export default {
     const url = new URL(request.url);
     if (url.pathname === "/api/tablero") {
       const cache = caches.default;
-      const clave = new Request(url.toString(), { method: "GET" });
+      // La versión publicada va en la clave: al desplegar no se sirven respuestas de la versión anterior.
+      const clave = new Request(url.toString() + "&_v=" + (env.VERSION?.id || ""), { method: "GET" });
       let resp = await cache.match(clave);
       if (resp) return resp;
       try {

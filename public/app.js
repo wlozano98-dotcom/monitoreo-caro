@@ -65,7 +65,7 @@ async function cargar() {
   for (const k of ["fuente", "sobre", "tono"]) if (estado[k]) p.set(k, estado[k]);
   document.body.style.cursor = "progress";
   try {
-    const r = await fetch("/api/tablero?" + p);
+    const r = await fetch("/api/tablero?" + p, { cache: "no-store" });
     const d = await r.json();
     if (d.error) throw new Error(d.error);
     datos = d;
