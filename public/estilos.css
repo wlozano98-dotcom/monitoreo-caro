@@ -106,10 +106,12 @@ a { color: inherit; text-underline-offset: 3px; text-decoration-thickness: 1px; 
 
 /* ------------------------------------------------------------ hoy: termómetro, resumen y acciones */
 .hoy { max-width: 1180px; margin: 0 auto; padding: 20px 20px 4px; display: grid; gap: 20px; }
-.hoy-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+.hoy-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 20px; align-items: stretch; }
+.hoy-grid > .panel { margin-top: 0; }
 @media (max-width: 860px) { .hoy-grid { grid-template-columns: 1fr; } }
 
 .termo { background: var(--fondo); border: 1.5px solid var(--linea); padding-bottom: 16px; }
+.termo-sub { font-size: 14px; color: var(--texto-2); margin: 10px 0 16px; max-width: 80ch; }
 .termo-fila { display: flex; align-items: center; }
 .termo-bulbo {
   width: 56px; height: 56px; flex: none; border-radius: 50%; display: grid; place-items: center; z-index: 1;
@@ -212,7 +214,7 @@ main { max-width: 1180px; margin: 0 auto; padding: 8px 20px; display: grid; gap:
 .seccion-cuerpo > .bloque > .bloque-cabeza { margin-bottom: 8px; }
 
 /* tarjetas de cada sección: panel lavanda con su rótulo en pastilla montado sobre el borde */
-.dos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 34px 20px; align-items: start; }
+.dos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 34px 20px; align-items: stretch; }
 @media (max-width: 860px) { .dos { grid-template-columns: 1fr; } }
 .bloque { background: var(--panel); border-radius: var(--r); padding: 18px 20px 20px; min-width: 0; }
 .dos > .bloque:nth-child(2) { background: var(--panel-2); }

@@ -42,8 +42,9 @@ async function tablero(db, p) {
   const desde = new Date(Date.parse(hoyEc) - (dias - 1) * 86400e3).toISOString().slice(0, 10);
 
   // Filtros: solo valores conocidos (nunca texto del navegador directo al SQL).
-  const cond = ["relevante = 1", `${DIA} >= ?`];
-  const params = [desde];
+  // "Hoy" son las últimas 24 horas (no el día calendario: a medianoche quedaría vacío).
+  const cond = ["relevante = 1", dias === 1 ? "COALESCE(fecha, recogido) >= ?" : `${DIA} >= ?`];
+  const params = [dias === 1 ? hace24 : desde];
   const fuente = p.get("fuente");
   if (FUENTES.includes(fuente)) {
     cond.push("fuente = ?");
@@ -70,7 +71,8 @@ async function tablero(db, p) {
     q(`SELECT fuente, medio, autor, url, titulo, resumen, sobre, tono, tema, provincia, fecha, interacciones FROM piezas ${W} AND fuente = 'medios' ORDER BY COALESCE(fecha, recogido) DESC LIMIT 80`),
     q(`SELECT fuente, medio, autor, url, titulo, texto, resumen, sobre, tono, tema, fecha, interacciones FROM piezas ${W} AND fuente != 'medios' ORDER BY interacciones DESC LIMIT 25`),
     // "Hoy" = últimas 24 horas; "ayer" = las 24 anteriores (así no se vacía a medianoche). Las fechas las arma el servidor.
-    q(`SELECT COALESCE(fecha, recogido) >= '${hace24}' AS es_hoy, sobre, tono, alerta, COUNT(*) AS n FROM piezas ${W} AND COALESCE(fecha, recogido) >= '${hace48}' GROUP BY es_hoy, sobre, tono, alerta`),
+    // El termómetro no depende de los filtros: siempre todas las fuentes, últimas 24 h frente a las 24 anteriores.
+    db.prepare(`SELECT COALESCE(fecha, recogido) >= '${hace24}' AS es_hoy, sobre, tono, alerta, COUNT(*) AS n FROM piezas WHERE relevante = 1 AND COALESCE(fecha, recogido) >= '${hace48}' GROUP BY es_hoy, sobre, tono, alerta`),
     db.prepare("SELECT fecha, texto, creado FROM resumenes ORDER BY fecha DESC LIMIT 1"),
     db.prepare("SELECT inicio, fin, detalle FROM corridas ORDER BY inicio DESC LIMIT 1"),
     db.prepare("SELECT COUNT(*) AS n FROM piezas WHERE clasificado = 0"),
