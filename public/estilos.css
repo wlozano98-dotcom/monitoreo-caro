@@ -314,7 +314,7 @@ main { max-width: 1180px; margin: 0 auto; padding: 8px 20px; display: grid; gap:
 .grafico .rejilla-linea { stroke: var(--linea); stroke-width: 1; }
 .grafico .base { stroke: var(--linea-fuerte); stroke-width: 1; }
 .grafico .zona { fill: transparent; }
-.grafico .zona:hover { fill: color-mix(in srgb, var(--texto) 5%, transparent); }
+@media (hover: hover) { .grafico .zona:hover { fill: color-mix(in srgb, var(--texto) 5%, transparent); } }
 
 /* ------------------------------------------------------------ pestañas, tabla y listas */
 .pestanas { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; flex-basis: 100%; }
@@ -384,3 +384,6 @@ footer p { max-width: 100ch; }
   .seccion-dato b { font-size: 24px; }
   .narrativa h3 { font-size: 18px; }
 }
+
+/* en pantallas táctiles no hay estados de hover ni resaltado gris al tocar */
+* { -webkit-tap-highlight-color: transparent; }

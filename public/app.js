@@ -504,6 +504,8 @@ function escalaBonita(max) {
 
 const tip = $("tooltip");
 function tooltipEn(el, html) {
+  // Solo con mouse: en el celular cada toque abría la cajita y estorbaba.
+  if (!matchMedia("(hover: hover) and (pointer: fine)").matches) return;
   el.addEventListener("pointerenter", () => {
     tip.innerHTML = html;
     tip.hidden = false;

@@ -24,7 +24,7 @@ medios y redes sobre El Niño, la Secretaría y ella. Presupuesto cero: solo cap
 ```
 export PATH="$PWD/../Proyecto Moni/bin/node/bin:$PATH"; set -a; source .env; set +a
 python3 monitor.py                                   # una corrida desde la Mac
-CLOUDFLARE_API_TOKEN=$CLOUDFLARE_TOKEN npx wrangler deploy   # publicar el tablero
+./desplegar.sh                                       # publicar el tablero (pone versión a CSS y JS)
 ```
 
 URL: https://monitoreo-caro.wlozano98.workers.dev
