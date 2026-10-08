@@ -215,6 +215,7 @@ Para cada pieza numerada (noticia, publicación o comentario) devuelve:
   o "" si no hay.
 - alerta: true SOLO si es una crítica fuerte o acusación grave contra la Secretaría o Carolina (negligencia, corrupción,
   muertes atribuidas a la falta de respuesta, pedidos de renuncia) o una noticia de impacto nacional que exige reacción.
+  Insultos, groserías o ataques sin argumento ni hecho concreto NO son alerta (son tono crítico y nada más).
 - resumen: una frase corta en español (máx. 20 palabras) de qué dice.
 - aspecto: qué aspecto de la respuesta del Estado / la Secretaría evalúa o describe, uno de
   {json.dumps(ASPECTOS, ensure_ascii=False)}. "Ninguno" si solo informa del clima o de daños sin hablar de la respuesta.
@@ -558,10 +559,17 @@ def gemini(cuerpo, pensar=False):
     raise CuotaAgotada(" | ".join(errores[-2:]))
 
 
+ALCANCE_MIN_ALERTA = 20  # en redes, una alerta necesita al menos estas interacciones (un trol sin eco no es crisis)
+
+
+def con_alcance(p):
+    return p["fuente"] == "medios" or (p.get("interacciones") or 0) >= ALCANCE_MIN_ALERTA
+
+
 def clasificar(db, maximo):
     """Clasifica hasta `maximo` piezas pendientes, de a 25 por llamada a Gemini."""
     pendientes = db.q(
-        "SELECT id, fuente, medio, titulo, texto, autor FROM piezas WHERE clasificado = 0 ORDER BY recogido DESC LIMIT ?",
+        "SELECT id, fuente, medio, titulo, texto, autor, interacciones FROM piezas WHERE clasificado = 0 ORDER BY recogido DESC LIMIT ?",
         [maximo],
     )
     hechas = 0
@@ -603,7 +611,7 @@ def clasificar(db, maximo):
                         x["tono"],
                         x["tema"] if x["tema"] in TEMAS else "Otro",
                         x["provincia"] if x["provincia"] in PROVINCIAS else "",
-                        1 if x["alerta"] else 0,
+                        1 if x["alerta"] and con_alcance(p) else 0,
                         limpiar(x["resumen"], 300),
                         x.get("aspecto") if x.get("aspecto") in ASPECTOS[:-1] else None,
                         limpiar(x.get("idea"), 120) or None,
