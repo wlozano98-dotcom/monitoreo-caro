@@ -763,6 +763,39 @@ INSTRUCCIONES_RUMORES = (
 )
 
 
+def armar_grupo(titulo, explicacion, miembros):
+    """Cifras de una narrativa o rumor a partir de sus piezas (se cuentan aquí, no las inventa el modelo)."""
+    ahora_utc = datetime.now(timezone.utc)
+    hace24 = (ahora_utc - timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    hace48 = (ahora_utc - timedelta(hours=48)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    tonos = {"positivo": 0, "neutro": 0, "critico": 0}
+    fuentes = {}
+    for f in miembros:
+        tonos[f["tono"]] = tonos.get(f["tono"], 0) + 1
+        fuentes[f["fuente"]] = fuentes.get(f["fuente"], 0) + 1
+    ejemplos = sorted(miembros, key=lambda f: (-(f["interacciones"] or 0), f["f"]))[:3]
+    return {
+        "titulo": limpiar(titulo, 120),
+        "explicacion": limpiar(explicacion, 400),
+        "total": len(miembros),
+        "ultimas24": sum(1 for f in miembros if f["f"] >= hace24),
+        "previas24": sum(1 for f in miembros if hace48 <= f["f"] < hace24),
+        "tonos": tonos,
+        "fuentes": fuentes,
+        "interacciones": sum(f["interacciones"] or 0 for f in miembros),
+        "ejemplos": [
+            {
+                "fuente": f["fuente"],
+                "quien": f["autor"] or f["medio"],
+                "url": f["url"],
+                "texto": limpiar(f["titulo"] or f["texto"] or f["resumen"], 220),
+                "tono": f["tono"],
+            }
+            for f in ejemplos
+        ],
+    }
+
+
 def agrupar(filas, campo, instrucciones, minimo, anteriores=None):
     """Gemini agrupa los textos de `campo`; las cifras (total, hoy vs ayer, tono, fuentes) se cuentan aquí."""
     lineas = "\n".join(
@@ -798,9 +831,6 @@ def agrupar(filas, campo, instrucciones, minimo, anteriores=None):
         },
     }
     r = gemini(cuerpo, pensar=True)
-    ahora_utc = datetime.now(timezone.utc)
-    hace24 = (ahora_utc - timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%SZ")
-    hace48 = (ahora_utc - timedelta(hours=48)).strftime("%Y-%m-%dT%H:%M:%SZ")
     salida, usados = [], set()
     for g in r.get("grupos", []):
         miembros = []
@@ -808,36 +838,8 @@ def agrupar(filas, campo, instrucciones, minimo, anteriores=None):
             if isinstance(n, int) and 0 <= n < len(filas) and n not in usados:
                 usados.add(n)
                 miembros.append(filas[n])
-        if len(miembros) < minimo:
-            continue
-        tonos = {"positivo": 0, "neutro": 0, "critico": 0}
-        fuentes = {}
-        for f in miembros:
-            tonos[f["tono"]] = tonos.get(f["tono"], 0) + 1
-            fuentes[f["fuente"]] = fuentes.get(f["fuente"], 0) + 1
-        ejemplos = sorted(miembros, key=lambda f: (-(f["interacciones"] or 0), f["f"]))[:3]
-        salida.append(
-            {
-                "titulo": limpiar(g["titulo"], 120),
-                "explicacion": limpiar(g["explicacion"], 400),
-                "total": len(miembros),
-                "ultimas24": sum(1 for f in miembros if f["f"] >= hace24),
-                "previas24": sum(1 for f in miembros if hace48 <= f["f"] < hace24),
-                "tonos": tonos,
-                "fuentes": fuentes,
-                "interacciones": sum(f["interacciones"] or 0 for f in miembros),
-                "ejemplos": [
-                    {
-                        "fuente": f["fuente"],
-                        "quien": f["autor"] or f["medio"],
-                        "url": f["url"],
-                        "texto": limpiar(f["titulo"] or f["texto"] or f["resumen"], 220),
-                        "tono": f["tono"],
-                    }
-                    for f in ejemplos
-                ],
-            }
-        )
+        if len(miembros) >= minimo:
+            salida.append(armar_grupo(g["titulo"], g["explicacion"], miembros))
     salida.sort(key=lambda x: (-x["ultimas24"], -x["total"]))
     return salida
 
@@ -874,6 +876,15 @@ def narrativas(db):
     return datos["narrativas"]
 
 
+def analisis_de_claude_reciente(db, horas=9):
+    """True si el último análisis de fondo lo hizo Claude (rutina de 8, 12 y 20 h) hace menos de `horas`."""
+    filas = db.q("SELECT texto, creado FROM resumenes ORDER BY creado DESC LIMIT 1")
+    if not filas or json.loads(filas[0]["texto"]).get("autor") != "Claude":
+        return False
+    creado = datetime.fromisoformat(filas[0]["creado"].replace("Z", "+00:00"))
+    return datetime.now(timezone.utc) - creado < timedelta(hours=horas)
+
+
 # ---------------------------------------------------------------- corrida
 
 
@@ -902,9 +913,12 @@ def main():
     if "--sin-gemini" not in args:
         print("Gemini…")
         detalle["clasificadas"] = clasificar(db, int(config("MAX_CLASIFICAR", "400")))
-        # Primero las narrativas: el resumen las usa para decidir qué importa.
-        vigentes = narrativas(db)
-        resumen_del_dia(db, vigentes)
+        if analisis_de_claude_reciente(db):
+            print("  Análisis de fondo: lo hizo Claude hace menos de 9 h, Gemini no lo repite")
+        else:
+            # Primero las narrativas: el resumen las usa para decidir qué importa.
+            vigentes = narrativas(db)
+            resumen_del_dia(db, vigentes)
 
     detalle["consultas_d1"] = db.consultas
     db.q("INSERT INTO corridas (inicio, fin, detalle) VALUES (?, ?, ?)", [inicio, ahora(), json.dumps(detalle, ensure_ascii=False)])

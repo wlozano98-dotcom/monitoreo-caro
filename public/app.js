@@ -187,7 +187,8 @@ function pintarResumen(r) {
   $("acciones").innerHTML = acciones.length
     ? acciones.map((a) => `<li><b>${esc(a.accion)}</b><span>${esc(a.porque)}</span>${a.base_legal ? `<em class="ley">${esc(a.base_legal)}</em>` : ""}</li>`).join("")
     : `<li class="vacio">Aparecerán aquí 3 acciones sugeridas cuando la IA haya clasificado lo del día.</li>`;
-  $("resumen-pie").textContent = r ? `Últimas 24 horas · escrito por IA ${hace(r.creado)} · no depende de los filtros.` : "";
+  const quien = r?.autor === "Claude" ? "Análisis de Claude" : "Escrito por IA (Gemini)";
+  $("resumen-pie").textContent = r ? `Últimas 24 horas · ${quien} ${hace(r.creado)} · no depende de los filtros.` : "";
 }
 
 function pintarNivel(d) {
@@ -258,7 +259,7 @@ function pintarNarrativas(nar) {
     el.innerHTML = `<li class="vacio">Todavía no hay suficientes ideas para agrupar.</li>`;
     return;
   }
-  $("narrativas-pie").textContent = `Lo que más se repite en medios y redes en los últimos 3 días. Agrupado por IA ${hace(nar.creado)}; no depende de los filtros.`;
+  $("narrativas-pie").textContent = `Lo que más se repite en medios y redes en los últimos 3 días. ${nar.autor === "Claude" ? "Análisis de Claude" : "Agrupado por IA (Gemini)"} ${hace(nar.creado)}; no depende de los filtros.`;
   el.innerHTML = lista
     .map((n) => {
       const t = n.tonos;

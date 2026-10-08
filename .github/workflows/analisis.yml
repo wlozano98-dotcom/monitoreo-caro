@@ -1,0 +1,27 @@
+name: Cargar análisis de Claude
+
+# La rutina de Claude en la nube deja analisis/ultimo.json en el repo; aquí se valida y se carga en la base.
+on:
+  push:
+    branches: [main]
+    paths: ["analisis/ultimo.json"]
+  workflow_dispatch:
+
+concurrency:
+  group: analisis
+  cancel-in-progress: false
+
+jobs:
+  cargar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validar y cargar
+        env:
+          CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: python analisis_claude.py cargar
