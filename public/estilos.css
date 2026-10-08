@@ -316,3 +316,5 @@ footer { max-width: 1240px; margin: 0 auto; padding: 12px 16px 40px; font-size: 
 footer p { max-width: 100ch; }
 
 [hidden] { display: none !important; }
+.acciones li.vacio { display: block; color: var(--oceano-texto-2); font-size: 14px; }
+.acciones li.vacio::before { display: none; }
