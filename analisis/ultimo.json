@@ -1,78 +1,159 @@
 {
   "vinetas": [
-    "Esmeraldas declaró emergencia provincial por 90 días; Radio Pichincha reporta raciones insuficientes y FM Mundo, 3.500 familias bajo agua.",
-    "Centro Digital difundió que Carolina atribuye la preparación a los GAD: 63 interacciones, la pieza de X más difundida.",
-    "En X: 13 positivas y 7 críticas en 24 h, frente a 1 crítica ayer; varias críticas son insultos sin argumento.",
-    "Cifras de afectados difieren: 15.500 (La República), 16.000 (Infobae, Noticias SIN); asistidos pasaron de 5.600 a más de 7.800."
+    "Bolívar es el nuevo foco: ríos desbordados en Las Naves y Echeandía, agua potable suspendida y clases suspendidas.",
+    "Medios difieren en afectados: más de 16.000 (Ecuavisa, Expreso) y más de 17.000 en 21 provincias (Metro Ecuador).",
+    "CN-ERFEN prevé lluvias superiores a lo normal del 10 al 15 de octubre, sobre todo en la Costa.",
+    "En X: 13 positivas y 7 críticas en 24 h (ayer, 1 crítica); se replica su cita de $656 millones."
   ],
   "fuentes_vinetas": [
-    ["26ee724093", "dd39a03bc1", "76b678cf95", "b4550bb613"],
-    ["ae24b8876c"],
-    ["22dfd0c19b", "0967fd6ade", "60ad46b366", "8afc94629b"],
-    ["f6aacabc9c", "9801089756", "5482d87a6d", "8b0f529fa1", "c49dc8f2d2"]
+    [
+      "481cda146e",
+      "553600aa85",
+      "215383583a",
+      "71666266ab"
+    ],
+    [
+      "43839f0a34",
+      "edb622d44d",
+      "770f630d76"
+    ],
+    [
+      "ff611f09c6",
+      "8f5b7082d4",
+      "3d126ac43f"
+    ],
+    [
+      "83282b0c2d",
+      "02522361cb",
+      "22dfd0c19b",
+      "8afc94629b"
+    ]
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy boletín de feriado: alerta del Inamhi, provincias costeras y qué hacer.",
-      "porque": "Vistazo reporta alerta del Inamhi para el feriado; Teleamazonas prevé lluvias intensas en la Costa del 10 al 15 de octubre.",
+      "accion": "Publicar hoy un boletín único de afectados y asistidos, con hora de corte y fuente.",
+      "porque": "Cifras nacionales difieren: más de 16.000 (Ecuavisa, Expreso) y más de 17.000 (Metro Ecuador); en X se cuestionan los atendidos.",
       "base_legal": "Art. 61 y 72",
-      "fuentes": ["5f6ece9436", "8f5b7082d4", "7bc9ab97c4"]
+      "fuentes": [
+        "43839f0a34",
+        "edb622d44d",
+        "770f630d76",
+        "44d3dd8b25"
+      ]
     },
     {
-      "accion": "Ofrecer al COE de Esmeraldas apoyo subsidiario en raciones para isla Luis Vargas Torres.",
-      "porque": "Radio Pichincha reporta raciones insuficientes; FM Mundo, 3.500 familias bajo el agua; la provincia declaró emergencia por 90 días.",
-      "base_legal": "Art. 4.3, 13 y 14",
-      "fuentes": ["76b678cf95", "b4550bb613", "26ee724093", "b597f08395"]
+      "accion": "Ofrecer apoyo subsidiario al GAD de Las Naves: agua segura, maquinaria y evaluación.",
+      "porque": "Diario Extra: agua potable suspendida; El Universo: limpieza con maquinaria particular; Radio Pichincha: daños también en Echeandía.",
+      "base_legal": "Art. 13, 21.4 y 68",
+      "fuentes": [
+        "481cda146e",
+        "71666266ab",
+        "553600aa85"
+      ]
     },
     {
-      "accion": "Publicar en la web una cifra única diaria de afectados y asistidos por provincia.",
-      "porque": "Medios dan 15.500 y 16.000 afectados; en X un usuario se burla de la cifra de 5.660 atendidos.",
-      "base_legal": "Art. 72 y 73",
-      "fuentes": ["f6aacabc9c", "9801089756", "44d3dd8b25", "c49dc8f2d2"]
+      "accion": "Antes del feriado, difundir en radios costeras recomendaciones para lluvias del 10-15 octubre.",
+      "porque": "CN-ERFEN prevé lluvias superiores a lo normal en la Costa del 10 al 15 de octubre; Teleamazonas anuncia lluvias intensas.",
+      "base_legal": "Art. 61",
+      "fuentes": [
+        "ff611f09c6",
+        "8f5b7082d4",
+        "3d126ac43f"
+      ]
     }
   ],
   "narrativas": [
     {
-      "titulo": "La ayuda estatal llega tarde y es insuficiente",
-      "explicacion": "Radio Pichincha, FM Mundo y Diario Extra recogen testimonios de Esmeraldas que piden alimentos y albergue; en X se cuestionan las cifras de atendidos. Es el mayor riesgo directo para la Secretaría si las lluvias del feriado agravan la emergencia.",
-      "ids": ["76b678cf95", "b597f08395", "b4550bb613", "8afc94629b", "2d259cf001", "44d3dd8b25"]
-    },
-    {
-      "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Medios amplifican alertas del Inamhi para el feriado, advertencias del Banco Mundial y titulares como 'lo peor está por venir'. Oportunidad de vocería anticipatoria de la Secretaría con datos claros antes del feriado.",
-      "ids": ["7993af7b02", "e5ea2496fc", "5f6ece9436", "8f5b7082d4", "ebbe0dc87e", "651e96fca8", "7bc9ab97c4"]
-    },
-    {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "La cuenta de la Secretaría en TikTok, alcaldías como Muisne, CONGOPE y medios difunden entregas a más de 7.800 personas y COE activos en 15 cantones de Manabí. Respalda la imagen técnica de la Secretaría y de Carolina, sobre todo tras su entrevista con Carlos Vera.",
-      "ids": ["c49dc8f2d2", "912ade1c4a", "636c121803", "7dbdee30d9", "7c1f29cc3d", "1c36a8520c", "928d28f485", "83282b0c2d", "02522361cb"]
+      "explicacion": "La cuenta de la Secretaría en TikTok, la Alcaldía de Muisne, CONGOPE y medios difunden kits a más de 7.800 personas; en X se replica la cita de Carolina sobre $656 millones y 150.000 kits en bodegas. Refuerza su imagen técnica, pero obliga a mostrar que esos kits llegan.",
+      "ids": [
+        "636c121803",
+        "c49dc8f2d2",
+        "912ade1c4a",
+        "7dbdee30d9",
+        "7c1f29cc3d",
+        "1c36a8520c",
+        "83282b0c2d",
+        "02522361cb",
+        "72b097da7f"
+      ]
     },
     {
       "titulo": "Quito se inunda y el Concejo no decide",
-      "explicacion": "Vistazo, Radio Pichincha y Ecuavisa contrastan granizadas, alcantarillas colapsadas y cierres del Metro con un Concejo sin fecha para tratar las afectaciones. La culpa recae en el Municipio, pero ciudadanos etiquetan a @Riesgos_Ec en sus reportes.",
-      "ids": ["0488768cbd", "84441eaf65", "15c26e436a", "1f55484cdd", "5c87947764", "6198eec520", "4f47fd31bc", "a184ef023c"]
+      "explicacion": "Ecuavisa y El Universo muestran un Concejo sin fecha ni quórum para tratar las inundaciones; el COE Metropolitano reporta 37 eventos atendidos y vías habilitadas. La culpa recae en el Municipio, aunque ciudadanos etiquetan a @Riesgos_Ec.",
+      "ids": [
+        "15c26e436a",
+        "a184ef023c",
+        "84441eaf65",
+        "f55e399370",
+        "166fec556b",
+        "6198eec520",
+        "4f47fd31bc",
+        "5c87947764",
+        "97d2f125b9",
+        "1f55484cdd"
+      ]
     },
     {
-      "titulo": "La prevención era tarea de los GAD",
-      "explicacion": "Carolina lo dijo en Radio Centro (63 interacciones en X) y algunos usuarios culpan a alcaldes y defienden el rol de la Secretaría. Oportunidad si se acompaña de apoyo subsidiario visible; riesgo si se lee como deslinde de responsabilidad.",
-      "ids": ["ae24b8876c", "7a9a1dd6b7", "1d00515196"]
+      "titulo": "Las lluvias empeorarán y no estamos preparados",
+      "explicacion": "Medios amplifican el aviso del CN-ERFEN para el 10-15 de octubre, alertas del Inamhi para el feriado y titulares como 'lo peor está por venir'. Oportunidad de vocería anticipatoria de la Secretaría antes del feriado.",
+      "ids": [
+        "ff611f09c6",
+        "8f5b7082d4",
+        "3d126ac43f",
+        "5f6ece9436",
+        "7993af7b02",
+        "651e96fca8",
+        "7bc9ab97c4"
+      ]
+    },
+    {
+      "titulo": "La ayuda estatal llega tarde y es insuficiente",
+      "explicacion": "Radio Pichincha, FM Mundo y Diario Extra recogen testimonios de Esmeraldas sobre raciones insuficientes y familias bajo el agua; en X se cuestionan las cifras de atendidos. Es el mayor riesgo directo para la Secretaría si las lluvias del 10-15 de octubre agravan la emergencia.",
+      "ids": [
+        "76b678cf95",
+        "b4550bb613",
+        "b597f08395",
+        "44d3dd8b25",
+        "8afc94629b",
+        "2d259cf001"
+      ]
     },
     {
       "titulo": "Las lluvias destruyen la producción y afectan la economía",
-      "explicacion": "Medios económicos y gremios hablan de zafra suspendida, cacao en riesgo, mil hectáreas afectadas y alertas del Banco Mundial. Riesgo de que se reclame al Gobierno un plan de mitigación productiva.",
-      "ids": ["2c298f454a", "30cac51a9e", "45d8fe5101", "dd19f1d211", "5e8c80a55e"]
+      "explicacion": "Finanzas Digital e Infobae citan al Banco Mundial sobre inflación y riesgos económicos; se suspendió la zafra y el COE de Esmeraldas reporta 1.700 hectáreas de cultivos destruidas. Riesgo de que se reclame al Gobierno un plan productivo.",
+      "ids": [
+        "d985d95f3f",
+        "dd19f1d211",
+        "2c298f454a",
+        "6086f2c34f",
+        "ab704c0731"
+      ]
+    },
+    {
+      "titulo": "La prevención era tarea de los GAD",
+      "explicacion": "Centro Digital difundió que Carolina atribuye la preparación a los GAD (63 interacciones) y usuarios en X culpan a alcaldes. Oportunidad si se acompaña de apoyo subsidiario visible, como en Las Naves; riesgo si se lee como deslinde.",
+      "ids": [
+        "ae24b8876c",
+        "7a9a1dd6b7",
+        "1d00515196"
+      ]
     }
   ],
   "rumores": [
     {
-      "titulo": "Alerta de El Niño de alta intensidad",
-      "explicacion": "Ecuador Chequea calificó de imprecisa una alerta que circula sobre un El Niño de alta intensidad. Responder con la fase oficial vigente y el pronóstico del Inamhi (arts. 61 y 72).",
-      "ids": ["3947b47203"]
+      "titulo": "Cae un asteroide y habrá terremotos por El Niño",
+      "explicacion": "Video de YouTube con 44 interacciones mezcla El Niño, terremotos y un asteroide. Responder con información oficial sobre qué es y qué no es El Niño (arts. 61 y 72).",
+      "ids": [
+        "c08f530474"
+      ]
     },
     {
-      "titulo": "El Niño trae terremotos y caída de asteroide",
-      "explicacion": "Un canal de YouTube (Alerta Hiper-Geo, 44 interacciones) titula que con El Niño llegan terremotos y cae un asteroide. Responder con información oficial sobre qué amenazas trae El Niño (arts. 61 y 72).",
-      "ids": ["c08f530474"]
+      "titulo": "Alerta de El Niño de alta intensidad",
+      "explicacion": "Ecuador Chequea calificó de imprecisa una alerta que circula sobre un El Niño de alta intensidad. Conviene enlazar el pronóstico oficial vigente para evitar alarma (arts. 61 y 72).",
+      "ids": [
+        "3947b47203"
+      ]
     }
   ]
 }
