@@ -618,10 +618,28 @@ def clasificar(db, maximo):
 
 # Resumen propio de la Ley Orgánica para la Gestión Integral del Riesgo de Desastres (no el texto de LEXIS).
 MARCO_LEGAL = open(os.path.join(AQUI, "marco_legal.md"), encoding="utf-8").read()
-# Texto completo (Registro Oficial): va al resumen para que cada base legal se pueda verificar contra la ley.
-LEY_COMPLETA = re.sub(
-    r"[ \t]+", " ", open(os.path.join(AQUI, "ley", "ley_gestion_integral_riesgo_desastres.md"), encoding="utf-8").read()
-)
+# Texto literal de los artículos que importan para recomendar (respuesta, competencias, COE, comunicación, alertas,
+# declaratorias, registro de afectados, transparencia e infracciones). La ley completa (54 páginas) hacía que los
+# modelos gratuitos no alcanzaran a responder; con estos artículos el pedido pesa una décima parte.
+ARTICULOS_CLAVE = [13, 14, 19, 21, 23, 28, 29, 35, 41, 61, 62, 63, 64, 65, 66, 67, 68, 71, 72, 73, 76, 78, 80]
+
+
+def articulos_de_la_ley(numeros):
+    texto = open(os.path.join(AQUI, "ley", "ley_gestion_integral_riesgo_desastres.md"), encoding="utf-8").read()
+    texto = texto[: texto.index("DISPOSICIONES GENERALES", texto.index("Art. 82"))]  # solo el cuerpo de la ley
+    texto = re.sub(r"\n[^\n]*Página \d+ de \d+[^\n]*", "", texto)  # pies de página
+    texto = re.sub(r"[ \t]+", " ", texto)
+    partes = re.split(r"(?=\bArt\. ?\d+\.\s?-)", texto)
+    elegidos = []
+    for p in partes:
+        m = re.match(r"Art\. ?(\d+)\.", p)
+        if m and int(m.group(1)) in numeros:
+            fin = re.search(r"\n\s*(CAPÍTULO|Sección|DISPOSICIONES)", p)
+            elegidos.append(re.sub(r"\s*\n\s*", " ", p[: fin.start()] if fin else p).strip())
+    return "\n\n".join(elegidos)
+
+
+LEY_ARTICULOS = articulos_de_la_ley(ARTICULOS_CLAVE)
 
 INSTRUCCIONES_RESUMEN = """Eres el asesor estratégico de comunicación de la secretaria Carolina Lozano, titular de la
 Secretaría Nacional de Gestión de Riesgos (SNGR) de Ecuador, durante El Niño 2026. Ella tiene 2 minutos para leerte.
@@ -646,7 +664,7 @@ Luego escribe:
 No inventes datos. Si la información es poca, dilo y propone qué vigilar.
 Sé breve: cada viñeta en máximo 18 palabras; cada acción en máximo 12 palabras; cada "porque" en máximo 20 palabras.
 
-""" + MARCO_LEGAL + "\n\nTEXTO COMPLETO DE LA LEY (para verificar competencias y artículos):\n" + LEY_COMPLETA
+""" + MARCO_LEGAL + "\n\nTEXTO LITERAL DE LOS ARTÍCULOS CLAVE (para verificar competencias y citar):\n" + LEY_ARTICULOS
 
 
 def resumen_del_dia(db, vigentes=None):
