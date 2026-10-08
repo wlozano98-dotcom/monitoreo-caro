@@ -141,8 +141,12 @@ ESQUEMA_CLASIFICACION = {
                     "resumen": {"type": "string"},
                     "aspecto": {"type": "string"},
                     "idea": {"type": "string"},
+                    "rumor": {"type": "string"},
+                    "necesidad": {"type": "string"},
+                    "actor": {"type": "string"},
                 },
-                "required": ["n", "relevante", "sobre", "tono", "tema", "provincia", "alerta", "resumen", "aspecto", "idea"],
+                "required": ["n", "relevante", "sobre", "tono", "tema", "provincia", "alerta", "resumen", "aspecto", "idea",
+                             "rumor", "necesidad", "actor"],
             },
         }
     },
@@ -176,6 +180,18 @@ ASPECTOS = [
     "Ninguno",
 ]
 
+# Lo que la gente pide (demanda concreta).
+NECESIDADES = [
+    "Agua", "Alimentos", "Albergue", "Salud", "Maquinaria y limpieza", "Vías y puentes", "Evacuación y rescate",
+    "Información y alertas", "Dinero y créditos", "Ninguna",
+]
+
+# A quién se le atribuye la respuesta (para bien o para mal).
+ACTORES = [
+    "Secretaría de Gestión de Riesgos", "Carolina Lozano", "Presidencia y Gobierno central", "Ministerios",
+    "Municipio o Prefectura", "Fuerzas Armadas y Policía", "Bomberos y Cruz Roja", "Ninguno",
+]
+
 PROVINCIAS = [
     "Azuay", "Bolívar", "Cañar", "Carchi", "Chimborazo", "Cotopaxi", "El Oro", "Esmeraldas", "Galápagos",
     "Guayas", "Imbabura", "Loja", "Los Ríos", "Manabí", "Morona Santiago", "Napo", "Orellana", "Pastaza",
@@ -206,6 +222,11 @@ Para cada pieza numerada (noticia, publicación o comentario) devuelve:
   (máx. 10 palabras, sin nombres de lugares ni cifras). Ej.: "La ayuda llega tarde", "La Secretaría está en el
   territorio", "No hubo alertas a tiempo", "Las autoridades se toman fotos y no ayudan", "Hay coordinación con los
   municipios". "" si la pieza es puramente informativa y no transmite ninguna idea sobre la respuesta.
+- rumor: si la pieza difunde o menciona un rumor, cadena, alerta falsa o dato sin confirmar sobre la emergencia (p. ej.
+  "viene un tsunami", "cortarán el agua a todo Guayaquil", "están cobrando por los kits"), descríbelo en máx. 12 palabras
+  como afirmación genérica; si no, "". No marques como rumor las críticas u opiniones, solo afirmaciones de hecho dudosas.
+- necesidad: lo que la gente pide o le falta, uno de {json.dumps(NECESIDADES, ensure_ascii=False)}.
+- actor: a quién se le atribuye la respuesta (el mérito o la culpa), uno de {json.dumps(ACTORES, ensure_ascii=False)}.
 Responde solo con el JSON pedido, una entrada por cada número recibido."""
 
 
@@ -556,7 +577,7 @@ def clasificar(db, maximo):
             sentencias.append(
                 (
                     "UPDATE piezas SET clasificado = 1, relevante = ?, sobre = ?, tono = ?, tema = ?, provincia = ?, "
-                    "alerta = ?, resumen = ?, aspecto = ?, idea = ? WHERE id = ?",
+                    "alerta = ?, resumen = ?, aspecto = ?, idea = ?, rumor = ?, necesidad = ?, actor = ? WHERE id = ?",
                     [
                         1 if x["relevante"] else 0,
                         x["sobre"],
@@ -567,6 +588,9 @@ def clasificar(db, maximo):
                         limpiar(x["resumen"], 300),
                         x.get("aspecto") if x.get("aspecto") in ASPECTOS[:-1] else None,
                         limpiar(x.get("idea"), 120) or None,
+                        limpiar(x.get("rumor"), 160) or None,
+                        x.get("necesidad") if x.get("necesidad") in NECESIDADES[:-1] else None,
+                        x.get("actor") if x.get("actor") in ACTORES[:-1] else None,
                         p["id"],
                     ],
                 )
@@ -581,7 +605,7 @@ def resumen_del_dia(db):
     hoy = datetime.now(ECUADOR).strftime("%Y-%m-%d")
     desde = (datetime.now(timezone.utc) - timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%SZ")
     filas = db.q(
-        "SELECT fuente, medio, sobre, tono, tema, provincia, alerta, resumen, interacciones FROM piezas "
+        "SELECT fuente, medio, sobre, tono, tema, provincia, alerta, resumen, interacciones, rumor, necesidad FROM piezas "
         "WHERE relevante = 1 AND COALESCE(fecha, recogido) >= ? ORDER BY alerta DESC, interacciones DESC LIMIT 150",
         [desde],
     )
@@ -589,7 +613,8 @@ def resumen_del_dia(db):
         return
     texto = "\n".join(
         f"- {f['fuente']} | {f['medio'] or ''} | sobre {f['sobre']} | {f['tono']} | {f['tema']} | {f['provincia'] or '-'}"
-        f"{' | ALERTA' if f['alerta'] else ''} | {f['resumen']}"
+        f"{' | ALERTA' if f['alerta'] else ''}{' | pide ' + f['necesidad'] if f['necesidad'] else ''}"
+        f"{' | RUMOR: ' + f['rumor'] if f['rumor'] else ''} | {f['resumen']}"
         for f in filas
     )
     cuerpo = {
@@ -600,7 +625,9 @@ def resumen_del_dia(db):
                     "de Riesgos de Ecuador). Con las piezas de las últimas 24 horas escribe un resumen ejecutivo en español "
                     "para ella: 4 a 6 viñetas cortas (qué se dice, cuál es el tono hacia la Secretaría y hacia ella, qué "
                     "temas y provincias dominan, qué críticas hay que atender). Directo, sin adornos, sin inventar datos. "
-                    'Devuelve JSON {"vinetas": ["...", ...]}.'
+                    "Además, 3 acciones de comunicación o de gestión que convendría tomar hoy según lo que se dice (qué "
+                    "hacer, dónde y por qué), concretas y sustentadas en las piezas. "
+                    'Devuelve JSON {"vinetas": ["...", ...], "acciones": [{"accion": "...", "porque": "..."}]}.'
                 }
             ]
         },
@@ -609,8 +636,18 @@ def resumen_del_dia(db):
             "responseMimeType": "application/json",
             "responseSchema": {
                 "type": "object",
-                "properties": {"vinetas": {"type": "array", "items": {"type": "string"}}},
-                "required": ["vinetas"],
+                "properties": {
+                    "vinetas": {"type": "array", "items": {"type": "string"}},
+                    "acciones": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {"accion": {"type": "string"}, "porque": {"type": "string"}},
+                            "required": ["accion", "porque"],
+                        },
+                    },
+                },
+                "required": ["vinetas", "acciones"],
             },
             "temperature": 0.3,
         },
@@ -623,46 +660,40 @@ def resumen_del_dia(db):
     db.q(
         "INSERT INTO resumenes (fecha, texto, creado) VALUES (?, ?, ?) "
         "ON CONFLICT(fecha) DO UPDATE SET texto = excluded.texto, creado = excluded.creado",
-        [hoy, json.dumps(r.get("vinetas", []), ensure_ascii=False), ahora()],
+        [hoy, json.dumps({"vinetas": r.get("vinetas", []), "acciones": r.get("acciones", [])[:3]}, ensure_ascii=False), ahora()],
     )
     print("  Resumen del día: listo")
 
 
-def narrativas(db):
-    """Agrupa las ideas de los últimos 3 días en narrativas. Gemini solo agrupa; las cifras se cuentan aquí."""
-    ahora_utc = datetime.now(timezone.utc)
-    desde = (ahora_utc - timedelta(days=3)).strftime("%Y-%m-%dT%H:%M:%SZ")
-    filas = db.q(
-        "SELECT id, fuente, medio, autor, url, titulo, texto, resumen, tono, idea, interacciones, COALESCE(fecha, recogido) AS f "
-        "FROM piezas WHERE relevante = 1 AND idea IS NOT NULL AND idea != '' AND COALESCE(fecha, recogido) >= ? "
-        "ORDER BY interacciones DESC LIMIT 600",
-        [desde],
-    )
-    if len(filas) < 5:
-        print("  Narrativas: todavía muy pocas ideas")
-        return
-    lineas = "\n".join(f"[{n}] ({f['tono']}, {f['fuente']}) {f['idea']}" for n, f in enumerate(filas))
+INSTRUCCIONES_NARRATIVAS = (
+    "Eres analista de opinión pública en Ecuador. Recibes ideas numeradas que circulan en medios y redes sobre la "
+    "respuesta del Estado y de la Secretaría Nacional de Gestión de Riesgos (titular: Carolina Lozano) ante El Niño 2026. "
+    "Agrúpalas en las narrativas de fondo que están calando en la población (entre 3 y 8): ideas que se repiten, no temas "
+    "sueltos. Para cada una: titulo (la idea como la diría la gente, máx. 8 palabras), explicacion (1 o 2 frases: qué se "
+    "dice y por qué importa para la Secretaría) y n (los números de TODAS las ideas que pertenecen a esa narrativa). Cada "
+    "número va en una sola narrativa como máximo; deja fuera las ideas sueltas que no se repiten. No inventes nada."
+)
+INSTRUCCIONES_RUMORES = (
+    "Eres verificador de datos en Ecuador durante la emergencia por El Niño 2026. Recibes rumores numerados que circulan en "
+    "medios y redes. Agrupa los que dicen lo mismo (hasta 8 grupos; un rumor que aparece una sola vez también puede ser un "
+    "grupo si es grave). Para cada grupo: titulo (el rumor como afirmación, máx. 12 palabras), explicacion (1 frase: por "
+    "qué conviene aclararlo y qué debería confirmar o desmentir la Secretaría) y n (los números que pertenecen al grupo). "
+    "No inventes nada que no esté en los rumores."
+)
+
+
+def agrupar(filas, campo, instrucciones, minimo):
+    """Gemini agrupa los textos de `campo`; las cifras (total, hoy vs ayer, tono, fuentes) se cuentan aquí."""
+    lineas = "\n".join(f"[{n}] ({f['tono']}, {f['fuente']}) {f[campo]}" for n, f in enumerate(filas))
     cuerpo = {
-        "systemInstruction": {
-            "parts": [
-                {
-                    "text": "Eres analista de opinión pública en Ecuador. Recibes ideas numeradas que circulan en medios y redes "
-                    "sobre la respuesta del Estado y de la Secretaría Nacional de Gestión de Riesgos (titular: Carolina "
-                    "Lozano) ante El Niño 2026. Agrúpalas en las narrativas de fondo que están calando en la población (entre "
-                    "3 y 8): ideas que se repiten, no temas sueltos. Para cada una: titulo (la idea como la diría la gente, "
-                    "máx. 8 palabras), explicacion (1 o 2 frases: qué se dice y por qué importa para la Secretaría) y n (los "
-                    "números de TODAS las ideas que pertenecen a esa narrativa). Cada número va en una sola narrativa como "
-                    "máximo; deja fuera las ideas sueltas que no se repiten. No inventes nada que no esté en las ideas."
-                }
-            ]
-        },
+        "systemInstruction": {"parts": [{"text": instrucciones}]},
         "contents": [{"role": "user", "parts": [{"text": lineas}]}],
         "generationConfig": {
             "responseMimeType": "application/json",
             "responseSchema": {
                 "type": "object",
                 "properties": {
-                    "narrativas": {
+                    "grupos": {
                         "type": "array",
                         "items": {
                             "type": "object",
@@ -675,42 +706,37 @@ def narrativas(db):
                         },
                     }
                 },
-                "required": ["narrativas"],
+                "required": ["grupos"],
             },
             "temperature": 0.2,
         },
     }
-    try:
-        r = gemini(cuerpo)
-    except CuotaAgotada as e:
-        print(f"  Narrativas no se pudieron: {e}")
-        return
+    r = gemini(cuerpo)
+    ahora_utc = datetime.now(timezone.utc)
     hace24 = (ahora_utc - timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%SZ")
     hace48 = (ahora_utc - timedelta(hours=48)).strftime("%Y-%m-%dT%H:%M:%SZ")
     salida, usados = [], set()
-    for nar in r.get("narrativas", []):
+    for g in r.get("grupos", []):
         miembros = []
-        for n in nar.get("n", []):
+        for n in g.get("n", []):
             if isinstance(n, int) and 0 <= n < len(filas) and n not in usados:
                 usados.add(n)
                 miembros.append(filas[n])
-        if len(miembros) < 2:
+        if len(miembros) < minimo:
             continue
         tonos = {"positivo": 0, "neutro": 0, "critico": 0}
         fuentes = {}
         for f in miembros:
             tonos[f["tono"]] = tonos.get(f["tono"], 0) + 1
             fuentes[f["fuente"]] = fuentes.get(f["fuente"], 0) + 1
-        ultimas24 = sum(1 for f in miembros if f["f"] >= hace24)
-        previas24 = sum(1 for f in miembros if hace48 <= f["f"] < hace24)
-        ejemplos = sorted(miembros, key=lambda f: (-(f["interacciones"] or 0), f["f"]), reverse=False)[:3]
+        ejemplos = sorted(miembros, key=lambda f: (-(f["interacciones"] or 0), f["f"]))[:3]
         salida.append(
             {
-                "titulo": limpiar(nar["titulo"], 120),
-                "explicacion": limpiar(nar["explicacion"], 400),
+                "titulo": limpiar(g["titulo"], 120),
+                "explicacion": limpiar(g["explicacion"], 400),
                 "total": len(miembros),
-                "ultimas24": ultimas24,
-                "previas24": previas24,
+                "ultimas24": sum(1 for f in miembros if f["f"] >= hace24),
+                "previas24": sum(1 for f in miembros if hace48 <= f["f"] < hace24),
                 "tonos": tonos,
                 "fuentes": fuentes,
                 "interacciones": sum(f["interacciones"] or 0 for f in miembros),
@@ -726,10 +752,37 @@ def narrativas(db):
                 ],
             }
         )
-    salida.sort(key=lambda x: -x["total"])
-    db.q("INSERT INTO narrativas (creado, datos) VALUES (?, ?)", [ahora(), json.dumps(salida, ensure_ascii=False)])
+    salida.sort(key=lambda x: (-x["ultimas24"], -x["total"]))
+    return salida
+
+
+def narrativas(db):
+    """Narrativas y rumores de los últimos 3 días (se guardan juntos; el tablero muestra la última agrupación)."""
+    ahora_utc = datetime.now(timezone.utc)
+    desde = (ahora_utc - timedelta(days=3)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    columnas = "id, fuente, medio, autor, url, titulo, texto, resumen, tono, idea, rumor, interacciones, COALESCE(fecha, recogido) AS f"
+    ideas = db.q(
+        f"SELECT {columnas} FROM piezas WHERE relevante = 1 AND idea IS NOT NULL AND COALESCE(fecha, recogido) >= ? "
+        "ORDER BY interacciones DESC LIMIT 600",
+        [desde],
+    )
+    rumores = db.q(
+        f"SELECT {columnas} FROM piezas WHERE relevante = 1 AND rumor IS NOT NULL AND COALESCE(fecha, recogido) >= ? "
+        "ORDER BY interacciones DESC LIMIT 200",
+        [desde],
+    )
+    datos = {"narrativas": [], "rumores": []}
+    try:
+        if len(ideas) >= 5:
+            datos["narrativas"] = agrupar(ideas, "idea", INSTRUCCIONES_NARRATIVAS, 2)
+        if rumores:
+            datos["rumores"] = agrupar(rumores, "rumor", INSTRUCCIONES_RUMORES, 1)
+    except CuotaAgotada as e:
+        print(f"  Narrativas no se pudieron: {e}")
+        return
+    db.q("INSERT INTO narrativas (creado, datos) VALUES (?, ?)", [ahora(), json.dumps(datos, ensure_ascii=False)])
     db.q("DELETE FROM narrativas WHERE creado < ?", [(ahora_utc - timedelta(days=30)).strftime("%Y-%m-%dT%H:%M:%SZ")])
-    print(f"  Narrativas: {len(salida)}")
+    print(f"  Narrativas: {len(datos['narrativas'])} · rumores: {len(datos['rumores'])}")
 
 
 # ---------------------------------------------------------------- corrida

@@ -59,7 +59,7 @@ async function tablero(db, p) {
   const W = "WHERE " + cond.join(" AND ");
   const q = (sql, extra = []) => db.prepare(sql).bind(...params, ...extra);
 
-  const [porDia, temas, provincias, alertas, piezas, redes, totales, resumen, corrida, pendientes, aspectos, narrativas] = await db.batch([
+  const [porDia, temas, provincias, alertas, piezas, redes, totales, resumen, corrida, pendientes, aspectos, narrativas, actores, necesidades, voces] = await db.batch([
     q(`SELECT ${DIA} AS dia, fuente, tono, COUNT(*) AS n FROM piezas ${W} GROUP BY dia, fuente, tono ORDER BY dia`),
     q(`SELECT tema, tono, COUNT(*) AS n FROM piezas ${W} GROUP BY tema, tono`),
     q(`SELECT provincia, COUNT(*) AS n, SUM(tono = 'critico') AS criticas FROM piezas ${W} AND provincia != '' GROUP BY provincia ORDER BY n DESC LIMIT 12`),
@@ -67,12 +67,19 @@ async function tablero(db, p) {
     q(`SELECT fuente, medio, autor, url, titulo, resumen, sobre, tono, tema, provincia, fecha, interacciones FROM piezas ${W} AND fuente = 'medios' ORDER BY COALESCE(fecha, recogido) DESC LIMIT 80`),
     q(`SELECT fuente, medio, autor, url, titulo, texto, resumen, sobre, tono, tema, fecha, interacciones FROM piezas ${W} AND fuente != 'medios' ORDER BY interacciones DESC LIMIT 25`),
     // hoyEc lo arma el servidor (AAAA-MM-DD), por eso va en el texto: así no se corre el orden de los parámetros.
-    q(`SELECT ${DIA} = '${hoyEc}' AS es_hoy, sobre, tono, COUNT(*) AS n FROM piezas ${W} AND ${DIA} >= date('${hoyEc}', '-1 day') GROUP BY es_hoy, sobre, tono`),
+    q(`SELECT ${DIA} = '${hoyEc}' AS es_hoy, sobre, tono, alerta, COUNT(*) AS n FROM piezas ${W} AND ${DIA} >= date('${hoyEc}', '-1 day') GROUP BY es_hoy, sobre, tono, alerta`),
     db.prepare("SELECT fecha, texto, creado FROM resumenes ORDER BY fecha DESC LIMIT 1"),
     db.prepare("SELECT inicio, fin, detalle FROM corridas ORDER BY inicio DESC LIMIT 1"),
     db.prepare("SELECT COUNT(*) AS n FROM piezas WHERE clasificado = 0"),
     q(`SELECT aspecto, tono, COUNT(*) AS n FROM piezas ${W} AND aspecto IS NOT NULL GROUP BY aspecto, tono`),
     db.prepare("SELECT creado, datos FROM narrativas ORDER BY creado DESC LIMIT 1"),
+    q(`SELECT actor, tono, COUNT(*) AS n FROM piezas ${W} AND actor IS NOT NULL GROUP BY actor, tono`),
+    q(`SELECT necesidad, provincia, COUNT(*) AS n FROM piezas ${W} AND necesidad IS NOT NULL GROUP BY necesidad, provincia`),
+    // Quién mueve la conversación: medios por cantidad; cuentas de redes por interacciones (sin comentarios sueltos).
+    q(`SELECT fuente, COALESCE(NULLIF(autor, ''), medio) AS quien, MAX(medio) AS nombre, COUNT(*) AS n, SUM(interacciones) AS inter,
+         SUM(tono = 'critico') AS criticas, SUM(tono = 'positivo') AS positivas
+       FROM piezas ${W} AND padre IS NULL GROUP BY fuente, quien
+       ORDER BY CASE WHEN fuente = 'medios' THEN n * 1000 ELSE inter END DESC LIMIT 40`),
   ]);
 
   const r = resumen.results[0];
@@ -89,10 +96,13 @@ async function tablero(db, p) {
     piezas: piezas.results,
     redes: redes.results.map((x) => ({ ...x, texto: (x.texto || "").slice(0, 400) })),
     totales: totales.results,
-    resumen: r ? { fecha: r.fecha, vinetas: JSON.parse(r.texto), creado: r.creado } : null,
+    resumen: r ? { fecha: r.fecha, creado: r.creado, ...JSON.parse(r.texto) } : null,
     corrida: c ? { inicio: c.inicio, fin: c.fin, detalle: JSON.parse(c.detalle || "{}") } : null,
     pendientes: pendientes.results[0].n,
     aspectos: aspectos.results,
-    narrativas: narrativas.results[0] ? { creado: narrativas.results[0].creado, lista: JSON.parse(narrativas.results[0].datos) } : null,
+    narrativas: narrativas.results[0] ? { creado: narrativas.results[0].creado, ...JSON.parse(narrativas.results[0].datos) } : null,
+    actores: actores.results,
+    necesidades: necesidades.results,
+    voces: voces.results,
   };
 }

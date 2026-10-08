@@ -7,3 +7,8 @@ CREATE TABLE IF NOT EXISTS narrativas (
   creado TEXT PRIMARY KEY,
   datos TEXT NOT NULL
 );
+
+-- Para decidir: rumores a desmentir, qué pide la gente y a quién se atribuye la respuesta.
+ALTER TABLE piezas ADD COLUMN rumor TEXT;
+ALTER TABLE piezas ADD COLUMN necesidad TEXT;
+ALTER TABLE piezas ADD COLUMN actor TEXT;
