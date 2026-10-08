@@ -1,7 +1,7 @@
 """Redes sociales vía Apify: X, TikTok y Facebook.
 
 Apify regala 5 USD de crédito al mes. Presupuesto aproximado por día (precios del plan gratis, oct-2026):
-  X        3 veces/día × 70 tweets   × 0,25 USD/1000  ≈ 0,05
+  X        3 veces/día × ~95 tweets (el actor trae hasta 40 por búsqueda e ignora maxItems) ≈ 0,03
   TikTok   1 vez/día: 30 videos × 0,30/1000 + 30 comentarios × 1,25/1000 ≈ 0,05
   Facebook 1 vez/día: 3 posts × 5/1000 + 10 comentarios × 2,5/1000 + arranques ≈ 0,045
   Total ≈ 0,145 USD/día ≈ 4,4 USD/mes. Si el uso del mes llega a TOPE_MES_USD, no se pide nada más.
@@ -9,6 +9,7 @@ Apify regala 5 USD de crédito al mes. Presupuesto aproximado por día (precios 
 
 import json
 import os
+import time
 import urllib.parse
 from datetime import datetime, timedelta, timezone
 
@@ -35,6 +36,7 @@ TWEETS_POR_CORRIDA = 70
 PERFILES_TIKTOK = ["carolinalozanohok", "riesgos_ec"]
 BUSQUEDAS_TIKTOK = ["fenómeno del niño ecuador", "gestión de riesgos ecuador"]
 VIDEOS_TIKTOK = 30
+VIDEOS_PERFILES = 6
 COMENTARIOS_TIKTOK = 30
 VIDEOS_CON_COMENTARIOS = 3
 
@@ -47,17 +49,23 @@ COMENTARIOS_FACEBOOK = 10
 
 
 def apify(actor, entrada, tope_usd, timeout=280):
-    """Corre un actor y devuelve sus resultados. `tope_usd` es el máximo que Apify puede cobrar por esta corrida."""
-    params = urllib.parse.urlencode({"timeout": timeout, "maxTotalChargeUsd": tope_usd})
-    url = f"https://api.apify.com/v2/acts/{actor}/run-sync-get-dataset-items?{params}"
-    datos = m.pedir(
-        url,
-        data=json.dumps(entrada).encode(),
-        headers={"Authorization": f"Bearer {m.config('APIFY_TOKEN')}", "Content-Type": "application/json"},
-        method="POST",
-        timeout=timeout + 30,
-    )
-    items = json.loads(datos or b"[]")
+    """Corre un actor y devuelve sus resultados. `tope_usd` es el máximo que Apify puede cobrar por esta corrida.
+
+    Se lanza la corrida, se espera a que termine y se leen sus datos aunque Apify la haya cortado por llegar al tope
+    (algunos actores ignoran maxItems y paran solo por el tope; lo ya pagado no se pierde).
+    """
+    cabeceras = {"Authorization": f"Bearer {m.config('APIFY_TOKEN')}", "Content-Type": "application/json"}
+    params = urllib.parse.urlencode({"timeout": timeout, "maxTotalChargeUsd": tope_usd, "waitForFinish": 60})
+    corrida = json.loads(m.pedir(f"https://api.apify.com/v2/acts/{actor}/runs?{params}", data=json.dumps(entrada).encode(),
+                                 headers=cabeceras, method="POST", timeout=90))["data"]
+    limite = time.time() + timeout + 60
+    while corrida["status"] in ("READY", "RUNNING") and time.time() < limite:
+        corrida = json.loads(m.pedir(f"https://api.apify.com/v2/actor-runs/{corrida['id']}?waitForFinish=60",
+                                     headers=cabeceras, timeout=90))["data"]
+    if corrida["status"] not in ("SUCCEEDED", "ABORTED", "TIMED-OUT"):
+        print(f"    {actor}: corrida {corrida['status']}")
+    items = json.loads(m.pedir(f"https://api.apify.com/v2/datasets/{corrida['defaultDatasetId']}/items?clean=1",
+                               headers=cabeceras, timeout=90) or b"[]")
     return [i for i in items if isinstance(i, dict) and not i.get("noResults") and not i.get("error")]
 
 
@@ -116,7 +124,7 @@ def recoger_x(db):
             "queryType": "Latest",
             "lang": "es",
         },
-        tope_usd=0.03,
+        tope_usd=0.02,
     )
     piezas = []
     for t in items:
@@ -156,21 +164,20 @@ def recoger_tiktok(db):
     if not toca(db, "tiktok"):
         print("  TikTok: todavía no toca")
         return []
-    entrada = {
-        "startUrls": [f"https://www.tiktok.com/@{p}" for p in PERFILES_TIKTOK],
-        "keywords": BUSQUEDAS_TIKTOK,
-        "maxItems": VIDEOS_TIKTOK,
-        "dateRange": "THIS_WEEK",
-        "location": "EC",
-        "sortType": "DATE_POSTED",
-    }
-    videos = apify(ACTOR_TIKTOK, entrada, tope_usd=0.02)
-    piezas = []
+    # Perfiles y búsquedas van en llamadas separadas: juntos comparten maxItems y las búsquedas se lo comen todo.
+    videos = apify(ACTOR_TIKTOK, {"startUrls": [f"https://www.tiktok.com/@{p}" for p in PERFILES_TIKTOK], "maxItems": VIDEOS_PERFILES}, tope_usd=0.01)
+    videos += apify(
+        ACTOR_TIKTOK,
+        {"keywords": BUSQUEDAS_TIKTOK, "maxItems": VIDEOS_TIKTOK, "dateRange": "THIS_WEEK", "location": "EC", "sortType": "DATE_POSTED"},
+        tope_usd=0.02,
+    )
+    piezas, comentados, vistos = [], [], set()
     for v in videos:
         vid = str(primero(v, "id", "aweme_id", defecto=""))
         url = primero(v, "postPage", "webVideoUrl", "url", defecto="")
-        if not vid or not url:
+        if not vid or not url or vid in vistos:
             continue
+        vistos.add(vid)
         usuario = primero(v, "channel.username", "authorMeta.name", "author.uniqueId", defecto="")
         piezas.append(
             {
@@ -187,10 +194,12 @@ def recoger_tiktok(db):
                 "consulta": "tiktok",
             }
         )
-    # Comentarios: los videos de sus cuentas con más comentarios (ahí está la conversación sobre ellas).
-    propios = [p for p in piezas if (p["autor"] or "").lower() in PERFILES_TIKTOK] or piezas
-    propios.sort(key=lambda p: -p["interacciones"])
-    urls = [p["url"] for p in propios[:VIDEOS_CON_COMENTARIOS]]
+        n = entero(primero(v, "comments", "commentCount"))
+        if n:
+            comentados.append(((usuario or "").lower() in PERFILES_TIKTOK, n, url))
+    # Comentarios: primero los videos de sus cuentas que tengan comentarios, luego los más comentados.
+    comentados.sort(reverse=True)
+    urls = [c[2] for c in comentados[:VIDEOS_CON_COMENTARIOS]]
     if urls:
         comentarios = apify(
             ACTOR_TIKTOK_COMENTARIOS,
@@ -257,10 +266,11 @@ def recoger_facebook(db):
                 "consulta": "facebook",
             }
         )
-    if piezas:
+    con_comentarios = [primero(p, "url", "topLevelUrl", "facebookUrl") for p in posts if entero(primero(p, "comments"))]
+    if con_comentarios:
         comentarios = apify(
             ACTOR_FB_COMENTARIOS,
-            {"startUrls": [{"url": p["url"]} for p in piezas], "resultsLimit": COMENTARIOS_FACEBOOK, "viewOption": "RANKED_UNFILTERED"},
+            {"startUrls": [{"url": u} for u in con_comentarios], "resultsLimit": COMENTARIOS_FACEBOOK, "viewOption": "RANKED_UNFILTERED"},
             tope_usd=0.04,
         )
         for c in comentarios:
