@@ -501,7 +501,7 @@ import redes  # noqa: E402  (va aparte porque depende de los actores de Apify)
 # Clasificar cada pieza: el modelo rápido. Pensar (resumen, acciones, narrativas, rumores): el mejor gratuito, pensando a
 # fondo. Gemini Pro no tiene capa gratis (probado 2026-10-07: cuota 0).
 MODELOS_GEMINI = ["gemini-flash-lite-latest", "gemini-flash-latest"]
-MODELOS_PENSAR = ["gemini-3.6-flash", "gemini-3.8-flash", "gemini-flash-latest"]
+MODELOS_PENSAR = ["gemini-3.6-flash", "gemini-3.8-flash", "gemini-flash-latest", "gemini-flash-lite-latest"]
 
 
 class CuotaAgotada(Exception):
