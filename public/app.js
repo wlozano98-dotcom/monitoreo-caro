@@ -4,8 +4,9 @@ const FUENTES = { medios: "Medios", youtube: "YouTube", x: "X", tiktok: "TikTok"
 const TONOS = { positivo: "Positivo", neutro: "Neutro", critico: "Crítico" };
 const SOBRE = { carolina: "Carolina", secretaria: "Secretaría", nino: "El Niño" };
 const ASPECTOS = ["Rapidez de la respuesta", "Llegada de la ayuda", "Presencia en territorio", "Coordinación entre instituciones", "Prevención y alertas", "Comunicación e información", "Liderazgo de Carolina Lozano"];
-const ACTORES = ["Secretaría de Gestión de Riesgos", "Carolina Lozano", "Presidencia y Gobierno central", "Ministerios", "Municipio o Prefectura", "Fuerzas Armadas y Policía", "Bomberos y Cruz Roja"];
+const ACTORES = ["Secretaría de Gestión de Riesgos", "Carolina Lozano", "Gobierno central", "Municipio o Prefectura", "Fuerzas Armadas y Policía", "Bomberos y Cruz Roja"];
 // Niveles de la conversación con los mismos nombres que las alertas de la Secretaría.
+const PUNTOS_ALERTA = 10;
 const NIVELES = [
   { nombre: "Verde", color: "var(--n-verde)", texto_color: "var(--n-verde-texto)", hasta: 30 },
   { nombre: "Amarilla", color: "var(--n-amarilla)", texto_color: "var(--n-amarilla-texto)", hasta: 45 },
@@ -205,20 +206,20 @@ function pintarNivel(d) {
     }
   }
   const pct = hoy.total ? Math.round((100 * hoy.critico) / hoy.total) : 0;
-  // Por el % de críticas; las alertas suben el nivel: 1 o 2 → al menos naranja; 3 o más → roja.
-  const porCriticas = NIVELES.findIndex((n) => pct < n.hasta);
-  let i = porCriticas;
-  if (hoy.alertas >= 3) i = 3;
-  else if (hoy.alertas >= 1) i = Math.max(i, 2);
+  // Un solo indicador: % de críticas + 10 puntos por cada alerta de posible crisis (máx. 100). Barra y nivel dicen lo mismo.
+  const puntaje = Math.min(100, pct + PUNTOS_ALERTA * hoy.alertas);
+  const i = NIVELES.findIndex((n) => puntaje < n.hasta);
   const nivel = NIVELES[i];
   const sinDatos = !hoy.total;
   $("nivel").textContent = sinDatos ? "—" : nivel.nombre;
   $("nivel").style.color = sinDatos ? "" : nivel.texto_color;
   $("termo-bulbo").style.background = sinDatos ? "" : nivel.color;
   const alertas = `${hoy.alertas} alerta${hoy.alertas === 1 ? "" : "s"}`;
-  $("nivel-detalle").textContent = sinDatos ? "Sin piezas clasificadas en 24 horas" : i > porCriticas ? `Por ${alertas}. Críticas: ${pct}%` : `${pct}% de lo de las últimas 24 h es crítico`;
+  $("nivel-detalle").textContent = sinDatos
+    ? "Sin piezas clasificadas en 24 horas"
+    : hoy.alertas ? `${pct}% crítico + ${alertas} (+${PUNTOS_ALERTA * hoy.alertas}) = ${puntaje} puntos` : `${pct}% de lo de las últimas 24 h es crítico`;
   requestAnimationFrame(() => {
-    const ancho = sinDatos ? 0 : Math.max(2, pct);
+    const ancho = sinDatos ? 0 : Math.max(2, puntaje);
     $("agua").style.clipPath = `inset(0 ${100 - ancho}% 0 0 round 999px)`;
     $("marca-nivel").style.left = ancho + "%";
     $("marca-nivel").hidden = sinDatos;
@@ -321,8 +322,9 @@ function pintarAspectos(filas) {
   });
 }
 
-function barrasPorTono(el, filas, campo, orden) {
+function barrasPorTono(el, filas, campo, orden, siempre = []) {
   const por = {};
+  for (const k of siempre) por[k] = { positivo: 0, neutro: 0, critico: 0, total: 0 };
   for (const f of filas) {
     const k = f[campo];
     if (!k) continue;
@@ -349,7 +351,7 @@ function barrasPorTono(el, filas, campo, orden) {
 
 function pintarActores(filas) {
   leyenda($("ley-actores"), TONOS, "t");
-  barrasPorTono($("actores"), filas, "actor", ACTORES);
+  barrasPorTono($("actores"), filas, "actor", ACTORES, ["Carolina Lozano"]);
 }
 
 function pintarPedidos(filas) {
