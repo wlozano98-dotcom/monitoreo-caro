@@ -1,4 +1,4 @@
-/* Monitoreo El Niño — sala de situación de la SNGR.
+/* Monitoreo de la Conversación Pública — sala de situación de la SNGR.
    El mundo aporta cuatro cosas: tipografía (Public Sans para trabajar, Newsreader para lo que dice la gente), paleta
    (armazón océano profundo, suelo gris agua), densidad media y UN gesto: el limnímetro, la regla de nivel de río que
    marca el "nivel de la conversación" con los mismos colores de alerta que usa la Secretaría.
@@ -76,7 +76,7 @@
 
 /* ------------------------------------------------------------ base */
 * { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; scroll-padding-top: 120px; scrollbar-color: var(--linea-fuerte) transparent; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: 80px; scrollbar-color: var(--linea-fuerte) transparent; }
 body { margin: 0; background: var(--suelo); color: var(--texto); font: 15px/1.5 var(--sans); overflow-x: hidden; caret-color: var(--foco); }
 ::selection { background: color-mix(in srgb, var(--espuma) 35%, transparent); }
 h1, h2, h3, p, dl, dd, ol, ul { margin: 0; }
@@ -172,9 +172,31 @@ a { color: inherit; text-underline-offset: 3px; text-decoration-thickness: 1px; 
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 6l4 4 4-4' fill='none' stroke='%236d7d83' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   background-repeat: no-repeat; background-position: right 8px center; background-size: 14px; }
 .filtros select:hover { border-color: var(--linea-fuerte); }
-.secciones { gap: 4px 18px; padding-block: 2px 8px; overflow-x: auto; flex-wrap: nowrap; scrollbar-width: none; }
-.secciones a { font-size: 13px; color: var(--texto-3); text-decoration: none; white-space: nowrap; padding: 2px 0; }
-.secciones a:hover { color: var(--texto); text-decoration: underline; }
+.filtros { padding-block: 10px; }
+.todo { margin-left: auto; display: inline-flex; gap: 4px; }
+.todo button { border: 1px solid var(--linea); background: var(--control); border-radius: 9px; padding: 5px 10px; font-size: 13px; color: var(--texto-2); cursor: pointer; }
+.todo button:hover { color: var(--texto); border-color: var(--linea-fuerte); }
+@media (max-width: 560px) { .todo { margin-left: 0; } }
+
+/* secciones desplegables */
+.seccion { display: grid; gap: 0; }
+.seccion > summary {
+  list-style: none; cursor: pointer; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 2px 16px;
+  padding: 14px 18px; background: var(--superficie); border: 1px solid var(--linea); border-radius: var(--r); box-shadow: var(--sombra);
+  transition: border-color .15s var(--ease), background-color .15s var(--ease);
+}
+.seccion > summary::-webkit-details-marker { display: none; }
+.seccion > summary:hover { border-color: var(--linea-fuerte); }
+.seccion[open] > summary { background: transparent; border-color: transparent; box-shadow: none; padding-inline: 4px; }
+.seccion-titulo { font-size: 19px; font-weight: 700; letter-spacing: -.01em; display: inline-flex; align-items: center; gap: 8px; }
+.seccion-titulo .icono { width: 18px; height: 18px; color: var(--texto-3); transition: transform .2s var(--ease); }
+.seccion[open] .seccion-titulo .icono { transform: rotate(90deg); }
+.seccion-sub { grid-column: 1; font-size: 13px; color: var(--texto-3); padding-left: 26px; }
+.seccion-dato { grid-row: 1 / span 2; grid-column: 2; font-size: 13px; color: var(--texto-2); text-align: right; white-space: nowrap; }
+.seccion-dato b { font-size: 18px; color: var(--texto); font-variant-numeric: tabular-nums; margin-right: 4px; }
+.seccion-dato.rojo b { color: var(--critico-texto); }
+.seccion-cuerpo { display: grid; gap: 20px; padding-top: 4px; }
+@media (max-width: 560px) { .seccion-dato { grid-row: auto; grid-column: 1; text-align: left; padding-left: 26px; } }
 @media (max-width: 560px) { .filtros label span { display: none; } }
 
 /* ------------------------------------------------------------ bloques */

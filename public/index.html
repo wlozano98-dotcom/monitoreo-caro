@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Monitoreo El Niño · SNGR</title>
+  <title>Monitoreo de la Conversación Pública · SNGR</title>
   <meta name="description" content="Qué dicen los medios y las redes sobre El Niño, la Secretaría de Gestión de Riesgos y Carolina Lozano.">
   <meta name="theme-color" content="#0a2530">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230a2530'/><path d='M6 19c2.5-4 5-4 7.5 0s5 4 7.5 0 4-4 5 -1' stroke='%2363c7e6' stroke-width='3' fill='none' stroke-linecap='round'/></svg>">
@@ -30,7 +30,7 @@
       <div class="marca">
         <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 19c2.5-4 5-4 7.5 0s5 4 7.5 0 5-4 7 -1" /></svg>
         <div>
-          <h1>Monitoreo El Niño</h1>
+          <h1>Monitoreo de la Conversación Pública</h1>
           <p>Secretaría Nacional de Gestión de Riesgos</p>
         </div>
       </div>
@@ -101,27 +101,38 @@
           <option value="critico">Crítico</option>
         </select>
       </label>
-    </nav>
-    <nav class="secciones" aria-label="Secciones">
-      <a href="#narrativas-sec">Narrativas</a>
-      <a href="#percepcion">Percepción</a>
-      <a href="#rumores-sec">Rumores y pedidos</a>
-      <a href="#volumen">Volumen</a>
-      <a href="#quien">Dónde y quién</a>
-      <a href="#publicado">Publicaciones</a>
+      <div class="todo" role="group" aria-label="Secciones">
+        <button type="button" id="abrir-todo">Abrir todo</button>
+        <button type="button" id="cerrar-todo">Cerrar todo</button>
+      </div>
     </nav>
   </div>
 
   <main>
-    <section class="bloque" id="narrativas-sec" aria-labelledby="t-narrativas">
+    <details class="seccion" id="narrativas-sec" open>
+      <summary>
+        <span class="seccion-titulo"><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg>Narrativas</span>
+        <span class="seccion-dato" id="dato-narrativas-sec"></span>
+        <span class="seccion-sub">Las ideas que están calando en la gente</span>
+      </summary>
+      <div class="seccion-cuerpo">
+    <section class="bloque" aria-labelledby="t-narrativas">
       <header class="bloque-cabeza">
         <h2 id="t-narrativas">Ideas que están calando</h2>
         <p id="narrativas-pie">Lo que más se repite en medios y redes en los últimos 3 días.</p>
       </header>
       <ol class="narrativas" id="narrativas"></ol>
     </section>
-
-    <div class="dos" id="percepcion">
+      </div>
+    </details>
+    <details class="seccion" id="percepcion" open>
+      <summary>
+        <span class="seccion-titulo"><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg>Percepción de la respuesta</span>
+        <span class="seccion-dato" id="dato-percepcion"></span>
+        <span class="seccion-sub">Qué aspectos van bien o mal y a quién se le atribuye</span>
+      </summary>
+      <div class="seccion-cuerpo">
+    <div class="dos">
       <section class="bloque" aria-labelledby="t-aspectos">
         <header class="bloque-cabeza">
           <h2 id="t-aspectos">Cómo se percibe la respuesta</h2>
@@ -139,8 +150,16 @@
         <div class="barras" id="actores"></div>
       </section>
     </div>
-
-    <div class="dos" id="rumores-sec">
+      </div>
+    </details>
+    <details class="seccion" id="rumores-sec" open>
+      <summary>
+        <span class="seccion-titulo"><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg>Rumores y pedidos</span>
+        <span class="seccion-dato" id="dato-rumores-sec"></span>
+        <span class="seccion-sub">Qué desmentir y qué necesita la gente</span>
+      </summary>
+      <div class="seccion-cuerpo">
+    <div class="dos">
       <section class="bloque" aria-labelledby="t-rumores">
         <header class="bloque-cabeza">
           <h2 id="t-rumores">Rumores para aclarar</h2>
@@ -156,8 +175,16 @@
         <div class="barras" id="pedidos"></div>
       </section>
     </div>
-
-    <div class="dos" id="volumen">
+      </div>
+    </details>
+    <details class="seccion" id="volumen">
+      <summary>
+        <span class="seccion-titulo"><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg>Volumen y tono</span>
+        <span class="seccion-dato" id="dato-volumen"></span>
+        <span class="seccion-sub">Cuánto se habla cada día y con qué tono</span>
+      </summary>
+      <div class="seccion-cuerpo">
+    <div class="dos">
       <section class="bloque" aria-labelledby="t-volumen">
         <header class="bloque-cabeza"><h2 id="t-volumen">Menciones por día</h2><p>Por fuente.</p></header>
         <div class="leyenda" id="ley-fuentes"></div>
@@ -169,8 +196,16 @@
         <div class="grafico" id="g-tono"></div>
       </section>
     </div>
-
-    <div class="dos" id="quien">
+      </div>
+    </details>
+    <details class="seccion" id="quien">
+      <summary>
+        <span class="seccion-titulo"><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg>Dónde y quién</span>
+        <span class="seccion-dato" id="dato-quien"></span>
+        <span class="seccion-sub">Provincias y voces que mueven la conversación</span>
+      </summary>
+      <div class="seccion-cuerpo">
+    <div class="dos">
       <section class="bloque" aria-labelledby="t-prov">
         <header class="bloque-cabeza"><h2 id="t-prov">Dónde se habla</h2><p>Provincias más mencionadas y cuántas piezas son críticas.</p></header>
         <div class="barras" id="g-prov"></div>
@@ -184,8 +219,16 @@
         <table class="tabla" id="voces"></table>
       </section>
     </div>
-
-    <section class="bloque" id="publicado" aria-labelledby="t-publicado">
+      </div>
+    </details>
+    <details class="seccion" id="publicado">
+      <summary>
+        <span class="seccion-titulo"><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg>Publicaciones</span>
+        <span class="seccion-dato" id="dato-publicado"></span>
+        <span class="seccion-sub">Alertas, lo más comentado en redes y noticias</span>
+      </summary>
+      <div class="seccion-cuerpo">
+    <section class="bloque" aria-labelledby="t-publicado">
       <header class="bloque-cabeza">
         <h2 id="t-publicado">Publicaciones</h2>
         <div class="pestanas" role="tablist" aria-label="Qué ver">
@@ -196,6 +239,8 @@
       </header>
       <ul class="lista" id="lista"></ul>
     </section>
+      </div>
+    </details>
   </main>
 
   <footer>

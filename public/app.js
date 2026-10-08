@@ -1,4 +1,4 @@
-// Monitoreo El Niño: tablero. Sin frameworks. Pide /api/tablero y dibuja todo en SVG/HTML.
+// Monitoreo de la Conversación Pública: tablero. Sin frameworks. Pide /api/tablero y dibuja todo en SVG/HTML.
 
 const FUENTES = { medios: "Medios", youtube: "YouTube", x: "X", tiktok: "TikTok", facebook: "Facebook" };
 const TONOS = { positivo: "Positivo", neutro: "Neutro", critico: "Crítico" };
@@ -129,6 +129,54 @@ function pintar(d) {
   pintarProvincias(d.provincias);
   pintarVoces(d.voces);
   pintarPublicaciones(d);
+  pintarDatosSecciones(d);
+}
+
+// Un dato clave en el título de cada sección, para leerlo aunque esté cerrada.
+function pintarDatosSecciones(d) {
+  const dato = (id, n, texto, rojo) => {
+    const el = $("dato-" + id);
+    el.className = "seccion-dato" + (rojo && n ? " rojo" : "");
+    el.innerHTML = n ? `<b>${num(n)}</b>${texto}` : "";
+  };
+  const nar = d.narrativas?.narrativas || [];
+  dato("narrativas-sec", nar.length, nar.length === 1 ? "narrativa" : "narrativas");
+  const malos = ASPECTOS.filter((a) => {
+    let b = 0, m = 0;
+    for (const f of d.aspectos) if (f.aspecto === a) f.tono === "positivo" ? (b += f.n) : f.tono === "critico" ? (m += f.n) : 0;
+    return m > b;
+  }).length;
+  dato("percepcion", malos, malos === 1 ? "aspecto va mal" : "aspectos van mal", true);
+  const rum = d.narrativas?.rumores?.length || 0;
+  dato("rumores-sec", rum, rum === 1 ? "rumor" : "rumores", true);
+  const total = d.porDia.reduce((s, f) => s + f.n, 0);
+  dato("volumen", total, "menciones");
+  dato("quien", d.provincias.length, d.provincias.length === 1 ? "provincia" : "provincias");
+  dato("publicado", d.alertas.length, d.alertas.length === 1 ? "alerta" : "alertas", true);
+  if (d.alertas.length && !abiertas.tocado) $("publicado").open = true;
+}
+
+// Secciones abiertas: se recuerdan en este navegador.
+const abiertas = { tocado: false };
+function prepararSecciones() {
+  let guardado = null;
+  try {
+    guardado = JSON.parse(localStorage.getItem("secciones") || "null");
+  } catch {}
+  const secciones = [...document.querySelectorAll("details.seccion")];
+  if (guardado) {
+    abiertas.tocado = true;
+    for (const s of secciones) if (s.id in guardado) s.open = guardado[s.id];
+  }
+  const guardar = () => {
+    abiertas.tocado = true;
+    try {
+      localStorage.setItem("secciones", JSON.stringify(Object.fromEntries(secciones.map((s) => [s.id, s.open]))));
+    } catch {}
+  };
+  for (const s of secciones) s.querySelector("summary").addEventListener("click", () => setTimeout(guardar));
+  $("abrir-todo").addEventListener("click", () => (secciones.forEach((s) => (s.open = true)), guardar()));
+  $("cerrar-todo").addEventListener("click", () => (secciones.forEach((s) => (s.open = false)), guardar()));
 }
 
 // --------------------------------------------------------------- banda "Hoy"
@@ -183,6 +231,7 @@ function pintarNivel(d) {
   aviso.hidden = !n;
   aviso.innerHTML = n ? `${icono("alerta")}<span>${n} alerta${n > 1 ? "s" : ""} en ${d.dias === 1 ? "el día" : `los últimos ${d.dias} días`}: críticas fuertes o noticias que piden reacción</span>${icono("flecha")}` : "";
   aviso.onclick = () => {
+    $("publicado").open = true;
     document.querySelector('[data-lista="alertas"]').click();
   };
   $("n-alertas").innerHTML = n ? `<span class="cuenta">${n}</span>` : "";
@@ -469,5 +518,6 @@ function tooltipEn(el, html) {
 
 leerURL();
 pintarFiltros();
+prepararSecciones();
 cargar();
 setInterval(cargar, 10 * 60 * 1000);
