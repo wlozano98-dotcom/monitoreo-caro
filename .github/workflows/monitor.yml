@@ -29,15 +29,15 @@ jobs:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           YOUTUBE_KEY: ${{ secrets.YOUTUBE_KEY }}
         run: python monitor.py
-      # La rutina de Claude corre a las 13:00, 17:00 y 01:00 UTC (8, 12 y 20 h de Ecuador): las corridas de las
-      # 12:17, 16:17 y 00:17 UTC le dejan listo el contexto. También al correrlo a mano.
+      # La rutina de Claude corre a las 11:00, 17:00, 23:00 y 03:00 UTC (6, 12, 18 y 22 h de Ecuador): las corridas
+      # de las 10:17, 16:17, 22:17 y 02:17 UTC le dejan listo el contexto. También al correrlo a mano.
       - name: Preparar contexto para el análisis de Claude
         env:
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           h=$(date -u +%H)
-          if [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ "$h" != "00" ] && [ "$h" != "12" ] && [ "$h" != "16" ]; then
+          if [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ "$h" != "10" ] && [ "$h" != "16" ] && [ "$h" != "22" ] && [ "$h" != "02" ]; then
             echo "No toca preparar contexto a las $h UTC"; exit 0
           fi
           python analisis_claude.py preparar

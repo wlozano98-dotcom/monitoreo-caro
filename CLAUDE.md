@@ -27,4 +27,10 @@ python3 monitor.py                                   # una corrida desde la Mac
 ./desplegar.sh                                       # publicar el tablero (pone versión a CSS y JS)
 ```
 
+Análisis de fondo con Claude: rutina en la nube trig_019vffsRRdTVhhguuf5yzBBi (Opus 5.5), 6, 12, 18 y 22 h de Ecuador
+(cron `0 3,11,17,23 * * *` UTC). Lee `analisis/contexto.md` (lo deja monitor.yml en la corrida previa), escribe
+`analisis/ultimo.json` siguiendo `analisis/INSTRUCCIONES.md`; `analisis.yml` lo valida y lo carga (`analisis_claude.py`).
+Regla de Andrés: CERO información falsa. Cada viñeta y acción cita ids de piezas; `validar` rechaza ids inexistentes.
+Si hay análisis de Claude de menos de 9 h, Gemini no hace el análisis de fondo (solo clasifica).
+
 URL: https://monitoreo-caro.wlozano98.workers.dev

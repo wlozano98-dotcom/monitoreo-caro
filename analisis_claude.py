@@ -1,4 +1,4 @@
-"""Análisis de fondo hecho por Claude (rutina en la nube, 8:00, 12:00 y 20:00 de Ecuador).
+"""Análisis de fondo hecho por Claude (rutina en la nube, 6:00, 12:00, 18:00 y 22:00 de Ecuador).
 
 El agente de la nube no tiene claves ni toca la base:
   1. `preparar` (en GitHub Actions, con claves): escribe analisis/contexto.md con las piezas de los últimos 3 días.
@@ -11,6 +11,7 @@ Uso: python3 analisis_claude.py preparar | validar [archivo] | cargar [archivo]
 
 import json
 import os
+import re
 import sys
 from datetime import datetime, timedelta, timezone
 
@@ -94,6 +95,25 @@ def validar(ruta=ULTIMO):
             errores.append(f"{campo}: lista (puede ser vacía) de {{titulo, explicacion, ids: [ids de piezas]}}")
     if not a.get("narrativas"):
         errores.append("narrativas: al menos una")
+    fv = a.get("fuentes_vinetas")
+    if not (isinstance(fv, list) and isinstance(a.get("vinetas"), list) and len(fv) == len(a["vinetas"]) and all(isinstance(x, list) for x in fv)):
+        errores.append("fuentes_vinetas: una lista de ids por cada viñeta, en el mismo orden")
+    if isinstance(acc, list) and not all(isinstance(x, dict) and isinstance(x.get("fuentes"), list) and x["fuentes"] for x in acc):
+        errores.append("acciones: cada una con 'fuentes' (al menos un id de pieza)")
+    # Contra la invención: todo id citado debe existir en el contexto que se le dio.
+    if os.path.exists(CONTEXTO):
+        conocidos = set(re.findall(r"^\[([0-9a-f]{%d})\]" % ID_CORTO, open(CONTEXTO, encoding="utf-8").read(), re.M))
+        citados = []
+        for x in (fv or []):
+            citados += x if isinstance(x, list) else []
+        for x in (acc or []):
+            citados += x.get("fuentes", []) if isinstance(x, dict) else []
+        for campo in ("narrativas", "rumores"):
+            for g in a.get(campo) or []:
+                citados += g.get("ids", []) if isinstance(g, dict) else []
+        inexistentes = sorted({str(i).strip("[] ")[:ID_CORTO] for i in citados} - conocidos)
+        if inexistentes:
+            errores.append("ids que no existen en analisis/contexto.md (posible invención): " + ", ".join(inexistentes[:10]))
     if errores:
         sys.exit("Análisis inválido:\n- " + "\n- ".join(errores))
     print("Análisis válido.")
@@ -133,7 +153,8 @@ def cargar(ruta=ULTIMO):
     resumen = {
         "vinetas": [m.limpiar(v, 300) for v in a["vinetas"]],
         "acciones": [
-            {"accion": m.limpiar(x["accion"], 200), "porque": m.limpiar(x["porque"], 300), "base_legal": m.limpiar(x["base_legal"], 80)}
+            {"accion": m.limpiar(x["accion"], 200), "porque": m.limpiar(x["porque"], 300), "base_legal": m.limpiar(x["base_legal"], 80),
+             "fuentes": [str(i)[:ID_CORTO] for i in x.get("fuentes", [])]}
             for x in a["acciones"]
         ],
         "autor": "Claude",

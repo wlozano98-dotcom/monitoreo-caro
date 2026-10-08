@@ -227,6 +227,7 @@ Para cada pieza numerada (noticia, publicación o comentario) devuelve:
   como afirmación genérica; si no, "". No marques como rumor las críticas u opiniones, solo afirmaciones de hecho dudosas.
 - necesidad: lo que la gente pide o le falta, uno de {json.dumps(NECESIDADES, ensure_ascii=False)}.
 - actor: a quién se le atribuye la respuesta (el mérito o la culpa), uno de {json.dumps(ACTORES, ensure_ascii=False)}.
+No inventes: si la pieza no dice algo (provincia, actor, necesidad), deja el campo vacío o en "Ninguno".
 Responde solo con el JSON pedido, una entrada por cada número recibido."""
 
 
@@ -661,7 +662,10 @@ Luego escribe:
   Cada acción debe estar dentro de las competencias de la Secretaría según el MARCO LEGAL de abajo: si algo le toca a un
   GAD, al COE o a la Presidencia, la acción es coordinar, pedir, apoyar de forma subsidiaria o emitir lineamientos, no
   ejecutarlo ella. Nunca propongas algo que cruce los límites de la sección 4 del marco legal.
-No inventes datos. Si la información es poca, dilo y propone qué vigilar.
+CERO INFORMACIÓN FALSA: solo afirma lo que está en las piezas recibidas. No completes cifras, nombres, fechas ni lugares
+que no estén escritos ahí; si dos piezas dan cifras distintas, di que difieren. Si no hay datos sobre algo, dilo ("no
+hay datos de…"). Un vacío honesto vale más que una frase convincente. Si la información es poca, dilo y propone qué
+vigilar.
 Sé breve: cada viñeta en máximo 18 palabras; cada acción en máximo 12 palabras; cada "porque" en máximo 20 palabras.
 
 """ + MARCO_LEGAL + "\n\nTEXTO LITERAL DE LOS ARTÍCULOS CLAVE (para verificar competencias y citar):\n" + LEY_ARTICULOS
