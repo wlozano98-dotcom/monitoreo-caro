@@ -13,7 +13,11 @@ medios y redes sobre El Niño, la Secretaría y ella. Presupuesto cero: solo cap
   Narrativas (pedido de Andrés): cada pieza lleva `aspecto` (rapidez, llegada de la ayuda…) e `idea` (frase genérica);
   `narrativas()` le pide a Gemini que agrupe las ideas de 3 días y las cifras (total, hoy vs ayer, tono, fuentes) se
   cuentan en Python, no las inventa Gemini. El tablero muestra la última agrupación y el marcador bien/mal por aspecto. `--sin-redes`, `--sin-gemini` para probar.
-- `redes.py`: X, TikTok y Facebook vía Apify (crédito gratis 5 USD/mes; límites por corrida al inicio del archivo).
+- `redes.py`: X, TikTok y Facebook vía Apify (crédito gratis 5 USD/mes, tope propio 4,5). Solo en la corrida de la noche
+  (20-22 h de Ecuador; `REDES_AHORA=1` para forzar). Actores: X kaitoeasyapi (ignora maxItems, para por el tope de
+  0,02 USD; `apify()` lee los datos aunque la corrida quede ABORTED), TikTok clockworks~free-tiktok-scraper (apidojo
+  limita corridas al mes en cuenta gratis) + clockworks comentarios, Facebook apify posts/comentarios (comentarios solo
+  si el post tiene). YouTube va en `monitor.py` con la API oficial (YOUTUBE_KEY, proyecto Google "Monitoreo Caro").
 - `.github/workflows/monitor.yml`: cada 2 horas. Repo PÚBLICO a propósito: los minutos de Actions de repos privados
   se comparten con el Agente Asamblea (privado, ~2.000 min/mes) y lo dejaríamos sin minutos. Las claves van en Secrets.
 - `src/index.js` + `public/`: Worker que sirve el tablero (sin login, decisión de Andrés) y `/api/tablero` (caché 5 min).
@@ -32,5 +36,13 @@ Análisis de fondo con Claude: rutina en la nube trig_019vffsRRdTVhhguuf5yzBBi (
 `analisis/ultimo.json` siguiendo `analisis/INSTRUCCIONES.md`; `analisis.yml` lo valida y lo carga (`analisis_claude.py`).
 Regla de Andrés: CERO información falsa. Cada viñeta y acción cita ids de piezas; `validar` rechaza ids inexistentes.
 Si hay análisis de Claude de menos de 9 h, Gemini no hace el análisis de fondo (solo clasifica).
+
+Reglas del tablero (decisiones de Andrés):
+- Termómetro = un solo indicador: % crítico de las últimas 24 h + 10 puntos por alerta (no depende de los filtros).
+- Alertas: en redes solo con >= 20 interacciones (`ALCANCE_MIN_ALERTA`); insultos sin argumento no son alerta.
+- Actores: "Gobierno central" reúne Presidencia y ministerios (todo menos SNGR y Carolina). Carolina siempre visible.
+- Filtro "Hoy" = últimas 24 h. La caché del API va ligada a la versión publicada (`version_metadata`).
+- Mostrar a Andrés los cambios visuales antes de desplegar.
+- Fechas: `fecha_iso` quita milisegundos (TikTok/Facebook); una pieza sin fecha usaría `recogido` y parecería de hoy.
 
 URL: https://monitoreo-caro.wlozano98.workers.dev
