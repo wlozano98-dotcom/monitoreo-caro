@@ -1,10 +1,11 @@
 """Redes sociales vía Apify: X, TikTok y Facebook.
 
 Apify regala 5 USD de crédito al mes. Presupuesto aproximado por día (precios del plan gratis, oct-2026):
-  X        3 veces/día × ~95 tweets (el actor trae hasta 40 por búsqueda e ignora maxItems) ≈ 0,03
-  TikTok   1 vez/día: 30 videos × 0,30/1000 + 30 comentarios × 1,25/1000 ≈ 0,05
-  Facebook 1 vez/día: 3 posts × 5/1000 + 10 comentarios × 2,5/1000 + arranques ≈ 0,045
-  Total ≈ 0,145 USD/día ≈ 4,4 USD/mes. Si el uso del mes llega a TOPE_MES_USD, no se pide nada más.
+Todo una vez al día, en la corrida de la noche:
+  X        ~170 tweets (el actor ignora maxItems; para en el tope de 0,02) ≈ 0,02
+  TikTok   16 videos × 3/1000 + 30 comentarios × 1,25/1000 ≈ 0,09
+  Facebook 3 posts + comentarios solo si los hay ≈ 0,02
+  Total ≈ 0,13 USD/día ≈ 3,9 USD/mes. Si el uso del mes llega a TOPE_MES_USD, no se pide nada más.
 """
 
 import json
@@ -17,10 +18,12 @@ import monitor as m
 
 TOPE_MES_USD = 4.5
 
-CADA_HORAS = {"x": 8, "tiktok": 24, "facebook": 24}
+# Una vez al día, en la corrida de la noche (21:17 de Ecuador), para que lleguen frescas al análisis de las 22:00.
+HORAS_NOCHE = (20, 21, 22)  # hora de Ecuador; margen por los retrasos de GitHub
+CADA_HORAS = {"x": 20, "tiktok": 20, "facebook": 20}  # evita repetir si GitHub corre dos veces en la ventana
 
 ACTOR_X = "kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest"
-ACTOR_TIKTOK = "apidojo~tiktok-scraper"
+ACTOR_TIKTOK = "clockworks~free-tiktok-scraper"  # apidojo es más barato pero limita corridas al mes en cuenta gratis
 ACTOR_TIKTOK_COMENTARIOS = "clockworks~tiktok-comments-scraper"
 ACTOR_FB_POSTS = "apify~facebook-posts-scraper"
 ACTOR_FB_COMENTARIOS = "apify~facebook-comments-scraper"
@@ -35,8 +38,7 @@ TWEETS_POR_CORRIDA = 70
 
 PERFILES_TIKTOK = ["carolinalozanohok", "riesgos_ec"]
 BUSQUEDAS_TIKTOK = ["fenómeno del niño ecuador", "gestión de riesgos ecuador"]
-VIDEOS_TIKTOK = 30
-VIDEOS_PERFILES = 6
+VIDEOS_TIKTOK = 4  # por perfil y por búsqueda (0,003 USD cada uno)
 COMENTARIOS_TIKTOK = 30
 VIDEOS_CON_COMENTARIOS = 3
 
@@ -164,37 +166,36 @@ def recoger_tiktok(db):
     if not toca(db, "tiktok"):
         print("  TikTok: todavía no toca")
         return []
-    # Perfiles y búsquedas van en llamadas separadas: juntos comparten maxItems y las búsquedas se lo comen todo.
-    videos = apify(ACTOR_TIKTOK, {"startUrls": [f"https://www.tiktok.com/@{p}" for p in PERFILES_TIKTOK], "maxItems": VIDEOS_PERFILES}, tope_usd=0.01)
-    videos += apify(
+    videos = apify(
         ACTOR_TIKTOK,
-        {"keywords": BUSQUEDAS_TIKTOK, "maxItems": VIDEOS_TIKTOK, "dateRange": "THIS_WEEK", "location": "EC", "sortType": "DATE_POSTED"},
-        tope_usd=0.02,
+        {"profiles": PERFILES_TIKTOK, "profileSorting": "latest", "excludePinnedPosts": True, "searchQueries": BUSQUEDAS_TIKTOK,
+         "searchSection": "/video", "videoSearchDateFilter": "PAST_WEEK", "resultsPerPage": VIDEOS_TIKTOK},
+        tope_usd=0.08,
     )
     piezas, comentados, vistos = [], [], set()
     for v in videos:
         vid = str(primero(v, "id", "aweme_id", defecto=""))
-        url = primero(v, "postPage", "webVideoUrl", "url", defecto="")
+        url = primero(v, "webVideoUrl", "postPage", "url", defecto="")
         if not vid or not url or vid in vistos:
             continue
         vistos.add(vid)
-        usuario = primero(v, "channel.username", "authorMeta.name", "author.uniqueId", defecto="")
+        usuario = primero(v, "authorMeta.name", "channel.username", "author.uniqueId", defecto="")
         piezas.append(
             {
                 "id": m.huella("tiktok", vid),
                 "fuente": "tiktok",
-                "medio": primero(v, "channel.name", "authorMeta.nickName", defecto=usuario),
+                "medio": primero(v, "authorMeta.nickName", "channel.name", defecto=usuario),
                 "url": url,
                 "titulo": "",
                 "texto": m.limpiar(primero(v, "title", "text", "desc", defecto="")),
                 "autor": usuario,
-                "fecha": m.fecha_iso(primero(v, "uploadedAtFormatted", "createTimeISO", "uploadedAt", "createTime")),
+                "fecha": m.fecha_iso(primero(v, "createTimeISO", "uploadedAtFormatted", "createTime", "uploadedAt")),
                 "recogido": m.ahora(),
-                "interacciones": sum(entero(primero(v, c)) for c in ("likes", "comments", "shares", "diggCount", "commentCount", "shareCount")),
+                "interacciones": sum(entero(primero(v, c)) for c in ("diggCount", "commentCount", "shareCount", "likes", "comments", "shares")),
                 "consulta": "tiktok",
             }
         )
-        n = entero(primero(v, "comments", "commentCount"))
+        n = entero(primero(v, "commentCount", "comments"))
         if n:
             comentados.append(((usuario or "").lower() in PERFILES_TIKTOK, n, url))
     # Comentarios: primero los videos de sus cuentas que tengan comentarios, luego los más comentados.
@@ -312,6 +313,10 @@ def recolectores():
         print(f"Redes: no se pudo ver el gasto de Apify ({e}), se saltan por precaución")
         return []
     print(f"Redes: Apify lleva {gasto:.2f} USD este mes (tope {TOPE_MES_USD})")
+    hora = datetime.now(m.ECUADOR).hour
+    if hora not in HORAS_NOCHE and not os.environ.get("REDES_AHORA"):
+        print(f"Redes: solo en la corrida de la noche ({HORAS_NOCHE[0]}-{HORAS_NOCHE[-1]} h); ahora son las {hora} h")
+        return []
     if gasto >= TOPE_MES_USD:
         print("Redes: tope del mes alcanzado, se saltan hasta el próximo mes")
         return []
