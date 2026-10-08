@@ -185,7 +185,7 @@ function pintarResumen(r) {
   $("resumen").innerHTML = r && r.vinetas?.length ? r.vinetas.map((v) => `<li>${esc(v)}</li>`).join("") : `<li class="vacio">Todavía no hay resumen: aparece cuando la IA clasifica lo recogido.</li>`;
   const acciones = r?.acciones || [];
   $("acciones").innerHTML = acciones.length
-    ? acciones.map((a) => `<li><b>${esc(a.accion)}</b><span>${esc(a.porque)}</span></li>`).join("")
+    ? acciones.map((a) => `<li><b>${esc(a.accion)}</b><span>${esc(a.porque)}${a.base_legal ? `<em class="ley">${esc(a.base_legal)} · Ley de Gestión Integral del Riesgo</em>` : ""}</span></li>`).join("")
     : `<li class="vacio">Aparecerán aquí 3 acciones sugeridas cuando la IA haya clasificado lo del día.</li>`;
   $("acciones-caja").querySelector("h3").innerHTML = `${icono("chispa")}Qué conviene hacer hoy`;
   $("resumen-pie").textContent = r ? `Últimas 24 horas · escrito por IA ${hace(r.creado)} · no depende de los filtros.` : "";

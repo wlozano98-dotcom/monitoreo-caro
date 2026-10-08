@@ -498,30 +498,40 @@ import redes  # noqa: E402  (va aparte porque depende de los actores de Apify)
 
 # ---------------------------------------------------------------- Gemini
 
+# Clasificar cada pieza: el modelo rápido. Pensar (resumen, acciones, narrativas, rumores): el mejor gratuito, pensando a
+# fondo. Gemini Pro no tiene capa gratis (probado 2026-10-07: cuota 0).
 MODELOS_GEMINI = ["gemini-flash-lite-latest", "gemini-flash-latest"]
+MODELOS_PENSAR = ["gemini-3.6-flash", "gemini-3.8-flash", "gemini-flash-latest"]
 
 
 class CuotaAgotada(Exception):
     pass
 
 
-def gemini(cuerpo):
+def gemini(cuerpo, pensar=False):
+    """Llama a Gemini probando modelos en orden. pensar=True: el modelo más listo, con razonamiento largo."""
     clave = config("GEMINI_KEY")
     if not clave:
         raise CuotaAgotada("falta GEMINI_KEY")
     errores = []
-    for modelo in MODELOS_GEMINI:
+    for modelo in MODELOS_PENSAR if pensar else MODELOS_GEMINI:
+        envio = cuerpo
+        if pensar and modelo.startswith("gemini-3"):
+            envio = json.loads(json.dumps(cuerpo))
+            envio["generationConfig"]["thinkingConfig"] = {"thinkingLevel": "high"}
         for intento in range(3):
             try:
                 r = json.loads(
                     pedir(
                         f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent",
-                        data=json.dumps(cuerpo).encode(),
+                        data=json.dumps(envio).encode(),
                         headers={"Content-Type": "application/json", "x-goog-api-key": clave},
                         method="POST",
-                        timeout=180,
+                        timeout=240 if pensar else 180,
                     )
                 )
+                if pensar:
+                    print(f"  (pensó con {modelo})")
                 return json.loads(r["candidates"][0]["content"]["parts"][-1]["text"])
             except urllib.error.HTTPError as e:
                 detalle = e.read().decode(errors="replace")
@@ -529,9 +539,14 @@ def gemini(cuerpo):
                 print(f"  {errores[-1]}")
                 if e.code == 429 and "PerDay" in detalle:
                     break  # cuota diaria de este modelo: probar el otro
-                if e.code in (429, 500, 503) and intento < 2:
-                    time.sleep(20 * (intento + 1))
+                # Al pensar hay modelos de reemplazo: un solo reintento corto antes de pasar al siguiente.
+                if e.code in (429, 500, 503) and intento < (1 if pensar else 2):
+                    time.sleep(15 if pensar else 20 * (intento + 1))
                     continue
+                break
+            except (TimeoutError, OSError) as e:  # se colgó (socket.timeout, URLError): siguiente modelo
+                errores.append(f"{modelo}: sin respuesta ({e})")
+                print(f"  {errores[-1]}")
                 break
             except (KeyError, ValueError, IndexError) as e:
                 errores.append(f"{modelo}: respuesta inválida ({e})")
@@ -601,36 +616,69 @@ def clasificar(db, maximo):
     return hechas
 
 
-def resumen_del_dia(db):
+# Resumen propio de la Ley Orgánica para la Gestión Integral del Riesgo de Desastres (no el texto de LEXIS).
+MARCO_LEGAL = open(os.path.join(AQUI, "marco_legal.md"), encoding="utf-8").read()
+
+INSTRUCCIONES_RESUMEN = """Eres el asesor estratégico de comunicación de la secretaria Carolina Lozano, titular de la
+Secretaría Nacional de Gestión de Riesgos (SNGR) de Ecuador, durante El Niño 2026. Ella tiene 2 minutos para leerte.
+
+Recibes: (1) cifras de las últimas 24 horas frente a las 24 anteriores, (2) las narrativas vigentes y (3) las piezas
+de las últimas 24 horas (medio o cuenta, tono, tema, provincia, interacciones, resumen y texto).
+
+Piensa primero: qué cambió frente a ayer, qué crece, quién lo empuja, qué riesgo reputacional u operativo hay para la
+Secretaría y para ella, qué oportunidad hay, y qué haría un buen equipo de crisis hoy.
+
+Luego escribe:
+- vinetas: 4 a 6 frases cortas. Primero lo más importante para decidir, no lo más obvio. Cada una con un dato concreto
+  sacado de las piezas (cifra, medio, provincia, cuenta). Distingue lo que dicen los medios de lo que dice la gente en
+  redes. Si algo crece o cae frente a ayer, dilo.
+- acciones: exactamente 3 decisiones para HOY, de comunicación o de gestión, ordenadas por urgencia. Cada una debe ser
+  específica (qué, quién, dónde, por qué canal) y responder a algo concreto de las piezas; nada genérico como "desplegar
+  ayuda" o "coordinar con los COE" sin decir qué cambia. "porque": la evidencia (cifras, medios, provincias).
+  "base_legal": el o los artículos de la ley que dan a la Secretaría la competencia para hacerlo (p. ej. "Art. 61 y 72").
+  Cada acción debe estar dentro de las competencias de la Secretaría según el MARCO LEGAL de abajo: si algo le toca a un
+  GAD, al COE o a la Presidencia, la acción es coordinar, pedir, apoyar de forma subsidiaria o emitir lineamientos, no
+  ejecutarlo ella. Nunca propongas algo que cruce los límites de la sección 4 del marco legal.
+No inventes datos. Si la información es poca, dilo y propone qué vigilar.
+
+""" + MARCO_LEGAL
+
+
+def resumen_del_dia(db, vigentes=None):
     hoy = datetime.now(ECUADOR).strftime("%Y-%m-%d")
-    desde = (datetime.now(timezone.utc) - timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    ahora_utc = datetime.now(timezone.utc)
+    hace24 = (ahora_utc - timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    hace48 = (ahora_utc - timedelta(hours=48)).strftime("%Y-%m-%dT%H:%M:%SZ")
     filas = db.q(
-        "SELECT fuente, medio, sobre, tono, tema, provincia, alerta, resumen, interacciones, rumor, necesidad FROM piezas "
-        "WHERE relevante = 1 AND COALESCE(fecha, recogido) >= ? ORDER BY alerta DESC, interacciones DESC LIMIT 150",
-        [desde],
+        "SELECT fuente, medio, autor, sobre, tono, tema, provincia, alerta, resumen, texto, titulo, interacciones, rumor, "
+        "necesidad, actor, aspecto FROM piezas WHERE relevante = 1 AND COALESCE(fecha, recogido) >= ? "
+        "ORDER BY alerta DESC, interacciones DESC LIMIT 200",
+        [hace24],
     )
     if not filas:
         return
-    texto = "\n".join(
-        f"- {f['fuente']} | {f['medio'] or ''} | sobre {f['sobre']} | {f['tono']} | {f['tema']} | {f['provincia'] or '-'}"
+    cifras = db.q(
+        "SELECT COALESCE(fecha, recogido) >= ? AS hoy, fuente, tono, COUNT(*) AS n FROM piezas "
+        "WHERE relevante = 1 AND COALESCE(fecha, recogido) >= ? GROUP BY hoy, fuente, tono",
+        [hace24, hace48],
+    )
+    texto = "CIFRAS (hoy = últimas 24 h; ayer = 24 h anteriores):\n" + "\n".join(
+        f"- {'hoy' if c['hoy'] else 'ayer'} | {c['fuente']} | {c['tono']} | {c['n']}" for c in cifras
+    )
+    if vigentes:
+        texto += "\n\nNARRATIVAS VIGENTES (3 días):\n" + "\n".join(
+            f"- {n['titulo']} ({n['total']} menciones; {n['ultimas24']} hoy vs {n['previas24']} ayer)" for n in vigentes
+        )
+    texto += "\n\nPIEZAS DE HOY:\n" + "\n".join(
+        f"- {f['fuente']} | {f['autor'] or f['medio'] or ''} | sobre {f['sobre']} | {f['tono']} | {f['tema']} | "
+        f"{f['provincia'] or '-'} | {f['interacciones'] or 0} interacciones"
         f"{' | ALERTA' if f['alerta'] else ''}{' | pide ' + f['necesidad'] if f['necesidad'] else ''}"
-        f"{' | RUMOR: ' + f['rumor'] if f['rumor'] else ''} | {f['resumen']}"
+        f"{' | atribuye a ' + f['actor'] if f['actor'] else ''}{' | RUMOR: ' + f['rumor'] if f['rumor'] else ''}"
+        f"\n  {f['titulo'] or ''} {f['resumen'] or ''} {(f['texto'] or '')[:300]}"
         for f in filas
     )
     cuerpo = {
-        "systemInstruction": {
-            "parts": [
-                {
-                    "text": "Eres el analista de comunicación de la secretaria Carolina Lozano (Secretaría Nacional de Gestión "
-                    "de Riesgos de Ecuador). Con las piezas de las últimas 24 horas escribe un resumen ejecutivo en español "
-                    "para ella: 4 a 6 viñetas cortas (qué se dice, cuál es el tono hacia la Secretaría y hacia ella, qué "
-                    "temas y provincias dominan, qué críticas hay que atender). Directo, sin adornos, sin inventar datos. "
-                    "Además, 3 acciones de comunicación o de gestión que convendría tomar hoy según lo que se dice (qué "
-                    "hacer, dónde y por qué), concretas y sustentadas en las piezas. "
-                    'Devuelve JSON {"vinetas": ["...", ...], "acciones": [{"accion": "...", "porque": "..."}]}.'
-                }
-            ]
-        },
+        "systemInstruction": {"parts": [{"text": INSTRUCCIONES_RESUMEN}]},
         "contents": [{"role": "user", "parts": [{"text": texto}]}],
         "generationConfig": {
             "responseMimeType": "application/json",
@@ -642,18 +690,22 @@ def resumen_del_dia(db):
                         "type": "array",
                         "items": {
                             "type": "object",
-                            "properties": {"accion": {"type": "string"}, "porque": {"type": "string"}},
-                            "required": ["accion", "porque"],
+                            "properties": {
+                                "accion": {"type": "string"},
+                                "porque": {"type": "string"},
+                                "base_legal": {"type": "string"},
+                            },
+                            "required": ["accion", "porque", "base_legal"],
                         },
                     },
                 },
                 "required": ["vinetas", "acciones"],
             },
-            "temperature": 0.3,
+            "temperature": 0.4,
         },
     }
     try:
-        r = gemini(cuerpo)
+        r = gemini(cuerpo, pensar=True)
     except CuotaAgotada as e:
         print(f"  Resumen del día no se pudo: {e}")
         return
@@ -669,22 +721,33 @@ INSTRUCCIONES_NARRATIVAS = (
     "Eres analista de opinión pública en Ecuador. Recibes ideas numeradas que circulan en medios y redes sobre la "
     "respuesta del Estado y de la Secretaría Nacional de Gestión de Riesgos (titular: Carolina Lozano) ante El Niño 2026. "
     "Agrúpalas en las narrativas de fondo que están calando en la población (entre 3 y 8): ideas que se repiten, no temas "
-    "sueltos. Para cada una: titulo (la idea como la diría la gente, máx. 8 palabras), explicacion (1 o 2 frases: qué se "
-    "dice y por qué importa para la Secretaría) y n (los números de TODAS las ideas que pertenecen a esa narrativa). Cada "
-    "número va en una sola narrativa como máximo; deja fuera las ideas sueltas que no se repiten. No inventes nada."
+    "sueltos. Busca el marco de fondo (qué cree la gente sobre la respuesta, a quién culpa o reconoce, qué teme), no el "
+    "hecho noticioso. Para cada una: titulo (la idea como la diría la gente, máx. 8 palabras), explicacion (1 o 2 frases: "
+    "quién la empuja, medios o redes, y qué riesgo u oportunidad es para la Secretaría y para Carolina) y n (los números de "
+    "TODAS las ideas que pertenecen a esa narrativa). Cada número va en una sola narrativa como máximo; deja fuera las "
+    "ideas sueltas que no se repiten. Si una narrativa de la corrida anterior sigue viva, conserva su título para poder "
+    "seguir su evolución. No inventes nada."
 )
 INSTRUCCIONES_RUMORES = (
     "Eres verificador de datos en Ecuador durante la emergencia por El Niño 2026. Recibes rumores numerados que circulan en "
     "medios y redes. Agrupa los que dicen lo mismo (hasta 8 grupos; un rumor que aparece una sola vez también puede ser un "
     "grupo si es grave). Para cada grupo: titulo (el rumor como afirmación, máx. 12 palabras), explicacion (1 frase: por "
     "qué conviene aclararlo y qué debería confirmar o desmentir la Secretaría) y n (los números que pertenecen al grupo). "
-    "No inventes nada que no esté en los rumores."
+    "Descarta lo que NO es rumor: alertas, pronósticos o cifras oficiales (Inamhi, SNGR, COE), opiniones y críticas. Un "
+    "rumor es una afirmación de hecho sin fuente o falsa que puede causar pánico, desconfianza o mala conducta. Si nada "
+    "califica, devuelve grupos vacío. No inventes nada que no esté en los rumores. En la explicación, la respuesta "
+    "sugerida es siempre información oficial clara (arts. 61 y 72); nunca sancionar a ciudadanos por opinar o criticar."
 )
 
 
-def agrupar(filas, campo, instrucciones, minimo):
+def agrupar(filas, campo, instrucciones, minimo, anteriores=None):
     """Gemini agrupa los textos de `campo`; las cifras (total, hoy vs ayer, tono, fuentes) se cuentan aquí."""
-    lineas = "\n".join(f"[{n}] ({f['tono']}, {f['fuente']}) {f[campo]}" for n, f in enumerate(filas))
+    lineas = "\n".join(
+        f"[{n}] ({f['tono']}, {f['fuente']}, {f['autor'] or f['medio'] or ''}) {f[campo]} — {(f['resumen'] or '')[:160]}"
+        for n, f in enumerate(filas)
+    )
+    if anteriores:
+        lineas = "TÍTULOS DE LA CORRIDA ANTERIOR: " + " | ".join(anteriores) + "\n\n" + lineas
     cuerpo = {
         "systemInstruction": {"parts": [{"text": instrucciones}]},
         "contents": [{"role": "user", "parts": [{"text": lineas}]}],
@@ -711,7 +774,7 @@ def agrupar(filas, campo, instrucciones, minimo):
             "temperature": 0.2,
         },
     }
-    r = gemini(cuerpo)
+    r = gemini(cuerpo, pensar=True)
     ahora_utc = datetime.now(timezone.utc)
     hace24 = (ahora_utc - timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%SZ")
     hace48 = (ahora_utc - timedelta(hours=48)).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -772,9 +835,11 @@ def narrativas(db):
         [desde],
     )
     datos = {"narrativas": [], "rumores": []}
+    previa = db.q("SELECT datos FROM narrativas ORDER BY creado DESC LIMIT 1")
+    anteriores = [n["titulo"] for n in json.loads(previa[0]["datos"]).get("narrativas", [])] if previa else []
     try:
         if len(ideas) >= 5:
-            datos["narrativas"] = agrupar(ideas, "idea", INSTRUCCIONES_NARRATIVAS, 2)
+            datos["narrativas"] = agrupar(ideas, "idea", INSTRUCCIONES_NARRATIVAS, 2, anteriores)
         if rumores:
             datos["rumores"] = agrupar(rumores, "rumor", INSTRUCCIONES_RUMORES, 1)
     except CuotaAgotada as e:
@@ -783,6 +848,7 @@ def narrativas(db):
     db.q("INSERT INTO narrativas (creado, datos) VALUES (?, ?)", [ahora(), json.dumps(datos, ensure_ascii=False)])
     db.q("DELETE FROM narrativas WHERE creado < ?", [(ahora_utc - timedelta(days=30)).strftime("%Y-%m-%dT%H:%M:%SZ")])
     print(f"  Narrativas: {len(datos['narrativas'])} · rumores: {len(datos['rumores'])}")
+    return datos["narrativas"]
 
 
 # ---------------------------------------------------------------- corrida
@@ -813,8 +879,9 @@ def main():
     if "--sin-gemini" not in args:
         print("Gemini…")
         detalle["clasificadas"] = clasificar(db, int(config("MAX_CLASIFICAR", "400")))
-        resumen_del_dia(db)
-        narrativas(db)
+        # Primero las narrativas: el resumen las usa para decidir qué importa.
+        vigentes = narrativas(db)
+        resumen_del_dia(db, vigentes)
 
     detalle["consultas_d1"] = db.consultas
     db.q("INSERT INTO corridas (inicio, fin, detalle) VALUES (?, ?, ?)", [inicio, ahora(), json.dumps(detalle, ensure_ascii=False)])
