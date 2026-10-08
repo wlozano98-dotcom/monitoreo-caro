@@ -1,0 +1,10 @@
+{
+  // Monitoreo Caro: tablero público (Cloudflare Workers + D1). Separado de Moni y de la Asamblea.
+  "name": "monitoreo-caro",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-20",
+  "assets": { "directory": "public", "binding": "ASSETS", "run_worker_first": ["/api/*"] },
+  "d1_databases": [
+    { "binding": "DB", "database_name": "monitoreo-caro", "database_id": "ced01674-3a31-4bcf-97e0-81538cc399b7" }
+  ]
+}

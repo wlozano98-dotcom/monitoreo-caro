@@ -1,0 +1,30 @@
+# Monitoreo Caro — escucha de medios y redes (El Niño 2026)
+
+Tablero público para Carolina Lozano (Secretaria Nacional de Gestión de Riesgos de Ecuador) y su equipo: qué dicen
+medios y redes sobre El Niño, la Secretaría y ella. Presupuesto cero: solo capas gratuitas. Todo en español.
+
+**No tocar ni mezclar con `../Proyecto Moni` ni `../Agente Zimbra AN`.** Misma cuenta de Cloudflare, pero Worker
+(`monitoreo-caro`) y base D1 (`monitoreo-caro`) propios. Node se toma prestado de `../Proyecto Moni/bin/node` (solo lectura).
+
+## Piezas
+
+- `monitor.py`: una corrida = recolectar → guardar en D1 (API REST) → clasificar con Gemini (25 piezas por llamada) →
+  resumen del día → narrativas. Solo biblioteca estándar.
+  Narrativas (pedido de Andrés): cada pieza lleva `aspecto` (rapidez, llegada de la ayuda…) e `idea` (frase genérica);
+  `narrativas()` le pide a Gemini que agrupe las ideas de 3 días y las cifras (total, hoy vs ayer, tono, fuentes) se
+  cuentan en Python, no las inventa Gemini. El tablero muestra la última agrupación y el marcador bien/mal por aspecto. `--sin-redes`, `--sin-gemini` para probar.
+- `redes.py`: X, TikTok y Facebook vía Apify (crédito gratis 5 USD/mes; límites por corrida al inicio del archivo).
+- `.github/workflows/monitor.yml`: cada 2 horas. Repo PÚBLICO a propósito: los minutos de Actions de repos privados
+  se comparten con el Agente Asamblea (privado, ~2.000 min/mes) y lo dejaríamos sin minutos. Las claves van en Secrets.
+- `src/index.js` + `public/`: Worker que sirve el tablero (sin login, decisión de Andrés) y `/api/tablero` (caché 5 min).
+- `migrations/`: esquema de D1 (tabla `piezas`, `resumenes`, `corridas`).
+
+## Comandos
+
+```
+export PATH="$PWD/../Proyecto Moni/bin/node/bin:$PATH"; set -a; source .env; set +a
+python3 monitor.py                                   # una corrida desde la Mac
+CLOUDFLARE_API_TOKEN=$CLOUDFLARE_TOKEN npx wrangler deploy   # publicar el tablero
+```
+
+URL: https://monitoreo-caro.wlozano98.workers.dev

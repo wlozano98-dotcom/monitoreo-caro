@@ -1,0 +1,28 @@
+name: Monitoreo
+
+on:
+  schedule:
+    - cron: "17 */2 * * *" # cada 2 horas, al minuto 17 (UTC)
+  workflow_dispatch: # botón "Run workflow" para correrlo a mano
+
+concurrency:
+  group: monitoreo
+  cancel-in-progress: false
+
+jobs:
+  recoger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Recoger, clasificar y resumir
+        env:
+          CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          YOUTUBE_KEY: ${{ secrets.YOUTUBE_KEY }}
+        run: python monitor.py

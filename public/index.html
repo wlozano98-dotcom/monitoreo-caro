@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monitoreo El Niño · SNGR</title>
+  <meta name="description" content="Qué dicen los medios y las redes sobre El Niño, la Secretaría de Gestión de Riesgos y Carolina Lozano.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230c2a3d'/><path d='M7 20c3-6 6-6 9 0s6 6 9 0' stroke='%2367c6e3' stroke-width='3' fill='none' stroke-linecap='round'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="barra">
+    <div class="marca">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" /><path d="M7 20c3-6 6-6 9 0s6 6 9 0" /></svg>
+      <div>
+        <h1>Monitoreo El Niño</h1>
+        <p>Medios y redes sobre la Secretaría de Gestión de Riesgos y Carolina Lozano</p>
+      </div>
+    </div>
+    <p class="estado" id="estado">Cargando…</p>
+  </header>
+
+  <nav class="filtros" aria-label="Filtros">
+    <div class="grupo" role="group" aria-label="Período">
+      <button data-dias="1">Hoy</button>
+      <button data-dias="7" aria-pressed="true">7 días</button>
+      <button data-dias="14">14 días</button>
+      <button data-dias="30">30 días</button>
+    </div>
+    <label>Fuente
+      <select id="f-fuente">
+        <option value="">Todas</option>
+        <option value="medios">Medios</option>
+        <option value="youtube">YouTube</option>
+        <option value="x">X</option>
+        <option value="tiktok">TikTok</option>
+        <option value="facebook">Facebook</option>
+      </select>
+    </label>
+    <label>Sobre
+      <select id="f-sobre">
+        <option value="">Todo</option>
+        <option value="carolina">Carolina Lozano</option>
+        <option value="secretaria">La Secretaría</option>
+        <option value="nino">El Niño en general</option>
+      </select>
+    </label>
+    <label>Tono
+      <select id="f-tono">
+        <option value="">Todos</option>
+        <option value="positivo">Positivo</option>
+        <option value="neutro">Neutro</option>
+        <option value="critico">Crítico</option>
+      </select>
+    </label>
+  </nav>
+
+  <main>
+    <section class="resumen panel" aria-labelledby="t-resumen">
+      <h2 id="t-resumen">Resumen del día</h2>
+      <ul id="resumen"><li class="vacio">Todavía no hay resumen.</li></ul>
+      <p class="pie" id="resumen-pie"></p>
+    </section>
+
+    <section class="kpis" id="kpis" aria-label="Indicadores de hoy"></section>
+
+    <section class="panel" aria-labelledby="t-narrativas">
+      <h2 id="t-narrativas">Ideas que están calando</h2>
+      <p class="nota" id="narrativas-pie">Las narrativas que más se repiten en medios y redes en los últimos 3 días.</p>
+      <div class="narrativas" id="narrativas"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="t-aspectos">
+      <h2 id="t-aspectos">Cómo se percibe la respuesta</h2>
+      <p class="nota">Cuántas piezas dicen que cada aspecto va bien o va mal (las neutras no cuentan).</p>
+      <div class="leyenda"><span><i style="background:var(--t-positivo)"></i>Va bien</span><span><i style="background:var(--t-critico)"></i>Va mal</span></div>
+      <div class="aspectos" id="aspectos"></div>
+    </section>
+
+    <section class="panel alertas" id="panel-alertas" aria-labelledby="t-alertas" hidden>
+      <h2 id="t-alertas"><span class="icono-alerta" aria-hidden="true">!</span> Alertas</h2>
+      <ul class="lista" id="alertas"></ul>
+    </section>
+
+    <div class="rejilla">
+      <section class="panel" aria-labelledby="t-volumen">
+        <h2 id="t-volumen">Menciones por día y fuente</h2>
+        <div class="leyenda" id="ley-fuentes"></div>
+        <div class="grafico" id="g-volumen"></div>
+      </section>
+      <section class="panel" aria-labelledby="t-tono">
+        <h2 id="t-tono">Tono por día</h2>
+        <div class="leyenda" id="ley-tonos"></div>
+        <div class="grafico" id="g-tono"></div>
+      </section>
+      <section class="panel" aria-labelledby="t-temas">
+        <h2 id="t-temas">Temas</h2>
+        <div class="barras" id="g-temas"></div>
+      </section>
+      <section class="panel" aria-labelledby="t-prov">
+        <h2 id="t-prov">Provincias más mencionadas</h2>
+        <div class="barras" id="g-prov"></div>
+      </section>
+    </div>
+
+    <div class="rejilla">
+      <section class="panel" aria-labelledby="t-redes">
+        <h2 id="t-redes">Lo más comentado en redes</h2>
+        <ul class="lista" id="redes"></ul>
+      </section>
+      <section class="panel" aria-labelledby="t-noticias">
+        <h2 id="t-noticias">Noticias</h2>
+        <ul class="lista" id="noticias"></ul>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>Se actualiza solo cada 2 horas. El tono y los temas los clasifica una IA (Gemini): pueden tener errores.</p>
+  </footer>
+
+  <div class="tooltip" id="tooltip" role="status" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>
