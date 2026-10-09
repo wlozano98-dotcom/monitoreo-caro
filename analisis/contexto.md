@@ -1,51 +1,195 @@
-# Contexto para el análisis de fondo (2026-10-08 17:33, hora de Ecuador)
+# Contexto para el análisis de fondo (2026-10-08 21:35, hora de Ecuador)
 
 Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Cita las piezas por su [id].
 
 ## Cifras: últimas 24 h frente a las 24 h anteriores
 
-- hoy · medios · critico: 6
-- hoy · medios · neutro: 69
-- hoy · tiktok · neutro: 3
-- hoy · tiktok · positivo: 2
-- hoy · x · critico: 4
-- hoy · x · neutro: 5
-- hoy · x · positivo: 7
-- hoy · youtube · critico: 4
+- hoy · medios · critico: 3
+- hoy · medios · neutro: 64
+- hoy · medios · positivo: 2
+- hoy · tiktok · neutro: 1
+- hoy · tiktok · positivo: 1
+- hoy · x · critico: 10
+- hoy · x · neutro: 16
+- hoy · x · positivo: 13
+- hoy · youtube · critico: 2
 - hoy · youtube · neutro: 11
-- ayer · medios · critico: 4
-- ayer · medios · neutro: 46
+- ayer · medios · critico: 6
+- ayer · medios · neutro: 55
 - ayer · medios · positivo: 3
+- ayer · tiktok · neutro: 2
 - ayer · tiktok · positivo: 2
-- ayer · x · critico: 4
-- ayer · x · neutro: 3
-- ayer · x · positivo: 6
-- ayer · youtube · critico: 2
-- ayer · youtube · neutro: 5
+- ayer · x · critico: 8
+- ayer · x · neutro: 7
+- ayer · x · positivo: 12
+- ayer · youtube · critico: 4
+- ayer · youtube · neutro: 7
 - ayer · youtube · positivo: 2
 
 ## Narrativas de la corrida anterior
 
-- Coordinación preventiva y entrega de asistencia oficial — 9 piezas; 9 en 24 h vs 0 antes. La cuenta de la Secretaría en TikTok, la Alcaldía de Muisne, CONGOPE y medios difunden kits a más de 7.800 personas; en X se replica la cita de Carolina sobre $656 millones y 150.000 kits en bodegas. Refuerza su imagen técnica, pero obliga a mostrar que esos kits llegan.
-- Quito se inunda y el Concejo no decide — 10 piezas; 7 en 24 h vs 2 antes. Ecuavisa y El Universo muestran un Concejo sin fecha ni quórum para tratar las inundaciones; el COE Metropolitano reporta 37 eventos atendidos y vías habilitadas. La culpa recae en el Municipio, aunque ciudadanos etiquetan a @Riesgos_Ec.
-- Las lluvias empeorarán y no estamos preparados — 7 piezas; 6 en 24 h vs 1 antes. Medios amplifican el aviso del CN-ERFEN para el 10-15 de octubre, alertas del Inamhi para el feriado y titulares como 'lo peor está por venir'. Oportunidad de vocería anticipatoria de la Secretaría antes del feriado.
-- La ayuda estatal llega tarde y es insuficiente — 6 piezas; 4 en 24 h vs 2 antes. Radio Pichincha, FM Mundo y Diario Extra recogen testimonios de Esmeraldas sobre raciones insuficientes y familias bajo el agua; en X se cuestionan las cifras de atendidos. Es el mayor riesgo directo para la Secretaría si las lluvias del 10-15 de octubre agravan la emergencia.
-- Las lluvias destruyen la producción y afectan la economía — 5 piezas; 3 en 24 h vs 2 antes. Finanzas Digital e Infobae citan al Banco Mundial sobre inflación y riesgos económicos; se suspendió la zafra y el COE de Esmeraldas reporta 1.700 hectáreas de cultivos destruidas. Riesgo de que se reclame al Gobierno un plan productivo.
-- La prevención era tarea de los GAD — 3 piezas; 3 en 24 h vs 0 antes. Centro Digital difundió que Carolina atribuye la preparación a los GAD (63 interacciones) y usuarios en X culpan a alcaldes. Oportunidad si se acompaña de apoyo subsidiario visible, como en Las Naves; riesgo si se lee como deslinde.
+- Las lluvias empeorarán y no estamos preparados — 8 piezas; 7 en 24 h vs 1 antes. Medios amplifican el aviso del CN-ERFEN para el 10-15 de octubre, las alertas del Inamhi para el feriado y titulares como 'lo peor está por venir'. Oportunidad de vocería anticipatoria de la Secretaría.
+- Coordinación preventiva y entrega de asistencia oficial — 8 piezas; 6 en 24 h vs 2 antes. La cuenta de la SNGR en TikTok (77 interacciones), la Alcaldía de Muisne, CONGOPE y medios difunden kits a más de 7.800 personas y la cita de Carolina sobre 150.000 kits en bodegas. Refuerza su imagen técnica, pero contrasta con las denuncias desde Esmeraldas.
+- La prevención era tarea de los GAD — 6 piezas; 6 en 24 h vs 0 antes. Tras la entrevista de Carolina en Centro Digital (63 interacciones), Wuanplus, un experto en CORAPE y usuarios culpan a alcaldes y prefecturas; en Portoviejo vecinos reclaman falta de prevención. Riesgo de que se lea como deslinde si no hay apoyo subsidiario visible.
+- La ayuda estatal llega tarde y es insuficiente — 6 piezas; 4 en 24 h vs 2 antes. Radio Pichincha recoge familias de Esmeraldas sin atención y raciones insuficientes, y Diario Extra la angustia en San Gregorio; Wuanplus pregunta a Gestión de Riesgos por un albergue de 44 camas. Es el mayor riesgo directo para la Secretaría antes de las lluvias del 10 al 15 de octubre.
+- Las lluvias destruyen la producción y afectan la economía — 4 piezas; 4 en 24 h vs 0 antes. Finanzas Digital y altavoz.pe citan al Banco Mundial sobre impacto económico; El Universo reporta 1.700 hectáreas de cultivos destruidas en Esmeraldas. Riesgo de reclamo por un plan productivo.
+- Quito se inunda y el Concejo no decide — 6 piezas; 2 en 24 h vs 4 antes. Ecuavisa reporta un Concejo sin fecha para tratar las lluvias; el COE Metropolitano informa 37 eventos atendidos y vías habilitadas, y ciudadanos etiquetan a @Riesgos_Ec. La culpa recae en el Municipio.
 
-## Piezas de los últimos 3 días (239, de la más reciente a la más antigua)
+## Piezas de los últimos 3 días (293, de la más reciente a la más antigua)
 
-[dbf93b65a5] 2026-10-08 22:18 UTC · youtube · @ (Gemelos TV ) · neutro · Lluvias e inundaciones
+[997ed8d74c] 2026-10-09 02:23 UTC · x · @47Davidescobar (Rodolfo Escobar) · critico · Otro · aspecto: Prevención y alertas · atribuye a: Secretaría de Gestión de Riesgos
+    Critica a la gestion de riesgos y cuestionamiento sobre la planificacion.
+    idea: Falta planificacion en gestion de riesgos
+    @jpjaramillo25 Vales verga hay planificación hay algo gestión de riesgos
+
+[74acfffc13] 2026-10-09 01:40 UTC · x · @juanCardenas_87 (Ecuador Medio Digital) · neutro · Ayuda humanitaria · Azuay · aspecto: Presencia en territorio · atribuye a: Municipio o Prefectura · pide: Vías y puentes · 1 interacciones
+    La Prefectura del Azuay y Gestión de Riesgos atienden emergencia por crecida de río en Molleturo.
+    idea: Las instituciones están presentes evaluando zonas afectadas
+    La Prefectura del Azuay desplegó personal técnico y entregó ayuda humanitaria este jueves 8 de octubre en la comunidad Zhagal, sector Luz y Guía, parroquia Molleturo, donde la creciente del río Blanco ha puesto en riesgo a 40 viviendas y provocado afectaciones en la infraestructu
+
+[2f3dd0fcca] 2026-10-09 01:37 UTC · x · @NuevoTiempoCue (El Nuevo Tiempo Cuenca) · neutro · Ayuda humanitaria · Azuay · aspecto: Llegada de la ayuda · atribuye a: Municipio o Prefectura · pide: Alimentos · 4 interacciones
+    Atención de emergencia en Luz y Guía por crecida de río y entrega de kits.
+    idea: Se entrega ayuda humanitaria a los afectados
+    ‼️Prefectura del Azuay atiende emergencia en Luz y Guía.‼️ La Prefectura del Azuay desplegó personal técnico y entregó ayuda humanitaria este jueves 8 de octubre en la comunidad Zhagal, sector Luz y Guía, parroquia Molleturo, donde la creciente del río Blanco ha puesto en riesgo 
+
+[3f64bc0d4d] 2026-10-09 00:59 UTC · medios · Metro Ecuador · neutro · Ayuda humanitaria · aspecto: Llegada de la ayuda · atribuye a: Gobierno central · pide: Dinero y créditos
+    Bono de Contingencia de USD 284 en Ecuador: quiénes lo reciben y cómo cobrarlo
+    Información sobre el bono de contingencia para familias afectadas por lluvias.
+    La ayuda económica se entrega una sola vez a familias con daños materiales por lluvias e inundaciones. Conoce cómo se identifican los beneficiarios y qué s
+
+[1b65ac3348] 2026-10-09 00:12 UTC · x · @goberimbabura (Gobernación Imbabura) · neutro · Respuesta del Gobierno · Imbabura · aspecto: Coordinación entre instituciones · atribuye a: Gobierno central · 4 interacciones
+    Gobernación de Imbabura lidera sesión con entidades de Estado y Gestión de Riesgos.
+    idea: Existe coordinación entre las distintas carteras de Estado
+    🤝 Comisión Ejecutiva Provincial El gob. Jorge Ortiz dirigió la sesión de la Comisión Ejecutiva Provincial, con la participación de las diferentes carteras de Estado, ECU 911, Policía Nacional, Fuerzas Armadas, Secretaría Nacional de Gestión de Riesgos y demás instituciones. .. ht
+
+[252522bae0] 2026-10-08 23:58 UTC · medios · Vistazo · neutro · Energía y servicios · atribuye a: Gobierno central
+    Ecuador amplía cortes de luz a industrias de 48 a 72 horas semanales desde el 12 de octubre
+    Ecuador amplía cortes de luz a industrias de 48 a 72 horas semanales.
+
+[730351f50b] 2026-10-08 23:24 UTC · medios · Diario Extra · neutro · Lluvias e inundaciones
+    Afectaciones en varias localidades por intensas lluvias, inundaciones y desbordamientos de ríos
+    Reportan afectaciones en varias localidades por lluvias, inundaciones y desbordamientos.
+
+[1d9668aae3] 2026-10-08 23:22 UTC · x · @EcEnDirecto (Ecuador En Directo) · neutro · Lluvias e inundaciones · Esmeraldas · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas · 2 interacciones
+    Gestión de Riesgos reporta 101 eventos adversos por lluvias abiertos a nivel nacional.
+    idea: La Secretaría informa sobre los eventos adversos vigentes
+    #ATENCIÓN La Secretaría Nacional de Gestión de Riesgos reportó 101 eventos adversos por lluvias que permanecen abiertos en Ecuador, con corte al 7 de octubre. Esmeraldas concentra la mayor cantidad, seguida de Los Ríos y Guayas. Entre los casos de mayor impacto constan inundacion
+
+[a0a78d31e4] 2026-10-08 23:18 UTC · medios · teleSUR · neutro · Lluvias e inundaciones · Esmeraldas
+    Ecuador: inundaciones en Esmeraldas e incendios forestales en Sierra Centro por El Niño
+    Reportan inundaciones en Esmeraldas e incendios forestales en la Sierra Centro debido a El Niño.
+
+[c50cc50e3f] 2026-10-08 23:06 UTC · x · @municipiochone (Municipio de Chone) · positivo · Prevención y alertas · Manabí · aspecto: Presencia en territorio · atribuye a: Bomberos y Cruz Roja · pide: Información y alertas · 1 interacciones
+    Bomberos y Gestión de Riesgos de Chone capacitan a moradores en mochilas de emergencia.
+    idea: Las autoridades capacitan a la ciudadanía en prevención
+    La moradora escuchaba atenta a las indicaciones del personal del Cuerpo de Bomberos y de Gestión de Riesgos del Municipio de Chone, que llegaron hasta su sector para explicarles cómo armar una mochila de emergencia, un botiquín y mostrarles técnicas de primeros auxilios. https://
+
+[8291a44d4d] 2026-10-08 23:04 UTC · x · @UniversalGye (Radio Universal Guayaquil) · neutro · Lluvias e inundaciones · Esmeraldas · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas · 1 interacciones
+    Secretaría de Riesgos informa 101 eventos adversos por lluvias en el país.
+    idea: Se informa oficialmente sobre los eventos adversos
+    La Secretaría Nacional de Gestión de Riesgos informó que 101 eventos adversos por lluvias permanecen abiertos en el país, con corte al 7 de octubre a las 22h00. Esmeraldas concentra la mayor cantidad, seguida de Los Ríos y Guayas. https://t.co/kZ2mGvUMyT
+
+[bcd9deccd4] 2026-10-08 22:59 UTC · x · @tomebamba (La Voz del Tomebamba) · neutro · Ayuda humanitaria · Azuay · aspecto: Llegada de la ayuda · atribuye a: Municipio o Prefectura · pide: Alimentos · 3 interacciones
+    Prefectura del Azuay y Riesgos atienden emergencia en Molleturo con asistencia humanitaria.
+    idea: Se entrega asistencia humanitaria oportuna a los afectados
+    La Prefectura del Azuay activó un contingente técnico y de asistencia humanitaria en la comunidad Zhagal, sector Luz y Guía, perteneciente a la parroquia Molleturo, ante la crecida del río Blanco que compromete la estabilidad de unas 40 viviendas y ha generado daños en la red via
+
+[2e4c660227] 2026-10-08 22:46 UTC · medios · El Diario Ecuador · positivo · Ayuda humanitaria · aspecto: Llegada de la ayuda · atribuye a: Gobierno central · pide: Dinero y créditos
+    Bono de Contingencia de $284 para afectados por lluvias e inundaciones en Ecuador: así se accede
+    Detalles sobre cómo acceder al Bono de Contingencia de $284 para afectados por lluvias en Ecuador.
+    idea: El Gobierno entrega bonos a los afectados
+
+[51b51762d5] 2026-10-08 22:40 UTC · medios · El Comercio · neutro · Energía y servicios · Pichincha
+    Metro de Quito explica si habrá cierres ante nuevas tormentas
+    El Metro de Quito explica si habrá cierres ante nuevas tormentas y granizo.
+    Metro de Quito explica si podrá mantener el servicio ante nuevas tormentas de granizo y aluviones.
+
+[df72a4fa33] 2026-10-08 22:34 UTC · youtube · @ (ULEAM RADIO) · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas · 3 interacciones
+    Alerta por El Niño del 10 al 15 de octubre se prevé intensas lluvias en las costas de Ecuador
+    Se prevén intensas lluvias en las costas de Ecuador del 10 al 15 de octubre.
+    idea: Hay alertas vigentes por lluvias intensas
+
+[f545603bc4] 2026-10-08 22:28 UTC · x · @MuisneAlcaldia (Alcaldía de Muisne) · positivo · Ayuda humanitaria · Esmeraldas · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Alimentos · 2 interacciones
+    Entrega de asistencia humanitaria en Cabo San Francisco gracias a articulación institucional.
+    idea: La coordinación institucional permite entregar ayuda humanitaria
+    Gracias al presidente @DanielNoboaOk, a @Riesgos_Ec y la gestión de nuestra alcaldesa @YuriColoradoEsm , llegamos con asistencia humanitaria a 30 familias de la parroquia #CaboSanFrancisco afectadas por las recientes inundaciones. #CaboSanFrancisco #AsistenciaHumanitaria https://
+
+[89d48aff00] 2026-10-08 22:23 UTC · x · @ConexionECU (Conexión Informativa EC) · neutro · Afectados y damnificados · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas
+    Secretaría de Riesgos contabiliza más de 16 mil afectados por lluvias desde agosto.
+    idea: Se actualizan constantemente las cifras de personas afectadas
+    #Ecuador | Las lluvias registradas desde el 29 de agosto han dejado 16.075 personas afectadas en Ecuador, según la Secretaría Nacional de Gestión de Riesgos. El balance reporta además 4.600 viviendas afectadas. 💻https://t.co/ogcGREgmP8 https://t.co/com6G6lMCu
+
+[f32a97d91f] 2026-10-08 22:22 UTC · x · @NAD24ec (Noticias Al Día) · positivo · Respuesta del Gobierno · El Oro · aspecto: Coordinación entre instituciones · atribuye a: Bomberos y Cruz Roja
+    Machala presente en aniversario de Bomberos con articulación de Gestión de Riesgos.
+    idea: Hay colaboración entre los Cuerpos de Bomberos y la Secretaría
+    Machala presente en los 191 años de la de fundación de @BomberosGYE https://t.co/xoLVpQi7xS @BomberosMACH @Riesgos_Ec https://t.co/7wWgUqpgCp
+
+[dbf93b65a5] 2026-10-08 22:18 UTC · youtube · @ (Gemelos TV ) · neutro · Lluvias e inundaciones · 9 interacciones
     Río crece en plena corriente del Niño en Ecuador
     Reporte sobre el incremento del caudal de un rio en Ecuador por El Nino.
+
+[34aa9b4832] 2026-10-08 22:12 UTC · x · @MartnezLoprmfq (Martínez Lopez) · positivo · Prevención y alertas · Pichincha · aspecto: Prevención y alertas · atribuye a: Secretaría de Gestión de Riesgos
+    Destacan la gestión de riesgos oportuna para proteger a la capital.
+    idea: La gestión preventiva protege a la ciudad
+    @HaroldBurbanoOk Gestión de riesgos oportuna y mantenimiento preventivo para proteger a la capital. @HaroldBurbanoOk 💙❤️💙
+
+[3ee1e06488] 2026-10-08 22:03 UTC · x · @beto2388 (Alberto Espinosa) · critico · Política y críticas · Pichincha · aspecto: Prevención y alertas · atribuye a: Gobierno central
+    Critican la falta de un sistema de gestión de riesgos articulado ante las lluvias.
+    idea: Faltó previsión y planificación frente a las lluvias
+    @Caritosandovale No tener articulado un sistema de gestión de riesgos , no haber previsto o gestionado alternativas cuando se sabía que las lluvias iban a ser mucho más fuertes de lo normal , no es culpa de administrador de la ciudad ??
+
+[b5a1ec15c5] 2026-10-08 22:03 UTC · x · @RecutecuMedia (Recutecu Media) · critico · Política y críticas · aspecto: Rapidez de la respuesta · atribuye a: Gobierno central
+    Especialista cuestiona que el Estado repita estructuras ineficientes en gestión de riesgos.
+    idea: El presupuesto no reemplaza una buena gestión
+    ¿Más dinero para seguir haciendo lo mismo? Oswaldo Moreno, experto en gestión de riesgos de desastres, cuestiona que tras décadas de emergencias el Estado siga recurriendo a las mismas estructuras y respuestas. ⚡ El presupuesto no reemplaza una buena gestión. https://t.co/kmjzMF7
+
+[456f4347de] 2026-10-08 22:01 UTC · x · @SeguridadeQuito (Secretaría de Seguridad y Gestión de Riesgos Quito) · positivo · Prevención y alertas · Pichincha · aspecto: Presencia en territorio · atribuye a: Secretaría de Gestión de Riesgos
+    Anuncian operativo de control y prevención con miles de funcionarios en Quito.
+    idea: Las autoridades están activas cuidando a la ciudadanía
+    👷‍♀️🛡️ #QuitoConPrevención | ¡Disfruta este feriado con seguridad! 🎒🌤️ 🚨 Más de 6.000 funcionarios estarán activos en parques, balnearios y terminales para cuidar de ti. 📌 Revisa estas recomendaciones, previene y disfruta. 🙌 💙 Tú disfruta, nosotros estamos activos para cuidarte.
+
+[25f552300e] 2026-10-08 21:59 UTC · x · @beto2388 (Alberto Espinosa) · critico · Política y críticas · aspecto: Prevención y alertas · atribuye a: Gobierno central
+    Reclaman falta de planificación y herramientas de respuesta ante las lluvias previstas.
+    idea: Faltaron herramientas de respuesta y planificación
+    @Aortizlemos Gestión de riesgos adecuada , se preveía hace más de 6meses q las lluvias iban a ser más fuertes de lo normal no es adivinanza es planificación y aplica y resulta funcional en cualquier proyecto o como no podemos prever terremotos no debemos gestionar herramientas de
 
 [479fae6cc6] 2026-10-08 21:47 UTC · medios · Ecuavisa · neutro · Afectados y damnificados
     Lluvias en Ecuador dejan más de 16 mil afectados desde el 29 de agosto
     Lluvias en Ecuador dejan mas de 16 mil afectados desde agosto.
 
+[946b7f44d4] 2026-10-08 21:39 UTC · x · @esperanzazwh (Romel Esperanza) · positivo · Prevención y alertas · Pichincha · aspecto: Prevención y alertas · atribuye a: Secretaría de Gestión de Riesgos
+    Destacan la gestión de riesgos oportuna para proteger a las familias de Quito.
+    idea: La gestión de riesgos protege a las familias
+    Gestión de riesgos oportuna para proteger a las familias quiteñas. @HaroldBurbanoOk 💙❤️💙
+
+[8768625224] 2026-10-08 21:38 UTC · x · @elmercuriomanta (Diario El Mercurio) · neutro · Lluvias e inundaciones · Manabí · aspecto: Presencia en territorio · atribuye a: Secretaría de Gestión de Riesgos · 1 interacciones
+    Bomberos, Policía y Gestión de Riesgos evalúan daños tras desbordamiento en Santa Ana.
+    idea: Las instituciones evalúan los daños en territorio
+    #Noticias II El desbordamiento del río Grande, ocurrido la noche del miércoles 7 de octubre, afectó a 26 viviendas en varios sectores del cantón Santa Ana, Manabí, tras las fuertes lluvias registradas en la zona. El caudal comenzó a disminuir durante la madrugada y el agua que in
+
+[68f55e3de7] 2026-10-08 21:20 UTC · x · @TiempoRealEC (Tiempo Real) · critico · Lluvias e inundaciones · Azuay · aspecto: Rapidez de la respuesta · pide: Albergue · 1 interacciones
+    Desbordamiento de ríos en Molleturo arrastra vivienda y deja familias evacuadas.
+    idea: Las crecientes de ríos dejan familias afectadas y sin hogar
+    🌧️🚨 RÍOS FRÍO Y BLANCO SE DESBORDAN EN MOLLETURO: UNA VIVIENDA FUE ARRASTRADA Y LA VÍA LÍNEA CERO QUEDÓ INTERRUMPIDA 🌊 Desde la noche del 7 de octubre, las fuertes lluvias incrementaron considerablemente los caudales de los ríos Frío y Blanco, que atraviesan la comunidad Luz y Gu
+
+[efb4996b2d] 2026-10-08 21:17 UTC · x · @ecuainm_oficial (Ecuadorinmediato) · neutro · Lluvias e inundaciones · Esmeraldas · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos · 3 interacciones
+    Gestión de Riesgos informa 101 eventos adversos activos por lluvias, con Esmeraldas a la cabeza.
+    idea: Hay numerosos eventos adversos activos por las lluvias
+    ‼️#URGENTE La Secretaría Nacional de Gestión de Riesgos informó que 101 eventos adversos por lluvias permanecen abiertos en el país, con corte al 7 de octubre a las 22h00. Esmeraldas concentra la mayor cantidad, seguida de Los Ríos y Guayas. Entre los eventos de mayor impacto con
+
+[84c7880abc] 2026-10-08 21:08 UTC · x · @MuisneAlcaldia (Alcaldía de Muisne) · positivo · Ayuda humanitaria · Esmeraldas · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · 2 interacciones
+    Entregan kits de ayuda humanitaria a familias afectadas por lluvias en Muisne.
+    idea: La ayuda humanitaria llega a las familias afectadas
+    Gracias al respaldo del presidente @DanielNoboaOk, a @Riesgos_Ec, al @MinTrabajoEc y a la gestión de nuestra alcaldesa @YuriColoradoEsm, entregamos kits de alimentos, descanso, aseo y vestimenta, a las familias afectadas por las fuertes lluvias del recinto #Canalón, parroquia #Sa
+
 [eff8304a7e] 2026-10-08 21:00 UTC · medios · Soy502 · neutro · Otro
     Calles cubiertas de hielo: fuerte granizada sorprende a Ecuador
     Fuerte granizada sorprende varias calles en Ecuador.
+
+[989de0637f] 2026-10-08 20:39 UTC · x · @radio_pichincha (Radio Pichincha) · neutro · Lluvias e inundaciones · Azuay · aspecto: Presencia en territorio · atribuye a: Secretaría de Gestión de Riesgos · pide: Vías y puentes · 6 interacciones
+    Equipos de obras públicas y Gestión de Riesgos evalúan zona afectada por desbordamientos en Molleturo.
+    idea: Las instituciones evalúan los daños en la zona afectada
+    ⭕️ #ATENCIÓN | Los ríos Frío y Blanco se desbordaron en Luz y Guía, #Molleturo. La vía Línea Cero está interrumpida y una vivienda fue arrastrada por la corriente. Equipos de Obras Públicas de #Cuenca y Gestión de Riesgos evalúan la zona. #LaRadioDeLasNoticias https://t.co/mIOuoI
 
 [44cac70866] 2026-10-08 20:34 UTC · medios · ElOriente.com · neutro · Otro · El Oro
     El Oro: sector camaronero se prepara ante posibles efectos de El Niño
@@ -56,6 +200,26 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: Los gobiernos locales gastan en fiestas en lugar de prevenir inundaciones
     LOS GOBIERNOS AUTÓNOMOS SE DEDICARON A HACER CONCIERTOS MILLONARIOS, EN VEZ DE HACER OBRAS PARA PREVENIR INUNDACIONES
 
+[3a51acc445] 2026-10-08 20:29 UTC · x · @CancilleriaEc (Cancillería del Ecuador 🇪🇨) · positivo · Prevención y alertas · aspecto: Coordinación entre instituciones · atribuye a: Gobierno central · 6 interacciones
+    Ecuador y China fortalecen cooperación bilateral ante el fenómeno de El Niño.
+    idea: La cooperación internacional fortalece la respuesta ante El Niño
+    Ecuador fortalece la cooperación bilateral con la República Popular China La Cancillería, coordina acciones para generar un impacto positivo y directo en áreas estratégicas como juventud y educación, salud pública, reactivación productiva, seguridad ciudadana y gestión de riesgos
+
+[c34957c394] 2026-10-08 20:20 UTC · x · @MetroEcuador (Metro Ecuador) · neutro · Afectados y damnificados · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos
+    Lluvias dejan más de 17.000 personas impactadas en 21 provincias según reporte de la SNGR.
+    idea: Miles de personas resultaron afectadas por las lluvias
+    Lluvias en Ecuador dejan más de 17.000 personas impactadas en 21 provincias. Las lluvias registradas en Ecuador entre el 29 de agosto y el 6 de octubre de 2026 han dejado 17.299 personas impactadas en distintas zonas del país, según el balance de la Secretaría Nacional de Gestión
+
+[4b549e9c8c] 2026-10-08 20:18 UTC · x · @Expresoec (Diario Expreso) · positivo · Respuesta del Gobierno · aspecto: Presencia en territorio · atribuye a: Secretaría de Gestión de Riesgos
+    Jóvenes en Acción apoyarán en gestión de riesgos y ayuda humanitaria ante El Niño.
+    idea: Hay articulación institucional para enfrentar la emergencia
+    200.000 beneficiarios de Jóvenes en Acción serán destinados a labores de emergencia ante El Niño. Recibirán capacitación para apoyar en gestión de riesgos y distribución de ayuda humanitaria. Los detalles: https://t.co/cmlJdNAgB8 https://t.co/PsMG3Dr3xl
+
+[e63e0441e1] 2026-10-08 20:04 UTC · x · @congope_ec (CONGOPE) · positivo · Prevención y alertas · Pichincha · aspecto: Coordinación entre instituciones · atribuye a: Secretaría de Gestión de Riesgos
+    CONGOPE y la Secretaría de Gestión de Riesgos capacitan a prefecturas frente a El Niño.
+    idea: Hay coordinación con los municipios y prefecturas
+    📝💯 Exitosa Jornada Nacional de Capacitación conjunta por el fenómeno de El Niño En Quito y Guayaquil, CONGOPE unió esfuerzos con el Ministerio de Desarrollo Económico y Productivo y la Secretaría Nacional de Gestión de Riesgos para fortalecer la respuesta de los Gobiernos Provinc
+
 [bfd23525b4] 2026-10-08 20:03 UTC · medios · El Universo · neutro · Lluvias e inundaciones · Manabí · pide: Vías y puentes
     26 casas resultaron afectadas por el desbordamiento del río Grande en Santa Ana
     Desbordamiento de río en Santa Ana afecta a 26 viviendas.
@@ -63,6 +227,11 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
 [c9cc84e64b] 2026-10-08 19:59 UTC · medios · El Comercio · neutro · Lluvias e inundaciones · Esmeraldas · atribuye a: Gobierno central
     Familias de seis cantones afrontan la emergencia en Esmeraldas por 90 días
     Seis cantones de Esmeraldas afrontan emergencia por 90 días.
+
+[45a824f98f] 2026-10-08 19:45 UTC · x · @Vice_Ec (Vicepresidencia) · positivo · Respuesta del Gobierno · Pichincha · aspecto: Coordinación entre instituciones · atribuye a: Gobierno central · 11 interacciones
+    Reunión de la Vicepresidencia y la Secretaría con delegados de EE.UU. para cooperación ante desastres.
+    idea: Se busca cooperación internacional para la emergencia
+    🤝 La Secretaria General de la Vicepresidencia de la República, Carla Arellano, mantuvo una reunión con representantes de la Oficina de Respuesta a Desastres y Situaciones Humanitarias (DHR) y de la Oficina de Asuntos del Hemisferio Occidental (WHA) del Gobierno de los Estados Uni
 
 [064f040c83] 2026-10-08 19:41 UTC · medios · El Diario Ecuador · neutro · Lluvias e inundaciones · Esmeraldas
     Esmeraldas entra en emergencia tras tres semanas de lluvias e inundaciones
@@ -82,21 +251,34 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Emergencia en Molleturo: desbordamiento de ríos deja varios daños
     Desbordamiento de ríos causa daños en Molleturo.
 
-[5c90fb5808] 2026-10-08 18:53 UTC · youtube · @ (DNews) · neutro · Lluvias e inundaciones · Pichincha · pide: Vías y puentes · 63 interacciones
+[5c90fb5808] 2026-10-08 18:53 UTC · youtube · @ (DNews) · neutro · Lluvias e inundaciones · Pichincha · pide: Vías y puentes · 75 interacciones
     🇪🇨 Caos por El Niño: emergencia en Esmeraldas e inédita granizada en Quito | DNews
     Informe sobre emergencias por lluvias en Esmeraldas y granizada en Quito.
     Ecuador #ElNiño #Quito 0:00 Inédita granizada colapsa vías y el metro en Quito 1:48 Esmeraldas declara estado de emergencia ...
+
+[9dac706a57] 2026-10-08 18:47 UTC · x · @LupaMediaEC (Lupa Media) · neutro · Respuesta del Gobierno · atribuye a: Gobierno central · pide: Dinero y créditos
+    Detalles sobre los pagos y cupos del programa Jóvenes en Acción en instituciones públicas.
+    ¡Hola! Gracias por la referencia 👋 Jóvenes en Acción paga USD 400 mensuales a jóvenes de 18 a 29 años por realizar actividades en instituciones públicas. Según fuentes oficiales, en la primera edición (desde noviembre de 2024) participaron 75.467 jóvenes en tareas como reforestac
 
 [50bafd2d71] 2026-10-08 18:39 UTC · youtube · @@Wuanplusads (Wuanplus Ads) · neutro · Prevención y alertas · aspecto: Prevención y alertas · atribuye a: Gobierno central · pide: Albergue
     Encuesta sobre la responsabilidad de los albergues entre los GADs y el Gobierno.
     idea: La responsabilidad de los albergues se debate entre el Gobierno y los GADs
     ¿Consideras que la falta de albergues equipados es negligencia de los alcaldes y prefecturas (GADs) o del Gobierno Central ante la emergencia invernal? ¡Queremos leer tu punto de vista en los comentarios!
 
-[67cb12876e] 2026-10-08 18:38 UTC · youtube · @ (Wuanplus Ads) · critico · Ayuda humanitaria · Esmeraldas · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Albergue · 21 interacciones
+[67cb12876e] 2026-10-08 18:38 UTC · youtube · @ (Wuanplus Ads) · critico · Ayuda humanitaria · Esmeraldas · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Albergue · 32 interacciones
     "¿UN ALBERGUE DE 44 CAMAS EN ESMERALDAS?": la pregunta clave para Gestión de Riesgos
     Cuestionan la capacidad de un albergue pequeño en Esmeraldas frente a la Secretaría.
     idea: Los albergues habilitados son insuficientes para la emergencia
     Quién tiene la verdadera responsabilidad de habilitar albergues ante el Fenómeno de El Niño y las inundaciones en Ecuador?
+
+[17bbfaa274] 2026-10-08 18:35 UTC · x · @Zavala_Ra (Raul Zavala) · neutro · Prevención y alertas · atribuye a: Secretaría de Gestión de Riesgos · 1 interacciones
+    Mención a cuentas oficiales de gestión de riesgos y otras entidades en Ecuador.
+    @inocarec @Riesgos_Ec @inamhi_ec @espol @UPSE_ec @IpiapEcuador @DGAC_Ecuador Dos noticias que no van juntas pero...
+
+[20cc2bcc97] 2026-10-08 18:35 UTC · x · @CentralNewsEC (Central News EC) · positivo · Prevención y alertas · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas · 2 interacciones
+    La Secretaría advierte vía SMS sobre la crecida de ríos en varias provincias.
+    idea: Las alertas llegan oportunamente a la ciudadanía
+    #ATENCION, la Secretaria Nacional de Gestión de Riesgos @Riesgos_Ec advierte vía SMS, que se tome precauciones por crecida de ríos en varias provincias. https://t.co/pVWZszulIq
 
 [e9bfd29df7] 2026-10-08 18:22 UTC · medios · Radio Pichincha · critico · Política y críticas · Pichincha · aspecto: Coordinación entre instituciones · atribuye a: Gobierno central · pide: Maquinaria y limpieza · ALERTA
     Sercop bloqueó USD 8 millones a Pichincha para atender emergencias por El Niño
@@ -104,15 +286,54 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: El Gobierno obstaculiza la atención de emergencias
     A esta situación se suma una deuda de USD 24 millones del Gobierno Central, según la prefecta Paola Pabón. La prefecta de Pichincha, Paola Pabón, denunció obstáculos financieros y trabas administrativas por parte del Gobierno Nacional y del Servicio Nacional de Contratación Públi
 
+[dec09192c7] 2026-10-08 18:21 UTC · x · @mortegarm (Armando Ortega) · critico · Política y críticas · Cotopaxi · aspecto: Presencia en territorio
+    Crítica política sobre la fiscalización en el departamento de gestión de riesgos local.
+    idea: Las autoridades locales no hacen nada
+    @AnaHerreraGomez @pabelml @BancadaRC5 @RC5Oficial @GabrielaEsPais @ecuarauz @CotopaxiEsRC Mashca ignorante, no se fiscalización la lluvia ,los trueno ni la granizada, entiende estúpida, se fiscaliza a los VAGOS de los concejales que se huyen para no dar cuórum y tratar éstas anom
+
+[d7def02220] 2026-10-08 18:16 UTC · x · @VictorVicman280 (Victor Espinosa) · critico · Política y críticas · aspecto: Rapidez de la respuesta · atribuye a: Gobierno central
+    Crítica sobre el uso de recursos destinados a jóvenes en lugar de fortalecer la Secretaría.
+    idea: Faltan recursos para la Secretaría de Riesgos
+    @Eduradoblock Casi como mi Prezii, le dieron préstamo pero mejor con esa plata hagamos el plan "jóvenes en acción". Pero Prezi metamos plata a la Secretaria de Gestión de Riesgos!!! No tranquilo, mis trolles culparán solo a los GADs...que podría zalir mal con ese planzazo.
+
+[2d9f032c70] 2026-10-08 18:15 UTC · x · @AndresVC1988 (Felipe Andres ) · critico · Política y críticas · aspecto: Rapidez de la respuesta · atribuye a: Gobierno central
+    Insultos dirigidos a la cuenta del Presidente y de la Secretaría de Riesgos.
+    idea: El Gobierno no responde a la emergencia
+    @DanielNoboaOk @Riesgos_Ec Payaso mmv
+
+[ede1c374b5] 2026-10-08 18:11 UTC · x · @Eduradoblock (Eduardo a secas.) · critico · Prevención y alertas · aspecto: Prevención y alertas · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas · 11 interacciones
+    Reclamo sobre la falta de previsión a pesar de conocer las lluvias fuertes.
+    idea: No hubo alertas a tiempo
+    @Aortizlemos Si sabes que hace muuuuuuchos años hay un sistema meteorológico? No del estado si no una app internacional que te avisa muchas cosas. La cucaracha pabel sabía que se venía lluvias fuertes, es más, todos la sabíamos. Si sabes que existe una secretaría de gestión de ri
+
+[965c81aabe] 2026-10-08 18:02 UTC · x · @CorapeDigitalTV (Corape Digital TV) · critico · Prevención y alertas · aspecto: Prevención y alertas · atribuye a: Municipio o Prefectura · 1 interacciones
+    Especialista cuestiona si los GAD tienen planes de contingencia reales frente a las lluvias.
+    idea: Falta preparación y planes de contingencia reales
+    🌧️ ¿Tienen los GAD planes de contingencia reales frente a las lluvias? El experto en gestión de riesgos Christian Rivera explica por qué la prevención y el trabajo articulado deben ser prioridad en los territorios. 📺 Noticia completa 👇 https://t.co/2yd7MfKpDn https://t.co/ICeFvcE
+
+[4cb718021d] 2026-10-08 17:59 UTC · x · @repost_ec (Repost) · neutro · Lluvias e inundaciones · Bolívar · aspecto: Presencia en territorio · atribuye a: Secretaría de Gestión de Riesgos · pide: Vías y puentes
+    El Niño provoca desbordamiento de ríos e inundaciones en Bolívar y Manabí con múltiples eventos registrados por la Secretaría.
+    idea: Las emergencias por inundaciones superan la capacidad local
+    #Repost ¡Alerta por fuertes lluvias! Fenómeno de El Niño provoca desbordamiento de ríos e inundaciones en cantones de Bolívar y Manabí El Niño desató emergencias simultáneas en el centro y la costa del país, dejando al menos once eventos críticos registrados por la Secretaría de 
+
 [b700ba1dc1] 2026-10-08 17:50 UTC · youtube · @ (CORAPE Digital TV) · neutro · Prevención y alertas · aspecto: Prevención y alertas · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas
     Experto sostiene que planes de contingencia para riesgos debe ser prioridad para los GAD
     Especialista indica que los planes de contingencia para riesgos deben ser prioridad para los GAD.
     idea: Los planes de contingencia deben ser prioritarios
     Dialogamos con el especialista en gestión de riesgos Christian Rivera sobre la situación climática en Ecuador ante la temporada ...
 
+[b66973494d] 2026-10-08 17:35 UTC · x · @LlamingoE (Llamingo.Ec) · neutro · Afectados y damnificados · Esmeraldas · atribuye a: Secretaría de Gestión de Riesgos
+    Reporte oficial de la Secretaría de Riesgos sobre afectados y daños por lluvias en varias provincias.
+    #ATENCIÓN | ¡Las lluvias siguen golpeando a Ecuador! Desde el 29 de agosto, las intensas precipitaciones han dejado 16.075 personas afectadas, una víctima mortal y más de 249 eventos adversos en 21 provincias del país, según la Secretaría Nacional de Gestión de Riesgos. 📊 Las cif
+
 [68c3a5e6e0] 2026-10-08 17:32 UTC · medios · altavoz.pe · neutro · Agricultura y producción
     El Niño: Ecuador, Paraguay y Argentina enfrentarían el mayor impacto económico, según el BM
     Banco Mundial advierte impacto económico de El Niño en Ecuador.
+
+[b47beffd20] 2026-10-08 17:03 UTC · medios · Machala Móvil · neutro · Afectados y damnificados · pide: Albergue
+    Más de 16.000 personas han sido afectadas por las lluvias en Ecuador
+    Más de 16.000 personas han sido afectadas por las lluvias a nivel nacional en Ecuador.
+    idea: Hay miles de afectados por el temporal
 
 [a49be82918] 2026-10-08 16:57 UTC · medios · El Comercio · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas
     Lluvias intensas y tormentas marcarán el feriado en varias zonas de Ecuador
@@ -121,6 +342,10 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
 [c2ac3244eb] 2026-10-08 16:45 UTC · medios · Teleamazonas · neutro · Lluvias e inundaciones · Esmeraldas · atribuye a: Municipio o Prefectura
     COE de Esmeraldas aprobó declaratoria de emergencia por lluvias en la provincia
     COE de Esmeraldas aprobó declaratoria de emergencia por lluvias.
+
+[06ac0cde0d] 2026-10-08 16:40 UTC · medios · Urgente24 · neutro · Lluvias e inundaciones · Pichincha
+    Granizada en Quito: Videos del poderoso fenómeno que sorprendió en Ecuador
+    Videos de la poderosa granizada que sorprendió en Quito, Ecuador.
 
 [215383583a] 2026-10-08 16:23 UTC · medios · eltelegrafo.com.ec · neutro · Lluvias e inundaciones · Bolívar
     ¡Intenso invierno en Bolívar! Desbordamiento de ríos e inundaciones en Las Naves
@@ -241,6 +466,10 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Esmeraldas declara emergencia por 90 días ante intensas lluvias y riesgo de deslizamientos.
     La Prefectura suspendió las festividades de provincialización previstas para noviembre y destinará cerca de USD 600.000 a atender las afectaciones provocadas por las lluvias. En cantones como Muisne, varias familias reportan pérdidas materiales y daños en sus cultivos. Las intens
 
+[167ffdfc99] 2026-10-08 13:21 UTC · medios · El Diario Ecuador · neutro · Lluvias e inundaciones
+    ¿Lloverá hoy? Estas son las ciudades con lluvias y tormentas este 8 de octubre
+    Pronóstico de ciudades con lluvias y tormentas.
+
 [0f93265d4c] 2026-10-08 13:12 UTC · medios · El Universo · neutro · Lluvias e inundaciones · Manabí
     Fuertes lluvias provocan inundaciones y afectan viviendas en Santa Ana, Manabí
     Fuertes lluvias provocan inundaciones y afectan viviendas en Santa Ana, Manabí.
@@ -257,6 +486,12 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Esmeraldas activa emergencia provincial por 90 días ante intensas lluvias
     Esmeraldas activa emergencia provincial por 90 días ante intensas lluvias.
 
+[6c0be131cd] 2026-10-08 12:46 UTC · medios · El Diario · positivo · Ayuda humanitaria · aspecto: Llegada de la ayuda · atribuye a: Gobierno central · pide: Dinero y créditos
+    Bono de Contingencia de $284 para afectados por lluvias e inundaciones en Ecuador: así se accede
+    Gobierno mantiene activo el Bono de Contingencia de $284 para afectados por lluvias.
+    idea: El Gobierno entrega bonos a los afectados
+    El Gobierno de Daniel Noboa mantiene activo el Bono de Contingencia, una transferencia única para familias que pierden bienes por el temporal. El trámite incluye inspección de daños, cruce con el Registro Social y cobro en ventanilla.
+
 [c605831209] 2026-10-08 12:44 UTC · medios · expreso.ec · neutro · Prevención y alertas · aspecto: Comunicación e información
     Tormentas, lluvias y ráfagas de viento: así estará el clima en Ecuador este 8 de octubre
     Pronóstico del clima en Ecuador con tormentas, lluvias y ráfagas de viento.
@@ -270,6 +505,11 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
 [d985d95f3f] 2026-10-08 12:31 UTC · medios · Finanzas Digital · neutro · Agricultura y producción
     Banco Mundial alerta que El Niño impactará la inflación de Ecuador, Paraguay y Argentina
     Banco Mundial advierte que El Niño impactará la inflación en Ecuador.
+
+[9b34cc6371] 2026-10-08 12:30 UTC · youtube · @ (The Grief of Disaster) · neutro · Lluvias e inundaciones · Pichincha
+    Terrifying Hailstorm in Quito, Ecuador: Chaos as Streets Turn into Rivers of Ice
+    Granizada intensa en Quito convierte las calles en ríos.
+    Quito, Ecuador, was hit by an hailstorm on Wednesday, October 7, 2026, as intense rain and severe thunderstorms covered major ...
 
 [7c54227000] 2026-10-08 12:14 UTC · medios · Ecuavisa · neutro · Lluvias e inundaciones · Bolívar · pide: Maquinaria y limpieza
     Intensas lluvias desbordan ríos y provocan inundaciones en Las Naves, Bolívar
@@ -311,6 +551,11 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
 [1583e1e4df] 2026-10-08 07:13 UTC · medios · Meteored España · neutro · Lluvias e inundaciones · Pichincha
     Una fuerte granizada cubre de blanco las calles de Quito, Ecuador
     Fuerte granizada cubre las calles de Quito.
+
+[e67c78f5d7] 2026-10-08 07:10 UTC · tiktok · @carlosvera_r (Carlos Vera R.) · positivo · Prevención y alertas · Guayas · aspecto: Prevención y alertas · atribuye a: Carolina Lozano · 18 interacciones
+    Carolina Lozano detalla millones ejecutados en prevencion, kits y escuelas reforzadas.
+    idea: El Gobierno invierte en prevencion a tiempo
+    “El Gobierno central ejecuta $656 millones en prevención y respuesta: 150.000 kits en bodegas de Gestión de Riesgos, el 80% de 264 centros educativos ya reforzados y seguro agrícola activo.” Carolina Lozano - Secretaria Nacional de Gestión de Riesgos Del Día a la Noche por Radio 
 
 [8852f278de] 2026-10-08 05:29 UTC · medios · El Diario · neutro · Educación
     Fenómeno de El Niño aumenta los riesgos de violencia para niñas y adolescentes en Ecuador
@@ -452,7 +697,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Comentario sarcástico en redes etiquetando a la Secretaría de Riesgos.
     @alfredovelazco @Riesgos_Ec @UNDRR_Americas La vibecodeo y lo hacemos viral ahahah soy candidato a alcalde.
 
-[636c121803] 2026-10-08 01:06 UTC · tiktok · @riesgos_ec (Riesgos_ec) · positivo · Ayuda humanitaria · Esmeraldas · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Alimentos · 77 interacciones
+[636c121803] 2026-10-08 01:06 UTC · tiktok · @riesgos_ec (Riesgos_ec) · positivo · Ayuda humanitaria · Esmeraldas · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Alimentos · 111 interacciones
     La SNGR entrega asistencia humanitaria a familias en Esmeraldas.
     idea: La Secretaría está en el territorio
     #SNGRResponde | En Pianguapí, Esmeraldas, acompañamos a las familias con asistencia humanitaria y presencia en territorio. Desde el Gobierno Nacional, a través de la SNGR, atendemos las necesidades de la comunidad. 💛 Llegamos donde más nos necesitan.
@@ -527,7 +772,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: La Secretaría está en el territorio
     👷‍♂️ Tras el desbordamiento del río Clementina, 12 familias resultaron afectadas. Nuestros equipos de Gestión de Riesgos y @cbomberosbhyo ya estuvieron en territorio, levantando información y limpiando las calles junto a los moradores. #AlcaldíaCiudadanaDeBabahoyo https://t.co/Lc
 
-[1f55484cdd] 2026-10-07 22:38 UTC · youtube · @ (DNews) · critico · Lluvias e inundaciones · Pichincha · aspecto: Rapidez de la respuesta · atribuye a: Municipio o Prefectura · pide: Maquinaria y limpieza · 43 interacciones
+[1f55484cdd] 2026-10-07 22:38 UTC · youtube · @ (DNews) · critico · Lluvias e inundaciones · Pichincha · aspecto: Rapidez de la respuesta · atribuye a: Municipio o Prefectura · pide: Maquinaria y limpieza · 46 interacciones
     🇪🇨 Fenómeno del Niño golpea Ecuador con intensas lluvias e inundaciones | DNews
     Fuerte tormenta en Quito genera caos e inundaciones.
     idea: La ayuda llega tarde
@@ -655,6 +900,10 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Ecuador, Perú y Chile registrarán lluvias superiores a lo normal
     Pronóstico indica lluvias superiores a lo normal en la región.
 
+[512b833d1b] 2026-10-07 18:57 UTC · medios · El Comercio · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas
+    Inamhi emite alerta por lluvias y tormentas en cinco provincias de Ecuador
+    Inamhi emite alerta por lluvias y tormentas en cinco provincias.
+
 [5482d87a6d] 2026-10-07 18:38 UTC · medios · Noticias SIN · neutro · Afectados y damnificados
     Ascienden a 16,000 los afectados por las lluvias desde finales de agosto en Ecuador
     Ascienden a 16.000 los afectados por las lluvias registradas desde finales de agosto.
@@ -758,6 +1007,11 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Clima de hoy en Ecuador: lluvias y radiación UV extrema este 7 de octubre
     Pronóstico diario del clima con lluvias y radiación extrema en Ecuador.
 
+[899705ed11] 2026-10-07 12:34 UTC · medios · Diario – El Amazonico · neutro · Prevención y alertas · aspecto: Prevención y alertas
+    Ecuador está entre las economías más vulnerables ante el fenómeno de El Niño; estos son los riesgos que advierte el Banco Mundial
+    Banco Mundial advierte que Ecuador está entre las economías más vulnerables ante El Niño.
+    idea: El país es vulnerable al fenómeno climático
+
 [dd2ab8f97a] 2026-10-07 12:00 UTC · medios · El Diario Ecuador · neutro · Prevención y alertas · Manabí · aspecto: Coordinación entre instituciones · atribuye a: Municipio o Prefectura
     Alerta por El Niño: Los 15 cantones de Manabí que ya activaron sus COE por las intensas lluvias
     Quince cantones de Manabí activan sus COE cantonales por lluvias.
@@ -800,7 +1054,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     24 provincias de Ecuador registran inundaciones por El Niño.
     El fenómeno de El Niño azota con fuerza a Ecuador, donde 21 de las 24 provincias del país ya registran inundaciones, fuertes ...
 
-[28b0a2d06d] 2026-10-07 06:43 UTC · youtube · @ (CGTN) · neutro · Afectados y damnificados · 119 interacciones
+[28b0a2d06d] 2026-10-07 06:43 UTC · youtube · @ (CGTN) · neutro · Afectados y damnificados · 122 interacciones
     Heavy rains linked to El Niño affect more than 15,000 people in Ecuador
     Lluvias de El Niño afectan a más de 15.000 personas.
     Ecuador is facing severe extreme weather due to El Niño. Days of heavy rain have triggered floods, waterlogging and landslides ...
@@ -841,7 +1095,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Ecuador mantiene nueve incendios forestales activos: seis provincias registran estas emergencias
     Seis provincias registran nueve incendios forestales activos en el país.
 
-[f1ba5b1fda] 2026-10-07 02:47 UTC · youtube · @ (Ecuavisa) · neutro · Lluvias e inundaciones · Manabí · 148 interacciones
+[f1ba5b1fda] 2026-10-07 02:47 UTC · youtube · @ (Ecuavisa) · neutro · Lluvias e inundaciones · Manabí · 151 interacciones
     Alerta por aparición de reptiles y fauna silvestre por las lluvias | Televistazo | Ecuavisa
     Reportan inundaciones y aparición de fauna silvestre por lluvias y desbordamiento de río en Manabí.
     Noticias de Ecuador 6 de octubre del 2026 – El desbordamiento del río Sucio inundó cerca de 65 viviendas 00:00 - Fuertes ...
@@ -854,12 +1108,16 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     ECU: Inundación - 10-2026 - Inundaciones por enos 2026 (2026-10-07)
     Registro oficial de inundaciones asociadas al fenómeno El Niño 2026.
 
+[765453ba3b] 2026-10-07 01:45 UTC · medios · Prensa Mercosur · positivo · Agricultura y producción
+    La economía de Ecuador crecerá 2,8% en 2026 pese a riesgos por El Niño
+    Estiman que la economía de Ecuador crecerá 2,8% en 2026 pese a riesgos por El Niño.
+
 [b4550bb613] 2026-10-07 01:33 UTC · medios · FM Mundo · critico · Afectados y damnificados · Esmeraldas · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Albergue · ALERTA
     Isla Luis Vargas Torres, en Esmeraldas, es una de las zonas más afectadas por las lluvias: 3.500 familias están bajo el agua
     Miles de familias afectadas por inundaciones en Isla Luis Vargas Torres.
     idea: Hay miles de familias bajo el agua sin asistencia
 
-[7a3e5831d3] 2026-10-07 01:26 UTC · tiktok · @riesgos_ec (Riesgos_ec) · positivo · Ayuda humanitaria · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Alimentos · 94 interacciones
+[7a3e5831d3] 2026-10-07 01:26 UTC · tiktok · @riesgos_ec (Riesgos_ec) · positivo · Ayuda humanitaria · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Alimentos · 102 interacciones
     Gobierno y SNGR entregan asistencia humanitaria por lluvias.
     idea: La ayuda humanitaria llega a los afectados
     Entregamos asistencia humanitaria a quienes enfrentan las afectaciones de las lluvias. Como Gobierno Nacional, fortalecemos la respuesta en territorio con atención a sus necesidades. Llegamos donde más nos necesitan 🇪🇨
@@ -909,6 +1167,11 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
 [701ef0efdf] 2026-10-06 20:55 UTC · medios · Teleamazonas · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas
     Lluvias fuertes en Ecuador: provincias donde habrá mayor intensidad entre el 6 y 7 de octubre
     Provincias con mayor afectación y pronóstico de lluvias fuertes.
+
+[19d7782500] 2026-10-06 20:24 UTC · tiktok · @teleamazonasec (teleamazonasec) · neutro · Afectados y damnificados · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Alimentos · 200 interacciones
+    Secretaria de Gestion de Riesgos reporta 2000 familias afectadas por lluvias en 10 provincias.
+    idea: Hay asistencia a los afectados por las lluvias
+    #Ecuador | La Secretaría de Gestión de Riesgos reportó que cerca de 2 000 familias resultaron afectadas por las #lluvias registradas en 10 provincias del país. Los eventos climáticos extremos asociados al fenómeno de El Niño perjudicaron a más de 5 662 personas mediante deslizami
 
 [52244b8286] 2026-10-06 20:06 UTC · medios · Resumen Latinoamericano - · critico · Política y críticas · atribuye a: Gobierno central
     Ecuador. Evalúa aplazar comicios entre riesgos climáticos y cálculo político
