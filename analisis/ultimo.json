@@ -1,78 +1,73 @@
 {
   "vinetas": [
-    "Medios bajan a 38 piezas en 24 h frente a 88 ayer; X sube a 37 y sus críticas, de 7 a 10.",
-    "Prefecta Paola Pabón denuncia en Radio Pichincha que Sercop bloqueó USD 8 millones para emergencias de Pichincha.",
-    "CN-ERFEN prevé lluvias sobre lo normal del 10 al 15 de octubre; Esmeraldas encabeza 101 eventos abiertos (corte 7 de octubre).",
-    "Gobierno ratifica elecciones del 29 de noviembre; Radio Pichincha contrasta propaganda electoral con familias desatendidas en Esmeraldas."
+    "Tsunami por sismo en Panamá: El Universo destaca que Carolina anunció la cancelación; medios citan magnitud 7,6 o 7,7.",
+    "Conversación cae en el feriado: 38 notas de medios en 24 h frente a 85; piezas críticas, de 23 a 2.",
+    "Radio Pichincha: 1,3 millones expuestos y CNE no descarta suspender 368 recintos; Gobierno descarta aplazar las seccionales.",
+    "YouTube: Hechos Ecuador Noticias (29 interacciones) cuestiona la preparación; El Universo: Inamhi prevé lluvias más intensas en la Costa."
   ],
   "fuentes_vinetas": [
+    ["61b3a2911d", "d8d8f66569", "0de7116d30", "cd27688781", "43a4bd3a42"],
     [],
-    ["e9bfd29df7"],
-    ["ff611f09c6", "df72a4fa33", "efb4996b2d", "8291a44d4d"],
-    ["03e1ba9376", "04de9be09c", "ef033973d1"]
+    ["e768ef5d02", "04de9be09c", "03e1ba9376"],
+    ["7d3ea56705", "3285462afa"]
   ],
   "acciones": [
     {
-      "accion": "Difundir hoy recomendaciones por provincia costera para el 10-15 de octubre, en X y radios",
-      "porque": "CN-ERFEN prevé lluvias superiores a lo normal en la Costa; Esmeraldas, Guayas y Los Ríos ya concentran miles de afectados.",
+      "accion": "Difundir por SMS y redes alertas de crecidas hasta el domingo 11, por provincia",
+      "porque": "Diario La Hora anuncia tormentas y crecidas de ríos hasta el 11; ULEAM Radio difunde lluvias intensas en la Costa del 10 al 15.",
       "base_legal": "Art. 61 y 62",
-      "fuentes": ["ff611f09c6", "df72a4fa33", "efb4996b2d"]
+      "fuentes": ["fa1e6e5e61", "df72a4fa33", "20cc2bcc97"]
     },
     {
-      "accion": "Emitir lineamiento a GAD: ayuda humanitaria sin logos, nombres ni mensajes de candidatos",
-      "porque": "Elecciones del 29 de noviembre se mantienen; Radio Pichincha reporta propaganda electoral en Esmeraldas mientras familias denuncian abandono.",
-      "base_legal": "Art. 14, 23.4 y 78.5",
-      "fuentes": ["03e1ba9376", "ef033973d1"]
+      "accion": "Entregar al CNE informe técnico de riesgo de los 368 recintos vulnerables",
+      "porque": "Radio Pichincha: CNE no descarta suspender 368 recintos; el Gobierno coordina con el CNE la contingencia para el 29 de noviembre.",
+      "base_legal": "Art. 23.2 y 23.5",
+      "fuentes": ["e768ef5d02", "72b097da7f"]
     },
     {
-      "accion": "Expedir con MIES lineamiento de protección a niñas y adolescentes en albergues costeros",
-      "porque": "Plan Internacional alerta que El Niño agrava violencia de género y deserción escolar de niñas en zonas de alto riesgo.",
-      "base_legal": "Art. 14, 23.4 y 67",
-      "fuentes": ["aca777ea0a", "5d7f7f56c5", "c499728e73"]
+      "accion": "Publicar en la web kits entregados en Esmeraldas por parroquia y albergues disponibles",
+      "porque": "Radio Pichincha recoge más de 100 familias que denuncian ausencia de autoridades; Wuanplus cuestiona un albergue de 44 camas.",
+      "base_legal": "Art. 14, 72 y 73",
+      "fuentes": ["ef033973d1", "76b678cf95", "67cb12876e"]
     }
   ],
   "narrativas": [
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "La Alcaldía de Muisne agradece a @Riesgos_Ec por kits en Cabo San Francisco y Canalón; la Prefectura del Azuay y Gestión de Riesgos atienden Molleturo; Gobernación de Imbabura y CONGOPE muestran articulación. Oportunidad de presencia en territorio, cuidando que la ayuda no se lea como propaganda en campaña.",
-      "ids": ["f545603bc4", "84c7880abc", "7dbdee30d9", "bcd9deccd4", "74acfffc13", "2f3dd0fcca", "989de0637f", "1b65ac3348", "e63e0441e1", "1c36a8520c", "8768625224", "c49dc8f2d2", "636c121803"]
-    },
-    {
-      "titulo": "Se sabía que venía y no se planificó",
-      "explicacion": "Usuarios en X (Alberto Espinosa, Eduardo a secas con 11 interacciones) y Recutecu Media con el experto Oswaldo Moreno reclaman que las lluvias se anunciaron hace meses. La culpa se reparte entre Gobierno, Secretaría y municipios: riesgo para la imagen técnica de la Secretaría.",
-      "ids": ["3ee1e06488", "25f552300e", "b5a1ec15c5", "ede1c374b5", "997ed8d74c", "7a9a1dd6b7"]
-    },
-    {
-      "titulo": "La ayuda estatal llega tarde y es insuficiente",
-      "explicacion": "Radio Pichincha recoge más de 100 familias de Esmeraldas que denuncian ausencia de autoridades y raciones insuficientes; FM Mundo y Diario Extra, la angustia en Isla Luis Vargas Torres y San Gregorio; Wuanplus cuestiona el albergue de 44 camas. Es el mayor riesgo directo para la Secretaría.",
-      "ids": ["ef033973d1", "76b678cf95", "b4550bb613", "b597f08395", "67cb12876e", "8afc94629b"]
-    },
-    {
-      "titulo": "La prevención era tarea de los GAD",
-      "explicacion": "Tras la entrevista de Carolina en Centro Digital, Wuanplus y el experto Christian Rivera (CORAPE) cuestionan a los GAD; en Portoviejo vecinos esperan medidas. Un usuario lo lee como excusa del Gobierno: riesgo de deslinde si no se ve apoyo subsidiario.",
-      "ids": ["ae24b8876c", "6918553d89", "965c81aabe", "b700ba1dc1", "50bafd2d71", "2525cee4a4", "d7def02220"]
+      "explicacion": "Hoy la empuja la alerta de tsunami: El Universo atribuye a Carolina la cancelación y otros medios lo replican; antes, Muisne, Prefectura del Azuay y CONGOPE mostraban articulación con la Secretaría. Oportunidad de imagen técnica, cuidando que la ayuda no se lea como campaña.",
+      "ids": ["61b3a2911d", "cd27688781", "4e3a4ade30", "d6bdaf0be2", "43a4bd3a42", "f545603bc4", "84c7880abc", "74acfffc13", "2f3dd0fcca", "bcd9deccd4", "1b65ac3348", "e63e0441e1", "c49dc8f2d2"]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Medios difunden el aviso del CN-ERFEN para el 10-15 de octubre, las tormentas del feriado y titulares como 'lo peor está por venir'. Oportunidad de vocería anticipatoria con recomendaciones concretas antes del pico.",
-      "ids": ["ff611f09c6", "df72a4fa33", "8f5b7082d4", "7993af7b02", "45042dbe02", "cbb3c725e6", "a49be82918"]
+      "explicacion": "El Universo (Inamhi, noviembre y diciembre), Diario La Hora (crecidas hasta el 11) y Diario Extra (temor en Santa Ana) sostienen la expectativa de algo peor; Hechos Ecuador Noticias pregunta si el país está preparado. Oportunidad de vocería anticipatoria con recomendaciones concretas.",
+      "ids": ["3285462afa", "fa1e6e5e61", "6278466e6c", "7d3ea56705", "4e0b1e677b", "df72a4fa33", "7993af7b02", "45042dbe02"]
     },
     {
       "titulo": "La campaña sigue mientras hay damnificados",
-      "explicacion": "El Diario, Metro Ecuador y El Diario Ecuador informan que el Gobierno descarta aplazar las seccionales; Resumen Latinoamericano lo vinculaba a cálculo político y Radio Pichincha contrasta propaganda con familias desatendidas. Riesgo de que la ayuda se perciba como electoral.",
-      "ids": ["03e1ba9376", "04de9be09c", "207617eb08", "52244b8286", "ef033973d1"]
+      "explicacion": "Metro Ecuador, El Diario y El Diario Ecuador reiteran que el Gobierno descarta aplazar las seccionales; Radio Pichincha contrasta 1,3 millones de expuestos y 368 recintos en riesgo. Riesgo de que la ayuda y la vocería se lean como electorales.",
+      "ids": ["04de9be09c", "207617eb08", "faa26cb8f1", "03e1ba9376", "e768ef5d02", "ef033973d1"]
+    },
+    {
+      "titulo": "La ayuda estatal llega tarde y es insuficiente",
+      "explicacion": "Radio Pichincha, FM Mundo y Diario Extra recogen familias de Esmeraldas sin atención; Wuanplus cuestiona el albergue de 44 camas. Sin piezas nuevas hoy, pero sigue siendo el mayor riesgo directo para la Secretaría.",
+      "ids": ["ef033973d1", "76b678cf95", "b4550bb613", "b597f08395", "67cb12876e", "8afc94629b", "2d259cf001"]
+    },
+    {
+      "titulo": "Se sabía que venía y no se planificó",
+      "explicacion": "Usuarios en X (Alberto Espinosa, Eduardo a secas, Rodolfo Escobar) y Recutecu Media con Oswaldo Moreno reclaman que las lluvias se anunciaron hace meses; hoy lo retoman canales de YouTube. La culpa se reparte entre Gobierno, Secretaría y municipios.",
+      "ids": ["3ee1e06488", "25f552300e", "ede1c374b5", "b5a1ec15c5", "997ed8d74c", "7a9a1dd6b7", "7d3ea56705"]
+    },
+    {
+      "titulo": "La prevención era tarea de los GAD",
+      "explicacion": "Tras la entrevista de Carolina en Centro Digital, Wuanplus y Christian Rivera (CORAPE) cuestionan a los GAD y en Portoviejo vecinos esperan medidas. Un usuario lo lee como excusa del Gobierno: riesgo de deslinde si no se ve apoyo subsidiario.",
+      "ids": ["ae24b8876c", "6918553d89", "965c81aabe", "b700ba1dc1", "50bafd2d71", "2525cee4a4", "d7def02220"]
     }
   ],
   "rumores": [
     {
-      "titulo": "Alerta de un Niño de alta intensidad",
-      "explicacion": "Ecuador Chequea califica de imprecisa una alerta que circula sobre un fenómeno de El Niño de alta intensidad. Respuesta sugerida: repetir la aclaración oficial de la etapa del fenómeno con fuente SNGR e Inamhi (arts. 61 y 72).",
-      "ids": ["3947b47203", "8312d77711"]
-    },
-    {
-      "titulo": "En Cotopaxi no llueve por las avionetas",
-      "explicacion": "Un comentario en YouTube (DNews, 2 interacciones) insinúa sin fuente que avionetas impiden la lluvia en Cotopaxi. Alcance bajo; vigilar y, si crece, responder con información técnica del Inamhi (arts. 61 y 72).",
-      "ids": ["89dd419dcd"]
+      "titulo": "Alerta de El Niño de alta intensidad",
+      "explicacion": "Ecuador Chequea califica de imprecisa una alerta que habla de un El Niño de alta intensidad. Respuesta sugerida: recordar el pronóstico oficial vigente con fuente Inamhi y SNGR (arts. 61 y 72).",
+      "ids": ["3947b47203"]
     }
   ]
 }
