@@ -1,138 +1,163 @@
 {
   "vinetas": [
-    "Volumen sube a 111 piezas en 24 h frente a 77; las críticas pasan de 10 a 14, sobre todo medios y YouTube.",
-    "Radio Pichincha: más de 100 familias de Esmeraldas denuncian ausencia de autoridades pese a la emergencia provincial de 90 días.",
-    "La prefecta Paola Pabón denuncia en Radio Pichincha que Sercop bloqueó USD 8 millones para emergencias en Pichincha.",
-    "Las cifras de afectados difieren entre medios: 15.500, 16.000 y más de 17.000 en 21 provincias."
+    "Medios replican cifras de la SNGR: 101 eventos abiertos y 16.075 afectados; Metro Ecuador cita 17.299 impactados. Las cifras difieren.",
+    "Esmeraldas sigue como foco crítico: Radio Pichincha recoge más de 100 familias sin atención pese a la emergencia de 90 días.",
+    "En X suben las críticas (10 frente a 8 ayer): reclaman falta de planificación pese a lluvias anunciadas hace meses.",
+    "Frente nuevo: la prefecta Paola Pabón denuncia que Sercop bloqueó USD 8 millones a Pichincha para emergencias (Radio Pichincha)."
   ],
   "fuentes_vinetas": [
-    [],
+    [
+      "efb4996b2d",
+      "8291a44d4d",
+      "89d48aff00",
+      "479fae6cc6",
+      "c34957c394",
+      "770f630d76"
+    ],
     [
       "ef033973d1",
-      "941e147266"
+      "76b678cf95",
+      "c2ac3244eb",
+      "c9cc84e64b"
+    ],
+    [
+      "25f552300e",
+      "3ee1e06488",
+      "ede1c374b5",
+      "997ed8d74c"
     ],
     [
       "e9bfd29df7"
-    ],
-    [
-      "f6aacabc9c",
-      "43839f0a34",
-      "770f630d76"
     ]
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy una cifra oficial única de afectados y kits entregados, por provincia",
-      "porque": "Medios publican 15.500, 16.000 y más de 17.000 afectados; la SNGR reportó kits a más de 7.800 personas.",
-      "base_legal": "Art. 61, 72 y 73",
-      "fuentes": [
-        "f6aacabc9c",
-        "43839f0a34",
-        "770f630d76",
-        "c49dc8f2d2"
-      ]
-    },
-    {
-      "accion": "Ofrecer al COE de Esmeraldas apoyo subsidiario en albergues y alimentos para zonas rurales",
-      "porque": "Radio Pichincha recoge más de 100 familias sin atención; Wuanplus cuestiona un albergue de 44 camas; El Universo cita 14.493 perjudicados.",
+      "accion": "Ofrecer apoyo subsidiario al COE de Esmeraldas en sectores rurales denunciados por Radio Pichincha",
+      "porque": "Radio Pichincha: más de 100 familias denuncian falta de atención; Wuanplus cuestiona un albergue de 44 camas para Gestión de Riesgos.",
       "base_legal": "Art. 13, 14 y 21.4",
       "fuentes": [
         "ef033973d1",
+        "76b678cf95",
         "67cb12876e",
-        "6086f2c34f"
+        "c9cc84e64b"
       ]
     },
     {
-      "accion": "Emitir boletín preventivo con Inamhi para el feriado y 10-15 de octubre, en medios costeros",
-      "porque": "CN-ERFEN prevé lluvias superiores a lo normal en la Costa del 10 al 15; El Comercio anticipa tormentas en el feriado.",
-      "base_legal": "Art. 61 y 62",
+      "accion": "Emitir y publicar hoy lineamientos para GAD costeros ante lluvias del 10-15 de octubre",
+      "porque": "CN-ERFEN prevé lluvias superiores a lo normal en la Costa, 10-15 de octubre; en X crecen reclamos por imprevisión.",
+      "base_legal": "Art. 13, 23.4 y 62",
       "fuentes": [
         "ff611f09c6",
-        "8f5b7082d4",
-        "a49be82918"
+        "df72a4fa33",
+        "25f552300e",
+        "ede1c374b5"
+      ]
+    },
+    {
+      "accion": "Publicar en @Riesgos_Ec una cifra consolidada de afectados explicando 16.075 frente a 17.299",
+      "porque": "Medios difunden 16.075 afectados y 17.299 impactados, ambas atribuidas a la SNGR; un usuario ya se burla de las cifras.",
+      "base_legal": "Art. 61, 72 y 73",
+      "fuentes": [
+        "89d48aff00",
+        "c34957c394",
+        "770f630d76",
+        "44d3dd8b25"
       ]
     }
   ],
   "narrativas": [
     {
-      "titulo": "La ayuda estatal llega tarde y es insuficiente",
-      "explicacion": "Radio Pichincha recoge familias de Esmeraldas sin atención y raciones insuficientes, y Diario Extra la angustia en San Gregorio; Wuanplus pregunta a Gestión de Riesgos por un albergue de 44 camas. Es el mayor riesgo directo para la Secretaría antes de las lluvias del 10 al 15 de octubre.",
-      "ids": [
-        "ef033973d1",
-        "76b678cf95",
-        "b597f08395",
-        "67cb12876e",
-        "8afc94629b",
-        "2d259cf001"
-      ]
-    },
-    {
-      "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "La cuenta de la SNGR en TikTok (77 interacciones), la Alcaldía de Muisne, CONGOPE y medios difunden kits a más de 7.800 personas y la cita de Carolina sobre 150.000 kits en bodegas. Refuerza su imagen técnica, pero contrasta con las denuncias desde Esmeraldas.",
-      "ids": [
-        "636c121803",
-        "c49dc8f2d2",
-        "912ade1c4a",
-        "7dbdee30d9",
-        "1c36a8520c",
-        "83282b0c2d",
-        "02522361cb",
-        "7c1f29cc3d"
-      ]
-    },
-    {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Medios amplifican el aviso del CN-ERFEN para el 10-15 de octubre, las alertas del Inamhi para el feriado y titulares como 'lo peor está por venir'. Oportunidad de vocería anticipatoria de la Secretaría.",
+      "explicacion": "Medios difunden el aviso del CN-ERFEN para el 10-15 de octubre, las lluvias del feriado y titulares como 'lo peor está por venir'. Oportunidad de vocería anticipatoria de la Secretaría con recomendaciones concretas.",
       "ids": [
         "ff611f09c6",
-        "8f5b7082d4",
-        "7993af7b02",
+        "df72a4fa33",
         "a49be82918",
         "13a88340d5",
         "3d126ac43f",
         "2dd6d89ea9",
+        "7993af7b02",
         "ebbe0dc87e"
       ]
     },
     {
+      "titulo": "Coordinación preventiva y entrega de asistencia oficial",
+      "explicacion": "La Alcaldía de Muisne agradece a @Riesgos_Ec por kits en Canalón y Cabo San Francisco; en Molleturo, Prefectura del Azuay y Gestión de Riesgos atienden la crecida; CONGOPE y Gobernación de Imbabura muestran articulación. Refuerza la imagen de presencia en territorio.",
+      "ids": [
+        "84c7880abc",
+        "f545603bc4",
+        "989de0637f",
+        "bcd9deccd4",
+        "2f3dd0fcca",
+        "74acfffc13",
+        "8768625224",
+        "e63e0441e1",
+        "1b65ac3348",
+        "636c121803",
+        "c49dc8f2d2"
+      ]
+    },
+    {
       "titulo": "La prevención era tarea de los GAD",
-      "explicacion": "Tras la entrevista de Carolina en Centro Digital (63 interacciones), Wuanplus, un experto en CORAPE y usuarios culpan a alcaldes y prefecturas; en Portoviejo vecinos reclaman falta de prevención. Riesgo de que se lea como deslinde si no hay apoyo subsidiario visible.",
+      "explicacion": "Tras la entrevista de Carolina en Centro Digital, Wuanplus y expertos en CORAPE cuestionan a alcaldes y prefecturas; en Portoviejo vecinos reclaman prevención. Un usuario lo lee como excusa del Gobierno: riesgo de deslinde si no hay apoyo subsidiario visible.",
       "ids": [
         "ae24b8876c",
         "6918553d89",
-        "50bafd2d71",
+        "965c81aabe",
         "b700ba1dc1",
-        "7a9a1dd6b7",
-        "2525cee4a4"
+        "50bafd2d71",
+        "2525cee4a4",
+        "d7def02220"
+      ]
+    },
+    {
+      "titulo": "La ayuda estatal llega tarde y es insuficiente",
+      "explicacion": "Radio Pichincha recoge familias de Esmeraldas sin atención y raciones insuficientes; Diario Extra y FM Mundo, la angustia en San Gregorio e Isla Luis Vargas Torres; Wuanplus cuestiona el albergue de 44 camas. Es el mayor riesgo directo para la Secretaría.",
+      "ids": [
+        "ef033973d1",
+        "76b678cf95",
+        "b597f08395",
+        "b4550bb613",
+        "67cb12876e",
+        "8afc94629b",
+        "44d3dd8b25"
+      ]
+    },
+    {
+      "titulo": "Se sabía que venía y no se planificó",
+      "explicacion": "Usuarios en X y el experto Oswaldo Moreno (Recutecu Media) reclaman que las lluvias se anunciaron con meses de anticipación y faltó planificación; la culpa se reparte entre Gobierno, Secretaría y municipios. Riesgo para la imagen técnica de la Secretaría.",
+      "ids": [
+        "25f552300e",
+        "3ee1e06488",
+        "ede1c374b5",
+        "997ed8d74c",
+        "b5a1ec15c5",
+        "7a9a1dd6b7"
       ]
     },
     {
       "titulo": "Quito se inunda y el Concejo no decide",
-      "explicacion": "Ecuavisa reporta un Concejo sin fecha para tratar las lluvias; el COE Metropolitano informa 37 eventos atendidos y vías habilitadas, y ciudadanos etiquetan a @Riesgos_Ec. La culpa recae en el Municipio.",
+      "explicacion": "Ecuavisa reporta un Concejo sin fecha para tratar las lluvias; Radio Pichincha recoge alcantarillas colapsadas y el COE Metropolitano 37 eventos atendidos y vías habilitadas. La culpa recae en el Municipio, no en la Secretaría.",
       "ids": [
         "15c26e436a",
-        "f55e399370",
         "84441eaf65",
+        "f55e399370",
         "166fec556b",
-        "1f55484cdd",
-        "5c87947764"
-      ]
-    },
-    {
-      "titulo": "Las lluvias destruyen la producción y afectan la economía",
-      "explicacion": "Finanzas Digital y altavoz.pe citan al Banco Mundial sobre impacto económico; El Universo reporta 1.700 hectáreas de cultivos destruidas en Esmeraldas. Riesgo de reclamo por un plan productivo.",
-      "ids": [
-        "d985d95f3f",
-        "68c3a5e6e0",
-        "6086f2c34f",
-        "44cac70866"
+        "01ef4e4a68"
       ]
     }
   ],
   "rumores": [
     {
-      "titulo": "Alerta de El Niño de alta intensidad",
-      "explicacion": "Ecuador Chequea califica de imprecisa una alerta que circula sobre un El Niño de alta intensidad. Respuesta sugerida: difundir el pronóstico oficial vigente del CN-ERFEN e Inamhi (arts. 61 y 72).",
+      "titulo": "Asteroide y terremotos por El Niño",
+      "explicacion": "Un canal de YouTube (44 interacciones) vincula El Niño con terremotos y la caída de un asteroide. Respuesta sugerida: recordar con información oficial qué efectos se esperan de El Niño (lluvias, crecidas), sin amplificar el video.",
+      "ids": [
+        "c08f530474"
+      ]
+    },
+    {
+      "titulo": "Alerta imprecisa de El Niño de alta intensidad",
+      "explicacion": "Ecuador Chequea califica de imprecisa una alerta que circula sobre un El Niño de alta intensidad. Respuesta sugerida: difundir el pronóstico oficial vigente del CN-ERFEN e Inamhi por canales de la Secretaría.",
       "ids": [
         "3947b47203"
       ]
