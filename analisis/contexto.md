@@ -1,37 +1,127 @@
-# Contexto para el análisis de fondo (2026-10-09 17:33, hora de Ecuador)
+# Contexto para el análisis de fondo (2026-10-09 21:37, hora de Ecuador)
 
 Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Cita las piezas por su [id].
 
 ## Cifras: últimas 24 h frente a las 24 h anteriores
 
-- hoy · medios · neutro: 34
-- hoy · medios · positivo: 4
-- hoy · x · critico: 1
-- hoy · x · neutro: 6
-- hoy · x · positivo: 1
+- hoy · medios · neutro: 32
+- hoy · medios · positivo: 5
+- hoy · tiktok · critico: 1
+- hoy · tiktok · positivo: 2
+- hoy · x · critico: 4
+- hoy · x · neutro: 11
+- hoy · x · positivo: 15
 - hoy · youtube · critico: 1
-- hoy · youtube · neutro: 5
-- ayer · medios · critico: 6
-- ayer · medios · neutro: 78
-- ayer · medios · positivo: 1
-- ayer · tiktok · neutro: 3
+- hoy · youtube · neutro: 4
+- hoy · youtube · positivo: 1
+- ayer · medios · critico: 3
+- ayer · medios · neutro: 70
+- ayer · medios · positivo: 2
+- ayer · tiktok · neutro: 2
 - ayer · tiktok · positivo: 3
-- ayer · x · critico: 13
-- ayer · x · neutro: 14
-- ayer · x · positivo: 18
-- ayer · youtube · critico: 4
-- ayer · youtube · neutro: 12
+- ayer · x · critico: 10
+- ayer · x · neutro: 16
+- ayer · x · positivo: 12
+- ayer · youtube · critico: 2
+- ayer · youtube · neutro: 11
 
 ## Narrativas de la corrida anterior
 
-- Coordinación preventiva y entrega de asistencia oficial — 13 piezas; 9 en 24 h vs 4 antes. La Alcaldía de Muisne agradece a @Riesgos_Ec por kits en Cabo San Francisco y Canalón; la Prefectura del Azuay y Gestión de Riesgos atienden Molleturo; Gobernación de Imbabura y CONGOPE muestran articulación. Oportunidad de presencia en territorio, cuidando que la ayuda no se lea como propaganda en campaña.
-- La prevención era tarea de los GAD — 7 piezas; 5 en 24 h vs 2 antes. Tras la entrevista de Carolina en Centro Digital, Wuanplus y el experto Christian Rivera (CORAPE) cuestionan a los GAD; en Portoviejo vecinos esperan medidas. Un usuario lo lee como excusa del Gobierno: riesgo de deslinde si no se ve apoyo subsidiario.
-- Se sabía que venía y no se planificó — 6 piezas; 5 en 24 h vs 1 antes. Usuarios en X (Alberto Espinosa, Eduardo a secas con 11 interacciones) y Recutecu Media con el experto Oswaldo Moreno reclaman que las lluvias se anunciaron hace meses. La culpa se reparte entre Gobierno, Secretaría y municipios: riesgo para la imagen técnica de la Secretaría.
-- La campaña sigue mientras hay damnificados — 5 piezas; 4 en 24 h vs 0 antes. El Diario, Metro Ecuador y El Diario Ecuador informan que el Gobierno descarta aplazar las seccionales; Resumen Latinoamericano lo vinculaba a cálculo político y Radio Pichincha contrasta propaganda con familias desatendidas. Riesgo de que la ayuda se perciba como electoral.
-- Las lluvias empeorarán y no estamos preparados — 7 piezas; 3 en 24 h vs 4 antes. Medios difunden el aviso del CN-ERFEN para el 10-15 de octubre, las tormentas del feriado y titulares como 'lo peor está por venir'. Oportunidad de vocería anticipatoria con recomendaciones concretas antes del pico.
-- La ayuda estatal llega tarde y es insuficiente — 6 piezas; 2 en 24 h vs 3 antes. Radio Pichincha recoge más de 100 familias de Esmeraldas que denuncian ausencia de autoridades y raciones insuficientes; FM Mundo y Diario Extra, la angustia en Isla Luis Vargas Torres y San Gregorio; Wuanplus cuestiona el albergue de 44 camas. Es el mayor riesgo directo para la Secretaría.
+- Coordinación preventiva y entrega de asistencia oficial — 13 piezas; 8 en 24 h vs 5 antes. Hoy la empuja la alerta de tsunami: El Universo atribuye a Carolina la cancelación y otros medios lo replican; antes, Muisne, Prefectura del Azuay y CONGOPE mostraban articulación con la Secretaría. Oportunidad de imagen técnica, cuidando que la ayuda no se lea como campaña.
+- Las lluvias empeorarán y no estamos preparados — 8 piezas; 6 en 24 h vs 2 antes. El Universo (Inamhi, noviembre y diciembre), Diario La Hora (crecidas hasta el 11) y Diario Extra (temor en Santa Ana) sostienen la expectativa de algo peor; Hechos Ecuador Noticias pregunta si el país está preparado. Oportunidad de vocería anticipatoria con recomendaciones concretas.
+- La campaña sigue mientras hay damnificados — 6 piezas; 5 en 24 h vs 1 antes. Metro Ecuador, El Diario y El Diario Ecuador reiteran que el Gobierno descarta aplazar las seccionales; Radio Pichincha contrasta 1,3 millones de expuestos y 368 recintos en riesgo. Riesgo de que la ayuda y la vocería se lean como electorales.
+- Se sabía que venía y no se planificó — 7 piezas; 2 en 24 h vs 5 antes. Usuarios en X (Alberto Espinosa, Eduardo a secas, Rodolfo Escobar) y Recutecu Media con Oswaldo Moreno reclaman que las lluvias se anunciaron hace meses; hoy lo retoman canales de YouTube. La culpa se reparte entre Gobierno, Secretaría y municipios.
+- La ayuda estatal llega tarde y es insuficiente — 7 piezas; 0 en 24 h vs 4 antes. Radio Pichincha, FM Mundo y Diario Extra recogen familias de Esmeraldas sin atención; Wuanplus cuestiona el albergue de 44 camas. Sin piezas nuevas hoy, pero sigue siendo el mayor riesgo directo para la Secretaría.
+- La prevención era tarea de los GAD — 7 piezas; 0 en 24 h vs 7 antes. Tras la entrevista de Carolina en Centro Digital, Wuanplus y Christian Rivera (CORAPE) cuestionan a los GAD y en Portoviejo vecinos esperan medidas. Un usuario lo lee como excusa del Gobierno: riesgo de deslinde si no se ve apoyo subsidiario.
 
-## Piezas de los últimos 3 días (285, de la más reciente a la más antigua)
+## Piezas de los últimos 3 días (319, de la más reciente a la más antigua)
+
+[120ec2eab7] 2026-10-10 02:22 UTC · x · @sucrenoticiasec (SUCRE NOTICIAS) · positivo · Ayuda humanitaria · Esmeraldas · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Alimentos · 3 interacciones
+    Gobierno entrega asistencia humanitaria en Esmeraldas y Bolívar a través de la SNGR.
+    idea: La ayuda humanitaria llega a los afectados
+    El Gobierno del presidente Daniel Noboa, a través de la Secretaría Nacional de Gestión de Riesgos (SNGR), entregó cerca de 1.000 bienes de asistencia humanitaria en Esmeraldas y 212 kits para atender a 71 familias en Las Naves, provincia de Bolívar. . La respuesta combina la entr
+
+[eb859e3d2f] 2026-10-10 02:02 UTC · x · @Radio_i99 (Radio i99) · positivo · Ayuda humanitaria · Esmeraldas · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Alimentos · 2 interacciones
+    Gobierno intensifica asistencia humanitaria en Esmeraldas y Bolívar mediante la SNGR.
+    idea: El Gobierno trabaja en territorio ayudando a los damnificados
+    El Gobierno intensifica la asistencia humanitaria en Esmeraldas y el cantón Las Naves, en la provincia de Bolívar, mediante la entrega de cerca de 1.000 bienes de ayuda en Esmeraldas y 212 kits destinados a familias afectadas por las lluvias en Las Naves. Las acciones incluyen at
+
+[78a4ff53a6] 2026-10-10 01:48 UTC · x · @BlancaCarvajalE (Blanca Carvajal) · positivo · Ayuda humanitaria · Bolívar · aspecto: Coordinación entre instituciones · atribuye a: Secretaría de Gestión de Riesgos · pide: Alimentos · 8 interacciones
+    Ministerios coordinan con la SNGR entrega de kits en Las Naves por desbordamiento.
+    idea: Hay coordinación efectiva entre las instituciones del Estado
+    📍#Bolívar |🤝 En coordinación con @Riesgos_Ec apoyamos en la entrega de kits de asistencia humanitaria a las familias afectadas por el desbordamiento del río Naves Chico, en el cantón Las Naves. #MDHEnTerritorio #GobiernoDelEcuador https://t.co/6SjVaC3hPa
+
+[5336cdf2d3] 2026-10-10 01:43 UTC · youtube · @ (Wilson Pinto) · positivo · Ayuda humanitaria · Bolívar · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Alimentos · 2 interacciones
+    Entrega de ayuda a familias damnificadas en Las Naves
+    Entrega de ayuda a damnificados en Las Naves junto a la Secretaría de Riesgos.
+    idea: La ayuda humanitaria llega a los afectados
+    solidaridad | Se llegó con ayuda a damnificados en Las Naves En #trabajo coordinado con la Secretaría Nacional de Gestión de ...
+
+[72501b9cd9] 2026-10-10 01:28 UTC · tiktok · @riesgos_ec (Riesgos_ec) · positivo · Ayuda humanitaria · Bolívar · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · 30 interacciones
+    SNGR entregó asistencia humanitaria y limpió zonas afectadas en Las Naves.
+    idea: La Secretaría está entregando ayuda humanitaria
+    #SNGRESPONDE | Las Naves, Bolívar La SNGR desarrolló labores de limpieza junto a Jóvenes en Acción y entregó asistencia humanitaria a 71 familias afectadas por las lluvias. Sumamos manos y articulamos acciones para acompañar su recuperación. Llegamos donde más nos necesitan 🇪🇨
+
+[42a9621e59] 2026-10-10 00:53 UTC · x · @jmga1961 (juan govea a) · neutro · Ayuda humanitaria · Bolívar · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Alimentos
+    Gestión de Riesgos entrega kits a familias afectadas por lluvias en Bolívar.
+    Gestión de Riesgos entrega kits a familias afectadas por las lluvias en Bolívar https://t.co/nkQOChDvJ4
+
+[16573ee61c] 2026-10-09 23:36 UTC · x · @pedroobregon (Pedro Obregón) · critico · Lluvias e inundaciones · Guayas · aspecto: Prevención y alertas · atribuye a: Secretaría de Gestión de Riesgos · pide: Maquinaria y limpieza
+    Ciudadano critica que la limpieza de canales y dragado ha estrechado los flujos.
+    idea: Las obras de mitigación están mal hechas
+    @SeguridadeQuito @Riesgos_Ec @ComunidLaAurora @goberguayasec Y siento que las labores de limpieza de canales y dragado ... basura, construcciones lo único que han logrado es estrechar lo que debía ser "amplio y fluir "
+
+[cbaccd052e] 2026-10-09 23:35 UTC · x · @pedroobregon (Pedro Obregón) · critico · Lluvias e inundaciones · Guayas · aspecto: Prevención y alertas · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas
+    Ciudadano expresa preocupación por vivir cerca del río ante posibles inundaciones.
+    idea: Hay temor por desbordamientos cercanos
+    @SeguridadeQuito @Riesgos_Ec @ComunidLaAurora @goberguayasec Me preocupa por que donde vivo lo tengo al Gran Daule a 300mts
+
+[81bf34916b] 2026-10-09 23:31 UTC · x · @porsiemprejusto (Siempre justo!!!) · critico · Respuesta del Gobierno · Pichincha · aspecto: Coordinación entre instituciones · atribuye a: Secretaría de Gestión de Riesgos
+    Cuestiona la preparación del Gobierno y afirma que solo los bomberos municipales actúan.
+    idea: El Gobierno exagera su preparación ante emergencias
+    @DanielNoboaOk Sin ánimo de “Fregar”, los q están preparados son los equipos USAR @BomberosGYE y @BomberosQuito q son Municipales, lo único q hace el gobierno @Riesgos_Ec es dar a veces el transporte aéreo! Por favor NO DIGAS “Estamos preparados” @EcuavisaInforma @Expresoec @tele
+
+[d834ddba14] 2026-10-09 23:30 UTC · medios · El Universo · positivo · Ayuda humanitaria · Bolívar · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Alimentos
+    Gestión de Riesgos entrega kits a familias afectadas por las lluvias en Bolívar
+    Gestión de Riesgos entrega kits a familias afectadas por lluvias en Bolívar.
+    idea: La ayuda humanitaria llega a los afectados
+
+[5dcd9c38fc] 2026-10-09 23:16 UTC · medios · El Comercio · neutro · Lluvias e inundaciones · Pichincha
+    Lluvias y tormentas eléctricas se registran en ocho provincias de Ecuador
+    Se registran lluvias y tormentas eléctricas en ocho provincias de Ecuador.
+
+[4a13d7f514] 2026-10-09 23:06 UTC · x · @MuisneAlcaldia (Alcaldía de Muisne) · positivo · Ayuda humanitaria · Esmeraldas · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Alimentos · 2 interacciones
+    Entregan asistencia humanitaria a familias afectadas por lluvias en Muisne.
+    idea: La ayuda humanitaria llega a los afectados
+    Gracias al presidente @DanielNoboaOk , a @Riesgos_Ec , @MinTrabajoEc y la gestión de nuestra alcaldesa @YuriColoradoEsm, entregamos asistencia humanitaria, a las familias del recinto Boca de Tigua de la parroquia San José de Chamanga, afectadas por las intensas lluvias. #Asistenc
+
+[46d492aefd] 2026-10-09 23:00 UTC · x · @pedroobregon (Pedro Obregón) · critico · Prevención y alertas · Pichincha · aspecto: Prevención y alertas · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas · 3 interacciones
+    Ciudadano advierte que no están preparados para el Fenómeno de El Niño.
+    idea: No estamos preparados para El Niño
+    No vamos a estar preparados para lo que se viene #fenomenoDelNiño #elniño @SeguridadeQuito @Riesgos_Ec @ComunidLaAurora @goberguayasec
+
+[1932483718] 2026-10-09 22:22 UTC · x · @RtpEcuador (RTP Ecuador 96.5 Fm) · positivo · Respuesta del Gobierno · Pichincha · aspecto: Coordinación entre instituciones · atribuye a: Secretaría de Gestión de Riesgos
+    Presidente expresa solidaridad con Panamá y destaca preparación de Ecuador y la Secretaría.
+    idea: El país está preparado para atender emergencias
+    El presidente de Ecuador, Daniel Noboa, expresó su solidaridad con el pueblo panameño tras el terremoto de magnitud 7,6 que sacudió Panamá este viernes 9 de octubre. 🗣️ El mandatario aseguró que Ecuador está preparado para brindar asistencia y colaborar en las labores de atención
+
+[89f56ad7d4] 2026-10-09 22:22 UTC · x · @PortoviejoN (ÚLTIMAS NOTICIAS PORTOVIEJO) · positivo · Ayuda humanitaria · Pichincha · aspecto: Llegada de la ayuda · atribuye a: Gobierno central
+    Ecuador ofrece ayuda a Panamá y la Secretaría de Gestión de Riesgos está atenta.
+    idea: El Gobierno brinda apoyo internacional oportuno
+    Ecuador ofrece ayuda humanitaria a Panamá tras terremoto #QUITO #PICHINCHA El presidente de Ecuador, Daniel Noboa, expresó su solidaridad con Panamá tras el terremoto que causó daños en viviendas, iglesias y otras edificaciones, y puso a disposición la ayuda del Estado ecuatorian
+
+[11b9906b01] 2026-10-09 22:22 UTC · x · @contraluzec_ (Contraluz | Política, Economía y más) · neutro · Ayuda humanitaria · aspecto: Coordinación entre instituciones · atribuye a: Secretaría de Gestión de Riesgos
+    Ecuador se prepara para colaborar tras el terremoto en Panamá con coordinación de la SNGR.
+    Tras el terremoto en Panamá, el presidente Daniel Noboa (@DanielNoboaOk) anunció que #Ecuador está preparado para colaborar en la atención a las familias afectadas. La secretaria nacional de Gestión de Riesgos, Carolina Lozano, informó que la institución está atenta a un llamamie
+
+[708d008922] 2026-10-09 22:11 UTC · x · @BitacoraEc (BitacoraAmbiental) · neutro · Prevención y alertas · Galápagos · aspecto: Prevención y alertas · pide: Información y alertas · 2 interacciones
+    Inocar emite boletín de alerta de tsunami para Galápagos y costa ecuatoriana tras sismo en Panamá.
+    idea: Se activan las alertas por sismo externo
+    ALERTA DE TSUNAMI: GALÁPAGOS Y LA COSTA ECUATORIANA, @inocarec Inocar emitió este viernes 9 de octubre el Boletín de Alerta de Tsunami N.º 01, tras un terremoto registrado en Panamá a las 12:56, hora continental. El documento reporta una magnitud preliminar de 8 y advierte del pe
+
+[02c15042b5] 2026-10-09 22:07 UTC · x · @CorteInforma (Corte Informativo) · neutro · Ayuda humanitaria · aspecto: Coordinación entre instituciones · atribuye a: Secretaría de Gestión de Riesgos
+    Gobierno ofrece apoyo a Panamá y la SNGR está lista para coordinar.
+    #ATENCIÓN | Ecuador está preparado para apoyar a las familias afectadas por el terremoto en Panamá, anunció el presidente @DanielNoboaOk. El mandatario expresó su solidaridad y ofreció colaboración en las labores de atención. La secretaria nacional de Gestión de Riesgos, Carolina
 
 [3285462afa] 2026-10-09 22:01 UTC · medios · El Universo · neutro · Prevención y alertas · Guayas · aspecto: Prevención y alertas · pide: Información y alertas
     Inamhi prevé lluvias más frecuentes e intensas en la Costa para noviembre y diciembre
@@ -41,10 +131,43 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Santa Ana, entre inundaciones más frecuentes y el temor a otro invierno devastador
     Santa Ana enfrenta inundaciones frecuentes y temor al invierno.
 
+[3ee2fbeb72] 2026-10-09 21:38 UTC · x · @24_7ec (Veinticuatro-Siete) · positivo · Prevención y alertas · Galápagos · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas · 3 interacciones
+    Gestión de Riesgos e Inocar cancelan alerta de tsunami para la costa ecuatoriana.
+    idea: Las alertas se comunican de forma oportuna
+    🚨 ¡ #ATENCIÓN ECUADOR! CANCELAN LA ALERTA DE TSUNAMI TRAS EL TERREMOTO DE 7.7 EN PANAMÁ 🌊⚠️🇪🇨 La Secretaría de Gestión de Riesgos y el Instituto Oceanográfico y Antártico de la Armada (Inocar) confirmaron de manera oficial la cancelación de la alerta de tsunami que se había emiti
+
+[7cb64ef333] 2026-10-09 21:37 UTC · medios · Ecuavisa · positivo · Respuesta del Gobierno · aspecto: Rapidez de la respuesta · atribuye a: Gobierno central
+    Daniel Noboa ofrece ayuda a Panamá tras terremoto de 7,6 grados
+    El presidente Daniel Noboa ofrece ayuda a Panamá tras terremoto.
+    idea: El Gobierno actúa con solidaridad internacional
+
 [2ee8b5a051] 2026-10-09 21:29 UTC · medios · El Universo · positivo · Respuesta del Gobierno · aspecto: Presencia en territorio · atribuye a: Gobierno central
     Daniel Noboa se pronuncia sobre terremoto en Panamá: “Ecuador está preparado para brindar ayuda y colaborar”
     Daniel Noboa afirma que Ecuador está preparado para colaborar.
     idea: El Gobierno demuestra capacidad de respuesta y liderazgo
+
+[8f3a2123bb] 2026-10-09 21:07 UTC · x · @Estebanvidal10 (Contexto_ec) · neutro · Prevención y alertas · Galápagos · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas · 3 interacciones
+    Secretaria de Gestión de Riesgos confirma cancelación de alerta de tsunami.
+    #Tsunami | Secretaria de Gestión de Riesgos, Carolina Lozano, confirmó la cancelación de la alerta de tsunami para la costa continental y Galápagos tras el sismo de 7.7 en Panamá. El riesgo ha finalizado, aunque podrían registrarse pequeñas fluctuaciones del mar. 🌊🇪🇨 https://t.co
+
+[e52e8297c0] 2026-10-09 20:58 UTC · x · @elnoticierotc (El Noticiero) · neutro · Prevención y alertas · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas
+    Carolina Lozano confirma cancelación de alerta de tsunami en la costa.
+    Carolina Lozano, secretaria de Gestión de Riesgos, confirmó la cancelación del estado de alerta de tsunami para la costa ecuatoriana. Más información en https://t.co/PDokzBolVH https://t.co/BAV4cy5Jmx
+
+[f794f46d15] 2026-10-09 20:57 UTC · x · @carolozanohok (Carolina Lozano) · positivo · Prevención y alertas · aspecto: Liderazgo de Carolina Lozano · atribuye a: Carolina Lozano · 14 interacciones
+    Carolina Lozano destaca atención y seguimiento al llamamiento internacional desde Panamá.
+    idea: La Secretaría está atenta y presta a colaborar
+    Desde la Secretaría Nacional de Gestión de Riesgos, en cumplimiento de la disposición del señor Presidente, estamos atentos al llamamiento internacional por parte de Panamá.
+
+[7dc2b4ba5e] 2026-10-09 20:45 UTC · x · @visionariasec (Visionarias) · positivo · Prevención y alertas · Galápagos · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos · 6 interacciones
+    Inocar e Inocar/Secretaría confirman la cancelación de la alerta de tsunami para Ecuador.
+    idea: Las autoridades informan con rapidez y claridad
+    #MiradaNacionalEC | El Inocar canceló este viernes 9 de octubre la alerta de tsunami para las costas ecuatorianas, tras evaluar el terremoto de magnitud 7,7 registrado en Panamá. La Secretaría Nacional de Gestión de Riesgos confirmó que el riesgo ha finalizado tanto en el territo
+
+[669eceeaec] 2026-10-09 20:39 UTC · x · @PNUDEcuador (PNUD Ecuador) · positivo · Prevención y alertas · Esmeraldas · aspecto: Prevención y alertas · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas · 4 interacciones
+    Arranca iniciativa Prepárate Esmeraldas junto a la UE y la Secretaría de Riesgos.
+    idea: Se fortalece la preparación comunitaria ante desastres
+    Arranca #PrepárateEsmeraldas💚, una iniciativa que fortalece la preparación ante desastres en la provincia, impulsando capacidades institucionales y comunitarias para construir una Esmeraldas más preparada ante emergencias. 🤝@eu_echo y @Riesgos_Ec . Más🔗 https://t.co/VtcGVN6WDL ht
 
 [43a4bd3a42] 2026-10-09 20:30 UTC · medios · Diario Extra · positivo · Prevención y alertas · aspecto: Rapidez de la respuesta · atribuye a: Gobierno central
     Ecuador cancela la alerta de tsunami tras el terremoto de 7,7 en Panamá
@@ -56,15 +179,62 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: El pueblo debe organizarse ante la emergencia
     Ante todo esto, del pueblo en la indefensión, debemos actuar. Gracias por esta entrevista muy instructiva. Sólo el pueblo salva al pueblo dice un dicho popular, y cuánta razón tiene! Manos a la obra, retomemos las mingas, la comunicación entre el barrio y claro, la organización.
 
+[64558d9afb] 2026-10-09 20:28 UTC · x · @_Joham_ (Joham Mejía) · positivo · Prevención y alertas · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos · 11 interacciones
+    Secretaría de Riesgos e Inocar descartan tsunami en Ecuador.
+    idea: La Secretaría descarta riesgos oportunamente
+    Secretaría de Riesgos e INOCAR ya descartan tsunami en Ecuador
+
+[fd7d440ff6] 2026-10-09 20:22 UTC · x · @LosOutsidersEC (Outsiders) · positivo · Prevención y alertas · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos · 5 interacciones
+    La Secretaría de Riesgos descarta amenaza de tsunami.
+    idea: La Secretaría descarta riesgos oportunamente
+    La Secretaría de Riesgos descarta amenaza de tsunami
+
+[b5ef70a042] 2026-10-09 20:17 UTC · x · @wq_radio (WQ Radio) · positivo · Prevención y alertas · Galápagos · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas · 1 interacciones
+    Inocar cancela alerta de tsunami y Secretaría recomienda precaución.
+    idea: Las autoridades informan con rapidez y claridad
+    🌊🇪🇨 El Instituto Oceanográfico y Antártico de la Armada (INOCAR) informó que se canceló la alerta de tsunami para Ecuador, luego del terremoto de magnitud 7,6 registrado en Panamá este viernes 9 de octubre. Según el organismo, ya no existe riesgo de tsunami para la costa continen
+
+[0b622167a5] 2026-10-09 20:14 UTC · x · @kchradio (KCH RADIO 90.9FM) · neutro · Prevención y alertas · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas · 1 interacciones
+    Carolina Lozano confirma el fin del riesgo de tsunami en el perfil costero.
+    Carolina Lozano confirmó la cancelación de la alerta de tsunami para las costas continentales e insulares de Ecuador. El riesgo finalizó, aunque algunas costas podrían registrar pequeñas fluctuaciones del nivel del mar durante varias horas. https://t.co/ZRdy2S35Kw
+
 [d6bdaf0be2] 2026-10-09 20:14 UTC · medios · El Comercio · neutro · Prevención y alertas · aspecto: Comunicación e información · atribuye a: Gobierno central · pide: Información y alertas
     Estos países generaron alerta de tsunami. Ecuador y otros dos ya cancelaron
     Ecuador cancela alerta de tsunami tras sismo en la región.
     idea: La alerta fue cancelada a tiempo
 
+[c5aaa616a6] 2026-10-09 20:13 UTC · x · @dedoenlallagaec (Con el dedo en la llaga) · neutro · Prevención y alertas · aspecto: Prevención y alertas · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas · 5 interacciones
+    Terremoto en Panamá activa alerta preventiva en Ecuador que luego es cancelada por Inocar y Secretaría.
+    idea: Se activan las alertas por sismo externo
+    🚨 #URGENTE | Un terremoto de magnitud 7,7 sacudió Panamá este viernes 9 de octubre de 2026, lo que llevó a las autoridades ecuatorianas a activar una alerta preventiva por posible tsunami en las costas del país. El sismo se registró a las 12:56 y tuvo su epicentro cerca de Pitalo
+
+[aa1b7b5883] 2026-10-09 20:06 UTC · x · @onlypanasec (Only Panas) · positivo · Prevención y alertas · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas
+    Gestión de Riesgos descarta amenaza de tsunami en Ecuador y pide canales oficiales.
+    idea: La Secretaría comunica oficialmente y calma a la ciudadanía
+    #AlertaPanas GESTIÓN DE RIESGOS DESCARTA AMENAZA DE TSUNAMI EN ECUADOR TRAS TERREMOTO EN PANAMÁ, la Secretaría Nacional de Gestión de Riesgos difundió un comunicado en el que señala que no existe amenaza de tsunami para el país tras el fuerte sismo registrado frente a las costas 
+
+[f44e0ad0ee] 2026-10-09 20:02 UTC · x · @ProducirOrganic (Checa Produce) · neutro · Prevención y alertas · aspecto: Prevención y alertas · atribuye a: Secretaría de Gestión de Riesgos · 1 interacciones
+    Mensaje de solidaridad con Panamá etiquetando a Riesgos Ecuador.
+    Solidaridad con Panama! 🇵🇦 🇵🇦@CruzRojaPanama @ONU_es @UNICEF Precaución @Riesgos_Ec @Presidencia_Ec @cruzrojaecuador
+
+[c06a3a1fc0] 2026-10-09 19:57 UTC · x · @DixonMoreira4 (Dixon Moreira) · positivo · Prevención y alertas · aspecto: Liderazgo de Carolina Lozano · atribuye a: Secretaría de Gestión de Riesgos
+    Ciudadano aplaude la gestión de Riesgos y de Carolina Lozano.
+    idea: La labor de la Secretaría es excelente
+    @Riesgos_Ec @carolozanohok 👏👏
+
+[289ceda48e] 2026-10-09 19:56 UTC · x · @el_telegrafo (El Telégrafo Ecuador) · neutro · Prevención y alertas · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas · 7 interacciones
+    La Secretaría de Riesgos descartó tsunami tras sismo en Panamá.
+    idea: Las alertas se comunican a tiempo
+    #Noticias | La Secretaría de Riesgos descartó un posible tsunami ante terremoto en Panamá. #LéaloEnET: https://t.co/odIbhqg6lH https://t.co/9QXBek7HT5
+
 [4e3a4ade30] 2026-10-09 19:38 UTC · medios · expreso.ec · neutro · Prevención y alertas · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos
     Cancelan la alerta de tsunami en Ecuador tras el terremoto en Panamá
     Se cancela la alerta de tsunami en Ecuador luego del terremoto en Panamá.
     idea: La alerta de tsunami ha finalizado
+
+[ba953bfb0e] 2026-10-09 19:29 UTC · x · @eluniversocom (El Universo) · neutro · Prevención y alertas · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas · 2 interacciones
+    Carolina Lozano anuncia la cancelación de la alerta de tsunami para Ecuador.
+    #Atención | Carolina Lozano anuncia la cancelación de la alerta de tsunami para Ecuador https://t.co/kN04eMo9UZ
 
 [61b3a2911d] 2026-10-09 19:27 UTC · medios · El Universo · positivo · Prevención y alertas · aspecto: Comunicación e información · atribuye a: Carolina Lozano
     Carolina Lozano anuncia la cancelación de la alerta de tsunami para Ecuador
@@ -87,7 +257,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: Hay millones de personas en zonas de riesgo
     Mientras 1,3 millones de personas están en riesgo por las lluvias, el CNE no descarta la suspensión o aplazamiento del proceso electoral a 368 recintos en zonas vulnerables. La aproximación de la temporada de lluvias asociada al Fenómeno El Niño mantiene en alerta a las autoridad
 
-[eec0073994] 2026-10-09 18:30 UTC · youtube · @ (Convergente Tv) · neutro · Energía y servicios · 2 interacciones
+[eec0073994] 2026-10-09 18:30 UTC · youtube · @ (Convergente Tv) · neutro · Energía y servicios · 5 interacciones
     Ecuador enfrenta una nueva amenaza económica.
     Video sobre el inicio del fenómeno de El Niño y sus amenazas económicas.
     Ecuador enfrenta una nueva amenaza económica: El Niño comienza a desarrollarse. #fenomenodelniño #energia ...
@@ -106,7 +276,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Video de análisis sobre la preparación de Ecuador ante El Niño.
     idea: Faltan datos claros sobre la preparación estatal
 
-[7d3ea56705] 2026-10-09 17:30 UTC · youtube · @ (Hechos Ecuador Noticias) · critico · Prevención y alertas · aspecto: Prevención y alertas · atribuye a: Gobierno central · pide: Información y alertas · 29 interacciones
+[7d3ea56705] 2026-10-09 17:30 UTC · youtube · @ (Hechos Ecuador Noticias) · critico · Prevención y alertas · aspecto: Prevención y alertas · atribuye a: Gobierno central · pide: Información y alertas · 32 interacciones
     🔴 ¡ECUADOR EN ALERTA! ¿ESTAMOS PREPARADOS PARA LA FURIA DE EL NIÑO?
     Transmisión que cuestiona si Ecuador está preparado para El Niño.
     idea: El país no está preparado para la emergencia
@@ -121,6 +291,11 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Tormentas y lluvias en Ecuador: alerta para el 9 de octubre
     Alerta por tormentas y lluvias para el 9 de octubre en Ecuador.
     idea: Se pronostican lluvias fuertes
+
+[2511744f9b] 2026-10-09 16:55 UTC · medios · El Diario Ecuador · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas
+    Tormentas y lluvias en Ecuador: alerta para el 9 de octubre
+    Tormentas y lluvias en Ecuador con alerta emitida para el 9 de octubre.
+    idea: Hay alertas vigentes por tormentas
 
 [61c03bcdde] 2026-10-09 16:31 UTC · medios · expreso.ec · neutro · Lluvias e inundaciones
     Clima en Ecuador durante el feriado del 9 de octubre: zonas con lluvias y tormentas
@@ -165,6 +340,11 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Cotopaxi reporta primeras lluvias pero mantiene alta radiación y sequía.
     idea: Hay lluvias pero persiste la sequía
 
+[a7483ed8bf] 2026-10-09 13:27 UTC · tiktok · @sandralucio60 (Comentario en TikTok) · critico · Prevención y alertas · aspecto: Prevención y alertas · atribuye a: Gobierno central · pide: Maquinaria y limpieza · 2 interacciones
+    Critica falta de limpieza de alcantarillas antes del invierno.
+    idea: Falta limpieza de alcantarillas y prevención
+    pero saben que viene el invierno,, por qué no limpian todas las alcantarillas tapadas deberían prepararse para el invierno,,, osea los ecuatorianos en estados unidos se mueren viendo eso ,,, cada año no es lo mismo el invierno es muy diferente ay que estar a alerta y no almirarse
+
 [207617eb08] 2026-10-09 12:43 UTC · medios · El Diario Ecuador · neutro · Política y críticas · atribuye a: Gobierno central
     Gobierno descarta aplazar elecciones seccionales por El Niño
     Se ratifica que las elecciones seccionales no se aplazarán a pesar del fenómeno El Niño.
@@ -172,6 +352,10 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
 [faa26cb8f1] 2026-10-09 12:43 UTC · medios · El Diario Ecuador · neutro · Política y críticas · aspecto: Prevención y alertas · atribuye a: Gobierno central
     Gobierno descarta aplazar las elecciones seccionales pese a advertencias del CNE sobre la llegada de fenómeno El Niño
     Gobierno descarta aplazar elecciones a pesar de advertencias por El Niño.
+
+[416431635e] 2026-10-09 12:05 UTC · medios · El Universo · neutro · Lluvias e inundaciones · Guayas
+    Guayaquil tendrá una máxima de 32 °C y lluvias durante la noche este 9 de octubre
+    Pronóstico del clima en Guayaquil con lluvias nocturnas.
 
 [48007ce1b6] 2026-10-09 12:01 UTC · medios · Fenavi de Venezuela · neutro · Agricultura y producción
     Banco Mundial alerta que El Niño impactará la inflación de Ecuador, Paraguay y Argentina
@@ -200,6 +384,15 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Video sobre la importancia de la comunicación y la información en la gestión de riesgos.
     idea: La información es vital para salvar vidas
     COMUNICAR PARA SALVAR VIDAS: EL PODER DE LA INFORMACIÓN EN LA GESTIÓN DE RIESGOS ▶️ ¿Puede una noticia ...
+
+[b306a6f1d5] 2026-10-09 03:46 UTC · tiktok · @riesgos_ec (Riesgos_ec) · positivo · Ayuda humanitaria · Esmeraldas · aspecto: Presencia en territorio · atribuye a: Secretaría de Gestión de Riesgos · 104 interacciones
+    SNGR entregó asistencia humanitaria a familias en San Mateo, Esmeraldas.
+    idea: La Secretaría está en el territorio
+    #SNGRResponde | Estamos junto a las familias de San Mateo, Esmeraldas. 🤝 El Gobierno Nacional, a través de la SNGR, entregó asistencia humanitaria para atender las necesidades de la población afectada por las lluvias. Nos mantenemos con presencia territorial y cerca de quienes má
+
+[4eb8e06ce4] 2026-10-09 03:15 UTC · medios · Ecuavisa · neutro · Energía y servicios · El Oro
+    Camaroneras y mineras de El Oro recurren a generadores ante la desconexión industrial
+    Sectores productivos recurren a generadores ante desconexión eléctrica.
 
 [03e1ba9376] 2026-10-09 02:43 UTC · medios · El Diario · neutro · Política y críticas · atribuye a: Gobierno central
     Gobierno descarta aplazar las elecciones seccionales pese a advertencias del CNE sobre la llegada de fenómeno El Niño
@@ -272,12 +465,17 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Detalles sobre cómo acceder al Bono de Contingencia de $284 para afectados por lluvias en Ecuador.
     idea: El Gobierno entrega bonos a los afectados
 
+[ff42b891d7] 2026-10-08 22:43 UTC · tiktok · @aniana736 (Comentario en TikTok) · positivo · Respuesta del Gobierno · aspecto: Coordinación entre instituciones · atribuye a: Gobierno central
+    Indica que se requiere colaboración ciudadana además del trabajo gubernamental.
+    idea: Se necesita colaboración ciudadana y estatal
+    si la gente no colabora así haya gobiernos q trabajen imposible
+
 [51b51762d5] 2026-10-08 22:40 UTC · medios · El Comercio · neutro · Energía y servicios · Pichincha
     Metro de Quito explica si habrá cierres ante nuevas tormentas
     El Metro de Quito explica si habrá cierres ante nuevas tormentas y granizo.
     Metro de Quito explica si podrá mantener el servicio ante nuevas tormentas de granizo y aluviones.
 
-[df72a4fa33] 2026-10-08 22:34 UTC · youtube · @ (ULEAM RADIO) · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas · 10 interacciones
+[df72a4fa33] 2026-10-08 22:34 UTC · youtube · @ (ULEAM RADIO) · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas · 13 interacciones
     Alerta por El Niño del 10 al 15 de octubre se prevé intensas lluvias en las costas de Ecuador
     Se prevén intensas lluvias en las costas de Ecuador del 10 al 15 de octubre.
     idea: Hay alertas vigentes por lluvias intensas
@@ -436,7 +634,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Emergencia en Molleturo: desbordamiento de ríos deja varios daños
     Desbordamiento de ríos causa daños en Molleturo.
 
-[5c90fb5808] 2026-10-08 18:53 UTC · youtube · @ (DNews) · neutro · Lluvias e inundaciones · Pichincha · pide: Vías y puentes · 84 interacciones
+[5c90fb5808] 2026-10-08 18:53 UTC · youtube · @ (DNews) · neutro · Lluvias e inundaciones · Pichincha · pide: Vías y puentes · 86 interacciones
     🇪🇨 Caos por El Niño: emergencia en Esmeraldas e inédita granizada en Quito | DNews
     Informe sobre emergencias por lluvias en Esmeraldas y granizada en Quito.
     Ecuador #ElNiño #Quito 0:00 Inédita granizada colapsa vías y el metro en Quito 1:48 Esmeraldas declara estado de emergencia ...
@@ -445,12 +643,12 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Detalles sobre los pagos y cupos del programa Jóvenes en Acción en instituciones públicas.
     ¡Hola! Gracias por la referencia 👋 Jóvenes en Acción paga USD 400 mensuales a jóvenes de 18 a 29 años por realizar actividades en instituciones públicas. Según fuentes oficiales, en la primera edición (desde noviembre de 2024) participaron 75.467 jóvenes en tareas como reforestac
 
-[50bafd2d71] 2026-10-08 18:39 UTC · youtube · @@Wuanplusads (Wuanplus Ads) · neutro · Prevención y alertas · aspecto: Prevención y alertas · atribuye a: Gobierno central · pide: Albergue
+[50bafd2d71] 2026-10-08 18:39 UTC · youtube · @@Wuanplusads (Wuanplus Ads) · neutro · Prevención y alertas · aspecto: Prevención y alertas · atribuye a: Gobierno central · pide: Albergue · 1 interacciones
     Encuesta sobre la responsabilidad de los albergues entre los GADs y el Gobierno.
     idea: La responsabilidad de los albergues se debate entre el Gobierno y los GADs
     ¿Consideras que la falta de albergues equipados es negligencia de los alcaldes y prefecturas (GADs) o del Gobierno Central ante la emergencia invernal? ¡Queremos leer tu punto de vista en los comentarios!
 
-[67cb12876e] 2026-10-08 18:38 UTC · youtube · @ (Wuanplus Ads) · critico · Ayuda humanitaria · Esmeraldas · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Albergue · 56 interacciones
+[67cb12876e] 2026-10-08 18:38 UTC · youtube · @ (Wuanplus Ads) · critico · Ayuda humanitaria · Esmeraldas · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Albergue · 61 interacciones
     "¿UN ALBERGUE DE 44 CAMAS EN ESMERALDAS?": la pregunta clave para Gestión de Riesgos
     Cuestionan la capacidad de un albergue pequeño en Esmeraldas frente a la Secretaría.
     idea: Los albergues habilitados son insuficientes para la emergencia
@@ -616,6 +814,10 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Entrevista sobre las afectaciones al sector turismo por el fenómeno de El Niño.
     entrevistanotihoy Raúl García Vicepresidente de la Cámara de turismo de Pichincha-Afectaciones al turismo por el Fenómeno de ...
 
+[4bc38e0db4] 2026-10-08 13:57 UTC · tiktok · @sandra.huilcapi (Comentario en TikTok) · neutro · Lluvias e inundaciones
+    Comentario sobre variaciones de lluvia en el sur.
+    que cosas. 😱 y por el sur apenas si llovió
+
 [edb622d44d] 2026-10-08 13:52 UTC · medios · expreso.ec · neutro · Lluvias e inundaciones · Esmeraldas
     Lluvias en Ecuador dejan más de 16.000 afectados en Esmeraldas, Guayas y Manabí
     Lluvias en Ecuador dejan más de 16.000 afectados en varias provincias.
@@ -728,6 +930,10 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Inamhi prevé tormentas eléctricas en Quito y tres ciudades de la Costa.
     idea: Pronósticos meteorológicos advierten nuevas tormentas
 
+[0eed9d5d2a] 2026-10-08 11:42 UTC · tiktok · @chinitamercedes3 (Comentario en TikTok) · positivo · Lluvias e inundaciones · 2 interacciones
+    Comentario positivo sobre la lluvia como bendición.
+    Ermoso es una bendición 🙏🙏🙏 de Dios
+
 [2525cee4a4] 2026-10-08 11:39 UTC · medios · El Diario · critico · Lluvias e inundaciones · Manabí · atribuye a: Municipio o Prefectura
     Portoviejo activa monitoreo ante posibles crecientes del río por las lluvias
     Portoviejo activa monitoreo por lluvias, pero vecinos reclaman falta de prevencion.
@@ -749,7 +955,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Una fuerte granizada cubre de blanco las calles de Quito, Ecuador
     Fuerte granizada cubre las calles de Quito.
 
-[e67c78f5d7] 2026-10-08 07:10 UTC · tiktok · @carlosvera_r (Carlos Vera R.) · positivo · Prevención y alertas · Guayas · aspecto: Prevención y alertas · atribuye a: Carolina Lozano · 18 interacciones
+[e67c78f5d7] 2026-10-08 07:10 UTC · tiktok · @carlosvera_r (Carlos Vera R.) · positivo · Prevención y alertas · Guayas · aspecto: Prevención y alertas · atribuye a: Carolina Lozano · 19 interacciones
     Carolina Lozano detalla millones ejecutados en prevencion, kits y escuelas reforzadas.
     idea: El Gobierno invierte en prevencion a tiempo
     “El Gobierno central ejecuta $656 millones en prevención y respuesta: 150.000 kits en bodegas de Gestión de Riesgos, el 80% de 264 centros educativos ya reforzados y seguro agrícola activo.” Carolina Lozano - Secretaria Nacional de Gestión de Riesgos Del Día a la Noche por Radio 
@@ -807,7 +1013,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Lluvias de alta intensidad y un incremento del nivel del mar: las alertas a considerar ante la llegada de El Niño, según experto oceanográfico
     Expertos advierten sobre lluvias e incremento del nivel del mar por El Niño.
 
-[c169cc7924] 2026-10-08 02:33 UTC · tiktok · @rodneypallo7 (🧨Rodney Pallo🧨) · neutro · Lluvias e inundaciones · Pichincha · 7 interacciones
+[c169cc7924] 2026-10-08 02:33 UTC · tiktok · @rodneypallo7 (🧨Rodney Pallo🧨) · neutro · Lluvias e inundaciones · Pichincha · 37 interacciones
     Registro visual de condiciones climaticas en Quito por fenomeno de El Nino.
     La Capital de Ecuador #Quito en estos momentos \ud83d\ude31\ud83d\ude31 #fenomenodelniño
 
@@ -894,7 +1100,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Comentario sarcástico en redes etiquetando a la Secretaría de Riesgos.
     @alfredovelazco @Riesgos_Ec @UNDRR_Americas La vibecodeo y lo hacemos viral ahahah soy candidato a alcalde.
 
-[636c121803] 2026-10-08 01:06 UTC · tiktok · @riesgos_ec (Riesgos_ec) · positivo · Ayuda humanitaria · Esmeraldas · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Alimentos · 111 interacciones
+[636c121803] 2026-10-08 01:06 UTC · tiktok · @riesgos_ec (Riesgos_ec) · positivo · Ayuda humanitaria · Esmeraldas · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Alimentos · 119 interacciones
     La SNGR entrega asistencia humanitaria a familias en Esmeraldas.
     idea: La Secretaría está en el territorio
     #SNGRResponde | En Pianguapí, Esmeraldas, acompañamos a las familias con asistencia humanitaria y presencia en territorio. Desde el Gobierno Nacional, a través de la SNGR, atendemos las necesidades de la comunidad. 💛 Llegamos donde más nos necesitan.
@@ -929,7 +1135,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Carolina Lozano señala que la prevención de El Niño es responsabilidad de los GADs.
     #ENTREVISTA | Carolina Lozano, secretaria nacional de Gestión de Riesgos, señaló que la preparación frente al fenómeno de El Niño es responsabilidad de los gobiernos autónomos descentralizados cantonales y provinciales, en entrevista con @CarlosVerareal cuestionó el nivel de cump
 
-[a8b583b084] 2026-10-07 23:54 UTC · tiktok · @fernandocayambe (Fernandocayambe) · neutro · Lluvias e inundaciones · Pichincha · 38 interacciones
+[a8b583b084] 2026-10-07 23:54 UTC · tiktok · @fernandocayambe (Fernandocayambe) · neutro · Lluvias e inundaciones · Pichincha · 55 interacciones
     Reporte de clima frio y granizado en Quito.
     Alarmante noticia en quito ECUADOR 🇪🇨 #nieve #quito_ecuador🇪🇨 #frio #granizado
 
@@ -1177,6 +1383,10 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     FMI prepara apoyo para países vulnerables por impacto del fenómeno de El Niño
     FMI prepara apoyo financiero para países vulnerables por impacto de El Niño.
 
+[ffd077b389] 2026-10-07 15:18 UTC · tiktok · @notidigital2 (Noti-Digital) · neutro · Prevención y alertas · Manabí · aspecto: Prevención y alertas · atribuye a: Secretaría de Gestión de Riesgos · pide: Información y alertas · 5 interacciones
+    Manabí refuerza su preparación ante El Niño con 15 COEs activos según Gestión de Riesgos.
+    Manabí refuerza su preparación ante las lluvias asociadas al fenómeno de El Niño. Según información de Gestión de Riesgos, 15 cantones mantienen activos sus Comités de Operaciones de Emergencia para coordinar acciones preventivas y atender posibles afectaciones. Las autoridades c
+
 [8d13296cda] 2026-10-07 15:17 UTC · medios · Ecuador 221 · neutro · Agricultura y producción
     Economía ecuatoriana crecerá 2,8% en 2026 pese a riesgos por El Niño
     Se proyecta un crecimiento económico de 2,8% en 2026 a pesar de los riesgos del fenómeno El Niño.
@@ -1300,48 +1510,3 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Alerta por aparición de reptiles y fauna silvestre por las lluvias | Televistazo | Ecuavisa
     Reportan inundaciones y aparición de fauna silvestre por lluvias y desbordamiento de río en Manabí.
     Noticias de Ecuador 6 de octubre del 2026 – El desbordamiento del río Sucio inundó cerca de 65 viviendas 00:00 - Fuertes ...
-
-[0c1fbd03e4] 2026-10-07 02:12 UTC · medios · Primicias · neutro · Deslaves y vías · Tungurahua · aspecto: Presencia en territorio · atribuye a: Bomberos y Cruz Roja
-    Incendio forestal en Ambato moviliza a bomberos de dos cantones y afecta siete hectáreas
-    Bomberos atienden incendio forestal en Ambato que afectó siete hectáreas.
-
-[43aa9f28e9] 2026-10-07 02:01 UTC · medios · ReliefWeb · neutro · Lluvias e inundaciones · aspecto: Comunicación e información · atribuye a: Secretaría de Gestión de Riesgos
-    ECU: Inundación - 10-2026 - Inundaciones por enos 2026 (2026-10-07)
-    Registro oficial de inundaciones asociadas al fenómeno El Niño 2026.
-
-[765453ba3b] 2026-10-07 01:45 UTC · medios · Prensa Mercosur · positivo · Agricultura y producción
-    La economía de Ecuador crecerá 2,8% en 2026 pese a riesgos por El Niño
-    Estiman que la economía de Ecuador crecerá 2,8% en 2026 pese a riesgos por El Niño.
-
-[b4550bb613] 2026-10-07 01:33 UTC · medios · FM Mundo · critico · Afectados y damnificados · Esmeraldas · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Albergue · ALERTA
-    Isla Luis Vargas Torres, en Esmeraldas, es una de las zonas más afectadas por las lluvias: 3.500 familias están bajo el agua
-    Miles de familias afectadas por inundaciones en Isla Luis Vargas Torres.
-    idea: Hay miles de familias bajo el agua sin asistencia
-
-[7a3e5831d3] 2026-10-07 01:26 UTC · tiktok · @riesgos_ec (Riesgos_ec) · positivo · Ayuda humanitaria · aspecto: Llegada de la ayuda · atribuye a: Secretaría de Gestión de Riesgos · pide: Alimentos · 102 interacciones
-    Gobierno y SNGR entregan asistencia humanitaria por lluvias.
-    idea: La ayuda humanitaria llega a los afectados
-    Entregamos asistencia humanitaria a quienes enfrentan las afectaciones de las lluvias. Como Gobierno Nacional, fortalecemos la respuesta en territorio con atención a sus necesidades. Llegamos donde más nos necesitan 🇪🇨
-
-[3702e0dd92] 2026-10-07 00:46 UTC · medios · Primicias · neutro · Agricultura y producción
-    El sector florícola creció 2,7% hasta julio, pero la sequía en la Sierra afecta la producción
-    La sequía en la Sierra afecta la producción del sector florícola.
-    idea: La sequía perjudica la producción agrícola
-
-[59c7369abd] 2026-10-06 23:48 UTC · medios · eltelegrafo.com.ec · neutro · Otro · Galápagos
-    El Niño altera el océano en Galápagos y abre preguntas sobre la ruta de las ballenas azules
-    El Niño altera el océano en Galápagos y afecta la ruta de las ballenas.
-
-[b70b857bd5] 2026-10-06 23:08 UTC · tiktok · @eqradio593 (EQRADIO 593 - EQ593) · positivo · Prevención y alertas · aspecto: Prevención y alertas · atribuye a: Gobierno central · 31 interacciones
-    Anuncio sobre participacion de jovenes en actividades de gestion de riesgos.
-    idea: Se mobilizan jovenes para la prevencion
-    \ud83c\uddea\ud83c\udde8 200 mil jóvenes apoyarán en gestión de riesgos ante una posible emergencia. Daniel Noboa anunció que 200.000 jóvenes de Jóvenes en Acción realizarán actividades de gestión de riesgos ante una eventual emergencia por El Niño. Auspician: @NANNYS HOME \ud83e
-
-[1f591d933a] 2026-10-06 22:41 UTC · medios · Primicias · neutro · Prevención y alertas · Pichincha · aspecto: Prevención y alertas · pide: Información y alertas
-    Fenómeno de El Niño: 321 barrios de Quito tienen riesgo de sufrir inundaciones por fuertes lluvias
-    Cientos de barrios en Quito tienen riesgo de inundaciones por lluvias.
-    idea: Existen zonas en riesgo de inundación
-
-[18bea3f641] 2026-10-06 22:40 UTC · medios · El Comercio · neutro · Agricultura y producción
-    La economía de Ecuador crecerá 2,8% en 2026 pese a riesgos por El Niño
-    La economía ecuatoriana crecerá un 2,8% en 2026 a pesar del impacto de El Niño.
