@@ -1,73 +1,165 @@
 {
   "vinetas": [
-    "Tsunami por sismo en Panamá: El Universo destaca que Carolina anunció la cancelación; medios citan magnitud 7,6 o 7,7.",
-    "Conversación cae en el feriado: 38 notas de medios en 24 h frente a 85; piezas críticas, de 23 a 2.",
-    "Radio Pichincha: 1,3 millones expuestos y CNE no descarta suspender 368 recintos; Gobierno descarta aplazar las seccionales.",
-    "YouTube: Hechos Ecuador Noticias (29 interacciones) cuestiona la preparación; El Universo: Inamhi prevé lluvias más intensas en la Costa."
+    "Panamá: El Universo destaca que Carolina anunció la cancelación del tsunami; magnitudes citadas difieren: 7,6, 7,7 u 8 preliminar.",
+    "Feriado baja el volumen: 37 notas de medios en 24 h frente a 75; piezas críticas, de 15 a 6.",
+    "Sucre Noticias: la SNGR entregó 212 kits a 71 familias en Las Naves y cerca de 1.000 bienes en Esmeraldas.",
+    "En X, @porsiemprejusto responde a Noboa que solo bomberos municipales están preparados; Pedro Obregón teme crecida del Daule."
   ],
   "fuentes_vinetas": [
-    ["61b3a2911d", "d8d8f66569", "0de7116d30", "cd27688781", "43a4bd3a42"],
+    [
+      "61b3a2911d",
+      "7cb64ef333",
+      "cd27688781",
+      "708d008922"
+    ],
     [],
-    ["e768ef5d02", "04de9be09c", "03e1ba9376"],
-    ["7d3ea56705", "3285462afa"]
+    [
+      "120ec2eab7",
+      "eb859e3d2f",
+      "72501b9cd9",
+      "d834ddba14"
+    ],
+    [
+      "81bf34916b",
+      "2ee8b5a051",
+      "46d492aefd",
+      "cbaccd052e"
+    ]
   ],
   "acciones": [
     {
       "accion": "Difundir por SMS y redes alertas de crecidas hasta el domingo 11, por provincia",
-      "porque": "Diario La Hora anuncia tormentas y crecidas de ríos hasta el 11; ULEAM Radio difunde lluvias intensas en la Costa del 10 al 15.",
+      "porque": "Diario La Hora anuncia crecidas de ríos hasta el 11; El Comercio reporta tormentas en ocho provincias; un usuario teme crecida del Daule.",
       "base_legal": "Art. 61 y 62",
-      "fuentes": ["fa1e6e5e61", "df72a4fa33", "20cc2bcc97"]
+      "fuentes": [
+        "fa1e6e5e61",
+        "5dcd9c38fc",
+        "cbaccd052e",
+        "20cc2bcc97"
+      ]
     },
     {
-      "accion": "Entregar al CNE informe técnico de riesgo de los 368 recintos vulnerables",
-      "porque": "Radio Pichincha: CNE no descarta suspender 368 recintos; el Gobierno coordina con el CNE la contingencia para el 29 de noviembre.",
-      "base_legal": "Art. 23.2 y 23.5",
-      "fuentes": ["e768ef5d02", "72b097da7f"]
+      "accion": "Vocería de Carolina con datos verificables de preparación: kits en bodega y escuelas reforzadas",
+      "porque": "En X rebaten el 'estamos preparados' de Noboa; Hechos Ecuador Noticias (32 interacciones) pregunta si el país está preparado.",
+      "base_legal": "Art. 61, 72 y 73",
+      "fuentes": [
+        "81bf34916b",
+        "46d492aefd",
+        "7d3ea56705",
+        "e67c78f5d7"
+      ]
     },
     {
-      "accion": "Publicar en la web kits entregados en Esmeraldas por parroquia y albergues disponibles",
-      "porque": "Radio Pichincha recoge más de 100 familias que denuncian ausencia de autoridades; Wuanplus cuestiona un albergue de 44 camas.",
-      "base_legal": "Art. 14, 72 y 73",
-      "fuentes": ["ef033973d1", "76b678cf95", "67cb12876e"]
+      "accion": "Publicar en web entregas de Las Naves y Esmeraldas por parroquia, con sello institucional",
+      "porque": "Sucre Noticias atribuye la entrega al Gobierno del presidente Noboa; Radio Pichincha contrasta damnificados de Esmeraldas con propaganda electoral.",
+      "base_legal": "Art. 73 y 78.5",
+      "fuentes": [
+        "120ec2eab7",
+        "ef033973d1",
+        "72501b9cd9"
+      ]
     }
   ],
   "narrativas": [
     {
+      "titulo": "La Secretaría descartó el tsunami a tiempo",
+      "explicacion": "El Universo, Vistazo, Expreso, El Telégrafo y más de diez cuentas en X atribuyen a Carolina y a la SNGR, junto con Inocar, la cancelación de la alerta. Oportunidad de imagen técnica; las magnitudes citadas difieren (7,6, 7,7, 8 preliminar).",
+      "ids": [
+        "61b3a2911d",
+        "ba953bfb0e",
+        "8f3a2123bb",
+        "e52e8297c0",
+        "0b622167a5",
+        "64558d9afb",
+        "fd7d440ff6",
+        "aa1b7b5883",
+        "289ceda48e",
+        "7dc2b4ba5e",
+        "3ee2fbeb72",
+        "cd27688781",
+        "4e3a4ade30",
+        "c5aaa616a6",
+        "b5ef70a042",
+        "43a4bd3a42",
+        "d6bdaf0be2",
+        "708d008922"
+      ]
+    },
+    {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "Hoy la empuja la alerta de tsunami: El Universo atribuye a Carolina la cancelación y otros medios lo replican; antes, Muisne, Prefectura del Azuay y CONGOPE mostraban articulación con la Secretaría. Oportunidad de imagen técnica, cuidando que la ayuda no se lea como campaña.",
-      "ids": ["61b3a2911d", "cd27688781", "4e3a4ade30", "d6bdaf0be2", "43a4bd3a42", "f545603bc4", "84c7880abc", "74acfffc13", "2f3dd0fcca", "bcd9deccd4", "1b65ac3348", "e63e0441e1", "c49dc8f2d2"]
+      "explicacion": "Esta noche la empujan SNGR, Sucre Noticias, Radio i99, El Universo y cuentas del Gobierno con las entregas en Las Naves y Esmeraldas; Muisne y PNUD (Prepárate Esmeraldas) muestran articulación. Riesgo: varias piezas acreditan la ayuda al Presidente en plena campaña.",
+      "ids": [
+        "120ec2eab7",
+        "eb859e3d2f",
+        "78a4ff53a6",
+        "5336cdf2d3",
+        "72501b9cd9",
+        "42a9621e59",
+        "d834ddba14",
+        "4a13d7f514",
+        "b306a6f1d5",
+        "f545603bc4",
+        "84c7880abc",
+        "669eceeaec",
+        "e63e0441e1",
+        "74acfffc13"
+      ]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "El Universo (Inamhi, noviembre y diciembre), Diario La Hora (crecidas hasta el 11) y Diario Extra (temor en Santa Ana) sostienen la expectativa de algo peor; Hechos Ecuador Noticias pregunta si el país está preparado. Oportunidad de vocería anticipatoria con recomendaciones concretas.",
-      "ids": ["3285462afa", "fa1e6e5e61", "6278466e6c", "7d3ea56705", "4e0b1e677b", "df72a4fa33", "7993af7b02", "45042dbe02"]
+      "explicacion": "El Universo (Inamhi, noviembre y diciembre), Diario La Hora (crecidas hasta el 11) y Diario Extra (Santa Ana) alimentan el temor; en X, usuarios rebaten el 'estamos preparados' que Noboa dijo sobre Panamá. Oportunidad de vocería con datos concretos de preparación.",
+      "ids": [
+        "3285462afa",
+        "fa1e6e5e61",
+        "6278466e6c",
+        "7d3ea56705",
+        "4e0b1e677b",
+        "46d492aefd",
+        "cbaccd052e",
+        "81bf34916b",
+        "5dcd9c38fc",
+        "df72a4fa33"
+      ]
     },
     {
       "titulo": "La campaña sigue mientras hay damnificados",
       "explicacion": "Metro Ecuador, El Diario y El Diario Ecuador reiteran que el Gobierno descarta aplazar las seccionales; Radio Pichincha contrasta 1,3 millones de expuestos y 368 recintos en riesgo. Riesgo de que la ayuda y la vocería se lean como electorales.",
-      "ids": ["04de9be09c", "207617eb08", "faa26cb8f1", "03e1ba9376", "e768ef5d02", "ef033973d1"]
-    },
-    {
-      "titulo": "La ayuda estatal llega tarde y es insuficiente",
-      "explicacion": "Radio Pichincha, FM Mundo y Diario Extra recogen familias de Esmeraldas sin atención; Wuanplus cuestiona el albergue de 44 camas. Sin piezas nuevas hoy, pero sigue siendo el mayor riesgo directo para la Secretaría.",
-      "ids": ["ef033973d1", "76b678cf95", "b4550bb613", "b597f08395", "67cb12876e", "8afc94629b", "2d259cf001"]
+      "ids": [
+        "04de9be09c",
+        "207617eb08",
+        "faa26cb8f1",
+        "03e1ba9376",
+        "e768ef5d02",
+        "ef033973d1"
+      ]
     },
     {
       "titulo": "Se sabía que venía y no se planificó",
-      "explicacion": "Usuarios en X (Alberto Espinosa, Eduardo a secas, Rodolfo Escobar) y Recutecu Media con Oswaldo Moreno reclaman que las lluvias se anunciaron hace meses; hoy lo retoman canales de YouTube. La culpa se reparte entre Gobierno, Secretaría y municipios.",
-      "ids": ["3ee1e06488", "25f552300e", "ede1c374b5", "b5a1ec15c5", "997ed8d74c", "7a9a1dd6b7", "7d3ea56705"]
+      "explicacion": "Usuarios en X (Alberto Espinosa, Eduardo a secas, Rodolfo Escobar) y Recutecu Media reclaman falta de previsión; hoy un comentario en TikTok pide limpiar alcantarillas y Pedro Obregón critica el dragado. La culpa se reparte entre Gobierno, Secretaría y municipios.",
+      "ids": [
+        "3ee1e06488",
+        "25f552300e",
+        "ede1c374b5",
+        "b5a1ec15c5",
+        "997ed8d74c",
+        "7a9a1dd6b7",
+        "a7483ed8bf",
+        "16573ee61c"
+      ]
     },
     {
-      "titulo": "La prevención era tarea de los GAD",
-      "explicacion": "Tras la entrevista de Carolina en Centro Digital, Wuanplus y Christian Rivera (CORAPE) cuestionan a los GAD y en Portoviejo vecinos esperan medidas. Un usuario lo lee como excusa del Gobierno: riesgo de deslinde si no se ve apoyo subsidiario.",
-      "ids": ["ae24b8876c", "6918553d89", "965c81aabe", "b700ba1dc1", "50bafd2d71", "2525cee4a4", "d7def02220"]
+      "titulo": "La ayuda estatal llega tarde y es insuficiente",
+      "explicacion": "Radio Pichincha y Diario Extra recogen familias de Esmeraldas sin atención; Wuanplus cuestiona el albergue de 44 camas. Sin piezas nuevas en 24 h, pero sigue siendo el mayor riesgo directo para la Secretaría.",
+      "ids": [
+        "ef033973d1",
+        "76b678cf95",
+        "b597f08395",
+        "67cb12876e",
+        "8afc94629b",
+        "2d259cf001",
+        "44d3dd8b25"
+      ]
     }
   ],
-  "rumores": [
-    {
-      "titulo": "Alerta de El Niño de alta intensidad",
-      "explicacion": "Ecuador Chequea califica de imprecisa una alerta que habla de un El Niño de alta intensidad. Respuesta sugerida: recordar el pronóstico oficial vigente con fuente Inamhi y SNGR (arts. 61 y 72).",
-      "ids": ["3947b47203"]
-    }
-  ]
+  "rumores": []
 }
