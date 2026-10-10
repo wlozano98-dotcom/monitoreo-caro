@@ -132,7 +132,7 @@ async function tablero(db, p) {
   const W = "WHERE " + cond.join(" AND ");
   const q = (sql, extra = []) => db.prepare(sql).bind(...params, ...extra);
 
-  const [porDia, temas, provincias, alertas, piezas, redes, totales, resumen, corrida, pendientes, aspectos, narrativas, actores, necesidades, voces, hitos] = await db.batch([
+  const [porDia, temas, provincias, alertas, piezas, redes, totales, resumen, corrida, pendientes, aspectos, narrativas, actores, necesidades, voces, hitos, agenda, agendaDias] = await db.batch([
     q(`SELECT ${DIA} AS dia, fuente, tono, COUNT(*) AS n, ROUND(SUM(COALESCE(peso, 1)), 2) AS p FROM piezas ${W} GROUP BY dia, fuente, tono ORDER BY dia`),
     q(`SELECT tema, tono, COUNT(*) AS n, ROUND(SUM(COALESCE(peso, 1)), 2) AS p FROM piezas ${W} GROUP BY tema, tono`),
     q(`SELECT provincia, COUNT(*) AS n, SUM(tono = 'critico') AS criticas, ROUND(SUM(COALESCE(peso, 1)), 2) AS p, ROUND(SUM(CASE WHEN tono = 'critico' THEN COALESCE(peso, 1) ELSE 0 END), 2) AS pc FROM piezas ${W} AND provincia != '' GROUP BY provincia ORDER BY p DESC LIMIT 12`),
@@ -158,6 +158,9 @@ async function tablero(db, p) {
        ORDER BY CASE WHEN fuente = 'medios' THEN n * 1000 ELSE COALESCE(SUM(vistas), 0) + inter END DESC LIMIT 40`),
     // Hitos que marcó Claude, con el enlace de la primera pieza que los cuenta.
     db.prepare("SELECT h.dia, h.titulo, (SELECT url FROM piezas WHERE id = json_extract(h.ids, '$[0]')) AS url FROM hitos h WHERE h.dia >= ? ORDER BY h.dia").bind(desde),
+    // Agenda nacional (no depende de los filtros): la última foto y, por día, cuántos titulares tuvo cada tema.
+    db.prepare("SELECT creado, datos FROM agenda ORDER BY creado DESC LIMIT 1"),
+    db.prepare("SELECT dia, tema, MAX(nino) AS nino, COUNT(*) AS n FROM titulares WHERE nino IS NOT NULL GROUP BY dia, tema ORDER BY dia"),
   ]);
 
   const r = resumen.results[0];
@@ -182,5 +185,7 @@ async function tablero(db, p) {
     necesidades: necesidades.results,
     voces: voces.results,
     hitos: hitos.results,
+    agenda: agenda.results[0] ? { creado: agenda.results[0].creado, ...JSON.parse(agenda.results[0].datos) } : null,
+    agendaDias: agendaDias.results,
   };
 }

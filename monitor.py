@@ -463,6 +463,88 @@ def recoger_gdelt():
     return piezas
 
 
+# ---------------------------------------------------------------- agenda nacional (todos los titulares)
+
+# Medios del país que ya monitoreamos. Google Noticias da hasta 100 titulares por medio y búsqueda; como la corrida
+# es cada 2 horas y los titulares se guardan sin repetir, en el día se juntan más que eso.
+AGENDA_MEDIOS = {
+    "eluniverso.com": "El Universo", "expreso.ec": "Expreso", "eldiario.ec": "El Diario", "elcomercio.com": "El Comercio",
+    "ecuavisa.com": "Ecuavisa", "radiopichincha.com": "Radio Pichincha", "primicias.ec": "Primicias",
+    "teleamazonas.com": "Teleamazonas", "vistazo.com": "Vistazo", "fmmundo.com": "FM Mundo",
+    "metroecuador.com.ec": "Metro Ecuador", "lahora.com.ec": "La Hora", "extra.ec": "Extra",
+    "eltelegrafo.com.ec": "El Telégrafo", "elmercurio.com.ec": "El Mercurio", "larepublica.ec": "La República",
+    "tctelevision.com": "TC Televisión", "planv.com.ec": "Plan V",
+}
+
+
+def recoger_titulares():
+    """Todos los titulares de las últimas 24 h de los medios del país (Google Noticias por sitio + RSS propios)."""
+    crudos = []
+    for dominio, medio in AGENDA_MEDIOS.items():
+        q = urllib.parse.quote(f"site:{dominio} when:1d")
+        try:
+            items = leer_rss(pedir(f"https://news.google.com/rss/search?q={q}&hl=es-419&gl=EC&ceid=EC:es-419"))
+        except Exception as e:
+            print(f"  Titulares {medio}: {e}")
+            continue
+        for it in items:
+            titulo = re.sub(r"\s+-\s+[^-]{2,40}$", "", it["titulo"])  # Google le pega " - Medio" al final
+            crudos.append((medio, titulo, it["url"], it["fecha"]))
+        time.sleep(1)
+    for medio, url in FEEDS_MEDIOS.items():
+        try:
+            for it in leer_rss(pedir(url, timeout=30)):
+                crudos.append((medio, it["titulo"], it["url"], it["fecha"]))
+        except Exception as e:
+            print(f"  Titulares RSS {medio}: {e}")
+    desde = (datetime.now(timezone.utc) - timedelta(hours=30)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    salida, vistos = [], set()
+    for medio, titulo, url, fecha in crudos:
+        # Fuera: sin fecha, viejos y "titulares" que son secciones ("EN VIVO", "Economía").
+        if not fecha or fecha < desde or len(titulo.split()) < 5:
+            continue
+        clave = huella("titular", re.sub(r"\W+", " ", titulo.lower()).strip())  # mismo titular por RSS y Google
+        if clave in vistos:
+            continue
+        vistos.add(clave)
+        dia = (datetime.fromisoformat(fecha[:19]) - timedelta(hours=5)).strftime("%Y-%m-%d")
+        salida.append([clave, medio, titulo, url, fecha, dia, ahora()])
+    return salida
+
+
+def guardar_titulares(db, titulares):
+    sentencias = []
+    for i in range(0, len(titulares), 12):
+        trozo = titulares[i : i + 12]
+        marcas = ",".join("(?,?,?,?,?,?,?)" for _ in trozo)
+        sentencias.append(
+            (f"INSERT OR IGNORE INTO titulares (id, medio, titulo, url, fecha, dia, recogido) VALUES {marcas}",
+             [v for t in trozo for v in t])
+        )
+    db.lote(sentencias)
+    print(f"  Titulares: {len(titulares)} (últimas 30 h, sin repetir)")
+    return len(titulares)
+
+
+def busquedas_google():
+    """Lo más buscado en Google en Ecuador hoy (Google Trends, RSS público)."""
+    ns = {"ht": "https://trends.google.com/trending/rss"}
+    raiz = ET.fromstring(pedir("https://trends.google.com/trending/rss?geo=EC"))
+    salida = []
+    for item in raiz.iter("item"):
+        termino = limpiar(item.findtext("title"), 120)
+        noticias = [limpiar(n.findtext("ht:news_item_title", namespaces=ns), 200) for n in item.findall("ht:news_item", ns)]
+        salida.append(
+            {
+                "termino": termino,
+                "trafico": (item.findtext("ht:approx_traffic", namespaces=ns) or "").strip(),
+                "noticia": noticias[0] if noticias else "",
+                "nino": bool(PALABRAS.search(termino + " " + " ".join(noticias))),
+            }
+        )
+    return salida[:15]
+
+
 # ---------------------------------------------------------------- YouTube (API oficial, clave gratuita)
 
 
@@ -975,6 +1057,111 @@ def narrativas(db):
     return datos["narrativas"]
 
 
+INSTRUCCIONES_AGENDA = """Eres analista de medios en Ecuador. Recibes los titulares numerados que publicaron los medios
+del país en las últimas 24 horas.
+1. Define en "temas" los 8 a 14 TEMAS de la agenda nacional que más se repiten. Un tema es un asunto de actualidad, ni
+   demasiado amplio ("Noticias") ni un hecho suelto: p. ej. "Terremoto en Panamá y alerta de tsunami", "Selección de
+   Ecuador y Fecha FIFA", "Inseguridad y crimen", "Apagones y crisis eléctrica", "Feriado del 9 de octubre". Nombre
+   corto (máx. 6 palabras), en español, sin cifras. Si te paso los temas de la corrida anterior, reutiliza esos
+   nombres cuando sea el mismo asunto.
+2. El tema 0 es SIEMPRE "El Niño y lluvias": El Niño, lluvias, tormentas, alertas meteorológicas, inundaciones,
+   deslaves, oleaje, damnificados, emergencias por lluvias y su prevención EN ECUADOR (también la Secretaría de Gestión
+   de Riesgos cuando habla de eso, y la política que gira en torno a El Niño, como mover las elecciones por El Niño).
+   Lluvias o desastres de otros países no van aquí.
+3. En "asignacion" pon TODOS los titulares, cada uno con el número de su tema (t). Usa t = -1 solo si de verdad no
+   encaja en ningún tema."""
+
+
+def agenda(db):
+    """Ranking de temas de la agenda nacional (24 h) y dónde queda El Niño. Gemini solo agrupa; aquí se cuenta."""
+    ahora_utc = datetime.now(timezone.utc)
+    desde = (ahora_utc - timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    filas = db.q("SELECT id, medio, titulo, url FROM titulares WHERE fecha >= ? ORDER BY fecha DESC LIMIT 1500", [desde])
+    if len(filas) < 30:
+        print(f"  Agenda: muy pocos titulares ({len(filas)})")
+        return
+    previa = db.q("SELECT datos FROM agenda ORDER BY creado DESC LIMIT 1")
+    anteriores = [t["tema"] for t in json.loads(previa[0]["datos"])["temas"]] if previa else []
+    texto = "\n".join(f"[{n}] {f['titulo']}" for n, f in enumerate(filas))
+    if anteriores:
+        texto = "TEMAS DE LA CORRIDA ANTERIOR: " + " | ".join(anteriores) + "\n\n" + texto
+    cuerpo = {
+        "systemInstruction": {"parts": [{"text": INSTRUCCIONES_AGENDA}]},
+        "contents": [{"role": "user", "parts": [{"text": texto}]}],
+        "generationConfig": {
+            "responseMimeType": "application/json",
+            "responseSchema": {
+                "type": "object",
+                "properties": {
+                    "temas": {"type": "array", "items": {"type": "string"}},
+                    "asignacion": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {"n": {"type": "integer"}, "t": {"type": "integer"}},
+                            "required": ["n", "t"],
+                        },
+                    },
+                },
+                "required": ["temas", "asignacion"],
+            },
+            "temperature": 0.2,
+        },
+    }
+    try:
+        r = gemini(cuerpo)
+    except CuotaAgotada as e:
+        print(f"  Agenda no se pudo: {e}")
+        return
+    nombres = [limpiar(t, 60) for t in r.get("temas", [])] or ["El Niño y lluvias"]
+    temas = [{"tema": nombre, "nino": i == 0, "miembros": []} for i, nombre in enumerate(nombres)]
+    usados = set()
+    for a in r.get("asignacion", []):
+        n, t = a.get("n"), a.get("t")
+        if isinstance(n, int) and 0 <= n < len(filas) and n not in usados and isinstance(t, int) and 0 <= t < len(temas):
+            usados.add(n)
+            temas[t]["miembros"].append(filas[n])
+    print(f"  Agenda: {len(usados)} de {len(filas)} titulares con tema")
+    temas = [t for t in temas if t["miembros"] or t["nino"]]
+    temas.sort(key=lambda t: -len(t["miembros"]))
+    sentencias = [("UPDATE titulares SET tema = NULL, nino = 0 WHERE fecha >= ?", [desde])]
+    for t in temas:
+        ids = [f["id"] for f in t["miembros"]]
+        for i in range(0, len(ids), 90):
+            trozo = ids[i : i + 90]
+            sentencias.append(
+                (f"UPDATE titulares SET tema = ?, nino = ? WHERE id IN ({','.join('?' * len(trozo))})",
+                 [t["tema"], 1 if t["nino"] else 0] + trozo)
+            )
+    db.lote(sentencias)
+    try:
+        busquedas = busquedas_google()
+    except Exception as e:
+        print(f"  Google Trends: {e}")
+        busquedas = []
+    datos = {
+        "total": len(filas),
+        "medios": len({f["medio"] for f in filas}),
+        "temas": [
+            {
+                "tema": t["tema"],
+                "nino": t["nino"],
+                "n": len(t["miembros"]),
+                "medios": len({f["medio"] for f in t["miembros"]}),
+                "ejemplos": [{"titulo": f["titulo"], "medio": f["medio"], "url": f["url"]} for f in t["miembros"][:3]],
+            }
+            for t in temas
+        ],
+        "busquedas": busquedas,
+    }
+    db.q("INSERT INTO agenda (creado, datos) VALUES (?, ?)", [ahora(), json.dumps(datos, ensure_ascii=False)])
+    db.q("DELETE FROM agenda WHERE creado < ?", [(ahora_utc - timedelta(days=30)).strftime("%Y-%m-%dT%H:%M:%SZ")])
+    nino = next((t for t in datos["temas"] if t["nino"]), None)
+    puesto = datos["temas"].index(nino) + 1 if nino and nino["n"] else None
+    print(f"  Agenda: {len(filas)} titulares, {len(temas)} temas; El Niño puesto {puesto} con {nino['n'] if nino else 0}")
+    return datos
+
+
 def analisis_de_claude_reciente(db, horas=9):
     """True si el último análisis de fondo lo hizo Claude (rutina de 8, 12 y 20 h) hace menos de `horas`."""
     filas = db.q("SELECT texto, creado FROM resumenes ORDER BY creado DESC LIMIT 1")
@@ -992,6 +1179,10 @@ def main():
     inicio = ahora()
     db = D1()
     detalle = {}
+    if "--solo-agenda" in args:  # para probar: solo titulares y ranking, sin tocar piezas ni corridas
+        guardar_titulares(db, recoger_titulares())
+        agenda(db)
+        return
 
     recolectores = [
         ("Google Noticias", recoger_google_noticias),
@@ -1009,7 +1200,19 @@ def main():
             print(f"  ERROR {nombre}: {e}")
             detalle[nombre] = f"error: {str(e)[:150]}"
 
+    print("Titulares de la agenda nacional…")
+    try:
+        detalle["titulares"] = guardar_titulares(db, recoger_titulares())
+    except Exception as e:
+        print(f"  ERROR titulares: {e}")
+        detalle["titulares"] = f"error: {str(e)[:150]}"
+
     if "--sin-gemini" not in args:
+        # La agenda cada 4 horas basta para ver la evolución y cuida la cuota de Gemini.
+        ultima = db.q("SELECT MAX(creado) AS c FROM agenda")[0]["c"]
+        if not ultima or ultima < (datetime.now(timezone.utc) - timedelta(hours=3, minutes=50)).strftime("%Y-%m-%dT%H:%M:%SZ"):
+            print("Agenda nacional…")
+            agenda(db)
         print("Gemini…")
         detalle["clasificadas"] = clasificar(db, int(config("MAX_CLASIFICAR", "400")))
         if analisis_de_claude_reciente(db):

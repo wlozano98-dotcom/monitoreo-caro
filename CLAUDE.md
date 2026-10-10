@@ -21,6 +21,10 @@ medios y redes sobre El Niño, la Secretaría y ella. Presupuesto cero: solo cap
 - `.github/workflows/monitor.yml`: cada 2 horas. Repo PÚBLICO a propósito: los minutos de Actions de repos privados
   se comparten con el Agente Asamblea (privado, ~2.000 min/mes) y lo dejaríamos sin minutos. Las claves van en Secrets.
 - `src/index.js` + `public/`: Worker que sirve el tablero (sin login, decisión de Andrés) y `/api/tablero` (caché 5 min).
+- Agenda nacional (pedido de Andrés): cada corrida guarda TODOS los titulares de 24 h de los medios del país
+  (`AGENDA_MEDIOS`, Google Noticias `site:` + RSS propios) en `titulares`; cada 4 h `agenda()` le pide a Gemini los
+  temas y asigna cada titular (tema 0 = "El Niño y lluvias"); los conteos y el puesto se cuentan en Python. Se suma
+  Google Trends Ecuador. Historial desde el 9 oct 2026. `--solo-agenda` para probar.
 - `migrations/`: esquema de D1 (tabla `piezas`, `resumenes`, `corridas`).
 
 ## Comandos
