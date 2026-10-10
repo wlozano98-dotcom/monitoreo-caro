@@ -287,7 +287,7 @@ class D1:
             self._post({"batch": [{"sql": s, "params": p} for s, p in sentencias[i : i + 50]]})
 
 
-COLUMNAS = ["id", "fuente", "medio", "url", "titulo", "texto", "autor", "fecha", "recogido", "interacciones", "padre", "consulta"]
+COLUMNAS = ["id", "fuente", "medio", "url", "titulo", "texto", "autor", "fecha", "recogido", "interacciones", "padre", "consulta", "vistas", "seguidores"]
 
 
 def guardar(db, piezas):
@@ -316,7 +316,9 @@ def guardar(db, piezas):
         sentencias.append(
             (
                 f"INSERT INTO piezas ({','.join(COLUMNAS)}) VALUES {marcas} "
-                "ON CONFLICT(id) DO UPDATE SET interacciones = MAX(piezas.interacciones, excluded.interacciones)",
+                "ON CONFLICT(id) DO UPDATE SET interacciones = MAX(piezas.interacciones, excluded.interacciones), "
+                "vistas = MAX(COALESCE(piezas.vistas, 0), COALESCE(excluded.vistas, 0)), "
+                "seguidores = COALESCE(excluded.seguidores, piezas.seguidores)",
                 params,
             )
         )
@@ -483,7 +485,7 @@ def recoger_youtube():
             "id": huella("youtube", vid), "fuente": "youtube", "medio": sn.get("channelTitle"),
             "url": f"https://www.youtube.com/watch?v={vid}", "titulo": limpiar(sn.get("title"), 400),
             "texto": limpiar(sn.get("description")), "fecha": fecha_iso(sn.get("publishedAt")), "recogido": ahora(),
-            "interacciones": likes + comentarios, "consulta": consulta,
+            "interacciones": likes + comentarios, "consulta": consulta, "vistas": vistas,
         })
     # Comentarios de los videos con más conversación (cuestan 1 unidad cada pedido).
     con_mas = sorted((v for v in videos if estadisticas.get(v, (0, 0, 0))[2] > 0), key=lambda v: -estadisticas[v][2])
@@ -698,7 +700,9 @@ Secretaría y para ella, qué oportunidad hay, y qué haría un buen equipo de c
 Luego escribe:
 - vinetas: 4 frases cortas. Primero lo más importante para decidir, no lo más obvio. Cada una con un dato concreto
   sacado de las piezas (cifra, medio, provincia, cuenta). Distingue lo que dicen los medios de lo que dice la gente en
-  redes. Si algo crece o cae frente a ayer, dilo.
+  redes. Si algo crece o cae frente a ayer, dilo. Nada de bulla: un comentario o respuesta suelta de una cuenta
+  pequeña (pocas vistas) no merece viñeta; solo lo que tiene alcance o se repite en muchas piezas. Lo que se reclama a
+  alcaldes o prefectos solo entra si afecta a la Secretaría.
 - acciones: exactamente 3 decisiones para HOY, de comunicación o de gestión, ordenadas por urgencia. Cada una debe ser
   específica (qué, quién, dónde, por qué canal) y responder a algo concreto de las piezas; nada genérico como "desplegar
   ayuda" o "coordinar con los COE" sin decir qué cambia. "porque": la evidencia (cifras, medios, provincias).
@@ -722,7 +726,7 @@ def resumen_del_dia(db, vigentes=None):
     hace48 = (ahora_utc - timedelta(hours=48)).strftime("%Y-%m-%dT%H:%M:%SZ")
     filas = db.q(
         "SELECT fuente, medio, autor, sobre, tono, tema, provincia, alerta, resumen, texto, titulo, interacciones, rumor, "
-        "necesidad, actor, aspecto FROM piezas WHERE relevante = 1 AND COALESCE(fecha, recogido) >= ? "
+        "necesidad, actor, aspecto, vistas FROM piezas WHERE relevante = 1 AND COALESCE(fecha, recogido) >= ? "
         "ORDER BY alerta DESC, interacciones DESC LIMIT 200",
         [hace24],
     )
@@ -742,9 +746,9 @@ def resumen_del_dia(db, vigentes=None):
         )
     texto += "\n\nPIEZAS DE HOY:\n" + "\n".join(
         f"- {f['fuente']} | {f['autor'] or f['medio'] or ''} | sobre {f['sobre']} | {f['tono']} | {f['tema']} | "
-        f"{f['provincia'] or '-'} | {f['interacciones'] or 0} interacciones"
+        f"{f['provincia'] or '-'} | {f['interacciones'] or 0} interacciones | {f['vistas'] or 0} vistas"
         f"{' | ALERTA' if f['alerta'] else ''}{' | pide ' + f['necesidad'] if f['necesidad'] else ''}"
-        f"{' | atribuye a ' + f['actor'] if f['actor'] else ''}{' | RUMOR: ' + f['rumor'] if f['rumor'] else ''}"
+        f"{' | dirigido a ' + f['actor'] if f['actor'] else ''}{' | RUMOR: ' + f['rumor'] if f['rumor'] else ''}"
         f"\n  {f['titulo'] or ''} {f['resumen'] or ''} {(f['texto'] or '')[:300]}"
         for f in filas
     )

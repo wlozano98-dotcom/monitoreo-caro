@@ -152,6 +152,8 @@ def recoger_x(db):
                 ),
                 "padre": primero(t, "inReplyToId", "in_reply_to_status_id_str"),
                 "consulta": "x",
+                "vistas": entero(primero(t, "viewCount", "views")) or None,
+                "seguidores": entero(primero(t, "author.followers", "user.followers_count")) or None,
             }
         )
     marcar(db, "x")
@@ -193,6 +195,8 @@ def recoger_tiktok(db):
                 "recogido": m.ahora(),
                 "interacciones": sum(entero(primero(v, c)) for c in ("diggCount", "commentCount", "shareCount", "likes", "comments", "shares")),
                 "consulta": "tiktok",
+                "vistas": entero(primero(v, "playCount", "views")) or None,
+                "seguidores": entero(primero(v, "authorMeta.fans", "channel.followers")) or None,
             }
         )
         n = entero(primero(v, "commentCount", "comments"))
@@ -265,6 +269,7 @@ def recoger_facebook(db):
                 "recogido": m.ahora(),
                 "interacciones": entero(primero(p, "likes")) + entero(primero(p, "comments")) + entero(primero(p, "shares")),
                 "consulta": "facebook",
+                "vistas": entero(primero(p, "viewsCount", "videoViewCount")) or None,
             }
         )
     con_comentarios = [primero(p, "url", "topLevelUrl", "facebookUrl") for p in posts if entero(primero(p, "comments"))]

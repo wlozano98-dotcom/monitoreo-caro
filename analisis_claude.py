@@ -35,7 +35,7 @@ def preparar():
     )
     piezas = db.q(
         "SELECT id, fuente, medio, autor, url, titulo, texto, resumen, tono, tema, provincia, aspecto, idea, rumor, "
-        "necesidad, actor, alerta, interacciones, COALESCE(fecha, recogido) AS f FROM piezas "
+        "necesidad, actor, tono_actor, alerta, interacciones, vistas, seguidores, padre, COALESCE(fecha, recogido) AS f FROM piezas "
         "WHERE relevante = 1 AND COALESCE(fecha, recogido) >= ? ORDER BY f DESC LIMIT 450",
         [hace72],
     )
@@ -62,8 +62,10 @@ def preparar():
         quien = p["medio"] if p["fuente"] == "medios" else f"@{p['autor'] or ''} ({p['medio'] or ''})"
         marcas = [x for x in [
             p["tono"], p["tema"], p["provincia"], p["aspecto"] and f"aspecto: {p['aspecto']}",
-            p["actor"] and f"atribuye a: {p['actor']}", p["necesidad"] and f"pide: {p['necesidad']}",
-            p["interacciones"] and f"{p['interacciones']} interacciones", p["alerta"] and "ALERTA",
+            p["actor"] and f"dirigido a: {p['actor']} ({p['tono_actor'] or 'neutro'})", p["necesidad"] and f"pide: {p['necesidad']}",
+            p["interacciones"] and f"{p['interacciones']} interacciones", p["vistas"] and f"{p['vistas']} vistas",
+            p["seguidores"] and f"cuenta con {p['seguidores']} seguidores", p["padre"] and "es respuesta/comentario",
+            p["alerta"] and "ALERTA",
             p["rumor"] and f"RUMOR: {p['rumor']}",
         ] if x]
         lineas.append(f"[{p['id'][:ID_CORTO]}] {p['f'][:16].replace('T', ' ')} UTC · {p['fuente']} · {quien} · {' · '.join(marcas)}")

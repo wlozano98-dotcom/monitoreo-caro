@@ -59,7 +59,11 @@ Ecuador, registro ejecutivo, sin emojis ni signos de exclamación.
 
 - **vinetas** (4): lo más importante para decidir, no lo más obvio. Máximo 20 palabras cada una, con un dato concreto
   de las piezas (cifra, medio, cuenta, provincia). Distingue lo que dicen los medios de lo que dice la gente en redes.
-  Si algo crece o cae frente a ayer, dilo. `fuentes_vinetas`: una lista de ids por viñeta, en el mismo orden (una
+  Si algo crece o cae frente a ayer, dilo. Nada de bulla: una respuesta o comentario suelto de una cuenta pequeña
+  (pocas vistas, pocos seguidores) NO merece viñeta ni se nombra; solo cuenta si tiene alcance real (miles de vistas o
+  una cuenta grande) o si muchas piezas dicen lo mismo, y entonces se cuenta como tendencia, no como "@fulano dijo".
+  El monitor es de la Secretaría: lo que se reclama a alcaldes, prefectos u otros actores locales solo entra si afecta
+  a la Secretaría o a Carolina. `fuentes_vinetas`: una lista de ids por viñeta, en el mismo orden (una
   viñeta que solo describe las cifras de 24 h, o que dice que no hay datos de algo, puede llevar lista vacía).
 - **acciones** (exactamente 3, ordenadas por urgencia): decisiones para hoy, de comunicación o de gestión. Cada una
   específica (qué, con quién, dónde, por qué canal), máximo 14 palabras; nada genérico como "desplegar ayuda" o
