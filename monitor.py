@@ -145,9 +145,10 @@ ESQUEMA_CLASIFICACION = {
                     "rumor": {"type": "string"},
                     "necesidad": {"type": "string"},
                     "actor": {"type": "string"},
+                    "tono_actor": {"type": "string", "enum": ["positivo", "neutro", "critico"]},
                 },
                 "required": ["n", "relevante", "sobre", "tono", "tema", "provincia", "alerta", "resumen", "aspecto", "idea",
-                             "rumor", "necesidad", "actor"],
+                             "rumor", "necesidad", "actor", "tono_actor"],
             },
         }
     },
@@ -208,29 +209,40 @@ Para cada pieza numerada (noticia, publicación o comentario) devuelve:
   Carolina Lozano. false si es de otro país, otro tema, otra persona con el mismo nombre, spam o publicidad.
 - sobre: "carolina" si menciona o se dirige a Carolina Lozano; si no, "secretaria" si menciona a la Secretaría / SNGR /
   Riesgos Ecuador; si no, "nino".
-- tono hacia la Secretaría y Carolina (si no las menciona, hacia la respuesta del Estado ante la emergencia):
-  "positivo" (reconoce, agradece, informa logros), "neutro" (informativo) o "critico" (reclama, acusa, se burla, denuncia).
+- actor: a quién se dirige la pieza o a quién le atribuye la respuesta (el mérito o la culpa), uno de
+  {json.dumps(ACTORES, ensure_ascii=False)}. "Gobierno central" reúne a la Presidencia, los ministerios y demás entidades
+  del Ejecutivo, salvo la Secretaría de Gestión de Riesgos y Carolina Lozano, que van aparte. Alcaldías, municipios,
+  prefecturas, gobernaciones locales y sus cuentas (p. ej. @MunicipioQuito, @SeguridadeQuito, @PabelMunoz, alcaldes,
+  prefectos) son "Municipio o Prefectura". Fíjate en a quién responde la pieza (si es respuesta, va el texto original).
+  Que una cuenta etiquete a @Riesgos_Ec de pasada no basta: cuenta a quién se le reclama o reconoce de verdad.
+- tono_actor: el juicio sobre ese actor: "positivo", "neutro" o "critico" ("neutro" si actor es "Ninguno").
+- tono: el juicio SOLO hacia la Secretaría de Gestión de Riesgos y Carolina Lozano (o hacia el Gobierno central en la
+  emergencia, porque la Secretaría es parte de él): "positivo" (reconoce, agradece, informa logros de la SNGR),
+  "neutro" (informativo, o la pieza no las juzga) o "critico" (les reclama, acusa, se burla o denuncia).
+  Una crítica a un alcalde, municipio, prefectura, bomberos u otro actor que no sea la SNGR, Carolina o el Gobierno
+  central NO es crítica: tono "neutro" (el juicio va en tono_actor). Ej.: "el alcalde no limpió las alcantarillas" ->
+  actor "Municipio o Prefectura", tono_actor "critico", tono "neutro".
 - tema: uno de {json.dumps(TEMAS, ensure_ascii=False)}.
 - provincia: la provincia de Ecuador principal mencionada, una de {json.dumps(PROVINCIAS, ensure_ascii=False)},
   o "" si no hay.
 - alerta: true SOLO si es una crítica fuerte o acusación grave contra la Secretaría o Carolina (negligencia, corrupción,
-  muertes atribuidas a la falta de respuesta, pedidos de renuncia) o una noticia de impacto nacional que exige reacción.
+  muertes atribuidas a la falta de respuesta, pedidos de renuncia) o una noticia de impacto nacional que exige una
+  reacción de la Secretaría. Críticas a alcaldes, prefectos u otros actores NO son alerta.
   Insultos, groserías o ataques sin argumento ni hecho concreto NO son alerta (son tono crítico y nada más).
 - resumen: una frase corta en español (máx. 20 palabras) de qué dice.
-- aspecto: qué aspecto de la respuesta del Estado / la Secretaría evalúa o describe, uno de
-  {json.dumps(ASPECTOS, ensure_ascii=False)}. "Ninguno" si solo informa del clima o de daños sin hablar de la respuesta.
+- aspecto: qué aspecto de la respuesta de la Secretaría / Carolina / Gobierno central evalúa o describe, uno de
+  {json.dumps(ASPECTOS, ensure_ascii=False)}. "Ninguno" si solo informa del clima o de daños sin hablar de la respuesta,
+  o si habla de la respuesta de municipios, prefecturas u otros actores locales.
   El tono de la pieza es el juicio sobre ese aspecto (positivo = va bien, critico = va mal).
 - idea: la idea o percepción de fondo que transmite, como la repetiría la gente, en frase genérica y reutilizable
   (máx. 10 palabras, sin nombres de lugares ni cifras). Ej.: "La ayuda llega tarde", "La Secretaría está en el
   territorio", "No hubo alertas a tiempo", "Las autoridades se toman fotos y no ayudan", "Hay coordinación con los
-  municipios". "" si la pieza es puramente informativa y no transmite ninguna idea sobre la respuesta.
+  municipios". "" si la pieza es puramente informativa, no transmite ninguna idea sobre la respuesta, o la idea es sobre
+  municipios, prefecturas u otros actores locales.
 - rumor: si la pieza difunde o menciona un rumor, cadena, alerta falsa o dato sin confirmar sobre la emergencia (p. ej.
   "viene un tsunami", "cortarán el agua a todo Guayaquil", "están cobrando por los kits"), descríbelo en máx. 12 palabras
   como afirmación genérica; si no, "". No marques como rumor las críticas u opiniones, solo afirmaciones de hecho dudosas.
 - necesidad: lo que la gente pide o le falta, uno de {json.dumps(NECESIDADES, ensure_ascii=False)}.
-- actor: a quién se le atribuye la respuesta (el mérito o la culpa), uno de {json.dumps(ACTORES, ensure_ascii=False)}.
-  "Gobierno central" reúne a la Presidencia, los ministerios y demás entidades del Ejecutivo, salvo la Secretaría de
-  Gestión de Riesgos y Carolina Lozano, que van aparte.
 No inventes: si la pieza no dice algo (provincia, actor, necesidad), deja el campo vacío o en "Ninguno".
 Responde solo con el JSON pedido, una entrada por cada número recibido."""
 
@@ -505,7 +517,8 @@ import redes  # noqa: E402  (va aparte porque depende de los actores de Apify)
 
 # Clasificar cada pieza: el modelo rápido. Pensar (resumen, acciones, narrativas, rumores): el mejor gratuito, pensando a
 # fondo. Gemini Pro no tiene capa gratis (probado 2026-10-07: cuota 0).
-MODELOS_GEMINI = ["gemini-flash-lite-latest", "gemini-flash-latest"]
+# Clasificar: Flash pensando poco (Flash-Lite confundía a quién se dirige la crítica); Lite queda de reserva.
+MODELOS_GEMINI = ["gemini-3.6-flash", "gemini-flash-latest", "gemini-flash-lite-latest"]
 MODELOS_PENSAR = ["gemini-3.6-flash", "gemini-3.8-flash", "gemini-flash-latest", "gemini-flash-lite-latest"]
 
 
@@ -514,16 +527,17 @@ class CuotaAgotada(Exception):
 
 
 def gemini(cuerpo, pensar=False):
-    """Llama a Gemini probando modelos en orden. pensar=True: el modelo más listo, con razonamiento largo."""
+    """Llama a Gemini probando modelos en orden. pensar=True: el modelo más listo, con razonamiento largo.
+    Sin pensar (clasificar), los Gemini 3 razonan poco: basta para distinguir a quién va la crítica."""
     clave = config("GEMINI_KEY")
     if not clave:
         raise CuotaAgotada("falta GEMINI_KEY")
     errores = []
     for modelo in MODELOS_PENSAR if pensar else MODELOS_GEMINI:
         envio = cuerpo
-        if pensar and modelo.startswith("gemini-3"):
+        if modelo.startswith("gemini-3"):
             envio = json.loads(json.dumps(cuerpo))
-            envio["generationConfig"]["thinkingConfig"] = {"thinkingLevel": "high"}
+            envio["generationConfig"]["thinkingConfig"] = {"thinkingLevel": "high" if pensar else "low"}
         for intento in range(3):
             try:
                 r = json.loads(
@@ -566,10 +580,23 @@ def con_alcance(p):
     return p["fuente"] == "medios" or (p.get("interacciones") or 0) >= ALCANCE_MIN_ALERTA
 
 
+def tuit_original(tid, cache={}):
+    """Texto del tuit al que responde una pieza de X (vía pública de inserción de tuits, gratis). "" si no se puede."""
+    if not tid or not str(tid).isdigit():
+        return ""
+    if tid not in cache:
+        try:
+            t = json.loads(pedir(f"https://cdn.syndication.twimg.com/tweet-result?id={tid}&token=a", timeout=15))
+            cache[tid] = f"@{t.get('user', {}).get('screen_name', '')}: {limpiar(t.get('text'), 400)}"
+        except Exception:
+            cache[tid] = ""
+    return cache[tid]
+
+
 def clasificar(db, maximo):
     """Clasifica hasta `maximo` piezas pendientes, de a 25 por llamada a Gemini."""
     pendientes = db.q(
-        "SELECT id, fuente, medio, titulo, texto, autor, interacciones FROM piezas WHERE clasificado = 0 ORDER BY recogido DESC LIMIT ?",
+        "SELECT id, fuente, medio, titulo, texto, autor, interacciones, padre FROM piezas WHERE clasificado = 0 ORDER BY recogido DESC LIMIT ?",
         [maximo],
     )
     hechas = 0
@@ -578,8 +605,13 @@ def clasificar(db, maximo):
         lineas = []
         for n, p in enumerate(trozo):
             tipo = "Noticia" if p["fuente"] == "medios" else f"{p['fuente']}"
+            original = tuit_original(p["padre"]) if p["fuente"] == "x" else ""
+            if original:
+                original = f"(Responde a {original})\n"
+            elif p["padre"] and p["fuente"] != "medios":
+                original = "(Es un comentario o respuesta)\n"
             lineas.append(
-                f"[{n}] {tipo} | {p['medio'] or ''} | {p['autor'] or ''}\n{p['titulo'] or ''}\n{(p['texto'] or '')[:700]}"
+                f"[{n}] {tipo} | {p['medio'] or ''} | {p['autor'] or ''}\n{original}{p['titulo'] or ''}\n{(p['texto'] or '')[:700]}"
             )
         cuerpo = {
             "systemInstruction": {"parts": [{"text": INSTRUCCIONES}]},
@@ -604,7 +636,7 @@ def clasificar(db, maximo):
             sentencias.append(
                 (
                     "UPDATE piezas SET clasificado = 1, relevante = ?, sobre = ?, tono = ?, tema = ?, provincia = ?, "
-                    "alerta = ?, resumen = ?, aspecto = ?, idea = ?, rumor = ?, necesidad = ?, actor = ? WHERE id = ?",
+                    "alerta = ?, resumen = ?, aspecto = ?, idea = ?, rumor = ?, necesidad = ?, actor = ?, tono_actor = ? WHERE id = ?",
                     [
                         1 if x["relevante"] else 0,
                         x["sobre"],
@@ -618,6 +650,7 @@ def clasificar(db, maximo):
                         limpiar(x.get("rumor"), 160) or None,
                         x.get("necesidad") if x.get("necesidad") in NECESIDADES[:-1] else None,
                         x.get("actor") if x.get("actor") in ACTORES[:-1] else None,
+                        x.get("tono_actor") if x.get("actor") in ACTORES[:-1] and x.get("tono_actor") in ("positivo", "neutro", "critico") else None,
                         p["id"],
                     ],
                 )
@@ -866,6 +899,8 @@ def narrativas(db):
     columnas = "id, fuente, medio, autor, url, titulo, texto, resumen, tono, idea, rumor, interacciones, COALESCE(fecha, recogido) AS f"
     ideas = db.q(
         f"SELECT {columnas} FROM piezas WHERE relevante = 1 AND idea IS NOT NULL AND COALESCE(fecha, recogido) >= ? "
+        # Lo que se dice de alcaldes, prefectos u otros actores locales no es narrativa sobre la Secretaría.
+        "AND (actor IS NULL OR actor IN ('Secretaría de Gestión de Riesgos', 'Carolina Lozano', 'Gobierno central')) "
         "ORDER BY interacciones DESC LIMIT 600",
         [desde],
     )
