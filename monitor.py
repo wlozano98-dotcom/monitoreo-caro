@@ -527,7 +527,8 @@ def guardar_titulares(db, titulares):
 
 
 def busquedas_google():
-    """Lo más buscado en Google en Ecuador hoy (Google Trends, RSS público)."""
+    """Lo más buscado en Google desde Ecuador hoy (Google Trends, RSS público). Es lo que busca la gente en Ecuador,
+    aunque sea de otro país (fútbol mexicano, Trump): no se filtra, decisión de Andrés."""
     ns = {"ht": "https://trends.google.com/trending/rss"}
     raiz = ET.fromstring(pedir("https://trends.google.com/trending/rss?geo=EC"))
     salida = []
@@ -1069,10 +1070,7 @@ del país en las últimas 24 horas.
    de Riesgos cuando habla de eso, y la política que gira en torno a El Niño, como mover las elecciones por El Niño).
    Lluvias o desastres de otros países no van aquí.
 3. En "asignacion" pon TODOS los titulares, cada uno con el número de su tema (t). Usa t = -1 solo si de verdad no
-   encaja en ningún tema.
-4. En "busquedas_ecuador" pon los números de las BÚSQUEDAS DE GOOGLE (lista aparte, al final) que tratan de Ecuador:
-   personas, lugares, equipos, instituciones o hechos ecuatorianos. Fuera lo de otros países (fútbol mexicano,
-   Trump, etc.) aunque se busque en Ecuador."""
+   encaja en ningún tema."""
 
 
 def agenda(db):
@@ -1091,9 +1089,6 @@ def agenda(db):
         print(f"  Google Trends: {e}")
         busquedas = []
     texto = "\n".join(f"[{n}] {f['titulo']}" for n, f in enumerate(filas))
-    if busquedas:
-        texto += "\n\nBÚSQUEDAS DE GOOGLE:\n" + "\n".join(
-            f"[{n}] {b['termino']} — {b['noticia']}" for n, b in enumerate(busquedas))
     if anteriores:
         texto = "TEMAS DE LA CORRIDA ANTERIOR: " + " | ".join(anteriores) + "\n\n" + texto
     cuerpo = {
@@ -1113,9 +1108,8 @@ def agenda(db):
                             "required": ["n", "t"],
                         },
                     },
-                    "busquedas_ecuador": {"type": "array", "items": {"type": "integer"}},
                 },
-                "required": ["temas", "asignacion", "busquedas_ecuador"],
+                "required": ["temas", "asignacion"],
             },
             "temperature": 0.2,
         },
@@ -1146,8 +1140,6 @@ def agenda(db):
                  [t["tema"], 1 if t["nino"] else 0] + trozo)
             )
     db.lote(sentencias)
-    de_ecuador = {n for n in r.get("busquedas_ecuador", []) if isinstance(n, int)}
-    busquedas = [b for n, b in enumerate(busquedas) if n in de_ecuador]
     datos = {
         "total": len(filas),
         "medios": len({f["medio"] for f in filas}),

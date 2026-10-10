@@ -522,7 +522,7 @@ function pintarAgenda(a, dias) {
   const bus = [...(a.busquedas || [])].sort((p, q) => volumen(q) - volumen(p)).slice(0, 8);
   $("agenda-busquedas").innerHTML = bus.length
     ? bus.map((b) => `<li class="${b.nino ? "nino" : ""}" title="${esc(b.noticia)}"><span class="termino">${esc(b.termino)}</span><span class="trafico">${num(volumen(b))}+</span></li>`).join("")
-    : `<li class="vacio">Hoy nada de Ecuador entre lo más buscado.</li>`;
+    : `<li class="vacio">Sin datos de Google ahora.</li>`;
 }
 
 function pintarProvincias(filas) {
