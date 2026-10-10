@@ -56,6 +56,16 @@
         <p class="nivel-razon" id="nivel-detalle"></p>
       </div>
       <dl class="cifras-hoy" id="cifras-hoy"></dl>
+      <div class="agenda" id="agenda-caja" hidden>
+        <div class="agenda-lado">
+          <h3 class="agenda-h3" id="t-agenda">El Niño en la agenda nacional</h3>
+          <p class="agenda-puesto" id="agenda-puesto"></p>
+          <p class="agenda-nota" id="agenda-sub"></p>
+          <p class="agenda-h3 agenda-dias-t">% de titulares sobre El Niño, día a día</p>
+          <div class="agenda-dias" id="agenda-dias"></div>
+        </div>
+        <div class="barras agenda-temas" id="agenda-temas" aria-labelledby="t-agenda"></div>
+      </div>
     </div>
 
     <div class="hoy-grid">
@@ -69,25 +79,6 @@
         <ol id="acciones"></ol>
       </section>
     </div>
-
-    <section class="panel agenda" id="agenda-caja" aria-labelledby="t-agenda" hidden>
-      <h2 class="pastilla oscura" id="t-agenda">El Niño en la agenda nacional</h2>
-      <p class="termo-sub" id="agenda-sub"></p>
-      <div class="agenda-grid">
-        <div>
-          <p class="agenda-puesto" id="agenda-puesto"></p>
-          <div class="barras" id="agenda-temas"></div>
-        </div>
-        <div>
-          <h3 class="agenda-h3">Día a día</h3>
-          <p class="agenda-nota">Qué % de los titulares del país fue sobre El Niño y lluvias.</p>
-          <div id="agenda-dias"></div>
-          <h3 class="agenda-h3">Lo que más busca la gente en Ecuador</h3>
-          <p class="agenda-nota">Búsquedas hechas desde Ecuador hoy en Google, aunque sean de temas de afuera. Pasa el cursor para ver la noticia.</p>
-          <ol class="agenda-busquedas" id="agenda-busquedas"></ol>
-        </div>
-      </div>
-    </section>
   </section>
 
   <a class="aviso-alertas" id="aviso-alertas" href="#publicado" hidden></a>

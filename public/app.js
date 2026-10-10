@@ -120,7 +120,7 @@ function pintar(d) {
   pintarHitos();
   pintarResumen(d.resumen);
   pintarNivel(d);
-  pintarAgenda(d.agenda, d.agendaDias || []);
+  pintarAgenda(d.agenda, d.agendaDias || [], d.hoy);
   pintarNarrativas(d.narrativas);
   pintarAspectos(d.aspectos, dias);
   pintarActores(d.actores, dias);
@@ -471,21 +471,21 @@ function pintarPedidos(filas) {
     : `<p class="vacio">Todavía no hay datos.</p>`;
 }
 
-// El Niño en la agenda nacional: ranking de temas de las últimas 24 h (todos los titulares de los medios del país),
-// el % de titulares sobre El Niño día a día y lo más buscado en Google.
-function pintarAgenda(a, dias) {
+// El Niño en la agenda nacional (va dentro del panel del nivel): ranking de temas de las últimas 24 h con todos los
+// titulares de los medios del país, y el % de titulares sobre El Niño día a día.
+function pintarAgenda(a, dias, hoy) {
   $("agenda-caja").hidden = !a;
   if (!a) return;
   const temas = a.temas.filter((t) => t.n);
   const nino = temas.find((t) => t.nino);
   const puesto = nino ? temas.indexOf(nino) + 1 : 0;
   const pct = (n, total) => (total ? Math.round((100 * n) / total) : 0);
-  $("agenda-sub").textContent = `Los temas con más titulares en ${a.medios} medios ecuatorianos durante las últimas 24 horas. Base: ${num(a.total)} titulares; las notas que no forman tema cuentan en el total, pero no en el ranking. Actualizado ${hace(a.creado)}.`;
   $("agenda-puesto").innerHTML = nino
-    ? `<b>${puesto}.º</b>de ${temas.length} temas · ${pct(nino.n, a.total)}% de los titulares del país`
-    : `<b>—</b>El Niño no aparece entre los temas de hoy`;
-  const lista = temas.slice(0, 10);
-  if (nino && puesto > 10) lista.push(nino);
+    ? `<b>${puesto}.º</b><span>de ${temas.length} temas · ${pct(nino.n, a.total)}% de los titulares</span>`
+    : `<b>—</b><span>no está entre los temas de hoy</span>`;
+  $("agenda-sub").textContent = `Temas con más titulares en ${a.medios} medios ecuatorianos, últimas 24 horas (${num(a.total)} titulares; las notas sueltas no entran al ranking). Actualizado ${hace(a.creado)}.`;
+  const lista = temas.slice(0, 8);
+  if (nino && puesto > 8) lista.push(nino);
   const max = Math.max(1, ...lista.map((t) => t.n));
   $("agenda-temas").innerHTML = lista
     .map((t) => `<div class="fila-barra${t.nino ? " nino" : ""}"><span class="nombre" title="${esc(t.tema)}">${esc(t.tema)}</span><span class="pista"><span style="width:${(100 * t.n) / max}%;background:${t.nino ? "var(--acento)" : "var(--t-neutro)"}"></span></span><span class="cifra">${num(t.n)}</span></div>`)
@@ -495,7 +495,7 @@ function pintarAgenda(a, dias) {
     tooltipEn(fila, `<b>${esc(t.tema)}</b><div><span>Titulares</span><span>${num(t.n)} · ${pct(t.n, a.total)}%</span></div><div><span>Medios</span><span>${num(t.medios)}</span></div>` + (t.ejemplos || []).map((e) => `<p class="tip-ej">${esc(e.titulo)} <i>(${esc(e.medio)})</i></p>`).join(""));
   });
 
-  // Día a día: % de titulares sobre El Niño y su puesto entre los temas de ese día (solo días con datos suficientes).
+  // Día a día: % de titulares sobre El Niño y su puesto entre los temas de ese día (días con datos suficientes).
   const por = {};
   for (const f of dias) {
     const d = (por[f.dia] ||= { dia: f.dia, total: 0, nino: 0, temas: [] });
@@ -505,24 +505,15 @@ function pintarAgenda(a, dias) {
   }
   const serie = Object.values(por)
     .filter((d) => d.total >= 50)
-    .slice(-14)
+    .slice(-10)
     .map((d) => ({ ...d, pct: (100 * d.nino) / d.total, puesto: d.nino ? 1 + d.temas.filter((n) => n > d.nino).length : 0 }));
-  const W = 320, H = 96, techo = Math.max(10, ...serie.map((d) => d.pct)) * 1.15;
-  const x = (i) => ((i + 0.5) * W) / serie.length; // centrado bajo cada etiqueta de día
-  const y = (v) => H - 4 - ((H - 8) * v) / techo;
-  const pts = serie.map((d, i) => `${x(i)},${y(d.pct)}`).join(" ");
-  $("agenda-dias").innerHTML = serie.length
-    ? `${serie.length < 2 ? "" : `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="${esc(serie.map((d) => `${nombreDia(d.dia, true)}: ${Math.round(d.pct)}%`).join("; "))}">
-        <polygon class="area" points="${x(0)},${H} ${pts} ${x(serie.length - 1)},${H}"/><polyline class="linea" points="${pts}"/>
-      </svg>`}
-      <p class="dias">${serie.map((d) => `<span><b>${Math.round(d.pct)}%</b>${esc(nombreDia(d.dia, true))}${d.puesto ? ` · ${d.puesto}.º` : ""}</span>`).join("")}</p>`
-    : `<p class="vacio">Empieza a contar desde hoy.</p>`;
-
-  const volumen = (b) => parseInt(String(b.trafico).replace(/\D/g, "")) || 0; // "50000+" -> 50000
-  const bus = [...(a.busquedas || [])].sort((p, q) => volumen(q) - volumen(p)).slice(0, 8);
-  $("agenda-busquedas").innerHTML = bus.length
-    ? bus.map((b) => `<li class="${b.nino ? "nino" : ""}" title="${esc(b.noticia)}"><span class="termino">${esc(b.termino)}</span><span class="trafico">${num(volumen(b))}+</span></li>`).join("")
-    : `<li class="vacio">Sin datos de Google ahora.</li>`;
+  const techo = Math.max(5, ...serie.map((d) => d.pct));
+  $("agenda-dias").innerHTML = serie
+    .map((d) => {
+      const tip = `${nombreDia(d.dia, true)}: ${Math.round(d.pct)}% de ${num(d.total)} titulares${d.puesto ? `, ${d.puesto}.º tema` : ""}${d.dia === hoy ? " (día en curso)" : ""}`;
+      return `<span class="dia${d.dia === hoy ? " hoy" : ""}" title="${esc(tip)}"><b>${Math.round(d.pct)}%</b><i style="height:${(56 * d.pct) / techo}px"></i>${esc(nombreDia(d.dia, true))}</span>`;
+    })
+    .join("");
 }
 
 function pintarProvincias(filas) {

@@ -526,26 +526,6 @@ def guardar_titulares(db, titulares):
     return len(titulares)
 
 
-def busquedas_google():
-    """Lo más buscado en Google desde Ecuador hoy (Google Trends, RSS público). Es lo que busca la gente en Ecuador,
-    aunque sea de otro país (fútbol mexicano, Trump): no se filtra, decisión de Andrés."""
-    ns = {"ht": "https://trends.google.com/trending/rss"}
-    raiz = ET.fromstring(pedir("https://trends.google.com/trending/rss?geo=EC"))
-    salida = []
-    for item in raiz.iter("item"):
-        termino = limpiar(item.findtext("title"), 120)
-        noticias = [limpiar(n.findtext("ht:news_item_title", namespaces=ns), 200) for n in item.findall("ht:news_item", ns)]
-        salida.append(
-            {
-                "termino": termino,
-                "trafico": (item.findtext("ht:approx_traffic", namespaces=ns) or "").strip(),
-                "noticia": noticias[0] if noticias else "",
-                "nino": bool(PALABRAS.search(termino + " " + " ".join(noticias))),
-            }
-        )
-    return salida[:25]
-
-
 # ---------------------------------------------------------------- YouTube (API oficial, clave gratuita)
 
 
@@ -1083,11 +1063,6 @@ def agenda(db):
         return
     previa = db.q("SELECT datos FROM agenda ORDER BY creado DESC LIMIT 1")
     anteriores = [t["tema"] for t in json.loads(previa[0]["datos"])["temas"]] if previa else []
-    try:
-        busquedas = busquedas_google()
-    except Exception as e:
-        print(f"  Google Trends: {e}")
-        busquedas = []
     texto = "\n".join(f"[{n}] {f['titulo']}" for n, f in enumerate(filas))
     if anteriores:
         texto = "TEMAS DE LA CORRIDA ANTERIOR: " + " | ".join(anteriores) + "\n\n" + texto
@@ -1153,7 +1128,6 @@ def agenda(db):
             }
             for t in temas
         ],
-        "busquedas": busquedas,
     }
     db.q("INSERT INTO agenda (creado, datos) VALUES (?, ?)", [ahora(), json.dumps(datos, ensure_ascii=False)])
     db.q("DELETE FROM agenda WHERE creado < ?", [(ahora_utc - timedelta(days=30)).strftime("%Y-%m-%dT%H:%M:%SZ")])
