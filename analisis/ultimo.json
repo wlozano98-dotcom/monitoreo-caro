@@ -1,70 +1,164 @@
 {
   "vinetas": [
-    "Feriado baja el volumen: 35 notas de medios en 24 h frente a 67; piezas críticas, 4 frente a 7.",
-    "El Universo y El Noticiero difundieron que Carolina canceló la alerta de tsunami; ninguna pieza critica ese manejo.",
-    "Entrega de 212 kits a 71 familias en Las Naves y cerca de 1.000 bienes en Esmeraldas, replicada por El Universo.",
-    "Radio Pichincha: 1,3 millones expuestos y CNE no descarta suspender 368 recintos; Gobierno ratifica elecciones del 29 de noviembre."
+    "Feriado baja el volumen: 64 piezas en 24 h frente a 92; críticas, 4 frente a 7, de cuentas pequeñas.",
+    "Radio Pichincha: la SNGR identifica 27 playas con amenaza de oleaje del 10 al 12 de octubre, durante el feriado.",
+    "Medios del sábado: El Universo titula que Guayaquil inicia El Niño bajo agua; El Comercio reporta cierres y deslizamientos viales.",
+    "Cancelación de la alerta de tsunami, atribuida a Carolina y la SNGR (El Universo, El Telégrafo); ninguna pieza la critica."
   ],
   "fuentes_vinetas": [
-    [],
-    ["ba953bfb0e", "e52e8297c0", "61b3a2911d", "289ceda48e"],
-    ["120ec2eab7", "d834ddba14", "72501b9cd9", "eb859e3d2f"],
-    ["e768ef5d02", "03e1ba9376", "04de9be09c"]
+    [
+      "16573ee61c",
+      "46d492aefd",
+      "81bf34916b",
+      "f195bd9022"
+    ],
+    [
+      "503c6caa59",
+      "a961474f2e"
+    ],
+    [
+      "44667c307b",
+      "b58afb9a17",
+      "ea02373bec"
+    ],
+    [
+      "ba953bfb0e",
+      "61b3a2911d",
+      "289ceda48e",
+      "8989376537"
+    ]
   ],
   "acciones": [
     {
-      "accion": "Entregar al CNE el análisis de amenaza de los 368 recintos electorales expuestos.",
-      "porque": "Radio Pichincha: CNE no descarta suspender 368 recintos; el Gobierno ratificó elecciones del 29 de noviembre sin aplazamiento.",
-      "base_legal": "Art. 23.1, 23.4 y 23.9",
-      "fuentes": ["e768ef5d02", "03e1ba9376", "04de9be09c"]
-    },
-    {
-      "accion": "Publicar hoy en web y X una sola cifra oficial de afectados con fecha de corte.",
-      "porque": "Medios citan a la SNGR con cifras distintas: 16.075 (Llamingo), más de 16 mil (Ecuavisa) y 17.299 al 6 de octubre (Metro).",
-      "base_legal": "Art. 61, 72 y 73",
-      "fuentes": ["b66973494d", "479fae6cc6", "c34957c394"]
-    },
-    {
-      "accion": "Reforzar SMS y mensajes en radios locales sobre crecidas de ríos hasta el domingo 11.",
-      "porque": "La Hora reporta alerta de tormentas y crecidas hasta el 11 de octubre; El Comercio, lluvias en ocho provincias.",
+      "accion": "Difundir hoy en X, TikTok y radios costeras las 27 playas con oleaje.",
+      "porque": "Radio Pichincha: alerta del 10 al 12 de octubre, feriado; Inocar prevé mar agitado y muy agitado en costa y Galápagos.",
       "base_legal": "Art. 61 y 62",
-      "fuentes": ["fa1e6e5e61", "5dcd9c38fc", "20cc2bcc97"]
+      "fuentes": [
+        "503c6caa59",
+        "a961474f2e"
+      ]
+    },
+    {
+      "accion": "Publicar en web y redes el plan de preparación ante lluvias de noviembre-diciembre.",
+      "porque": "Inamhi prevé lluvias más intensas en la Costa; Hechos Ecuador (1.458 vistas) pregunta si estamos preparados; Santa Ana teme otro invierno devastador.",
+      "base_legal": "Art. 23.5, 61 y 73",
+      "fuentes": [
+        "3285462afa",
+        "7d3ea56705",
+        "6278466e6c"
+      ]
+    },
+    {
+      "accion": "Entregar al CNE el análisis de amenaza de los 368 recintos electorales expuestos.",
+      "porque": "Radio Pichincha: 1,3 millones expuestos y CNE no descarta suspender 368 recintos; el Gobierno ratificó elecciones del 29 de noviembre.",
+      "base_legal": "Art. 23.1, 23.4 y 23.9",
+      "fuentes": [
+        "e768ef5d02",
+        "03e1ba9376",
+        "04de9be09c"
+      ]
     }
   ],
   "narrativas": [
     {
+      "titulo": "La Secretaría descartó el tsunami a tiempo",
+      "explicacion": "Medios nacionales (El Universo, El Telégrafo, Expreso, Vistazo, El Comercio) y cuentas de noticias atribuyeron a Carolina y a la SNGR, junto con Inocar, la cancelación de la alerta. Refuerza su credibilidad técnica; sigue sin piezas críticas sobre el manejo.",
+      "ids": [
+        "3ee2fbeb72",
+        "8f3a2123bb",
+        "e52e8297c0",
+        "7dc2b4ba5e",
+        "64558d9afb",
+        "fd7d440ff6",
+        "b5ef70a042",
+        "0b622167a5",
+        "c5aaa616a6",
+        "aa1b7b5883",
+        "289ceda48e",
+        "ba953bfb0e",
+        "61b3a2911d",
+        "43a4bd3a42",
+        "4e3a4ade30",
+        "cd27688781",
+        "d6bdaf0be2",
+        "7eb6fbe890",
+        "c06a3a1fc0",
+        "8989376537"
+      ]
+    },
+    {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
       "explicacion": "La empujan las cuentas de la SNGR, la Alcaldía de Muisne, El Universo y radios locales con las entregas en Las Naves y Esmeraldas. Es la principal fortaleza de la Secretaría, aunque su alcance en redes es modesto.",
-      "ids": ["120ec2eab7", "eb859e3d2f", "78a4ff53a6", "5336cdf2d3", "72501b9cd9", "42a9621e59", "d834ddba14", "4a13d7f514", "b306a6f1d5", "f545603bc4", "84c7880abc", "636c121803", "3f64bc0d4d", "2e4c660227", "e63e0441e1"]
-    },
-    {
-      "titulo": "La Secretaría descartó el tsunami a tiempo",
-      "explicacion": "Medios nacionales (El Universo, El Telégrafo, Expreso, Vistazo, El Comercio) y cuentas de noticias atribuyeron a Carolina y a la SNGR, junto con Inocar, la cancelación de la alerta. Refuerza su credibilidad técnica; no hay piezas críticas sobre el manejo.",
-      "ids": ["3ee2fbeb72", "8f3a2123bb", "e52e8297c0", "7dc2b4ba5e", "64558d9afb", "fd7d440ff6", "b5ef70a042", "0b622167a5", "c5aaa616a6", "aa1b7b5883", "289ceda48e", "ba953bfb0e", "61b3a2911d", "43a4bd3a42", "4e3a4ade30", "cd27688781", "d6bdaf0be2", "7eb6fbe890", "c06a3a1fc0"]
-    },
-    {
-      "titulo": "Ecuador está listo para brindar ayuda internacional",
-      "explicacion": "Ecuavisa y cuentas de noticias difundieron el ofrecimiento del presidente Noboa a Panamá y que la Secretaría está atenta al llamamiento. Proyecta a Carolina hacia afuera, pero no tuvo continuidad después de la noche del 9.",
-      "ids": ["1932483718", "89f56ad7d4", "11b9906b01", "02c15042b5", "f794f46d15", "7cb64ef333"]
-    },
-    {
-      "titulo": "Se sabía que venía y no se planificó",
-      "explicacion": "Apunta sobre todo a municipios y prefecturas (Quito, alcantarillas, canales), desde cuentas pequeñas en X, TikTok y YouTube. En las últimas 24 h se debilitó; el riesgo es que el reclamo se desplace hacia la Secretaría.",
-      "ids": ["16573ee61c", "3ee1e06488", "25f552300e", "ede1c374b5", "7a9a1dd6b7", "6918553d89", "a7483ed8bf", "965c81aabe", "997ed8d74c"]
+      "ids": [
+        "120ec2eab7",
+        "eb859e3d2f",
+        "78a4ff53a6",
+        "5336cdf2d3",
+        "72501b9cd9",
+        "42a9621e59",
+        "d834ddba14",
+        "4a13d7f514",
+        "b306a6f1d5",
+        "f545603bc4",
+        "84c7880abc",
+        "636c121803",
+        "3f64bc0d4d",
+        "2e4c660227",
+        "e63e0441e1"
+      ]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "La sostienen el pronóstico del Inamhi de lluvias más intensas en la Costa en noviembre y diciembre, el temor en Santa Ana (Diario Extra) y programas de YouTube que preguntan si el país está preparado. Exige a la Secretaría mostrar preparación concreta.",
-      "ids": ["3285462afa", "6278466e6c", "7d3ea56705", "4e0b1e677b", "46d492aefd", "cbaccd052e", "f195bd9022"]
+      "explicacion": "La sostienen el pronóstico del Inamhi de lluvias más intensas en la Costa en noviembre y diciembre, el temor en Santa Ana (Diario Extra), El Universo con Guayaquil que inicia El Niño bajo agua y programas de YouTube que preguntan si el país está preparado. Exige a la Secretaría mostrar preparación concreta.",
+      "ids": [
+        "3285462afa",
+        "6278466e6c",
+        "7d3ea56705",
+        "4e0b1e677b",
+        "46d492aefd",
+        "cbaccd052e",
+        "f195bd9022",
+        "44667c307b"
+      ]
+    },
+    {
+      "titulo": "Ecuador está listo para brindar ayuda internacional",
+      "explicacion": "Ecuavisa y cuentas de noticias difundieron el ofrecimiento del presidente Noboa a Panamá y que la Secretaría está atenta al llamamiento. Proyecta a Carolina hacia afuera, pero no hay piezas nuevas sobre el tema desde la noche del 9.",
+      "ids": [
+        "1932483718",
+        "89f56ad7d4",
+        "11b9906b01",
+        "02c15042b5",
+        "f794f46d15",
+        "7cb64ef333"
+      ]
+    },
+    {
+      "titulo": "Se sabía que venía y no se planificó",
+      "explicacion": "Apunta sobre todo a municipios y prefecturas (Quito, alcantarillas, canales), desde cuentas pequeñas en X, TikTok y YouTube. Sin piezas nuevas desde la noche del 9; el riesgo es que el reclamo se desplace hacia la Secretaría.",
+      "ids": [
+        "16573ee61c",
+        "3ee1e06488",
+        "25f552300e",
+        "ede1c374b5",
+        "7a9a1dd6b7",
+        "6918553d89",
+        "a7483ed8bf",
+        "965c81aabe",
+        "997ed8d74c"
+      ]
     },
     {
       "titulo": "La ayuda estatal llega tarde y es insuficiente",
       "explicacion": "La empujaron el video sobre el albergue de 44 camas en Esmeraldas (4.013 vistas) y Radio Pichincha sobre raciones insuficientes, ambos del 7 y 8 de octubre. Sin piezas nuevas en las últimas 24 h, pero toca directamente a la Secretaría.",
-      "ids": ["67cb12876e", "50bafd2d71", "76b678cf95", "2d259cf001"]
+      "ids": [
+        "67cb12876e",
+        "50bafd2d71",
+        "76b678cf95",
+        "2d259cf001"
+      ]
     }
   ],
   "rumores": [],
-  "hitos": [
-    {"dia": "2026-10-08", "titulo": "Gobierno descarta aplazar elecciones seccionales por El Niño", "ids": ["03e1ba9376", "04de9be09c", "207617eb08"]}
-  ]
+  "hitos": []
 }
