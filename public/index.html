@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="estilos.css?v=e8caf968">
+  <link rel="stylesheet" href="estilos.css?v=9f80dc87">
 </head>
 <body>
   <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -39,7 +39,7 @@
   <section class="hoy" aria-label="Hoy">
     <div class="panel termo" aria-labelledby="t-nivel">
       <h2 class="pastilla oscura" id="t-nivel">Nivel de la conversación</h2>
-      <p class="termo-sub">Suma el porcentaje de lo publicado en las últimas 24 horas que es crítico y 10 puntos por cada alerta de posible crisis.</p>
+      <p class="termo-sub">Qué parte de lo publicado en las últimas 24 horas critica a la Secretaría o a Carolina, pesado por cuánta gente lo vio.</p>
       <div class="termo-fila">
         <span class="termo-bulbo" id="termo-bulbo"><svg class="icono" aria-hidden="true"><use href="#i-alerta"/></svg></span>
         <div class="termo-cuerpo">
@@ -75,12 +75,7 @@
 
   <div class="controles">
     <nav class="filtros" aria-label="Filtros">
-      <div class="segmentado" role="group" aria-label="Período">
-        <button type="button" data-dias="1">Hoy</button>
-        <button type="button" data-dias="7" aria-pressed="true">7 días</button>
-        <button type="button" data-dias="14">14 días</button>
-        <button type="button" data-dias="30">30 días</button>
-      </div>
+      <p class="periodo"><span id="periodo">Todo el período</span> · <abbr title="Cada pieza pesa según cuánta gente la vio: un tuit de 10 vistas vale 1, una nota de medio 3, un video de 100.000 vistas 5. Las cifras de los gráficos son puntos de alcance, no número de piezas.">pesado por alcance</abbr></p>
       <label><span>Fuente</span>
         <select id="f-fuente">
           <option value="">Todas</option>
@@ -142,17 +137,19 @@
       <section class="bloque" aria-labelledby="t-aspectos">
         <header class="bloque-cabeza">
           <h2 id="t-aspectos">Cómo se percibe la respuesta</h2>
-          <p>Piezas que dicen que cada aspecto va bien o va mal. Las neutras no cuentan.</p>
+          <p>Cuánto se dice que cada aspecto va bien o va mal, pesado por alcance, en todo el período y día a día. Las neutras no cuentan.</p>
         </header>
         <div class="leyenda"><span><i style="background:var(--t-positivo)"></i>Va bien</span><span><i style="background:var(--t-critico)"></i>Va mal</span></div>
+        <ol class="hitos" data-hitos></ol>
         <div class="aspectos" id="aspectos"></div>
       </section>
       <section class="bloque" aria-labelledby="t-actores">
         <header class="bloque-cabeza">
           <h2 id="t-actores">A quién se le atribuye</h2>
-          <p>Quién se lleva el mérito o la culpa de la respuesta.</p>
+          <p>Quién se lleva el mérito o la culpa, pesado por alcance, en todo el período y día a día.</p>
         </header>
         <div class="leyenda" id="ley-actores"></div>
+        <ol class="hitos" data-hitos></ol>
         <div class="barras" id="actores"></div>
       </section>
     </div>
@@ -183,7 +180,7 @@
     </div>
       </div>
     </details>
-    <details class="seccion" id="volumen">
+    <details class="seccion" id="volumen" open>
       <summary>
         <span class="seccion-titulo"><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg>Volumen y tono</span>
         <span class="seccion-dato" id="dato-volumen"></span>
@@ -192,12 +189,13 @@
       <div class="seccion-cuerpo">
     <div class="dos">
       <section class="bloque" aria-labelledby="t-volumen">
-        <header class="bloque-cabeza"><h2 id="t-volumen">Menciones por día</h2><p>Por fuente.</p></header>
+        <header class="bloque-cabeza"><h2 id="t-volumen">Alcance por día</h2><p>Por fuente, pesado por cuánta gente lo vio.</p></header>
+        <ol class="hitos" data-hitos></ol>
         <div class="leyenda" id="ley-fuentes"></div>
         <div class="grafico" id="g-volumen"></div>
       </section>
       <section class="bloque" aria-labelledby="t-tono">
-        <header class="bloque-cabeza"><h2 id="t-tono">Tono por día</h2><p>Hacia la Secretaría, Carolina y la respuesta del Estado.</p></header>
+        <header class="bloque-cabeza"><h2 id="t-tono">Tono por día</h2><p>Hacia la Secretaría y Carolina, pesado por alcance.</p></header>
         <div class="leyenda" id="ley-tonos"></div>
         <div class="grafico" id="g-tono"></div>
       </section>
@@ -254,6 +252,6 @@
   </footer>
 
   <div class="tooltip" id="tooltip" role="status" hidden></div>
-  <script src="app.js?v=aab4a01f"></script>
+  <script src="app.js?v=1d9516e4"></script>
 </body>
 </html>

@@ -6,7 +6,6 @@ const SOBRE = { carolina: "Carolina", secretaria: "Secretaría", nino: "El Niño
 const ASPECTOS = ["Rapidez de la respuesta", "Llegada de la ayuda", "Presencia en territorio", "Coordinación entre instituciones", "Prevención y alertas", "Comunicación e información", "Liderazgo de Carolina Lozano"];
 const ACTORES = ["Secretaría de Gestión de Riesgos", "Carolina Lozano", "Gobierno central", "Municipio o Prefectura", "Fuerzas Armadas y Policía", "Bomberos y Cruz Roja"];
 // Niveles de la conversación con los mismos nombres que las alertas de la Secretaría.
-const PUNTOS_ALERTA = 10;
 const NIVELES = [
   { nombre: "Verde", color: "var(--n-verde)", texto_color: "var(--n-verde-texto)", hasta: 30 },
   { nombre: "Amarilla", color: "var(--n-amarilla)", texto_color: "var(--n-amarilla-texto)", hasta: 45 },
@@ -15,32 +14,28 @@ const NIVELES = [
 ];
 
 const color = (tipo, clave) => `var(--${tipo}-${clave})`;
-const estado = { dias: 7, fuente: "", sobre: "", tono: "", lista: "alertas", voces: "medios" };
+const estado = { fuente: "", sobre: "", tono: "", lista: "alertas", voces: "medios" };
 let datos = null;
+let hitos = []; // hechos grandes marcados por Claude: {dia, titulo, url, n (número), i (posición del día)}
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
-const num = (n) => Number(n || 0).toLocaleString("es-EC");
+const num = (n) => Math.round(Number(n || 0)).toLocaleString("es-EC");
 const icono = (id, clase = "icono") => `<svg class="${clase}" aria-hidden="true"><use href="#i-${id}"/></svg>`;
 
 // --------------------------------------------------------------- filtros (se recuerdan en la URL)
 
 function leerURL() {
   const p = new URLSearchParams(location.search);
-  const d = parseInt(p.get("dias"), 10);
-  if ([1, 7, 14, 30].includes(d)) estado.dias = d;
   for (const k of ["fuente", "sobre", "tono"]) estado[k] = p.get(k) || "";
 }
 function escribirURL() {
   const p = new URLSearchParams();
-  if (estado.dias !== 7) p.set("dias", estado.dias);
   for (const k of ["fuente", "sobre", "tono"]) if (estado[k]) p.set(k, estado[k]);
   history.replaceState(null, "", (p.toString() ? "?" + p : location.pathname) + location.hash);
 }
 function pintarFiltros() {
-  document.querySelectorAll("[data-dias]").forEach((b) => b.setAttribute("aria-pressed", String(+b.dataset.dias === estado.dias)));
   for (const k of ["fuente", "sobre", "tono"]) $("f-" + k).value = estado[k];
 }
-document.querySelectorAll("[data-dias]").forEach((b) => b.addEventListener("click", () => ((estado.dias = +b.dataset.dias), cambiar())));
 for (const k of ["fuente", "sobre", "tono"]) $("f-" + k).addEventListener("change", (e) => ((estado[k] = e.target.value), cambiar()));
 function cambiar() {
   pintarFiltros();
@@ -62,13 +57,17 @@ pestanas("voces", "voces", () => datos && pintarVoces(datos.voces));
 // --------------------------------------------------------------- carga
 
 async function cargar() {
-  const p = new URLSearchParams({ dias: estado.dias });
+  const p = new URLSearchParams();
   for (const k of ["fuente", "sobre", "tono"]) if (estado[k]) p.set(k, estado[k]);
   document.body.style.cursor = "progress";
   try {
     const r = await fetch("/api/tablero?" + p, { cache: "no-store" });
     const d = await r.json();
     if (d.error) throw new Error(d.error);
+    // Todo el tablero va pesado por alcance: n pasa a ser la suma de pesos; el número de piezas queda en `piezas`.
+    for (const k of ["porDia", "temas", "aspectos", "actores", "necesidades", "provincias"])
+      for (const f of d[k] || []) (f.piezas = f.n), (f.n = f.p ?? f.n);
+    for (const f of d.provincias) (f.criticasPiezas = f.criticas), (f.criticas = f.pc ?? f.criticas);
     datos = d;
     pintar(d);
   } catch (e) {
@@ -115,14 +114,17 @@ function pintar(d) {
     ? `<span class="punto${viejo ? " viejo" : ""}"></span>Actualizado <b>${esc(hace(d.corrida.fin))}</b>${d.pendientes ? ` · ${num(d.pendientes)} por clasificar` : ""}`
     : "Sin corridas todavía";
   $("fecha-hoy").textContent = new Date(d.hoy + "T12:00:00Z").toLocaleDateString("es-EC", { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" });
+  $("periodo").textContent = `Todo el período: desde el ${nombreDia(d.desde, true)}`;
+  const dias = listaDias(d.desde, d.hoy);
+  hitos = (d.hitos || []).map((h, i) => ({ ...h, n: i + 1, i: dias.indexOf(h.dia) })).filter((h) => h.i >= 0);
+  pintarHitos();
   pintarResumen(d.resumen);
   pintarNivel(d);
   pintarNarrativas(d.narrativas);
-  pintarAspectos(d.aspectos);
-  pintarActores(d.actores);
+  pintarAspectos(d.aspectos, dias);
+  pintarActores(d.actores, dias);
   pintarRumores(d.narrativas);
   pintarPedidos(d.necesidades);
-  const dias = listaDias(d.desde, d.hoy);
   barrasPorDia($("g-volumen"), dias, d.porDia, "fuente", FUENTES, "s", "Menciones por día y fuente");
   barrasPorDia($("g-tono"), dias, d.porDia, "tono", TONOS, "t", "Tono por día");
   leyenda($("ley-fuentes"), FUENTES, "s");
@@ -150,7 +152,7 @@ function pintarDatosSecciones(d) {
   dato("percepcion", malos, malos === 1 ? "aspecto va mal" : "aspectos van mal", true);
   const rum = d.narrativas?.rumores?.length || 0;
   dato("rumores-sec", rum, rum === 1 ? "rumor" : "rumores", true);
-  const total = d.porDia.reduce((s, f) => s + f.n, 0);
+  const total = d.porDia.reduce((s, f) => s + f.piezas, 0);
   dato("volumen", total, "menciones");
   dato("quien", d.provincias.length, d.provincias.length === 1 ? "provincia" : "provincias");
   dato("publicado", d.alertas.length, d.alertas.length === 1 ? "alerta" : "alertas", true);
@@ -193,31 +195,32 @@ function pintarResumen(r) {
 }
 
 function pintarNivel(d) {
-  const hoy = { total: 0, critico: 0, carolina: 0, carolinaCritico: 0, alertas: 0 };
+  const hoy = { total: 0, critico: 0, carolina: 0, carolinaCritico: 0, alertas: 0, peso: 0, pesoCritico: 0 };
   const ayer = { total: 0, critico: 0 };
   for (const f of d.totales) {
     const b = f.es_hoy ? hoy : ayer;
     b.total += f.n;
     if (f.tono === "critico") b.critico += f.n;
+    if (f.es_hoy) (hoy.peso += f.p), f.tono === "critico" && (hoy.pesoCritico += f.p);
     if (f.es_hoy && f.alerta) hoy.alertas += f.n;
     if (f.es_hoy && f.sobre === "carolina") {
       hoy.carolina += f.n;
       if (f.tono === "critico") hoy.carolinaCritico += f.n;
     }
   }
-  const pct = hoy.total ? Math.round((100 * hoy.critico) / hoy.total) : 0;
-  // Un solo indicador: % de críticas + 10 puntos por cada alerta de posible crisis (máx. 100). Barra y nivel dicen lo mismo.
-  const puntaje = Math.min(100, pct + PUNTOS_ALERTA * hoy.alertas);
+  // Pesado por alcance: una crítica vista por miles pesa más que un tuit sin eco.
+  const pct = hoy.peso ? Math.round((100 * hoy.pesoCritico) / hoy.peso) : 0;
+  // Un solo indicador: % de lo de 24 h que critica a la Secretaría o a Carolina. Barra y nivel dicen lo mismo.
+  const puntaje = pct;
   const i = NIVELES.findIndex((n) => puntaje < n.hasta);
   const nivel = NIVELES[i];
   const sinDatos = !hoy.total;
   $("nivel").textContent = sinDatos ? "—" : nivel.nombre;
   $("nivel").style.color = sinDatos ? "" : nivel.texto_color;
   $("termo-bulbo").style.background = sinDatos ? "" : nivel.color;
-  const alertas = `${hoy.alertas} alerta${hoy.alertas === 1 ? "" : "s"}`;
   $("nivel-detalle").textContent = sinDatos
     ? "Sin piezas clasificadas en 24 horas"
-    : hoy.alertas ? `${pct}% crítico + ${alertas} (+${PUNTOS_ALERTA * hoy.alertas}) = ${puntaje} puntos` : `${pct}% de lo de las últimas 24 h es crítico`;
+    : `${pct}% del alcance de las últimas 24 h critica a la Secretaría o a Carolina (${num(hoy.critico)} de ${num(hoy.total)} piezas)`;
   requestAnimationFrame(() => {
     const ancho = sinDatos ? 0 : Math.max(2, puntaje);
     $("agua").style.clipPath = `inset(0 ${100 - ancho}% 0 0 round 999px)`;
@@ -234,7 +237,7 @@ function pintarNivel(d) {
   const n = d.alertas.length;
   const aviso = $("aviso-alertas");
   aviso.hidden = !n;
-  aviso.innerHTML = n ? `${icono("alerta")}<span>${n} alerta${n > 1 ? "s" : ""} ${d.dias === 1 ? "hoy" : `en ${d.dias} días`}: ver cuáles</span>${icono("flecha")}` : "";
+  aviso.innerHTML = n ? `${icono("alerta")}<span>${n} alerta${n > 1 ? "s" : ""} desde el ${esc(nombreDia(d.desde, true))}: ver cuáles</span>${icono("flecha")}` : "";
   aviso.onclick = () => {
     $("publicado").open = true;
     document.querySelector('[data-lista="alertas"]').click();
@@ -271,9 +274,11 @@ function pintarNarrativas(nar) {
         <div>
           <h3>${esc(n.titulo)}</h3>
           <p class="explica">${esc(n.explicacion)}</p>
+          ${apuntaA(n.actores)}
         </div>
         <div class="datos">
           <p class="total"><b>${num(n.total)}</b><span>menciones</span>${tendencia(n.ultimas24, n.previas24, mayoriaPositiva)}</p>
+          ${n.porDia ? curvaNarrativa(n.porDia) : ""}
           ${barraTonos(t)}
           <p class="fuentes">${fuentes}</p>
         </div>
@@ -281,6 +286,23 @@ function pintarNarrativas(nar) {
       </li>`;
     })
     .join("");
+}
+
+// A quién apunta una narrativa (el actor más nombrado en sus piezas).
+function apuntaA(actores) {
+  const top = Object.entries(actores || {}).sort((a, b) => b[1] - a[1])[0];
+  return top ? `<p class="apunta">Apunta a: <b>${esc(top[0])}</b></p>` : "";
+}
+
+// Piezas por día de una narrativa: una columna por día con su número arriba y la fecha abajo.
+function curvaNarrativa(porDia) {
+  const dias = Object.keys(porDia).sort();
+  if (dias.length < 2) return "";
+  const serie = listaDias(dias[0], dias[dias.length - 1]).map((d) => [d, porDia[d] || 0]);
+  const max = Math.max(1, ...serie.map(([, v]) => v));
+  return `<div class="curva" aria-label="Menciones por día">${serie
+    .map(([d, v]) => `<div><b>${num(v)}</b><span class="col"><i style="height:${Math.max(v ? 8 : 0, (100 * v) / max)}%"></i></span><small>${esc(nombreDia(d, true))}</small></div>`)
+    .join("")}</div>`;
 }
 
 function pintarRumores(nar) {
@@ -301,10 +323,87 @@ function pintarRumores(nar) {
 
 // --------------------------------------------------------------- percepción, atribución y pedidos
 
-function pintarAspectos(filas) {
+// Día a día de un aspecto o actor: cuántas piezas dicen que va bien (arriba) y que va mal (abajo).
+function serieDias(dias, filas, campo, clave) {
+  const por = Object.fromEntries(dias.map((d) => [d, { dia: d, positivo: 0, critico: 0, neutro: 0 }]));
+  for (const f of filas) if (f[campo] === clave && por[f.dia] && f.tono in por[f.dia]) por[f.dia][f.tono] += f.n;
+  return dias.map((d) => por[d]);
+}
+// Ola día a día: arriba (azul) las piezas que dicen que va bien, abajo (rojo) las que dicen que va mal.
+// Misma escala en todas las filas de un panel, para poder compararlas.
+function ola(serie, max) {
+  const W = 320, H = 56, mitad = 28, alto = 26, n = serie.length;
+  const x = (i) => (n === 1 ? W / 2 : 6 + (i * (W - 12)) / (n - 1));
+  const curva = (signo, campo) => {
+    const ys = serie.map((d) => mitad - signo * (alto * d[campo]) / max);
+    let p = `M${x(0)},${mitad}L${x(0)},${ys[0]}`;
+    for (let i = 1; i < n; i++) {
+      const xm = (x(i - 1) + x(i)) / 2;
+      p += `C${xm},${ys[i - 1]} ${xm},${ys[i]} ${x(i)},${ys[i]}`;
+    }
+    return p + `L${x(n - 1)},${mitad}Z`;
+  };
+  return `<div class="ola-caja"><svg class="ola" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="Día a día: ${serie.map((d) => `${nombreDia(d.dia, true)} ${d.positivo} bien, ${d.critico} mal`).join("; ")}">
+    <path d="${curva(1, "positivo")}" fill="var(--t-positivo)" fill-opacity=".75"/>
+    <path d="${curva(-1, "critico")}" fill="var(--t-critico)" fill-opacity=".75"/>
+    <line class="base" x1="0" x2="${W}" y1="${mitad}" y2="${mitad}"/>
+    ${hitos.map((h) => `<line class="hito" x1="${x(h.i)}" x2="${x(h.i)}" y1="0" y2="${H}"/>`).join("")}</svg>
+    ${hitos.map((h) => `<span class="hito-num" style="left:${(100 * x(h.i)) / W}%" title="${esc(nombreDia(h.dia, true) + ": " + h.titulo)}">${h.n}</span>`).join("")}
+    <p class="ola-fechas"><span>${esc(nombreDia(serie[0].dia, true))}</span><span>${esc(nombreDia(serie[n - 1].dia, true))}</span></p></div>`;
+}
+function maxSerie(series) {
+  return Math.max(1, ...Object.values(series).flatMap((s) => s.map((d) => Math.max(d.positivo, d.critico))));
+}
+function botonPiezas(tipo, valor) {
+  return `<button type="button" class="ver-piezas" data-tipo="${tipo}" data-valor="${esc(valor)}" aria-expanded="false">${icono("flecha")}Ver noticias</button><ul class="piezas-de" hidden></ul>`;
+}
+// "Ver noticias": pide las piezas de ese aspecto o actor y las muestra con su pastilla de tono.
+async function verPiezas(boton) {
+  const lista = boton.nextElementSibling;
+  const abrir = boton.getAttribute("aria-expanded") !== "true";
+  boton.setAttribute("aria-expanded", String(abrir));
+  lista.hidden = !abrir;
+  if (!abrir || lista.dataset.cargado) return;
+  lista.innerHTML = `<li class="vacio">Cargando…</li>`;
+  const p = new URLSearchParams({ tipo: boton.dataset.tipo, valor: boton.dataset.valor });
+  for (const k of ["fuente", "sobre", "tono"]) if (estado[k]) p.set(k, estado[k]);
+  try {
+    const { piezas } = await (await fetch("/api/piezas?" + p, { cache: "no-store" })).json();
+    lista.dataset.cargado = "1";
+    lista.innerHTML = piezas.length
+      ? piezas
+          .map((x) => {
+            const titulo = x.titulo || x.resumen || "(sin texto)";
+            const pastilla = `<span class="pastilla-tono ${x.tono}">${x.tono === "positivo" ? "Va bien" : x.tono === "critico" ? "Va mal" : "Neutra"}</span>`;
+            const meta = `${esc(quienDe(x))} · ${esc(FUENTES[x.fuente] || x.fuente)} · ${esc(fechaCorta(x.fecha))}${x.vistas ? ` · ${num(x.vistas)} vistas` : ""}`;
+            return `<li>${pastilla}<div>${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(titulo)}</a>` : esc(titulo)}<small>${meta}</small>${botonCorregir({ ...x, tono: x.tono_sngr ?? x.tono })}</div></li>`;
+          })
+          .join("")
+      : `<li class="vacio">Nada con estos filtros.</li>`;
+  } catch (e) {
+    lista.innerHTML = `<li class="vacio">No se pudo cargar.</li>`;
+  }
+}
+for (const id of ["aspectos", "actores"]) $(id).addEventListener("click", (e) => e.target.closest(".ver-piezas") && verPiezas(e.target.closest(".ver-piezas")));
+
+// "51 pts · 17 piezas": puntos de alcance y cuántas piezas son.
+const punt = (p, n) => `${num(p)} pts · ${num(n || 0)} ${n === 1 ? "pieza" : "piezas"}`;
+
+// Lista de hitos (numerados como en los gráficos), con enlace a la noticia.
+function pintarHitos() {
+  const html = hitos
+    .map((h) => `<li><span class="hito-num">${h.n}</span><span>${esc(nombreDia(h.dia, true))} · ${h.url ? `<a href="${esc(h.url)}" target="_blank" rel="noopener noreferrer">${esc(h.titulo)}</a>` : esc(h.titulo)}</span></li>`)
+    .join("");
+  document.querySelectorAll("[data-hitos]").forEach((el) => ((el.innerHTML = html), (el.hidden = !hitos.length)));
+}
+
+function pintarAspectos(filas, dias) {
   const por = Object.fromEntries(ASPECTOS.map((a) => [a, { positivo: 0, critico: 0, neutro: 0 }]));
-  for (const f of filas) if (por[f.aspecto] && f.tono in por[f.aspecto]) por[f.aspecto][f.tono] += f.n;
+  for (const f of filas)
+    if (por[f.aspecto] && f.tono in por[f.aspecto]) (por[f.aspecto][f.tono] += f.n), (por[f.aspecto]["n_" + f.tono] = (por[f.aspecto]["n_" + f.tono] || 0) + f.piezas);
+  const series = Object.fromEntries(ASPECTOS.map((a) => [a, serieDias(dias, filas, "aspecto", a)]));
   const max = Math.max(1, ...ASPECTOS.map((a) => Math.max(por[a].positivo, por[a].critico)));
+  const maxDia = maxSerie(series);
   $("aspectos").innerHTML = ASPECTOS.map((a) => {
     const p = por[a];
     const suma = p.positivo + p.critico;
@@ -314,44 +413,42 @@ function pintarAspectos(filas) {
       <div class="nombre"><span>${esc(a)}</span>${veredicto}</div>
       <div class="lado bien"><small>${num(p.positivo)}</small><span class="b" style="width:${(88 * p.positivo) / max}%"></span></div>
       <div class="lado mal"><span class="b" style="width:${(88 * p.critico) / max}%"></span><small>${num(p.critico)}</small></div>
+      ${suma ? `<div class="debajo">${ola(series[a], maxDia)}${botonPiezas("aspecto", a)}</div>` : ""}
     </div>`;
   }).join("");
-  $("aspectos").querySelectorAll(".aspecto").forEach((el) => {
-    const p = por[el.dataset.a];
-    tooltipEn(el, `<b>${esc(el.dataset.a)}</b><div><span><i style="background:var(--t-positivo)"></i>Va bien</span><span>${num(p.positivo)}</span></div><div><span><i style="background:var(--t-critico)"></i>Va mal</span><span>${num(p.critico)}</span></div><div><span>Neutras</span><span>${num(p.neutro)}</span></div>`);
+  $("aspectos").querySelectorAll(".aspecto .lado").forEach((el) => {
+    const a = el.closest(".aspecto").dataset.a, p = por[a];
+    tooltipEn(el, `<b>${esc(a)}</b><div><span><i style="background:var(--t-positivo)"></i>Va bien</span><span>${punt(p.positivo, p.n_positivo)}</span></div><div><span><i style="background:var(--t-critico)"></i>Va mal</span><span>${punt(p.critico, p.n_critico)}</span></div><div><span>Neutras</span><span>${punt(p.neutro, p.n_neutro)}</span></div>`);
   });
 }
 
-function barrasPorTono(el, filas, campo, orden, siempre = []) {
+function pintarActores(filas, dias) {
   const por = {};
-  for (const k of siempre) por[k] = { positivo: 0, neutro: 0, critico: 0, total: 0 };
   for (const f of filas) {
-    const k = f[campo];
-    if (!k) continue;
-    const t = (por[k] ||= { positivo: 0, neutro: 0, critico: 0, total: 0 });
-    if (f.tono in t) t[f.tono] += f.n;
+    const t = (por[f.actor] ||= { positivo: 0, neutro: 0, critico: 0, total: 0 });
+    if (f.tono in t) (t[f.tono] += f.n), (t["n_" + f.tono] = (t["n_" + f.tono] || 0) + f.piezas);
     t.total += f.n;
   }
-  const lista = (orden || Object.keys(por)).filter((k) => por[k]).sort((a, b) => por[b].total - por[a].total).slice(0, 10);
+  por["Carolina Lozano"] ||= { positivo: 0, neutro: 0, critico: 0, total: 0 };
+  const lista = ACTORES.filter((k) => por[k]).sort((a, b) => por[b].total - por[a].total);
+  const series = Object.fromEntries(lista.map((k) => [k, serieDias(dias, filas, "actor", k)]));
   const max = Math.max(1, ...lista.map((k) => por[k].total));
-  el.innerHTML = lista.length
-    ? lista
-        .map((k, i) => {
-          const t = por[k];
-          const segs = Object.keys(TONOS).filter((x) => t[x]).map((x) => `<span style="width:${(100 * t[x]) / max}%;background:${color("t", x)}"></span>`).join("");
-          return `<div class="fila-barra" data-i="${i}"><span class="nombre" title="${esc(k)}">${esc(k)}</span><span class="pista">${segs}</span><span class="cifra">${num(t.total)}${t.critico ? `<small>${num(t.critico)} crít.</small>` : ""}</span></div>`;
-        })
-        .join("")
-    : `<p class="vacio">Nada con estos filtros.</p>`;
-  el.querySelectorAll(".fila-barra").forEach((fila) => {
-    const k = lista[+fila.dataset.i];
-    tooltipEn(fila, `<b>${esc(k)}</b>` + Object.entries(TONOS).map(([x, v]) => `<div><span><i style="background:${color("t", x)}"></i>${v}</span><span>${num(por[k][x])}</span></div>`).join(""));
-  });
-}
-
-function pintarActores(filas) {
+  const maxDia = maxSerie(series);
   leyenda($("ley-actores"), TONOS, "t");
-  barrasPorTono($("actores"), filas, "actor", ACTORES, ["Carolina Lozano"]);
+  $("actores").innerHTML = lista
+    .map((k) => {
+      const t = por[k];
+      const segs = Object.keys(TONOS).filter((x) => t[x]).map((x) => `<span style="width:${(100 * t[x]) / max}%;background:${color("t", x)}"></span>`).join("");
+      return `<div class="actor" data-a="${esc(k)}">
+        <div class="fila-barra"><span class="nombre" title="${esc(k)}">${esc(k)}</span><span class="pista">${segs}</span><span class="cifra">${num(t.total)} pts${t.critico ? `<small>${num(t.critico)} crít.</small>` : ""}</span></div>
+        <div class="debajo">${t.positivo + t.critico ? ola(series[k], maxDia) : ""}${botonPiezas("actor", k)}</div>
+      </div>`;
+    })
+    .join("");
+  $("actores").querySelectorAll(".actor .fila-barra").forEach((fila) => {
+    const k = fila.closest(".actor").dataset.a;
+    tooltipEn(fila, `<b>${esc(k)}</b>` + Object.entries(TONOS).map(([x, v]) => `<div><span><i style="background:${color("t", x)}"></i>${v}</span><span>${punt(por[k][x], por[k]["n_" + x])}</span></div>`).join(""));
+  });
 }
 
 function pintarPedidos(filas) {
@@ -389,18 +486,69 @@ function pintarVoces(voces) {
   const deMedios = estado.voces === "medios";
   const filas = voces.filter((v) => (v.fuente === "medios") === deMedios).slice(0, 10);
   $("voces").innerHTML = filas.length
-    ? `<thead><tr><th>${deMedios ? "Medio" : "Cuenta"}</th><th class="num">${deMedios ? "Piezas" : "Interacciones"}</th><th>Tono</th></tr></thead><tbody>` +
+    ? `<thead><tr><th>${deMedios ? "Medio" : "Cuenta"}</th><th class="num">${deMedios ? "Piezas" : "Alcance"}</th><th>Tono</th></tr></thead><tbody>` +
       filas
         .map((v) => {
           const t = { positivo: v.positivas || 0, critico: v.criticas || 0, neutro: v.n - (v.positivas || 0) - (v.criticas || 0) };
           const nombre = deMedios ? v.quien : "@" + String(v.quien || "").replace(/^@/, "");
-          const sub = deMedios ? "" : `${FUENTES[v.fuente] || v.fuente}${v.nombre && v.nombre !== v.quien ? " · " + v.nombre : ""} · ${num(v.n)} ${v.n === 1 ? "publicación" : "publicaciones"}`;
-          return `<tr><td class="quien"><b>${esc(nombre)}</b>${sub ? `<small>${esc(sub)}</small>` : ""}</td><td class="num">${num(deMedios ? v.n : v.inter)}</td><td>${barraTonos(t)}</td></tr>`;
+          const sub = deMedios ? "" : `${FUENTES[v.fuente] || v.fuente}${v.nombre && v.nombre !== v.quien ? " · " + v.nombre : ""} · ${num(v.n)} ${v.n === 1 ? "publicación" : "publicaciones"}${v.seguidores ? ` · ${num(v.seguidores)} seguidores` : ""}`;
+          const cifra = deMedios ? num(v.n) : v.vistas ? `${num(v.vistas)}<small>vistas · ${num(v.inter)} interacc.</small>` : `${num(v.inter)}<small>interacciones</small>`;
+          return `<tr><td class="quien"><b>${esc(nombre)}</b>${sub ? `<small>${esc(sub)}</small>` : ""}</td><td class="num">${cifra}</td><td>${barraTonos(t)}</td></tr>`;
         })
         .join("") +
       "</tbody>"
     : `<tbody><tr><td class="vacio">Nada con estos filtros.</td></tr></tbody>`;
 }
+
+// --------------------------------------------------------------- corregir una clasificación
+
+// Cualquiera puede corregir (decisión de Andrés). La corrección cuenta de inmediato en la base, el tablero la muestra
+// cuando vence la caché (5 min) y Gemini la recibe como ejemplo en las próximas corridas.
+function botonCorregir(p) {
+  if (!p.id) return "";
+  const datos = { id: p.id, tono: p.tono || "neutro", actor: p.actor || "Ninguno", tono_actor: p.tono_actor || "neutro", aspecto: p.aspecto || "Ninguno" };
+  return `<button type="button" class="corregir" data-pieza="${esc(JSON.stringify(datos))}">¿Mal clasificada? Corregir</button>`;
+}
+function opciones(lista, actual, nombres = {}) {
+  return lista.map((v) => `<option value="${esc(v)}"${v === actual ? " selected" : ""}>${esc(nombres[v] || v)}</option>`).join("");
+}
+function abrirCorregir(boton) {
+  const p = JSON.parse(boton.dataset.pieza);
+  const tonos = { positivo: "Positivo", neutro: "Neutro", critico: "Crítico" };
+  const form = document.createElement("form");
+  form.className = "form-corregir";
+  form.innerHTML = `
+    <label><span>Tono hacia la Secretaría y Carolina</span><select name="tono">${opciones(Object.keys(tonos), p.tono, tonos)}</select></label>
+    <label><span>¿A quién apunta?</span><select name="actor">${opciones([...ACTORES, "Ninguno"], p.actor)}</select></label>
+    <label><span>Tono hacia ese actor</span><select name="tono_actor">${opciones(Object.keys(tonos), p.tono_actor, tonos)}</select></label>
+    <label><span>Aspecto de la respuesta</span><select name="aspecto">${opciones([...ASPECTOS, "Ninguno"], p.aspecto)}</select></label>
+    <label class="check"><input type="checkbox" name="fuera"> No tiene que ver con el tema (sacarla del tablero)</label>
+    <div class="botones"><button type="submit">Guardar</button><button type="button" class="cancelar">Cancelar</button><span class="msj" role="status"></span></div>`;
+  boton.hidden = true;
+  boton.after(form);
+  form.querySelector(".cancelar").onclick = () => (form.remove(), (boton.hidden = false));
+  form.onsubmit = async (e) => {
+    e.preventDefault();
+    const f = new FormData(form);
+    const cambios = {};
+    for (const k of ["tono", "actor", "tono_actor", "aspecto"]) if (f.get(k) !== p[k]) cambios[k] = f.get(k);
+    if (f.get("fuera")) cambios.relevante = "0";
+    const msj = form.querySelector(".msj");
+    if (!Object.keys(cambios).length) return (msj.textContent = "No cambiaste nada.");
+    msj.textContent = "Guardando…";
+    try {
+      const r = await (await fetch("/api/corregir", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ id: p.id, cambios }) })).json();
+      if (r.error) throw new Error(r.error);
+      form.innerHTML = `<p class="msj ok">Corregido, gracias. Se verá en el tablero en unos minutos y la IA aprenderá del ejemplo.</p>`;
+    } catch (err) {
+      msj.textContent = "No se pudo guardar: " + err.message;
+    }
+  };
+}
+document.addEventListener("click", (e) => {
+  const b = e.target.closest(".corregir");
+  if (b) abrirCorregir(b);
+});
 
 // --------------------------------------------------------------- publicaciones
 
@@ -424,10 +572,12 @@ function pintarPublicaciones(d) {
           ${p.sobre && p.sobre !== "nino" ? `<span class="chip">${SOBRE[p.sobre]}</span>` : ""}
           ${p.tema ? `<span class="chip">${esc(p.tema)}</span>` : ""}
           ${p.provincia ? `<span class="chip">${esc(p.provincia)}</span>` : ""}
+          ${p.vistas ? `<span>${num(p.vistas)} vistas</span>` : ""}
           ${p.interacciones && p.fuente !== "medios" ? `<span>${num(p.interacciones)} interacciones</span>` : ""}
         </p>
         ${p.url ? `<a class="titulo" href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${esc(titulo)}${icono("enlace")}</a>` : `<p class="titulo">${esc(titulo)}</p>`}
         ${detalle ? `<p class="detalle">${esc(detalle)}</p>` : ""}
+        ${botonCorregir(p)}
       </li>`;
     })
     .join("");
@@ -486,6 +636,10 @@ function barrasPorDia(el, dias, filas, campo, nombres, tipo, titulo) {
     if (i % cadaCuanto === 0 || i === serie.length - 1) svg += `<text class="eje" x="${x + barra / 2}" y="${H - 6}" text-anchor="middle">${esc(nombreDia(d.dia, true))}</text>`;
     svg += `<rect class="zona" data-i="${i}" x="${iz + i * ancho}" y="0" width="${ancho}" height="${H - ab}"/>`;
   });
+  for (const h of hitos) {
+    const cx = iz + h.i * ancho + ancho / 2;
+    svg += `<line class="hito" x1="${cx}" x2="${cx}" y1="${ar + 10}" y2="${H - ab}"/><circle class="hito-circ" cx="${cx}" cy="${ar + 2}" r="8"/><text class="hito-txt" x="${cx}" y="${ar + 6}" text-anchor="middle">${h.n}</text>`;
+  }
   el.innerHTML = svg + "</svg>";
   el.querySelectorAll(".zona").forEach((z) => {
     const d = serie[+z.dataset.i];
