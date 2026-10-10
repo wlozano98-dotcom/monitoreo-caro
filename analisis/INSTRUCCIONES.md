@@ -76,7 +76,9 @@ Ecuador, registro ejecutivo, sin emojis ni signos de exclamación.
     o emitir lineamientos; no ejecutarlo ella. Nunca cruces los límites de la sección 4 de `marco_legal.md`:
     nada de proselitismo con la ayuda, nada de sancionar o presionar a quien critica, nada de ocultar información.
 - **narrativas** (3 a 6): las ideas de fondo que están calando en la población sobre la respuesta del Estado y de la
-  Secretaría (qué cree la gente, a quién culpa o reconoce, qué teme), no temas noticiosos sueltos.
+  Secretaría (qué cree la gente, a quién culpa o reconoce, qué teme), no temas noticiosos sueltos. Incluye también lo
+  que se dice de municipios, prefecturas (GAD) u otros actores, y di en el título a quién apunta ("Culpan a los GAD
+  de no limpiar alcantarillas"): no lo atribuyas a la Secretaría.
   - `titulo`: la idea como la diría la gente, máximo 8 palabras. Si una narrativa de la corrida anterior sigue viva,
     conserva su título para que se pueda seguir su evolución.
   - `explicacion`: 1 o 2 frases: quién la empuja y qué riesgo u oportunidad es para la Secretaría y para Carolina.

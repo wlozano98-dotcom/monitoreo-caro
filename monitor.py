@@ -194,6 +194,8 @@ ACTORES = [
     "Municipio o Prefectura", "Fuerzas Armadas y Policía", "Bomberos y Cruz Roja", "Ninguno",
 ]
 
+ACTORES_SNGR = ACTORES[:3]  # la Secretaría, Carolina y el Gobierno central
+
 PROVINCIAS = [
     "Azuay", "Bolívar", "Cañar", "Carchi", "Chimborazo", "Cotopaxi", "El Oro", "Esmeraldas", "Galápagos",
     "Guayas", "Imbabura", "Loja", "Los Ríos", "Manabí", "Morona Santiago", "Napo", "Orellana", "Pastaza",
@@ -237,8 +239,9 @@ Para cada pieza numerada (noticia, publicación o comentario) devuelve:
 - idea: la idea o percepción de fondo que transmite, como la repetiría la gente, en frase genérica y reutilizable
   (máx. 10 palabras, sin nombres de lugares ni cifras). Ej.: "La ayuda llega tarde", "La Secretaría está en el
   territorio", "No hubo alertas a tiempo", "Las autoridades se toman fotos y no ayudan", "Hay coordinación con los
-  municipios". "" si la pieza es puramente informativa, no transmite ninguna idea sobre la respuesta, o la idea es sobre
-  municipios, prefecturas u otros actores locales.
+  municipios", "El municipio no limpió las alcantarillas". También cuenta lo que se dice de alcaldes, prefectos u otros
+  actores (nombra el tipo de actor en la idea). "" si la pieza es puramente informativa y no transmite ninguna idea sobre
+  la respuesta.
 - rumor: si la pieza difunde o menciona un rumor, cadena, alerta falsa o dato sin confirmar sobre la emergencia (p. ej.
   "viene un tsunami", "cortarán el agua a todo Guayaquil", "están cobrando por los kits"), descríbelo en máx. 12 palabras
   como afirmación genérica; si no, "". No marques como rumor las críticas u opiniones, solo afirmaciones de hecho dudosas.
@@ -822,8 +825,14 @@ def armar_grupo(titulo, explicacion, miembros):
     hace48 = (ahora_utc - timedelta(hours=48)).strftime("%Y-%m-%dT%H:%M:%SZ")
     tonos = {"positivo": 0, "neutro": 0, "critico": 0}
     fuentes = {}
+    actores = {}
     for f in miembros:
-        tonos[f["tono"]] = tonos.get(f["tono"], 0) + 1
+        # Si la pieza habla de un alcalde, prefecto u otro actor, su tono es el juicio sobre ese actor.
+        local = f.get("actor") and f["actor"] not in ACTORES_SNGR and f.get("tono_actor")
+        tono = f["tono_actor"] if local else f["tono"]
+        tonos[tono] = tonos.get(tono, 0) + 1
+        if f.get("actor"):
+            actores[f["actor"]] = actores.get(f["actor"], 0) + 1
         fuentes[f["fuente"]] = fuentes.get(f["fuente"], 0) + 1
     ejemplos = sorted(miembros, key=lambda f: (-(f["interacciones"] or 0), f["f"]))[:3]
     por_dia = {}  # piezas por día de Ecuador, para la curva de cada narrativa
@@ -840,6 +849,7 @@ def armar_grupo(titulo, explicacion, miembros):
         "fuentes": fuentes,
         "interacciones": sum(f["interacciones"] or 0 for f in miembros),
         "porDia": por_dia,
+        "actores": actores,
         "ejemplos": [
             {
                 "fuente": f["fuente"],
@@ -905,11 +915,10 @@ def narrativas(db):
     """Narrativas y rumores de los últimos 3 días (se guardan juntos; el tablero muestra la última agrupación)."""
     ahora_utc = datetime.now(timezone.utc)
     desde = (ahora_utc - timedelta(days=3)).strftime("%Y-%m-%dT%H:%M:%SZ")
-    columnas = "id, fuente, medio, autor, url, titulo, texto, resumen, tono, idea, rumor, interacciones, COALESCE(fecha, recogido) AS f"
+    columnas = ("id, fuente, medio, autor, url, titulo, texto, resumen, tono, idea, rumor, interacciones, actor, tono_actor, "
+                "COALESCE(fecha, recogido) AS f")
     ideas = db.q(
         f"SELECT {columnas} FROM piezas WHERE relevante = 1 AND idea IS NOT NULL AND COALESCE(fecha, recogido) >= ? "
-        # Lo que se dice de alcaldes, prefectos u otros actores locales no es narrativa sobre la Secretaría.
-        "AND (actor IS NULL OR actor IN ('Secretaría de Gestión de Riesgos', 'Carolina Lozano', 'Gobierno central')) "
         "ORDER BY interacciones DESC LIMIT 600",
         [desde],
     )

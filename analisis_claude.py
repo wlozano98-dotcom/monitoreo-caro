@@ -131,7 +131,7 @@ def cargar(ruta=ULTIMO):
     if ultimo and json.loads(ultimo[0]["texto"]).get("huella") == huella:
         print("Este análisis ya estaba cargado.")
         return
-    columnas = "id, fuente, medio, autor, url, titulo, texto, resumen, tono, interacciones, COALESCE(fecha, recogido) AS f"
+    columnas = "id, fuente, medio, autor, url, titulo, texto, resumen, tono, interacciones, actor, tono_actor, COALESCE(fecha, recogido) AS f"
 
     def piezas_de(ids):
         cortos = sorted({str(i).strip("[] ")[:ID_CORTO] for i in ids if str(i).strip()})
