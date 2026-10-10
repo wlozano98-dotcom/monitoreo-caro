@@ -34,9 +34,9 @@ function escribirURL() {
   history.replaceState(null, "", (p.toString() ? "?" + p : location.pathname) + location.hash);
 }
 function pintarFiltros() {
-  for (const k of ["fuente", "sobre", "tono"]) $("f-" + k).value = estado[k];
+  for (const k of ["fuente", "sobre", "tono"]) if ($("f-" + k)) $("f-" + k).value = estado[k];
 }
-for (const k of ["fuente", "sobre", "tono"]) $("f-" + k).addEventListener("change", (e) => ((estado[k] = e.target.value), cambiar()));
+for (const k of ["fuente", "sobre", "tono"]) $("f-" + k)?.addEventListener("change", (e) => ((estado[k] = e.target.value), cambiar()));
 function cambiar() {
   pintarFiltros();
   escribirURL();
@@ -114,7 +114,7 @@ function pintar(d) {
     ? `<span class="punto${viejo ? " viejo" : ""}"></span>Actualizado <b>${esc(hace(d.corrida.fin))}</b>${d.pendientes ? ` · ${num(d.pendientes)} por clasificar` : ""}`
     : "Sin corridas todavía";
   $("fecha-hoy").textContent = new Date(d.hoy + "T12:00:00Z").toLocaleDateString("es-EC", { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" });
-  $("periodo").textContent = `Todo el período: desde el ${nombreDia(d.desde, true)}`;
+  if ($("periodo")) $("periodo").textContent = `Todo el período: desde el ${nombreDia(d.desde, true)}`;
   const dias = listaDias(d.desde, d.hoy);
   hitos = (d.hitos || []).map((h, i) => ({ ...h, n: i + 1, i: dias.indexOf(h.dia) })).filter((h) => h.i >= 0);
   pintarHitos();
@@ -179,8 +179,8 @@ function prepararSecciones() {
     } catch {}
   };
   for (const s of secciones) s.querySelector("summary").addEventListener("click", () => setTimeout(guardar));
-  $("abrir-todo").addEventListener("click", () => (secciones.forEach((s) => (s.open = true)), guardar()));
-  $("cerrar-todo").addEventListener("click", () => (secciones.forEach((s) => (s.open = false)), guardar()));
+  $("abrir-todo")?.addEventListener("click", () => (secciones.forEach((s) => (s.open = true)), guardar()));
+  $("cerrar-todo")?.addEventListener("click", () => (secciones.forEach((s) => (s.open = false)), guardar()));
 }
 
 // --------------------------------------------------------------- banda "Hoy"
@@ -192,7 +192,7 @@ function pintarResumen(r) {
     ? acciones.map((a) => `<li><b>${esc(a.accion)}</b><span>${esc(a.porque)}</span>${a.base_legal ? `<em class="ley">${esc(a.base_legal)}</em>` : ""}</li>`).join("")
     : `<li class="vacio">Aparecerán aquí 3 acciones sugeridas cuando la IA haya clasificado lo del día.</li>`;
   const quien = r?.autor === "Claude" ? "Análisis de Claude" : "Escrito por IA (Gemini)";
-  $("resumen-pie").textContent = r ? `Últimas 24 horas · ${quien} ${hace(r.creado)} · no depende de los filtros.` : "";
+  $("resumen-pie").textContent = r ? `Últimas 24 horas · ${quien} ${hace(r.creado)}.` : "";
 }
 
 function pintarNivel(d) {
@@ -264,7 +264,7 @@ function pintarNarrativas(nar) {
     el.innerHTML = `<li class="vacio">Todavía no hay suficientes ideas para agrupar.</li>`;
     return;
   }
-  $("narrativas-pie").textContent = `Lo que más se repite en medios y redes en los últimos 3 días. ${nar.autor === "Claude" ? "Análisis de Claude" : "Agrupado por IA (Gemini)"} ${hace(nar.creado)}; no depende de los filtros.`;
+  $("narrativas-pie").textContent = `Lo que más se repite en medios y redes en los últimos 3 días. ${nar.autor === "Claude" ? "Análisis de Claude" : "Agrupado por IA (Gemini)"} ${hace(nar.creado)}.`;
   el.innerHTML = lista
     .map((n) => {
       const t = n.tonos;
@@ -380,7 +380,7 @@ async function verPiezas(boton) {
             return `<li>${pastilla}<div>${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(titulo)}</a>` : esc(titulo)}<small>${meta}</small>${botonCorregir({ ...x, tono: x.tono_sngr ?? x.tono })}</div></li>`;
           })
           .join("")
-      : `<li class="vacio">Nada con estos filtros.</li>`;
+      : `<li class="vacio">Todavía no hay datos.</li>`;
   } catch (e) {
     lista.innerHTML = `<li class="vacio">No se pudo cargar.</li>`;
   }
@@ -468,7 +468,7 @@ function pintarPedidos(filas) {
           return `<div class="fila-barra"><span class="nombre">${esc(nec)}</span><span class="pista"><span style="width:${(100 * p.total) / max}%;background:var(--s-medios)"></span></span><span class="cifra">${num(p.total)}</span>${provs ? `<span class="sub">Sobre todo en ${esc(provs)}</span>` : ""}</div>`;
         })
         .join("")
-    : `<p class="vacio">Nada con estos filtros.</p>`;
+    : `<p class="vacio">Todavía no hay datos.</p>`;
 }
 
 // El Niño en la agenda nacional: ranking de temas de las últimas 24 h (todos los titulares de los medios del país),
@@ -480,7 +480,7 @@ function pintarAgenda(a, dias) {
   const nino = temas.find((t) => t.nino);
   const puesto = nino ? temas.indexOf(nino) + 1 : 0;
   const pct = (n, total) => (total ? Math.round((100 * n) / total) : 0);
-  $("agenda-sub").textContent = `Temas más publicados por ${a.medios} medios del país en las últimas 24 horas (${num(a.total)} titulares; los sueltos no entran al ranking). Actualizado ${hace(a.creado)}.`;
+  $("agenda-sub").textContent = `Los temas con más titulares en ${a.medios} medios ecuatorianos durante las últimas 24 horas. Base: ${num(a.total)} titulares; las notas que no forman tema cuentan en el total, pero no en el ranking. Actualizado ${hace(a.creado)}.`;
   $("agenda-puesto").innerHTML = nino
     ? `<b>${puesto}.º</b>de ${temas.length} temas · ${pct(nino.n, a.total)}% de los titulares del país`
     : `<b>—</b>El Niño no aparece entre los temas de hoy`;
@@ -522,7 +522,7 @@ function pintarAgenda(a, dias) {
   const bus = [...(a.busquedas || [])].sort((p, q) => volumen(q) - volumen(p)).slice(0, 8);
   $("agenda-busquedas").innerHTML = bus.length
     ? bus.map((b) => `<li class="${b.nino ? "nino" : ""}" title="${esc(b.noticia)}"><span class="termino">${esc(b.termino)}</span><span class="trafico">${num(volumen(b))}+</span></li>`).join("")
-    : `<li class="vacio">Sin datos de Google ahora.</li>`;
+    : `<li class="vacio">Hoy nada de Ecuador entre lo más buscado.</li>`;
 }
 
 function pintarProvincias(filas) {
@@ -534,7 +534,7 @@ function pintarProvincias(filas) {
           return `<div class="fila-barra"><span class="nombre">${esc(f.provincia)}</span><span class="pista">${crit ? `<span style="width:${(100 * crit) / max}%;background:var(--t-critico)"></span>` : ""}${f.n - crit ? `<span style="width:${(100 * (f.n - crit)) / max}%;background:var(--t-neutro)"></span>` : ""}</span><span class="cifra">${num(f.n)}</span></div>`;
         })
         .join("")
-    : `<p class="vacio">Nada con estos filtros.</p>`;
+    : `<p class="vacio">Todavía no hay datos.</p>`;
   $("g-prov").querySelectorAll(".fila-barra").forEach((fila, i) => {
     const f = filas[i];
     const crit = f.criticas || 0;
@@ -557,7 +557,7 @@ function pintarVoces(voces) {
         })
         .join("") +
       "</tbody>"
-    : `<tbody><tr><td class="vacio">Nada con estos filtros.</td></tr></tbody>`;
+    : `<tbody><tr><td class="vacio">Todavía no hay datos.</td></tr></tbody>`;
 }
 
 // --------------------------------------------------------------- corregir una clasificación
@@ -617,7 +617,7 @@ function pintarPublicaciones(d) {
   const piezas = listas[estado.lista] || [];
   const ul = $("lista");
   if (!piezas.length) {
-    ul.innerHTML = `<li class="vacio">${estado.lista === "alertas" ? "No hay alertas con estos filtros." : "Nada con estos filtros."}</li>`;
+    ul.innerHTML = `<li class="vacio">${estado.lista === "alertas" ? "No hay alertas." : "Todavía no hay datos."}</li>`;
     return;
   }
   ul.innerHTML = piezas

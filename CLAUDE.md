@@ -24,7 +24,7 @@ medios y redes sobre El Niño, la Secretaría y ella. Presupuesto cero: solo cap
 - Agenda nacional (pedido de Andrés): cada corrida guarda TODOS los titulares de 24 h de los medios del país
   (`AGENDA_MEDIOS`, Google Noticias `site:` + RSS propios) en `titulares`; cada 4 h `agenda()` le pide a Gemini los
   temas y asigna cada titular (tema 0 = "El Niño y lluvias"); los conteos y el puesto se cuentan en Python. Se suma
-  Google Trends Ecuador. Historial desde el 9 oct 2026. `--solo-agenda` para probar.
+  Google Trends Ecuador (solo lo que Gemini marca como de Ecuador). Historial desde el 9 oct 2026. `--solo-agenda` para probar.
 - `migrations/`: esquema de D1 (tabla `piezas`, `resumenes`, `corridas`).
 
 ## Comandos
@@ -43,7 +43,7 @@ Si hay análisis de Claude de menos de 9 h, Gemini no hace el análisis de fondo
 
 Reglas del tablero (decisiones de Andrés):
 - Todo el tablero va pesado por alcance (`peso` = log10 de vistas + interacciones, mínimo 1; nota de medio = 1.000 → 3).
-  Sin selector piezas/alcance. Las cifras de los gráficos son "pts"; las ventanitas dan pts y número de piezas.
+  Sin selector piezas/alcance ni barra de filtros (fuente/sobre/tono; el API aún los acepta por URL). Las cifras de los gráficos son "pts"; las ventanitas dan pts y número de piezas.
 - Sin botones de días: todo es acumulado desde el primer día con >= 10 piezas (6 oct). No recuperar historial.
 - Termómetro = % del alcance de las últimas 24 h que critica a la SNGR o a Carolina (sin sumar alertas).
 - `tono` = solo hacia la SNGR/Carolina (y Gobierno central en la emergencia); lo de alcaldes/GAD va en `actor` +
