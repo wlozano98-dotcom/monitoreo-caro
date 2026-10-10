@@ -40,6 +40,7 @@ def preparar():
         [hace72],
     )
     previa = db.q("SELECT datos FROM narrativas ORDER BY creado DESC LIMIT 1")
+    hitos = db.q("SELECT dia, titulo FROM hitos ORDER BY dia")
     vigentes = json.loads(previa[0]["datos"]).get("narrativas", []) if previa else []
 
     hora_ec = datetime.now(m.ECUADOR).strftime("%Y-%m-%d %H:%M")
@@ -57,6 +58,8 @@ def preparar():
         f"- {n['titulo']} — {n['total']} piezas; {n['ultimas24']} en 24 h vs {n['previas24']} antes. {n['explicacion']}"
         for n in vigentes
     ] or ["- ninguna"]
+    lineas += ["", "## Hitos ya marcados (no los repitas)", ""]
+    lineas += [f"- {h['dia']}: {h['titulo']}" for h in hitos] or ["- ninguno"]
     lineas += ["", f"## Piezas de los últimos 3 días ({len(piezas)}, de la más reciente a la más antigua)", ""]
     for p in piezas:
         quien = p["medio"] if p["fuente"] == "medios" else f"@{p['autor'] or ''} ({p['medio'] or ''})"
@@ -97,6 +100,12 @@ def validar(ruta=ULTIMO):
             errores.append(f"{campo}: lista (puede ser vacía) de {{titulo, explicacion, ids: [ids de piezas]}}")
     if not a.get("narrativas"):
         errores.append("narrativas: al menos una")
+    hitos = a.get("hitos", [])
+    if not (isinstance(hitos, list) and len(hitos) <= 3 and all(
+        isinstance(h, dict) and re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(h.get("dia", ""))) and h.get("titulo")
+        and isinstance(h.get("ids"), list) and h["ids"] for h in hitos
+    )):
+        errores.append("hitos: lista (casi siempre vacía) de {dia: AAAA-MM-DD, titulo, ids: [ids de piezas]}")
     fv = a.get("fuentes_vinetas")
     if not (isinstance(fv, list) and isinstance(a.get("vinetas"), list) and len(fv) == len(a["vinetas"]) and all(isinstance(x, list) for x in fv)):
         errores.append("fuentes_vinetas: una lista de ids por cada viñeta, en el mismo orden")
@@ -110,7 +119,7 @@ def validar(ruta=ULTIMO):
             citados += x if isinstance(x, list) else []
         for x in (acc or []):
             citados += x.get("fuentes", []) if isinstance(x, dict) else []
-        for campo in ("narrativas", "rumores"):
+        for campo in ("narrativas", "rumores", "hitos"):
             for g in a.get(campo) or []:
                 citados += g.get("ids", []) if isinstance(g, dict) else []
         inexistentes = sorted({str(i).strip("[] ")[:ID_CORTO] for i in citados} - conocidos)
@@ -150,6 +159,16 @@ def cargar(ruta=ULTIMO):
                 print(f"  Se omite '{g['titulo']}' ({campo}): solo {len(miembros)} piezas encontradas")
         datos[campo].sort(key=lambda x: (-x["ultimas24"], -x["total"]))
     db.q("INSERT INTO narrativas (creado, datos) VALUES (?, ?)", [m.ahora(), json.dumps(datos, ensure_ascii=False)])
+
+    # Hitos para marcar en los gráficos: solo si sus piezas existen.
+    for h in a.get("hitos") or []:
+        miembros = piezas_de(h["ids"])
+        if miembros:
+            db.q(
+                "INSERT INTO hitos (dia, titulo, ids, creado) VALUES (?, ?, ?, ?) ON CONFLICT(dia, titulo) DO NOTHING",
+                [h["dia"], m.limpiar(h["titulo"], 90), json.dumps([f["id"] for f in miembros]), m.ahora()],
+            )
+            print(f"  Hito: {h['dia']} {h['titulo']}")
 
     hoy = datetime.now(m.ECUADOR).strftime("%Y-%m-%d")
     resumen = {

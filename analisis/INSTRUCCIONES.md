@@ -45,7 +45,8 @@ Ecuador, registro ejecutivo, sin emojis ni signos de exclamación.
     {"accion": "...", "porque": "...", "base_legal": "...", "fuentes": ["..."]}
   ],
   "narrativas": [{"titulo": "...", "explicacion": "...", "ids": ["0488768cbd", "..."]}],
-  "rumores": [{"titulo": "...", "explicacion": "...", "ids": ["..."]}]
+  "rumores": [{"titulo": "...", "explicacion": "...", "ids": ["..."]}],
+  "hitos": [{"dia": "AAAA-MM-DD", "titulo": "...", "ids": ["..."]}]
 }
 ```
 
@@ -75,6 +76,11 @@ Ecuador, registro ejecutivo, sin emojis ni signos de exclamación.
   - Si algo le toca a un GAD, al COE o a la Presidencia, la acción es coordinar, pedir, apoyar de forma subsidiaria
     o emitir lineamientos; no ejecutarlo ella. Nunca cruces los límites de la sección 4 de `marco_legal.md`:
     nada de proselitismo con la ayuda, nada de sancionar o presionar a quien critica, nada de ocultar información.
+- **hitos** (0 a 2, casi siempre 0): hechos grandes que pueden mover la conversación y se marcan en los gráficos del
+  tablero: una declaratoria de emergencia, una alerta nacional (p. ej. de tsunami), muertes, un anuncio fuerte del
+  Gobierno o de la Secretaría, una polémica que estalla. No un día normal de lluvias ni una nota más. `dia`: el día de
+  Ecuador en que pasó (dentro de los 3 días del contexto); `titulo`: máximo 8 palabras, el hecho, sin opinión; `ids`:
+  las piezas que lo cuentan. No repitas los "Hitos ya marcados" del contexto.
 - **narrativas** (3 a 6): las ideas de fondo que están calando en la población sobre la respuesta del Estado y de la
   Secretaría (qué cree la gente, a quién culpa o reconoce, qué teme), no temas noticiosos sueltos. Incluye también lo
   que se dice de municipios, prefecturas (GAD) u otros actores, y di en el título a quién apunta ("Culpan a los GAD

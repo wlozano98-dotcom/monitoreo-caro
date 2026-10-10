@@ -8,6 +8,7 @@ import email.utils
 import hashlib
 import html
 import json
+import math
 import os
 import re
 import sys
@@ -290,13 +291,25 @@ class D1:
             self._post({"batch": [{"sql": s, "params": p} for s, p in sentencias[i : i + 50]]})
 
 
-COLUMNAS = ["id", "fuente", "medio", "url", "titulo", "texto", "autor", "fecha", "recogido", "interacciones", "padre", "consulta", "vistas", "seguidores"]
+COLUMNAS = ["id", "fuente", "medio", "url", "titulo", "texto", "autor", "fecha", "recogido", "interacciones", "padre", "consulta", "vistas", "seguidores", "peso"]
+
+
+ALCANCE_MEDIO = 1000  # una nota de medio cuenta como 1.000 vistas (los medios no publican sus vistas)
+
+
+def peso(p):
+    """Peso por alcance, escala comprimida: 10 vistas = 1, 100 = 2, 1.000 = 3 (una nota de medio), 100.000 = 5.
+    Así un viral pesa más que un tuit chico, pero no aplasta todo el día."""
+    alcance = ALCANCE_MEDIO if p.get("fuente") == "medios" else (p.get("vistas") or 0) + (p.get("interacciones") or 0)
+    return round(max(1.0, math.log10(max(alcance, 1))), 2)
 
 
 def guardar(db, piezas):
     """Inserta piezas nuevas; si ya existían, solo actualiza las interacciones. Devuelve cuántas eran nuevas."""
     if not piezas:
         return 0
+    for p in piezas:
+        p["peso"] = peso(p)
     vistas, unicas = set(), []
     for p in piezas:
         if p["id"] not in vistas:
@@ -321,7 +334,8 @@ def guardar(db, piezas):
                 f"INSERT INTO piezas ({','.join(COLUMNAS)}) VALUES {marcas} "
                 "ON CONFLICT(id) DO UPDATE SET interacciones = MAX(piezas.interacciones, excluded.interacciones), "
                 "vistas = MAX(COALESCE(piezas.vistas, 0), COALESCE(excluded.vistas, 0)), "
-                "seguidores = COALESCE(excluded.seguidores, piezas.seguidores)",
+                "seguidores = COALESCE(excluded.seguidores, piezas.seguidores), "
+                "peso = MAX(COALESCE(piezas.peso, 1), excluded.peso)",
                 params,
             )
         )
@@ -598,13 +612,30 @@ def tuit_original(tid, cache={}):
     return cache[tid]
 
 
+def ejemplos_corregidos(db, maximo=25):
+    """Las últimas correcciones del equipo, como ejemplos para que Gemini no repita el error."""
+    filas = db.q(
+        "SELECT p.fuente, p.titulo, p.texto, c.campo, c.antes, c.despues FROM correcciones c JOIN piezas p ON p.id = c.pieza "
+        "ORDER BY c.creado DESC LIMIT ?",
+        [maximo],
+    )
+    if not filas:
+        return ""
+    lineas = [
+        f"- {f['fuente']}: \"{limpiar(f['titulo'] or f['texto'], 220)}\" -> {f['campo']} correcto: {f['despues']} (no {f['antes']})"
+        for f in filas
+    ]
+    return "\n\nCorrecciones hechas por el equipo de la Secretaría (aprende el criterio, no las copies a ciegas):\n" + "\n".join(lineas)
+
+
 def clasificar(db, maximo):
     """Clasifica hasta `maximo` piezas pendientes, de a 25 por llamada a Gemini."""
     pendientes = db.q(
-        "SELECT id, fuente, medio, titulo, texto, autor, interacciones, padre FROM piezas WHERE clasificado = 0 ORDER BY recogido DESC LIMIT ?",
+        "SELECT id, fuente, medio, titulo, texto, autor, interacciones, padre FROM piezas WHERE clasificado = 0 AND corregido IS NULL ORDER BY recogido DESC LIMIT ?",
         [maximo],
     )
     hechas = 0
+    ejemplos = ejemplos_corregidos(db) if pendientes else ""
     for i in range(0, len(pendientes), 25):
         trozo = pendientes[i : i + 25]
         lineas = []
@@ -619,7 +650,7 @@ def clasificar(db, maximo):
                 f"[{n}] {tipo} | {p['medio'] or ''} | {p['autor'] or ''}\n{original}{p['titulo'] or ''}\n{(p['texto'] or '')[:700]}"
             )
         cuerpo = {
-            "systemInstruction": {"parts": [{"text": INSTRUCCIONES}]},
+            "systemInstruction": {"parts": [{"text": INSTRUCCIONES + ejemplos}]},
             "contents": [{"role": "user", "parts": [{"text": "\n\n".join(lineas)}]}],
             "generationConfig": {
                 "responseMimeType": "application/json",
