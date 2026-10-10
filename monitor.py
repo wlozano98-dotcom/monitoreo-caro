@@ -826,6 +826,10 @@ def armar_grupo(titulo, explicacion, miembros):
         tonos[f["tono"]] = tonos.get(f["tono"], 0) + 1
         fuentes[f["fuente"]] = fuentes.get(f["fuente"], 0) + 1
     ejemplos = sorted(miembros, key=lambda f: (-(f["interacciones"] or 0), f["f"]))[:3]
+    por_dia = {}  # piezas por día de Ecuador, para la curva de cada narrativa
+    for f in miembros:
+        dia = (datetime.fromisoformat(f["f"][:19]) - timedelta(hours=5)).strftime("%Y-%m-%d")
+        por_dia[dia] = por_dia.get(dia, 0) + 1
     return {
         "titulo": limpiar(titulo, 120),
         "explicacion": limpiar(explicacion, 400),
@@ -835,6 +839,7 @@ def armar_grupo(titulo, explicacion, miembros):
         "tonos": tonos,
         "fuentes": fuentes,
         "interacciones": sum(f["interacciones"] or 0 for f in miembros),
+        "porDia": por_dia,
         "ejemplos": [
             {
                 "fuente": f["fuente"],
