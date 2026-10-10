@@ -38,10 +38,18 @@ Regla de Andrés: CERO información falsa. Cada viñeta y acción cita ids de pi
 Si hay análisis de Claude de menos de 9 h, Gemini no hace el análisis de fondo (solo clasifica).
 
 Reglas del tablero (decisiones de Andrés):
-- Termómetro = un solo indicador: % crítico de las últimas 24 h + 10 puntos por alerta (no depende de los filtros).
+- Todo el tablero va pesado por alcance (`peso` = log10 de vistas + interacciones, mínimo 1; nota de medio = 1.000 → 3).
+  Sin selector piezas/alcance. Las cifras de los gráficos son "pts"; las ventanitas dan pts y número de piezas.
+- Sin botones de días: todo es acumulado desde el primer día con >= 10 piezas (6 oct). No recuperar historial.
+- Termómetro = % del alcance de las últimas 24 h que critica a la SNGR o a Carolina (sin sumar alertas).
+- `tono` = solo hacia la SNGR/Carolina (y Gobierno central en la emergencia); lo de alcaldes/GAD va en `actor` +
+  `tono_actor`. Alertas: sin actores locales. Narrativas: SÍ incluyen lo que se dice de los GAD ("Apunta a").
+- Aspectos y actores: total + ola día a día + "Ver noticias" (`/api/piezas`, ordenado por alcance, sin ocultar bulla).
+- Corregir: cualquiera, directo (`/api/corregir`, historial en `correcciones`); la IA ya no reclasifica esa pieza y
+  Gemini recibe las últimas 25 como ejemplos. Hitos: los propone la rutina de Claude (`hitos` en ultimo.json).
 - Alertas: en redes solo con >= 20 interacciones (`ALCANCE_MIN_ALERTA`); insultos sin argumento no son alerta.
 - Actores: "Gobierno central" reúne Presidencia y ministerios (todo menos SNGR y Carolina). Carolina siempre visible.
-- Filtro "Hoy" = últimas 24 h. La caché del API va ligada a la versión publicada (`version_metadata`).
+- La caché del API va ligada a la versión publicada (`version_metadata`).
 - Mostrar a Andrés los cambios visuales antes de desplegar.
 - Fechas: `fecha_iso` quita milisegundos (TikTok/Facebook); una pieza sin fecha usaría `recogido` y parecería de hoy.
 
