@@ -1,46 +1,51 @@
 {
   "vinetas": [
-    "Conversación baja en el feriado: 54 piezas en 24 h frente a 85 antes; una sola crítica, en X.",
-    "Lo más visto es el oleaje: Ecuadorinmediato, 10.997 vistas; la SNGR cita 27 playas de amenaza alta y 14 media.",
-    "Esmeraldas repunta: El Universo reporta el río Esmeraldas en alerta naranja; el río Blanco aísla cuatro familias en Quinindé.",
-    "Ecuavisa y Ecuadorinmediato difunden 15 incendios forestales activos en la Sierra; Vistazo reporta nuevo incendio en Azogues."
+    "Feriado de baja conversación: 57 piezas en 24 h frente a 82 antes; una sola crítica, en X.",
+    "Lo más visto sigue siendo el oleaje: Ecuadorinmediato, 10.997 vistas; SNGR e Inocar, bandera roja en 27 playas hasta el 12.",
+    "Esmeraldas: El Universo reporta repunte del río Esmeraldas, en alerta naranja; Diario Extra, cuatro familias aisladas en Quinindé.",
+    "Incendios: Ecuavisa (2.425 vistas en X) repite 15 activos en la Sierra, cifra del corte del 9; Vistazo suma Azogues."
   ],
   "fuentes_vinetas": [
     [],
-    ["042d378492", "5401a87458", "de67936b30", "3bfa24a9bf"],
+    ["042d378492", "d557dbc32f", "503c6caa59", "7ee26afd35"],
     ["dfe028e4e9", "be68477da5"],
-    ["96a7dab6f4", "8e56fac0a4", "13ca5525ed", "74707c4218"]
+    ["96a7dab6f4", "8e56fac0a4", "13ca5525ed", "7b0bb5fcaa", "74707c4218"]
   ],
   "acciones": [
     {
-      "accion": "Pedir al COE de Quinindé el estado de las familias aisladas y publicarlo.",
-      "porque": "Diario Extra: río Blanco aísla cuatro familias; El Universo: río Esmeraldas en alerta naranja; ciudadanos piden información a @Riesgos_Ec.",
+      "accion": "Pedir al COE de Quinindé el estado de las familias aisladas y publicarlo en X.",
+      "porque": "El Universo: río Esmeraldas en alerta naranja, Blanco y Viche desbordados; Diario Extra: cuatro familias aisladas; piden información a @Riesgos_Ec.",
       "base_legal": "Art. 21.4, 29 y 61",
-      "fuentes": ["be68477da5", "dfe028e4e9", "9b7b43357c"]
+      "fuentes": ["dfe028e4e9", "be68477da5", "9b7b43357c"]
     },
     {
-      "accion": "Repetir con Inocar el aviso de bandera roja hasta el lunes 12 en radios costeras.",
+      "accion": "Recordar con Inocar, en radios costeras, la bandera roja vigente hasta el lunes 12.",
       "porque": "El oleaje es lo más visto (Ecuadorinmediato, 10.997 vistas); 27 playas con amenaza alta y 14 media durante el feriado.",
       "base_legal": "Art. 61 y 62",
-      "fuentes": ["042d378492", "5401a87458", "7ee26afd35"]
+      "fuentes": ["042d378492", "5401a87458", "7ee26afd35", "d557dbc32f"]
     },
     {
-      "accion": "Publicar corte actualizado de incendios forestales activos, con provincias, en X y web.",
-      "porque": "Medios repiten el corte de la noche del 9 (15 activos); Vistazo reporta nuevo incendio en el cerro Abuga, Azogues.",
+      "accion": "Publicar corte actualizado de incendios forestales activos, por provincia, en X y web.",
+      "porque": "Ecuavisa y cuentas de noticias repiten el corte de la noche del 9 (15 activos); Vistazo reporta nuevo incendio en el cerro Abuga.",
       "base_legal": "Art. 61 y 72",
-      "fuentes": ["13ca5525ed", "7b0bb5fcaa", "96a7dab6f4", "74707c4218"]
+      "fuentes": ["96a7dab6f4", "13ca5525ed", "7b0bb5fcaa", "74707c4218"]
     }
   ],
   "narrativas": [
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "La empujan la SNGR, el MDH, la Alcaldía de Muisne y cuentas de noticias con las entregas en Las Naves y Chamanga y la bandera roja en 27 playas, que alcanzó 10.997 vistas en Ecuadorinmediato. Es la principal fortaleza de la Secretaría; las publicaciones de entregas siguen con decenas o cientos de vistas.",
-      "ids": ["120ec2eab7", "eb859e3d2f", "78a4ff53a6", "5336cdf2d3", "72501b9cd9", "42a9621e59", "c9be54bf33", "d834ddba14", "4a13d7f514", "669eceeaec", "503c6caa59", "b306a6f1d5", "f545603bc4", "84c7880abc", "e63e0441e1", "cbaa40e398", "5230fb76c6", "fe23d294f0", "82b52f45aa", "9421a074c0", "8cf475534a", "d7727005a8", "6b06543446", "7ee26afd35", "5401a87458", "de67936b30", "042d378492", "b32c3c6764", "3bfa24a9bf"]
+      "explicacion": "La empujan la SNGR, el MDH, la Alcaldía de Muisne y cuentas de noticias con las entregas en Las Naves y Chamanga y la bandera roja en 27 playas, que alcanzó 10.997 vistas en Ecuadorinmediato. Sigue siendo la principal fortaleza de la Secretaría, aunque las entregas tienen decenas o cientos de vistas.",
+      "ids": ["120ec2eab7", "eb859e3d2f", "78a4ff53a6", "5336cdf2d3", "72501b9cd9", "42a9621e59", "c9be54bf33", "d834ddba14", "4a13d7f514", "669eceeaec", "503c6caa59", "b306a6f1d5", "f545603bc4", "cbaa40e398", "5230fb76c6", "fe23d294f0", "82b52f45aa", "9421a074c0", "8cf475534a", "d7727005a8", "6b06543446", "7ee26afd35", "5401a87458", "de67936b30", "042d378492", "b32c3c6764", "3bfa24a9bf", "d557dbc32f"]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "La sostienen el pronóstico del Inamhi para noviembre y diciembre, el temor en Santa Ana, Guayaquil bajo agua, el río Esmeraldas en alerta naranja y las familias aisladas en Quinindé. Exige a la Secretaría mostrar preparación concreta antes del pico de lluvias.",
+      "explicacion": "La sostienen el pronóstico del Inamhi para noviembre y diciembre, el temor en Santa Ana, Guayaquil bajo agua, el repunte del río Esmeraldas y las familias aisladas en Quinindé. Exige a la Secretaría mostrar preparación concreta antes del pico de lluvias.",
       "ids": ["3285462afa", "6278466e6c", "44667c307b", "be68477da5", "dfe028e4e9", "7d3ea56705", "4e0b1e677b", "46d492aefd", "cbaccd052e", "81bf34916b", "f195bd9022"]
+    },
+    {
+      "titulo": "Los incendios siguen pese a las lluvias",
+      "explicacion": "Ecuavisa, Vistazo y Expreso, con cuentas de noticias que citan a la SNGR, insisten en 15 incendios activos en Chimborazo, Tungurahua y Azuay y un nuevo foco en Azogues. Es oportunidad de mostrar monitoreo, pero el corte citado sigue siendo el de la noche del 9.",
+      "ids": ["96a7dab6f4", "8e56fac0a4", "74707c4218", "5a66d86761", "13ca5525ed", "7b0bb5fcaa", "2263cd042a", "967fd8aa13", "2e64a47315"]
     },
     {
       "titulo": "La Secretaría descartó el tsunami a tiempo",
@@ -51,11 +56,6 @@
       "titulo": "Se sabía que venía y no se planificó",
       "explicacion": "Apunta sobre todo a municipios y prefecturas (Quito, alcantarillas, canales, conciertos en vez de obras, puentes caídos en Los Ríos), desde cuentas pequeñas en X, TikTok y YouTube. El riesgo es que el reclamo se desplace hacia la Secretaría, a la que también etiquetan.",
       "ids": ["16573ee61c", "a7483ed8bf", "997ed8d74c", "34aa9b4832", "3ee1e06488", "25f552300e", "ede1c374b5", "965c81aabe", "6918553d89", "dec09192c7", "34fd4dccf8"]
-    },
-    {
-      "titulo": "Ecuador está listo para brindar ayuda internacional",
-      "explicacion": "Ecuavisa y cuentas de noticias difundieron el ofrecimiento del presidente Noboa a Panamá y que la Secretaría está atenta al llamamiento; El Mercurio de Manta lo repitió el 10. Proyecta a Carolina hacia afuera, con poco alcance nuevo.",
-      "ids": ["1932483718", "89f56ad7d4", "11b9906b01", "02c15042b5", "7cb64ef333", "f794f46d15", "9efdf46bd3"]
     },
     {
       "titulo": "La ayuda estatal llega tarde y es insuficiente",
