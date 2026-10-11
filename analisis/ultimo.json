@@ -1,187 +1,27 @@
 {
   "vinetas": [
-    "Feriado sigue bajo: 45 piezas en 24 h frente a 86 antes; una crítica en X, sin alcance.",
-    "La República titula hoy 17.000 afectados y nueve ríos desbordados; esa cifra de la SNGR corta el 6 de octubre.",
-    "Esmeraldas: El Universo y Howl.link reportan repunte del río Esmeraldas en alerta naranja; Diario Extra, familias aisladas en Quinindé.",
-    "Incendios: Teleamazonas destaca hoy el monitoreo de la Secretaría; Expreso repite 15 activos, la misma cifra desde el 9."
+    "SNGR fija balance: 17.056 afectados, 1.306 damnificados y un fallecido; El Universo, Ecuavisa y Radio Pichincha lo replican.",
+    "Inamhi alerta lluvias más intensas en Costa y Sierra del 11 al 14 de octubre: Teleamazonas, El Universo y Expreso.",
+    "Incendios: Radio Pichincha cita a la SNGR con seis activos; Expreso aún publicó hoy los 15 del 9 de octubre.",
+    "Redes casi calladas: 7 piezas en 24 h frente a 37 antes, y ninguna crítica a la Secretaría o a Carolina."
   ],
   "fuentes_vinetas": [
-    [],
-    [
-      "e05883aa76",
-      "efe81965e7",
-      "c34957c394"
-    ],
-    [
-      "dfe028e4e9",
-      "233ec8c97d",
-      "be68477da5"
-    ],
-    [
-      "a4f0e3a52a",
-      "2a874e4dcb",
-      "96a7dab6f4",
-      "8e56fac0a4"
-    ]
+    ["c6386f171a", "2915fa9385", "e19f9dc6e9", "1c99858c92", "8c5c0df45a"],
+    ["03f21e42fd", "2932a9888e", "b33c9d0ab0"],
+    ["f7b7339ec5", "2a874e4dcb", "967fd8aa13"],
+    []
   ],
   "acciones": [
-    {
-      "accion": "Publicar hoy en X y web el balance actualizado de afectados por provincia.",
-      "porque": "La República titula 17.000 afectados y nueve ríos desbordados; el balance de la SNGR citado en medios corta el 6 de octubre.",
-      "base_legal": "Art. 61, 72 y 73",
-      "fuentes": [
-        "e05883aa76",
-        "efe81965e7",
-        "c34957c394"
-      ]
-    },
-    {
-      "accion": "Pedir al COE de Quinindé el estado de familias aisladas y publicarlo en X.",
-      "porque": "El Universo y Howl.link: río Esmeraldas en alerta naranja, ríos Blanco y Viche desbordados; Diario Extra: cuatro familias aisladas en Quinindé.",
-      "base_legal": "Art. 21.4, 29 y 61",
-      "fuentes": [
-        "dfe028e4e9",
-        "233ec8c97d",
-        "be68477da5",
-        "9b7b43357c"
-      ]
-    },
-    {
-      "accion": "Emitir lineamientos de protección a niñas y adolescentes en albergues, con el MDH.",
-      "porque": "Teleamazonas publica hoy que El Niño castiga con más fuerza a niñas y adolescentes en Ecuador.",
-      "base_legal": "Art. 13, 14 y 67",
-      "fuentes": [
-        "f1adecf183"
-      ]
-    }
+    {"accion": "Difundir por X y radios costeras el aviso Inamhi de crecidas hasta el 14.", "porque": "Teleamazonas, El Universo y Expreso: lluvias más intensas en Costa y Sierra del 11 al 14; río Esmeraldas sigue en alerta.", "base_legal": "Art. 61, 62 y 64.6", "fuentes": ["03f21e42fd", "2932a9888e", "b33c9d0ab0", "9e9e302f8a", "233ec8c97d"]},
+    {"accion": "Enviar a medios corte diario de incendios con hora; reemplaza los 15 activos.", "porque": "Expreso publicó hoy 15 incendios activos; Radio Pichincha, citando a la SNGR, informa seis. Dos cifras el mismo día.", "base_legal": "Art. 61", "fuentes": ["2a874e4dcb", "f7b7339ec5"]},
+    {"accion": "Publicar en la web el desglose de los $650 millones anunciados para El Niño.", "porque": "El Telégrafo recoge que se destinaron más de $650 millones; la ley pide publicar recursos, distribución y uso.", "base_legal": "Art. 72 y 73", "fuentes": ["16dfaed1f1"]}
   ],
   "narrativas": [
-    {
-      "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "La empujan la SNGR, el MDH, la Alcaldía de Muisne y cuentas de noticias con las entregas en Las Naves y Chamanga y la bandera roja en 27 playas (10.997 vistas en Ecuadorinmediato; Prensa Latina la replica hoy). Sigue siendo la principal fortaleza de la Secretaría, aunque las entregas tienen decenas o cientos de vistas.",
-      "ids": [
-        "120ec2eab7",
-        "eb859e3d2f",
-        "78a4ff53a6",
-        "5336cdf2d3",
-        "72501b9cd9",
-        "42a9621e59",
-        "c9be54bf33",
-        "d834ddba14",
-        "4a13d7f514",
-        "669eceeaec",
-        "503c6caa59",
-        "b306a6f1d5",
-        "f545603bc4",
-        "cbaa40e398",
-        "5230fb76c6",
-        "fe23d294f0",
-        "82b52f45aa",
-        "9421a074c0",
-        "8cf475534a",
-        "d7727005a8",
-        "6b06543446",
-        "7ee26afd35",
-        "5401a87458",
-        "de67936b30",
-        "042d378492",
-        "b32c3c6764",
-        "3bfa24a9bf",
-        "d557dbc32f",
-        "7c9c4e0e5c"
-      ]
-    },
-    {
-      "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "La sostienen el pronóstico del Inamhi, el repunte del río Esmeraldas en alerta naranja, las familias aisladas en Quinindé y, hoy, La República con nueve ríos desbordados y 17.000 afectados. Exige a la Secretaría mostrar cifras al día y preparación concreta antes del pico de lluvias.",
-      "ids": [
-        "3285462afa",
-        "6278466e6c",
-        "44667c307b",
-        "be68477da5",
-        "dfe028e4e9",
-        "7d3ea56705",
-        "4e0b1e677b",
-        "46d492aefd",
-        "cbaccd052e",
-        "81bf34916b",
-        "f195bd9022",
-        "e05883aa76",
-        "efe81965e7",
-        "233ec8c97d"
-      ]
-    },
-    {
-      "titulo": "Los incendios siguen pese a las lluvias",
-      "explicacion": "Ecuavisa, Expreso, Vistazo y Teleamazonas, con cuentas de noticias que citan a la SNGR, repiten 15 incendios activos en Chimborazo, Tungurahua y Azuay y un nuevo foco en Azogues. Teleamazonas destaca el monitoreo de la Secretaría; la cifra no cambia desde la noche del 9.",
-      "ids": [
-        "96a7dab6f4",
-        "8e56fac0a4",
-        "74707c4218",
-        "5a66d86761",
-        "13ca5525ed",
-        "7b0bb5fcaa",
-        "2263cd042a",
-        "967fd8aa13",
-        "2e64a47315",
-        "2a874e4dcb",
-        "a4f0e3a52a"
-      ]
-    },
-    {
-      "titulo": "La Secretaría descartó el tsunami a tiempo",
-      "explicacion": "Medios nacionales y cuentas de noticias atribuyeron a Carolina y a la SNGR, junto con Inocar, la cancelación de la alerta del 9 de octubre. Refuerza su credibilidad técnica; el tema ya se apagó.",
-      "ids": [
-        "8989376537",
-        "3ee2fbeb72",
-        "8f3a2123bb",
-        "e52e8297c0",
-        "7dc2b4ba5e",
-        "43a4bd3a42",
-        "64558d9afb",
-        "fd7d440ff6",
-        "b5ef70a042",
-        "0b622167a5",
-        "d6bdaf0be2",
-        "c5aaa616a6",
-        "aa1b7b5883",
-        "c06a3a1fc0",
-        "289ceda48e",
-        "4e3a4ade30",
-        "ba953bfb0e",
-        "61b3a2911d",
-        "cd27688781",
-        "498f3886b6",
-        "7eb6fbe890",
-        "03410946d8"
-      ]
-    },
-    {
-      "titulo": "Se sabía que venía y no se planificó",
-      "explicacion": "Apunta sobre todo a municipios y prefecturas (Quito, alcantarillas, canales, conciertos en vez de obras, puentes caídos en Los Ríos), desde cuentas pequeñas en X, TikTok y YouTube. El riesgo es que el reclamo se desplace hacia la Secretaría, a la que también etiquetan.",
-      "ids": [
-        "16573ee61c",
-        "a7483ed8bf",
-        "997ed8d74c",
-        "34aa9b4832",
-        "3ee1e06488",
-        "25f552300e",
-        "ede1c374b5",
-        "965c81aabe",
-        "6918553d89",
-        "dec09192c7",
-        "34fd4dccf8"
-      ]
-    },
-    {
-      "titulo": "La ayuda estatal llega tarde y es insuficiente",
-      "explicacion": "La empujaron el video sobre el albergue de 44 camas en Esmeraldas (4.407 vistas) y Radio Pichincha con familias que denuncian ausencia de autoridades, ambos del 8 de octubre. Sin piezas nuevas, pero el video interpela directamente a la Secretaría.",
-      "ids": [
-        "67cb12876e",
-        "50bafd2d71",
-        "ef033973d1"
-      ]
-    }
+    {"titulo": "Coordinación preventiva y entrega de asistencia oficial", "explicacion": "La sostienen la SNGR, el MDH, la Alcaldía de Muisne y cuentas de noticias (entregas en Las Naves y Chamanga, bandera roja en 27 playas); hoy El Telégrafo suma el anuncio de más de $650 millones. Es la principal fortaleza, pero el monto crea la expectativa de rendir cuentas.", "ids": ["120ec2eab7", "eb859e3d2f", "78a4ff53a6", "5336cdf2d3", "72501b9cd9", "42a9621e59", "c9be54bf33", "d834ddba14", "4a13d7f514", "669eceeaec", "503c6caa59", "b306a6f1d5", "cbaa40e398", "5230fb76c6", "fe23d294f0", "82b52f45aa", "9421a074c0", "8cf475534a", "d7727005a8", "6b06543446", "7ee26afd35", "5401a87458", "de67936b30", "042d378492", "b32c3c6764", "3bfa24a9bf", "d557dbc32f", "7c9c4e0e5c", "97c01de77e", "16dfaed1f1"]},
+    {"titulo": "Las lluvias empeorarán y no estamos preparados", "explicacion": "Hoy la empujan los medios: balance de la SNGR con 17.056 afectados, La República con nueve ríos desbordados, el aviso del Inamhi hasta el 14 y el pronóstico de pico en diciembre. Las cifras oficiales ya circulan; el reto es mostrar preparación concreta en Costa antes del pico.", "ids": ["3285462afa", "6278466e6c", "44667c307b", "be68477da5", "dfe028e4e9", "7d3ea56705", "4e0b1e677b", "46d492aefd", "cbaccd052e", "e05883aa76", "efe81965e7", "233ec8c97d", "c6386f171a", "2915fa9385", "e19f9dc6e9", "1c99858c92", "8c5c0df45a", "807d968b36", "03f21e42fd", "2932a9888e", "b33c9d0ab0", "8d714dfde2", "9e9e302f8a", "9b7b43357c", "1a11dc57a4", "85f2e9e87e"]},
+    {"titulo": "Los incendios siguen pese a las lluvias", "explicacion": "Ecuavisa, Expreso, Vistazo y Teleamazonas repitieron 15 incendios activos; hoy Radio Pichincha, citando a la SNGR, habla de seis. Conviven dos cifras: riesgo de parecer desactualizados, oportunidad de mostrar que el fuego baja.", "ids": ["96a7dab6f4", "8e56fac0a4", "74707c4218", "5a66d86761", "13ca5525ed", "7b0bb5fcaa", "2263cd042a", "967fd8aa13", "2e64a47315", "2a874e4dcb", "a4f0e3a52a", "f7b7339ec5"]},
+    {"titulo": "Se sabía que venía y no se planificó", "explicacion": "Apunta a municipios y prefecturas (alcantarillas, canales, puentes caídos en Los Ríos, planificación en Quito) desde cuentas pequeñas en X, TikTok y YouTube; una crítica también menciona a Noboa y la SNGR. Sin piezas nuevas en 24 h; el riesgo es que el reclamo se desplace a la Secretaría, a la que etiquetan.", "ids": ["16573ee61c", "a7483ed8bf", "997ed8d74c", "34fd4dccf8", "81bf34916b", "f195bd9022"]},
+    {"titulo": "La Secretaría descartó el tsunami a tiempo", "explicacion": "Medios nacionales y cuentas de noticias atribuyeron a Carolina y a la SNGR, con Inocar, la cancelación de la alerta del 9 de octubre. Refuerza su credibilidad técnica; el tema ya se apagó y solo queda una crítica aislada sin alcance.", "ids": ["8989376537", "3ee2fbeb72", "8f3a2123bb", "e52e8297c0", "7dc2b4ba5e", "43a4bd3a42", "64558d9afb", "fd7d440ff6", "b5ef70a042", "0b622167a5", "d6bdaf0be2", "c5aaa616a6", "aa1b7b5883", "c06a3a1fc0", "289ceda48e", "4e3a4ade30", "ba953bfb0e", "61b3a2911d", "cd27688781", "498f3886b6", "7eb6fbe890", "03410946d8"]}
   ],
   "rumores": [],
   "hitos": []
