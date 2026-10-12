@@ -1,34 +1,35 @@
-# Contexto para el análisis de fondo (2026-10-12 05:39, hora de Ecuador)
+# Contexto para el análisis de fondo (2026-10-12 11:37, hora de Ecuador)
 
 Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Cita las piezas por su [id].
 
 ## Cifras: últimas 24 h frente a las 24 h anteriores
 
-- hoy · facebook · positivo: 1
 - hoy · medios · critico: 2
-- hoy · medios · neutro: 41
-- hoy · medios · positivo: 3
-- hoy · tiktok · positivo: 4
-- hoy · x · critico: 2
-- hoy · x · neutro: 23
-- hoy · x · positivo: 7
-- hoy · youtube · neutro: 3
+- hoy · medios · neutro: 68
+- hoy · medios · positivo: 2
+- hoy · tiktok · positivo: 1
+- hoy · x · critico: 1
+- hoy · x · neutro: 18
+- hoy · x · positivo: 3
+- hoy · youtube · neutro: 6
+- ayer · facebook · positivo: 1
 - ayer · medios · neutro: 29
-- ayer · medios · positivo: 1
+- ayer · medios · positivo: 2
 - ayer · tiktok · neutro: 2
-- ayer · tiktok · positivo: 1
-- ayer · x · critico: 1
-- ayer · x · neutro: 20
-- ayer · x · positivo: 6
+- ayer · tiktok · positivo: 4
+- ayer · x · critico: 2
+- ayer · x · neutro: 14
+- ayer · x · positivo: 7
+- ayer · youtube · neutro: 1
 
 ## Narrativas de la corrida anterior
 
-- Las lluvias empeorarán y no estamos preparados — 38 piezas; 27 en 24 h vs 5 antes. La empujan los medios y cuentas de noticias: el balance de la SNGR (17.056 afectados, 326 eventos en 22 provincias), el aviso del Inamhi hasta el 14 y las inundaciones de Guayaquil; La Prensa publica un editorial de advertencia. Las cifras oficiales circulan bien; el reto es mostrar preparación concreta en la Costa.
-- Coordinación preventiva y entrega de asistencia oficial — 39 piezas; 12 en 24 h vs 16 antes. La sostienen la SNGR, la Alcaldía de Muisne (Chamanga), cuentas de noticias y la propia Carolina: entregas en Bolívar y Esmeraldas, $656 millones anunciados y 150.000 kits en bodegas. Es la principal fortaleza, pero las cifras crean la expectativa de rendir cuentas.
-- Los incendios siguen pese a las lluvias — 17 piezas; 8 en 24 h vs 8 antes. Radio Pichincha, citando a la SNGR, habla de seis incendios activos, pero Sucre Noticias y Teleamazonas repitieron hoy los 15 del corte del 9 de octubre. Conviven dos cifras: riesgo de parecer desactualizados, oportunidad de mostrar que el fuego baja.
-- El Niño golpea más a las niñas — 8 piezas; 8 en 24 h vs 0 antes. Nueva: Radio Pichincha, Teleamazonas y Ecuador Chequea difunden el informe de Plan Internacional sobre violencia y abandono escolar; Carolina publicó un mensaje por el Día de la Niña. Oportunidad de pasar del mensaje a medidas concretas.
-- Se sabía que venía y no se planificó — 8 piezas; 3 en 24 h vs 1 antes. Apunta a municipios y prefecturas: calles inundadas en Guayaquil por drenaje, vecinos de Molleturo (Cuenca) limpiando derrumbes a pico y pala según W Radio, puentes caídos en Los Ríos. Riesgo de que el reclamo se desplace a la Secretaría, a la que etiquetan.
-- Gobierno y GAD no se coordinan — 3 piezas; 3 en 24 h vs 0 antes. Nueva: la columna de Kléber Mantilla en La Hora habla de brutal descoordinación entre Gobierno central y seccionales, y una cuenta pequeña pide tareas verificables para los 200.000 jóvenes. Toca la función rectora de la Secretaría; oportunidad de mostrar lineamientos y coordinación concreta.
+- Las lluvias empeorarán y no estamos preparados — 20 piezas; 15 en 24 h vs 1 antes. La empujan medios: el balance de 17.056 afectados, el aviso del Inamhi hasta el 14 y ahora opiniones en La Hora y Forbes que apuntan a la falta de preparación. Riesgo de que el reproche de 'compromiso olvidado' se pegue a la Secretaría si no muestra preparación concreta.
+- Los incendios siguen pese a las lluvias — 18 piezas; 8 en 24 h vs 9 antes. Radio Pichincha, citando a la SNGR, habla de seis incendios activos, pero Sucre Noticias y Teleamazonas difundieron los 15 del corte del 9 de octubre. Riesgo de parecer desactualizados; oportunidad de mostrar que el fuego baja.
+- El Niño golpea más a las niñas — 9 piezas; 8 en 24 h vs 0 antes. Radio Pichincha, Teleamazonas y Ecuador Chequea difunden el informe de Plan Internacional sobre violencia y abandono escolar; Carolina publicó un mensaje por el Día de la Niña. Oportunidad de pasar del mensaje a medidas concretas con enfoque de género.
+- Coordinación preventiva y entrega de asistencia oficial — 19 piezas; 7 en 24 h vs 4 antes. La sostienen la SNGR, la Alcaldía de Muisne (Chamanga), el MTDH y la propia Carolina: entregas en Bolívar y Esmeraldas y más de $650 millones anunciados. Es la principal fortaleza, pero las cifras crean la expectativa de rendir cuentas.
+- Se sabía que venía y no se planificó — 8 piezas; 5 en 24 h vs 1 antes. Apunta a municipios y prefecturas: calles inundadas y basura en Guayaquil según Extra y El Diario, vecinos de Molleturo (Cuenca) limpiando derrumbes a pico y pala según W Radio. Riesgo de que el reclamo se desplace a la Secretaría.
+- Gobierno y GAD no se coordinan — 4 piezas; 4 en 24 h vs 0 antes. La columna de Kléber Mantilla en La Hora habla de brutal descoordinación entre Gobierno central y seccionales, mientras el Ministerio de Gobierno pide a los GAD planes de contingencia para las elecciones. Toca la función rectora de la Secretaría; oportunidad de mostrar lineamientos.
 
 ## Hitos ya marcados (no los repitas)
 
@@ -36,7 +37,166 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
 - 2026-10-08: Gobierno descarta aplazar elecciones seccionales por El Niño
 - 2026-10-09: Alerta de tsunami por sismo en Panamá, luego cancelada
 
-## Piezas de los últimos 3 días (228, de la más reciente a la más antigua)
+## Piezas de los últimos 3 días (250, de la más reciente a la más antigua)
+
+[f3fede14e5] 2026-10-12 16:30 UTC · medios · Radio Pichincha · neutro · Afectados y damnificados · El Oro · ALERTA
+    Un invierno implacable por El Niño golpea a Ecuador y el Inamhi advierte que el escenario podría complicarse
+    El Niño afecta 22 provincias de Ecuador con miles de damnificados y alerta roja.
+    Las intensas precipitaciones asociadas al fenómeno de El Niño han desatado una emergencia meteorológica en 22 de las 24 provincias de Ecuador, dejando miles de damnificados y severos daños en la infraestructura vial. Desde finales de agosto, el embate de las precipitaciones deja 
+
+[748c2cada4] 2026-10-12 16:21 UTC · medios · El Universo · neutro · Educación · El Oro
+    Las intensas lluvias dejan inundaciones y clases suspendidas en Machala y Santa Rosa
+    Lluvias provocan inundaciones y suspensión de clases en Machala y Santa Rosa.
+    Afectaciones por lluvias en El Oro.
+
+[8d723e6139] 2026-10-12 16:12 UTC · youtube · @ (RADIO I99) · neutro · Prevención y alertas · aspecto: Prevención y alertas · 4 vistas
+    ¡Prepárate ante el fenómeno El Niño!
+    Campaña preventiva pide no botar basura en calles y ríos ante El Niño.
+    Prepárate ante el fenómeno El Niño! Evita arrojar basura en calles, ríos y alcantarillas para prevenir inundaciones. 🗑️ Mantén ...
+
+[bd4f45f735] 2026-10-12 16:10 UTC · medios · www.eldiario.ec · neutro · Deslaves y vías · pide: Vías y puentes
+    Seis ríos se desbordan en Ecuador: estas son las vías afectadas por las lluvias
+    Seis ríos desbordados provocan cierres y daños en carreteras del país.
+
+[9321dcb4c0] 2026-10-12 16:10 UTC · medios · El Diario Ecuador · neutro · Deslaves y vías · pide: Vías y puentes
+    Seis ríos se desbordan en Ecuador: estas son las vías afectadas por las lluvias
+    Seis ríos desbordados dejan afectaciones viales en Ecuador por lluvias.
+
+[fe5f3543d6] 2026-10-12 16:09 UTC · medios · expreso.ec · neutro · Afectados y damnificados · Manabí
+    Manabí: fuerte oleaje y erosión destruye una vivienda y amenaza más construcciones en San Clemente
+    Oleaje y erosión destruyen vivienda y amenazan construcciones en San Clemente.
+
+[a81159c43b] 2026-10-12 16:01 UTC · medios · El Comercio · neutro · Lluvias e inundaciones
+    Seis ríos se desbordan en tres provincias de Ecuador por las lluvias
+    Desbordamiento de seis ríos afecta a tres provincias ecuatorianas.
+
+[c027c3f732] 2026-10-12 15:57 UTC · medios · Vistazo · neutro · Salud
+    ¿Cómo proteger la salud de perros y gatos durante los días de lluvia en Ecuador?
+    Recomendaciones para proteger la salud de mascotas durante lluvias en Ecuador.
+
+[5a7592fbd4] 2026-10-12 15:52 UTC · medios · Ecuavisa · neutro · Educación · El Oro
+    Lluvias obligan a suspender clases presenciales en una universidad de Machala
+    Universidad en Machala suspende clases presenciales debido a las lluvias.
+
+[c113908bdc] 2026-10-12 15:50 UTC · medios · Primicias · neutro · Deslaves y vías · pide: Vías y puentes
+    Fuertes lluvias en Ecuador provocan el desbordamiento de seis ríos y daños en vías de varias provincias
+    Desbordamiento de seis ríos genera daños en vías de varias provincias.
+
+[e2d220fea1] 2026-10-12 15:45 UTC · medios · Radio Pichincha · neutro · Afectados y damnificados · Esmeraldas · dirigido a: Municipio o Prefectura (neutro)
+    Esmeraldas, en emergencia, las lluvias desbordan ríos y dejan más de 12.400 afectados
+    Esmeraldas declara emergencia por 90 días ante más de 12.400 afectados por lluvias.
+    Esmeraldas permanece en emergencia 90 días por las lluvias que, desde el 29 de agosto, desbordan ríos y afectan a más de 12.400 personas, informó el prefecto provincial Diego Zambrano. La provincia de Esmeraldas declaró la emergencia por 90 días para atender los efectos de las pr
+
+[e988ecfc33] 2026-10-12 15:42 UTC · medios · eltelegrafo.com.ec · neutro · Prevención y alertas · pide: Información y alertas
+    Fenómeno de El Niño en Ecuador: estas serían las provincias más afectadas por las lluvias
+    Proyección de las provincias más impactadas por lluvias de El Niño.
+
+[b9331439f0] 2026-10-12 14:48 UTC · medios · Vistazo · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro) · pide: Información y alertas
+    Lluvias en Ecuador: Inamhi alerta de tormentas, inundaciones y crecidas de ríos hasta el 14 de octubre
+    Inamhi emite alerta por tormentas, inundaciones y crecidas de ríos.
+
+[c13e6a8e04] 2026-10-12 14:48 UTC · medios · El Diario Ecuador · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro) · pide: Información y alertas
+    Inamhi prevé lluvias intensas en la Costa y el norte de la Sierra hasta el 14 de octubre
+    Inamhi pronostica intensas lluvias en Costa y Sierra norte hasta el 14 de octubre.
+
+[d557dd1300] 2026-10-12 14:47 UTC · youtube · @ (Ecuador TV) · neutro · Prevención y alertas · 2 interacciones · 8 vistas
+    Entrevista Franz Leonardo Pucha Cofrep
+    Entrevista a Franz Leonardo Pucha sobre el fenómeno de El Niño.
+    Entrevista Franz Leonardo Pucha Cofrep Tema: Fenomeno del Niño.
+
+[844b305fdb] 2026-10-12 14:43 UTC · medios · Diario La Hora · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro) · pide: Información y alertas
+    Inamhi advierte fuertes lluvias, tormentas y riesgo de deslizamientos en Ecuador hasta el 14 de octubre
+    Inamhi advierte fuertes lluvias y deslizamientos en Ecuador hasta el 14 de octubre.
+
+[12f1a3249c] 2026-10-12 14:42 UTC · medios · Machala Móvil · neutro · Lluvias e inundaciones · El Oro
+    Fuertes lluvias provocan desbordamientos en Santa Rosa y elevan caudales en Machala
+    Fuertes lluvias causan desbordamientos en Santa Rosa y aumento de caudales.
+
+[a9d2ffdc82] 2026-10-12 14:38 UTC · medios · Infobae · neutro · Afectados y damnificados · ALERTA
+    Las lluvias golpean a Ecuador: más de 17.000 afectados y miles de viviendas dañadas en 22 provincias
+    Lluvias afectan a más de 17.000 personas y miles de viviendas en 22 provincias de Ecuador.
+
+[2e2e7f87c6] 2026-10-12 14:16 UTC · medios · Vistazo · neutro · Lluvias e inundaciones · Guayas · pide: Información y alertas
+    Lluvias en Guayaquil: ¿qué hacer si encuentra zarigüeyas, iguanas o serpientes en su casa?
+    Guía práctica de manejo ante la presencia de fauna silvestre desplazada por lluvias en Guayaquil.
+
+[e201818c4d] 2026-10-12 14:05 UTC · medios · FM Mundo · neutro · Lluvias e inundaciones
+    Ecuador acumula 142 eventos adversos por lluvias; seis cuerpos hídricos desbordados
+    Ecuador registra 142 eventos adversos por lluvias y seis cuerpos hídricos desbordados.
+
+[992de890b5] 2026-10-12 13:58 UTC · medios · eltelegrafo.com.ec · neutro · Prevención y alertas · Guayas · pide: Información y alertas
+    ¿Lloverá en Guayaquil este 12 de octubre? Esto dice el pronóstico del clima
+    Pronóstico meteorológico anticipa condiciones de lluvia en Guayaquil para el 12 de octubre.
+
+[10c10d603f] 2026-10-12 13:37 UTC · medios · expreso.ec · neutro · Afectados y damnificados
+    Lluvias en Ecuador dejan 336 eventos y más de 17.000 personas afectadas
+    Temporada de lluvias en Ecuador deja más de 17.000 personas afectadas y 336 emergencias.
+
+[93e523d85d] 2026-10-12 13:37 UTC · medios · expreso.ec · neutro · Deslaves y vías · Azuay · pide: Vías y puentes
+    Derrumbe cierra la vía Cuenca-Molleturo-El Empalme: estos son los puntos de desvío
+    Derrumbe interrumpe la circulación en la carretera Cuenca-Molleturo-El Empalme.
+
+[84f0635469] 2026-10-12 13:33 UTC · medios · Radio Pichincha · neutro · Lluvias e inundaciones · Guayas · dirigido a: Municipio o Prefectura (neutro)
+    Lluvia de más de seis horas provocó inundaciones en Guayaquil
+    Lluvias intensas de más de seis horas provocaron inundaciones en diversos sectores de Guayaquil.
+    Las precipitaciones registradas el domingo 11 de octubre de 2026 dejaron calles anegadas en más de una decena de sectores de la ciudad. Segura EP reportó 49 alertas por vías inundadas. Las fuertes lluvias registradas durante más de seis horas el domingo 11 de octubre de 2026 prov
+
+[385a803999] 2026-10-12 13:29 UTC · medios · El Comercio · neutro · Deslaves y vías · Pichincha · dirigido a: Municipio o Prefectura (neutro) · pide: Evacuación y rescate
+    Deslizamiento de talud en Quito afectó vías y obligó a evacuar una casa
+    Deslizamiento de talud en Quito bloqueó vías y obligó a evacuar una vivienda en Monjas.
+    Los equipos municipales continúan los trabajos en Monjas tras el deslizamiento del domingo 11 de octubre.
+
+[9288c9fa5f] 2026-10-12 13:29 UTC · medios · Primicias · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro) · pide: Información y alertas
+    Lluvias continuarán en la Costa y el norte de la Sierra este 12 de octubre, según el Inamhi
+    Inamhi alerta sobre continuidad de lluvias en la Costa y el norte de la Sierra.
+
+[783a664115] 2026-10-12 13:19 UTC · medios · Ecuador 221 · neutro · Lluvias e inundaciones · El Oro
+    Inundaciones y apagones en Machala y otros cantones de El Oro
+    Reportan inundaciones y cortes de energía en Machala y otros cantones orenses.
+
+[86802c6189] 2026-10-12 12:55 UTC · medios · Metro Ecuador · neutro · Deslaves y vías · Pichincha · dirigido a: Municipio o Prefectura (positivo)
+    Habilitan vía en Quito tras deslizamiento de tierra en Madrigal que afectó a una vivienda
+    Habilitan vía en Quito tras deslizamiento de tierra que comprometió una vivienda en Monjas.
+    La calle Mariano Hinojosa fue habilitada tras un deslizamiento en Monjas, Quito. Una vivienda quedó al borde de un talud por el desprendimiento de tierra.
+
+[7b1e4f93af] 2026-10-12 12:37 UTC · medios · El Universo · neutro · Lluvias e inundaciones · Guayas · pide: Maquinaria y limpieza
+    Desbordamiento de río afecta a varias viviendas en Balao tras fuertes lluvias
+    Desbordamiento de río en Balao afecta viviendas tras intensas lluvias.
+    Maquinaria pesada trabaja en el retiro de palizadas que obstruyen el cauce.
+
+[04f8b03b4d] 2026-10-12 12:36 UTC · medios · Howl.link · neutro · Prevención y alertas · pide: Información y alertas
+    ¿Cómo estará el clima en Ecuador este lunes, 12 de octubre?: esto prevé el Inamhi
+    Pronóstico del clima en Ecuador emitido por el Inamhi para el lunes.
+
+[4a0fe35008] 2026-10-12 12:04 UTC · youtube · @ (EL ORENSE, vozeimagen) · neutro · Energía y servicios · El Oro · 1 vistas
+    El costo de la vida, fenómeno del niño, crisis de energía, el Ecuador de hoy.
+    Análisis sobre costo de vida, Fenómeno del Niño y crisis energética en Ecuador.
+    El costo de la vida, fenómeno del niño, crisis de energía, el Ecuador de hoy.
+
+[f26028d5e4] 2026-10-12 11:58 UTC · medios · Teleamazonas · neutro · Afectados y damnificados
+    Lluvias dejan más de 17 mil personas afectadas a nivel nacional
+    Lluvias dejan más de 17 mil personas afectadas a nivel nacional en Ecuador.
+
+[3031461340] 2026-10-12 11:56 UTC · youtube · @ (Ecuador Comunicación) · neutro · Lluvias e inundaciones · 13 interacciones · 2498 vistas
+    EL FENÓMENO DEL NIÑO EMPIEZA A GOLPEAR CON FUERZA A LA REGIÓN LITORAL DEL ECUADOR
+    El Fenómeno del Niño empieza a afectar con fuerza a la región Litoral de Ecuador.
+    noticias #ecuador #urgente.
+
+[d9456c27ee] 2026-10-12 11:35 UTC · medios · expreso.ec · neutro · Prevención y alertas · pide: Información y alertas
+    Inamhi advierte lluvias intensas en Ecuador hasta el 14 de octubre: estas son las zonas en riesgo
+    Inamhi emite alerta de lluvias intensas en varias zonas de Ecuador hasta el 14 de octubre.
+
+[d66d21598b] 2026-10-12 10:55 UTC · medios · Primicias · neutro · Agricultura y producción · pide: Dinero y créditos
+    Ganaderos de Ecuador, golpeados por caída de cabezas de ganado, cambio hacia cultivos más rentables y efectos de El Niño
+    Sector ganadero ecuatoriano registra pérdidas por efectos de El Niño y cambios productivos.
+
+[f4c23163ac] 2026-10-12 10:33 UTC · medios · Ecuador 221 · neutro · Lluvias e inundaciones · Guayas
+    Intensa lluvia inundó varios sectores en Guayaquil
+    Intensa lluvia causa inundaciones en varios sectores de Guayaquil.
+
+[a7e7f32759] 2026-10-12 09:18 UTC · medios · Prensa Mercosur · neutro · Prevención y alertas
+    El Fenómeno del Niño. Una advertencia que Ecuador no puede ignorar
+    Análisis advierte sobre los riesgos que implica el Fenómeno del Niño para Ecuador.
 
 [ff26f525f7] 2026-10-12 07:30 UTC · medios · eltelegrafo.com.ec · neutro · Lluvias e inundaciones · Guayas
     Inundaciones en Guayaquil: estas son las afectaciones que dejan las lluvias este domingo
@@ -58,6 +218,15 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Artículo de opinión señala que la gestión de riesgos ha sido un compromiso olvidado.
     idea: La gestión de riesgos ha sido descuidada
 
+[4b52d1c33d] 2026-10-12 05:02 UTC · medios · Diario La Hora · neutro · Agricultura y producción · Pichincha · dirigido a: Municipio o Prefectura (neutro)
+    Mercado Mayorista de Quito se prepara para El Niño mientras suben el arroz y el azúcar
+    Comerciantes del Mercado Mayorista de Quito toman medidas preventivas ante El Niño y subida de precios.
+
+[0ee60872dc] 2026-10-12 04:48 UTC · medios · El Diario · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro) · pide: Información y alertas
+    Inamhi prevé lluvias intensas en la Costa y el norte de la Sierra hasta el 14 de octubre
+    Inamhi prevé lluvias intensas en Costa y norte de la Sierra.
+    El Inamhi pronostica lluvias de distinta intensidad en varias provincias de Ecuador este lunes, con riesgo de inundaciones, crecidas de ríos y deslizamientos.
+
 [25c5c35439] 2026-10-12 04:20 UTC · medios · Infobae · neutro · Afectados y damnificados
     Más de 17.000 afectados por las lluvias desde finales de agosto en Ecuador
     Se registran más de 17.000 personas afectadas por lluvias en Ecuador desde finales de agosto.
@@ -76,7 +245,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     🔴🔵 #ElInformativoDeExitosa📺📺 | La intensa lluvia registrada esta tarde en Guayaquil provocó acumulación de agua e inundaciones en varios sectores de Guayaquil. Este evento meteorológico provocaron acumulación de agua en 44 sectores de Guayaquil,
     Intensa lluvia en Guayaquil provoca acumulación de agua e inundaciones en 44 sectores.
 
-[a73731c839] 2026-10-12 02:58 UTC · youtube · @ (Sonia Sancho Vizhñay) · neutro · Lluvias e inundaciones · 5 interacciones · 923 vistas
+[a73731c839] 2026-10-12 02:58 UTC · youtube · @ (Sonia Sancho Vizhñay) · neutro · Lluvias e inundaciones · 5 interacciones · 930 vistas
     secuelas de los inicios del fenomeno del niño #ecuador #lluvias #fenómenodelniño
     Video sobre las secuelas del inicio del fenómeno de El Niño en Ecuador.
 
@@ -274,7 +443,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Más de 17.000 personas afectadas por las intensas lluvias en el país desde que se activó alerta roja por El Niño
     Más de 17.000 afectados en Ecuador por lluvias desde activación de alerta roja por El Niño.
 
-[76cdcb22a6] 2026-10-11 19:59 UTC · youtube · @ (Abico en moto) · neutro · Otro · Loja · 8 interacciones · 29 vistas
+[76cdcb22a6] 2026-10-11 19:59 UTC · youtube · @ (Abico en moto) · neutro · Otro · Loja · 10 interacciones · 34 vistas
     Llegué un día antes de que la lluvia acabara con los Guayacanes
     Florecimiento anticipado de los guayacanes en Mangahurco por lluvias.
     Los Guayacanes de Mangahurco florecieron meses antes de lo normal, así que cambié mi viaje a Zaruma y salí en moto a verlos.
@@ -679,6 +848,10 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     SNGR e INOCAR emiten alerta por oleaje alto en 27 playas de Ecuador.
     #AlertaPanas 27 PLAYAS DE ECUADOR REGISTRAN AMENAZA ALTA POR OLEAJE ENTRE EL 10 Y EL 12 DE OCTUBRE, el INOCAR prevé condiciones de mar agitado a muy agitado en las costas continentales y Galápagos durante estos días. Según la Secretaría Nacional de Gestión de Riesgos, otras 14 pl
 
+[5171cd4b13] 2026-10-10 13:09 UTC · medios · El Comercio · neutro · Prevención y alertas
+    Fenómeno de El Niño ya se formó en el Pacífico y puede ser muy fuerte, según NOAA
+    NOAA confirma formación del Fenómeno de El Niño de gran magnitud en el Pacífico.
+
 [13ca5525ed] 2026-10-10 12:58 UTC · x · @ecuainm_oficial (Ecuadorinmediato) · neutro · Lluvias e inundaciones · Orellana · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 3 interacciones · 1698 vistas · cuenta con 607204 seguidores
     SNGR reporta desbordamientos en Orellana, lluvias moderadas en varias provincias e incendios activos.
     ‼️#URGENTE La Secretaría Nacional de Gestión de Riesgos informó que, con corte a la noche del 9 de octubre, había 15 incendios forestales activos en Chimborazo, Tungurahua y Azuay, y dos controlados en Cotopaxi y Carchi. También registró tres desbordamientos en La Joya de los Sac
@@ -992,77 +1165,3 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
 [2511744f9b] 2026-10-09 16:55 UTC · medios · El Diario Ecuador · neutro · Prevención y alertas · pide: Información y alertas
     Tormentas y lluvias en Ecuador: alerta para el 9 de octubre
     Inamhi emite alerta por tormentas y lluvias en varias zonas de Ecuador.
-
-[61c03bcdde] 2026-10-09 16:31 UTC · medios · expreso.ec · neutro · Lluvias e inundaciones
-    Clima en Ecuador durante el feriado del 9 de octubre: zonas con lluvias y tormentas
-    Pronostican lluvias y tormentas en varias zonas del país durante el feriado.
-
-[920d730fb9] 2026-10-09 15:39 UTC · medios · Diario1 · neutro · Afectados y damnificados
-    Las niñas cargan las peores consecuencias del impacto del fenómeno El Niño, alerta una ONG
-    ONG advierte que las niñas sufren con mayor severidad los impactos de El Niño.
-
-[04de9be09c] 2026-10-09 15:15 UTC · medios · Metro Ecuador · neutro · Política y críticas · dirigido a: Gobierno central (neutro)
-    Gobierno descarta aplazar las elecciones seccionales de 2026 por El Niño
-    Gobierno ratifica la realización de las elecciones seccionales sin postergaciones por El Niño.
-
-[62d2cf615e] 2026-10-09 15:05 UTC · medios · La Prensa Ecuador · neutro · Lluvias e inundaciones
-    Lluvias intensas e inundaciones en Ecuador durante el feriado
-    Fuertes precipitaciones provocaron inundaciones en el país durante los días de feriado.
-
-[cbb3c725e6] 2026-10-09 14:52 UTC · medios · Metro Ecuador · neutro · Lluvias e inundaciones · Pichincha · pide: Información y alertas
-    Feriado del 9 de octubre en Quito: Inamhi alerta lluvias intensas y tormentas eléctricas en estas parroquias
-    Inamhi alerta sobre tormentas e intensas lluvias en parroquias de Quito.
-
-[897770b3bb] 2026-10-09 13:41 UTC · medios · lagaceta.com.ec · neutro · Educación · Cotopaxi · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro)
-    Educación identifica 15 planteles en riesgo por el fenómeno de El Niño en Cotopaxi
-    Ministerio de Educación identifica 15 instituciones educativas en riesgo ante El Niño en Cotopaxi.
-
-[ffd6d097bc] 2026-10-09 13:41 UTC · medios · La Gaceta · neutro · Educación · Cotopaxi · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro)
-    Educación identifica 15 planteles en riesgo por el fenómeno de El Niño en Cotopaxi
-    Ministerio de Educación identifica quince unidades educativas vulnerables a El Niño en Cotopaxi.
-
-[7d4e34f107] 2026-10-09 13:41 UTC · medios · La Gaceta · neutro · Lluvias e inundaciones · Cotopaxi
-    Cotopaxi reporta primeras lluvias pero se mantiene radiación alta y sequía
-    Cotopaxi experimenta primeras lluvias pese a condiciones prevalentes de sequía y radiación solar.
-
-[a21f99489a] 2026-10-09 13:27 UTC · medios · Diario Ahora · neutro · Prevención y alertas
-    OMM advierte que El Niño podría batir récords de temperatura a finales de 2026
-    La OMM advierte que El Niño podría romper récords de temperatura en 2026.
-
-[a7483ed8bf] 2026-10-09 13:27 UTC · tiktok · @sandralucio60 (Comentario en TikTok) · neutro · Prevención y alertas · dirigido a: Municipio o Prefectura (critico) · pide: Maquinaria y limpieza · 2 interacciones · es respuesta/comentario
-    Critica la falta de limpieza previa de alcantarillas ante la llegada del invierno.
-    idea: El municipio no limpia las alcantarillas
-    pero saben que viene el invierno,, por qué no limpian todas las alcantarillas tapadas deberían prepararse para el invierno,,, osea los ecuatorianos en estados unidos se mueren viendo eso ,,, cada año no es lo mismo el invierno es muy diferente ay que estar a alerta y no almirarse
-
-[207617eb08] 2026-10-09 12:43 UTC · medios · El Diario Ecuador · neutro · Política y críticas · dirigido a: Gobierno central (neutro)
-    Gobierno descarta aplazar elecciones seccionales por El Niño
-    Gobierno descarta postergar las elecciones seccionales debido al impacto de El Niño.
-
-[faa26cb8f1] 2026-10-09 12:43 UTC · medios · El Diario Ecuador · neutro · Política y críticas · dirigido a: Gobierno central (neutro)
-    Gobierno descarta aplazar las elecciones seccionales pese a advertencias del CNE sobre la llegada de fenómeno El Niño
-    Gobierno descarta posponer elecciones seccionales a pesar de advertencias por El Niño.
-
-[284827f3e5] 2026-10-09 12:38 UTC · medios · El Universo · neutro · Deslaves y vías · Guayas
-    Feriado del 9 de octubre: este es el estado de las vías en Guayas y Santa Elena
-    Reporte del estado de las vías en Guayas y Santa Elena para el feriado.
-
-[416431635e] 2026-10-09 12:05 UTC · medios · El Universo · neutro · Lluvias e inundaciones · Guayas
-    Guayaquil tendrá una máxima de 32 °C y lluvias durante la noche este 9 de octubre
-    Inamhi pronostica calor y lluvias nocturnas en Guayaquil el 9 de octubre.
-
-[48007ce1b6] 2026-10-09 12:01 UTC · medios · Fenavi de Venezuela · neutro · Otro
-    Banco Mundial alerta que El Niño impactará la inflación de Ecuador, Paraguay y Argentina
-    Banco Mundial advierte impacto de El Niño en la inflación de Ecuador y otros países.
-
-[1031a70afa] 2026-10-09 12:00 UTC · medios · El Diario Ecuador · neutro · Energía y servicios
-    Las crisis eléctrica y climática son los nuevos desafíos económicos para Ecuador
-    Crisis eléctrica y fenómeno climático representan graves retos económicos para Ecuador.
-
-[45042dbe02] 2026-10-09 12:00 UTC · medios · Teleamazonas · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas
-    Lluvias intensas e inundaciones: estas son las zonas de mayor riesgo durante el feriado
-    Identifican zonas de mayor riesgo por intensas lluvias e inundaciones durante el feriado.
-
-[06cca24e1e] 2026-10-09 12:00 UTC · medios · El Universo · neutro · Lluvias e inundaciones · Pichincha · dirigido a: Municipio o Prefectura (neutro)
-    El metro de Quito enfrentó sus primeras inundaciones con un protocolo que se deberá repetir si el clima no da tregua
-    Metro de Quito activa protocolos de emergencia tras sufrir sus primeras inundaciones por lluvias.
-    La tarde del miércoles apenas ocho estaciones del sistema de transporte, hacia el sur, operaron mientras se aplicaba el protocolo correspondiente.
