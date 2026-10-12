@@ -1,43 +1,171 @@
-# Contexto para el análisis de fondo (2026-10-12 11:37, hora de Ecuador)
+# Contexto para el análisis de fondo (2026-10-12 17:34, hora de Ecuador)
 
 Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Cita las piezas por su [id].
 
 ## Cifras: últimas 24 h frente a las 24 h anteriores
 
 - hoy · medios · critico: 2
-- hoy · medios · neutro: 68
-- hoy · medios · positivo: 2
+- hoy · medios · neutro: 80
+- hoy · medios · positivo: 1
 - hoy · tiktok · positivo: 1
-- hoy · x · critico: 1
-- hoy · x · neutro: 18
-- hoy · x · positivo: 3
-- hoy · youtube · neutro: 6
+- hoy · x · neutro: 11
+- hoy · x · positivo: 2
+- hoy · youtube · neutro: 9
 - ayer · facebook · positivo: 1
-- ayer · medios · neutro: 29
+- ayer · medios · neutro: 36
 - ayer · medios · positivo: 2
 - ayer · tiktok · neutro: 2
-- ayer · tiktok · positivo: 4
+- ayer · tiktok · positivo: 3
 - ayer · x · critico: 2
-- ayer · x · neutro: 14
-- ayer · x · positivo: 7
-- ayer · youtube · neutro: 1
+- ayer · x · neutro: 15
+- ayer · x · positivo: 5
+- ayer · youtube · neutro: 2
 
 ## Narrativas de la corrida anterior
 
-- Las lluvias empeorarán y no estamos preparados — 20 piezas; 15 en 24 h vs 1 antes. La empujan medios: el balance de 17.056 afectados, el aviso del Inamhi hasta el 14 y ahora opiniones en La Hora y Forbes que apuntan a la falta de preparación. Riesgo de que el reproche de 'compromiso olvidado' se pegue a la Secretaría si no muestra preparación concreta.
-- Los incendios siguen pese a las lluvias — 18 piezas; 8 en 24 h vs 9 antes. Radio Pichincha, citando a la SNGR, habla de seis incendios activos, pero Sucre Noticias y Teleamazonas difundieron los 15 del corte del 9 de octubre. Riesgo de parecer desactualizados; oportunidad de mostrar que el fuego baja.
-- El Niño golpea más a las niñas — 9 piezas; 8 en 24 h vs 0 antes. Radio Pichincha, Teleamazonas y Ecuador Chequea difunden el informe de Plan Internacional sobre violencia y abandono escolar; Carolina publicó un mensaje por el Día de la Niña. Oportunidad de pasar del mensaje a medidas concretas con enfoque de género.
-- Coordinación preventiva y entrega de asistencia oficial — 19 piezas; 7 en 24 h vs 4 antes. La sostienen la SNGR, la Alcaldía de Muisne (Chamanga), el MTDH y la propia Carolina: entregas en Bolívar y Esmeraldas y más de $650 millones anunciados. Es la principal fortaleza, pero las cifras crean la expectativa de rendir cuentas.
-- Se sabía que venía y no se planificó — 8 piezas; 5 en 24 h vs 1 antes. Apunta a municipios y prefecturas: calles inundadas y basura en Guayaquil según Extra y El Diario, vecinos de Molleturo (Cuenca) limpiando derrumbes a pico y pala según W Radio. Riesgo de que el reclamo se desplace a la Secretaría.
+- Las lluvias empeorarán y no estamos preparados — 33 piezas; 26 en 24 h vs 3 antes. Crece en medios: el balance de más de 17.000 afectados en 22 provincias, el aviso del Inamhi hasta el 14 y las columnas de La Hora y Forbes sobre falta de preparación. Riesgo de que el reproche se pegue a la Secretaría si no muestra preparación concreta y verificable.
+- Coordinación preventiva y entrega de asistencia oficial — 19 piezas; 5 en 24 h vs 4 antes. La sostienen la SNGR, la Alcaldía de Muisne (Chamanga), el MTDH y la propia Carolina: entregas en Bolívar y Esmeraldas y $656 millones anunciados. Es la principal fortaleza, pero hoy no suma piezas nuevas y las cifras crean la expectativa de rendir cuentas.
+- Se sabía que venía y no se planificó — 8 piezas; 5 en 24 h vs 1 antes. Apunta a municipios y prefecturas: calles inundadas y basura en Guayaquil según Extra y El Diario, vecinos de Molleturo (Cuenca) limpiando derrumbes a pico y pala según W Radio, puentes caídos en Los Ríos. Con El Oro inundado, el reclamo puede desplazarse a la Secretaría.
+- Los incendios siguen pese a las lluvias — 18 piezas; 4 en 24 h vs 9 antes. Radio Pichincha, citando a la SNGR, habla de seis incendios activos, pero Sucre Noticias, Teleamazonas y Expreso difundieron los 15 del corte del 9 de octubre. Pierde fuerza frente a las lluvias; riesgo de parecer desactualizados si no se publica un corte nuevo.
 - Gobierno y GAD no se coordinan — 4 piezas; 4 en 24 h vs 0 antes. La columna de Kléber Mantilla en La Hora habla de brutal descoordinación entre Gobierno central y seccionales, mientras el Ministerio de Gobierno pide a los GAD planes de contingencia para las elecciones. Toca la función rectora de la Secretaría; oportunidad de mostrar lineamientos.
+- El Niño golpea más a las niñas — 8 piezas; 2 en 24 h vs 6 antes. Radio Pichincha, Teleamazonas y Ecuador Chequea difundieron el informe de Plan Internacional sobre violencia y abandono escolar; Carolina publicó un mensaje por el Día de la Niña. Oportunidad de pasar del mensaje a medidas con enfoque de género, ahora que El Oro suspende clases.
 
 ## Hitos ya marcados (no los repitas)
 
 - 2026-10-07: Esmeraldas declara emergencia provincial por lluvias
 - 2026-10-08: Gobierno descarta aplazar elecciones seccionales por El Niño
 - 2026-10-09: Alerta de tsunami por sismo en Panamá, luego cancelada
+- 2026-10-12: Seis ríos desbordados; Machala y Santa Rosa suspenden clases
 
-## Piezas de los últimos 3 días (250, de la más reciente a la más antigua)
+## Piezas de los últimos 3 días (241, de la más reciente a la más antigua)
+
+[dabaa46e01] 2026-10-12 22:16 UTC · youtube · @@dioniciavillalba9617 (DNews) · neutro · Afectados y damnificados · es respuesta/comentario
+    Usuario envía mensaje de solidaridad ante la emergencia por El Niño.
+    #Fuerza a todos. Aqui tb.
+
+[e212b50566] 2026-10-12 22:15 UTC · medios · EFE - Agencia de noticias · neutro · Lluvias e inundaciones
+    Las fuertes lluvias dejan cinco ríos y un estero desbordados en tres provincias de Ecuador
+    Desbordamiento de cinco ríos y un estero tras intensas lluvias en tres provincias.
+
+[98cc7e89b3] 2026-10-12 22:08 UTC · medios · El Comercio · neutro · Afectados y damnificados
+    Esta es la cifra de afectados por las lluvias en Ecuador desde finales de agosto
+    Reporte de cifras de personas afectadas por temporal lluvioso acumulado desde agosto.
+
+[daccb7d75b] 2026-10-12 22:07 UTC · medios · Diario Extra · neutro · Lluvias e inundaciones
+    Múltiples emergencias en Ecuador por lluvias, inundaciones, oleaje e incendios forestales
+    Ecuador registra múltiples emergencias por fuertes lluvias, inundaciones y oleajes a nivel nacional.
+
+[87df6dca4c] 2026-10-12 22:04 UTC · medios · Vistazo · neutro · Energía y servicios · Esmeraldas · pide: Agua
+    Nuevo derrame de petróleo en Quinindé: suspenden servicio de agua potable por contaminación del río Cupa
+    Suspendido el servicio de agua potable en Quinindé por derrame de petróleo.
+
+[6d536bc7d7] 2026-10-12 22:00 UTC · youtube · @@robertespinoza9147 (DNews) · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas · 1 interacciones · es respuesta/comentario
+    Comentario advierte que El Niño empeorará y la población no está preparada.
+    idea: La población no está preparada para las lluvias
+    El Niño vino con furia y se va a poner mas peor y la gente no estan preparados🏥para lo que viene🌊 ⛈️⚡
+
+[167acf53ed] 2026-10-12 21:58 UTC · medios · El Universo · neutro · Lluvias e inundaciones · Manabí
+    Fuertes oleajes destruyen una vivienda y afectan calles y cabañas en tres comunidades de Manabí
+    Fuertes oleajes destruyen vivienda y causan daños en vías y cabañas en Manabí.
+
+[3883044502] 2026-10-12 21:43 UTC · medios · El Nuevo Diario · neutro · Afectados y damnificados · ALERTA
+    Lluvias dejan cinco ríos y un estero desbordados y más de 17.000 afectados en Ecuador
+    Más de 17.000 personas afectadas y desbordamiento de ríos por invierno en Ecuador.
+
+[52c958988c] 2026-10-12 21:39 UTC · medios · LaPrensa.hn · neutro · Lluvias e inundaciones
+    Fuertes lluvias dejan cinco ríos y quebradas desbordados en Ecuador
+    Medio internacional reporta desbordamiento de ríos y quebradas por precipitaciones en Ecuador.
+
+[7a0021a80f] 2026-10-12 21:02 UTC · medios · expreso.ec · neutro · Educación · El Oro · pide: Vías y puentes
+    Lluvias en Ecuador suspendieron clases en Machala y afectaron carreteras
+    Lluvias obligan a suspender clases en Machala y provocan afectaciones en carreteras.
+
+[d23cfd1724] 2026-10-12 20:40 UTC · medios · Ecuavisa · neutro · Energía y servicios · Esmeraldas · pide: Agua
+    Esmeraldas en emergencia por derrame de petróleo en los ríos Cupa y Blanco
+    Emergencia en Esmeraldas debido a un derrame de petróleo en ríos Cupa y Blanco.
+
+[bf959e442b] 2026-10-12 20:36 UTC · youtube · @ (DNews) · neutro · Deslaves y vías · Pichincha · pide: Evacuación y rescate · 45 interacciones · 1571 vistas
+    🚨 Ecuador bajo alerta por El Niño: más de 17 mil afectados, inundaciones y deslizamientos
+    Lluvias y deslizamiento de tierra en Quito afectan viviendas y provocan evacuaciones con miles de afectados nacionalmente.
+    ecuador #quito #deslave #inundaciones [00:35] 🌧️ Deslizamiento de tierra en Quito afectó viviendas y obligó evacuaciones.
+
+[423d142892] 2026-10-12 20:27 UTC · medios · La República · neutro · Lluvias e inundaciones · Guayas
+    Seis horas de aguacero y tormenta eléctrica en Samborondón; seis ríos desbordados en todo el país
+    Lluvias intensas provocaron desbordamiento de ríos en Samborondón y varias zonas del país.
+    El cantón Samborondón estuvo bajo el mismo frente de lluvias y tormentas eléctricas que el domingo 11 de octubre descargó sobre Guayaquil durante más de seis horas. Ni el Municipio de Samborondón ni el Inamhi [...] The post Seis horas de aguacero y tormenta eléctrica en Samborond
+
+[0d29f3d796] 2026-10-12 19:55 UTC · medios · Radio Pichincha · neutro · Afectados y damnificados · Los Ríos · aspecto: Presencia en territorio · dirigido a: Secretaría de Gestión de Riesgos (neutro) · pide: Agua
+    Inundaciones en Babahoyo contaminan pozos y dejan a 300 familias sin agua potable
+    Inundaciones en Babahoyo afectan a 300 familias sin agua mientras SNGR gestiona albergues.
+    idea: La Secretaría busca albergues para damnificados
+    La SNGR estaría buscando iglesias cercanas para que sirvan como albergue para las familias damnificadas. Las lluvias registradas durante la madrugada del lunes 12 de octubre de 2026 provocaron nuevamente el desbordamiento del río Chilintomo y la inundación de varias zonas rurales
+
+[fbaf123406] 2026-10-12 19:48 UTC · medios · Primicias · neutro · Educación · El Oro
+    El Niño en Ecuador: seis ríos desbordados y una universidad de Machala suspende clases tras fuertes lluvias
+    Ríos desbordados obligan a suspender clases universitarias en Machala tras lluvias.
+
+[cffca20d87] 2026-10-12 19:36 UTC · medios · El Diario Ecuador · neutro · Deslaves y vías · Los Ríos · pide: Vías y puentes
+    Dos vías de Babahoyo registran acumulación de agua por las inundaciones
+    Acumulación de agua cubre dos carreteras principales en Babahoyo.
+
+[7b0a062dec] 2026-10-12 19:34 UTC · medios · www.aldia.com.ec · neutro · Salud · aspecto: Prevención y alertas · pide: Salud
+    El Niño en Ecuador: cómo frenar las enfermedades que traen las lluvias y el calor
+    Recomendaciones de salud para prevenir enfermedades provocadas por lluvias y altas temperaturas.
+
+[8a4b0bbee0] 2026-10-12 19:28 UTC · medios · Metro Ecuador · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro) · pide: Información y alertas
+    El Niño golpea Ecuador: el Inamhi revela dónde lloverá con más fuerza
+    Inamhi emite pronóstico de las zonas que registrarán mayores lluvias en el país.
+
+[8327990791] 2026-10-12 19:22 UTC · medios · expreso.ec · neutro · Lluvias e inundaciones · El Oro
+    Lluvias desbordan ríos e inundan sectores de Santa Rosa y Machala
+    Desbordamiento de ríos causa anegaciones en sectores de Santa Rosa y Machala.
+
+[f87a7b8874] 2026-10-12 19:16 UTC · medios · expreso.ec · neutro · Afectados y damnificados · Los Ríos · pide: Agua
+    Inundaciones en Babahoyo dejaron a familias aisladas y sin agua potable
+    Familias quedan aisladas y desprovistas de agua potable por inundaciones en Babahoyo.
+
+[4b05dafba0] 2026-10-12 18:41 UTC · medios · expreso.ec · neutro · Agricultura y producción · Guayas · pide: Dinero y créditos
+    El Niño amenaza el pago de créditos en Guayas, Pichincha y El Oro
+    Efectos del fenómeno de El Niño amenazan el cumplimiento de deudas crediticias.
+
+[89a917f2f9] 2026-10-12 18:33 UTC · medios · Ecuavisa · neutro · Afectados y damnificados · Los Ríos · pide: Agua
+    Inundaciones en Babahoyo dejan a familias aisladas y sin agua potable
+    Pobladores quedan aislados y sin acceso a agua potable por inundación en Babahoyo.
+
+[3c7a71709d] 2026-10-12 18:30 UTC · youtube · @ (Jimmy Jairala) · neutro · Agricultura y producción · 6 interacciones · 289 vistas
+    Estiaje y El Niño ponen presión económica #ecuador #elñiño
+    El fenómeno de El Niño y el estiaje afectan la pesca y generación hidroeléctrica en Ecuador.
+    El fenómeno de El Niño y el riesgo de estiaje podrían afectar la pesca y la generación hidroeléctrica en Ecuador. Así lo advirtió el ...
+
+[0accbac8a4] 2026-10-12 18:20 UTC · medios · Diario Neuquino · neutro · Afectados y damnificados
+    Las lluvias golpean a Ecuador: más de 17.000 afectados y miles de viviendas dañadas en 22 provincias
+    Lluvias golpean a Ecuador con más de 17.000 afectados en 22 provincias.
+    idea: El impacto de las lluvias se extiende a muchas provincias.
+
+[b16f77804a] 2026-10-12 18:12 UTC · medios · Radio Pichincha · neutro · Lluvias e inundaciones · Guayas · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (neutro)
+    Intensas lluvias provocan el desbordamiento de seis ríos en tres provincias
+    La Secretaría reportó el desbordamiento de seis ríos y daños materiales por las lluvias.
+    idea: La Secretaría informa sobre los daños y desbordamientos.
+    La secretaría de Gestión de Riesgos reportó el desbordamiento de seis ríos en el Guayas, El Oro y Los Ríos, mientras el Inamhi prevé un incremento de las tormentas en todo el país. El reporte oficial del organismo de gestión de riesgos, con corte a las 07:00 de este lunes 12 de o
+
+[d47370a498] 2026-10-12 17:52 UTC · medios · El Productor (Ecuador) · neutro · Agricultura y producción
+    Lluvias e inseguridad preocupan a los pequeños ganaderos de Ecuador
+    Pequeños ganaderos en Ecuador muestran preocupación por las lluvias y la inseguridad.
+
+[0c14cf5085] 2026-10-12 17:51 UTC · medios · ADN Paraguayo · neutro · Afectados y damnificados
+    Las lluvias golpean a Ecuador: más de 17.000 afectados y miles de viviendas dañadas en 22 provincias
+    Lluvias en Ecuador dejan más de 17.000 afectados y miles de viviendas dañadas.
+    idea: Hay miles de afectados por las lluvias en el país.
+
+[74df801286] 2026-10-12 17:39 UTC · medios · Ecuador 221 · neutro · Afectados y damnificados · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (neutro)
+    Lluvias dejan 17.056 afectados desde la alerta roja por El Niño
+    Lluvias dejan 17.056 afectados desde la declaratoria de alerta roja por El Niño.
+    idea: Se contabilizan miles de afectados por la alerta roja.
+
+[f986b833d1] 2026-10-12 16:38 UTC · medios · El Comercio · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas
+    Nueva alerta del Inamhi: lluvias, tormentas, inundaciones en Ecuador hasta el 14 de octubre
+    El Inamhi emite nueva alerta por lluvias, tormentas e inundaciones hasta el 14 de octubre.
+    idea: Se emiten alertas oportunas por eventos climáticos.
 
 [f3fede14e5] 2026-10-12 16:30 UTC · medios · Radio Pichincha · neutro · Afectados y damnificados · El Oro · ALERTA
     Un invierno implacable por El Niño golpea a Ecuador y el Inamhi advierte que el escenario podría complicarse
@@ -49,7 +177,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Lluvias provocan inundaciones y suspensión de clases en Machala y Santa Rosa.
     Afectaciones por lluvias en El Oro.
 
-[8d723e6139] 2026-10-12 16:12 UTC · youtube · @ (RADIO I99) · neutro · Prevención y alertas · aspecto: Prevención y alertas · 4 vistas
+[8d723e6139] 2026-10-12 16:12 UTC · youtube · @ (RADIO I99) · neutro · Prevención y alertas · aspecto: Prevención y alertas · 55 vistas
     ¡Prepárate ante el fenómeno El Niño!
     Campaña preventiva pide no botar basura en calles y ríos ante El Niño.
     Prepárate ante el fenómeno El Niño! Evita arrojar basura en calles, ríos y alcantarillas para prevenir inundaciones. 🗑️ Mantén ...
@@ -78,6 +206,11 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Lluvias obligan a suspender clases presenciales en una universidad de Machala
     Universidad en Machala suspende clases presenciales debido a las lluvias.
 
+[bac04a5acb] 2026-10-12 15:52 UTC · medios · Ecuavisa · neutro · Educación · El Oro
+    Universidad Técnica de Machala suspende clases presenciales por las lluvias este 12 de octubre
+    Universidad Técnica de Machala suspende clases presenciales por las lluvias.
+    idea: Las clases se suspenden para precautelar la seguridad estudiantil.
+
 [c113908bdc] 2026-10-12 15:50 UTC · medios · Primicias · neutro · Deslaves y vías · pide: Vías y puentes
     Fuertes lluvias en Ecuador provocan el desbordamiento de seis ríos y daños en vías de varias provincias
     Desbordamiento de seis ríos genera daños en vías de varias provincias.
@@ -99,7 +232,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Inamhi prevé lluvias intensas en la Costa y el norte de la Sierra hasta el 14 de octubre
     Inamhi pronostica intensas lluvias en Costa y Sierra norte hasta el 14 de octubre.
 
-[d557dd1300] 2026-10-12 14:47 UTC · youtube · @ (Ecuador TV) · neutro · Prevención y alertas · 2 interacciones · 8 vistas
+[d557dd1300] 2026-10-12 14:47 UTC · youtube · @ (Ecuador TV) · neutro · Prevención y alertas · 3 interacciones · 35 vistas
     Entrevista Franz Leonardo Pucha Cofrep
     Entrevista a Franz Leonardo Pucha sobre el fenómeno de El Niño.
     Entrevista Franz Leonardo Pucha Cofrep Tema: Fenomeno del Niño.
@@ -112,9 +245,18 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Fuertes lluvias provocan desbordamientos en Santa Rosa y elevan caudales en Machala
     Fuertes lluvias causan desbordamientos en Santa Rosa y aumento de caudales.
 
+[a8487bbefe] 2026-10-12 14:41 UTC · medios · Machala Móvil · neutro · Prevención y alertas · El Oro · aspecto: Prevención y alertas · pide: Información y alertas
+    Inamhi advierte lluvias intensas en Ecuador hasta el 14 de octubre: El Oro está entre las zonas de riesgo
+    Inamhi advierte lluvias intensas en Ecuador y sitúa a El Oro en zona de riesgo.
+    idea: Hay zonas específicas en alto riesgo por lluvias.
+
 [a9d2ffdc82] 2026-10-12 14:38 UTC · medios · Infobae · neutro · Afectados y damnificados · ALERTA
     Las lluvias golpean a Ecuador: más de 17.000 afectados y miles de viviendas dañadas en 22 provincias
     Lluvias afectan a más de 17.000 personas y miles de viviendas en 22 provincias de Ecuador.
+
+[504eec28e0] 2026-10-12 14:20 UTC · medios · Primicias · neutro · Afectados y damnificados · Esmeraldas · dirigido a: Municipio o Prefectura (neutro)
+    Esmeraldas registra más de 12.000 afectados por lluvias e inundaciones, según el prefecto Zambrano
+    Prefectura de Esmeraldas reporta más de 12.000 personas afectadas por inundaciones.
 
 [2e2e7f87c6] 2026-10-12 14:16 UTC · medios · Vistazo · neutro · Lluvias e inundaciones · Guayas · pide: Información y alertas
     Lluvias en Guayaquil: ¿qué hacer si encuentra zarigüeyas, iguanas o serpientes en su casa?
@@ -177,7 +319,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Lluvias dejan más de 17 mil personas afectadas a nivel nacional
     Lluvias dejan más de 17 mil personas afectadas a nivel nacional en Ecuador.
 
-[3031461340] 2026-10-12 11:56 UTC · youtube · @ (Ecuador Comunicación) · neutro · Lluvias e inundaciones · 13 interacciones · 2498 vistas
+[3031461340] 2026-10-12 11:56 UTC · youtube · @ (Ecuador Comunicación) · neutro · Lluvias e inundaciones · 13 interacciones · 2553 vistas
     EL FENÓMENO DEL NIÑO EMPIEZA A GOLPEAR CON FUERZA A LA REGIÓN LITORAL DEL ECUADOR
     El Fenómeno del Niño empieza a afectar con fuerza a la región Litoral de Ecuador.
     noticias #ecuador #urgente.
@@ -194,6 +336,16 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Intensa lluvia inundó varios sectores en Guayaquil
     Intensa lluvia causa inundaciones en varios sectores de Guayaquil.
 
+[d48cb3aa8f] 2026-10-12 10:00 UTC · medios · El Diario · neutro · Lluvias e inundaciones · Santo Domingo de los Tsáchilas · pide: Albergue
+    Perdieron muebles y buscaron refugio: así viven las familias afectadas por el socavón en la avenida Esmeraldas
+    Un socavón e inundaciones provocan pérdidas materiales y riesgo estructural a familias.
+    Un socavón en la avenida Esmeraldas y calle Yuturí afecta a familias y negocios, mientras vecinos reportan inundaciones, daños materiales y riesgos estructurales.
+
+[316a2c537a] 2026-10-12 09:36 UTC · medios · El Diario · neutro · Deslaves y vías · Los Ríos · pide: Vías y puentes
+    Dos vías de Babahoyo registran acumulación de agua por las inundaciones
+    Inundaciones anegan dos carreteras y terrenos agrícolas en Babahoyo generando peligro vial.
+    Las inundaciones afectan dos carreteras de Babahoyo y cubren terrenos agrícolas, mientras los habitantes observan el avance del agua y advierten sobre riesgos viales.
+
 [a7e7f32759] 2026-10-12 09:18 UTC · medios · Prensa Mercosur · neutro · Prevención y alertas
     El Fenómeno del Niño. Una advertencia que Ecuador no puede ignorar
     Análisis advierte sobre los riesgos que implica el Fenómeno del Niño para Ecuador.
@@ -207,6 +359,12 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     El Banco Mundial advierte que Ecuador es una de las economías más vulnerables ante El Niño.
     idea: El país es muy vulnerable ante el fenómeno climático
     Las proyecciones del Banco Mundial advierten sobre vulnerabilidades climáticas y energéticas que amenazan la estabilidad macroeconómica de Ecuador, Paraguay y Argentina. Un informe del Banco Mundial sobre el panorama económico de América Latina y el Caribe advierte que los efecto
+
+[007fc5c34e] 2026-10-12 06:10 UTC · medios · El Diario · neutro · Lluvias e inundaciones · aspecto: Presencia en territorio · dirigido a: Gobierno central (neutro) · pide: Maquinaria y limpieza
+    Seis ríos se desbordan en Ecuador: estas son las vías afectadas por las lluvias
+    Lluvias provocan desbordamientos y daños viales mientras autoridades atienden emergencias.
+    idea: Las autoridades atienden las emergencias viales y de inundación.
+    Las fuertes lluvias provocaron desbordamientos de ríos, acumulación de agua y daños viales en varias provincias. Las autoridades mantienen operativos para atender las emergencias.
 
 [8522595fe3] 2026-10-12 05:30 UTC · medios · ABC · neutro · Afectados y damnificados
     Más de 17.000 afectados por las lluvias desde finales de agosto en Ecuador
@@ -245,7 +403,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     🔴🔵 #ElInformativoDeExitosa📺📺 | La intensa lluvia registrada esta tarde en Guayaquil provocó acumulación de agua e inundaciones en varios sectores de Guayaquil. Este evento meteorológico provocaron acumulación de agua en 44 sectores de Guayaquil,
     Intensa lluvia en Guayaquil provoca acumulación de agua e inundaciones en 44 sectores.
 
-[a73731c839] 2026-10-12 02:58 UTC · youtube · @ (Sonia Sancho Vizhñay) · neutro · Lluvias e inundaciones · 5 interacciones · 930 vistas
+[a73731c839] 2026-10-12 02:58 UTC · youtube · @ (Sonia Sancho Vizhñay) · neutro · Lluvias e inundaciones · 5 interacciones · 953 vistas
     secuelas de los inicios del fenomeno del niño #ecuador #lluvias #fenómenodelniño
     Video sobre las secuelas del inicio del fenómeno de El Niño en Ecuador.
 
@@ -443,7 +601,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Más de 17.000 personas afectadas por las intensas lluvias en el país desde que se activó alerta roja por El Niño
     Más de 17.000 afectados en Ecuador por lluvias desde activación de alerta roja por El Niño.
 
-[76cdcb22a6] 2026-10-11 19:59 UTC · youtube · @ (Abico en moto) · neutro · Otro · Loja · 10 interacciones · 34 vistas
+[76cdcb22a6] 2026-10-11 19:59 UTC · youtube · @ (Abico en moto) · neutro · Otro · Loja · 10 interacciones · 41 vistas
     Llegué un día antes de que la lluvia acabara con los Guayacanes
     Florecimiento anticipado de los guayacanes en Mangahurco por lluvias.
     Los Guayacanes de Mangahurco florecieron meses antes de lo normal, así que cambié mi viaje a Zaruma y salí en moto a verlos.
@@ -538,7 +696,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: Hay coordinación interinstitucional para atender la crisis
     “Hemos cogido la salud pública como un paciente de terapia intensiva”, afirmó Juan Carlos Aveiga, ministro de Salud. El funcionario señaló que ya se realizó un diagnóstico de la situación y destacó la intervención de varios ministerios, entre ellos Interior, Defensa, Educación y 
 
-[aeef59517a] 2026-10-11 15:00 UTC · youtube · @ (El Sótano del Misterio) · neutro · Prevención y alertas · 7 vistas
+[aeef59517a] 2026-10-11 15:00 UTC · youtube · @ (El Sótano del Misterio) · neutro · Prevención y alertas · 13 vistas
     ¿Qué es el Fenómeno del Niño y por qué destruye carreteras?
     Explicación sobre el fenómeno de El Niño y sus efectos destructivos en carreteras y ciudades.
     Cómo un océano más caliente puede destruir ciudades enteras? Analizamos el impacto devastador del fenómeno del Niño.
@@ -968,200 +1126,3 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Afirma con pesimismo que el país no estará preparado para El Niño.
     idea: No estamos preparados para las emergencias
     No vamos a estar preparados para lo que se viene #fenomenoDelNiño #elniño @SeguridadeQuito @Riesgos_Ec @ComunidLaAurora @goberguayasec
-
-[1932483718] 2026-10-09 22:22 UTC · x · @RtpEcuador (RTP Ecuador 96.5 Fm) · positivo · Otro · aspecto: Coordinación entre instituciones · dirigido a: Gobierno central (positivo) · 142 vistas · cuenta con 8740 seguidores
-    Ecuador ofrece ayuda a Panamá tras terremoto y la Secretaría permanece atenta a requerimientos.
-    idea: Ecuador demuestra solidaridad ante emergencias internacionales
-    El presidente de Ecuador, Daniel Noboa, expresó su solidaridad con el pueblo panameño tras el terremoto de magnitud 7,6 que sacudió Panamá este viernes 9 de octubre. 🗣️ El mandatario aseguró que Ecuador está preparado para brindar asistencia y colaborar en las labores de atención
-
-[89f56ad7d4] 2026-10-09 22:22 UTC · x · @PortoviejoN (ÚLTIMAS NOTICIAS PORTOVIEJO) · positivo · Respuesta del Gobierno · Pichincha · aspecto: Liderazgo de Carolina Lozano · dirigido a: Gobierno central (positivo) · 117 vistas · cuenta con 367 seguidores
-    Noboa y Carolina Lozano ofrecen apoyo humanitario a Panamá tras fuerte terremoto.
-    idea: El Gobierno ofrece ayuda internacional
-    Ecuador ofrece ayuda humanitaria a Panamá tras terremoto #QUITO #PICHINCHA El presidente de Ecuador, Daniel Noboa, expresó su solidaridad con Panamá tras el terremoto que causó daños en viviendas, iglesias y otras edificaciones, y puso a disposición la ayuda del Estado ecuatorian
-
-[11b9906b01] 2026-10-09 22:22 UTC · x · @contraluzec_ (Contraluz | Política, Economía y más) · positivo · Respuesta del Gobierno · aspecto: Liderazgo de Carolina Lozano · dirigido a: Carolina Lozano (positivo) · 261 vistas · cuenta con 67651 seguidores
-    Carolina Lozano informa disposición de SNGR para colaborar tras terremoto en Panamá.
-    idea: La Secretaría está lista para actuar
-    Tras el terremoto en Panamá, el presidente Daniel Noboa (@DanielNoboaOk) anunció que #Ecuador está preparado para colaborar en la atención a las familias afectadas. La secretaria nacional de Gestión de Riesgos, Carolina Lozano, informó que la institución está atenta a un llamamie
-
-[708d008922] 2026-10-09 22:11 UTC · x · @BitacoraEc (BitacoraAmbiental) · neutro · Prevención y alertas · Galápagos · aspecto: Prevención y alertas · dirigido a: Fuerzas Armadas y Policía (neutro) · pide: Información y alertas · 2 interacciones · 399 vistas · cuenta con 7742 seguidores
-    Inocar emite alerta preventiva de tsunami para Ecuador tras terremoto en Panamá.
-    idea: Se emiten alertas ante posible riesgo de tsunami
-    ALERTA DE TSUNAMI: GALÁPAGOS Y LA COSTA ECUATORIANA, @inocarec Inocar emitió este viernes 9 de octubre el Boletín de Alerta de Tsunami N.º 01, tras un terremoto registrado en Panamá a las 12:56, hora continental. El documento reporta una magnitud preliminar de 8 y advierte del pe
-
-[02c15042b5] 2026-10-09 22:07 UTC · x · @CorteInforma (Corte Informativo) · positivo · Respuesta del Gobierno · aspecto: Liderazgo de Carolina Lozano · dirigido a: Carolina Lozano (positivo) · 122 vistas · cuenta con 84123 seguidores
-    Carolina Lozano afirma que la SNGR coordinará ayuda humanitaria ante llamado de Panamá.
-    idea: La Secretaría está lista para actuar
-    #ATENCIÓN | Ecuador está preparado para apoyar a las familias afectadas por el terremoto en Panamá, anunció el presidente @DanielNoboaOk. El mandatario expresó su solidaridad y ofreció colaboración en las labores de atención. La secretaria nacional de Gestión de Riesgos, Carolina
-
-[3285462afa] 2026-10-09 22:01 UTC · medios · El Universo · neutro · Lluvias e inundaciones · pide: Información y alertas
-    Inamhi prevé lluvias más frecuentes e intensas en la Costa para noviembre y diciembre
-    Inamhi prevé incremento de lluvias intensas en la Costa para fin de año.
-
-[87ba809e81] 2026-10-09 22:01 UTC · medios · El Universo · neutro · Prevención y alertas
-    Pronóstico del clima para este miércoles, 7 de octubre: Ecuador tendrá temperaturas de 8 °C a 36 °C y tormentas en el Litoral
-    Pronóstico prevé temperaturas variables y tormentas en el Litoral ecuatoriano.
-
-[6278466e6c] 2026-10-09 21:40 UTC · medios · Diario Extra · neutro · Lluvias e inundaciones · Manabí
-    Santa Ana, entre inundaciones más frecuentes y el temor a otro invierno devastador
-    Pobladores de Santa Ana temen un invierno devastador por la recurrencia de inundaciones.
-
-[3ee2fbeb72] 2026-10-09 21:38 UTC · x · @24_7ec (Veinticuatro-Siete) · neutro · Prevención y alertas · Galápagos · aspecto: Prevención y alertas · dirigido a: Carolina Lozano (neutro) · pide: Información y alertas · 3 interacciones · 310 vistas · cuenta con 3672 seguidores
-    Carolina Lozano y la SNGR cancelan alerta de tsunami tras sismo en Panamá.
-    🚨 ¡ #ATENCIÓN ECUADOR! CANCELAN LA ALERTA DE TSUNAMI TRAS EL TERREMOTO DE 7.7 EN PANAMÁ 🌊⚠️🇪🇨 La Secretaría de Gestión de Riesgos y el Instituto Oceanográfico y Antártico de la Armada (Inocar) confirmaron de manera oficial la cancelación de la alerta de tsunami que se había emiti
-
-[7cb64ef333] 2026-10-09 21:37 UTC · medios · Ecuavisa · neutro · Otro · dirigido a: Gobierno central (neutro)
-    Daniel Noboa ofrece ayuda a Panamá tras terremoto de 7,6 grados
-    Daniel Noboa ofrece asistencia a Panamá tras el sismo de 7.6.
-
-[8f3a2123bb] 2026-10-09 21:07 UTC · x · @Estebanvidal10 (Contexto_ec) · neutro · Prevención y alertas · Galápagos · aspecto: Prevención y alertas · dirigido a: Carolina Lozano (neutro) · pide: Información y alertas · 3 interacciones · 598 vistas · cuenta con 5130 seguidores
-    Carolina Lozano confirma cancelación de alerta de tsunami para costa y Galápagos.
-    #Tsunami | Secretaria de Gestión de Riesgos, Carolina Lozano, confirmó la cancelación de la alerta de tsunami para la costa continental y Galápagos tras el sismo de 7.7 en Panamá. El riesgo ha finalizado, aunque podrían registrarse pequeñas fluctuaciones del mar. 🌊🇪🇨 https://t.co
-
-[e52e8297c0] 2026-10-09 20:58 UTC · x · @elnoticierotc (El Noticiero) · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Carolina Lozano (neutro) · pide: Información y alertas · 428 vistas · cuenta con 401702 seguidores
-    Carolina Lozano confirma cancelación del estado de alerta de tsunami en Ecuador.
-    Carolina Lozano, secretaria de Gestión de Riesgos, confirmó la cancelación del estado de alerta de tsunami para la costa ecuatoriana. Más información en https://t.co/PDokzBolVH https://t.co/BAV4cy5Jmx
-
-[f794f46d15] 2026-10-09 20:57 UTC · x · @carolozanohok (Carolina Lozano) · positivo · Otro · aspecto: Liderazgo de Carolina Lozano · dirigido a: Carolina Lozano (positivo) · 14 interacciones · 536 vistas · cuenta con 863 seguidores
-    Carolina Lozano informa que la Secretaría está atenta al llamado de ayuda de Panamá.
-    idea: La Secretaría está lista para brindar asistencia internacional
-    Desde la Secretaría Nacional de Gestión de Riesgos, en cumplimiento de la disposición del señor Presidente, estamos atentos al llamamiento internacional por parte de Panamá.
-
-[7dc2b4ba5e] 2026-10-09 20:45 UTC · x · @visionariasec (Visionarias) · neutro · Prevención y alertas · Galápagos · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (neutro) · pide: Información y alertas · 6 interacciones · 468 vistas · cuenta con 25450 seguidores
-    Inocar y Riesgos cancelan la alerta de tsunami en Ecuador tras sismo en Panamá.
-    idea: Se descarta el riesgo de tsunami en Ecuador
-    #MiradaNacionalEC | El Inocar canceló este viernes 9 de octubre la alerta de tsunami para las costas ecuatorianas, tras evaluar el terremoto de magnitud 7,7 registrado en Panamá. La Secretaría Nacional de Gestión de Riesgos confirmó que el riesgo ha finalizado tanto en el territo
-
-[669eceeaec] 2026-10-09 20:39 UTC · x · @PNUDEcuador (PNUD Ecuador) · positivo · Prevención y alertas · Esmeraldas · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (positivo) · 4 interacciones · 257 vistas · cuenta con 21857 seguidores
-    Lanzan iniciativa Prepárate Esmeraldas junto a PNUD y Riesgos para fortalecer gestión del riesgo.
-    idea: Se fortalece la preparación comunitaria ante desastres
-    Arranca #PrepárateEsmeraldas💚, una iniciativa que fortalece la preparación ante desastres en la provincia, impulsando capacidades institucionales y comunitarias para construir una Esmeraldas más preparada ante emergencias. 🤝@eu_echo y @Riesgos_Ec . Más🔗 https://t.co/VtcGVN6WDL ht
-
-[43a4bd3a42] 2026-10-09 20:30 UTC · medios · Diario Extra · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (neutro)
-    Ecuador cancela la alerta de tsunami tras el terremoto de 7,7 en Panamá
-    Ecuador cancela la alerta de tsunami tras el sismo de magnitud 7,7 en Panamá.
-
-[f195bd9022] 2026-10-09 20:30 UTC · youtube · @@alexandraanangono7241 (Hechos Ecuador Noticias) · critico · Respuesta del Gobierno · aspecto: Presencia en territorio · dirigido a: Gobierno central (critico) · es respuesta/comentario
-    Ciudadana llama a la autoorganización comunitaria ante la indefensión de la población.
-    idea: El pueblo debe organizarse solo ante la falta de ayuda
-    Ante todo esto, del pueblo en la indefensión, debemos actuar. Gracias por esta entrevista muy instructiva. Sólo el pueblo salva al pueblo dice un dicho popular, y cuánta razón tiene! Manos a la obra, retomemos las mingas, la comunicación entre el barrio y claro, la organización.
-
-[64558d9afb] 2026-10-09 20:28 UTC · x · @_Joham_ (Joham Mejía) · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 11 interacciones · 356 vistas · cuenta con 7841 seguidores
-    Secretaría de Riesgos e Inocar descartan alerta de tsunami en Ecuador.
-    idea: Se descarta la amenaza de tsunami
-    Secretaría de Riesgos e INOCAR ya descartan tsunami en Ecuador
-
-[fd7d440ff6] 2026-10-09 20:22 UTC · x · @LosOutsidersEC (Outsiders) · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 5 interacciones · 386 vistas · cuenta con 10351 seguidores
-    Secretaría de Riesgos confirma que no hay amenaza de tsunami.
-    idea: Se descarta la amenaza de tsunami
-    La Secretaría de Riesgos descarta amenaza de tsunami
-
-[b5ef70a042] 2026-10-09 20:17 UTC · x · @wq_radio (WQ Radio) · neutro · Prevención y alertas · Galápagos · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (neutro) · pide: Información y alertas · 1 interacciones · 186 vistas · cuenta con 2757 seguidores
-    Inocar cancela alerta de tsunami y Riesgos pide precaución en zona marítima.
-    idea: Se pide mantener la precaución en zonas costeras
-    🌊🇪🇨 El Instituto Oceanográfico y Antártico de la Armada (INOCAR) informó que se canceló la alerta de tsunami para Ecuador, luego del terremoto de magnitud 7,6 registrado en Panamá este viernes 9 de octubre. Según el organismo, ya no existe riesgo de tsunami para la costa continen
-
-[0b622167a5] 2026-10-09 20:14 UTC · x · @kchradio (KCH RADIO 90.9FM) · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Carolina Lozano (neutro) · pide: Información y alertas · 1 interacciones · 201 vistas · cuenta con 11695 seguidores
-    Carolina Lozano informa cancelación de alerta de tsunami en costas continentales e insulares.
-    Carolina Lozano confirmó la cancelación de la alerta de tsunami para las costas continentales e insulares de Ecuador. El riesgo finalizó, aunque algunas costas podrían registrar pequeñas fluctuaciones del nivel del mar durante varias horas. https://t.co/ZRdy2S35Kw
-
-[d6bdaf0be2] 2026-10-09 20:14 UTC · medios · El Comercio · neutro · Prevención y alertas
-    Estos países generaron alerta de tsunami. Ecuador y otros dos ya cancelaron
-    Ecuador cancela alerta de tsunami generada tras terremoto en Panamá.
-
-[c5aaa616a6] 2026-10-09 20:13 UTC · x · @dedoenlallagaec (Con el dedo en la llaga) · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 5 interacciones · 210 vistas · cuenta con 353 seguidores
-    Ecuador cancela alerta preventiva de tsunami tras evaluación del sismo en Panamá.
-    idea: Se descarta el peligro de tsunami en Ecuador
-    🚨 #URGENTE | Un terremoto de magnitud 7,7 sacudió Panamá este viernes 9 de octubre de 2026, lo que llevó a las autoridades ecuatorianas a activar una alerta preventiva por posible tsunami en las costas del país. El sismo se registró a las 12:56 y tuvo su epicentro cerca de Pitalo
-
-[aa1b7b5883] 2026-10-09 20:06 UTC · x · @onlypanasec (Only Panas) · neutro · Prevención y alertas · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (neutro) · pide: Información y alertas · 347 vistas · cuenta con 16994 seguidores
-    Riesgos descarta tsunami y pide informarse por canales oficiales.
-    idea: Es importante informarse por canales oficiales
-    #AlertaPanas GESTIÓN DE RIESGOS DESCARTA AMENAZA DE TSUNAMI EN ECUADOR TRAS TERREMOTO EN PANAMÁ, la Secretaría Nacional de Gestión de Riesgos difundió un comunicado en el que señala que no existe amenaza de tsunami para el país tras el fuerte sismo registrado frente a las costas 
-
-[c06a3a1fc0] 2026-10-09 19:57 UTC · x · @DixonMoreira4 (Dixon Moreira) · positivo · Prevención y alertas · aspecto: Comunicación e información · dirigido a: Carolina Lozano (positivo) · 171 vistas · cuenta con 12 seguidores · es respuesta/comentario
-    Usuario aplaude el reporte de alerta y monitoreo de SNGR y Carolina Lozano.
-    idea: Buena comunicación sobre alertas
-    @Riesgos_Ec @carolozanohok 👏👏
-
-[289ceda48e] 2026-10-09 19:56 UTC · x · @el_telegrafo (El Telégrafo Ecuador) · neutro · Prevención y alertas · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 7 interacciones · 774 vistas · cuenta con 700293 seguidores
-    La Secretaría de Riesgos descartó tsunami en Ecuador por terremoto en Panamá.
-    idea: Se informa que no hay riesgo de tsunami
-    #Noticias | La Secretaría de Riesgos descartó un posible tsunami ante terremoto en Panamá. #LéaloEnET: https://t.co/odIbhqg6lH https://t.co/9QXBek7HT5
-
-[3cc669258b] 2026-10-09 19:48 UTC · medios · La Unión Digital · neutro · Lluvias e inundaciones
-    Impresionante temporal en Ecuador dejó 552 metros cúbicos de granizo
-    Fuerte temporal en Ecuador deja caída acumulada de 552 metros cúbicos de granizo.
-
-[4e3a4ade30] 2026-10-09 19:38 UTC · medios · expreso.ec · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (neutro)
-    Cancelan la alerta de tsunami en Ecuador tras el terremoto en Panamá
-    Autoridades cancelan la alerta de tsunami en Ecuador originada por terremoto panameño.
-
-[c270360a25] 2026-10-09 19:31 UTC · medios · Clarin.com · neutro · Lluvias e inundaciones · Pichincha
-    Impresionante temporal en Ecuador, con 552 metros cúbicos de granizo: "¿Nueva York? No, amigo, Quito"
-    Fuerte temporal con granizada afecta a la ciudad de Quito.
-
-[ba953bfb0e] 2026-10-09 19:29 UTC · x · @eluniversocom (El Universo) · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Carolina Lozano (neutro) · pide: Información y alertas · 2 interacciones · 2516 vistas · cuenta con 3524605 seguidores
-    El Universo reporta que Carolina Lozano anunció cancelación de alerta de tsunami.
-    #Atención | Carolina Lozano anuncia la cancelación de la alerta de tsunami para Ecuador https://t.co/kN04eMo9UZ
-
-[61b3a2911d] 2026-10-09 19:27 UTC · medios · El Universo · neutro · Prevención y alertas · aspecto: Comunicación e información · dirigido a: Carolina Lozano (neutro)
-    Carolina Lozano anuncia la cancelación de la alerta de tsunami para Ecuador
-    Carolina Lozano anuncia la cancelación formal de la alerta de tsunami para Ecuador.
-
-[d8d8f66569] 2026-10-09 19:21 UTC · medios · expreso.ec · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (neutro) · pide: Información y alertas
-    Alerta de tsunami en Ecuador: autoridades analizan la amenaza tras sismo de magnitud 7,6 en Panamá
-    Autoridades evalúan posible amenaza de tsunami en Ecuador por terremoto en Panamá.
-
-[cd27688781] 2026-10-09 19:16 UTC · medios · Vistazo · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (neutro)
-    Ecuador descarta amenaza de tsunami por el terremoto de 7,7 en Panamá
-    Ecuador descarta amenaza de tsunami en sus costas tras sismo en Panamá.
-
-[7eb6fbe890] 2026-10-09 19:08 UTC · medios · El Universo · neutro · Prevención y alertas · aspecto: Prevención y alertas
-    Inocar cancela la alerta de tsunami para las costas de Ecuador
-    Inocar cancela la alerta de tsunami para las costas de Ecuador.
-    idea: Se cancelan las alertas de tsunami
-
-[498f3886b6] 2026-10-09 18:46 UTC · medios · El Universo · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (neutro) · pide: Información y alertas
-    Descartan alerta de tsunami por terremoto de magnitud 7,6 en Panamá
-    Descartan alerta de tsunami para costas ecuatorianas tras sismo de 7,6 en Panamá.
-    idea: No hay riesgo de tsunami
-
-[e768ef5d02] 2026-10-09 18:35 UTC · medios · Radio Pichincha · neutro · Política y críticas · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (neutro)
-    Elecciones seccionales: 1,3 millones de personas expuestas al Fenómeno de El Niño
-    SNGR identifica a 1,3 millones de personas vulnerables ante El Niño durante elecciones.
-    Mientras 1,3 millones de personas están en riesgo por las lluvias, el CNE no descarta la suspensión o aplazamiento del proceso electoral a 368 recintos en zonas vulnerables. La aproximación de la temporada de lluvias asociada al Fenómeno El Niño mantiene en alerta a las autoridad
-
-[eec0073994] 2026-10-09 18:30 UTC · youtube · @ (Convergente Tv) · neutro · Energía y servicios · 9 interacciones · 254 vistas
-    Ecuador enfrenta una nueva amenaza económica.
-    Se advierte sobre el impacto económico y energético del desarrollo de El Niño.
-    Ecuador enfrenta una nueva amenaza económica: El Niño comienza a desarrollarse. #fenomenodelniño #energia ...
-
-[0de7116d30] 2026-10-09 18:26 UTC · medios · Ecuavisa · neutro · Prevención y alertas · pide: Información y alertas
-    Ecuador evalúa amenaza de tsunami tras sismo de magnitud 7,6 en Panamá
-    Autoridades ecuatorianas evalúan posible tsunami tras sismo en Panamá.
-
-[084d70e65c] 2026-10-09 18:13 UTC · medios · Diario La Hora · neutro · Deslaves y vías · Santo Domingo de los Tsáchilas · pide: Vías y puentes
-    Socavón obliga a cerrar un tramo de la avenida Esmeraldas
-    Cierran un tramo de la avenida Esmeraldas por formación de un socavón.
-
-[4e0b1e677b] 2026-10-09 17:50 UTC · youtube · @ (La Cofradia De La Perla) · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro) · 25 vistas
-    FENÓMENO EL NIÑO EN ECUADOR: ¿Estamos preparados para lo que viene? | La Cofradía de la Perla
-    Espacio de opinión debate sobre el nivel de preparación frente a El Niño.
-
-[7d3ea56705] 2026-10-09 17:30 UTC · youtube · @ (Hechos Ecuador Noticias) · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro) · 37 interacciones · 1519 vistas
-    🔴 ¡ECUADOR EN ALERTA! ¿ESTAMOS PREPARADOS PARA LA FURIA DE EL NIÑO?
-    Programa periodístico cuestiona la capacidad del país para enfrentar el fenómeno El Niño.
-    Está Ecuador verdaderamente preparado para enfrentar las consecuencias de un posible fenómeno de El Niño? ¿Qué ocurriría ...
-
-[fa1e6e5e61] 2026-10-09 17:10 UTC · medios · Diario La Hora · neutro · Lluvias e inundaciones · pide: Información y alertas
-    Lluvias en Ecuador: alerta de tormentas y crecidas de ríos hasta el domingo 11 de octubre
-    Emiten alerta por tormentas y crecidas de ríos hasta el 11 de octubre.
-
-[cc9d6c1eda] 2026-10-09 16:55 UTC · medios · www.eldiario.ec · neutro · Lluvias e inundaciones · pide: Información y alertas
-    Tormentas y lluvias en Ecuador: alerta para el 9 de octubre
-    Reportan alerta climática por lluvias y tormentas durante el 9 de octubre.
-
-[2511744f9b] 2026-10-09 16:55 UTC · medios · El Diario Ecuador · neutro · Prevención y alertas · pide: Información y alertas
-    Tormentas y lluvias en Ecuador: alerta para el 9 de octubre
-    Inamhi emite alerta por tormentas y lluvias en varias zonas de Ecuador.
