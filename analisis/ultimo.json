@@ -1,66 +1,66 @@
 {
   "vinetas": [
-    "Babahoyo: Vistazo reporta 150 familias afectadas y Radio Pichincha 300 sin agua; Vistazo destaca tres tanques instalados por la SNGR.",
-    "Medios repiten cifras distintas: 326 eventos (teleSUR, Radio Pichincha), 336 (Expreso) y 142 (FM Mundo); incendios activos: cuatro o seis.",
-    "Derrame en Quinindé: Ecuadorinmediato y NotiMundo difunden que la Alcaldía remitirá su informe a la Secretaría.",
-    "Crítica acotada: 3 de 136 piezas en 24 h; La Hora y Forbes cuestionan la preparación, en X solo un post."
+    "W Radio y RTR difunden el corte SNGR: 359 eventos, 17.761 afectados, 1.579 damnificados y un fallecido.",
+    "Desbordamientos suben a siete con el río Vinces en Salitre (El Universo); Babahoyo suma unas 300 familias afectadas.",
+    "Carolina gana espacio propio: El Noticiero (401.844 seguidores) y Contraluz difunden Alístate Ecuador con tono positivo.",
+    "Crítica baja: 3 piezas críticas en 24 h, todas en X; ningún medio crítico (ayer 2). La Data culpa al Municipio de Quito."
   ],
   "fuentes_vinetas": [
-    ["591f7db1af", "0d29f3d796", "d532ac6c4d"],
-    ["82ad7a8bc3", "c010584409", "10c10d603f", "e201818c4d", "9cf7d82d6d", "f7b7339ec5"],
-    ["59dae064ec", "5d30800386", "32555314e7"],
-    ["d291c5c371", "ef9e2e9c78", "26620ba61a"]
+    ["5b3a5b543d", "c393ae8161"],
+    ["c5679739c8", "528b8fb307", "497cf2956e"],
+    ["1f64eb12ef", "2108164657", "6cc354642b", "c659aeaee9", "12cf05db6d"],
+    ["136b59238f", "87a0b5619b", "2acbc49f69"]
   ],
   "acciones": [
     {
-      "accion": "Publicar un corte único y llevarlo a Radio Rumba 07h00 con la subsecretaria.",
-      "porque": "Medios publican 326, 336 y 142 eventos, y cuatro, seis o 15 incendios activos según el corte que citan.",
+      "accion": "Publicar un corte diario único en web y X con eventos abiertos y cerrados.",
+      "porque": "Medios citan 356 y 359 eventos, y El Universo 'más de 150' en 18 provincias, según el corte que toman.",
       "base_legal": "Art. 61 y 72",
-      "fuentes": ["82ad7a8bc3", "10c10d603f", "e201818c4d", "9cf7d82d6d", "f7b7339ec5", "616895f521", "cc8cd3d113"]
+      "fuentes": ["7fe7d9a12b", "c9c46d90e0", "5b3a5b543d", "c0830c42e8"]
     },
     {
-      "accion": "Aclarar albergues en iglesias de Babahoyo y difundir puntos de entrega de agua.",
-      "porque": "Radio Pichincha dice que la SNGR 'estaría' buscando iglesias y reporta 300 familias sin agua; Metro, decenas sin hogar.",
-      "base_legal": "Art. 13, 14 y 61",
-      "fuentes": ["8c7267eb73", "0d29f3d796", "b4bb45143a", "d532ac6c4d"]
+      "accion": "Ofrecer apoyo subsidiario al COE de Los Ríos en Babahoyo, Puebloviejo y Salitre.",
+      "porque": "Expreso y El Universo: 300 familias afectadas en Babahoyo; Al Día: Babahoyo y Puebloviejo concentran alerta; Vinces desbordado en Salitre.",
+      "base_legal": "Art. 13, 21.4 y 61",
+      "fuentes": ["528b8fb307", "497cf2956e", "7c390178de", "c5679739c8"]
     },
     {
-      "accion": "Coordinar con Petroecuador y Alcaldía de Quinindé un parte público sobre derrame y agua.",
-      "porque": "La Alcaldía remitirá informe a la SNGR; Vistazo reporta agua potable suspendida y Tiempo Real, captación suspendida en Esmeraldas.",
-      "base_legal": "Art. 23.5, 61 y 72",
-      "fuentes": ["59dae064ec", "87df6dca4c", "26620ba61a", "0a0899e5bd"]
+      "accion": "Llevar Alístate Ecuador a radios locales de Los Ríos, Guayas y Esmeraldas.",
+      "porque": "El Noticiero y Contraluz ya la difundieron; los desbordamientos se concentran en Los Ríos, Guayas y Esmeraldas.",
+      "base_legal": "Art. 61 y 64.6",
+      "fuentes": ["1f64eb12ef", "12cf05db6d", "ed03dc5df4", "c5679739c8"]
     }
   ],
   "narrativas": [
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "La empujan medios nacionales e internacionales (EFE, Infobae, ABC, El Diario) con más de 17.000 afectados, la OMM que prevé El Niño hasta febrero de 2027 y columnas de La Hora y Forbes. Riesgo de que el reproche de falta de preparación se pegue a la Secretaría.",
-      "ids": ["d291c5c371", "ef9e2e9c78", "6d536bc7d7", "81b6d5930c", "c4f90b73e4", "f3fede14e5", "a3734de24d", "3883044502", "a9d2ffdc82", "8522595fe3", "bf959e442b", "f986b833d1", "6c1b195b6b", "a7e7f32759", "c83b3c752c", "8d714dfde2"]
-    },
-    {
-      "titulo": "Nos quedamos sin agua y aislados",
-      "explicacion": "Crece con Babahoyo (Vistazo, Metro, Expreso, Ecuavisa, Extra, Radio Pichincha) y el derrame en Quinindé (Vistazo, Ecuavisa, cuentas de X). Riesgo operativo y reputacional si el agua y los albergues no se ven en territorio.",
-      "ids": ["902dbc4428", "b4bb45143a", "591f7db1af", "0d29f3d796", "f87a7b8874", "89a917f2f9", "87df6dca4c", "d23cfd1724", "26620ba61a", "538b8186e8", "c1745dc923", "be68477da5"]
-    },
-    {
-      "titulo": "Se sabía que venía y no se planificó",
-      "explicacion": "Apunta a municipios y prefecturas: calles inundadas y basura en Guayaquil (Extra, El Diario, Ecuavisa), vecinos de Molleturo limpiando derrumbes (W Radio) y Quito llamado a priorizar riesgos. Puede desplazarse a la Secretaría si las inundaciones siguen.",
-      "ids": ["d9f04d513f", "000bc2a4af", "4dd78376ba", "a48cfc5138", "34fd4dccf8", "b35cde3802", "84f0635469"]
+      "explicacion": "La sostienen medios que hablan de intensidad récord o histórica (El Diario, LA17), la OMM con El Niño hasta febrero de 2027 (Teleamazonas) y columnas de La Hora y Forbes; en X solo críticas de cuentas pequeñas. Riesgo de que el reproche de falta de preparación se pegue a la Secretaría si crecen los daños.",
+      "ids": ["147bc1103b", "ae17768a9b", "6624b203f6", "81b6d5930c", "c4f90b73e4", "d291c5c371", "ef9e2e9c78", "a3734de24d", "66f2333564", "c59f0d2849", "87a0b5619b"]
     },
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "La sostienen Vistazo y El Universo (tanques de agua en Babahoyo), el MDH en Balao, ECU 911 con simulacro junto a Riesgos y la coordinación en Quinindé. Es la principal fortaleza; los $650 millones citados por Carolina crean expectativa de rendir cuentas.",
-      "ids": ["d532ac6c4d", "c702a0ac0f", "5f514e059b", "0a0899e5bd", "9aedf7d070", "70e9a144a4", "cfa27c229e", "c144f80424", "16dfaed1f1", "cb0b6fb427", "2f00a590ae", "82ad7a8bc3"]
+      "explicacion": "Crece con la mesa técnica en Manabí (Gobernación, MIT), el recorrido en La Concordia, la capacitación con CONGOPE, la ayuda en Balao y Babahoyo y la presentación de Alístate Ecuador por Carolina. Es la principal fortaleza; la subsecretaria dijo que las primeras lluvias medirán la efectividad de los planes, lo que crea expectativa.",
+      "ids": ["d532ac6c4d", "c702a0ac0f", "5f514e059b", "b73b01622d", "c37ef6716a", "9aedf7d070", "ace6bfa502", "b4ce65a036", "cbb70d4e53", "affff9dedd", "68fd19bf78", "12cf05db6d", "1f64eb12ef", "2108164657", "6cc354642b", "c659aeaee9", "9be5076af0"]
+    },
+    {
+      "titulo": "Nos quedamos sin agua y aislados",
+      "explicacion": "Sigue con Babahoyo (Extra, Metro, Vistazo, Expreso, El Universo: pozos contaminados, vías anegadas, 150 a 300 familias) y el derrame de Quinindé, que no tiene piezas nuevas en las últimas 24 h. Riesgo operativo si el agua y los albergues no se ven en territorio.",
+      "ids": ["902dbc4428", "b4bb45143a", "591f7db1af", "528b8fb307", "497cf2956e", "26620ba61a", "87df6dca4c", "c1745dc923"]
+    },
+    {
+      "titulo": "Se sabía que venía y no se planificó",
+      "explicacion": "Apunta a municipios: La Data pregunta si la negligencia del alcalde de Quito causó inundaciones pese a la advertencia de la Secretaría; antes, calles y basura en Guayaquil. Hoy favorece a la Secretaría como la que advirtió, pero puede girar hacia ella si siguen las inundaciones.",
+      "ids": ["136b59238f", "b35cde3802", "d9f04d513f", "4dd78376ba", "a48cfc5138", "000bc2a4af", "14b6c242e6"]
+    },
+    {
+      "titulo": "El Niño encarece la comida y golpea la economía",
+      "explicacion": "La empujan Ecuavisa y Teleamazonas (arroz y mercados de Quito), Radio Pichincha (azúcar sube 30%), Primicias (créditos, estudio de Equifax) y Alberto Acosta. Apunta al Gobierno central, no a la Secretaría, pero amplía la sensación de crisis.",
+      "ids": ["f6d91b08b5", "2d30c35df4", "327bfc37d4", "7046764710", "e8bc5aec64", "b8c9fb125e", "42895f7ff4", "d56afc6356", "59caec2685"]
     },
     {
       "titulo": "Los incendios siguen pese a las lluvias",
-      "explicacion": "Expreso habla de al menos cuatro incendios activos el 12 de octubre, Radio Pichincha de seis y otros medios repiten los 15 del corte del 9 de octubre. Riesgo de parecer desactualizados si no se publica un corte nuevo.",
-      "ids": ["9cf7d82d6d", "f7b7339ec5", "616895f521", "73864fa013", "96a7dab6f4", "2a874e4dcb", "a4f0e3a52a"]
-    },
-    {
-      "titulo": "Gobierno y GAD no se coordinan",
-      "explicacion": "La columna de Kléber Mantilla en La Hora habla de brutal descoordinación entre Gobierno central y seccionales; cuentas pequeñas piden tareas verificables para Jóvenes en Acción. Se apaga, pero toca la función rectora de la Secretaría.",
-      "ids": ["37c901a45e", "b719692681", "be3d66196d", "094b304847"]
+      "explicacion": "La Gaceta y La Prensa reportan 22 bomberos de Latacunga combatiendo incendios en Chimborazo; Machala Móvil cita cinco incendios activos. Riesgo de cifras dispares si no hay un corte oficial único.",
+      "ids": ["7a23a3c1d9", "e43e6cd231", "788022533a", "9cf7d82d6d", "f7b7339ec5"]
     }
   ],
   "rumores": [],
