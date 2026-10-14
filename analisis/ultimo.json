@@ -1,66 +1,166 @@
 {
   "vinetas": [
-    "W Radio y RTR difunden el corte SNGR: 359 eventos, 17.761 afectados, 1.579 damnificados y un fallecido.",
-    "Desbordamientos suben a siete con el río Vinces en Salitre (El Universo); Babahoyo suma unas 300 familias afectadas.",
-    "Carolina gana espacio propio: El Noticiero (401.844 seguidores) y Contraluz difunden Alístate Ecuador con tono positivo.",
-    "Crítica baja: 3 piezas críticas en 24 h, todas en X; ningún medio crítico (ayer 2). La Data culpa al Municipio de Quito."
+    "Madrugada tranquila: 16 piezas desde las 19:00; los medios bajan de 101 a 50 piezas en 24 h.",
+    "Cifras dispares de ríos: la SNGR reportó seis desbordados, El Universo cuenta siete y Expreso ocho más seis incendios.",
+    "En X las piezas favorables suben de 3 a 11, por Gobernación de Manabí, MIT y CONGOPE; medios siguen neutros.",
+    "Tema nuevo: FM Mundo reporta 108 escuelas afectadas, 68 en clases virtuales. Críticas en X: solo cuentas pequeñas."
   ],
   "fuentes_vinetas": [
-    ["5b3a5b543d", "c393ae8161"],
-    ["c5679739c8", "528b8fb307", "497cf2956e"],
-    ["1f64eb12ef", "2108164657", "6cc354642b", "c659aeaee9", "12cf05db6d"],
-    ["136b59238f", "87a0b5619b", "2acbc49f69"]
+    [
+      "96aabceade",
+      "f076888019",
+      "b33b895a4f",
+      "2acbc49f69"
+    ],
+    [
+      "ed03dc5df4",
+      "3e68a11b77",
+      "c5679739c8",
+      "b33b895a4f"
+    ],
+    [
+      "ace6bfa502",
+      "b4ce65a036",
+      "cbb70d4e53",
+      "76605a789a"
+    ],
+    [
+      "7270996fcf",
+      "87a0b5619b",
+      "2acbc49f69"
+    ]
   ],
   "acciones": [
     {
-      "accion": "Publicar un corte diario único en web y X con eventos abiertos y cerrados.",
-      "porque": "Medios citan 356 y 359 eventos, y El Universo 'más de 150' en 18 provincias, según el corte que toman.",
+      "accion": "Publicar a media mañana un corte único de ríos desbordados e incendios, en web y X.",
+      "porque": "Expreso cita ocho desbordamientos y seis incendios, El Universo siete ríos y la SNGR seis: tres cifras para el mismo día.",
       "base_legal": "Art. 61 y 72",
-      "fuentes": ["7fe7d9a12b", "c9c46d90e0", "5b3a5b543d", "c0830c42e8"]
+      "fuentes": [
+        "b33b895a4f",
+        "c5679739c8",
+        "ed03dc5df4",
+        "3e68a11b77"
+      ]
     },
     {
-      "accion": "Ofrecer apoyo subsidiario al COE de Los Ríos en Babahoyo, Puebloviejo y Salitre.",
-      "porque": "Expreso y El Universo: 300 familias afectadas en Babahoyo; Al Día: Babahoyo y Puebloviejo concentran alerta; Vinces desbordado en Salitre.",
-      "base_legal": "Art. 13, 21.4 y 61",
-      "fuentes": ["528b8fb307", "497cf2956e", "7c390178de", "c5679739c8"]
-    },
-    {
-      "accion": "Llevar Alístate Ecuador a radios locales de Los Ríos, Guayas y Esmeraldas.",
-      "porque": "El Noticiero y Contraluz ya la difundieron; los desbordamientos se concentran en Los Ríos, Guayas y Esmeraldas.",
+      "accion": "Vocería de Carolina en radios de Los Ríos sobre Babahoyo, Puebloviejo y Salitre.",
+      "porque": "Expreso y El Universo: 300 familias afectadas en Babahoyo; Vinces desbordado en Salitre; en X reclaman un vocero que no hace vocerías.",
       "base_legal": "Art. 61 y 64.6",
-      "fuentes": ["1f64eb12ef", "12cf05db6d", "ed03dc5df4", "c5679739c8"]
+      "fuentes": [
+        "528b8fb307",
+        "497cf2956e",
+        "c5679739c8",
+        "7c390178de",
+        "87a0b5619b"
+      ]
+    },
+    {
+      "accion": "Coordinar con el Ministerio de Educación lineamientos de seguridad para las 108 escuelas afectadas.",
+      "porque": "FM Mundo: El Niño afecta a 108 unidades educativas y 68 pasan a modalidad virtual.",
+      "base_legal": "Art. 23.4, 23.5 y 13",
+      "fuentes": [
+        "7270996fcf"
+      ]
     }
   ],
   "narrativas": [
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "La sostienen medios que hablan de intensidad récord o histórica (El Diario, LA17), la OMM con El Niño hasta febrero de 2027 (Teleamazonas) y columnas de La Hora y Forbes; en X solo críticas de cuentas pequeñas. Riesgo de que el reproche de falta de preparación se pegue a la Secretaría si crecen los daños.",
-      "ids": ["147bc1103b", "ae17768a9b", "6624b203f6", "81b6d5930c", "c4f90b73e4", "d291c5c371", "ef9e2e9c78", "a3734de24d", "66f2333564", "c59f0d2849", "87a0b5619b"]
+      "explicacion": "Medios como El Diario, LA17 y La República (Pacífico cinco grados sobre lo normal, según la NOAA) anticipan lluvias récord; en X solo cuentas pequeñas culpan al Gobierno. Riesgo de que el reproche de falta de preparación se pegue a la Secretaría si crecen los daños.",
+      "ids": [
+        "147bc1103b",
+        "ae17768a9b",
+        "6624b203f6",
+        "81b6d5930c",
+        "c4f90b73e4",
+        "d291c5c371",
+        "ef9e2e9c78",
+        "a3734de24d",
+        "66f2333564",
+        "c59f0d2849",
+        "87a0b5619b",
+        "96aabceade",
+        "6eea675b57"
+      ]
     },
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "Crece con la mesa técnica en Manabí (Gobernación, MIT), el recorrido en La Concordia, la capacitación con CONGOPE, la ayuda en Balao y Babahoyo y la presentación de Alístate Ecuador por Carolina. Es la principal fortaleza; la subsecretaria dijo que las primeras lluvias medirán la efectividad de los planes, lo que crea expectativa.",
-      "ids": ["d532ac6c4d", "c702a0ac0f", "5f514e059b", "b73b01622d", "c37ef6716a", "9aedf7d070", "ace6bfa502", "b4ce65a036", "cbb70d4e53", "affff9dedd", "68fd19bf78", "12cf05db6d", "1f64eb12ef", "2108164657", "6cc354642b", "c659aeaee9", "9be5076af0"]
+      "explicacion": "La empujan en X la Gobernación de Manabí, el MIT y CONGOPE (mesa técnica con 16 alcaldes, capacitación, recorrido en La Concordia), más la ayuda en Balao y Alístate Ecuador. Es la principal fortaleza, pero la subsecretaria admitió que las primeras lluvias medirán los planes.",
+      "ids": [
+        "d532ac6c4d",
+        "c702a0ac0f",
+        "5f514e059b",
+        "b73b01622d",
+        "c37ef6716a",
+        "9aedf7d070",
+        "ace6bfa502",
+        "b4ce65a036",
+        "cbb70d4e53",
+        "affff9dedd",
+        "68fd19bf78",
+        "12cf05db6d",
+        "1f64eb12ef",
+        "2108164657",
+        "6cc354642b",
+        "c659aeaee9",
+        "9be5076af0",
+        "76605a789a",
+        "ef723f46a2"
+      ]
     },
     {
       "titulo": "Nos quedamos sin agua y aislados",
       "explicacion": "Sigue con Babahoyo (Extra, Metro, Vistazo, Expreso, El Universo: pozos contaminados, vías anegadas, 150 a 300 familias) y el derrame de Quinindé, que no tiene piezas nuevas en las últimas 24 h. Riesgo operativo si el agua y los albergues no se ven en territorio.",
-      "ids": ["902dbc4428", "b4bb45143a", "591f7db1af", "528b8fb307", "497cf2956e", "26620ba61a", "87df6dca4c", "c1745dc923"]
+      "ids": [
+        "902dbc4428",
+        "b4bb45143a",
+        "591f7db1af",
+        "528b8fb307",
+        "497cf2956e",
+        "26620ba61a",
+        "87df6dca4c",
+        "c1745dc923"
+      ]
     },
     {
       "titulo": "Se sabía que venía y no se planificó",
       "explicacion": "Apunta a municipios: La Data pregunta si la negligencia del alcalde de Quito causó inundaciones pese a la advertencia de la Secretaría; antes, calles y basura en Guayaquil. Hoy favorece a la Secretaría como la que advirtió, pero puede girar hacia ella si siguen las inundaciones.",
-      "ids": ["136b59238f", "b35cde3802", "d9f04d513f", "4dd78376ba", "a48cfc5138", "000bc2a4af", "14b6c242e6"]
+      "ids": [
+        "136b59238f",
+        "b35cde3802",
+        "d9f04d513f",
+        "4dd78376ba",
+        "a48cfc5138",
+        "000bc2a4af",
+        "14b6c242e6"
+      ]
     },
     {
       "titulo": "El Niño encarece la comida y golpea la economía",
       "explicacion": "La empujan Ecuavisa y Teleamazonas (arroz y mercados de Quito), Radio Pichincha (azúcar sube 30%), Primicias (créditos, estudio de Equifax) y Alberto Acosta. Apunta al Gobierno central, no a la Secretaría, pero amplía la sensación de crisis.",
-      "ids": ["f6d91b08b5", "2d30c35df4", "327bfc37d4", "7046764710", "e8bc5aec64", "b8c9fb125e", "42895f7ff4", "d56afc6356", "59caec2685"]
+      "ids": [
+        "f6d91b08b5",
+        "2d30c35df4",
+        "327bfc37d4",
+        "7046764710",
+        "e8bc5aec64",
+        "b8c9fb125e",
+        "42895f7ff4",
+        "d56afc6356",
+        "59caec2685"
+      ]
     },
     {
       "titulo": "Los incendios siguen pese a las lluvias",
-      "explicacion": "La Gaceta y La Prensa reportan 22 bomberos de Latacunga combatiendo incendios en Chimborazo; Machala Móvil cita cinco incendios activos. Riesgo de cifras dispares si no hay un corte oficial único.",
-      "ids": ["7a23a3c1d9", "e43e6cd231", "788022533a", "9cf7d82d6d", "f7b7339ec5"]
+      "explicacion": "Expreso suma seis incendios forestales el 13 de octubre; La Gaceta y La Prensa, 22 bomberos de Latacunga en Chimborazo; Machala Móvil, cinco activos. Riesgo de cifras dispares si no hay un corte oficial único.",
+      "ids": [
+        "7a23a3c1d9",
+        "e43e6cd231",
+        "788022533a",
+        "9cf7d82d6d",
+        "f7b7339ec5",
+        "b33b895a4f"
+      ]
     }
   ],
   "rumores": [],
