@@ -1,75 +1,76 @@
 {
   "vinetas": [
-    "Noboa domina los medios: siete recogen el mantenimiento eléctrico del sábado 17; según El Universo, cuestionó a prefecturas.",
-    "Cifras confusas: Machala Móvil titula más de 17.000 damnificados; la SNGR reporta 1.579 damnificados y 17.761 afectados.",
-    "Territorio: la SNGR habilitó alojamiento temporal en Balao (El Universo); Salitre en alerta por desborde del río Vinces (Vistazo).",
-    "Medios bajan de 85 a 50 piezas. Riesgo nuevo: El Universo reporta 38.607 casos de dengue, más que en todo 2025."
+    "Mantenimiento eléctrico del sábado 17 domina medios; Expreso pregunta si habrá cortes, El Diario si es por cortes.",
+    "Cifras dispares: Los Andes titula 19.000 afectados, Expreso cerca de 18.000, Machala Móvil 17.000 damnificados; SNGR: 1.579 damnificados.",
+    "Respuesta local visible: Quinsaloma en emergencia preventiva (Al Día), Guayaquil prepara 1.800 kits (Expreso); SNGR, alojamiento en Balao.",
+    "Medios caen de 72 a 50 piezas y X de 38 a 9; ninguna pieza de 24 h cita a Carolina."
   ],
   "fuentes_vinetas": [
     [
-      "2ecd3b4d88",
-      "90074ce1e0",
-      "af6056b614",
-      "d705d4e055",
-      "335628f846",
+      "09dab02f73",
+      "0171803b6a",
+      "b2aa25f494",
+      "54ee39eec8",
+      "76f3ececa3",
+      "2a547b9bed",
       "16b132f72d",
-      "aaf41a4366",
-      "b2aa25f494"
+      "335628f846",
+      "aaf41a4366"
     ],
     [
+      "1552e069c7",
+      "1c64b0e7b6",
+      "391afc68a7",
       "863689a2fd",
       "5b3a5b543d",
-      "c393ae8161",
-      "391afc68a7"
+      "bcf42433ed"
     ],
     [
+      "2a709472cc",
+      "6426722b14",
       "4c66b087b8",
-      "e7c4849411",
-      "a2f0534e93",
-      "8fcb15f380"
+      "864c263ddd"
     ],
-    [
-      "57438a67ec"
-    ]
+    []
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy en web y X: 1.579 damnificados, 17.761 afectados y corte único de ríos.",
-      "porque": "Machala Móvil titula 17.000 damnificados; ríos desbordados: La República seis, El Universo siete, Expreso ocho.",
+      "accion": "Publicar hoy en web y X corte único: 1.579 damnificados y 17.761 afectados.",
+      "porque": "Los Andes titula 19.000 afectados, Expreso cerca de 18.000 y Machala Móvil 17.000 damnificados: confunden afectados con damnificados.",
       "base_legal": "Art. 61 y 72",
       "fuentes": [
+        "1552e069c7",
+        "391afc68a7",
         "863689a2fd",
-        "5b3a5b543d",
-        "96aabceade",
-        "c5679739c8",
-        "b33b895a4f"
+        "5b3a5b543d"
       ]
     },
     {
-      "accion": "Convocar con CONGOPE a prefecturas para revisar sus planes de contingencia esta semana.",
-      "porque": "El Universo: Noboa cuestionó la preparación de prefecturas; la subsecretaria dijo que las primeras lluvias medirán los planes entregados.",
+      "accion": "Acordar con el COE Nacional un mensaje único: si habrá cortes el sábado 17.",
+      "porque": "Más de diez medios recogen el anuncio de Noboa; Expreso pregunta si habrá cortes y El Diario si es por cortes.",
+      "base_legal": "Art. 23.5, 29 y 61",
+      "fuentes": [
+        "09dab02f73",
+        "0171803b6a",
+        "b2aa25f494",
+        "16b132f72d"
+      ]
+    },
+    {
+      "accion": "Convocar con CONGOPE a prefecturas para revisar planes de contingencia antes del sábado.",
+      "porque": "El Universo: Noboa cuestionó la preparación de prefecturas; la subsecretaria dijo que las primeras lluvias medirán los planes.",
       "base_legal": "Art. 23.4 y 23.5",
       "fuentes": [
         "aaf41a4366",
         "68fd19bf78",
         "cbb70d4e53"
       ]
-    },
-    {
-      "accion": "Pedir al MSP vocería conjunta sobre dengue y agua estancada en zonas inundadas.",
-      "porque": "El Universo: 38.607 casos de dengue, ya más que en todo 2025; Primicias: familias siguen en albergue en Balao.",
-      "base_legal": "Art. 23.4 y 61",
-      "fuentes": [
-        "57438a67ec",
-        "497cf2956e",
-        "a2f0534e93"
-      ]
     }
   ],
   "narrativas": [
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "La sostienen El Universo y Primicias (alojamiento temporal en Balao), y en X el MIT, la Gobernación de Manabí, CONGOPE y la Cámara de Industrias. Es la principal fortaleza, pero en las últimas 24 h no hay piezas nuevas con la voz de Carolina; la de Alístate Ecuador fue el 13 de octubre.",
+      "explicacion": "La sostienen El Universo y Primicias (albergue en Balao), la Gobernación de Manabí, el MIT y CONGOPE en X; ahora suman Guayaquil (1.800 kits) y Quinsaloma. Fortaleza, pero desde el 13 de octubre no hay piezas con la voz de Carolina.",
       "ids": [
         "4c66b087b8",
         "a2f0534e93",
@@ -95,12 +96,15 @@
         "c702a0ac0f",
         "5f514e059b",
         "9aedf7d070",
-        "76605a789a"
+        "76605a789a",
+        "864c263ddd",
+        "6426722b14",
+        "2a709472cc"
       ]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Crece con Noboa (\"peores meses\", en Metro y Expreso), Crónica (el más poderoso en 75 años) y Teleamazonas (Napo en alerta roja). Si llegan los daños, el reproche de falta de preparación puede recaer en la Secretaría.",
+      "explicacion": "Crece con Noboa (\"peores meses\", Metro, Expreso, Bloomberg Línea), Crónica (el más poderoso en 75 años) y TC Televisión (Inamhi advierte). Si llegan los daños, el reproche de falta de preparación puede recaer en la Secretaría.",
       "ids": [
         "e3ce86b3a5",
         "38372768aa",
@@ -118,29 +122,15 @@
         "87a0b5619b",
         "d291c5c371",
         "ef9e2e9c78",
-        "6d536bc7d7"
-      ]
-    },
-    {
-      "titulo": "Se sabía que venía y no se planificó",
-      "explicacion": "Apunta a los GAD: ahora la empuja el propio Presidente, que según El Universo cuestionó a prefecturas y gobiernos locales, además de La Data contra el Municipio de Quito. Como ente rector, la Secretaría puede quedar en medio del choque entre Gobierno central y seccionales.",
-      "ids": [
-        "aaf41a4366",
-        "136b59238f",
-        "b35cde3802",
-        "37c901a45e",
-        "d9f04d513f",
-        "4dd78376ba",
-        "a48cfc5138",
-        "000bc2a4af",
-        "14b6c242e6",
-        "caefeee287",
-        "4ef7ec425d"
+        "6d536bc7d7",
+        "54ee39eec8",
+        "3aa3b90bae",
+        "648dd2bdb2"
       ]
     },
     {
       "titulo": "El Niño encarece la comida y golpea la economía",
-      "explicacion": "La empujan Ecuavisa y Teleamazonas (arroz y mercados de Quito), Radio Pichincha (azúcar sube 30%), Primicias (créditos) y Alberto Acosta (apagones); El Diario pregunta si el mantenimiento del sábado es por cortes de luz. Apunta al Gobierno central, no a la Secretaría.",
+      "explicacion": "La empujan Ecuavisa (arroz, mercados de Quito), Radio Pichincha (azúcar sube 30%) y Primicias (créditos); Expreso pregunta si el mantenimiento del sábado traerá cortes de luz y El Diario si es por los cortes. Apunta al Gobierno central, no a la Secretaría.",
       "ids": [
         "f6d91b08b5",
         "2d30c35df4",
@@ -153,12 +143,31 @@
         "59caec2685",
         "dfd4ce2ba8",
         "b2aa25f494",
-        "ff5e0c09d2"
+        "ff5e0c09d2",
+        "09dab02f73",
+        "0171803b6a",
+        "413ea0f830"
+      ]
+    },
+    {
+      "titulo": "Se sabía que venía y no se planificó",
+      "explicacion": "Apunta a los GAD: la empuja el propio Presidente, que según El Universo cuestionó a prefecturas y gobiernos locales, y La Data contra el Municipio de Quito. La Secretaría, como ente rector, puede quedar en medio del choque.",
+      "ids": [
+        "aaf41a4366",
+        "136b59238f",
+        "b35cde3802",
+        "d9f04d513f",
+        "4dd78376ba",
+        "a48cfc5138",
+        "000bc2a4af",
+        "14b6c242e6",
+        "caefeee287",
+        "4ef7ec425d"
       ]
     },
     {
       "titulo": "Nos quedamos sin agua y aislados",
-      "explicacion": "Sigue con Babahoyo (Expreso y El Universo: 300 familias; La Hora: vías afectadas) y Sigchos (deslizamientos, La Gaceta); el derrame de Quinindé no tiene piezas nuevas en 24 h. Riesgo operativo si el agua y los albergues no se ven en territorio.",
+      "explicacion": "Sigue con Babahoyo (Expreso y El Universo: 300 familias; La Hora: vías afectadas) y Sigchos (deslizamientos, La Gaceta); sin piezas nuevas sobre Quinindé en 24 h. Riesgo operativo si el agua y los albergues no se ven en territorio.",
       "ids": [
         "b434d3f484",
         "528b8fb307",
@@ -174,7 +183,7 @@
     },
     {
       "titulo": "Los incendios siguen pese a las lluvias",
-      "explicacion": "Expreso suma seis incendios forestales el 13 de octubre; La Gaceta y La Prensa, 22 bomberos de Latacunga en Chimborazo. Pierde fuerza frente a las lluvias, pero mantiene el riesgo de cifras dispares sin corte oficial único.",
+      "explicacion": "Expreso suma seis incendios forestales el 13 de octubre; La Gaceta y La Prensa, 22 bomberos de Latacunga en Chimborazo. Pierde fuerza frente a las lluvias.",
       "ids": [
         "b33b895a4f",
         "7a23a3c1d9",
@@ -186,23 +195,5 @@
     }
   ],
   "rumores": [],
-  "hitos": [
-    {
-      "dia": "2026-10-14",
-      "titulo": "Noboa anuncia mantenimiento eléctrico y advierte peores meses",
-      "ids": [
-        "335628f846",
-        "38372768aa",
-        "aaf41a4366",
-        "2ecd3b4d88"
-      ]
-    },
-    {
-      "dia": "2026-10-12",
-      "titulo": "Niño de tres años muere ahogado en Baba",
-      "ids": [
-        "b9ea2d8d33"
-      ]
-    }
-  ]
+  "hitos": []
 }
