@@ -1,32 +1,32 @@
-# Contexto para el análisis de fondo (2026-10-13 21:54, hora de Ecuador)
+# Contexto para el análisis de fondo (2026-10-14 05:50, hora de Ecuador)
 
 Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Cita las piezas por su [id].
 
 ## Cifras: últimas 24 h frente a las 24 h anteriores
 
-- hoy · medios · neutro: 56
+- hoy · medios · neutro: 48
 - hoy · medios · positivo: 2
 - hoy · tiktok · positivo: 1
 - hoy · x · critico: 3
 - hoy · x · neutro: 19
 - hoy · x · positivo: 11
 - hoy · youtube · neutro: 11
-- ayer · medios · critico: 2
-- ayer · medios · neutro: 99
+- ayer · medios · neutro: 98
 - ayer · medios · positivo: 3
 - ayer · tiktok · neutro: 1
 - ayer · x · critico: 1
 - ayer · x · neutro: 27
 - ayer · x · positivo: 3
-- ayer · youtube · neutro: 11
+- ayer · youtube · neutro: 10
 
 ## Narrativas de la corrida anterior
 
-- Las lluvias empeorarán y no estamos preparados — 36 piezas; 19 en 24 h vs 11 antes. Circula en redes y reportes de prensa sobre la magnitud de los daños, miles de afectados y advertencias de un fenómeno récord. Representa un riesgo latente de desconfianza sobre la capacidad real de respuesta del Estado.
-- Coordinación preventiva y entrega de asistencia oficial — 49 piezas; 18 en 24 h vs 14 antes. Impulsada por cuentas institucionales y medios oficiales, destaca la entrega de kits, la articulación interinstitucional y el despliegue territorial. Es una oportunidad clave para que la Secretaría y Carolina Lozano proyecten eficiencia y cercanía.
-- Los municipios asumen la prevención en territorio — 26 piezas; 10 en 24 h vs 10 antes. Reportado masivamente en medios locales y redes de GADs sobre limpiezas de sumideros, baches y obras de mitigación. Evidencia que la presión por la respuesta inmediata recae fuertemente en los alcaldes y prefectos.
-- Se sabía que venía y no se planificó — 9 piezas; 2 en 24 h vs 3 antes. Críticas punzantes en columnas de opinión y redes sociales que acusan improvisación y falta de amortiguadores estructurales ante la crisis. Es el principal flanco de ataque político contra la gestión gubernamental.
-- Las niñas sufren más con El Niño — 6 piezas; 0 en 24 h vs 0 antes. Informes de organizaciones sociales y notas de prensa difundidos en redes sobre la vulnerabilidad acentuada de niñas y adolescentes. Pone sobre la mesa un ángulo humanitario específico que exige atención diferenciada de la Secretaría.
+- Coordinación preventiva y entrega de asistencia oficial — 17 piezas; 13 en 24 h vs 4 antes. Crece con la mesa técnica en Manabí (Gobernación, MIT), el recorrido en La Concordia, la capacitación con CONGOPE, la ayuda en Balao y Babahoyo y la presentación de Alístate Ecuador por Carolina. Es la principal fortaleza; la subsecretaria dijo que las primeras lluvias medirán la efectividad de los planes, lo que crea expectativa.
+- El Niño encarece la comida y golpea la economía — 9 piezas; 9 en 24 h vs 0 antes. La empujan Ecuavisa y Teleamazonas (arroz y mercados de Quito), Radio Pichincha (azúcar sube 30%), Primicias (créditos, estudio de Equifax) y Alberto Acosta. Apunta al Gobierno central, no a la Secretaría, pero amplía la sensación de crisis.
+- Las lluvias empeorarán y no estamos preparados — 11 piezas; 6 en 24 h vs 4 antes. La sostienen medios que hablan de intensidad récord o histórica (El Diario, LA17), la OMM con El Niño hasta febrero de 2027 (Teleamazonas) y columnas de La Hora y Forbes; en X solo críticas de cuentas pequeñas. Riesgo de que el reproche de falta de preparación se pegue a la Secretaría si crecen los daños.
+- Los incendios siguen pese a las lluvias — 5 piezas; 3 en 24 h vs 1 antes. La Gaceta y La Prensa reportan 22 bomberos de Latacunga combatiendo incendios en Chimborazo; Machala Móvil cita cinco incendios activos. Riesgo de cifras dispares si no hay un corte oficial único.
+- Nos quedamos sin agua y aislados — 8 piezas; 2 en 24 h vs 6 antes. Sigue con Babahoyo (Extra, Metro, Vistazo, Expreso, El Universo: pozos contaminados, vías anegadas, 150 a 300 familias) y el derrame de Quinindé, que no tiene piezas nuevas en las últimas 24 h. Riesgo operativo si el agua y los albergues no se ven en territorio.
+- Se sabía que venía y no se planificó — 7 piezas; 2 en 24 h vs 1 antes. Apunta a municipios: La Data pregunta si la negligencia del alcalde de Quito causó inundaciones pese a la advertencia de la Secretaría; antes, calles y basura en Guayaquil. Hoy favorece a la Secretaría como la que advirtió, pero puede girar hacia ella si siguen las inundaciones.
 
 ## Hitos ya marcados (no los repitas)
 
@@ -36,7 +36,24 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
 - 2026-10-12: Derrame de petróleo deja sin agua a Quinindé
 - 2026-10-12: Seis ríos desbordados; Machala y Santa Rosa suspenden clases
 
-## Piezas de los últimos 3 días (330, de la más reciente a la más antigua)
+## Piezas de los últimos 3 días (334, de la más reciente a la más antigua)
+
+[96aabceade] 2026-10-14 09:06 UTC · medios · La República EC · neutro · Lluvias e inundaciones
+    El Pacífico se mantiene cinco grados encima de lo normal y seis ríos desbordados, por El Niño
+    El océano Pacífico mantiene altas temperaturas y seis ríos se han desbordado a causa de El Niño.
+
+[f076888019] 2026-10-14 05:01 UTC · medios · Diario La Hora · neutro · Deslaves y vías · Esmeraldas
+    Un bus intercantonal se incendia en el sur de Muisne; El ECU 911 no reporta heridos
+    Un bus intercantonal se incendia en Muisne sin reporte de heridos.
+
+[6eea675b57] 2026-10-14 03:26 UTC · medios · La República · neutro · Lluvias e inundaciones
+    El Pacífico se mantiene cinco grados encima de lo normal y seis ríos desbordados, por El Niño
+    Temperatura del Pacífico sigue cinco grados sobre lo normal y causa desbordamiento de ríos en Ecuador.
+    En los últimos siete días la temperatura del Pacífico frente a Ecuador casi no cambió, pero se quedó en niveles extraordinarios. Según los datos semanales del Centro de Predicción Climática de la NOAA, en la [...] The post El Pacífico se mantiene cinco grados encima de lo normal 
+
+[b33b895a4f] 2026-10-14 02:54 UTC · medios · expreso.ec · neutro · Lluvias e inundaciones
+    Ecuador reporta seis incendios forestales y ocho desbordamientos de ríos este martes 13 de octubre
+    Ecuador reporta ocho desbordamientos de ríos y seis incendios forestales.
 
 [2acbc49f69] 2026-10-14 02:15 UTC · x · @FbadboyG (Mano Manzano) · critico · Política y críticas · Manabí · aspecto: Coordinación entre instituciones · dirigido a: Gobierno central (critico) · 6 vistas · cuenta con 313 seguidores · es respuesta/comentario
     Insultos y acusaciones de corrupción contra el ministro Luque por contratos.
@@ -58,7 +75,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Fenómeno de El Niño afecta a unidades educativas y pasan a virtualidad.
     idea: Las clases se suspenden por las lluvias
 
-[b85dc900a0] 2026-10-14 01:06 UTC · youtube · @ (Latinos al Dia con Mariela) · neutro · Lluvias e inundaciones · Los Ríos · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (neutro)
+[b85dc900a0] 2026-10-14 01:06 UTC · youtube · @ (Latinos al Dia con Mariela) · neutro · Lluvias e inundaciones · Los Ríos · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 3 vistas
     ECUADOR — SEIS RÍOS DESBORDADOS Y NUEVA ALERTA POR LLUVIAS
     Secretaría informa sobre ríos desbordados en varias provincias.
     La Secretaría de Gestión de Riesgos informó que seis ríos se desbordaron en tres provincias: Los Ríos, Guayas y El Oro.
@@ -78,7 +95,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: Se busca cooperación internacional para fortalecer la gestión de riesgos
     🌍 Nuestra alcaldesa @YuriColoradoEsm, sostuvo importantes reuniones en Ginebra-Suiza, con Christina Kitsos, alcaldesa de Ginebra y presidenta de Global Cities Hub; y Marc Gordon, coordinador de la Oficina de las Naciones Unidas para la Reducción del Riesgo de Desastres (UNDRR), u
 
-[58def7fcbb] 2026-10-14 00:34 UTC · youtube · @ (TC Televisión) · neutro · Afectados y damnificados · 29 vistas
+[58def7fcbb] 2026-10-14 00:34 UTC · youtube · @ (TC Televisión) · neutro · Afectados y damnificados · 2 interacciones · 205 vistas
     Inundaciones dejan más de 17 mil afectados en Ecuador mientras el fenómeno de El Niño se...
     Inundaciones por El Niño dejan más de 17 mil afectados a nivel nacional.
     intensifica Las inundaciones ya dejan más de 17 mil afectados en Ecuador. Mientras avanza la emergencia y El Niño se ...
@@ -142,7 +159,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: La Secretaría está en el territorio
     Miguel Quezada, Gobernador de SDT junto al coordinador zonal de la Secretaría de @Riesgos_Ec Santiago Haro, y la alcaldesa de La Concordia, Sandra Ocampo, realizó un recorrido por sectores vulnerables de este cantón para verificar las acciones preventivas realizadas. 1/2 https://
 
-[f3ea1ab885] 2026-10-13 22:05 UTC · youtube · @ (Ecuador TV) · neutro · Prevención y alertas
+[f3ea1ab885] 2026-10-13 22:05 UTC · youtube · @ (Ecuador TV) · neutro · Prevención y alertas · 28 vistas
     Un Café con JJ - Ecuador Tv - Invitado: Msc. Jonathan Cedeño, Oceanógrafo - Docente Universitario
     Entrevista en Ecuador TV sobre el fenómeno de El Niño con un oceanógrafo.
     Fenómeno del Niño.
@@ -250,7 +267,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Advierten que El Niño podría alcanzar una intensidad récord y genera preocupación.
     idea: El Niño podría ser de intensidad récord
 
-[f6d91b08b5] 2026-10-13 18:13 UTC · youtube · @ (Ecuavisa) · neutro · Agricultura y producción · 14 interacciones · 1367 vistas
+[f6d91b08b5] 2026-10-13 18:13 UTC · youtube · @ (Ecuavisa) · neutro · Agricultura y producción · 18 interacciones · 1777 vistas
     Precio del arroz sigue subiendo por el fenómeno de El Niño | En Contacto | Ecuavisa
     El precio del arroz sube debido a los efectos del fenómeno de El Niño.
     idea: Los precios de los alimentos suben por El Niño
@@ -290,7 +307,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: Se fomenta la prevención en escuelas
     🏡💚 ¡La resiliencia inicia en casa! Junto a varias unidades educativas, celebramos el día Internacional de Reducción de Riesgos, promoviendo desde la juventud una cultura de prevención y seguridad, porque estar preparados comienza en el hogar. #QueCuencaNosUna ❤️💛 https://t.co/HsD
 
-[dbe78a14a3] 2026-10-13 18:00 UTC · youtube · @ (Jimmy Jairala) · neutro · Lluvias e inundaciones · 13 interacciones · 424 vistas
+[dbe78a14a3] 2026-10-13 18:00 UTC · youtube · @ (Jimmy Jairala) · neutro · Lluvias e inundaciones · 14 interacciones · 646 vistas
     Lluvias intensas anuncian efectos de El Niño #ecuador #elnino
     Lluvias intensas y tormentas anuncian el impacto de El Niño en el litoral ecuatoriano.
     idea: Las lluvias intensas confirman la llegada de El Niño
@@ -316,7 +333,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Más de 150 eventos adversos afectan a 18 provincias en el país.
     idea: Hay múltiples eventos adversos en varias provincias
 
-[2d30c35df4] 2026-10-13 16:28 UTC · youtube · @ (Comunidad Quito Ecuavisa) · neutro · Agricultura y producción · Pichincha · 10 interacciones · 790 vistas
+[2d30c35df4] 2026-10-13 16:28 UTC · youtube · @ (Comunidad Quito Ecuavisa) · neutro · Agricultura y producción · Pichincha · 10 interacciones · 1258 vistas
     Precios aumentan en los mercados de Quito por fenómeno de El Niño| Televistazo en la Comunidad Quito
     Precios aumentan en mercados de Quito por fenómeno de El Niño.
     Empiece el día bien informado con Televistazo en la Comunidad. Mire en vivo lo que está pasando en Quito y conozca las ...
@@ -363,6 +380,10 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: Se presentan herramientas digitales para la prevención
     La secretaria nacional de Gestión de Riesgos, Carolina Lozano, presentó el visualizador Alístate Ecuador, disponible en el portal Alertas Ecuador, para fortalecer la preparación ante emergencias y los posibles efectos del fenómeno de El Niño. La herramienta permite consultar aloj
 
+[154a779dbf] 2026-10-13 15:00 UTC · medios · El Diario Ecuador · neutro · Prevención y alertas
+    Lluvias y fuerte radiación solar: así estará el clima en Ecuador este martes 13 de octubre
+    Pronóstico del clima en Ecuador prevé lluvias y fuerte radiación solar.
+
 [78cbd8034d] 2026-10-13 15:00 UTC · medios · El Productor (Ecuador) · neutro · Agricultura y producción
     Ecuador: Productores se preparan para El Niño con reservas y mejoras en sus haciendas
     Productores en Ecuador toman precauciones y mejoran haciendas ante la llegada de El Niño.
@@ -387,7 +408,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: Se brinda información oportuna ante emergencias
     La secretaria nacional de Gestión de Riesgos, Carolina Lozano, presentó la herramienta digital 'Alístate Ecuador', diseñada para brindar a la ciudadanía información ante posibles emergencias. Más información en https://t.co/PDokzBolVH https://t.co/0aBGjeL0wj
 
-[c10964754b] 2026-10-13 13:50 UTC · youtube · @ (TC Televisión) · neutro · Otro · 44 vistas
+[c10964754b] 2026-10-13 13:50 UTC · youtube · @ (TC Televisión) · neutro · Otro · 1 interacciones · 51 vistas
     Alístate Ecuador: Herramienta digital para consultar zonas de riesgo
     Carolina Lozano presentó la herramienta digital Alístate Ecuador para consultar zonas de riesgo.
     idea: Hay nuevas herramientas digitales para prevenir riesgos
@@ -398,7 +419,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: Hay herramientas actualizadas para la ciudadanía
     La secretaria nacional de Gestión de Riesgos, Carolina Lozano, presentó la herramienta digital 'Alístate Ecuador', diseñada para brindar a la ciudadanía información actualizada ante posibles emergencias. Más información en https://t.co/PDokzBolVH https://t.co/NxBZ1mSDji
 
-[9d0d3d40d5] 2026-10-13 13:39 UTC · youtube · @ (Radio Centro Ecuador 97.7 fm) · neutro · Otro · 2 interacciones · 31 vistas
+[9d0d3d40d5] 2026-10-13 13:39 UTC · youtube · @ (Radio Centro Ecuador 97.7 fm) · neutro · Otro · 2 interacciones · 32 vistas
     Pronósticos meteorológicos de cara al Fenómeno de El Niño
     Entrevista al Inamhi sobre los pronósticos meteorológicos ante El Niño.
     idea: Se informa sobre el pronóstico del clima
@@ -413,7 +434,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Inocar alerta por oleaje en las costas de Ecuador del 13 al 15 de octubre
     Inocar emite alerta por oleaje en costas de Ecuador.
 
-[e8bc5aec64] 2026-10-13 13:13 UTC · youtube · @ (Teleamazonas Ecuador) · neutro · Energía y servicios · 42 interacciones · 3252 vistas
+[e8bc5aec64] 2026-10-13 13:13 UTC · youtube · @ (Teleamazonas Ecuador) · neutro · Energía y servicios · 45 interacciones · 3658 vistas
     Los apagones y El Niño van a tener un impacto fuerte en la economía | Entrevista a Alberto Acosta
     Entrevista sobre impacto de apagones y El Niño en la economía.
     Alberto Acosta, economista, analizó los efectos acumulativos de la crisis de generación eléctrica y los choques climáticos ...
@@ -423,13 +444,13 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Inundaciones dejan familias afectadas en Babahoyo y coordinan ayuda en Balao.
     idea: Hay familias afectadas por inundaciones que requieren ayuda
 
-[03a6b45df2] 2026-10-13 12:58 UTC · youtube · @ (TC Televisión) · neutro · Otro · 3 interacciones · 379 vistas
+[03a6b45df2] 2026-10-13 12:58 UTC · youtube · @ (TC Televisión) · neutro · Otro · 4 interacciones · 426 vistas
     Prevención ante el fenómeno El Niño, alístate Ecuador
     Carolina Lozano detalló las acciones de atención y prevención ante el Fenómeno El Niño.
     idea: Las autoridades detallan las acciones de prevención
     Carolina Lozano, secretaria nacional de Gestión de Riesgos, detalló las acciones desplegadas para brindar atención a las ...
 
-[327bfc37d4] 2026-10-13 12:48 UTC · youtube · @ (Teleamazonas Ecuador) · neutro · Otro · Pichincha · dirigido a: Gobierno central (neutro) · 36 interacciones · 1626 vistas
+[327bfc37d4] 2026-10-13 12:48 UTC · youtube · @ (Teleamazonas Ecuador) · neutro · Otro · Pichincha · dirigido a: Gobierno central (neutro) · 37 interacciones · 1803 vistas
     Control de abastecimiento y precios de alimentos en Quito por el Fenómeno de El Niño
     Control de abastecimiento y precios de alimentos en Quito por El Niño.
     idea: Se realizan controles de precios por la emergencia
@@ -663,6 +684,10 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: Se capacita a la comunidad en gestión de riesgos
     Fortalecemos el Comité Comunitario de Gestión de Riesgos en la comunidad Topali de la parroquia Abdón Calderón. 💪👷‍♂️ Junto al Cuerpo de Bomberos de Santa Isabel capacitamos a la comunidad en el manejo de herramientas forestales y desarrollamos un simulacro de incendios... https:
 
+[b9ea2d8d33] 2026-10-12 22:54 UTC · medios · www.eldiario.ec · neutro · Lluvias e inundaciones · Los Ríos
+    Niño de tres años murió ahogado en una poza formada por las lluvias en Baba
+    Un niño de tres años murió ahogado en una poza formada por las lluvias en Baba.
+
 [26620ba61a] 2026-10-12 22:50 UTC · x · @TiempoRealEC (Tiempo Real) · critico · Energía y servicios · Esmeraldas · dirigido a: Gobierno central (critico) · pide: Agua · 491 vistas · cuenta con 76840 seguidores
     Derrame de crudo contamina el río Cupa y obliga a suspender la captación de agua en Esmeraldas.
     idea: Un derrame de petróleo deja sin agua a la población
@@ -798,7 +823,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Esmeraldas en emergencia por derrame de petróleo en los ríos Cupa y Blanco
     Emergencia en Esmeraldas debido a un derrame de petróleo en ríos Cupa y Blanco.
 
-[bf959e442b] 2026-10-12 20:36 UTC · youtube · @ (DNews) · neutro · Deslaves y vías · Pichincha · pide: Evacuación y rescate · 124 interacciones · 33071 vistas
+[bf959e442b] 2026-10-12 20:36 UTC · youtube · @ (DNews) · neutro · Deslaves y vías · Pichincha · pide: Evacuación y rescate · 126 interacciones · 34396 vistas
     🚨 Ecuador bajo alerta por El Niño: más de 17 mil afectados, inundaciones y deslizamientos
     Lluvias y deslizamiento de tierra en Quito afectan viviendas y provocan evacuaciones con miles de afectados nacionalmente.
     ecuador #quito #deslave #inundaciones [00:35] 🌧️ Deslizamiento de tierra en Quito afectó viviendas y obligó evacuaciones.
@@ -872,7 +897,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Inundaciones en Babahoyo dejan a familias aisladas y sin agua potable
     Pobladores quedan aislados y sin acceso a agua potable por inundación en Babahoyo.
 
-[3c7a71709d] 2026-10-12 18:30 UTC · youtube · @ (Jimmy Jairala) · neutro · Agricultura y producción · 27 interacciones · 1073 vistas
+[3c7a71709d] 2026-10-12 18:30 UTC · youtube · @ (Jimmy Jairala) · neutro · Agricultura y producción · 27 interacciones · 1090 vistas
     Estiaje y El Niño ponen presión económica #ecuador #elñiño
     El fenómeno de El Niño y el estiaje afectan la pesca y generación hidroeléctrica en Ecuador.
     El fenómeno de El Niño y el riesgo de estiaje podrían afectar la pesca y la generación hidroeléctrica en Ecuador. Así lo advirtió el ...
@@ -937,7 +962,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Lluvias provocan inundaciones y suspensión de clases en Machala y Santa Rosa.
     Afectaciones por lluvias en El Oro.
 
-[8d723e6139] 2026-10-12 16:12 UTC · youtube · @ (RADIO I99) · neutro · Prevención y alertas · aspecto: Prevención y alertas · 163 vistas
+[8d723e6139] 2026-10-12 16:12 UTC · youtube · @ (RADIO I99) · neutro · Prevención y alertas · aspecto: Prevención y alertas · 179 vistas
     ¡Prepárate ante el fenómeno El Niño!
     Campaña preventiva pide no botar basura en calles y ríos ante El Niño.
     Prepárate ante el fenómeno El Niño! Evita arrojar basura en calles, ríos y alcantarillas para prevenir inundaciones. 🗑️ Mantén ...
@@ -962,7 +987,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     ¿Cómo proteger la salud de perros y gatos durante los días de lluvia en Ecuador?
     Recomendaciones para proteger la salud de mascotas durante lluvias en Ecuador.
 
-[738ac3eac1] 2026-10-12 15:52 UTC · youtube · @ (Ecuador: Mike's New Chapter) · neutro · Lluvias e inundaciones · Azuay · 64 interacciones · 634 vistas
+[738ac3eac1] 2026-10-12 15:52 UTC · youtube · @ (Ecuador: Mike's New Chapter) · neutro · Lluvias e inundaciones · Azuay · 65 interacciones · 684 vistas
     Cuenca To The Coast - El Nino and Electricity crisis update
     Video sobre el impacto del fenomeno de El Nino y la crisis electrica en Ecuador.
     I will discuss the current status of what's happening in Ecuador with El Nino Impact as well as the current Electricity crisis. Lots of ...
@@ -1003,7 +1028,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Inamhi prevé lluvias intensas en la Costa y el norte de la Sierra hasta el 14 de octubre
     Inamhi pronostica intensas lluvias en Costa y Sierra norte hasta el 14 de octubre.
 
-[d557dd1300] 2026-10-12 14:47 UTC · youtube · @ (Ecuador TV) · neutro · Prevención y alertas · 4 interacciones · 72 vistas
+[d557dd1300] 2026-10-12 14:47 UTC · youtube · @ (Ecuador TV) · neutro · Prevención y alertas · 4 interacciones · 77 vistas
     Entrevista Franz Leonardo Pucha Cofrep
     Entrevista a Franz Leonardo Pucha sobre el fenómeno de El Niño.
     Entrevista Franz Leonardo Pucha Cofrep Tema: Fenomeno del Niño.
@@ -1556,12 +1581,3 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
 [3387f96410] 2026-10-11 12:00 UTC · medios · El Universo · neutro · Agricultura y producción
     Precio de supervivencia bananera
     Análisis del precio y situación del sector bananero ecuatoriano.
-
-[8c5c0df45a] 2026-10-11 10:28 UTC · medios · El Diario · neutro · Afectados y damnificados · Manabí
-    Lluvias en Ecuador: cuántas personas están afectadas y qué provincias registran más daños
-    Lluvias dejan miles de personas afectadas y cuantiosos daños materiales en varias provincias de la Costa.
-    Las lluvias en Ecuador dejan 17.056 personas afectadas y 1.306 damnificadas, además de daños en viviendas, puentes y vías. Esmeraldas, Guayas, Los Ríos y Manabí están entre las provincias con mayor impacto, mientras los organismos de riesgo advierten sobre posibles inundaciones e
-
-[2e64a47315] 2026-10-11 02:57 UTC · medios · www.cartademexico.com · neutro · Otro
-    Incendios consumen el corazón hídrico y biodiverso del Ecuador
-    Incendios forestales afectan zonas hídricas y biodiversas de Ecuador.
