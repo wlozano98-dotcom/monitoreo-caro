@@ -1,215 +1,68 @@
 {
   "vinetas": [
-    "Medios bajan de 65 a 48 piezas y X de 33 a 25 en 24 h; ninguna crítica, ayer tres.",
-    "La Posta (456.000 seguidores, 1.702 vistas) difunde el primer reporte situacional con Carolina: vuelve su voz tras el 13.",
-    "El Universo: desbordamientos bajan de siete a dos, siguen Guayas y Los Ríos; SNGR despliega maquinaria en Vinces.",
-    "Centro Digital publica en X \"Ecuador, preparado\" con la SNGR a cargo; Noboa y Crónica anuncian los peores meses."
+    "Desbordamientos bajan de siete a dos, según la SNGR citada por El Universo; Guayas y Los Ríos siguen en reporte.",
+    "Conversación más baja y neutral: 42 piezas de medios frente a 64 ayer; en X, cero críticas frente a tres.",
+    "Única crítica directa a la Secretaría en 24 h: Diario La Tribuna exige fortalecer la alerta temprana en la zona sur.",
+    "Cifras difieren: SNGR reporta 19.340 impactados; Expreso dice cerca de 18.000 afectados; Machala Móvil, 17.000 damnificados."
   ],
   "fuentes_vinetas": [
+    ["272109b2c0", "ac9150b22e"],
     [],
-    [
-      "a3c4c5f944"
-    ],
-    [
-      "272109b2c0",
-      "c5679739c8",
-      "6764e1ea3b",
-      "709907c545"
-    ],
-    [
-      "49c6ec1d84",
-      "38372768aa",
-      "e3ce86b3a5"
-    ]
+    ["9b39fcb99d"],
+    ["bcf42433ed", "5b3a5b543d", "391afc68a7", "863689a2fd"]
   ],
   "acciones": [
     {
-      "accion": "Publicar en web y X corte diario: afectados, damnificados y ríos desbordados.",
-      "porque": "Machala Móvil habla de 17.000 damnificados; la SNGR reportó 1.579 damnificados y 17.761 afectados; El Universo: desbordamientos bajan a dos.",
+      "accion": "Publicar hoy en web y X una cifra única de afectados y damnificados, con hora de corte.",
+      "porque": "Expreso dice cerca de 18.000 afectados y Machala Móvil 17.000 damnificados; la SNGR reportó 17.761 afectados y 1.579 damnificados.",
       "base_legal": "Art. 61 y 72",
-      "fuentes": [
-        "863689a2fd",
-        "5b3a5b543d",
-        "272109b2c0",
-        "ac9150b22e"
-      ]
+      "fuentes": ["bcf42433ed", "5b3a5b543d", "391afc68a7", "863689a2fd"]
     },
     {
-      "accion": "Reemplazar el mensaje \"Ecuador preparado\" por qué hacer y Alístate Ecuador.",
-      "porque": "Centro Digital atribuye la respuesta a la SNGR mientras Noboa anticipa los peores meses: un daño grave recaería en la Secretaría.",
-      "base_legal": "Art. 61 y 64.6",
-      "fuentes": [
-        "49c6ec1d84",
-        "c2f2e03920",
-        "38372768aa",
-        "536a387d06"
-      ]
+      "accion": "Explicar a medios del sur cómo operan Alertas Ecuador y la alerta temprana.",
+      "porque": "Diario La Tribuna exige fortalecer la alerta temprana en la zona sur; la SNGR ya presentó Alertas Ecuador y Alístate Ecuador.",
+      "base_legal": "Art. 61 y 62",
+      "fuentes": ["9b39fcb99d", "536a387d06", "9d9d006b7f"]
     },
     {
-      "accion": "Publicar resultados del EDAN de Salitre y el apoyo subsidiario acordado con el GAD.",
-      "porque": "ECU 911: personal de la SNGR hace EDAN por el desborde del río Vinces; Diario Extra: comerciantes y agricultores en apuros.",
-      "base_legal": "Art. 21.4, 68 y 72",
-      "fuentes": [
-        "709907c545",
-        "1a93c78eb6",
-        "6764e1ea3b",
-        "ba423da366"
-      ]
+      "accion": "Coordinar con MSP mensajes de prevención del dengue en alojamientos temporales de Guayas.",
+      "porque": "El Universo: 38.607 casos de dengue, más que todo 2025; Expreso ubica a Guayas entre las más afectadas; hay alojamiento en Balao.",
+      "base_legal": "Art. 23.5 y 61",
+      "fuentes": ["57438a67ec", "eae191c72f", "4c66b087b8"]
     }
   ],
   "narrativas": [
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "Crece en X con Centro Digital (asistencia en Esmeraldas, Guayas y Los Ríos), El Noticiero (maquinaria en Vinces), ECU 911, el MTDH y el Ejército; El Universo y Diario Correo siguen con el albergue de Balao. La Posta devuelve la voz de Carolina con el reporte situacional: fortaleza para la Secretaría.",
-      "ids": [
-        "4c66b087b8",
-        "a2f0534e93",
-        "b4ce65a036",
-        "ace6bfa502",
-        "42dd336dbd",
-        "affff9dedd",
-        "68fd19bf78",
-        "cbb70d4e53",
-        "ef723f46a2",
-        "9be5076af0",
-        "c9c46d90e0",
-        "12cf05db6d",
-        "1f64eb12ef",
-        "2108164657",
-        "6cc354642b",
-        "c659aeaee9",
-        "03a6b45df2",
-        "c10964754b",
-        "b73b01622d",
-        "c37ef6716a",
-        "d532ac6c4d",
-        "c702a0ac0f",
-        "5f514e059b",
-        "9aedf7d070",
-        "76605a789a",
-        "864c263ddd",
-        "6426722b14",
-        "2a709472cc",
-        "a3c4c5f944",
-        "6c0045a933",
-        "6764e1ea3b",
-        "709907c545",
-        "ba423da366",
-        "12540a3de2",
-        "33012ba104",
-        "f3607654c9",
-        "c5b8bdea94",
-        "536a387d06",
-        "9d9d006b7f",
-        "3a71216ed8",
-        "436ed51d09",
-        "f95a288ca5",
-        "49c6ec1d84",
-        "c2f2e03920"
-      ]
+      "explicacion": "La empujan cuentas oficiales y medios en X: Centro Digital, El Noticiero (maquinaria en Vinces), ECU 911, MTDH, Ejército y La Posta con el reporte situacional de Carolina. Fortaleza para la Secretaría mientras las emergencias bajan.",
+      "ids": ["6c0045a933", "49c6ec1d84", "6764e1ea3b", "709907c545", "12540a3de2", "4c66b087b8", "33012ba104", "f3607654c9", "c5b8bdea94", "a3c4c5f944", "3a71216ed8", "436ed51d09", "ace6bfa502", "affff9dedd", "ef723f46a2", "ba423da366", "536a387d06", "9d9d006b7f", "68fd19bf78"]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "La sostienen Noboa (\"peores meses\", Metro, Expreso, Bloomberg Línea), Crónica (el más poderoso en 75 años) y TC Televisión (Inamhi advierte). Choca con el \"Ecuador, preparado\" que difunde Centro Digital: si llegan los daños, el reproche recaería en la Secretaría.",
-      "ids": [
-        "e3ce86b3a5",
-        "38372768aa",
-        "335628f846",
-        "5a997a67fc",
-        "79cd8b7760",
-        "147bc1103b",
-        "ae17768a9b",
-        "6624b203f6",
-        "81b6d5930c",
-        "c4f90b73e4",
-        "96aabceade",
-        "6eea675b57",
-        "dbe78a14a3",
-        "87a0b5619b",
-        "d291c5c371",
-        "ef9e2e9c78",
-        "6d536bc7d7",
-        "54ee39eec8",
-        "3aa3b90bae",
-        "648dd2bdb2"
-      ]
+      "explicacion": "La sostienen Noboa (peores meses: Metro, Expreso, Bloomberg Línea), Crónica (el más poderoso en 75 años), TC Televisión (Inamhi) y Diario La Tribuna (alerta temprana en el sur). Si llegan daños mayores, el reproche recaería en la Secretaría.",
+      "ids": ["38372768aa", "335628f846", "54ee39eec8", "e3ce86b3a5", "3aa3b90bae", "648dd2bdb2", "79cd8b7760", "82a3c36eba", "9b39fcb99d"]
     },
     {
       "titulo": "El Niño encarece la comida y golpea la economía",
-      "explicacion": "La empujan Ecuavisa (arroz, mercados de Quito) y Primicias (créditos); se suman Infobae (camaroneros piden transparencia ante la crisis energética), Machala Móvil (cortes del sábado sin confirmar) y Diario Extra (comerciantes del río Vinces). Apunta al Gobierno central, no a la Secretaría.",
-      "ids": [
-        "f6d91b08b5",
-        "2d30c35df4",
-        "327bfc37d4",
-        "7046764710",
-        "e8bc5aec64",
-        "b8c9fb125e",
-        "42895f7ff4",
-        "d56afc6356",
-        "59caec2685",
-        "dfd4ce2ba8",
-        "b2aa25f494",
-        "ff5e0c09d2",
-        "09dab02f73",
-        "0171803b6a",
-        "413ea0f830",
-        "e983bdf51f",
-        "6cc706386d",
-        "1a93c78eb6"
-      ]
-    },
-    {
-      "titulo": "Se sabía que venía y no se planificó",
-      "explicacion": "Apunta a los GAD: El Universo recoge que Noboa cuestionó a prefecturas y gobiernos locales, El Noticiero en TikTok (3.052 vistas) habla de obras municipales pendientes y La Data culpa al Municipio de Quito. La Secretaría, como ente rector, puede quedar en medio del choque.",
-      "ids": [
-        "aaf41a4366",
-        "136b59238f",
-        "b35cde3802",
-        "14b6c242e6",
-        "caefeee287",
-        "4ef7ec425d",
-        "4e7d8ba1fd"
-      ]
+      "explicacion": "Ecuavisa (arroz, mercados de Quito), Primicias (créditos), Infobae (camaroneros piden transparencia energética) y Diario Extra (comerciantes del río Vinces). Expreso y Machala Móvil preguntan si habrá cortes el sábado 17. Apunta al Gobierno central, no a la Secretaría.",
+      "ids": ["f6d91b08b5", "2d30c35df4", "42895f7ff4", "d56afc6356", "e983bdf51f", "1a93c78eb6", "6cc706386d", "09dab02f73"]
     },
     {
       "titulo": "Nos quedamos sin agua y aislados",
-      "explicacion": "Sigue con Babahoyo (Expreso y El Universo: 300 familias; La Hora: vías) y Sigchos (La Gaceta); sin piezas nuevas sobre Quinindé. Riesgo operativo si el agua y los albergues no se ven en territorio.",
-      "ids": [
-        "b434d3f484",
-        "528b8fb307",
-        "497cf2956e",
-        "7c5399b572",
-        "902dbc4428",
-        "b4bb45143a",
-        "591f7db1af",
-        "26620ba61a",
-        "87df6dca4c",
-        "c1745dc923"
-      ]
+      "explicacion": "Sin piezas nuevas en 24 h: quedan Babahoyo (Expreso y El Universo: 300 familias; La Hora: vías), Sigchos (La Gaceta) y el derrame en Quinindé (Tiempo Real). Riesgo operativo si el agua y los alojamientos no se ven en territorio.",
+      "ids": ["528b8fb307", "497cf2956e", "b434d3f484", "7c5399b572", "26620ba61a"]
     },
     {
-      "titulo": "Los incendios siguen pese a las lluvias",
-      "explicacion": "Expreso sumó seis incendios forestales el 13 de octubre; La Gaceta y La Prensa, bomberos de Latacunga en Chimborazo. Sin piezas nuevas en 24 h: pierde fuerza.",
-      "ids": [
-        "b33b895a4f",
-        "7a23a3c1d9",
-        "e43e6cd231",
-        "788022533a",
-        "36bbe12722",
-        "9cf7d82d6d"
-      ]
-    }
-  ],
-  "rumores": [
+      "titulo": "Se sabía que venía y no se planificó",
+      "explicacion": "Apunta a los GAD: El Universo recoge que Noboa cuestionó a prefecturas y gobiernos locales, El Noticiero en TikTok (3.052 vistas) habla de obras municipales pendientes y La Data culpa al Municipio de Quito. Sin piezas nuevas hoy.",
+      "ids": ["aaf41a4366", "4e7d8ba1fd", "136b59238f", "87a0b5619b"]
+    },
     {
-      "titulo": "Más de 17.000 damnificados en Ecuador",
-      "explicacion": "Machala Móvil titula 17.000 damnificados; la SNGR reportó 1.579 damnificados y 17.761 afectados. Confundir ambas cifras infla la emergencia; respuesta: corte oficial que distinga afectados de damnificados (arts. 61 y 72).",
-      "ids": [
-        "863689a2fd",
-        "5b3a5b543d",
-        "bcf42433ed"
-      ]
+      "titulo": "El dengue avanza con las lluvias",
+      "explicacion": "El Universo y Expreso informan que los casos de dengue ya superan los de todo 2025, con Guayas entre las provincias más afectadas. Le toca al MSP, pero los alojamientos temporales la vuelven tema de la emergencia.",
+      "ids": ["57438a67ec", "eae191c72f"]
     }
   ],
+  "rumores": [],
   "hitos": []
 }
