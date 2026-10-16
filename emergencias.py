@@ -13,6 +13,7 @@ import re
 import time
 import unicodedata
 import urllib.error
+import urllib.parse
 import urllib.request
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
@@ -31,6 +32,7 @@ AGUA_MINIMA = 1.0  # km²: menos que eso en un cantón no se marca (manchas suel
 
 
 def pedir(url, timeout=120, intentos=3):
+    url = urllib.parse.quote(url, safe=":/?&=%#,+;@~")  # algunos PDF traen "–" en el nombre
     for k in range(intentos):
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
@@ -133,13 +135,153 @@ def sitrep(db, cantones):
         raise RuntimeError("no se encontró el SitRep nacional en la página de la SNGR")
     guardado = db.q("SELECT datos FROM sitrep WHERE numero = ?", [ultimo["numero"]])
     datos = json.loads(guardado[0]["datos"]) if guardado else {}
-    if "cifras" not in datos:
+    if "provincias" not in datos:
         lineas = texto_pdf(pedir(ultimo["url"], timeout=180))
+        provincias = sorted({p for p, _ in cantones.values()})
         datos = dict(ultimo, marcas={str(k): v for k, v in marcas_sitrep(lineas, cantones).items()},
-                     cifras=cifras_sitrep(lineas))
+                     cifras=cifras_sitrep(lineas),
+                     provincias=tablas_de_personas(lineas, [(clave(p), p) for p in provincias]))
         db.q("INSERT OR REPLACE INTO sitrep (numero, datos) VALUES (?, ?)", [ultimo["numero"], json.dumps(datos, ensure_ascii=False)])
     print(f"  SitRep n.º {datos['numero']}: {len(datos['marcas'])} cantones con marcas")
     return datos
+
+
+# ---------------------------------------------------------------- tablas de personas (por cantón o por provincia)
+
+# Raíces de las palabras: algunos informes las cortan ("Personas Afectad")
+COLUMNAS = [("FALLECID", "fallecidas"), ("HERID", "heridas"), ("IMPACTAD", "impactadas"),
+            ("PERSONASAFECTAD", "afectadas"), ("FAMILIASAFECTAD", "familias_afectadas"),
+            ("PERSONASDAMNIFICAD", "damnificadas"), ("FAMILIASDAMNIFICAD", "familias_damnificadas"),
+            ("VIVIENDASAFECTAD", "viviendas_afectadas"), ("VIVIENDASDESTRUID", "viviendas_destruidas")]
+
+
+def _numero(tok):
+    if tok in ("-", "–", "—"):
+        return 0
+    return int(tok) if tok.isdigit() else None
+
+
+def _fila(lineas, i, unidades):
+    """Qué unidad (cantón o provincia) nombra la fila i y los números que le siguen. El nombre puede venir partido en
+    la línea de arriba ("Santo Domingo De Los" / "6 Tsáchilas 25 ...")."""
+    sin_numero = lambda t: re.sub(r"^\s*\d+\.?\s+", "", t)
+    for texto in (lineas[i], sin_numero(lineas[i - 1]) + " " + sin_numero(lineas[i]) if i else None):
+        if not texto:
+            continue
+        k = clave(re.sub(r"^\s*\d+\.?\s+", "", texto))
+        for nombre, uid in unidades:
+            if k.startswith(nombre):
+                tokens, acumulado = texto.split(), ""
+                for j, tok in enumerate(tokens):
+                    acumulado += clave(tok)
+                    if acumulado.endswith(nombre):
+                        resto = tokens[j + 1:]
+                        while resto and _numero(resto[0]) is None:  # "(Urbina Jado)" y otros agregados al nombre
+                            resto = resto[1:]
+                        return uid, resto
+    return None, None
+
+
+def tablas_de_personas(lineas, unidades):
+    """Afectaciones y personas beneficiadas por unidad. `unidades` = [(clave del nombre, id)], los nombres largos
+    primero. Lee el encabezado para saber el orden de las columnas, porque cada informe lo arma distinto."""
+    unidades = sorted(unidades, key=lambda u: -len(u[0]))
+    datos = defaultdict(dict)
+    for i, linea in enumerate(lineas):
+        k = clave(linea)
+        etiquetas = [(k.find(et), nombre) for et, nombre in COLUMNAS if et in k]
+        if len(etiquetas) >= 3 and "IMPACTAD" in k and not re.search(r"\d", linea):  # encabezado, no frase ni fila
+            cols = [nombre for _, nombre in sorted(etiquetas)]
+            if "EVENTO" in clave(" ".join(lineas[max(0, i - 4):i + 1])):
+                cols = ["eventos"] + cols
+            for j in range(i + 1, min(i + 60, len(lineas))):
+                kj = clave(lineas[j])
+                if kj.startswith("TOTAL") or kj.startswith("FUENTE"):
+                    break
+                uid, resto = _fila(lineas, j, unidades)
+                if uid is None:
+                    continue
+                if "impactadas" in datos[uid]:
+                    continue  # manda la primera tabla
+                nums = [_numero(t) for t in resto]
+                for nombre, v in zip(cols, nums):
+                    if v is not None:
+                        datos[uid][nombre] = v
+        elif "PERSONASBENEFICIADAS" in k or ("BENEFICIADAS" in k and "PERSONAS" in clave(" ".join(lineas[max(0, i - 2):i + 1]))):
+            # De quién es la tabla: lo dice el párrafo de arriba ("La SNGR ha entregado" / "el resto del SNDGIRD")
+            arriba = next((clave(lineas[x]) for x in range(i - 1, max(-1, i - 10), -1) if "ENTREGAD" in clave(lineas[x])), "")
+            quien = "atendidas_sngr" if "SNGRHAENTREGADO" in arriba and "RESTODEL" not in arriba else "atendidas_otras"
+            for j in range(i + 1, min(i + 40, len(lineas))):
+                kj = clave(lineas[j])
+                if kj.startswith("TOTAL") or kj.startswith("FUENTE"):
+                    break
+                uid, resto = _fila(lineas, j, unidades)
+                if uid is None:
+                    continue
+                nums = [n for n in (_numero(t) for t in resto) if n is not None]
+                if len(nums) >= 3:  # al final: total de bienes, personas beneficiadas, familias beneficiadas
+                    datos[uid][quien] = datos[uid].get(quien, 0) + nums[-2]
+    return dict(datos)
+
+
+MESES = {"enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5, "junio": 6, "julio": 7, "agosto": 8,
+         "septiembre": 9, "setiembre": 9, "octubre": 10, "noviembre": 11, "diciembre": 12}
+
+
+def publicado(lineas, nombre_archivo):
+    """Fecha y hora de publicación del informe (del texto; si no, de las fechas del nombre del archivo)."""
+    for l in lineas[:40]:
+        m = re.search(r"publicaci[oó]n:?\s*\w+,?\s*(\d{1,2}) de (\w+) de (\d{4})\s*[–-]?\s*(\d{1,2}):(\d{2})", l, re.I)
+        if m and m.group(2).lower() in MESES:
+            return f"{m.group(3)}-{MESES[m.group(2).lower()]:02d}-{int(m.group(1)):02d}T{int(m.group(4)):02d}:{m.group(5)}"
+    fechas = [f"{a}-{me}-{d}" for d, me, a in re.findall(r"(\d{2})[._]?(\d{2})[._]?(2026)", nombre_archivo)]
+    return max(fechas) + "T00:00" if fechas else ""
+
+
+def provincia_del_informe(lineas, nombre_archivo, provincias):
+    """La provincia que más se nombra en el título y el nombre del archivo."""
+    texto = clave(nombre_archivo.replace("-", " ").replace("_", " ")) * 3 + clave(" ".join(lineas[:12]))
+    cuenta = {p: texto.count(clave(p)) for p in provincias}
+    mejor = max(cuenta, key=cuenta.get)
+    return mejor if cuenta[mejor] else None
+
+
+def sitreps_provinciales(db, cantones):
+    """Por cantón: personas impactadas, afectadas, damnificadas y atendidas, del último SitRep de cada provincia.
+    Cada PDF se lee una sola vez (tabla `sitrep_prov`)."""
+    html = pedir(PAGINA_SITREP).decode("utf-8", "replace")
+    nacional = re.compile(r"SitRep-No-\d+-Lluvias-\d{8}-al-\d{8}", re.I)
+    urls = sorted({u for u in re.findall(r'href="([^"]+\.pdf)"', html, re.I) if not nacional.search(u) and "nfografia" not in u})
+    provincias = sorted({p for p, _ in cantones.values()})
+    leidos = {}
+    for i in range(0, len(urls), 40):
+        trozo = urls[i:i + 40]
+        for f in db.q(f"SELECT url, datos FROM sitrep_prov WHERE url IN ({','.join('?' * len(trozo))})", trozo):
+            leidos[f["url"]] = json.loads(f["datos"])
+    for url in urls:
+        if url in leidos:
+            continue
+        try:
+            lineas = texto_pdf(pedir(url, timeout=180))
+        except Exception as e:
+            print(f"    no se pudo leer {url.rsplit('/', 1)[-1]}: {e}")
+            continue
+        prov = provincia_del_informe(lineas, url.rsplit("/", 1)[-1], provincias)
+        unidades = [(clave(c), i) for i, (p, c) in cantones.items() if p == prov]
+        datos = {"url": url, "provincia": prov, "publicado": publicado(lineas, url.rsplit("/", 1)[-1]),
+                 "cantones": {str(k): v for k, v in tablas_de_personas(lineas, unidades).items()} if prov else {}}
+        db.q("INSERT OR REPLACE INTO sitrep_prov (url, datos) VALUES (?, ?)", [url, json.dumps(datos, ensure_ascii=False)])
+        leidos[url] = datos
+    ultimo = {}
+    for d in leidos.values():  # el más reciente de cada provincia que traiga la tabla por cantón
+        if d["provincia"] and d["cantones"] and d["publicado"] > ultimo.get(d["provincia"], {}).get("publicado", ""):
+            ultimo[d["provincia"]] = d
+    por_canton = {}
+    for d in ultimo.values():
+        for k, v in d["cantones"].items():
+            por_canton[k] = dict(v, fuente={"provincia": d["provincia"], "publicado": d["publicado"], "url": d["url"]})
+    print(f"  SitRep provinciales: {len(urls)} informes, {len(ultimo)} provincias con detalle, {len(por_canton)} cantones")
+    return por_canton
 
 
 # ---------------------------------------------------------------- Copernicus: agua vista por satélite

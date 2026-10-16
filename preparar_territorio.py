@@ -343,7 +343,26 @@ def main():
             "pob_inund": round(pob_inund[n]),
             "pob_desl": round(pob_desl[n]),
         })
-    json.dump({"vista": [0, 0, round((ESTE - OESTE) * 100), round((NORTE - SUR) * 100)], "cantones": salida},
+    # Provincias: contorno oficial y su punto central (promedio de los de sus cantones, pesado por área)
+    meta1 = json.loads(pedir("https://www.geoboundaries.org/api/current/gbOpen/ECU/ADM1/"))
+    limites1 = json.load(open(bajar("adm1.geojson", meta1["simplifiedGeometryGeoJSON"])))
+    nombres_prov = {normal(c["provincia"]): c["provincia"] for c in salida}
+    provincias = []
+    for f in limites1["features"]:
+        nombre = nombres_prov.get(normal(f["properties"]["shapeName"]))
+        if not nombre:
+            continue  # Galápagos y zonas sin delimitar
+        suyos = [c for c in salida if c["provincia"] == nombre]
+        area = sum(celdas[c["id"]] for c in suyos) or 1
+        provincias.append({
+            "provincia": nombre, "d": camino_svg(f["geometry"]),
+            "cx": round(sum(c["cx"] * celdas[c["id"]] for c in suyos) / area, 1),
+            "cy": round(sum(c["cy"] * celdas[c["id"]] for c in suyos) / area, 1),
+            "pob": sum(c["pob"] for c in suyos),
+        })
+    print(f"{len(provincias)} provincias; sin contorno: {sorted(set(nombres_prov.values()) - {p['provincia'] for p in provincias})}")
+    json.dump({"vista": [0, 0, round((ESTE - OESTE) * 100), round((NORTE - SUR) * 100)], "cantones": salida,
+               "provincias": provincias},
               open(os.path.join(AQUI, "public", "territorio.json"), "w"), ensure_ascii=False, separators=(",", ":"))
     # Rejilla gruesa por filas, comprimida por tramos [valor, repeticiones]
     tramos, previo, cuenta = [], None, 0

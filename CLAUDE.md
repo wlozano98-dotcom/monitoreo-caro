@@ -40,7 +40,12 @@ medios y redes sobre El Niño, la Secretaría y ella. Presupuesto cero: solo cap
   albergue (solo filas con fecha). Y agua observada por Copernicus GFM (WMS público de GloFAS, EPSG:3857, cuadros de
   0,75°: más grande y dibuja contornos; color exacto 232,76,120; tabla `agua_satelite` por día). "Emergencia oficial" =
   todo menos "subiendo". Ojo arrozales del Guayas: el radar puede contarlos como agua.
-- Termómetro de lluvias: % de la población (WorldPop) que vive en cantones en rojo y en amarillo.
+  SitRep provinciales (misma página, nombres de archivo distintos por provincia): `sitreps_provinciales` lee cada PDF
+  una vez (tabla `sitrep_prov`), reconoce la provincia y la fecha de publicación, y saca por cantón impactadas,
+  afectadas, damnificadas y "personas beneficiadas" (= atendidas; SNGR y otras instituciones, puede repetirse gente).
+  `tablas_de_personas` lee el ENCABEZADO para el orden de columnas (cada provincia lo arma distinto; raíces "AFECTAD").
+  El mapa tiene vista Cantones / Provincias (provincias pintadas por personas impactadas del SitRep nacional).
+  Andrés rechazó el termómetro de % de población: no volver a ponerlo.
 - `preparar_territorio.py` (se corre a mano, una vez): cantones (geoBoundaries/INEC), susceptibilidad SNGR a inundación
   (vector BAJA/MEDIA/ALTA) y deslizamientos (clases 1-5, UTM 17S) y población WorldPop 2020 1 km (BigTIFF LZW, lector
   propio; 3 min la primera vez). Las localidades del censo solo dan provincia y tildes. Escribe `public/territorio.json`

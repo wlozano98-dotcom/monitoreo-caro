@@ -467,6 +467,8 @@ def calcular(db, ahora_utc=None):
     # Dónde ya hay emergencia: SitRep de la SNGR y agua vista por satélite (no cambian el color: se marcan aparte)
     reporte = intentar("sitrep", emergencias.sitrep, db, {i: (c["provincia"], c["canton"]) for i, c in fijo.items()}) or {}
     satelite = intentar("satelite", emergencias.agua_satelite, db, rejilla) or {}
+    personas = intentar("sitrep_prov", emergencias.sitreps_provinciales, db,
+                        {i: (c["provincia"], c["canton"]) for i, c in fijo.items()}) or {}
     ya = {}
     for k, marcas in (reporte.get("marcas") or {}).items():
         resumen = {}
@@ -523,6 +525,7 @@ def calcular(db, ahora_utc=None):
             "pob": info["pob"], "pob_inund": info["pob_inund"], "pob_desl": info["pob_desl"],
             "inund_alta": info["inund_alta"], "desl_alta": info["desl_alta"],
             "ya": ya.get(c),
+            "personas": personas.get(str(c)),
         })
     # Orden (decisión de Andrés): primero la gente en zona de inundación, que es lo más grave; luego deslizamientos.
     filas.sort(key=lambda f: (f["color"] != "rojo", -f["pob_inund"], -f["pob_desl"]))
@@ -541,6 +544,8 @@ def calcular(db, ahora_utc=None):
         "sitrep": {k: reporte.get(k) for k in ("numero", "fecha", "url", "cifras")} if reporte else None,
         "satelite": {"pasadas": satelite.get("pasadas", [])} if satelite else None,
         "ya": lista_ya,
+        "personas": personas,  # por cantón, del último SitRep de su provincia
+        "provincias": (reporte or {}).get("provincias", {}),  # por provincia, del SitRep nacional
         "inamhi": vigentes,
         "fuentes": fuentes,
         "errores": errores,

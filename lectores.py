@@ -123,7 +123,7 @@ def _cadenas(op):
 
 
 _OPERADORES = re.compile(
-    rb"/(\w+)\s+[\d.]+\s+Tf"
+    rb"/(\w+)\s+([\d.]+)\s+Tf"
     rb"|([-\d.]+)\s+([-\d.]+)\s+([-\d.]+)\s+([-\d.]+)\s+([-\d.]+)\s+([-\d.]+)\s+Tm"
     rb"|([-\d.]+)\s+([-\d.]+)\s+T[dD]"
     rb"|(\[(?:[^\]\\]|\\.)*\]|\((?:[^)\\]|\\.)*\)|<[0-9A-Fa-f\s]*>)\s*(?:TJ|Tj)", re.S)
@@ -138,17 +138,19 @@ def texto_pdf(datos):
         fuentes = _fuentes(pagina, obj)
         contenido = re.search(rb"/Contents\s*(\[.*?\]|\d+\s+0\s+R)", pagina, re.S).group(1)
         flujo = b"".join(_flujo(obj[int(x)]) for x in re.findall(rb"(\d+)\s+0\s+R", contenido))
-        piezas, fuente, x, y = [], None, 0.0, 0.0
+        piezas, fuente, x, y, tam, escala = [], None, 0.0, 0.0, 10.0, 1.0
         for m in _OPERADORES.finditer(flujo):
             if m.group(1):
                 fuente = fuentes.get(m.group(1), {"doble": False, "mapa": {}})
-            elif m.group(2):
-                x, y = float(m.group(6)), float(m.group(7))
-            elif m.group(8):
-                x, y = x + float(m.group(8)), y + float(m.group(9))
-            elif m.group(10):
+                tam = float(m.group(2))
+            elif m.group(3):
+                escala = abs(float(m.group(3))) or 1.0
+                x, y = float(m.group(7)), float(m.group(8))
+            elif m.group(9):
+                x, y = x + float(m.group(9)) * escala, y + float(m.group(10)) * escala
+            elif m.group(11):
                 t = ""
-                for s in _cadenas(m.group(10)):
+                for s in _cadenas(m.group(11)):
                     if s is None:
                         t += " "
                     elif fuente and fuente["doble"]:
@@ -157,12 +159,20 @@ def texto_pdf(datos):
                         t += "".join(fuente["mapa"].get(ch, chr(ch)) for ch in s)
                     else:
                         t += s.decode("cp1252", "replace")
-                piezas.append((round(-y), x, t))
+                piezas.append((round(-y), x, t, tam * escala))
         filas = {}
-        for yy, xx, t in piezas:
+        for yy, xx, t, ta in piezas:
             clave = next((k for k in filas if abs(k - yy) <= 2), yy)
-            filas.setdefault(clave, []).append((xx, t))
-        lineas += [" ".join(t for _, t in sorted(filas[k])).strip() for k in sorted(filas)]
+            filas.setdefault(clave, []).append((xx, t, ta))
+        for k in sorted(filas):
+            # Word parte palabras y números en pedazos pegados ("1" "840"): sin hueco real, van juntos
+            linea, fin = "", None
+            for xx, t, ta in sorted(filas[k]):
+                if fin is not None and xx - fin > 0.25 * ta:
+                    linea += " "
+                linea += t
+                fin = xx + 0.5 * ta * len(t)
+            lineas.append(re.sub(r"\s+", " ", linea).strip())
     return [l for l in lineas if l]
 
 

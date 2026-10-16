@@ -52,6 +52,32 @@
     :root[data-theme="dark"] .mapa path.activo { stroke: #fff; }
     @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .mapa path.activo { stroke: #fff; } }
     .leyenda-ll { display: flex; gap: 6px; flex-wrap: wrap; }
+    .mapa-cabeza { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; flex-wrap: wrap; }
+    .mapa-cabeza .pastilla { margin-bottom: 0; }
+    .vistas { display: inline-flex; background: var(--fondo); border-radius: 999px; padding: 3px; gap: 2px; }
+    .vistas button { border: 0; background: none; border-radius: 999px; padding: 6px 14px; font-size: 13px; font-weight: 700; color: var(--texto-2); cursor: pointer; }
+    .vistas button[aria-selected="true"] { background: var(--activo); color: var(--activo-texto); }
+    .mapa .prov { display: none; }
+    .mapa.provincial .cant, .mapa.provincial .marca-ya { display: none; }
+    .mapa.provincial .prov { display: inline; }
+    .mapa .prov path { stroke: var(--fondo); stroke-width: 1; }
+    .mapa .prov path.activo { stroke: var(--night); stroke-width: 2.5; }
+    /* personas impactadas por provincia: una sola tinta, de clara a oscura (siempre con cifra en la ficha) */
+    .mapa .prov .n0 { fill: var(--fondo); stroke: var(--lavanda); }
+    .mapa .prov .n1 { fill: #ece2ff; } .mapa .prov .n2 { fill: #d4bbff; } .mapa .prov .n3 { fill: #b083f0; }
+    .mapa .prov .n4 { fill: #8a4bd8; } .mapa .prov .n5 { fill: #5f1f9e; }
+    .leyenda-ll .esc { width: 14px; height: 14px; border-radius: 4px; display: inline-block; }
+    .cifras-sngr { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; background: var(--panel-2); border-radius: 10px; padding: 10px 12px; }
+    @media (max-width: 520px) { .cifras-sngr { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    .cifras-sngr div { min-width: 0; }
+    .cifras-sngr dt { font-size: 12px; color: var(--texto-2); }
+    .cifras-sngr dd { font-size: 22px; font-weight: 800; color: var(--acento); font-variant-numeric: tabular-nums; line-height: 1.1; }
+    .cifras-sngr small { display: block; font-size: 11px; font-weight: 500; color: var(--texto-3); }
+    .fuente-sngr { font-size: 12px; color: var(--texto-3); }
+    .fuente-sngr a { color: var(--texto-2); }
+    .ficha .lista-cant { display: grid; gap: 4px; font-size: 13px; color: var(--texto-2); }
+    .ficha .lista-cant li { display: flex; justify-content: space-between; gap: 10px; border-bottom: 1px solid var(--linea); padding: 3px 0; }
+    .ficha .lista-cant b { color: var(--texto); font-variant-numeric: tabular-nums; }
     .mapa .marca-ya circle { cursor: pointer; }
     .ficha { background: var(--fondo); border-radius: 10px; padding: 14px 16px; display: grid; gap: 8px; }
     .ficha h3 { font-size: 18px; font-weight: 800; display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
@@ -184,9 +210,16 @@
 
     <div class="hoy-grid">
       <section class="panel mapa-panel" aria-labelledby="t-mapa">
-        <h2 class="pastilla" id="t-mapa">Mapa por cantón</h2>
+        <div class="mapa-cabeza">
+          <h2 class="pastilla" id="t-mapa">Mapa</h2>
+          <div class="vistas" role="tablist" aria-label="Vista del mapa">
+            <button type="button" role="tab" id="ver-cantones" aria-selected="true">Cantones</button>
+            <button type="button" role="tab" id="ver-provincias" aria-selected="false">Provincias</button>
+          </div>
+        </div>
         <svg class="mapa" id="mapa" role="img" aria-label="Mapa del Ecuador continental pintado por cantón"></svg>
-        <div class="leyenda-ll">
+        <div class="leyenda-ll" id="leyenda-prov" hidden></div>
+        <div class="leyenda-ll" id="leyenda-cant">
           <span class="chip"><i style="background:var(--n-roja)"></i>Actuar</span>
           <span class="chip"><i style="background:var(--n-amarilla)"></i>Atención</span>
           <span class="chip"><i style="background:var(--fondo);box-shadow:inset 0 0 0 1px var(--linea-fuerte)"></i>Sin señal</span>
@@ -337,6 +370,20 @@
     if (v.agua) p.push(`<span class="chip satel"><i></i>${v.agua.km2.toLocaleString("es-EC", { maximumFractionDigits: 1 })} km² de agua · satélite ${fecha(v.agua.fecha)}</span>`);
     return p.join("");
   }
+  const NIVELES_PROV = [0, 100, 500, 2000, 10000];
+  const nivelProv = (n) => (!n ? 0 : NIVELES_PROV.filter((x) => n >= x).length);
+  function cifrasSngr(p, fuente) {
+    if (!p) return "";
+    const atendidas = (p.atendidas_sngr || 0) + (p.atendidas_otras || 0);
+    const caja = (t, n, extra) => `<div><dt>${t}</dt><dd>${n == null ? "—" : miles(n)}${extra ? `<small>${extra}</small>` : ""}</dd></div>`;
+    return `<dl class="cifras-sngr">
+        ${caja("Personas impactadas", p.impactadas)}
+        ${caja("Afectadas", p.afectadas)}
+        ${caja("Damnificadas", p.damnificadas)}
+        ${caja("Atendidas", atendidas || null, atendidas ? `${miles(p.atendidas_sngr || 0)} SNGR · ${miles(p.atendidas_otras || 0)} otras inst. (puede repetirse gente)` : "sin dato")}
+      </dl>${fuente ? `<p class="fuente-sngr">${fuente}</p>` : ""}`;
+  }
+  const fuenteCanton = (f) => f ? `Según el <a href="${esc(f.url)}" target="_blank" rel="noopener">SitRep de ${esc(f.provincia)}</a> (${fecha(f.publicado)}), desde el 29 de agosto. Impactadas = afectadas + damnificadas.` : "";
   function fraseYa(v) {
     const t = [], tipos = (v.sitrep || []).map((m) => m.tipo);
     if (tipos.includes("desbordado")) t.push("la SNGR reporta un río desbordado");
@@ -376,7 +423,7 @@
   }
   const fila = (c) => `<li class="fila-c" id="c-${c.id}">
       <div><h3><span class="punto-c" style="background:var(--n-${c.color === "rojo" ? "roja" : "amarilla"})"></span>${esc(c.canton)} <small>${esc(c.provincia)}</small></h3>
-        <p class="explica">${esc(frase(c))}</p><div class="chips">${chips(c)}${chipsYa(c.ya)}</div></div>
+        <p class="explica">${esc(frase(c))}</p><div class="chips">${chips(c)}${chipsYa(c.ya)}${c.personas?.impactadas ? `<span class="chip ya"><i></i>${miles(c.personas.impactadas)} personas impactadas (SNGR)</span>` : ""}</div></div>
       ${gente(c)}${detalle(c)}${fotoSatelite(c)}</li>`;
 
   async function cargar() {
@@ -439,15 +486,33 @@
     const svg = $("mapa");
     const porYa = new Map(ya.map((v) => [v.id, v]));
     svg.setAttribute("viewBox", terr.vista.join(" "));
-    svg.innerHTML = terr.cantones.map((t) => {
+    const personas = d.personas || {}, provSngr = d.provincias || {};
+    svg.innerHTML = `<g class="cant">${terr.cantones.map((t) => {
       const c = por.get(t.id);
-      return `<path d="${t.d}" data-id="${t.id}" class="${c ? c.color : ""}"><title>${esc(t.canton)} (${esc(t.provincia)})${c ? ` · ${c.color === "rojo" ? "actuar" : "atención"}` : ""}${porYa.has(t.id) ? " · ya hay emergencia" : ""}</title></path>`;
-    }).join("") + `<g class="marca-ya">${terr.cantones.filter((t) => porYa.has(t.id)).map((t) => {
+      return `<path d="${t.d}" data-id="${t.id}" class="${c ? c.color : ""}"><title>${esc(t.canton)} (${esc(t.provincia)})${c ? ` · ${c.color === "rojo" ? "actuar" : "atención"}` : ""}</title></path>`;
+    }).join("")}</g><g class="prov">${(terr.provincias || []).map((p) => {
+      const n = provSngr[p.provincia]?.impactadas;
+      return `<path d="${p.d}" data-prov="${esc(p.provincia)}" class="n${nivelProv(n)}"><title>${esc(p.provincia)}: ${n ? miles(n) : "0"} personas impactadas</title></path>`;
+    }).join("")}</g><g class="marca-ya">${terr.cantones.filter((t) => porYa.has(t.id)).map((t) => {
       const v = porYa.get(t.id), dos = v.sitrep && v.agua;
       return (v.sitrep ? `<circle class="m-sitrep" data-id="${t.id}" cx="${t.cx - (dos ? 4 : 0)}" cy="${t.cy}" r="4.2"/>` : "") + (v.agua ? `<circle class="m-agua" data-id="${t.id}" cx="${t.cx + (dos ? 4 : 0)}" cy="${t.cy}" r="4.2"/>` : "");
     }).join("")}</g>`;
 
     if (rojos.length) { $("cuenta-lluvias").hidden = false; $("cuenta-lluvias").textContent = rojos.length; }
+    const rangos = ["Sin reportes", "1 a 99", "100 a 499", "500 a 1.999", "2.000 a 9.999", "10.000 o más"];
+    $("leyenda-prov").innerHTML = `<span class="chip" style="background:none;padding-left:0">Personas impactadas${d.sitrep ? ` · SitRep n.º ${d.sitrep.numero}` : ""}:</span>` +
+      rangos.map((r, k) => `<span class="chip"><svg width="14" height="14" aria-hidden="true"><rect class="esc" width="14" height="14" rx="4" fill="${["var(--fondo)", "#ece2ff", "#d4bbff", "#b083f0", "#8a4bd8", "#5f1f9e"][k]}" stroke="var(--lavanda)"/></svg>${r}</span>`).join("");
+    const vista = (prov) => {
+      svg.classList.toggle("provincial", prov);
+      $("ver-provincias").setAttribute("aria-selected", prov);
+      $("ver-cantones").setAttribute("aria-selected", !prov);
+      $("leyenda-prov").hidden = !prov;
+      $("leyenda-cant").hidden = prov;
+      $("ficha").hidden = true;
+      document.querySelectorAll(".mapa .activo").forEach((q) => q.classList.remove("activo"));
+    };
+    $("ver-cantones").onclick = () => vista(false);
+    $("ver-provincias").onclick = () => vista(true);
 
     // Prioridad: los primeros en rojo (ya vienen ordenados por gente en zona de inundación)
     $("prioridad").innerHTML = rojos.length
@@ -485,18 +550,19 @@
       if (!t) return;
       document.querySelectorAll(".mapa .activo").forEach((p) => p.classList.remove("activo"));
       const p = svg.querySelector(`path[data-id="${id}"]`);
-      if (p) { p.classList.add("activo"); p.parentNode.insertBefore(p, svg.querySelector(".marca-ya")); }
+      if (p) { p.classList.add("activo"); p.parentNode.appendChild(p); }
       const base = c || { id: +id, canton: t.canton, provincia: t.provincia, pob: t.pob, pob_inund: t.pob_inund, pob_desl: t.pob_desl, ya: v };
+      const pers = personas[String(id)];
       let cuerpo;
       if (c) {
         cuerpo = `<p class="explica">${esc(frase(c))}${v ? " " + esc(fraseYa(v)) : ""}</p>
           <div class="chips"><span class="chip"><i style="background:var(--n-${ESTADO[c.color][0]})"></i>${ESTADO[c.color][1]}</span>${chips(c)}${chipsYa(v)}</div>
-          ${barraCorta(c)}${detalle(c)}`;
+          ${cifrasSngr(pers, fuenteCanton(pers?.fuente))}${barraCorta(c)}${detalle(c)}`;
       } else if (v) {
         cuerpo = `<p class="explica">${esc(fraseYa(v))} Por lo que viene, no está ni en rojo ni en amarillo.</p>
-          <div class="chips">${chipsYa(v)}</div>${barraCorta(base)}`;
+          <div class="chips">${chipsYa(v)}</div>${cifrasSngr(pers, fuenteCanton(pers?.fuente))}${barraCorta(base)}`;
       } else {
-        cuerpo = `<p class="explica">Sin señales de lluvia fuerte ni emergencia reportada.</p>${barraCorta(base)}`;
+        cuerpo = `<p class="explica">Sin señales de lluvia fuerte${pers ? "" : " ni emergencia reportada"}.</p>${cifrasSngr(pers, fuenteCanton(pers?.fuente))}${barraCorta(base)}`;
       }
       const foto = fotoSatelite(base);
       $("ficha").hidden = false;
@@ -505,7 +571,29 @@
       $("ficha").querySelector(".cerrar").onclick = () => { $("ficha").hidden = true; document.querySelectorAll(".mapa .activo").forEach((q) => q.classList.remove("activo")); };
       if ($("ficha").getBoundingClientRect().top > innerHeight - 120) $("ficha").scrollIntoView({ behavior: "smooth", block: "nearest" });
     };
-    svg.addEventListener("click", (e) => e.target.dataset?.id && ficha(e.target.dataset.id));
+    const fichaProv = (nombre) => {
+      const p = (terr.provincias || []).find((x) => x.provincia === nombre);
+      if (!p) return;
+      document.querySelectorAll(".mapa .activo").forEach((q) => q.classList.remove("activo"));
+      const el = [...svg.querySelectorAll(".prov path")].find((x) => x.dataset.prov === nombre);
+      if (el) { el.classList.add("activo"); el.parentNode.appendChild(el); }
+      const suyos = terr.cantones.filter((t) => t.provincia === nombre);
+      const r = suyos.filter((t) => por.get(t.id)?.color === "rojo").length, a = suyos.filter((t) => por.get(t.id)?.color === "amarillo").length;
+      const conDatos = suyos.map((t) => [t, personas[String(t.id)]]).filter(([, x]) => x?.impactadas).sort((x, y) => y[1].impactadas - x[1].impactadas);
+      const f = conDatos[0]?.[1].fuente;
+      $("ficha").hidden = false;
+      $("ficha").innerHTML = `<h3><span>${esc(nombre)} <small>provincia · ${cifra(p.pob)} habitantes</small></span><button class="cerrar" type="button" aria-label="Cerrar">×</button></h3>
+        <p class="explica">${r || a ? `Por lo que viene: <b>${r}</b> ${r === 1 ? "cantón" : "cantones"} para actuar y <b>${a}</b> en atención.` : "Por lo que viene, ningún cantón en rojo ni en amarillo."}</p>
+        ${provSngr[nombre] ? cifrasSngr(provSngr[nombre], d.sitrep ? `Según el <a href="${esc(d.sitrep.url)}" target="_blank" rel="noopener">SitRep nacional n.º ${d.sitrep.numero}</a> (${fecha(d.sitrep.fecha)}), desde el 29 de agosto.` : "") : `<p class="explica">La SNGR no reporta personas impactadas en esta provincia.</p>`}
+        ${conDatos.length ? `<p class="fuente-sngr" style="margin-top:4px"><b style="color:var(--texto)">Por cantón</b>, personas impactadas${f ? ` (<a href="${esc(f.url)}" target="_blank" rel="noopener">SitRep de ${esc(nombre)}</a>, ${fecha(f.publicado)})` : ""}:</p>
+          <ul class="lista-cant">${conDatos.map(([t, x]) => `<li><span>${esc(t.canton)}${x.damnificadas ? ` · ${miles(x.damnificadas)} damnificadas` : ""}</span><b>${miles(x.impactadas)}</b></li>`).join("")}</ul>` : ""}`;
+      $("ficha").querySelector(".cerrar").onclick = () => { $("ficha").hidden = true; document.querySelectorAll(".mapa .activo").forEach((q) => q.classList.remove("activo")); };
+      if ($("ficha").getBoundingClientRect().top > innerHeight - 120) $("ficha").scrollIntoView({ behavior: "smooth", block: "nearest" });
+    };
+    svg.addEventListener("click", (e) => {
+      if (e.target.dataset?.prov) fichaProv(e.target.dataset.prov);
+      else if (e.target.dataset?.id) ficha(e.target.dataset.id);
+    });
     $("prioridad").addEventListener("click", (e) => { const li = e.target.closest("li[data-id]"); if (li) ir(li.dataset.id); });
 
   }
