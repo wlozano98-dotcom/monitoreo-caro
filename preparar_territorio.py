@@ -279,6 +279,7 @@ def main():
 
     # 5. Cifras fijas por cantón (celdas finas: área; localidades: personas)
     celdas, inund_alta, inund_media, desl_alta = Counter(), Counter(), Counter(), Counter()
+    suma_x, suma_y = Counter(), Counter()  # para el punto central de cada cantón (marcas en el mapa)
     grueso = array("H", [0]) * ((fino.ancho // POR) * (fino.alto // POR))
     votos = defaultdict(Counter)
     for i in range(fino.alto):
@@ -288,6 +289,8 @@ def main():
             if not n:
                 continue
             celdas[n] += 1
+            suma_x[n] += j
+            suma_y[n] += i
             c = inund.v[i * fino.ancho + j]
             inund_alta[n] += c == 3
             inund_media[n] += c == 2
@@ -331,6 +334,8 @@ def main():
             "canton": bonito(nombre),
             "provincia": bonito(provincias[n].most_common(1)[0][0]) if provincias[n] else "",
             "d": camino_svg(f["geometry"]),
+            "cx": round((suma_x[n] / total + 0.5) * FINO * 100, 1),
+            "cy": round((suma_y[n] / total + 0.5) * FINO * 100, 1),
             "inund_alta": round(inund_alta[n] / total, 3),
             "inund_media": round(inund_media[n] / total, 3),
             "desl_alta": round(min(desl_alta[n], total) / total, 3),

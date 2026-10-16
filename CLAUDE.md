@@ -34,6 +34,13 @@ medios y redes sobre El Niño, la Secretaría y ella. Presupuesto cero: solo cap
   OJO ríos: el ícono del visor (R2..R100) es el PEOR de 51 escenarios; ya engañó una vez (Azuay "100 años"). Se usa el
   escenario central (flow_avg) contra los máximos anuales 1980-hoy de cada tramo (tabla `rios_maximos`); tramos casi
   secos se descartan (Guayaquil marcaba R100 con caudal 0). Tabla `lluvias`, `/api/lluvias`, `--solo-lluvias`.
+- `emergencias.py` (pedido de Andrés: dónde YA hay emergencia; no cambia el color, se marca aparte en el mapa):
+  último SitRep nacional de la SNGR (PDF de gestionderiesgos.gob.ec/sitrep-eventos-de-lluvias-por-alerta-roja/, se lee
+  con `lectores.py`, solo cuando sale uno nuevo; tabla `sitrep`) -> por cantón: desbordado, subiendo, emergencia, coe,
+  albergue (solo filas con fecha). Y agua observada por Copernicus GFM (WMS público de GloFAS, EPSG:3857, cuadros de
+  0,75°: más grande y dibuja contornos; color exacto 232,76,120; tabla `agua_satelite` por día). "Emergencia oficial" =
+  todo menos "subiendo". Ojo arrozales del Guayas: el radar puede contarlos como agua.
+- Termómetro de lluvias: % de la población (WorldPop) que vive en cantones en rojo y en amarillo.
 - `preparar_territorio.py` (se corre a mano, una vez): cantones (geoBoundaries/INEC), susceptibilidad SNGR a inundación
   (vector BAJA/MEDIA/ALTA) y deslizamientos (clases 1-5, UTM 17S) y población WorldPop 2020 1 km (BigTIFF LZW, lector
   propio; 3 min la primera vez). Las localidades del censo solo dan provincia y tildes. Escribe `public/territorio.json`

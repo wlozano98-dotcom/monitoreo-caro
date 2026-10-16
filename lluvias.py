@@ -26,6 +26,8 @@ import urllib.request
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 
+import emergencias
+
 ECUADOR = timezone(timedelta(hours=-5))
 SERVICIOS = "https://services.geoglows.org"
 UA = {"User-Agent": "monitoreo-caro (tablero interno SNGR)"}
@@ -462,6 +464,20 @@ def calcular(db, ahora_utc=None):
             crecidas = intentar("rios", rios, db, puntos, inicio, fechas, rejilla) or {}
         fuentes["rios"] = inicio.isoformat()
 
+    # Dónde ya hay emergencia: SitRep de la SNGR y agua vista por satélite (no cambian el color: se marcan aparte)
+    reporte = intentar("sitrep", emergencias.sitrep, db, {i: (c["provincia"], c["canton"]) for i, c in fijo.items()}) or {}
+    satelite = intentar("satelite", emergencias.agua_satelite, db, rejilla) or {}
+    ya = {}
+    for k, marcas in (reporte.get("marcas") or {}).items():
+        resumen = {}
+        for m in marcas:  # por tipo, la fecha más reciente y cuántas veces aparece
+            r = resumen.setdefault(m["tipo"], {"tipo": m["tipo"], "fecha": m["fecha"], "veces": 0})
+            r["veces"] += 1
+            r["fecha"] = max(r["fecha"] or "", m["fecha"] or "") or None
+        ya[int(k)] = {"sitrep": list(resumen.values())}
+    for k, v in (satelite.get("cantones") or {}).items():
+        ya.setdefault(int(k), {})["agua"] = v
+
     filas = []
     for c, info in fijo.items():
         suelo = cuencas.get(c, {}).get("suelo") or []
@@ -506,11 +522,25 @@ def calcular(db, ahora_utc=None):
             "rio": {"tramos": len(rio), "periodo": rio[0]["periodo"], "dia": rio[0]["dia"], "nunca": rio[0]["nunca"]} if rio else None,
             "pob": info["pob"], "pob_inund": info["pob_inund"], "pob_desl": info["pob_desl"],
             "inund_alta": info["inund_alta"], "desl_alta": info["desl_alta"],
+            "ya": ya.get(c),
         })
     # Orden (decisión de Andrés): primero la gente en zona de inundación, que es lo más grave; luego deslizamientos.
     filas.sort(key=lambda f: (f["color"] != "rojo", -f["pob_inund"], -f["pob_desl"]))
+    color = {f["id"]: f["color"] for f in filas}
+    graves = {"desbordado": 0, "emergencia": 1, "albergue": 2, "coe": 3, "subiendo": 4}
+    lista_ya = []
+    for c, v in ya.items():
+        info = fijo[c]
+        primero = min((graves[m["tipo"]] for m in v.get("sitrep", [])), default=9)
+        lista_ya.append({"id": c, "canton": info["canton"], "provincia": info["provincia"], "color": color.get(c),
+                         "pob": info["pob"], "pob_inund": info["pob_inund"], "pob_desl": info["pob_desl"], **v,
+                         "_orden": (primero, -(v.get("agua") or {}).get("km2", 0), -info["pob_inund"])})
+    lista_ya.sort(key=lambda f: f.pop("_orden"))
     return {
         "creado": ahora_utc.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "sitrep": {k: reporte.get(k) for k in ("numero", "fecha", "url", "cifras")} if reporte else None,
+        "satelite": {"pasadas": satelite.get("pasadas", [])} if satelite else None,
+        "ya": lista_ya,
         "inamhi": vigentes,
         "fuentes": fuentes,
         "errores": errores,

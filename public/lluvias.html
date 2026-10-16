@@ -22,8 +22,20 @@
     .estado-ll { font-size: 34px; font-weight: 800; letter-spacing: -.02em; line-height: 1; text-transform: uppercase; color: var(--n-roja-texto); }
     .estado-ll.amarillo { color: var(--n-amarilla-texto); }
     .estado-ll.verde { color: var(--n-verde-texto); }
-    .inamhi-linea { margin-top: 14px; display: flex; gap: 10px; align-items: flex-start; font-size: 14px; background: var(--panel-2); border-radius: 10px; padding: 10px 14px; }
-    .inamhi-linea .icono { color: var(--n-naranja-texto); margin-top: 3px; }
+    .sngr { margin-top: 16px; background: var(--panel-2); border-radius: 10px; padding: 14px 18px 16px; }
+    .sngr h3 { font-size: 13px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--texto-2); display: flex; gap: 8px; flex-wrap: wrap; align-items: baseline; }
+    .sngr h3 span { font-weight: 500; letter-spacing: .02em; text-transform: none; color: var(--texto-3); }
+    .sngr .vinetas { margin-top: 10px; gap: 7px; }
+    .sngr .vinetas li { font-size: 15px; }
+    .sngr .ver { display: inline-block; margin-top: 10px; font-size: 13px; font-weight: 600; color: var(--acento); }
+    .foto-sat { margin-top: 12px; display: grid; grid-template-columns: minmax(0, 360px) minmax(0, 1fr); gap: 8px 18px; align-items: start; }
+    @media (max-width: 640px) { .foto-sat { grid-template-columns: 1fr; } }
+    .foto-sat svg { width: 100%; height: auto; max-height: 340px; background: var(--fondo); border-radius: 10px; }
+    .ficha .foto-sat svg { max-height: 260px; background: var(--panel-2); }
+    .foto-sat .limite { fill: none; stroke: var(--night); stroke-width: 1.4; vector-effect: non-scaling-stroke; }
+    .foto-sat .fuera { fill: var(--panel-2); opacity: .85; }
+    .foto-sat p { font-size: 13px; color: var(--texto-2); line-height: 1.45; }
+    .foto-sat p b { color: var(--texto); }
     .aviso-fuente { margin-top: 8px; font-size: 13px; color: var(--critico-texto); }
 
     /* --- mapa --- */
@@ -33,11 +45,33 @@
     .mapa path { fill: var(--fondo); stroke: var(--lavanda); stroke-width: .6; vector-effect: non-scaling-stroke; transition: fill .3s var(--ease); }
     .mapa path.rojo { fill: var(--n-roja); stroke: var(--fondo); cursor: pointer; }
     .mapa path.amarillo { fill: var(--n-amarilla); stroke: var(--fondo); cursor: pointer; }
+    .mapa path { cursor: pointer; }
+    .mapa path:not(.rojo):not(.amarillo):hover { fill: var(--panel); }
     .mapa path.rojo:hover, .mapa path.amarillo:hover { opacity: .8; }
     .mapa path.activo { stroke: var(--night); stroke-width: 2.5; }
     :root[data-theme="dark"] .mapa path.activo { stroke: #fff; }
     @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .mapa path.activo { stroke: #fff; } }
     .leyenda-ll { display: flex; gap: 6px; flex-wrap: wrap; }
+    .mapa .marca-ya circle { cursor: pointer; }
+    .ficha { background: var(--fondo); border-radius: 10px; padding: 14px 16px; display: grid; gap: 8px; }
+    .ficha h3 { font-size: 18px; font-weight: 800; display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+    .ficha h3 small { font-size: 13px; font-weight: 500; color: var(--texto-3); }
+    .ficha .cerrar { border: 0; background: none; font-size: 20px; line-height: 1; cursor: pointer; color: var(--texto-3); padding: 0 2px; }
+    .ficha .explica { font-size: 14px; color: var(--texto-2); }
+    .ficha .chips { display: flex; flex-wrap: wrap; gap: 5px; }
+    .ficha .chip { width: fit-content; }
+    .ficha summary { cursor: pointer; font-size: 14px; font-weight: 600; color: var(--acento); display: inline-flex; align-items: center; gap: 4px; list-style: none; }
+    .ficha summary::-webkit-details-marker { display: none; }
+    .ficha details[open] summary .icono { transform: rotate(90deg); }
+    .ficha .foto-sat { grid-template-columns: 1fr; }
+    .ficha .detalle { background: var(--panel-2); }
+    .ficha .gente.corta { max-width: none; }
+    .mapa .m-sitrep { fill: var(--night); stroke: #fff; stroke-width: 1.6; }
+    .mapa .m-agua { fill: var(--inund); stroke: #fff; stroke-width: 1.6; }
+    .leyenda-ll i.m-sitrep { background: var(--night); box-shadow: 0 0 0 1.5px #fff, 0 0 0 2.5px var(--linea-fuerte); }
+    .leyenda-ll i.m-agua { background: var(--inund); box-shadow: 0 0 0 1.5px #fff, 0 0 0 2.5px var(--linea-fuerte); }
+    :root[data-theme="dark"] .mapa .m-sitrep { fill: #fff; stroke: var(--night); }
+    @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .mapa .m-sitrep { fill: #fff; stroke: var(--night); } }
     .mapa-nota { font-size: 12px; color: var(--texto-3); }
 
     /* --- prioridades: los círculos numerados de "Qué hacer hoy" --- */
@@ -58,6 +92,13 @@
     .fila-c .chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
     .chip.viene i { background: var(--n-roja); }
     .chip.suelo i { background: var(--inund); }
+    .chip.ya { background: var(--night); color: #fff; }
+    .chip.ya i { background: #fff; }
+    .chip.satel { background: var(--inund); color: #fff; }
+    .chip.satel i { background: #fff; }
+    .chip.estado { font-weight: 700; }
+    .chip.estado.rojo i { background: var(--n-roja); }
+    .chip.estado.amarillo i { background: var(--n-amarilla); }
     .gente { display: grid; gap: 7px; align-content: start; }
     .gente .total { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
     .gente .total b { font-size: 30px; font-weight: 800; color: var(--acento); font-variant-numeric: tabular-nums; letter-spacing: -.02em; line-height: 1; }
@@ -137,7 +178,7 @@
         <p class="nivel-razon" id="estado-razon"></p>
       </div>
       <dl class="cifras-hoy" id="cifras"></dl>
-      <div class="inamhi-linea" id="inamhi" hidden></div>
+      <div class="sngr" id="sngr" hidden></div>
       <p class="aviso-fuente" id="errores" hidden></p>
     </div>
 
@@ -149,8 +190,11 @@
           <span class="chip"><i style="background:var(--n-roja)"></i>Actuar</span>
           <span class="chip"><i style="background:var(--n-amarilla)"></i>Atención</span>
           <span class="chip"><i style="background:var(--fondo);box-shadow:inset 0 0 0 1px var(--linea-fuerte)"></i>Sin señal</span>
+          <span class="chip"><i class="m-sitrep"></i>Emergencia reportada (SitRep)</span>
+          <span class="chip"><i class="m-agua"></i>Agua vista por satélite</span>
         </div>
-        <p class="mapa-nota">Toque un cantón pintado para ver su detalle. Galápagos no aparece: estas fuentes cubren el continente.</p>
+        <p class="mapa-nota">Toque cualquier cantón o punto para ver su ficha. Galápagos no aparece: estas fuentes cubren el continente.</p>
+        <div class="ficha" id="ficha" hidden></div>
       </section>
       <section class="panel acciones" aria-labelledby="t-prioridad">
         <h2 class="pastilla oscura" id="t-prioridad">Prioridad hoy</h2>
@@ -192,10 +236,12 @@
               <dd>Viene algo fuerte en un cantón con zonas de riesgo de inundación o deslizamiento, aunque todavía no haya llovido ahí; o viene lluvia (alerta alta o 40 mm o más pronosticados) sobre terreno ya mojado.</dd></div>
             <div><dt>Personas en zonas de riesgo</dt>
               <dd>Cuánta gente vive dentro de las zonas que la SNGR marca con susceptibilidad alta a inundación o a deslizamientos. Es población total (WorldPop 2020, la que usan la ONU y OCHA), ciudades incluidas. No es cuánta gente se va a afectar: es cuánta vive donde el riesgo es mayor.</dd></div>
+            <div><dt>Puntos negros y azules del mapa</dt>
+              <dd>Dónde ya hay emergencia, según dos fuentes que no cambian el color: el último SitRep de la SNGR (ríos desbordados o subiendo, emergencias declaradas, COE en alerta roja, albergues) y el agua que detecta el radar del satélite Sentinel-1 de Copernicus, que ve a través de las nubes. El satélite pasa por cada zona cada pocos días, no ve bien bajo el bosque ni dentro de las ciudades, y en zonas arroceras puede contar campos inundados.</dd></div>
             <div><dt>Qué tan confiable es</dt>
               <dd>Las alertas del INAMHI y las zonas de riesgo de la SNGR son oficiales. La lluvia pronosticada (modelo WRF del INAMHI) falla más en la sierra. Los ríos se miran en su escenario central, no en el más extremo; si ningún río aparece, es porque ese escenario no muestra crecidas fuera de lo común. Las reglas del color son de este tablero, no del INAMHI.</dd></div>
           </dl>
-          <p class="fuentes-ll">Fuentes, todas públicas: alertas meteorológicas, pronóstico de lluvia WRF, sistema de alerta de crecidas repentinas (FFGS), lluvia por satélite PERSIANN y pronóstico de ríos GEOGLOWS, del visor del INAMHI (inamhi.geoglows.org); mapas de susceptibilidad a inundación y a deslizamientos de la SNGR; población WorldPop 2020 (1 km); límites cantonales del INEC (geoBoundaries). Se actualiza cada 2 horas; las fuentes cambian entre una y cuatro veces al día.</p>
+          <p class="fuentes-ll">Fuentes, todas públicas: alertas meteorológicas, pronóstico de lluvia WRF, sistema de alerta de crecidas repentinas (FFGS), lluvia por satélite PERSIANN y pronóstico de ríos GEOGLOWS, del visor del INAMHI (inamhi.geoglows.org); mapas de susceptibilidad a inundación y a deslizamientos de la SNGR; informes de situación (SitRep) de la SNGR; agua observada del Servicio de Monitoreo Global de Inundaciones de Copernicus (vía GloFAS); población WorldPop 2020 (1 km); límites cantonales del INEC (geoBoundaries). Se actualiza cada 2 horas; las fuentes cambian entre una y cuatro veces al día.</p>
         </section>
       </div>
     </details>
@@ -283,10 +329,55 @@
         <span><i style="background:var(--desl)"></i><b>${miles(c.pob_desl)}</b> en deslizamientos</span>
         <span class="de-total">de ${cifra(c.pob)} habitantes</span></p></div>`;
   }
+  // Lo que ya pasó, según el SitRep y el satélite
+  const QUE = { desbordado: "Río desbordado", emergencia: "Emergencia declarada", albergue: "Albergue abierto", coe: "COE en alerta roja", subiendo: "Río subiendo de nivel" };
+  function chipsYa(v) {
+    if (!v) return "";
+    const p = (v.sitrep || []).map((m) => `<span class="chip ya"><i></i>${QUE[m.tipo]}${m.veces > 1 ? ` (${m.veces})` : ""}${m.fecha ? ` · ${fecha(m.fecha)}` : ""}</span>`);
+    if (v.agua) p.push(`<span class="chip satel"><i></i>${v.agua.km2.toLocaleString("es-EC", { maximumFractionDigits: 1 })} km² de agua · satélite ${fecha(v.agua.fecha)}</span>`);
+    return p.join("");
+  }
+  function fraseYa(v) {
+    const t = [], tipos = (v.sitrep || []).map((m) => m.tipo);
+    if (tipos.includes("desbordado")) t.push("la SNGR reporta un río desbordado");
+    if (tipos.includes("emergencia")) t.push("el cantón está declarado en emergencia");
+    if (tipos.includes("albergue")) t.push("hay un albergue abierto");
+    if (tipos.includes("coe")) t.push("el COE cantonal está en alerta roja");
+    if (tipos.includes("subiendo")) t.push("la SNGR vigila ríos que suben de nivel");
+    if (v.agua) t.push(`el satélite vio ${v.agua.km2.toLocaleString("es-EC", { maximumFractionDigits: 1 })} km² de agua fuera de lo normal el ${fecha(v.agua.fecha)}`);
+    const u = t.length > 1 ? t.slice(0, -1).join(", ") + " y " + t[t.length - 1] : t[0] || "";
+    return u.charAt(0).toUpperCase() + u.slice(1) + ".";
+  }
+  // "Foto" del satélite: el agua que vio Copernicus, recortada al contorno del cantón (las dos en grados: cerca del
+  // ecuador, Mercator y lat/lon casi coinciden)
+  let formas = new Map();
+  const merc = (lon, lat) => [lon * 20037508.34 / 180, Math.log(Math.tan((90 + lat) * Math.PI / 360)) * 6378137];
+  function fotoSatelite(c) {
+    const t = formas.get(c.id), a = c.ya?.agua;
+    if (!t || !a) return "";
+    const n = t.d.match(/-?[\d.]+/g).map(Number);
+    const xs = n.filter((_, i) => i % 2 === 0), ys = n.filter((_, i) => i % 2 === 1);
+    let [x0, x1, y0, y1] = [Math.min(...xs), Math.max(...xs), Math.min(...ys), Math.max(...ys)];
+    const m = Math.max(x1 - x0, y1 - y0) * 0.06;
+    [x0, x1, y0, y1] = [x0 - m, x1 + m, y0 - m, y1 + m];
+    const [o, e, nn, ss] = [x0 / 100 - 81.1, x1 / 100 - 81.1, 1.5 - y0 / 100, 1.5 - y1 / 100];
+    const [mx0, my0] = merc(o, ss), [mx1, my1] = merc(e, nn);
+    const ancho = 600, alto = Math.round(600 * (y1 - y0) / (x1 - x0));
+    const url = `https://ows.globalfloods.eu/glofas-ows/ows.py?service=WMS&version=1.3.0&request=GetMap&layers=gfm_observed_flood_extent_group_layer&styles=&crs=EPSG:3857&bbox=${mx0},${my0},${mx1},${my1}&width=${ancho}&height=${Math.min(alto, 900)}&format=image/png&transparent=true&time=${a.fecha}T00:00:00Z`;
+    const km = a.km2.toLocaleString("es-EC", { maximumFractionDigits: 1 });
+    return `<details><summary>${icono("flecha")}Ver el agua que vio el satélite</summary><div class="foto-sat">
+      <svg viewBox="${x0} ${y0} ${x1 - x0} ${y1 - y0}" role="img" aria-label="Agua detectada por satélite en ${esc(c.canton)}">
+        <defs><clipPath id="corte-${c.id}"><path d="${t.d}"/></clipPath></defs>
+        <path d="${t.d}" fill="var(--panel)"/>
+        <image href="${url}" x="${x0}" y="${y0}" width="${x1 - x0}" height="${y1 - y0}" preserveAspectRatio="none" clip-path="url(#corte-${c.id})" loading="lazy"/>
+        <path class="limite" d="${t.d}"/></svg>
+      <p><b>${km} km²</b> de agua fuera de lo normal en ${esc(c.canton)}, vista por el radar del satélite Sentinel-1 el <b>${fecha(a.fecha)}</b> (en rosado). El radar ve a través de las nubes, pero pasa cada pocos días y no ve bien bajo el bosque ni dentro de las ciudades; en zonas arroceras puede contar campos inundados.<br><span style="color:var(--texto-3)">Fuente: <a href="https://global-flood.emergency.copernicus.eu/" target="_blank" rel="noopener">Copernicus, Servicio de Monitoreo Global de Inundaciones</a>.</span></p>
+    </div></details>`;
+  }
   const fila = (c) => `<li class="fila-c" id="c-${c.id}">
       <div><h3><span class="punto-c" style="background:var(--n-${c.color === "rojo" ? "roja" : "amarilla"})"></span>${esc(c.canton)} <small>${esc(c.provincia)}</small></h3>
-        <p class="explica">${esc(frase(c))}</p><div class="chips">${chips(c)}</div></div>
-      ${gente(c)}${detalle(c)}</li>`;
+        <p class="explica">${esc(frase(c))}</p><div class="chips">${chips(c)}${chipsYa(c.ya)}</div></div>
+      ${gente(c)}${detalle(c)}${fotoSatelite(c)}</li>`;
 
   async function cargar() {
     let terr, d;
@@ -308,32 +399,53 @@
     } else $("estado").textContent = "Sin datos todavía";
 
     // Resumen
+    const sum = (a, k) => a.reduce((s, c) => s + (c[k] || 0), 0);
     const est = $("estado-ll");
     if (rojos.length) { est.textContent = "Actuar"; $("estado-razon").textContent = `en ${rojos.length} ${rojos.length === 1 ? "cantón" : "cantones"} · ${amarillos.length} más en atención`; }
     else if (amarillos.length) { est.textContent = "Atención"; est.classList.add("amarillo"); $("estado-razon").textContent = `en ${amarillos.length} cantones · ninguno para actuar`; }
     else { est.textContent = "Sin señal"; est.classList.add("verde"); $("estado-razon").textContent = "ningún cantón con señales de lluvia fuerte"; }
-    const sum = (a, k) => a.reduce((s, c) => s + (c[k] || 0), 0);
+    const ya = d.ya || [];
+    // Emergencia oficial: desbordamiento, declaratoria, albergue o COE en rojo. Ríos subiendo y agua por satélite: vigilancia.
+    const oficial = ya.filter((v) => (v.sitrep || []).some((m) => m.tipo !== "subiendo"));
     const enInundacion = sum(rojos, "pob_inund");
-    const alerta = d.inamhi?.[0];
     $("cifras").innerHTML = `
       <div><dt>Cantones para actuar</dt><dd>${rojos.length}<small>${amarillos.length} más en atención</small></dd></div>
       <div><dt>Viven en zona de inundación</dt><dd>${cifra(enInundacion)}<small>en los cantones en rojo · ${cifra(sum(rojos, "pob_desl"))} más en deslizamientos</small></dd></div>
-      <div><dt>Alerta del INAMHI</dt><dd>${alerta ? `n.º ${esc(alerta.no)}` : "—"}<small>${alerta ? `hasta el ${fecha(alerta.fin)}, ${esc(alerta.fin.slice(11, 16))}` : "ninguna vigente"}</small></dd></div>`;
-    if (d.inamhi?.length) {
-      $("inamhi").hidden = false;
-      $("inamhi").innerHTML = `${icono("alerta")}<span>${d.inamhi.map((a) => `<b>INAMHI, alerta meteorológica n.º ${esc(a.no)}:</b> ${esc(a.tipo.toLowerCase())}, vigente hasta el ${fecha(a.fin)} a las ${esc(a.fin.slice(11, 16))}.`).join(" ")}
-        Lluvia pronosticada hasta el ${d.fuentes?.wrf ? fecha(d.fuentes.wrf) : "—"}; lluvia medida hasta el ${d.fuentes?.persiann ? fecha(d.fuentes.persiann) : "—"}.</span>`;
+      <div><dt>Con emergencia oficial</dt><dd>${oficial.length}<small>cantones${d.sitrep ? ` según el SitRep n.º ${d.sitrep.numero}` : ""}</small></dd></div>`;
+    if (d.sitrep) {
+      const k = d.sitrep.cifras || {};
+      const nombres = (tipo) => ya.filter((v) => (v.sitrep || []).some((m) => m.tipo === tipo))
+        .map((v) => { const m = v.sitrep.find((x) => x.tipo === tipo); return `${esc(v.canton)}${m.fecha ? ` (${fecha(m.fecha)})` : ""}`; });
+      const lista = (a) => a.length > 1 ? a.slice(0, -1).join(", ") + " y " + a[a.length - 1] : a[0];
+      const v = [];
+      if (k.eventos) v.push(`<b>${miles(k.eventos)} eventos</b> por lluvias desde el 29 de agosto${k.cantones ? `, en ${k.cantones} cantones de ${k.provincias} provincias` : ""}${k.impactadas ? `; <b>${miles(k.impactadas)} personas</b> impactadas${k.damnificadas ? ` (${miles(k.damnificadas)} damnificadas)` : ""}` : ""}${k.viviendas_afectadas ? ` y ${miles(k.viviendas_afectadas)} viviendas afectadas` : ""}.`);
+      const des = nombres("desbordado"), em = nombres("emergencia"), al = nombres("albergue"), coe = nombres("coe");
+      if (des.length) v.push(`<b>Ríos desbordados</b> en ${lista(des)}.`);
+      if (em.length) v.push(`<b>En emergencia declarada:</b> ${lista(em)}.`);
+      if (al.length || coe.length) v.push([al.length ? `<b>Albergues abiertos</b> en ${lista(al)}` : "", coe.length ? `<b>COE en alerta roja</b> en ${lista(coe)}` : ""].filter(Boolean).join("; ") + ".");
+      if (k.bienes) v.push(`La SNGR ha entregado ${miles(k.bienes)} bienes de asistencia humanitaria.`);
+      const agua = ya.filter((x) => x.agua).sort((a, b) => b.agua.km2 - a.agua.km2);
+      if (agua.length) v.push(`Además, el satélite vio agua fuera de lo normal en <b>${agua.length} cantones</b>, sobre todo ${lista(agua.slice(0, 3).map((x) => esc(x.canton)))} (Copernicus).`);
+      $("sngr").hidden = false;
+      $("sngr").innerHTML = `<h3>Lo último de la Secretaría <span>SitRep n.º ${d.sitrep.numero} · ${fecha(d.sitrep.fecha)}, ${esc(d.sitrep.fecha.slice(11, 16))}</span></h3>
+        <ul class="vinetas">${v.map((x) => `<li>${x}</li>`).join("")}</ul>
+        <a class="ver" href="${esc(d.sitrep.url)}" target="_blank" rel="noopener">Ver el informe completo</a>`;
     }
     const caidas = Object.keys(d.errores || {});
     if (caidas.length) { $("errores").hidden = false; $("errores").textContent = `Esta vez no respondió: ${caidas.join(", ")}. El color se calculó con las demás fuentes.`; }
 
     // Mapa
+    formas = new Map(terr.cantones.map((t) => [t.id, t]));
     const svg = $("mapa");
+    const porYa = new Map(ya.map((v) => [v.id, v]));
     svg.setAttribute("viewBox", terr.vista.join(" "));
     svg.innerHTML = terr.cantones.map((t) => {
       const c = por.get(t.id);
-      return `<path d="${t.d}" data-id="${t.id}" class="${c ? c.color : ""}"><title>${esc(t.canton)} (${esc(t.provincia)})${c ? ` · ${c.color === "rojo" ? "actuar" : "atención"}` : ""}</title></path>`;
-    }).join("");
+      return `<path d="${t.d}" data-id="${t.id}" class="${c ? c.color : ""}"><title>${esc(t.canton)} (${esc(t.provincia)})${c ? ` · ${c.color === "rojo" ? "actuar" : "atención"}` : ""}${porYa.has(t.id) ? " · ya hay emergencia" : ""}</title></path>`;
+    }).join("") + `<g class="marca-ya">${terr.cantones.filter((t) => porYa.has(t.id)).map((t) => {
+      const v = porYa.get(t.id), dos = v.sitrep && v.agua;
+      return (v.sitrep ? `<circle class="m-sitrep" data-id="${t.id}" cx="${t.cx - (dos ? 4 : 0)}" cy="${t.cy}" r="4.2"/>` : "") + (v.agua ? `<circle class="m-agua" data-id="${t.id}" cx="${t.cx + (dos ? 4 : 0)}" cy="${t.cy}" r="4.2"/>` : "");
+    }).join("")}</g>`;
 
     if (rojos.length) { $("cuenta-lluvias").hidden = false; $("cuenta-lluvias").textContent = rojos.length; }
 
@@ -355,21 +467,45 @@
     pintarAmarillos(false);
     $("ver-mas").onclick = () => pintarAmarillos(true);
 
-    // Del mapa o la prioridad a la fila del cantón
+    // Prioridad: baja a la fila del cantón en la lista
     const ir = (id) => {
       const c = por.get(+id);
       if (!c) return;
       if (c.color === "amarillo" && !$(`c-${id}`)) pintarAmarillos(true);
       $(c.color === "rojo" ? "sec-rojo" : "sec-amarillo").open = true;
-      document.querySelectorAll(".mapa .activo").forEach((p) => p.classList.remove("activo"));
-      const p = svg.querySelector(`path[data-id="${id}"]`);
-      if (p) { p.classList.add("activo"); p.parentNode.appendChild(p); }
       const li = $(`c-${id}`);
       li.scrollIntoView({ behavior: "smooth", block: "start" });
       li.classList.add("destello");
       setTimeout(() => li.classList.remove("destello"), 1600);
     };
-    svg.addEventListener("click", (e) => e.target.dataset?.id && ir(e.target.dataset.id));
+    // Mapa: cualquier cantón abre su ficha debajo del mapa
+    const ESTADO = { rojo: ["roja", "Para actuar"], amarillo: ["amarilla", "En atención"] };
+    const ficha = (id) => {
+      const c = por.get(+id), v = porYa.get(+id), t = formas.get(+id);
+      if (!t) return;
+      document.querySelectorAll(".mapa .activo").forEach((p) => p.classList.remove("activo"));
+      const p = svg.querySelector(`path[data-id="${id}"]`);
+      if (p) { p.classList.add("activo"); p.parentNode.insertBefore(p, svg.querySelector(".marca-ya")); }
+      const base = c || { id: +id, canton: t.canton, provincia: t.provincia, pob: t.pob, pob_inund: t.pob_inund, pob_desl: t.pob_desl, ya: v };
+      let cuerpo;
+      if (c) {
+        cuerpo = `<p class="explica">${esc(frase(c))}${v ? " " + esc(fraseYa(v)) : ""}</p>
+          <div class="chips"><span class="chip"><i style="background:var(--n-${ESTADO[c.color][0]})"></i>${ESTADO[c.color][1]}</span>${chips(c)}${chipsYa(v)}</div>
+          ${barraCorta(c)}${detalle(c)}`;
+      } else if (v) {
+        cuerpo = `<p class="explica">${esc(fraseYa(v))} Por lo que viene, no está ni en rojo ni en amarillo.</p>
+          <div class="chips">${chipsYa(v)}</div>${barraCorta(base)}`;
+      } else {
+        cuerpo = `<p class="explica">Sin señales de lluvia fuerte ni emergencia reportada.</p>${barraCorta(base)}`;
+      }
+      const foto = fotoSatelite(base);
+      $("ficha").hidden = false;
+      $("ficha").innerHTML = `<h3><span>${esc(t.canton)} <small>${esc(t.provincia)}</small></span><button class="cerrar" type="button" aria-label="Cerrar">×</button></h3>
+        ${cuerpo}${c ? foto : foto.replace("<details>", "<details open>")}`;
+      $("ficha").querySelector(".cerrar").onclick = () => { $("ficha").hidden = true; document.querySelectorAll(".mapa .activo").forEach((q) => q.classList.remove("activo")); };
+      if ($("ficha").getBoundingClientRect().top > innerHeight - 120) $("ficha").scrollIntoView({ behavior: "smooth", block: "nearest" });
+    };
+    svg.addEventListener("click", (e) => e.target.dataset?.id && ficha(e.target.dataset.id));
     $("prioridad").addEventListener("click", (e) => { const li = e.target.closest("li[data-id]"); if (li) ir(li.dataset.id); });
 
   }
