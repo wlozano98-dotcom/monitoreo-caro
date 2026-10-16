@@ -1,185 +1,210 @@
 {
   "vinetas": [
-    "Noche quieta: 84 piezas en 24 h frente a 88; ninguna crítica a la Secretaría (ayer, solo Diario La Tribuna).",
-    "Quitopía sigue: El Comercio reitera la fiscalización; el asambleísta propuso pedir información a organismos de gestión de riesgos.",
-    "Cifras de afectados no cuadran: 20.660 (Carolina, Radio Forever), más de 22 mil (Radar Rojo), más de 19.000 (Los Andes).",
-    "Inamhi: tormentas hasta el domingo 18 (Vistazo, Primicias, Expreso, FM Mundo); Vistazo difunde el análisis SNGR de 17 provincias."
+    "Cero piezas críticas en 24 h (ayer 1); 71 piezas frente a 91, casi todas neutras.",
+    "Los medios giran a energía: seis notas sobre Colombia reanudando el despacho eléctrico; tema del Gobierno central, no de la Secretaría.",
+    "Inamhi alerta lluvias en 17 provincias hasta el domingo; Primicias ubica hoy el foco en Esmeraldas, Manabí y Santo Domingo.",
+    "Riesgo: la Asamblea fiscalizará Quitopía y el asambleísta pide información también a organismos de gestión de riesgos."
   ],
   "fuentes_vinetas": [
+    [],
     [
-      "9b39fcb99d"
+      "c692b6800d",
+      "9452b3e91c",
+      "01d9b7b889",
+      "8276c0558c",
+      "5f35b19960",
+      "3ab69e9dc8"
     ],
     [
-      "84d0ddf9d3",
-      "c6cac919f2"
+      "695e492b5d",
+      "b2d2e8ad81",
+      "d2e2ccfbdf"
     ],
     [
-      "38b7f9030b",
-      "e464ce52d2",
-      "1552e069c7"
-    ],
-    [
-      "c8e95c3849",
-      "dfa9f970e3",
-      "71507b3260",
-      "abfbf7d205",
-      "d181f3df35"
+      "c6cac919f2",
+      "84d0ddf9d3"
     ]
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy en web y X una cifra oficial única de afectados por provincia.",
-      "porque": "Circulan 20.660 (Carolina en Radio Forever), más de 22 mil (Radar Rojo, 790 vistas) y más de 19.000 (Los Andes).",
-      "base_legal": "Art. 61 y 72",
+      "accion": "Activar con gobernaciones de Esmeraldas, Manabí y Santo Domingo avisos radiales de alojamientos.",
+      "porque": "Primicias ubica hoy las lluvias en esas provincias, el Inamhi alerta hasta el domingo y Santo Domingo ya interviene seis puntos críticos.",
+      "base_legal": "Art. 13, 61 y 64.6",
+      "fuentes": [
+        "d2e2ccfbdf",
+        "b2d2e8ad81",
+        "9ab2cd43f6"
+      ]
+    },
+    {
+      "accion": "Publicar hoy en web y redes una cifra oficial única de afectados por provincia.",
+      "porque": "Circulan cifras distintas: 20.660 (Carolina en Radio Forever), más de 22 mil (Radar Rojo) y 19.340 (SNGR, 13 de octubre).",
+      "base_legal": "Art. 61, 72 y 73",
       "fuentes": [
         "38b7f9030b",
         "e464ce52d2",
-        "1552e069c7"
+        "bcf42433ed"
       ]
     },
     {
-      "accion": "Alistar informe técnico SNGR sobre riesgos en Quitopía antes del pedido de la Asamblea.",
-      "porque": "El Comercio y la Asamblea: asambleísta propone requerir información al Municipio y a organismos de gestión de riesgos.",
-      "base_legal": "Art. 72 y 23.21",
+      "accion": "Preparar informe técnico de alertas y lineamientos enviados a Quito ante fiscalización de Quitopía.",
+      "porque": "Asambleísta pidió requerir información al Municipio y a organismos de gestión de riesgos; El Comercio confirma la fiscalización.",
+      "base_legal": "Art. 23.21 y 72",
       "fuentes": [
-        "84d0ddf9d3",
-        "c6cac919f2"
-      ]
-    },
-    {
-      "accion": "Difundir por Alertas Ecuador y radios del sur el aviso de tormentas hasta el domingo 18.",
-      "porque": "Inamhi alerta tormentas y ráfagas hasta el 18 (Vistazo, Primicias, FM Mundo); Diario La Tribuna exige más alerta temprana en el sur.",
-      "base_legal": "Art. 61 y 62",
-      "fuentes": [
-        "c8e95c3849",
-        "dfa9f970e3",
-        "abfbf7d205",
-        "9b39fcb99d"
+        "c6cac919f2",
+        "84d0ddf9d3"
       ]
     }
   ],
   "narrativas": [
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "Sigue siendo la más amplia: MIT (Cotopaxi), Gobernación de Santa Elena, MTDH (San Cristóbal), Cancillería (Suiza y Chile), CNE con la SNGR, taller SNGR-PMA y, en la noche, Segura EP de Guayaquil con 1.800 kits. Fortaleza para la Secretaría, pero casi todo sale de cuentas oficiales con pocas vistas.",
+      "explicacion": "La empujan cuentas oficiales (MIT, gobernaciones, MTDH, Cancillería, Ejército) y el CNE, que coordinará 2.500 recintos alternos con la SNGR. Fortaleza para la Secretaría, pero con pocas vistas fuera de las cuentas institucionales.",
       "ids": [
-        "6c0045a933",
-        "49c6ec1d84",
-        "6764e1ea3b",
-        "709907c545",
-        "12540a3de2",
-        "4c66b087b8",
-        "33012ba104",
-        "f3607654c9",
-        "c5b8bdea94",
-        "a3c4c5f944",
-        "3a71216ed8",
-        "436ed51d09",
-        "ace6bfa502",
-        "affff9dedd",
-        "ef723f46a2",
-        "ba423da366",
-        "536a387d06",
-        "9d9d006b7f",
-        "68fd19bf78",
-        "13cfdae75a",
-        "d4c33a7379",
-        "928ecd9cb3",
-        "5f3e96df58",
-        "d3cb76eab4",
         "fa4cd41f5a",
         "150110fc4e",
         "5592cc5dcb",
         "fdfe45cccb",
+        "680afca209",
+        "727dec5eac",
+        "cce0a8c985",
+        "0946fd62bb",
+        "7732ce063d",
+        "55c0674f24",
+        "d13b2ea789",
+        "f73a7ba8f5",
         "6567da953f",
         "7090da0809",
         "a7c71d5039",
-        "cce0a8c985",
-        "680afca209",
-        "727dec5eac",
+        "1ed1831cf2",
+        "9d9d006b7f",
+        "536a387d06",
         "89f63e1d29",
-        "d181f3df35",
-        "9b2e8db5cd"
+        "f2817c60fb",
+        "928ecd9cb3",
+        "5f3e96df58",
+        "f3607654c9",
+        "c5b8bdea94",
+        "6c0045a933",
+        "4c66b087b8",
+        "33012ba104",
+        "12540a3de2",
+        "709907c545",
+        "6764e1ea3b",
+        "ace6bfa502",
+        "b4ce65a036",
+        "3a71216ed8",
+        "436ed51d09",
+        "affff9dedd",
+        "cbb70d4e53",
+        "ef723f46a2",
+        "d3cb76eab4",
+        "822741b6cf"
       ]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "La alimenta la alerta del Inamhi hasta el domingo 18 (Vistazo, Primicias, Expreso, El Diario, FM Mundo) y la posible intensidad récord (ElOriente, Prensa Mercosur). Diario La Tribuna pide más alerta temprana en el sur: si llegan daños, el reproche apuntaría a la Secretaría.",
+      "explicacion": "La alimenta la alerta del Inamhi hasta el domingo (Vistazo, El Universo, Ecuavisa, Primicias, FM Mundo) y la posible intensidad récord (Prensa Mercosur, ElOriente). Vistazo difunde el análisis de la SNGR sobre 17 provincias vulnerables: oportunidad de liderar la información; Diario La Tribuna pide más alerta temprana en el sur.",
       "ids": [
-        "38372768aa",
-        "335628f846",
-        "54ee39eec8",
-        "e3ce86b3a5",
-        "3aa3b90bae",
-        "648dd2bdb2",
-        "79cd8b7760",
-        "82a3c36eba",
-        "9b39fcb99d",
-        "c0420fa6d4",
-        "61239fe112",
+        "b2d2e8ad81",
+        "d2e2ccfbdf",
+        "695e492b5d",
+        "cdad33abeb",
+        "abfbf7d205",
         "c8e95c3849",
-        "dfa9f970e3",
         "71507b3260",
         "b75b74b6e2",
+        "dfa9f970e3",
+        "61239fe112",
         "35643d3658",
+        "aa5d662a44",
         "6404f7414c",
-        "abfbf7d205",
-        "aa5d662a44"
+        "147bc1103b",
+        "e3ce86b3a5",
+        "d181f3df35",
+        "9b39fcb99d",
+        "c0420fa6d4",
+        "2d9bf861c3",
+        "7898a2e6f0",
+        "f3636b1a04"
       ]
     },
     {
       "titulo": "Se sabía que venía y no se planificó",
-      "explicacion": "Apunta a los GAD y sigue viva con Quitopía: El Comercio reitera la fiscalización pedida por un asambleísta, y Carolina dijo en Radio Forever que los municipios no ejecutaron plenamente sus planes de contingencia. Riesgo: que la fiscalización también pida cuentas a los organismos de gestión de riesgos.",
+      "explicacion": "Apunta a los GAD: Quitopía será fiscalizado (El Comercio, Asamblea) y Carolina dijo en Radio Forever que los municipios no ejecutaron plenamente sus planes. Riesgo: el pedido de información alcanza también a los organismos de gestión de riesgos.",
       "ids": [
+        "84d0ddf9d3",
+        "c6cac919f2",
+        "6a44d4410f",
         "aaf41a4366",
         "4e7d8ba1fd",
         "136b59238f",
-        "87a0b5619b",
-        "c6cac919f2",
-        "84d0ddf9d3",
-        "6a44d4410f"
+        "68fd19bf78",
+        "d745521ebb"
+      ]
+    },
+    {
+      "titulo": "Energía: alivio con Colombia, temor a cortes",
+      "explicacion": "Hoy domina en medios: Colombia reanuda el despacho eléctrico (El Comercio, Vistazo, Metro, Semana) tras el mantenimiento anunciado para el sábado 17; industriales de Manabí piden repartir cortes. Apunta al Gobierno central, no a la Secretaría.",
+      "ids": [
+        "c692b6800d",
+        "9452b3e91c",
+        "01d9b7b889",
+        "8276c0558c",
+        "5f35b19960",
+        "3ab69e9dc8",
+        "ff5e0c09d2",
+        "ff6fee9b43",
+        "5fd31969b8",
+        "bb3447a089",
+        "e983bdf51f",
+        "d093268011",
+        "09dab02f73",
+        "335628f846"
       ]
     },
     {
       "titulo": "El Niño encarece la comida y golpea la economía",
-      "explicacion": "Ecuavisa (arroz, mercados de Quito), Primicias (créditos), Infobae (camaroneros), La Hora (Mazar), Expreso (mantenimiento del sábado 17), El Diario (diferimiento de BanEcuador) y Desde Adentro (GLP). Apunta al Gobierno central, no a la Secretaría.",
+      "explicacion": "Ecuavisa (arroz), Primicias (créditos), El Diario (diferimiento de BanEcuador) y el plan regional de pesca presentado en Panamá (Expreso, ElOriente). Apunta al Gobierno central, no a la Secretaría.",
       "ids": [
         "f6d91b08b5",
-        "2d30c35df4",
         "42895f7ff4",
         "d56afc6356",
-        "e983bdf51f",
-        "1a93c78eb6",
-        "6cc706386d",
-        "09dab02f73",
-        "5fd31969b8",
-        "4516c1054b",
         "8fd352b61c",
-        "6685b99e42"
+        "129e2978e0",
+        "db00605b2a",
+        "b9f0291744",
+        "6685b99e42",
+        "dfd4ce2ba8",
+        "1a93c78eb6"
       ]
     },
     {
       "titulo": "Nos quedamos sin agua y aislados",
-      "explicacion": "Babahoyo (Expreso y El Universo: 300 familias; La Hora: vías), Sigchos, Durán (El Universo) y Santo Domingo con hundimientos y deslizamientos. Sin piezas nuevas en las últimas horas; apunta a servicios locales, pero es riesgo operativo si la respuesta no se ve en territorio.",
+      "explicacion": "Babahoyo (300 familias, vías), Sigchos, Durán, Balao en emergencia por segunda inundación y Santo Domingo con seis puntos críticos (El Universo). Apunta a servicios locales, pero es riesgo operativo si la respuesta no se ve en territorio.",
       "ids": [
         "528b8fb307",
         "497cf2956e",
         "b434d3f484",
         "7c5399b572",
         "efe0726d21",
-        "9ab2cd43f6"
-      ]
-    },
-    {
-      "titulo": "El dengue avanza con las lluvias",
-      "explicacion": "El Universo y Expreso: los casos ya superan los de todo 2025, con Guayas entre las más afectadas; LUMS TV difunde que el Gobierno asigna 285 millones para prevenir brotes. Le toca al MSP, pero los alojamientos temporales lo vuelven tema de la emergencia.",
-      "ids": [
-        "57438a67ec",
-        "eae191c72f",
-        "8d6ac40cf1"
+        "9ab2cd43f6",
+        "85556c6fb4",
+        "b493c806ae",
+        "b8dad2c692"
       ]
     }
   ],
   "rumores": [],
-  "hitos": []
+  "hitos": [
+    {
+      "dia": "2026-10-16",
+      "titulo": "Colombia reanuda despacho de energía a Ecuador",
+      "ids": [
+        "5f35b19960",
+        "3ab69e9dc8",
+        "c692b6800d"
+      ]
+    }
+  ]
 }
