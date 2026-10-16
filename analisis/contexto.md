@@ -1,32 +1,31 @@
-# Contexto para el análisis de fondo (2026-10-15 17:45, hora de Ecuador)
+# Contexto para el análisis de fondo (2026-10-15 21:58, hora de Ecuador)
 
 Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Cita las piezas por su [id].
 
 ## Cifras: últimas 24 h frente a las 24 h anteriores
 
 - hoy · medios · critico: 1
-- hoy · medios · neutro: 40
+- hoy · medios · neutro: 39
 - hoy · medios · positivo: 1
-- hoy · tiktok · neutro: 1
-- hoy · x · neutro: 8
-- hoy · youtube · neutro: 6
+- hoy · x · neutro: 25
+- hoy · x · positivo: 10
+- hoy · youtube · neutro: 7
 - hoy · youtube · positivo: 3
-- ayer · medios · neutro: 59
+- ayer · medios · neutro: 54
 - ayer · medios · positivo: 1
-- ayer · tiktok · neutro: 1
-- ayer · x · critico: 2
-- ayer · x · neutro: 13
-- ayer · x · positivo: 11
-- ayer · youtube · neutro: 11
+- ayer · tiktok · neutro: 2
+- ayer · x · neutro: 18
+- ayer · x · positivo: 7
+- ayer · youtube · neutro: 10
 
 ## Narrativas de la corrida anterior
 
-- Coordinación preventiva y entrega de asistencia oficial — 20 piezas; 15 en 24 h vs 5 antes. La empujan cuentas oficiales y medios en X: Centro Digital, El Noticiero (maquinaria en Vinces), ECU 911, MTDH, Ejército y La Posta con el reporte situacional de Carolina; hoy WQ Radio la entrevistó sobre ayuda humanitaria. Fortaleza para la Secretaría, aunque con poco alcance en redes hoy.
-- Las lluvias empeorarán y no estamos preparados — 11 piezas; 7 en 24 h vs 4 antes. La sostienen Noboa (peores meses: Metro, Expreso, Bloomberg Línea), Crónica (el más poderoso en 75 años), el Inamhi (TC Televisión, El Comercio), Machala Móvil (más lluvias en la segunda quincena de octubre y noviembre) y Diario La Tribuna (alerta temprana en el sur). Si llegan daños mayores, el reproche recaería en la Secretaría.
-- El Niño encarece la comida y golpea la economía — 10 piezas; 6 en 24 h vs 3 antes. Ecuavisa (arroz, mercados de Quito), Primicias (créditos), Infobae (camaroneros piden transparencia energética), Diario Extra (comerciantes del río Vinces) y La Hora (crisis eléctrica y Mazar). Expreso y Machala Móvil preguntan si habrá cortes el sábado 17. Apunta al Gobierno central, no a la Secretaría.
-- Nos quedamos sin agua y aislados — 6 piezas; 1 en 24 h vs 4 antes. Se suma El Universo en Durán: familias usan agua de lluvia porque dicen que llega más limpia que la de la tubería. Siguen Babahoyo (Expreso y El Universo: 300 familias; La Hora: vías), Sigchos (La Gaceta) y el derrame en Quinindé (Tiempo Real). Apunta sobre todo a servicios locales, pero es riesgo operativo si el agua no se ve en territorio.
-- El dengue avanza con las lluvias — 2 piezas; 1 en 24 h vs 1 antes. El Universo y Expreso informan que los casos de dengue ya superan los de todo 2025, con Guayas entre las provincias más afectadas. Le toca al MSP, pero los alojamientos temporales la vuelven tema de la emergencia.
-- Se sabía que venía y no se planificó — 4 piezas; 0 en 24 h vs 4 antes. Apunta a los GAD: El Universo recoge que Noboa cuestionó a prefecturas y gobiernos locales, El Noticiero en TikTok (3.052 vistas) habla de obras municipales pendientes y La Data culpa al Municipio de Quito. Sin piezas nuevas hoy.
+- Las lluvias empeorarán y no estamos preparados — 17 piezas; 10 en 24 h vs 7 antes. Crece con la alerta del Inamhi hasta el 18 de octubre (Vistazo, Primicias, Expreso, El Diario) y ElOriente (intensidad récord), sobre lo dicho por Noboa (peores meses) y Crónica (el más poderoso en 75 años). Diario La Tribuna pide más alerta temprana en el sur: si llegan daños, el reproche apuntaría a la Secretaría.
+- Coordinación preventiva y entrega de asistencia oficial — 24 piezas; 9 en 24 h vs 12 antes. La empujan cuentas oficiales y medios en X (Centro Digital, El Noticiero, ECU 911, MTDH, Ejército, La Posta); hoy se suman El Productor (cooperantes ante El Niño), el PNUD y la visita del ministro Luque a Manabí. Fortaleza para la Secretaría, pero con poco alcance en redes hoy.
+- El Niño encarece la comida y golpea la economía — 12 piezas; 7 en 24 h vs 1 antes. Ecuavisa (arroz, mercados de Quito), Primicias (créditos), Infobae (camaroneros), La Hora (Mazar) y Expreso (mantenimiento del sábado 17); hoy El Diario recoge el plan de diferimiento de BanEcuador y Desde Adentro medidas para el GLP. Apunta al Gobierno central, no a la Secretaría.
+- Nos quedamos sin agua y aislados — 7 piezas; 2 en 24 h vs 2 antes. Babahoyo (Expreso y El Universo: 300 familias; La Hora: vías), Sigchos, Quinindé y Durán (El Universo: agua de lluvia más limpia que la de la tubería); hoy se suma Santo Domingo con hundimientos y deslizamientos. Apunta a servicios locales, pero es riesgo operativo si la respuesta no se ve en territorio.
+- El dengue avanza con las lluvias — 3 piezas; 2 en 24 h vs 1 antes. El Universo y Expreso: los casos ya superan los de todo 2025, con Guayas entre las más afectadas; LUMS TV difunde que el Gobierno asigna 285 millones para prevenir brotes. Le toca al MSP, pero los alojamientos temporales lo vuelven tema de la emergencia.
+- Se sabía que venía y no se planificó — 4 piezas; 0 en 24 h vs 2 antes. Apunta a los GAD: El Universo recoge que Noboa cuestionó a prefecturas y gobiernos locales, El Noticiero en TikTok (3.052 vistas) habla de obras municipales pendientes y La Data culpa al Municipio de Quito. Sin piezas nuevas hoy.
 
 ## Hitos ya marcados (no los repitas)
 
@@ -38,7 +37,75 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
 - 2026-10-12: Seis ríos desbordados; Machala y Santa Rosa suspenden clases
 - 2026-10-14: Noboa anuncia mantenimiento eléctrico y advierte peores meses
 
-## Piezas de los últimos 3 días (288, de la más reciente a la más antigua)
+## Piezas de los últimos 3 días (298, de la más reciente a la más antigua)
+
+[5641b008d5] 2026-10-16 01:52 UTC · youtube · @ (Amada Isabel Espinosa Ogoño) · neutro · Otro · 1 interacciones · 3 vistas
+    Título: El periodismo de investigación y el fenómeno de El Niño en Ecuador
+    Publicación sobre el rol del periodismo de investigación ante el fenómeno de El Niño en Ecuador.
+    El periodismo de investigación no solo informa: también busca respuestas, verifica los hechos y aporta información útil para la ...
+
+[e69fd964ef] 2026-10-16 01:43 UTC · x · @tomebamba (La Voz del Tomebamba) · neutro · Otro · Azuay · dirigido a: Bomberos y Cruz Roja (positivo) · 2 interacciones · 692 vistas · cuenta con 344547 seguidores
+    Bomberos liquidaron un incendio forestal que consumió más de 400 hectáreas en Oña.
+    idea: Los bomberos controlaron la emergencia
+    Liquidado en su totalidad el incendio forestal en Sanglia tras consumir más de 400 hectáreas en Oña [NOTICIA PATROCINADA] REBROT | Shampoo anticaída Conozca REBROT, el shampoo anticaída que gana presencia. El único del país que tiene DHT BLOCK, encuéntralo en el milenium plaza de
+
+[3617f7f84a] 2026-10-16 00:32 UTC · medios · expreso.ec · neutro · Afectados y damnificados · Pichincha · pide: Evacuación y rescate
+    Rescataron a tres turistas brasileños alcanzados por un rayo en Pichincha
+    Tres turistas brasileños alcanzados por un rayo fueron rescatados en Pichincha.
+
+[84d0ddf9d3] 2026-10-16 00:06 UTC · medios · El Comercio · neutro · Política y críticas · Pichincha · dirigido a: Municipio o Prefectura (critico)
+    Quitopía será fiscalizado por la Asamblea tras las inundaciones en Quito
+    Asamblea fiscalizará el proyecto Quitopía tras inundaciones ocurridas en Quito.
+    idea: El municipio enfrenta cuestionamientos por inundaciones
+
+[9b2e8db5cd] 2026-10-16 00:00 UTC · x · @segura_ep (Segura EP - C5GYE) · neutro · Prevención y alertas · Guayas · dirigido a: Municipio o Prefectura (positivo) · 709 vistas · cuenta con 204844 seguidores
+    Segura EP adquirió 1.800 kits de asistencia humanitaria como medida preventiva frente al fenómeno de El Niño.
+    idea: El municipio adquiere kits humanitarios preventivos
+    Como parte de las acciones preventivas ante el fenómeno El Niño, la Gerencia de Gestión de Riesgos de #SeguraEP adquirió 1.800 kits de asistencia humanitaria. #GuayaquilNoSeDetiene #AquiEstamos #AquilesCumplimos https://t.co/1pzz8ljNBB
+
+[f2817c60fb] 2026-10-15 23:53 UTC · x · @onlypanasec (Only Panas) · positivo · Deslaves y vías · Bolívar · aspecto: Prevención y alertas · dirigido a: Gobierno central (positivo) · pide: Maquinaria y limpieza · 226 vistas · cuenta con 17016 seguidores
+    El MIT realiza trabajos preventivos de limpieza y drenaje en carreteras ante posibles impactos de El Niño.
+    idea: El gobierno realiza trabajos preventivos en las vías
+    #AlertaPanas 🌧️ MIT EJECUTA OBRAS PREVENTIVAS EN VARIAS PROVINCIAS ANTE POSIBLES EFECTOS DEL FENÓMENO DE EL NIÑO 🛣️ El Ministerio de Infraestructura y Tecnología (MIT) informó que continúa con trabajos preventivos en la Red Vial Estatal para reducir los riesgos asociados a lluvia
+
+[822741b6cf] 2026-10-15 23:41 UTC · x · @CCPDCUENCA (Consejo Cantonal de Protección de Derechos Cuenca) · neutro · Prevención y alertas · Azuay · dirigido a: Municipio o Prefectura (positivo) · 19 vistas · cuenta con 2963 seguidores
+    El Consejo Cantonal de Cuenca coordina acciones preventivas en la Mesa Técnica ante El Niño.
+    idea: Instituciones locales coordinan acciones preventivas ante El Niño
+    🤝💜 Participamos en la Mesa Técnica N.º 4 de Gestión de Riesgos, coordinando acciones de prevención y atención frente a la emergencia del fenómeno de El Niño. Sumamos esfuerzos y compromisos institucionales para garantizar una respuesta oportuna. #QueCuencaNosUna https://t.co/mZMd
+
+[abfbf7d205] 2026-10-15 23:32 UTC · medios · FM Mundo · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro) · pide: Información y alertas
+    Ecuador tendrá lluvias y tormentas en varias regiones hasta el domingo, alerta el Inamhi
+    El Inamhi alerta de lluvias y tormentas en varias regiones del país hasta el domingo.
+
+[cce0a8c985] 2026-10-15 23:29 UTC · medios · Radio Pichincha · neutro · Prevención y alertas · aspecto: Coordinación entre instituciones · dirigido a: Gobierno central (neutro)
+    El CNE habilita 2.500 recintos electorales de contingencia ante los posibles estragos del fenómeno de El Niño
+    CNE habilita 2.500 recintos electorales de contingencia ante El Niño y coordinará con SNGR.
+    idea: Hay coordinación ante el fenómeno de El Niño
+    El Consejo Nacional Electoral definió 2.500 recintos de contingencia para responder a inundaciones o deslizamientos por El Niño en las elecciones del 29 de noviembre, resguardando la jornada democrática nacional. Para las elecciones a escala nacional, el Consejo Nacional Electora
+
+[538ec7970b] 2026-10-15 23:20 UTC · x · @TiempoRealEC (Tiempo Real) · neutro · Otro · Tungurahua · dirigido a: Bomberos y Cruz Roja (neutro) · 452 vistas · cuenta con 76844 seguidores
+    Bomberos combaten un incendio forestal en Pilahuín, cantón Ambato, según reportes de Gestión de Riesgos.
+    🔥🚨 INCENDIO FORESTAL EN PILAHUÍN MOVILIZA A EQUIPOS DE EMERGENCIA 🌿 Un incendio forestal se registra en Pilahuín, parroquia rural del cantón Ambato, provincia de Tungurahua. Los equipos de emergencia se movilizaron al sector para combatir las llamas y evitar que el fuego continúe
+
+[e464ce52d2] 2026-10-15 23:19 UTC · youtube · @ (Radar Rojo) · neutro · Afectados y damnificados · 15 interacciones · 421 vistas
+    Lluvias en Ecuador más de 22 mil personas impactadas.
+    Lluvias en Ecuador provocan inundaciones y dejan más de 22 mil personas impactadas.
+    Las fuertes lluvias que afectan a Ecuador desde finales de agosto han provocado inundaciones, daños en viviendas y ...
+
+[d8f6e5d25f] 2026-10-15 23:13 UTC · x · @SeguridadeQuito (Secretaría de Seguridad y Gestión de Riesgos Quito) · neutro · Prevención y alertas · Pichincha · dirigido a: Municipio o Prefectura (positivo) · 66 vistas · cuenta con 53303 seguidores · es respuesta/comentario
+    Municipio de Quito concluye foro sobre prevención y reducción de riesgos con expertos ciudadanos.
+    idea: El municipio promueve cultura de prevención del riesgo
+    @guschiribogam @MunicipioQuito Un espacio de diálogo e intercambio de conocimientos y experiencias junto a expertos comprometidos con una ciudad más segura y preparada. 🤝 Gracias a quienes fueron parte de este encuentro y aportan a construir una cultura de prevención en Quito. ht
+
+[b4d9587a38] 2026-10-15 23:13 UTC · x · @SeguridadeQuito (Secretaría de Seguridad y Gestión de Riesgos Quito) · neutro · Prevención y alertas · Pichincha · dirigido a: Municipio o Prefectura (positivo) · 3 interacciones · 432 vistas · cuenta con 53303 seguidores
+    Secretaría de Seguridad de Quito realizó foro ciudadano enfocado en la reducción del riesgo de desastres.
+    idea: El municipio fomenta la resiliencia y prevención ciudadana
+    👷🏻‍♀️👷🏼‍♂️ #QuitoConPrevención| La resiliencia empieza en casa. 🏡 En el marco del Día Internacional para la Reducción del Riesgo de Desastres, realizamos el foro “Habitar la ciudad”, con la participación del Secretario de Seguridad Gustavo Chiriboga, @guschiribogam.🧵 https://t.co
+
+[680afca209] 2026-10-15 22:39 UTC · x · @CancilleriaEc (Cancillería del Ecuador 🇪🇨) · positivo · Prevención y alertas · aspecto: Coordinación entre instituciones · dirigido a: Gobierno central (positivo) · 10 interacciones · 691 vistas · cuenta con 309186 seguidores
+    Cancillería fortalece la cooperación bilateral con Chile en temas de gestión de riesgos y seguridad.
+    idea: El gobierno busca cooperación internacional ante riesgos
+    🇪🇨🤝🇨🇱La Cancillería, a través de la Viceministra de Cooperación Internacional, fortaleció la relación de cooperación con Chile mediante una reunión de trabajo orientada a ampliar la colaboración bilateral en áreas de interés común. 👉 El encuentro permitió avanzar en una agenda co
 
 [6685b99e42] 2026-10-15 22:28 UTC · medios · Desde Adentro · neutro · Energía y servicios · aspecto: Prevención y alertas
     El Niño: plantean medidas para asegurar abastecimiento de GLP
@@ -48,15 +115,43 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     CNE prepara 2 500 recintos de contingencia ante posible afectación por El Niño
     El CNE alista recintos electorales de contingencia frente al fenómeno de El Niño.
 
-[8d6ac40cf1] 2026-10-15 22:05 UTC · youtube · @ (LUMS TV) · positivo · Salud · aspecto: Prevención y alertas · dirigido a: Gobierno central (positivo) · pide: Salud
+[fa4cd41f5a] 2026-10-15 22:26 UTC · x · @MIT_Ecuador (Ministerio de Infraestructura y Tecnología🇪🇨) · positivo · Prevención y alertas · Cotopaxi · aspecto: Coordinación entre instituciones · dirigido a: Secretaría de Gestión de Riesgos (positivo) · 1 interacciones · 445 vistas · cuenta con 220854 seguidores
+    MIT coordina con la Secretaría de Gestión de Riesgos y Brigada Patria acciones preventivas en Cotopaxi.
+    idea: Hay coordinación interinstitucional frente a El Niño
+    #Cotopaxi | El director distrital, Luis Gallardo, participó en una reunión de trabajo junto a la Brigada Patria y la Secretaría de Gestión de Riesgos, con el objetivo de fortalecer la coordinación interinstitucional frente a los posibles efectos del fenómeno de El Niño 2026. 🌧️ D
+
+[6567da953f] 2026-10-15 22:09 UTC · x · @elsemanarioec (EL SEMANARIO) · positivo · Prevención y alertas · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (positivo) · 37 vistas · cuenta con 17410 seguidores
+    SNGR y PMA capacitan a periodistas en cobertura responsable ante los riesgos del fenómeno El Niño.
+    idea: La Secretaría capacita sobre alertas e información de emergencia
+    ⛔️GOBIERNO DE DANIEL NOBOA Y PMA CAPACITAN A COMUNICADORES ANTE LOS RIESGOS DEL FENÓMENO DE EL NIÑO El Gobierno Nacional, a través de la Secretaría Nacional de Gestión de Riesgos (SNGR) y junto al Programa Mundial de Alimentos (PMA), desarrolló el taller “Voces en la emergencia: 
+
+[8d6ac40cf1] 2026-10-15 22:05 UTC · youtube · @ (LUMS TV) · positivo · Salud · aspecto: Prevención y alertas · dirigido a: Gobierno central (positivo) · pide: Salud · 1 vistas
     🚨🦟 ¡ECUADOR SE PREPARA ANTE POSIBLES BROTES!
     Gobierno asigna $285 millones para prevenir brotes de enfermedades por El Niño.
     idea: El Gobierno asigna recursos para enfrentar El Niño
     ECUADOR SE PREPARA ANTE POSIBLES BROTES! El Gobierno anuncia $285 millones para enfrentar los efectos del ...
 
+[7090da0809] 2026-10-15 21:55 UTC · x · @telepremier (Tele Premier Plus 🇪🇨) · positivo · Prevención y alertas · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (positivo) · 31 vistas · cuenta con 2974 seguidores
+    La SNGR y el PMA realizaron un taller de periodismo enfocado en emergencias climáticas.
+    idea: El gobierno capacita a periodistas para coberturas de emergencia
+    #ATENCIÓN🔵 El Gobierno de Daniel Noboa, a través de la Secretaría Nacional de Gestión de Riesgos y en coordinación con el Programa Mundial de Alimentos (PMA), realizó el taller “Voces en la emergencia: Periodismo con impacto humano”. https://t.co/wVumvHFUwq
+
+[2f32213460] 2026-10-15 21:54 UTC · x · @SeguridadeQuito (Secretaría de Seguridad y Gestión de Riesgos Quito) · neutro · Prevención y alertas · Pichincha · dirigido a: Municipio o Prefectura (neutro) · 8 interacciones · 298 vistas · cuenta con 53303 seguidores
+    Municipio de Quito invita a evaluar las condiciones del hogar para prevenir riesgos y construir resiliencia.
+    👷🏻‍♀️👷🏼‍♂️ #QuitoConPrevención | ¡La resiliencia empieza en casa! 🏠 ¿Tu hogar está preparado para enfrentar una emergencia? 🔎 Te invitamos conocer y evaluar las condiciones de tu vivienda. Porque construir resiliencia empieza en dónde y cómo vivimos https://t.co/McRRUluHrg
+
+[f73a7ba8f5] 2026-10-15 21:32 UTC · x · @EquinoccioMedia (Equinoccio Digital) · neutro · Prevención y alertas · 1 interacciones · 51 vistas · cuenta con 4267 seguidores
+    El CNE alista 2.500 recintos alternos ante posibles inundaciones o deslizamientos por El Niño.
+    CNE prepara 2.500 recintos alternos ante posibles efectos de El Niño El organismo electoral prevé utilizar estos espacios si las inundaciones o los deslizamientos afectan los recintos habilitados para las elecciones del 29 de noviembre. 🗳️ El Consejo Nacional Electoral (CNE) defi
+
 [c8e95c3849] 2026-10-15 21:19 UTC · medios · Vistazo · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas
     Fenómeno de El Niño en Ecuador: Inamhi alerta sobre tormentas y ráfagas de viento hasta el 18 de octubre
     Inamhi alerta sobre presencia de tormentas y ráfagas de viento en Ecuador.
+
+[a7c71d5039] 2026-10-15 21:18 UTC · x · @rgarcia25S (INFORMACIÓN AL DÍA, CON ROBERTO GARCÍA) · positivo · Prevención y alertas · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (positivo) · 2 interacciones · 30 vistas · cuenta con 3709 seguidores
+    SNGR y el PMA capacitan a periodistas para comunicar con responsabilidad ante riesgos climáticos.
+    idea: La Secretaría capacita sobre riesgos
+    GOBIERNO Y PMA CAPACITAN A COMUNICADORES PARA INFORMAR CON RESPONSABILIDAD ANTE RIESGOS CLIMÁTICOS ​La Secretaría Nacional de Gestión de Riesgos (SNGR) y el Programa Mundial de Alimentos (PMA) desarrollaron el taller “Voces en la emergencia: Periodismo con impacto humano” https:/
 
 [d4c33a7379] 2026-10-15 21:02 UTC · youtube · @ (ECE PROGRAMA) · positivo · Respuesta del Gobierno · aspecto: Presencia en territorio · dirigido a: Secretaría de Gestión de Riesgos (positivo) · 1 interacciones · 2 vistas
     15 de octubre de 2026
@@ -64,9 +159,17 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: El Gobierno atiende la emergencia a través de la Secretaría
     El Gobierno del presidente Daniel Noboa, a través de la Secretaría Nacional de Gestión de Riesgos (SNGR) y junto al Programa ...
 
+[89f63e1d29] 2026-10-15 20:48 UTC · x · @goberimbabura (Gobernación Imbabura) · neutro · Prevención y alertas · Imbabura · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro) · 2 interacciones · 56 vistas · cuenta con 13434 seguidores
+    Gobernación de Imbabura capacitó a autoridades locales en el visor Alertas Ecuador ante El Niño.
+    📍#Imbabura | 🚨 La prevención comienza con la preparación. La Gobernación fortaleció las capacidades de jefes y tenientes políticos, y comisarios, en el uso del visor Alertas Ecuador para la gestión de riesgos ante el Fenómeno de El Niño 2026-2027. https://t.co/hJc1vhpZau
+
 [9ab2cd43f6] 2026-10-15 20:33 UTC · medios · El Universo · neutro · Lluvias e inundaciones · Santo Domingo de los Tsáchilas · dirigido a: Municipio o Prefectura (neutro) · pide: Maquinaria y limpieza
     Lluvias provocan inundaciones, hundimientos y deslizamientos en Santo Domingo: se intervienen seis puntos críticos
     Las lluvias provocan inundaciones, hundimientos y deslaves en Santo Domingo, interviniendo seis puntos.
+
+[150110fc4e] 2026-10-15 20:16 UTC · x · @gobersantaelena (Gobernación Santa Elena) · neutro · Prevención y alertas · Santa Elena · aspecto: Coordinación entre instituciones · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 2 interacciones · 79 vistas · cuenta con 11800 seguidores
+    Gobernación de Santa Elena y la SNGR coordinan mesa técnica de salud preventiva ante El Niño.
+    Las autoridades de la Gobernación de Santa Elena participarón de unaMesa Técnica N.° 2 de Salud y Atención Prehospitalaria, para coordinar acciones de prevención y respuesta inmediata ante el Fenómeno El Niño conjunto con la secretaria Nacional de @Riesgos_Ec #ElGobiernoATuLado h
 
 [928ecd9cb3] 2026-10-15 20:10 UTC · medios · El Productor (Ecuador) · positivo · Respuesta del Gobierno · aspecto: Coordinación entre instituciones
     ECUADOR: Cooperantes se unen ante los efectos de El Niño
@@ -77,19 +180,45 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Inamhi advierte lluvias y tormentas en Ecuador del 15 al 18 de octubre
     Inamhi advierte lluvias y tormentas eléctricas en Ecuador del 15 al 18 de octubre.
 
+[aac3950d81] 2026-10-15 19:46 UTC · x · @OOPPCuenca (Obras Cuenca. Unidad Ejecutora y Fiscalización) · neutro · Deslaves y vías · Azuay · dirigido a: Municipio o Prefectura (neutro) · 77 vistas · cuenta con 13428 seguidores
+    Municipio de Cuenca realiza mantenimiento vial preventivo coordinado con gestión de riesgos local.
+    🚧💚 ¡Atendemos las necesidades de nuestros barrios! En la calle Caspicara, barrio Tandacatu, realizamos mantenimiento preventivo con 1.100 metros de sellado de juntas y la colocación de 3 m³ de mezcla asfáltica, en coordinación con Gestión de Riesgos y ETAPA. #QueCuencaNosUna! htt
+
+[9ee697fffa] 2026-10-15 19:41 UTC · x · @elmercuriomanta (Diario El Mercurio) · neutro · Prevención y alertas · Tungurahua · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 122 vistas · cuenta con 20742 seguidores
+    SNGR reporta siete incendios forestales activos en el país, concentrados en Tungurahua.
+    #Noticias II Ecuador registra siete incendios forestales activos y uno controlado, según el reporte de la Secretaría Nacional de Gestión de Riesgos (SNGR), con corte a las 20:00 del miércoles 14 de octubre de 2026. Tungurahua registra tres incendios activos en los cantones Ambato
+
 [b75b74b6e2] 2026-10-15 19:36 UTC · medios · El Diario Ecuador · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas
     Inamhi advierte aumento de lluvias en Ecuador por influencia del fenómeno de El Niño
     Inamhi advierte aumento de lluvias en Ecuador debido al fenómeno de El Niño.
 
+[c6cac919f2] 2026-10-15 19:02 UTC · x · @AsambleaEcuador (Asamblea Nacional del Ecuador) · neutro · Política y críticas · Pichincha · dirigido a: Municipio o Prefectura (critico) · 6 interacciones · 1107 vistas · cuenta con 650169 seguidores
+    Asambleísta solicita fiscalizar fallas de planificación municipal tras afectaciones en el proyecto Quitopía.
+    idea: El municipio falló en planificación y prevención
+    El asambleísta @luigigarcia_ec solicitó fiscalizar las afectaciones registradas en el proyecto #Quitopía, en Quito, menos de 24 horas después de su inauguración. Propuso requerir información al Municipio y a los organismos de control y gestión de riesgos para esclarecer lo ocurri
+
+[d181f3df35] 2026-10-15 19:00 UTC · x · @revistavistazo (Revista Vistazo) · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 1 interacciones · 613 vistas · cuenta con 807646 seguidores
+    Análisis de la SNGR alerta sobre la vulnerabilidad de 17 provincias ante lluvias intensas y deslizamientos.
+    📈⛈️ Un análisis de la Secretaría de Gestión de Riesgos detalla la vulnerabilidad de 17 provincias ante lluvias intensas y deslizamientos de tierra. Conoce cómo afectará a cada una ▶️ https://t.co/TkVL84XjoA https://t.co/HIHamuvO8W
+
 [dfa9f970e3] 2026-10-15 18:55 UTC · medios · Primicias · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas
     Fenómeno de El Niño en Ecuador: Inamhi alerta sobre tormentas y ráfagas de viento del 15 al 18 de octubre
     Inamhi alerta sobre tormentas y ráfagas de viento del 15 al 18 de octubre en Ecuador.
+
+[727dec5eac] 2026-10-15 18:52 UTC · x · @CancilleriaEc (Cancillería del Ecuador 🇪🇨) · neutro · Respuesta del Gobierno · aspecto: Coordinación entre instituciones · dirigido a: Gobierno central (neutro) · 11 interacciones · 942 vistas · cuenta con 309186 seguidores
+    Cancillería de Ecuador y embajada suiza abordan cooperación en gestión de riesgos y asistencia humanitaria.
+    🇪🇨🇨🇭 Ecuador y Suiza fortalecen su relación bilateral. El canciller @robertokuryec mantuvo un encuentro con el embajador de Suiza, Stefan Kloetzli, para dar seguimiento a la agenda de trabajo entre ambos países. Durante la reunión se abordaron avances en: 🤝 Cooperación en materia
 
 [d3cb76eab4] 2026-10-15 18:48 UTC · medios · El Universo · neutro · Prevención y alertas · Manabí · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro)
     Roberto Luque revisa en Manabí las acciones preventivas ante la llegada de El Niño
     El ministro Roberto Luque revisó acciones preventivas ante El Niño en Manabí.
     idea: Las autoridades revisan medidas preventivas en territorio
     El ministro Roberto Luque revisó las medidas previstas en infraestructura, vivienda y transporte en Manabí.
+
+[d745521ebb] 2026-10-15 18:36 UTC · x · @247PrensaD (24:7 Prensa Digital) · neutro · Política y críticas · 1 interacciones · 58 vistas · cuenta con 3264 seguidores
+    Opinión jurídica cuestiona tener que acudir a cortes para aplicar el marco legal de riesgos.
+    idea: Falta aplicar el marco jurídico de riesgos
+    Ana Cristina López reflexiona: "¿Por qué una situación que compromete la vida, los medios de subsistencia y la infraestructura debe llegar al ámbito constitucional para impulsar medidas de protección que ya tienen fundamento el marco jurídico aplicable en gestión de riesgos?" htt
 
 [55c0674f24] 2026-10-15 18:27 UTC · medios · Machala Móvil · neutro · Prevención y alertas · El Oro · aspecto: Coordinación entre instituciones · dirigido a: Gobierno central (neutro)
     CNE habilita 2.500 recintos alternos ante posibles efectos de El Niño en las elecciones
@@ -101,10 +230,27 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Análisis de cómo afectará el fenómeno de El Niño a cada región de Ecuador.
     idea: Se informa sobre las zonas afectadas por El Niño
 
+[5da09e8ab0] 2026-10-15 18:16 UTC · medios · Vistazo · neutro · Prevención y alertas · pide: Información y alertas
+    Fenómeno de El Niño en Ecuador: 10 consejos para proteger tu casa y familia de las lluvias e inundaciones
+    Publican diez consejos para proteger viviendas y familias ante lluvias e inundaciones por El Niño.
+
 [02b80db57e] 2026-10-15 18:16 UTC · medios · Vistazo · neutro · Prevención y alertas · aspecto: Prevención y alertas
     Fenómeno de El Niño en Ecuador: 10 consejos para proteger tu casa y a tu familia ante las lluvias
     Consejos para proteger la casa y la familia ante las lluvias de El Niño.
     idea: Es importante la prevención familiar ante las lluvias
+
+[f85ba22bcc] 2026-10-15 18:14 UTC · x · @Plan_Ecuador (Plan International Ecuador) · positivo · Prevención y alertas · aspecto: Coordinación entre instituciones · dirigido a: Secretaría de Gestión de Riesgos (positivo) · 8 vistas · cuenta con 6914 seguidores · es respuesta/comentario
+    Plan International promueve la participación de adolescentes en la gestión de riesgos tras visitar la SNGR.
+    idea: Se fomenta la participación ciudadana en riesgos
+    💬 Cerramos esta Toma de Poder por el Día Internacional de la Niña con un llamado: dar seguimiento a las propuestas de las adolescentes y abrir más espacios para su participación en la gestión de riesgos. Sus voces cuentan. #HastaLograrLaIgualdad https://t.co/thoKaoqAI6
+
+[2c844a0986] 2026-10-15 18:13 UTC · x · @RadioRumbaEc (Radio Rumba 107.3 FM) · neutro · Lluvias e inundaciones · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 49 vistas · cuenta con 14991 seguidores
+    La Secretaría de Riesgos reportó el desbordamiento de tres cuerpos hídricos en el país.
+    📌La Secretaría Nacional de Gestión de Riesgos reportó el desbordamiento de tres cuerpos hídricos en el país, según el balance de este jueves 15 de octubre de 2026. https://t.co/LQ3TFoAzRG
+
+[d13b2ea789] 2026-10-15 17:55 UTC · x · @visionariasec (Visionarias) · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro) · 2 interacciones · 399 vistas · cuenta con 25545 seguidores
+    El CNE habilitó recintos electorales alternos ante posibles afectaciones por el fenómeno de El Niño.
+    #ATENCIÓN | A mes y medio de las elecciones seccionales del 29 de noviembre, el Consejo Nacional Electoral (CNE) continúa monitoreando los posibles efectos del fenómeno de El Niño en los recintos electorales. Su presidente, José Cabrera Zurita, explicó este jueves 15 de octubre q
 
 [6404f7414c] 2026-10-15 17:33 UTC · medios · ElOriente.com · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas
     El Niño podría alcanzar una intensidad récord y elevar el riesgo de sequías e inundaciones en 2026
@@ -114,16 +260,38 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Clima en Ecuador hoy, 15 de octubre: lluvias y temperaturas de hasta 34,5 °C
     Reporte del clima en Ecuador con lluvias y altas temperaturas.
 
+[85556c6fb4] 2026-10-15 16:47 UTC · x · @ExpresateMS (Exprésate Morona Santiago) · neutro · Lluvias e inundaciones · Guayas · dirigido a: Municipio o Prefectura (neutro) · 72 vistas · cuenta con 11135 seguidores
+    Balao declaró emergencia cantonal por sesenta días tras sufrir su segunda inundación por El Niño.
+    [AMBIENTE] CLIMA: #Ecuador, el cantón Balao sufrió una segunda gran inundación en menos de 15 días y declaró la emergencia por 60 días. La población de Guayas se ubica río abajo de las zonas de extracción minera ilegal del vecino cantón Camilo Ponce Enríquez, en Azuay ❗ El cantón
+
+[fdfe45cccb] 2026-10-15 16:37 UTC · x · @Zona8MTDH (zona8mtdh) · positivo · Prevención y alertas · Galápagos · aspecto: Coordinación entre instituciones · dirigido a: Secretaría de Gestión de Riesgos (positivo) · pide: Albergue · 6 vistas · cuenta con 1069 seguidores · es respuesta/comentario
+    El MTDH resalta la coordinación con Gestión de Riesgos para la preparación y respuesta ante emergencias.
+    idea: Hay coordinación entre instituciones ante emergencias
+    @Riesgos_Ec Fortalecemos la preparación y respuesta interinstitucional para brindar atención oportuna y protección a la población ante emergencias. #MTDHEnTerritorio #GobiernoDelEcuador https://t.co/up8YPvGCSX
+
+[5592cc5dcb] 2026-10-15 16:37 UTC · x · @Zona8MTDH (zona8mtdh) · positivo · Prevención y alertas · Galápagos · aspecto: Coordinación entre instituciones · dirigido a: Secretaría de Gestión de Riesgos (positivo) · pide: Albergue · 1 interacciones · 22 vistas · cuenta con 1069 seguidores
+    Se implementó un alojamiento temporal en San Cristóbal junto con la Secretaría de Riesgos y bomberos.
+    idea: Hay coordinación entre instituciones ante emergencias
+    📍 #Galápagos | 🤝💜 En coordinación con @Riesgos_Ec y el cuerpo de bomberos se realizó la implementación de un alojamiento temporal en San Cristóbal para acoger a las familias ante posibles situaciones adversas causadas por el fenómeno de El Niño. https://t.co/oiLLhJszBQ
+
+[ad5d3b0b20] 2026-10-15 16:32 UTC · x · @achirasgiron (Achiras) · neutro · Otro · Azuay · dirigido a: Bomberos y Cruz Roja (positivo) · 40 vistas · cuenta con 2820 seguidores
+    Bomberos y comuneros sofocaron un incendio forestal de más de 400 hectáreas en Oña.
+    Un incendio forestal consumió más de 400 hectáreas de vegetación en el cantón Oña, Azuay, y fue liquidado la noche del miércoles 14 de octubre, tras varias horas de trabajo de los cuerpos de bomberos y habitantes de las comunidades afectadas. El fuego se inició antes del mediodía
+
 [5fd31969b8] 2026-10-15 16:15 UTC · medios · Diario La Hora · neutro · Energía y servicios · dirigido a: Gobierno central (neutro)
     Crisis eléctrica en Ecuador: ¿La caída de Mazar se frenará con las lluvias previstas para los próximos días ?
     Análisis sobre la crisis eléctrica y el impacto de las próximas lluvias.
+
+[e9391b0a9c] 2026-10-15 16:10 UTC · x · @radiocentroec (CENTRO Digital) · neutro · Lluvias e inundaciones · Los Ríos · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 1 interacciones · 384 vistas · cuenta con 84849 seguidores
+    Gestión de Riesgos vigila el desbordamiento de tres ríos en Los Ríos, Guayas y Morona Santiago.
+    #ATENCION El desbordamiento de tres ríos en las provincias de Los Ríos, Guayas y Morona Santiago, mantiene en vigilancia a la Secretaría Nacional de Gestión de Riesgos. https://t.co/2kFPpwZNU1
 
 [61239fe112] 2026-10-15 16:08 UTC · medios · El Comercio · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro) · pide: Información y alertas
     Inamhi alerta por lluvias y tormentas en Ecuador este 15 de octubre
     El Inamhi emite alerta por lluvias y tormentas en Ecuador.
     idea: Se emiten alertas tempranas por lluvias
 
-[402dc8bf50] 2026-10-15 16:00 UTC · youtube · @ (Hablarás Pensando ) · neutro · Prevención y alertas · 17 interacciones · 555 vistas
+[402dc8bf50] 2026-10-15 16:00 UTC · youtube · @ (Hablarás Pensando ) · neutro · Prevención y alertas · 17 interacciones · 748 vistas
     ¿Qué es el fenómeno del niño? #ecuador #fenomenodelniño
     Video informativo sobre qué es el fenómeno de El Niño en Ecuador.
 
@@ -131,6 +299,10 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Información para actuar: PNUD Ecuador impulsa la preparación frente a inundaciones y sequías
     PNUD impulsa preparación frente a inundaciones y sequías en Ecuador.
     idea: Hay cooperación internacional en gestión de riesgos
+
+[38b7f9030b] 2026-10-15 15:32 UTC · x · @925forever (Radio Forever 92.5 FM) · neutro · Afectados y damnificados · Esmeraldas · aspecto: Comunicación e información · dirigido a: Carolina Lozano (neutro) · 2 interacciones · 67 vistas · cuenta con 3469 seguidores
+    Carolina Lozano detalla más de 20.000 afectados por El Niño en Esmeraldas y Guayas.
+    Durante el Informativo Forever, Carolina Lozano (@riesgos_ec), ministra de la Secretaría Nacional de Gestión de Riesgos, habló sobre la preparación y los impactos ante el fenómeno de El Niño. La ministra señaló que, en las provincias bajo alerta roja, se registran 20.660 personas
 
 [e7c0c89a19] 2026-10-15 15:24 UTC · youtube · @ (Jorge Cordova) · neutro · Lluvias e inundaciones · Guayas · 2 vistas
     Aguaceros , lluvias , Guayaquil, Ecuador, fenómeno del niño #aguacero #aguaceros #lluviasfuertes
@@ -148,6 +320,16 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     El Niño anticipa más lluvias en Ecuador durante la segunda quincena de octubre y noviembre
     Pronóstico de más lluvias en Ecuador debido al fenómeno de El Niño.
 
+[1ed1831cf2] 2026-10-15 14:42 UTC · x · @EmisarioEc (Emisario Ec) · positivo · Prevención y alertas · aspecto: Comunicación e información · dirigido a: Gobierno central (positivo) · 3 interacciones · 25 vistas · cuenta con 88 seguidores
+    Gobierno y PMA capacitan a comunicadores para informar con responsabilidad ante riesgos climáticos.
+    idea: El gobierno capacita sobre riesgos
+    📌 #ATENTOS👏 Gobierno de Daniel Noboa y PMA capacitan a comunicadores para informar con responsabilidad ante riesgos climáticos 📝MIRA LA NOTA COMPLETA AQUÍ: https://t.co/XD7jXhOaOH @carolozanohok https://t.co/ME45BBfsJi
+
+[6a44d4410f] 2026-10-15 14:38 UTC · x · @925forever (Radio Forever 92.5 FM) · neutro · Prevención y alertas · aspecto: Coordinación entre instituciones · dirigido a: Municipio o Prefectura (critico) · 1 interacciones · 38 vistas · cuenta con 3469 seguidores
+    Carolina Lozano señala que los municipios no han ejecutado plenamente sus planes de contingencia.
+    idea: Los municipios no cumplen sus planes de emergencia
+    Durante el Informativo Forever, Carolina Lozano, ministra de la Secretaría Nacional de Gestión de Riesgos, abordó las afectaciones por el fenómeno de El Niño, los deslaves y las acciones de gestión de riesgos. Hay una situación que hay que recalcar: no se trataba únicamente de cu
+
 [13cfdae75a] 2026-10-15 14:24 UTC · youtube · @ (WQ Radio) · positivo · Ayuda humanitaria · aspecto: Liderazgo de Carolina Lozano · dirigido a: Carolina Lozano (positivo) · 1 vistas
     Carolina Lozano, Ministra de la Secretaría Nacional de Gestión de Riesgos
     Entrevista a Carolina Lozano sobre atención a afectados y ayuda humanitaria por El Niño.
@@ -158,12 +340,12 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Quito tiene 321 barrios en riesgo por lluvias
     Identifican 321 barrios en zonas de riesgo por lluvias en Quito.
 
-[0403af4d43] 2026-10-15 14:07 UTC · youtube · @ (W Radio Ecuador) · neutro · Energía y servicios · Azuay · dirigido a: Municipio o Prefectura (neutro) · pide: Agua · 8 vistas
+[0403af4d43] 2026-10-15 14:07 UTC · youtube · @ (W Radio Ecuador) · neutro · Energía y servicios · Azuay · dirigido a: Municipio o Prefectura (neutro) · pide: Agua · 9 vistas
     Ing. Fabián Cazar - Etapa EP - Abastecimiento de agua para Cuenca frente al fenómeno de El Niño.
     Etapa EP analiza el abastecimiento de agua para Cuenca ante el fenómeno de El Niño.
     Ing. Fabián Cazar - Gerente de agua potable - Etapa EP - Tema: Abastecimiento de agua para Cuenca frente al fenómeno de El ...
 
-[a68372abb2] 2026-10-15 13:37 UTC · youtube · @ (WQ Radio) · neutro · Prevención y alertas · 4 interacciones · 75 vistas
+[a68372abb2] 2026-10-15 13:37 UTC · youtube · @ (WQ Radio) · neutro · Prevención y alertas · 4 interacciones · 128 vistas
     Fenómeno de El Niño: Ecuador ya siente sus primeros efectos - Entrevista con Franklin Ormaza
     Oceanógrafo explica primeros efectos de El Niño y condiciones climáticas en Ecuador.
     Durante WQ Noticias conversamos con Franklin Ormaza, oceanógrafo de la ESPOL, sobre las condiciones climáticas que ...
@@ -181,10 +363,20 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Esmeraldas registra más de 12 mil afectados y mil damnificados por las fuertes lluvias.
     Esmeraldas es la provincia más afectada por las lluvias en Ecuador, con más de 12 mil personas afectadas y mil damnificadas.
 
+[ac337ce7c2] 2026-10-15 12:45 UTC · x · @925forever (Radio Forever 92.5 FM) · neutro · Respuesta del Gobierno · aspecto: Comunicación e información · dirigido a: Carolina Lozano (neutro) · 1 interacciones · 34 vistas · cuenta con 3469 seguidores
+    Radio Forever anuncia entrevista en vivo a Carolina Lozano sobre afectaciones de El Niño.
+    https://t.co/mywi60JysU 🎙️ #EntrevistaEnVivo | 08H00 Conversaremos con Carolina Lozano , Ministra de la Secretaría Nacional de Gestión de Riesgos, para abordar un tema de gran interés nacional: 📌Afectaciones por el fenómeno de El Niño, deslaves y acciones de gestión de riesgos 📻 
+
 [33d9c8e466] 2026-10-15 12:34 UTC · medios · Ecuador 221 · neutro · Deslaves y vías · dirigido a: Gobierno central (neutro)
     Siete incendios forestales están activos en Ecuador
     Siete incendios forestales están activos en el país.
     idea: Hay incendios forestales activos en el país
+
+[00d930ba14] 2026-10-15 12:17 UTC · medios · El Diario · neutro · Prevención y alertas · Manabí · dirigido a: Municipio o Prefectura (positivo) · pide: Maquinaria y limpieza
+    Municipio de Bolívar pavimenta alrededores de la terminal terrestre y ejecuta acciones por El Niño
+    Municipio de Bolívar ejecuta pavimentación y trabajos preventivos contra inundaciones por El Niño en Calceta.
+    idea: El municipio realiza obras de prevención
+    Bajo la dirección de la alcaldesa Ledy Laura Muñoz, continúan los trabajos de mejoramiento en algunas calles de Calceta y las acciones preventivas para prevenir inundaciones en varias comunidades por El Niño.
 
 [4152f6094a] 2026-10-15 12:14 UTC · medios · Ecuavisa · neutro · Lluvias e inundaciones
     Clima del 15 de octubre en Ecuador: Temperaturas de casi 35 °C en la Costa y lluvias en 17 provincias
@@ -194,6 +386,10 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Jonathan Toro, alcalde de Montecristi, anuncia avances en agua potable y prevención ante fenómeno de El Niño
     Alcalde de Montecristi informa acciones preventivas y obras de agua potable ante El Niño.
     idea: El municipio realiza obras de prevención y abastecimiento
+
+[613eb4f93f] 2026-10-15 11:07 UTC · x · @925forever (Radio Forever 92.5 FM) · neutro · Respuesta del Gobierno · aspecto: Comunicación e información · dirigido a: Carolina Lozano (neutro) · 43 vistas · cuenta con 3469 seguidores
+    Radio Forever agenda entrevista a Carolina Lozano sobre afectaciones por El Niño y deslaves.
+    📰🎙️ Las noticias y los protagonistas de la jornada informativa están en Informativo Forever, con Ing. Washington Delgado, Nathaly Abarca y Carlos Alberto Vergara. Entrevistas de hoy | Jueves, 15 de octubre de 2026 📌 06h30 | Zoom Dr. Alberto Narváez Epidemiólogo Tema: Aumento de c
 
 [efe0726d21] 2026-10-15 11:01 UTC · medios · El Universo · neutro · Afectados y damnificados · Guayas · pide: Agua
     “El agua de san Pedro nos llega más limpia que la de la tubería”: la lluvia se convierte en reserva de agua para familias de Durán
@@ -274,7 +470,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: El país está preparado gracias a la coordinación institucional
     #ATENCION | Ecuador, preparado para afrontar los estragos de El Niño. La respuesta está a cargo de @Riesgos_Ec que actúa de forma transversal con otros organismos del Gobierno Nacional. https://t.co/EnawF9E0x2
 
-[9f54c1e6db] 2026-10-14 23:41 UTC · youtube · @ (Jonathan Mendoza) · neutro · Agricultura y producción · 7 vistas
+[9f54c1e6db] 2026-10-14 23:41 UTC · youtube · @ (Jonathan Mendoza) · neutro · Agricultura y producción · 10 vistas
     Efecto del fenómeno del niño| Palma hibrida| Ecuador
     Video sobre el efecto del fenómeno de El Niño en la palma híbrida en Ecuador.
 
@@ -426,7 +622,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Bomberos de Sucre capacitan a familias para enfrentar inundaciones.
     idea: Los bomberos capacitan a la comunidad en prevención
 
-[3aa3b90bae] 2026-10-14 19:15 UTC · youtube · @ (TC Televisión) · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro) · pide: Información y alertas · 3 interacciones · 465 vistas
+[3aa3b90bae] 2026-10-14 19:15 UTC · youtube · @ (TC Televisión) · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro) · pide: Información y alertas · 3 interacciones · 472 vistas
     DCEC - EL FENÓMENO DE EL NIÑO LLEGA A TODO EL ECUADOR Y EL INAMHI ADVIERTE A LA POBLACIÓN
     TC Televisión informa que Inamhi advierte llegada de El Niño al país.
     DCEC - EL FENÓMENO DE EL NIÑO LLEGA A TODO EL ECUADOR Y EL INAMHI ADVIERTE A LA POBLACIÓN - 14/10/2026.
@@ -478,7 +674,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Gobierno anuncia mantenimiento eléctrico ante la llegada de la temporada dura de El Niño.
     idea: El Gobierno realiza mantenimiento preventivo ante El Niño
 
-[79cd8b7760] 2026-10-14 16:38 UTC · youtube · @ (Jimmy Jairala) · neutro · Prevención y alertas · 22 interacciones · 1244 vistas
+[79cd8b7760] 2026-10-14 16:38 UTC · youtube · @ (Jimmy Jairala) · neutro · Prevención y alertas · 22 interacciones · 1253 vistas
     Los meses críticos de El Niño #ecuador #fenómenoelniño
     Jimmy Jairala analiza los meses críticos de El Niño en Ecuador.
     Conéctate con Jimmy Jairala y su equipo en todas las redes sociales para estar al tanto de las noticias de Ecuador y el mundo.
@@ -534,7 +730,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Daniel Noboa anuncia mantenimiento eléctrico para el sábado.
     idea: El Gobierno realiza mantenimiento eléctrico preventivo
 
-[7898a2e6f0] 2026-10-14 15:00 UTC · youtube · @ (InfoHistor) · neutro · Prevención y alertas · 33 vistas
+[7898a2e6f0] 2026-10-14 15:00 UTC · youtube · @ (InfoHistor) · neutro · Prevención y alertas · 64 vistas
     Este El Niño podría superar al de 1998 | Mira lo que ocurrió entonces
     Comparativa histórica del posible impacto de El Niño actual respecto al evento de 1998.
     En 1997–1998, El Niño golpeó a Perú y Ecuador con inundaciones, deslizamientos y pérdidas que transformaron la vida de ...
@@ -553,7 +749,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Desbordamiento de río en Salitre y familias en albergues en Balao.
     idea: Hay familias en albergues por las inundaciones
 
-[b932fffba7] 2026-10-14 14:47 UTC · youtube · @ (CCI Canal Digital de Cuenca) · neutro · Energía y servicios · Azuay · dirigido a: Gobierno central (neutro) · 471 vistas
+[b932fffba7] 2026-10-14 14:47 UTC · youtube · @ (CCI Canal Digital de Cuenca) · neutro · Energía y servicios · Azuay · dirigido a: Gobierno central (neutro) · 496 vistas
     Noboa anuncia mantenimiento eléctrico este sábado 17 de octubre ante el fenómeno de El Niño
     Noboa anuncia mantenimiento eléctrico por El Niño para el sábado 17 de octubre.
     idea: El Gobierno realiza mantenimiento eléctrico ante El Niño
@@ -605,7 +801,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Desbordamiento del río Vinces activa a los organismos de emergencia.
     idea: Los organismos atienden las emergencias en territorio
 
-[5a997a67fc] 2026-10-14 12:10 UTC · youtube · @ (Teleamazonas Ecuador) · neutro · Prevención y alertas · Napo · aspecto: Prevención y alertas · pide: Información y alertas · 38 interacciones · 1196 vistas
+[5a997a67fc] 2026-10-14 12:10 UTC · youtube · @ (Teleamazonas Ecuador) · neutro · Prevención y alertas · Napo · aspecto: Prevención y alertas · pide: Información y alertas · 38 interacciones · 1208 vistas
     Napo en alerta roja antedéficit hídrico e inundaciones por el Fenómeno de El Niño
     Napo se encuentra en alerta roja por déficit hídrico e inundaciones.
     idea: Hay alertas rojas activas por el clima
@@ -821,7 +1017,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: La Secretaría está en el territorio
     Miguel Quezada, Gobernador de SDT junto al coordinador zonal de la Secretaría de @Riesgos_Ec Santiago Haro, y la alcaldesa de La Concordia, Sandra Ocampo, realizó un recorrido por sectores vulnerables de este cantón para verificar las acciones preventivas realizadas. 1/2 https://
 
-[f3ea1ab885] 2026-10-13 22:05 UTC · youtube · @ (Ecuador TV) · neutro · Prevención y alertas · 2 interacciones · 81 vistas
+[f3ea1ab885] 2026-10-13 22:05 UTC · youtube · @ (Ecuador TV) · neutro · Prevención y alertas · 2 interacciones · 87 vistas
     Un Café con JJ - Ecuador Tv - Invitado: Msc. Jonathan Cedeño, Oceanógrafo - Docente Universitario
     Entrevista en Ecuador TV sobre el fenómeno de El Niño con un oceanógrafo.
     Fenómeno del Niño.
@@ -1266,154 +1462,3 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Ecuador registra seis desbordamientos de ríos y cinco incendios forestales activos: estas son las zonas afectadas
     Ecuador registra desbordamientos de rios e incendios forestales.
     idea: Hay desbordamientos de rios e incendios
-
-[868b733580] 2026-10-13 02:57 UTC · medios · CódigoQro · neutro · Lluvias e inundaciones
-    Lluvias dejan cinco ríos y un estero desbordados en tres provincias de Ecuador
-    Lluvias dejan rios y esteros desbordados en varias provincias.
-    idea: Las lluvias provocan desbordamientos
-
-[a3734de24d] 2026-10-13 02:32 UTC · medios · El Diario Ecuador · neutro · Afectados y damnificados
-    El fenómeno de El Niño en Ecuador: más de 17.000 afectados y miles de viviendas dañadas
-    Balance de El Niño reporta más de 17.000 personas afectadas y miles de casas dañadas.
-
-[902dbc4428] 2026-10-13 02:28 UTC · medios · Diario Extra · neutro · Lluvias e inundaciones · Los Ríos · pide: Agua
-    Las lluvias inundan viviendas y contaminan pozos en un recinto rural de Babahoyo
-    Lluvias provocan inundaciones de casas y contaminación de pozos de agua en Babahoyo.
-
-[81b6d5930c] 2026-10-13 02:12 UTC · medios · Teleamazonas · neutro · Prevención y alertas
-    La OMM prevé un 100% de probabilidad de que El Niño persista hasta febrero de 2027
-    La OMM proyecta que El Niño continuará hasta febrero de 2027.
-
-[c702a0ac0f] 2026-10-13 02:10 UTC · medios · El Universo · positivo · Ayuda humanitaria · Los Ríos · aspecto: Llegada de la ayuda · dirigido a: Gobierno central (positivo) · pide: Agua
-    Inundaciones en Babahoyo y Balao: entregan tanques de agua y preparan asistencia para familias afectadas
-    Entrega de agua y asistencia para familias damnificadas en Los Ríos y Guayas.
-    idea: Llega ayuda humanitaria a las familias afectadas
-
-[82ad7a8bc3] 2026-10-13 02:05 UTC · x · @teleSURtv (teleSUR TV) · neutro · Lluvias e inundaciones · aspecto: Comunicación e información · dirigido a: Carolina Lozano (neutro) · 1 interacciones · 1127 vistas · cuenta con 1974083 seguidores
-    Carolina Lozano reporta 326 eventos por lluvias en 22 provincias con viviendas afectadas y un fallecido.
-    🌊 La Secretaría de Gestión de Riesgos de Ecuador, Carolina Lozano reporta 326 eventos asociados a las lluvias en 22 de las 24 provincias: inundaciones, deslizamientos y desbordes de ríos dejaron un fallecido y 4.847 viviendas afectadas https://t.co/t4fhg6Iq0M
-
-[519d4056e0] 2026-10-13 02:01 UTC · x · @diariocorreoec (Diario Correo) · neutro · Afectados y damnificados · El Oro · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 55 vistas · cuenta con 25060 seguidores
-    Lluvias del fin de semana dejaron 17 familias afectadas en El Oro según balance de la SNGR.
-    #fenómenodelniño #actualidad Las fuertes precipitaciones registradas durante el fin de semana dejaron 17 familias afectadas en la provincia de El Oro, según el balance preliminar de la Secretaría de Gestión de Riesgos..📰👉https://t.co/CUMlwdwbbW https://t.co/c1VwBEkd5B
-
-[b4bb45143a] 2026-10-13 01:59 UTC · medios · Metro Ecuador · neutro · Afectados y damnificados · Los Ríos · pide: Agua · ALERTA
-    Inundaciones en Babahoyo dejan a decenas de familias sin hogar y con urgente necesidad de abastecimiento de agua
-    Inundaciones en Babahoyo dejan decenas de damnificados sin agua.
-
-[f892deae5a] 2026-10-13 01:59 UTC · medios · El Universo · neutro · Otro · Guayas · dirigido a: Municipio o Prefectura (neutro)
-    Cables eléctricos generan chispas en la avenida Juan Tanca Marengo, en el norte de Guayaquil
-    Cables electricos generan chispas en avenida de Guayaquil.
-    idea: Hay problemas con cables electricos
-
-[a5c189e45a] 2026-10-13 01:59 UTC · medios · El Diario · neutro · Deslaves y vías · Manabí · dirigido a: Gobierno central (neutro)
-    El ministro Roberto Luque detalla inversiones viales y obras previstas para Manabí
-    El ministro Roberto Luque detalló inversiones viales y prevención ante El Niño en Manabí.
-    idea: El gobierno invierte en vías y prevención
-    En entrevista con Medios EDIASA, el ministro Roberto Luque habló sobre inversiones en Manabí, mantenimiento vial, prevención ante el fenómeno de El Niño y proyectos pendientes.
-
-[d532ac6c4d] 2026-10-13 01:37 UTC · x · @revistavistazo (Revista Vistazo) · positivo · Ayuda humanitaria · Los Ríos · aspecto: Llegada de la ayuda · dirigido a: Secretaría de Gestión de Riesgos (positivo) · pide: Agua · 1 interacciones · 292 vistas · cuenta con 807575 seguidores
-    SNGR desplegó equipos e instaló tanques de agua para familias anegadas por lluvias en Babahoyo.
-    idea: La Secretaría entrega ayuda a familias afectadas
-    🔴 La Secretaría Nacional de Gestión de Riesgos desplegó equipos de atención e instaló tres tanques para abastecer de agua a familias cuyas viviendas quedaron anegadas tras intensas lluvias en Babahoyo. Sigue la situación ▶️ https://t.co/00r5aU2Dki https://t.co/A8djCz5FxL
-
-[c4f90b73e4] 2026-10-13 01:35 UTC · medios · Diario Norte · neutro · Prevención y alertas · Imbabura
-    El Niño se fortalece y enciende las alarmas
-    El fenómeno de El Niño se fortalece y genera preocupación.
-
-[9aedf7d070] 2026-10-13 01:31 UTC · x · @ECU911_ (ECU 911) · positivo · Prevención y alertas · Guayas · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (positivo) · 9 interacciones · 952 vistas · cuenta con 572425 seguidores
-    ECU 911 y Gestión de Riesgos realizaron charla y simulacro de emergencias en colegio de Guayaquil.
-    idea: Se realizan capacitaciones y simulacros de prevención
-    #Guayaquil | El Director General del #ECU911, @JCPaladines, participó en una jornada de capacitación y prevención junto a la comunidad educativa del Colegio Santo Hermano Miguel, que incluyó una charla y un simulacro de emergencias con la intervención de Gestión de @Riesgos_Ec y 
-
-[591f7db1af] 2026-10-13 01:02 UTC · medios · Vistazo · neutro · Afectados y damnificados · Los Ríos · pide: Albergue · ALERTA
-    Inundaciones en Babahoyo dejan 150 familias afectadas y viviendas anegadas
-    Inundaciones dejan 150 familias damnificadas en Babahoyo.
-
-[5d6cee7950] 2026-10-13 00:58 UTC · youtube · @@juanmanuelvidal8842 (DNews) · neutro · Prevención y alertas · 1 interacciones · es respuesta/comentario · RUMOR: El invierno actual es fenómeno de La Niña
-    Usuario comenta que el invierno corresponde al fenómeno de La Niña.
-    EL INVIERNO ES FENOMENO DE LA NIÑA !
-
-[1e2c4c11de] 2026-10-13 00:50 UTC · x · @SeguridadeQuito (Secretaría de Seguridad y Gestión de Riesgos Quito) · neutro · Prevención y alertas · Pichincha · dirigido a: Municipio o Prefectura (neutro) · 200 vistas · cuenta con 53300 seguidores
-    Municipio de Quito recomienda conducir con precaución ante la época lluviosa.
-    #QuitoConPrevención | 🌧️ En época lluviosa, conduce con precaución. Reduce la velocidad, mantén la distancia y recuerda que tu seguridad y la de los demás es lo más importante. 🚗💙 ¡Juntos cuidamos Quito! https://t.co/3QXb4CcO0V
-
-[be1cf1fbbf] 2026-10-13 00:29 UTC · medios · Ecuavisa · neutro · Prevención y alertas · Guayas · aspecto: Prevención y alertas
-    Guayaquil y Durán, en alerta por lluvias hasta el miércoles tras el aguacero del domingo
-    Guayaquil y Durán se mantienen en alerta por lluvias tras fuerte aguacero.
-
-[aede47fcf8] 2026-10-13 00:08 UTC · x · @EquinoccioMedia (Equinoccio Digital) · neutro · Afectados y damnificados · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 31 vistas · cuenta con 4267 seguidores
-    SNGR reporta más de 17.000 personas afectadas por lluvias en 22 provincias del país.
-    🌧️🌧️Las lluvias registradas en Ecuador desde el 29 de agosto de 2026 han dejado 17.056 personas afectadas en 22 de las 24 provincias del país. Según la Secretaría Nacional de Gestión de Riesgos (SNGR), se contabilizaron más de 326 eventos adversos, de los cuales el 54,91 % corres
-
-[cc8cd3d113] 2026-10-12 23:55 UTC · x · @RadioRumbaEc (Radio Rumba 107.3 FM) · neutro · Respuesta del Gobierno · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 74 vistas · cuenta con 14992 seguidores
-    Entrevista a subsecretaria de la SNGR sobre acciones frente a El Niño.
-    idea: La Secretaría informa sobre las acciones frente al fenómeno
-    🔴Mañana en #CUARTOPODER: Mariana Quispillo (@MarianaQuispil1), Subsecretaria de la @Riesgos_Ec, con el tema: "Acciones para enfrentar Fenómeno de El Niño - Atención a sectores afectados por lluvias" 🕕07h00 | 107.3 FM #RadioRumba #GestionDeRiesgos #FenomenoDeElNino #Ecuador https:
-
-[c25724c8f4] 2026-10-12 23:49 UTC · x · @RadioCiudad1017 (Radio Ciudad 101.7 FM) · neutro · Afectados y damnificados · Azuay · dirigido a: Municipio o Prefectura (positivo) · pide: Albergue · 48 vistas · cuenta con 24546 seguidores
-    Municipio de Cuenca adecua alojamientos temporales por emergencia invernal en Molleturo.
-    idea: El municipio atiende la emergencia local
-    #Actualidad | Frente a la persistente emergencia invernal que afecta a la parroquia rural de Molleturo, la Dirección de Gestión de Riesgos del Municipio de Cuenca ejecutó la identificación y adecuación de alojamientos temporales. #CiudadNoticias https://t.co/VWmTGHDZhF
-
-[a42e7530d2] 2026-10-12 23:40 UTC · medios · Ecuavisa · neutro · Deslaves y vías · Pichincha · pide: Vías y puentes
-    La vía Alóag-Santo Domingo tendrá un cierre programado el 13 de octubre
-    Cierre programado en la vía Alóag-Santo Domingo el 13 de octubre.
-
-[5f514e059b] 2026-10-12 23:34 UTC · medios · Ministerio de Desarrollo Humano · positivo · Ayuda humanitaria · Guayas · aspecto: Llegada de la ayuda · dirigido a: Gobierno central (positivo) · pide: Alimentos
-    Gobierno de Daniel Noboa activa ayuda humanitaria y acompañamiento para familias afectadas por inundaciones en Balao – Ministerio de Desarrollo Humano
-    Gobierno activa ayuda humanitaria para familias perjudicadas por inundaciones en Balao.
-    idea: El gobierno entrega ayuda humanitaria
-
-[c926a9543a] 2026-10-12 23:34 UTC · medios · Ministerio de Desarrollo Humano · positivo · Ayuda humanitaria · Guayas · aspecto: Llegada de la ayuda · dirigido a: Gobierno central (positivo) · pide: Alimentos
-    Gobierno de Daniel Noboa activa ayuda humanitaria y acompañamiento para familias afectadas por inundaciones en Balao
-    Gobierno activa ayuda humanitaria para familias afectadas por inundaciones en Balao.
-    idea: El Gobierno entrega ayuda humanitaria a los afectados
-
-[6da956512e] 2026-10-12 23:32 UTC · medios · El Comercio Perú · neutro · Lluvias e inundaciones
-    Las fuertes lluvias dejan cinco ríos y un estero desbordados en tres provincias de Ecuador
-    Lluvias dejan cinco ríos y un estero desbordados en tres provincias de Ecuador.
-
-[b3040d9423] 2026-10-12 23:31 UTC · x · @rtrecuador (RTR Televisión) · neutro · Lluvias e inundaciones · Guayas · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 10 vistas · cuenta con 206 seguidores
-    SNGR reporta más de 17.000 afectados por lluvias en 22 provincias y gobierno destina fondos.
-    idea: Hay miles de afectados por la temporada de lluvias
-    Ecuador: más de 17.000 personas afectadas por las lluvias. Las fuertes precipitaciones registradas desde el 29 de agosto de 2026 han dejado 17.056 personas afectadas en Ecuador, con emergencias reportadas en 22 de las 24 provincias del país, según la Secretaría Nacional de Gestió
-
-[7ac857db14] 2026-10-12 23:31 UTC · x · @sucrenoticiasec (SUCRE NOTICIAS) · neutro · Lluvias e inundaciones · Guayas · dirigido a: Municipio o Prefectura (neutro) · pide: Maquinaria y limpieza · 1 interacciones · 194 vistas · cuenta con 97155 seguidores
-    Guayaquil soportó fuerte lluvia y acumulación de agua; municipio realizó trabajos de limpieza.
-    idea: El municipio limpia los sumideros ante las lluvias
-    Guayaquil soportó una prolongada lluvia desde la tarde del domingo 11 de octubre, que provocó acumulación de agua en sectores del norte y noroeste de la ciudad. Entre las 16:00 y las 21:00 se registraron hasta 69,83 milímetros de precipitación, mientras cuadrillas municipales rea
-
-[9cf7d82d6d] 2026-10-12 23:30 UTC · x · @Expresoec (Diario Expreso) · neutro · Deslaves y vías · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 4 interacciones · 906 vistas · cuenta con 1183575 seguidores
-    SNGR informa sobre incendios forestales activos en tres provincias del país.
-    idea: La Secretaría informa sobre los incendios forestales
-    Al menos cuatro incendios forestales estaban activos en tres provincias de Ecuador, en la mañana de este 12 de octubre, según la Secretaría Nacional de Gestión de Riesgos. Hasta el momento han consumido decenas de hectáreas. Más detalles 👇 https://t.co/2IKd8aFMCK
-
-[301b0a468d] 2026-10-12 23:26 UTC · x · @machalamovil (Machala Móvil) · neutro · Lluvias e inundaciones · El Oro · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 77 vistas · cuenta con 21088 seguidores
-    SNGR reporta desbordamientos de ríos en la Costa por lluvias vinculadas a El Niño.
-    idea: La Secretaría monitorea los desbordamientos de ríos
-    La Secretaría Nacional de Gestión de Riesgos reportó seis desbordamientos de ríos y esteros en tres provincias de la Costa ecuatoriana, según el balance del lunes 12 de octubre de 2026. Los eventos se registraron en Los Ríos, Guayas y El Oro, donde los ríos Caluguro y Chico, en e
-
-[0960bfe9d1] 2026-10-12 23:25 UTC · medios · Noticias 24/7 · neutro · Lluvias e inundaciones
-    Las fuertes lluvias dejan cinco ríos y un estero desbordados en tres provincias de Ecuador
-    Fuertes precipitaciones causan desbordamiento de cinco ríos y un estero en tres provincias.
-
-[b82b0aeb9e] 2026-10-12 23:11 UTC · x · @AzuayPrefectura (Prefectura del Azuay) · neutro · Prevención y alertas · Azuay · dirigido a: Municipio o Prefectura (positivo) · 6 interacciones · 99 vistas · cuenta con 23758 seguidores
-    Prefectura del Azuay fortalece Comité Comunitario de Gestión de Riesgos y realiza simulacros.
-    idea: Se capacita a la comunidad en gestión de riesgos
-    Fortalecemos el Comité Comunitario de Gestión de Riesgos en la comunidad Topali de la parroquia Abdón Calderón. 💪👷‍♂️ Junto al Cuerpo de Bomberos de Santa Isabel capacitamos a la comunidad en el manejo de herramientas forestales y desarrollamos un simulacro de incendios... https:
-
-[b9ea2d8d33] 2026-10-12 22:54 UTC · medios · www.eldiario.ec · neutro · Lluvias e inundaciones · Los Ríos
-    Niño de tres años murió ahogado en una poza formada por las lluvias en Baba
-    Un niño de tres años murió ahogado en una poza formada por las lluvias en Baba.
-
-[26620ba61a] 2026-10-12 22:50 UTC · x · @TiempoRealEC (Tiempo Real) · critico · Energía y servicios · Esmeraldas · dirigido a: Gobierno central (critico) · pide: Agua · 491 vistas · cuenta con 76840 seguidores
-    Derrame de crudo contamina el río Cupa y obliga a suspender la captación de agua en Esmeraldas.
-    idea: Un derrame de petróleo deja sin agua a la población
-    > 🚨 DERRAME DE CRUDO CONTAMINA EL RÍO CUPA Y OBLIGA A SUSPENDER LA CAPTACIÓN DE AGUA EN ESMERALDAS 🛢️ Un derrame de petróleo fue detectado este 12 de octubre en el río Cupa, cantón Quinindé. La emergencia se concentra en la comunidad de Cupa, parroquia Cube, donde moradores repor
-
-[58d6be0931] 2026-10-12 22:49 UTC · medios · Radio Pichincha · neutro · Deslaves y vías · Pichincha · dirigido a: Municipio o Prefectura (neutro) · pide: Maquinaria y limpieza
-    Trabajos de limpieza y cierre vial en Monjas tras el deslizamiento de un talud por las lluvias en Quito
-    Municipio de Quito realiza limpieza y cierre vial tras deslizamiento de talud en Monjas.
-    idea: El municipio realiza limpieza de vías
-    El Municipio de Quito ejecuta labores de limpieza de tierra en el sector de Monjas a causa del deslizamiento de un talud registrado el 11 de octubre debido a las precipitaciones. Con el propósito de precautelar la seguridad ciudadana, las autoridades mantienen un cierre vial. Las
