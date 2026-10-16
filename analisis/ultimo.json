@@ -1,61 +1,61 @@
 {
   "vinetas": [
-    "Inamhi alerta tormentas y ráfagas de viento hasta el 18 de octubre; Vistazo, Primicias, Expreso y El Diario lo replican.",
-    "Conversación baja y neutral: 60 piezas en 24 h frente a 98; en X, 8 frente a 26 y ninguna crítica.",
-    "Santo Domingo, nuevo foco: El Universo reporta inundaciones, hundimientos y deslizamientos; se intervienen seis puntos críticos.",
-    "CNE prepara 2.500 recintos electorales de contingencia ante El Niño, según El Comercio y Machala Móvil."
+    "Conversación neutral: 86 piezas en 24 h frente a 92; única crítica a la Secretaría: Diario La Tribuna.",
+    "Quitopía: asambleísta pide fiscalizar y requerir información a organismos de gestión de riesgos; lo recogen Asamblea y El Comercio.",
+    "Vistazo en X (807.000 seguidores) difunde el análisis de la Secretaría sobre 17 provincias vulnerables a lluvias y deslizamientos.",
+    "Inamhi: lluvias y tormentas hasta el 18 (Vistazo, Primicias, Expreso, FM Mundo); la Secretaría reportó siete incendios forestales activos."
   ],
   "fuentes_vinetas": [
-    ["c8e95c3849", "dfa9f970e3", "71507b3260", "b75b74b6e2"],
-    [],
-    ["9ab2cd43f6"],
-    ["7732ce063d", "55c0674f24"]
+    ["9b39fcb99d"],
+    ["c6cac919f2", "84d0ddf9d3"],
+    ["d181f3df35"],
+    ["c8e95c3849", "dfa9f970e3", "71507b3260", "abfbf7d205", "9ee697fffa", "f9f8f03979"]
   ],
   "acciones": [
     {
-      "accion": "Difundir hoy en radios del sur y X el aviso del Inamhi con Alertas Ecuador.",
-      "porque": "Inamhi alerta tormentas y ráfagas hasta el 18 (Vistazo, Primicias); Diario La Tribuna exige fortalecer la alerta temprana en la zona sur.",
+      "accion": "Alistar informe técnico de la SNGR sobre riesgos en Quitopía para la fiscalización.",
+      "porque": "Asamblea y El Comercio: asambleísta propone pedir información a organismos de gestión de riesgos sobre las afectaciones en Quitopía.",
+      "base_legal": "Art. 72 y 23.21",
+      "fuentes": ["c6cac919f2", "84d0ddf9d3"]
+    },
+    {
+      "accion": "Difundir por Alertas Ecuador y radios del sur el aviso de tormentas hasta el domingo 18.",
+      "porque": "Inamhi alerta tormentas y ráfagas hasta el 18 (Vistazo, Primicias, FM Mundo); Diario La Tribuna exige fortalecer la alerta temprana en la zona sur.",
       "base_legal": "Art. 61 y 62",
-      "fuentes": ["c8e95c3849", "dfa9f970e3", "9b39fcb99d", "536a387d06"]
+      "fuentes": ["c8e95c3849", "dfa9f970e3", "abfbf7d205", "9b39fcb99d"]
     },
     {
-      "accion": "Ofrecer al GAD de Santo Domingo apoyo técnico subsidiario en sus seis puntos críticos.",
-      "porque": "El Universo: lluvias provocan inundaciones, hundimientos y deslizamientos en Santo Domingo; se intervienen seis puntos críticos.",
-      "base_legal": "Art. 21.4 y 23.5",
-      "fuentes": ["9ab2cd43f6"]
-    },
-    {
-      "accion": "Entregar al CNE el mapa de zonas vulnerables de Alístate Ecuador para validar recintos.",
-      "porque": "El Comercio y Machala Móvil: CNE alista 2.500 recintos de contingencia; Carolina presentó Alístate Ecuador para ubicar zonas vulnerables.",
-      "base_legal": "Art. 23.4 y 23.5",
-      "fuentes": ["7732ce063d", "55c0674f24", "f254065cb2"]
+      "accion": "Publicar cada día en web y X una cifra consolidada de afectados por provincia.",
+      "porque": "Circulan cifras distintas: 20.660 personas (Carolina en Radio Forever), más de 22 mil (Radar Rojo) y más de 19.000 (Diario Los Andes).",
+      "base_legal": "Art. 61 y 72",
+      "fuentes": ["38b7f9030b", "e464ce52d2", "1552e069c7"]
     }
   ],
   "narrativas": [
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "La empujan cuentas oficiales y medios en X (Centro Digital, El Noticiero, ECU 911, MTDH, Ejército, La Posta); hoy se suman El Productor (cooperantes ante El Niño), el PNUD y la visita del ministro Luque a Manabí. Fortaleza para la Secretaría, pero con poco alcance en redes hoy.",
-      "ids": ["6c0045a933", "49c6ec1d84", "6764e1ea3b", "709907c545", "12540a3de2", "4c66b087b8", "33012ba104", "f3607654c9", "c5b8bdea94", "a3c4c5f944", "3a71216ed8", "436ed51d09", "ace6bfa502", "affff9dedd", "ef723f46a2", "ba423da366", "536a387d06", "9d9d006b7f", "68fd19bf78", "13cfdae75a", "d4c33a7379", "928ecd9cb3", "5f3e96df58", "d3cb76eab4"]
+      "explicacion": "Sigue siendo la narrativa más amplia: MIT (Cotopaxi), Gobernación de Santa Elena, MTDH (alojamiento en San Cristóbal), Cancillería (Suiza y Chile), el CNE que coordinará con la SNGR y el taller SNGR-PMA con periodistas. Fortaleza para la Secretaría, pero casi todo sale de cuentas oficiales con pocas vistas.",
+      "ids": ["6c0045a933", "49c6ec1d84", "6764e1ea3b", "709907c545", "12540a3de2", "4c66b087b8", "33012ba104", "f3607654c9", "c5b8bdea94", "a3c4c5f944", "3a71216ed8", "436ed51d09", "ace6bfa502", "affff9dedd", "ef723f46a2", "ba423da366", "536a387d06", "9d9d006b7f", "68fd19bf78", "13cfdae75a", "d4c33a7379", "928ecd9cb3", "5f3e96df58", "d3cb76eab4", "fa4cd41f5a", "150110fc4e", "5592cc5dcb", "fdfe45cccb", "6567da953f", "7090da0809", "a7c71d5039", "cce0a8c985", "680afca209", "727dec5eac", "89f63e1d29", "d181f3df35"]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Crece con la alerta del Inamhi hasta el 18 de octubre (Vistazo, Primicias, Expreso, El Diario) y ElOriente (intensidad récord), sobre lo dicho por Noboa (peores meses) y Crónica (el más poderoso en 75 años). Diario La Tribuna pide más alerta temprana en el sur: si llegan daños, el reproche apuntaría a la Secretaría.",
-      "ids": ["38372768aa", "335628f846", "54ee39eec8", "e3ce86b3a5", "3aa3b90bae", "648dd2bdb2", "79cd8b7760", "82a3c36eba", "9b39fcb99d", "c0420fa6d4", "61239fe112", "c8e95c3849", "dfa9f970e3", "71507b3260", "b75b74b6e2", "35643d3658", "6404f7414c"]
+      "explicacion": "La alimenta la alerta del Inamhi hasta el domingo 18 (Vistazo, Primicias, Expreso, El Diario, FM Mundo), ElOriente (intensidad récord) y lo dicho por Noboa (peores meses). Diario La Tribuna pide más alerta temprana en el sur: si llegan daños, el reproche apuntaría a la Secretaría.",
+      "ids": ["38372768aa", "335628f846", "54ee39eec8", "e3ce86b3a5", "3aa3b90bae", "648dd2bdb2", "79cd8b7760", "82a3c36eba", "9b39fcb99d", "c0420fa6d4", "61239fe112", "c8e95c3849", "dfa9f970e3", "71507b3260", "b75b74b6e2", "35643d3658", "6404f7414c", "abfbf7d205"]
+    },
+    {
+      "titulo": "Se sabía que venía y no se planificó",
+      "explicacion": "Apunta a los GAD y revive con Quitopía: un asambleísta pide fiscalizar las afectaciones en Quito (Asamblea, El Comercio) y Carolina dijo en Radio Forever que los municipios no ejecutaron plenamente sus planes de contingencia. Riesgo: que la fiscalización también pida cuentas a los organismos de gestión de riesgos.",
+      "ids": ["aaf41a4366", "4e7d8ba1fd", "136b59238f", "87a0b5619b", "c6cac919f2", "84d0ddf9d3", "6a44d4410f"]
     },
     {
       "titulo": "El Niño encarece la comida y golpea la economía",
-      "explicacion": "Ecuavisa (arroz, mercados de Quito), Primicias (créditos), Infobae (camaroneros), La Hora (Mazar) y Expreso (mantenimiento del sábado 17); hoy El Diario recoge el plan de diferimiento de BanEcuador y Desde Adentro medidas para el GLP. Apunta al Gobierno central, no a la Secretaría.",
+      "explicacion": "Ecuavisa (arroz, mercados de Quito), Primicias (créditos), Infobae (camaroneros), La Hora (Mazar), Expreso (mantenimiento del sábado 17), El Diario (diferimiento de BanEcuador) y Desde Adentro (GLP). Apunta al Gobierno central, no a la Secretaría.",
       "ids": ["f6d91b08b5", "2d30c35df4", "42895f7ff4", "d56afc6356", "e983bdf51f", "1a93c78eb6", "6cc706386d", "09dab02f73", "5fd31969b8", "4516c1054b", "8fd352b61c", "6685b99e42"]
     },
     {
       "titulo": "Nos quedamos sin agua y aislados",
-      "explicacion": "Babahoyo (Expreso y El Universo: 300 familias; La Hora: vías), Sigchos, Quinindé y Durán (El Universo: agua de lluvia más limpia que la de la tubería); hoy se suma Santo Domingo con hundimientos y deslizamientos. Apunta a servicios locales, pero es riesgo operativo si la respuesta no se ve en territorio.",
-      "ids": ["528b8fb307", "497cf2956e", "b434d3f484", "7c5399b572", "26620ba61a", "efe0726d21", "9ab2cd43f6"]
-    },
-    {
-      "titulo": "Se sabía que venía y no se planificó",
-      "explicacion": "Apunta a los GAD: El Universo recoge que Noboa cuestionó a prefecturas y gobiernos locales, El Noticiero en TikTok (3.052 vistas) habla de obras municipales pendientes y La Data culpa al Municipio de Quito. Sin piezas nuevas hoy.",
-      "ids": ["aaf41a4366", "4e7d8ba1fd", "136b59238f", "87a0b5619b"]
+      "explicacion": "Babahoyo (Expreso y El Universo: 300 familias; La Hora: vías), Sigchos, Durán (El Universo) y Santo Domingo con hundimientos y deslizamientos. Sin piezas nuevas en las últimas horas; apunta a servicios locales, pero es riesgo operativo si la respuesta no se ve en territorio.",
+      "ids": ["528b8fb307", "497cf2956e", "b434d3f484", "7c5399b572", "efe0726d21", "9ab2cd43f6"]
     },
     {
       "titulo": "El dengue avanza con las lluvias",
