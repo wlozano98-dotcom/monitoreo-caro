@@ -25,6 +25,19 @@ medios y redes sobre El Niño, la Secretaría y ella. Presupuesto cero: solo cap
   (`AGENDA_MEDIOS`, Google Noticias `site:` + RSS propios) en `titulares`; cada 4 h `agenda()` le pide a Gemini los
   temas y asigna cada titular (tema 0 = "El Niño y lluvias"); los conteos y el puesto se cuentan en Python.
   Va dentro del panel del nivel. Sin Google Trends (decisión de Andrés). Historial desde el 9 oct 2026. `--solo-agenda` para probar.
+- `lluvias.py` + `public/lluvias.html` (pedido de Andrés: dónde preposicionar kits; SIN medios ni redes): mapa por
+  cantón en rojo "actuar" / amarillo "atención" + lista. Fuentes del visor del INAMHI (services.geoglows.org, públicas):
+  alertas meteorológicas (nivel "Crecida" incluido), lluvia pronosticada WRF (~48 h), FFGS (crecida repentina = lluvia
+  pronosticada >= la que aguanta la cuenca; humedad del suelo), lluvia satelital PERSIANN 72 h y ríos GEOGLOWS.
+  Rojo = viene algo fuerte (INAMHI muy alta/crecida, crecida repentina o río) Y terreno mojado. La susceptibilidad SNGR
+  NO decide el color: solo el tipo de kit y la población expuesta.
+  OJO ríos: el ícono del visor (R2..R100) es el PEOR de 51 escenarios; ya engañó una vez (Azuay "100 años"). Se usa el
+  escenario central (flow_avg) contra los máximos anuales 1980-hoy de cada tramo (tabla `rios_maximos`); tramos casi
+  secos se descartan (Guayaquil marcaba R100 con caudal 0). Tabla `lluvias`, `/api/lluvias`, `--solo-lluvias`.
+- `preparar_territorio.py` (se corre a mano, una vez): cantones (geoBoundaries/INEC), susceptibilidad SNGR a inundación
+  (vector BAJA/MEDIA/ALTA) y deslizamientos (clases 1-5, UTM 17S) y población WorldPop 2020 1 km (BigTIFF LZW, lector
+  propio; 3 min la primera vez). Las localidades del censo solo dan provincia y tildes. Escribe `public/territorio.json`
+  (mapa) y `territorio_rejilla.json`. Descargas grandes en `.territorio/`. Andrés: no hay "kits por tipo", no decirlo.
 - `migrations/`: esquema de D1 (tabla `piezas`, `resumenes`, `corridas`).
 
 ## Comandos

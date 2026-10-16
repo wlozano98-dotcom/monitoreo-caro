@@ -734,3 +734,15 @@ pintarFiltros();
 prepararSecciones();
 cargar();
 setInterval(cargar, 10 * 60 * 1000);
+
+// Pestaña de lluvias: cuántos cantones están en rojo
+fetch("/api/lluvias")
+  .then((r) => r.json())
+  .then((d) => {
+    const n = (d.cantones || []).filter((c) => c.color === "rojo").length;
+    if (n) {
+      $("cuenta-lluvias").hidden = false;
+      $("cuenta-lluvias").textContent = n;
+    }
+  })
+  .catch(() => {});

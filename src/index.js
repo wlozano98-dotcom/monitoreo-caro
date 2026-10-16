@@ -13,14 +13,15 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     if (url.pathname === "/api/corregir" && request.method === "POST") return corregir(env.DB, request);
-    if (url.pathname === "/api/tablero" || url.pathname === "/api/piezas") {
+    if (url.pathname === "/api/tablero" || url.pathname === "/api/piezas" || url.pathname === "/api/lluvias") {
       const cache = caches.default;
       // La versión publicada va en la clave: al desplegar no se sirven respuestas de la versión anterior.
       const clave = new Request(url.toString() + "&_v=" + (env.VERSION?.id || ""), { method: "GET" });
       let resp = await cache.match(clave);
       if (resp) return resp;
       try {
-        const datos = await (url.pathname === "/api/piezas" ? piezasDe : tablero)(env.DB, url.searchParams);
+        const ruta = { "/api/piezas": piezasDe, "/api/lluvias": lluviasDe }[url.pathname] || tablero;
+        const datos = await ruta(env.DB, url.searchParams);
         resp = new Response(JSON.stringify(datos), {
           headers: { "content-type": "application/json; charset=utf-8", "cache-control": `public, max-age=${CACHE_SEG}` },
         });
@@ -73,6 +74,12 @@ async function corregir(db, request) {
   }
   if (sentencias.length) await db.batch(sentencias);
   return json({ ok: true, cambios: sentencias.length / 2 });
+}
+
+// Lluvias y ríos: la última foto que dejó lluvias.py (decisión por cantón ya calculada en Python).
+async function lluviasDe(db) {
+  const fila = await db.prepare("SELECT datos FROM lluvias ORDER BY creado DESC LIMIT 1").first();
+  return fila ? JSON.parse(fila.datos) : { cantones: [] };
 }
 
 // Para ordenar por alcance: vistas + interacciones. Los medios no traen vistas: cuentan como 1.000 (una nota de un

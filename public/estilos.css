@@ -104,6 +104,13 @@ a { color: inherit; text-underline-offset: 3px; text-decoration-thickness: 1px; 
 .actualizado .punto { width: 8px; height: 8px; border-radius: 50%; background: var(--n-verde); }
 .actualizado .punto.viejo { background: var(--n-amarilla); }
 
+/* ------------------------------------------------------------ pestañas: conversación pública | lluvias */
+.pestanas { max-width: 1180px; margin: 0 auto; padding: 10px 20px 0; display: flex; gap: 6px; flex-wrap: wrap; }
+.pestanas a { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; font-size: 14px; font-weight: 700; padding: 8px 16px; border-radius: 999px; background: var(--panel-2); color: var(--texto-2); }
+.pestanas a:hover { background: var(--panel); color: var(--texto); }
+.pestanas a[aria-current="page"] { background: var(--activo); color: var(--activo-texto); }
+.pestanas .cuenta-p { min-width: 20px; height: 20px; padding: 0 6px; border-radius: 999px; background: var(--n-roja); color: #fff; font-size: 12px; display: inline-grid; place-items: center; font-variant-numeric: tabular-nums; }
+
 /* ------------------------------------------------------------ hoy: termómetro, resumen y acciones */
 .hoy { max-width: 1180px; margin: 0 auto; padding: 20px 20px 4px; display: grid; gap: 20px; }
 .hoy-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 20px; align-items: stretch; }

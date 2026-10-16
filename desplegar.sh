@@ -6,5 +6,5 @@ export PATH="$PWD/../Proyecto Moni/bin/node/bin:$PATH"
 set -a; . ./.env; set +a
 css=$(shasum public/estilos.css | cut -c1-8)
 js=$(shasum public/app.js | cut -c1-8)
-sed -i '' -E "s#estilos\.css(\?v=[0-9a-f]+)?\"#estilos.css?v=$css\"#; s#app\.js(\?v=[0-9a-f]+)?\"#app.js?v=$js\"#" public/index.html
+sed -i '' -E "s#estilos\.css(\?v=[0-9a-f]+)?\"#estilos.css?v=$css\"#; s#app\.js(\?v=[0-9a-f]+)?\"#app.js?v=$js\"#" public/index.html public/lluvias.html
 CLOUDFLARE_API_TOKEN=$CLOUDFLARE_TOKEN npx wrangler deploy

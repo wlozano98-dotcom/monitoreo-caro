@@ -593,6 +593,7 @@ def recoger_youtube():
 # ---------------------------------------------------------------- redes (Apify)
 
 import redes  # noqa: E402  (va aparte porque depende de los actores de Apify)
+import lluvias  # noqa: E402  (ríos y lluvia del visor del INAMHI)
 
 
 # ---------------------------------------------------------------- Gemini
@@ -1154,6 +1155,9 @@ def main():
     inicio = ahora()
     db = D1()
     detalle = {}
+    if "--solo-lluvias" in args:  # para probar: solo ríos y lluvia
+        lluvias.lluvias(db)
+        return
     if "--solo-agenda" in args:  # para probar: solo titulares y ranking, sin tocar piezas ni corridas
         guardar_titulares(db, recoger_titulares())
         agenda(db)
@@ -1181,6 +1185,14 @@ def main():
     except Exception as e:
         print(f"  ERROR titulares: {e}")
         detalle["titulares"] = f"error: {str(e)[:150]}"
+
+    print("Lluvias y ríos…")
+    try:
+        datos = lluvias.lluvias(db)
+        detalle["lluvias"] = sum(1 for c in datos["cantones"] if c["color"] == "rojo")
+    except Exception as e:
+        print(f"  ERROR lluvias: {e}")
+        detalle["lluvias"] = f"error: {str(e)[:150]}"
 
     if "--sin-gemini" not in args:
         # La agenda cada 4 horas basta para ver la evolución y cuida la cuota de Gemini.

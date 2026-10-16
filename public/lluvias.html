@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Lluvias: dónde prepararse · SNGR</title>
+  <meta name="description" content="Qué cantones conviene preparar según las alertas del INAMHI, la lluvia, el estado del suelo y las zonas de riesgo de la SNGR.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="escudo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css?v=cef9aa0f">
+  <style>
+    /* Colores propios de esta página: el agua y la tierra (siempre con texto al lado) */
+    :root { --inund: #3673ef; --desl: #b0662a; --resto: #e3dcf0; }
+    :root[data-theme="dark"] { --resto: #3a3349; --desl: #d08a4f; }
+    @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --resto: #3a3349; --desl: #d08a4f; } }
+
+
+    /* --- resumen (como el panel del nivel) --- */
+    .estado-ll { font-size: 34px; font-weight: 800; letter-spacing: -.02em; line-height: 1; text-transform: uppercase; color: var(--n-roja-texto); }
+    .estado-ll.amarillo { color: var(--n-amarilla-texto); }
+    .estado-ll.verde { color: var(--n-verde-texto); }
+    .inamhi-linea { margin-top: 14px; display: flex; gap: 10px; align-items: flex-start; font-size: 14px; background: var(--panel-2); border-radius: 10px; padding: 10px 14px; }
+    .inamhi-linea .icono { color: var(--n-naranja-texto); margin-top: 3px; }
+    .aviso-fuente { margin-top: 8px; font-size: 13px; color: var(--critico-texto); }
+
+    /* --- mapa --- */
+    .mapa-panel { display: grid; gap: 8px; align-content: start; align-self: start; position: sticky; top: 12px; }
+    @media (max-width: 860px) { .mapa-panel { position: static; } }
+    .mapa { width: 100%; height: auto; display: block; max-height: 560px; }
+    .mapa path { fill: var(--fondo); stroke: var(--lavanda); stroke-width: .6; vector-effect: non-scaling-stroke; transition: fill .3s var(--ease); }
+    .mapa path.rojo { fill: var(--n-roja); stroke: var(--fondo); cursor: pointer; }
+    .mapa path.amarillo { fill: var(--n-amarilla); stroke: var(--fondo); cursor: pointer; }
+    .mapa path.rojo:hover, .mapa path.amarillo:hover { opacity: .8; }
+    .mapa path.activo { stroke: var(--night); stroke-width: 2.5; }
+    :root[data-theme="dark"] .mapa path.activo { stroke: #fff; }
+    @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .mapa path.activo { stroke: #fff; } }
+    .leyenda-ll { display: flex; gap: 6px; flex-wrap: wrap; }
+    .mapa-nota { font-size: 12px; color: var(--texto-3); }
+
+    /* --- prioridades: los círculos numerados de "Qué hacer hoy" --- */
+    .acciones li { cursor: pointer; }
+    .acciones li:hover b { color: var(--acento); }
+    .acciones .chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+
+    /* --- filas de cantón (como las narrativas) --- */
+    .cantones { display: grid; }
+    .fila-c { display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 10px 32px; padding: 18px 0; border-top: 1px solid var(--lavanda); scroll-margin-top: 20px; transition: background-color .4s; border-radius: 8px; }
+    .fila-c:first-child { border-top: 0; padding-top: 4px; }
+    .fila-c.destello { background: var(--fondo); }
+    @media (max-width: 700px) { .fila-c { grid-template-columns: 1fr; } }
+    .fila-c h3 { font-size: 20px; font-weight: 800; line-height: 1.2; letter-spacing: -.01em; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .fila-c h3 .punto-c { width: 12px; height: 12px; border-radius: 50%; flex: none; }
+    .fila-c h3 small { font-size: 13px; font-weight: 500; color: var(--texto-3); letter-spacing: 0; }
+    .fila-c .explica { margin-top: 6px; font-size: 15px; color: var(--texto-2); max-width: 70ch; }
+    .fila-c .chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
+    .chip.viene i { background: var(--n-roja); }
+    .chip.suelo i { background: var(--inund); }
+    .gente { display: grid; gap: 7px; align-content: start; }
+    .gente .total { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+    .gente .total b { font-size: 30px; font-weight: 800; color: var(--acento); font-variant-numeric: tabular-nums; letter-spacing: -.02em; line-height: 1; }
+    .gente .total span { font-size: 13px; color: var(--texto-3); }
+    .barra-pob { display: flex; height: 10px; border-radius: 999px; overflow: hidden; background: var(--resto); }
+    .barra-pob i { display: block; height: 100%; }
+    .barra-pob .in { background: var(--inund); }
+    .barra-pob .de { background: var(--desl); }
+    .gente ul { display: grid; gap: 3px; font-size: 13px; color: var(--texto-2); }
+    .gente li { display: flex; align-items: center; gap: 6px; }
+    .gente li i { width: 8px; height: 8px; border-radius: 2px; flex: none; }
+    .gente li b { color: var(--texto); font-variant-numeric: tabular-nums; }
+    .gente.corta { margin-top: 8px; max-width: 420px; gap: 6px; }
+    .gente.corta .barra-pob { height: 8px; }
+    .cifras-c { display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: 12px; color: var(--texto-2); }
+    .cifras-c span { display: inline-flex; align-items: center; gap: 5px; }
+    .cifras-c i { width: 8px; height: 8px; border-radius: 2px; }
+    .cifras-c b { color: var(--texto); font-variant-numeric: tabular-nums; }
+    .cifras-c .de-total { color: var(--texto-3); }
+
+    .fila-c details { grid-column: 1 / -1; }
+    .fila-c summary { cursor: pointer; font-size: 14px; font-weight: 600; color: var(--acento); display: inline-flex; align-items: center; gap: 4px; list-style: none; }
+    .fila-c summary::-webkit-details-marker { display: none; }
+    .fila-c summary .icono { transition: transform .2s var(--ease); }
+    .fila-c details[open] summary .icono { transform: rotate(90deg); }
+    .detalle { width: 100%; max-width: 760px; margin-top: 10px; border-collapse: collapse; font-size: 14px; background: var(--fondo); border-radius: 10px; overflow: hidden; }
+    .detalle th { text-align: left; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--texto-3); padding: 9px 12px; border-bottom: 1px solid var(--linea); }
+    .detalle td { padding: 9px 12px; border-bottom: 1px solid var(--linea); vertical-align: top; }
+    .detalle tr:last-child td { border-bottom: 0; }
+    .detalle td:first-child { color: var(--texto-2); }
+    .detalle td:nth-child(2) { font-weight: 600; font-variant-numeric: tabular-nums; }
+    .detalle .si { color: var(--critico-texto); font-weight: 800; }
+    .detalle .no { color: var(--texto-3); }
+    .detalle .grupo td { background: var(--panel-2); font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--texto-3); padding: 6px 12px; }
+    @media (max-width: 560px) { .detalle td:first-child { width: 44%; } }
+
+    .ver-mas { margin-top: 10px; border: 0; border-radius: 999px; padding: 8px 16px; font-weight: 700; font-size: 13px; cursor: pointer; background: var(--fondo); color: var(--texto); box-shadow: inset 0 0 0 1.5px var(--lavanda); }
+
+    /* --- cómo se decide --- */
+    .reglas { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 18px 28px; }
+    .reglas dt { font-weight: 700; font-size: 15px; display: flex; align-items: center; gap: 8px; }
+    .reglas dt i { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+    .reglas dd { font-size: 14px; color: var(--texto-2); margin-top: 4px; line-height: 1.45; }
+    .fuentes-ll { font-size: 12px; color: var(--texto-3); margin-top: 18px; line-height: 1.55; max-width: 110ch; }
+    .pie-ll { max-width: 1180px; margin: 0 auto; padding: 0 20px 40px; }
+  </style>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-alerta" viewBox="0 0 16 16"><path d="M8 2.5l6 10.5H2z" /><path d="M8 6.5v3" /><path d="M8 11.6v.1" /></symbol>
+      <symbol id="i-flecha" viewBox="0 0 16 16"><path d="M6 3.5L10.5 8 6 12.5" /></symbol>
+    </defs>
+  </svg>
+
+  <header class="barra">
+    <div class="marca">
+      <img src="escudo.png" alt="Escudo del Ecuador" width="46" height="55">
+      <div>
+        <h1>Lluvias: dónde prepararse</h1>
+        <p>Secretaría Nacional de Gestión de Riesgos</p>
+      </div>
+    </div>
+    <p class="actualizado" id="estado">Cargando…</p>
+  </header>
+  <nav class="pestanas" aria-label="Secciones">
+    <a href="/">Conversación pública</a>
+    <a href="/lluvias.html" aria-current="page">Lluvias: dónde prepararse<span class="cuenta-p" id="cuenta-lluvias" hidden></span></a>
+  </nav>
+
+  <section class="hoy" aria-label="Hoy">
+    <div class="panel termo" aria-labelledby="t-situacion">
+      <h2 class="pastilla oscura" id="t-situacion">Situación de lluvias</h2>
+      <p class="termo-sub">Cruza las alertas del INAMHI, la lluvia que viene, la que ya cayó y el estado del suelo, cantón por cantón. Rojo: viene algo fuerte y el terreno ya está mojado.</p>
+      <div class="nivel-fila">
+        <p class="estado-ll" id="estado-ll">—</p>
+        <p class="nivel-razon" id="estado-razon"></p>
+      </div>
+      <dl class="cifras-hoy" id="cifras"></dl>
+      <div class="inamhi-linea" id="inamhi" hidden></div>
+      <p class="aviso-fuente" id="errores" hidden></p>
+    </div>
+
+    <div class="hoy-grid">
+      <section class="panel mapa-panel" aria-labelledby="t-mapa">
+        <h2 class="pastilla" id="t-mapa">Mapa por cantón</h2>
+        <svg class="mapa" id="mapa" role="img" aria-label="Mapa del Ecuador continental pintado por cantón"></svg>
+        <div class="leyenda-ll">
+          <span class="chip"><i style="background:var(--n-roja)"></i>Actuar</span>
+          <span class="chip"><i style="background:var(--n-amarilla)"></i>Atención</span>
+          <span class="chip"><i style="background:var(--fondo);box-shadow:inset 0 0 0 1px var(--linea-fuerte)"></i>Sin señal</span>
+        </div>
+        <p class="mapa-nota">Toque un cantón pintado para ver su detalle. Galápagos no aparece: estas fuentes cubren el continente.</p>
+      </section>
+      <section class="panel acciones" aria-labelledby="t-prioridad">
+        <h2 class="pastilla oscura" id="t-prioridad">Prioridad hoy</h2>
+        <ol id="prioridad"></ol>
+      </section>
+    </div>
+  </section>
+
+  <main class="contenido">
+    <details class="seccion" id="sec-rojo" open>
+      <summary>
+        <span class="seccion-titulo"><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg>Actuar</span>
+        <span class="seccion-dato rojo" id="dato-rojo"></span>
+        <span class="seccion-sub">Viene algo fuerte y el terreno ya está mojado</span>
+      </summary>
+      <div class="seccion-cuerpo"><section class="bloque"><ol class="cantones" id="lista-rojo"></ol></section></div>
+    </details>
+
+    <details class="seccion" id="sec-amarillo" open>
+      <summary>
+        <span class="seccion-titulo"><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg>Atención</span>
+        <span class="seccion-dato" id="dato-amarillo"></span>
+        <span class="seccion-sub">Una señal fuerte sin terreno mojado, o lluvia sobre terreno mojado</span>
+      </summary>
+      <div class="seccion-cuerpo"><section class="bloque"><ol class="cantones" id="lista-amarillo"></ol><button class="ver-mas" id="ver-mas" type="button" hidden></button></section></div>
+    </details>
+
+    <details class="seccion" id="sec-reglas">
+      <summary>
+        <span class="seccion-titulo"><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg>Cómo se decide</span>
+        <span class="seccion-sub">Las reglas del color, las fuentes y qué tan confiables son</span>
+      </summary>
+      <div class="seccion-cuerpo">
+        <section class="bloque">
+          <dl class="reglas">
+            <div><dt><i style="background:var(--n-roja)"></i>Actuar</dt>
+              <dd>Viene algo fuerte <b>y</b> el terreno ya está mojado. Algo fuerte: alerta del INAMHI muy alta o de crecida, riesgo de crecida repentina o un río que crece más de lo común. Terreno mojado: suelo saturado (80 % o más) o 50 mm o más de lluvia en los últimos 3 días.</dd></div>
+            <div><dt><i style="background:var(--n-amarilla)"></i>Atención</dt>
+              <dd>Viene algo fuerte en un cantón con zonas de riesgo de inundación o deslizamiento, aunque todavía no haya llovido ahí; o viene lluvia (alerta alta o 40 mm o más pronosticados) sobre terreno ya mojado.</dd></div>
+            <div><dt>Personas en zonas de riesgo</dt>
+              <dd>Cuánta gente vive dentro de las zonas que la SNGR marca con susceptibilidad alta a inundación o a deslizamientos. Es población total (WorldPop 2020, la que usan la ONU y OCHA), ciudades incluidas. No es cuánta gente se va a afectar: es cuánta vive donde el riesgo es mayor.</dd></div>
+            <div><dt>Qué tan confiable es</dt>
+              <dd>Las alertas del INAMHI y las zonas de riesgo de la SNGR son oficiales. La lluvia pronosticada (modelo WRF del INAMHI) falla más en la sierra. Los ríos se miran en su escenario central, no en el más extremo; si ningún río aparece, es porque ese escenario no muestra crecidas fuera de lo común. Las reglas del color son de este tablero, no del INAMHI.</dd></div>
+          </dl>
+          <p class="fuentes-ll">Fuentes, todas públicas: alertas meteorológicas, pronóstico de lluvia WRF, sistema de alerta de crecidas repentinas (FFGS), lluvia por satélite PERSIANN y pronóstico de ríos GEOGLOWS, del visor del INAMHI (inamhi.geoglows.org); mapas de susceptibilidad a inundación y a deslizamientos de la SNGR; población WorldPop 2020 (1 km); límites cantonales del INEC (geoBoundaries). Se actualiza cada 2 horas; las fuentes cambian entre una y cuatro veces al día.</p>
+        </section>
+      </div>
+    </details>
+  </main>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+  const icono = (n) => `<svg class="icono" aria-hidden="true"><use href="#i-${n}"/></svg>`;
+  const DIAS = ["dom", "lun", "mar", "mié", "jue", "vie", "sáb"];
+  const MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
+  const fecha = (iso) => { const d = new Date(iso.slice(0, 10) + "T12:00:00"); return `${DIAS[d.getDay()]} ${d.getDate()} ${MESES[d.getMonth()]}`; };
+  const miles = (n) => Math.round(n).toLocaleString("es-EC");
+  const cifra = (n) => n >= 1e6 ? `${(n / 1e6).toLocaleString("es-EC", { maximumFractionDigits: 1 })} mill.` : miles(n);
+  const pct = (x) => `${Math.round(x * 100)} %`;
+  const hace = (iso) => {
+    const min = Math.round((Date.now() - Date.parse(iso)) / 6e4);
+    return min < 60 ? `hace ${min} min` : `hace ${Math.round(min / 60)} h`;
+  };
+
+  // Señales en pastillas cortas
+  function chips(c) {
+    const v = [];
+    if (c.inamhi === "de crecida") v.push(["viene", "Alerta de crecida INAMHI"]);
+    else if (c.inamhi === "muy alta") v.push(["viene", "Alerta muy alta INAMHI"]);
+    else if (c.inamhi === "alta") v.push(["viene", "Alerta alta INAMHI"]);
+    if (c.repentina) v.push(["viene", "Crecida repentina"]);
+    if (c.rio) v.push(["viene", "Río crece"]);
+    if (c.llega.includes("lluvia")) v.push(["viene", `${c.wrf} mm previstos`]);
+    if (c.terreno.includes("suelo")) v.push(["suelo", `Suelo saturado ${c.suelo} %`]);
+    if (c.terreno.includes("caida")) v.push(["suelo", `${c.mm72} mm en 3 días`]);
+    return v.map(([k, t]) => `<span class="chip ${k}"><i></i>${esc(t)}</span>`).join("");
+  }
+  // Una frase que explica el color
+  function frase(c) {
+    const viene = [], terreno = [];
+    if (c.inamhi === "de crecida") viene.push("el INAMHI tiene alerta de crecida");
+    else if (c.inamhi) viene.push(`el INAMHI tiene alerta ${c.inamhi}`);
+    if (c.repentina) viene.push(`hay riesgo de crecida repentina en ${c.repentina} de sus ${c.cuencas} cuencas pequeñas`);
+    if (c.rio) viene.push(`un río crece como ${c.rio.nunca ? "no se ha visto en 47 años" : `una vez cada ${c.rio.periodo} años`}`);
+    if (c.llega.includes("lluvia")) viene.push(`se esperan ${c.wrf} mm en 2 días`);
+    if (c.terreno.includes("suelo")) terreno.push(`el suelo está saturado (${c.suelo} %)`);
+    if (c.terreno.includes("caida")) terreno.push(`ya cayeron ${c.mm72} mm en 3 días`);
+    const unir = (a) => a.length > 1 ? a.slice(0, -1).join(", ") + " y " + a[a.length - 1] : a[0] || "";
+    let t = unir(viene);
+    if (terreno.length) t += (t ? "; además, " : "") + unir(terreno);
+    else if (c.inund || c.desl) t += ". Todavía no ha llovido fuerte, pero el cantón tiene zonas de riesgo";
+    return t.charAt(0).toUpperCase() + t.slice(1) + ".";
+  }
+  function gente(c) {
+    const ancho = (x) => `${Math.min(100, (x / c.pob) * 100).toFixed(1)}%`;
+    return `<div class="gente">
+      <p class="total"><b>${cifra(c.pob)}</b><span>personas viven en el cantón</span></p>
+      <div class="barra-pob" aria-hidden="true"><i class="in" style="width:${ancho(c.pob_inund)}"></i><i class="de" style="width:${ancho(c.pob_desl)}"></i></div>
+      <ul>
+        <li><i style="background:var(--inund)"></i><b>${miles(c.pob_inund)}</b> en zona de inundación</li>
+        <li><i style="background:var(--desl)"></i><b>${miles(c.pob_desl)}</b> en zona de deslizamientos</li>
+      </ul></div>`;
+  }
+  function detalle(c) {
+    const fila = (fuente, dato, cuenta) => `<tr><td>${fuente}</td><td>${dato}</td><td class="${cuenta ? "si" : "no"}">${cuenta ? "Sí" : "—"}</td></tr>`;
+    const rio = c.rio ? `crece como ${c.rio.nunca ? "nunca en 47 años" : `1 vez cada ${c.rio.periodo} años`}${c.rio.dia ? `, ${fecha(c.rio.dia)}` : ""}` : "sin crecida fuera de lo común";
+    return `<details><summary>${icono("flecha")}Ver el detalle de las fuentes</summary>
+      <table class="detalle"><thead><tr><th>Fuente</th><th>Dato</th><th>Cuenta</th></tr></thead><tbody>
+        <tr class="grupo"><td colspan="3">Lo que viene</td></tr>
+        ${fila("Alerta meteorológica del INAMHI", c.inamhi ? `alerta ${c.inamhi}` : "sin alerta", c.llega.includes("inamhi"))}
+        ${fila("Lluvia pronosticada, 2 días (INAMHI)", c.wrf != null ? `${c.wrf} mm` : "sin dato", c.llega.includes("lluvia"))}
+        ${fila("Crecida repentina (FFGS)", c.cuencas ? `${c.repentina} de ${c.cuencas} cuencas` : "sin cuencas medidas", !!c.repentina)}
+        ${fila("Ríos, escenario central (GEOGLOWS)", rio, !!c.rio)}
+        <tr class="grupo"><td colspan="3">El terreno</td></tr>
+        ${fila("Humedad del suelo (FFGS)", c.suelo != null ? `${c.suelo} %` : "sin dato", c.terreno.includes("suelo"))}
+        ${fila("Lluvia de los últimos 3 días (satélite)", c.mm72 != null ? `${c.mm72} mm` : "sin dato", c.terreno.includes("caida"))}
+        <tr class="grupo"><td colspan="3">Zonas de riesgo (SNGR) · no deciden el color</td></tr>
+        <tr><td>Susceptibilidad alta a inundación</td><td colspan="2">${pct(c.inund_alta)} del cantón · ${miles(c.pob_inund)} personas viven ahí</td></tr>
+        <tr><td>Susceptibilidad alta a deslizamientos</td><td colspan="2">${pct(c.desl_alta)} del cantón · ${miles(c.pob_desl)} personas viven ahí</td></tr>
+      </tbody></table></details>`;
+  }
+  // Versión corta para "Prioridad hoy": la barra y las dos cifras en una línea
+  function barraCorta(c) {
+    const ancho = (x) => `${Math.min(100, (x / c.pob) * 100).toFixed(1)}%`;
+    return `<div class="gente corta">
+      <div class="barra-pob" aria-hidden="true"><i class="in" style="width:${ancho(c.pob_inund)}"></i><i class="de" style="width:${ancho(c.pob_desl)}"></i></div>
+      <p class="cifras-c"><span><i style="background:var(--inund)"></i><b>${miles(c.pob_inund)}</b> en zona de inundación</span>
+        <span><i style="background:var(--desl)"></i><b>${miles(c.pob_desl)}</b> en deslizamientos</span>
+        <span class="de-total">de ${cifra(c.pob)} habitantes</span></p></div>`;
+  }
+  const fila = (c) => `<li class="fila-c" id="c-${c.id}">
+      <div><h3><span class="punto-c" style="background:var(--n-${c.color === "rojo" ? "roja" : "amarilla"})"></span>${esc(c.canton)} <small>${esc(c.provincia)}</small></h3>
+        <p class="explica">${esc(frase(c))}</p><div class="chips">${chips(c)}</div></div>
+      ${gente(c)}${detalle(c)}</li>`;
+
+  async function cargar() {
+    let terr, d;
+    try {
+      [terr, d] = await Promise.all([fetch("/territorio.json").then((r) => r.json()), fetch("/api/lluvias", { cache: "no-store" }).then((r) => r.json())]);
+    } catch {
+      $("estado").textContent = "No se pudo cargar";
+      return;
+    }
+    const cantones = d.cantones || [];
+    const por = new Map(cantones.map((c) => [c.id, c]));
+    const rojos = cantones.filter((c) => c.color === "rojo");
+    const amarillos = cantones.filter((c) => c.color === "amarillo");
+
+    // Barra superior
+    if (d.creado) {
+      const viejo = Date.now() - Date.parse(d.creado) > 3 * 3600e3;
+      $("estado").innerHTML = `<span class="punto${viejo ? " viejo" : ""}"></span>Actualizado <b>${hace(d.creado)}</b>`;
+    } else $("estado").textContent = "Sin datos todavía";
+
+    // Resumen
+    const est = $("estado-ll");
+    if (rojos.length) { est.textContent = "Actuar"; $("estado-razon").textContent = `en ${rojos.length} ${rojos.length === 1 ? "cantón" : "cantones"} · ${amarillos.length} más en atención`; }
+    else if (amarillos.length) { est.textContent = "Atención"; est.classList.add("amarillo"); $("estado-razon").textContent = `en ${amarillos.length} cantones · ninguno para actuar`; }
+    else { est.textContent = "Sin señal"; est.classList.add("verde"); $("estado-razon").textContent = "ningún cantón con señales de lluvia fuerte"; }
+    const sum = (a, k) => a.reduce((s, c) => s + (c[k] || 0), 0);
+    const enInundacion = sum(rojos, "pob_inund");
+    const alerta = d.inamhi?.[0];
+    $("cifras").innerHTML = `
+      <div><dt>Cantones para actuar</dt><dd>${rojos.length}<small>${amarillos.length} más en atención</small></dd></div>
+      <div><dt>Viven en zona de inundación</dt><dd>${cifra(enInundacion)}<small>en los cantones en rojo · ${cifra(sum(rojos, "pob_desl"))} más en deslizamientos</small></dd></div>
+      <div><dt>Alerta del INAMHI</dt><dd>${alerta ? `n.º ${esc(alerta.no)}` : "—"}<small>${alerta ? `hasta el ${fecha(alerta.fin)}, ${esc(alerta.fin.slice(11, 16))}` : "ninguna vigente"}</small></dd></div>`;
+    if (d.inamhi?.length) {
+      $("inamhi").hidden = false;
+      $("inamhi").innerHTML = `${icono("alerta")}<span>${d.inamhi.map((a) => `<b>INAMHI, alerta meteorológica n.º ${esc(a.no)}:</b> ${esc(a.tipo.toLowerCase())}, vigente hasta el ${fecha(a.fin)} a las ${esc(a.fin.slice(11, 16))}.`).join(" ")}
+        Lluvia pronosticada hasta el ${d.fuentes?.wrf ? fecha(d.fuentes.wrf) : "—"}; lluvia medida hasta el ${d.fuentes?.persiann ? fecha(d.fuentes.persiann) : "—"}.</span>`;
+    }
+    const caidas = Object.keys(d.errores || {});
+    if (caidas.length) { $("errores").hidden = false; $("errores").textContent = `Esta vez no respondió: ${caidas.join(", ")}. El color se calculó con las demás fuentes.`; }
+
+    // Mapa
+    const svg = $("mapa");
+    svg.setAttribute("viewBox", terr.vista.join(" "));
+    svg.innerHTML = terr.cantones.map((t) => {
+      const c = por.get(t.id);
+      return `<path d="${t.d}" data-id="${t.id}" class="${c ? c.color : ""}"><title>${esc(t.canton)} (${esc(t.provincia)})${c ? ` · ${c.color === "rojo" ? "actuar" : "atención"}` : ""}</title></path>`;
+    }).join("");
+
+    if (rojos.length) { $("cuenta-lluvias").hidden = false; $("cuenta-lluvias").textContent = rojos.length; }
+
+    // Prioridad: los primeros en rojo (ya vienen ordenados por gente en zona de inundación)
+    $("prioridad").innerHTML = rojos.length
+      ? rojos.slice(0, 5).map((c) => `<li data-id="${c.id}"><b>${esc(c.canton)}, ${esc(c.provincia)}</b><span>${esc(frase(c))}</span>${barraCorta(c)}</li>`).join("")
+      : `<li class="vacio">Hoy ningún cantón está en rojo.</li>`;
+
+    // Listas
+    $("dato-rojo").innerHTML = `<b>${rojos.length}</b>cantones`;
+    $("dato-amarillo").innerHTML = `<b>${amarillos.length}</b>cantones`;
+    $("lista-rojo").innerHTML = rojos.map(fila).join("") || `<li class="vacio">Ningún cantón hoy.</li>`;
+    const VISIBLES = 8;
+    const pintarAmarillos = (todos) => {
+      $("lista-amarillo").innerHTML = (todos ? amarillos : amarillos.slice(0, VISIBLES)).map(fila).join("") || `<li class="vacio">Ninguno.</li>`;
+      $("ver-mas").hidden = todos || amarillos.length <= VISIBLES;
+      $("ver-mas").textContent = `Ver los ${amarillos.length} cantones`;
+    };
+    pintarAmarillos(false);
+    $("ver-mas").onclick = () => pintarAmarillos(true);
+
+    // Del mapa o la prioridad a la fila del cantón
+    const ir = (id) => {
+      const c = por.get(+id);
+      if (!c) return;
+      if (c.color === "amarillo" && !$(`c-${id}`)) pintarAmarillos(true);
+      $(c.color === "rojo" ? "sec-rojo" : "sec-amarillo").open = true;
+      document.querySelectorAll(".mapa .activo").forEach((p) => p.classList.remove("activo"));
+      const p = svg.querySelector(`path[data-id="${id}"]`);
+      if (p) { p.classList.add("activo"); p.parentNode.appendChild(p); }
+      const li = $(`c-${id}`);
+      li.scrollIntoView({ behavior: "smooth", block: "start" });
+      li.classList.add("destello");
+      setTimeout(() => li.classList.remove("destello"), 1600);
+    };
+    svg.addEventListener("click", (e) => e.target.dataset?.id && ir(e.target.dataset.id));
+    $("prioridad").addEventListener("click", (e) => { const li = e.target.closest("li[data-id]"); if (li) ir(li.dataset.id); });
+
+  }
+  cargar();
+})();
+</script>
+</body>
+</html>
