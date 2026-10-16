@@ -52,6 +52,13 @@
     :root[data-theme="dark"] .mapa path.activo { stroke: #fff; }
     @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .mapa path.activo { stroke: #fff; } }
     .leyenda-ll { display: flex; gap: 6px; flex-wrap: wrap; }
+    .marco-mapa { position: relative; border-radius: 10px; overflow: hidden; }
+    .marco-mapa .mapa { touch-action: none; user-select: none; -webkit-user-select: none; }
+    .marco-mapa.arrastrando .mapa { cursor: grabbing; }
+    .zoom { position: absolute; top: 8px; right: 8px; display: grid; gap: 4px; }
+    .zoom button { width: 34px; height: 34px; border: 0; border-radius: 10px; background: var(--fondo); color: var(--texto); font-size: 20px; font-weight: 700; line-height: 1; cursor: pointer; box-shadow: 0 0 0 1px var(--linea-fuerte); }
+    .zoom button:hover { background: var(--panel-2); }
+    .zoom button:disabled { opacity: .4; cursor: default; }
     .mapa-cabeza { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; flex-wrap: wrap; }
     .mapa-cabeza .pastilla { margin-bottom: 0; }
     .vistas { display: inline-flex; background: var(--fondo); border-radius: 999px; padding: 3px; gap: 2px; }
@@ -78,7 +85,7 @@
     .ficha .lista-cant { display: grid; gap: 4px; font-size: 13px; color: var(--texto-2); }
     .ficha .lista-cant li { display: flex; justify-content: space-between; gap: 10px; border-bottom: 1px solid var(--linea); padding: 3px 0; }
     .ficha .lista-cant b { color: var(--texto); font-variant-numeric: tabular-nums; }
-    .mapa .marca-ya circle { cursor: pointer; }
+    .mapa .marca-ya circle { cursor: pointer; vector-effect: non-scaling-stroke; }
     .ficha { background: var(--fondo); border-radius: 10px; padding: 14px 16px; display: grid; gap: 8px; }
     .ficha h3 { font-size: 18px; font-weight: 800; display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
     .ficha h3 small { font-size: 13px; font-weight: 500; color: var(--texto-3); }
@@ -217,7 +224,14 @@
             <button type="button" role="tab" id="ver-provincias" aria-selected="false">Provincias</button>
           </div>
         </div>
-        <svg class="mapa" id="mapa" role="img" aria-label="Mapa del Ecuador continental pintado por cantón"></svg>
+        <div class="marco-mapa">
+          <svg class="mapa" id="mapa" role="img" aria-label="Mapa del Ecuador continental pintado por cantón"></svg>
+          <div class="zoom" aria-label="Zoom del mapa">
+            <button type="button" id="zoom-mas" aria-label="Acercar">+</button>
+            <button type="button" id="zoom-menos" aria-label="Alejar">−</button>
+            <button type="button" id="zoom-inicio" aria-label="Ver todo el país" title="Ver todo el país">⤢</button>
+          </div>
+        </div>
         <div class="leyenda-ll" id="leyenda-prov" hidden></div>
         <div class="leyenda-ll" id="leyenda-cant">
           <span class="chip"><i style="background:var(--n-roja)"></i>Actuar</span>
@@ -495,10 +509,79 @@
       return `<path d="${p.d}" data-prov="${esc(p.provincia)}" class="n${nivelProv(n)}"><title>${esc(p.provincia)}: ${n ? miles(n) : "0"} personas impactadas</title></path>`;
     }).join("")}</g><g class="marca-ya">${terr.cantones.filter((t) => porYa.has(t.id)).map((t) => {
       const v = porYa.get(t.id), dos = v.sitrep && v.agua;
-      return (v.sitrep ? `<circle class="m-sitrep" data-id="${t.id}" cx="${t.cx - (dos ? 4 : 0)}" cy="${t.cy}" r="4.2"/>` : "") + (v.agua ? `<circle class="m-agua" data-id="${t.id}" cx="${t.cx + (dos ? 4 : 0)}" cy="${t.cy}" r="4.2"/>` : "");
+      return (v.sitrep ? `<circle class="m-sitrep" data-id="${t.id}" data-x="${t.cx}" data-lado="${dos ? -1 : 0}" cx="${t.cx - (dos ? 4 : 0)}" cy="${t.cy}" r="4.2"/>` : "") + (v.agua ? `<circle class="m-agua" data-id="${t.id}" data-x="${t.cx}" data-lado="${dos ? 1 : 0}" cx="${t.cx + (dos ? 4 : 0)}" cy="${t.cy}" r="4.2"/>` : "");
     }).join("")}</g>`;
 
     if (rojos.length) { $("cuenta-lluvias").hidden = false; $("cuenta-lluvias").textContent = rojos.length; }
+
+    // Zoom: botones, arrastrar para moverse, pellizcar (o Ctrl + rueda). Un toque sin arrastrar abre la ficha.
+    const total = terr.vista.map(Number);
+    let vb = [...total], arrastre = null, movio = false;
+    const punteros = new Map();
+    const MAX = 12;
+    const aplicar = () => {
+      const k = vb[2] / total[2];
+      if (k > 1) vb = [...total];
+      vb[0] = Math.min(Math.max(vb[0], total[0]), total[0] + total[2] - vb[2]);
+      vb[1] = Math.min(Math.max(vb[1], total[1]), total[1] + total[3] - vb[3]);
+      svg.setAttribute("viewBox", vb.join(" "));
+      const e = vb[2] / total[2];  // los puntos mantienen su tamaño en pantalla
+      svg.querySelectorAll(".marca-ya circle").forEach((c) => {
+        c.setAttribute("r", 4.2 * e);
+        c.setAttribute("cx", +c.dataset.x + 4 * e * +c.dataset.lado);
+      });
+      $("zoom-menos").disabled = $("zoom-inicio").disabled = e >= 0.999;
+      $("zoom-mas").disabled = e <= 1 / MAX + 0.001;
+    };
+    const acercar = (factor, px = 0.5, py = 0.5) => {
+      const w = Math.min(total[2], Math.max(total[2] / MAX, vb[2] / factor)), h = w * total[3] / total[2];
+      vb = [vb[0] + (vb[2] - w) * px, vb[1] + (vb[3] - h) * py, w, h];
+      aplicar();
+    };
+    const relativo = (ev) => { const r = svg.getBoundingClientRect(); return [(ev.clientX - r.left) / r.width, (ev.clientY - r.top) / r.height]; };
+    $("zoom-mas").onclick = () => acercar(1.6);
+    $("zoom-menos").onclick = () => acercar(1 / 1.6);
+    $("zoom-inicio").onclick = () => { vb = [...total]; aplicar(); };
+    svg.addEventListener("wheel", (ev) => {
+      if (!ev.ctrlKey && !ev.metaKey) return;  // sin Ctrl la rueda baja la página, como siempre
+      ev.preventDefault();
+      acercar(Math.exp(-ev.deltaY * 0.01), ...relativo(ev));
+    }, { passive: false });
+    svg.addEventListener("pointerdown", (ev) => {
+      punteros.set(ev.pointerId, [ev.clientX, ev.clientY]);
+      if (punteros.size === 1) { arrastre = { x: ev.clientX, y: ev.clientY, vb: [...vb] }; movio = false; }
+    });
+    svg.addEventListener("pointermove", (ev) => {
+      if (!punteros.has(ev.pointerId)) return;
+      const antes = [...punteros.values()];
+      punteros.set(ev.pointerId, [ev.clientX, ev.clientY]);
+      const r = svg.getBoundingClientRect();
+      if (punteros.size === 2) {  // pellizco
+        const ahora = [...punteros.values()];
+        const dist = (a) => Math.hypot(a[0][0] - a[1][0], a[0][1] - a[1][1]);
+        if (antes.length === 2 && dist(antes) > 0) {
+          const cx = (ahora[0][0] + ahora[1][0]) / 2, cy = (ahora[0][1] + ahora[1][1]) / 2;
+          acercar(dist(ahora) / dist(antes), (cx - r.left) / r.width, (cy - r.top) / r.height);
+        }
+        movio = true;
+        return;
+      }
+      if (!arrastre) return;
+      const dx = ev.clientX - arrastre.x, dy = ev.clientY - arrastre.y;
+      if (!movio && Math.hypot(dx, dy) < 6) return;
+      if (vb[2] >= total[2] - 0.01) return;  // sin zoom no hay a dónde moverse
+      if (!movio) { movio = true; svg.setPointerCapture(ev.pointerId); $("mapa").parentNode.classList.add("arrastrando"); }
+      vb = [arrastre.vb[0] - dx * vb[2] / r.width, arrastre.vb[1] - dy * vb[3] / r.height, vb[2], vb[3]];
+      aplicar();
+    });
+    const soltar = (ev) => {
+      punteros.delete(ev.pointerId);
+      if (!punteros.size) { arrastre = null; $("mapa").parentNode.classList.remove("arrastrando"); }
+    };
+    svg.addEventListener("pointerup", soltar);
+    svg.addEventListener("pointercancel", soltar);
+    svg.addEventListener("click", (ev) => { if (movio) { ev.stopImmediatePropagation(); movio = false; } }, true);
+    aplicar();
     const rangos = ["Sin reportes", "1 a 99", "100 a 499", "500 a 1.999", "2.000 a 9.999", "10.000 o más"];
     $("leyenda-prov").innerHTML = `<span class="chip" style="background:none;padding-left:0">Personas impactadas${d.sitrep ? ` · SitRep n.º ${d.sitrep.numero}` : ""}:</span>` +
       rangos.map((r, k) => `<span class="chip"><svg width="14" height="14" aria-hidden="true"><rect class="esc" width="14" height="14" rx="4" fill="${["var(--fondo)", "#ece2ff", "#d4bbff", "#b083f0", "#8a4bd8", "#5f1f9e"][k]}" stroke="var(--lavanda)"/></svg>${r}</span>`).join("");
