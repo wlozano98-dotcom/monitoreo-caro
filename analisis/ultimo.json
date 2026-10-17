@@ -1,66 +1,66 @@
 {
   "vinetas": [
-    "69 piezas en 24 h frente a 94; críticas 2 (ayer 1), ambas al Gobierno; positivas caen de 12 a 1.",
-    "Cifras de afectados difieren: Prensa Latina publica 22 mil; Carolina dio 20.660 en provincias en alerta roja.",
-    "Inamhi alerta lluvias hasta el domingo 18; Vistazo habla de 17 provincias y El Universo de cinco.",
-    "Medios dominados por energía: más de 15 notas sobre Colombia reanudando la venta eléctrica; tema del Gobierno central."
+    "Medios suben a 59 notas en 24 h (44 antes), casi todas neutras; domina la energía con Colombia, tema del Gobierno central.",
+    "Inamhi alerta lluvias hasta el domingo 18; vía Cuenca-Molleturo-Naranjal cerrada en el km 90 (El Universo, El Comercio).",
+    "Cifras de afectados no cuadran entre medios: 22 mil (Prensa Latina), 19.000 (Los Andes), 17.000 damnificados (Machala Móvil).",
+    "Quitopía sigue en El Comercio y La República; el pedido de la Asamblea alcanza a organismos de gestión de riesgos."
   ],
   "fuentes_vinetas": [
-    [],
-    ["494ba04fc8", "38b7f9030b", "e464ce52d2"],
-    ["695e492b5d", "b2d2e8ad81", "b82be4da2b", "6a67784a9a"],
-    ["c692b6800d", "9452b3e91c", "01d9b7b889", "8276c0558c", "5f35b19960", "3ab69e9dc8", "ab658536d5", "8dcd28ec29", "cd4449692c", "b9b83afcbe", "408754655c", "da4dcc6d7c", "7bf153eeb5", "c3e7976939", "d37bdad86e", "fdf221ef77"]
+    ["5f35b19960", "7bf153eeb5", "b9b83afcbe", "ab658536d5"],
+    ["b82be4da2b", "6a67784a9a", "be3465e5bc", "9be9a3991c"],
+    ["494ba04fc8", "1552e069c7", "863689a2fd", "38b7f9030b"],
+    ["1430175e81", "84d0ddf9d3", "c6cac919f2"]
   ],
   "acciones": [
     {
-      "accion": "Publicar esta noche en redes SNGR la lista única de provincias en alerta hasta el domingo.",
-      "porque": "Vistazo reporta 17 provincias y El Universo cinco; Ecuavisa, El Comercio y Teleamazonas difunden la alerta del fin de semana.",
+      "accion": "Publicar hoy en web y X una cifra única de afectados con hora de corte.",
+      "porque": "Circulan 22 mil (Prensa Latina), 20.660 (Carolina en Radio Forever), 19.000 (Los Andes) y 17.000 damnificados (Machala Móvil).",
       "base_legal": "Art. 61 y 72",
-      "fuentes": ["695e492b5d", "b2d2e8ad81", "6a67784a9a", "b82be4da2b", "74ea0aa520"]
+      "fuentes": ["494ba04fc8", "38b7f9030b", "1552e069c7", "863689a2fd"]
     },
     {
-      "accion": "Difundir corte oficial de afectados con fecha y hora, en web y a medios.",
-      "porque": "Prensa Latina y Radar Rojo dicen 22 mil; Carolina dio 20.660; TVC atribuye más de 12 mil solo a Esmeraldas.",
-      "base_legal": "Art. 61, 72 y 73",
-      "fuentes": ["494ba04fc8", "e464ce52d2", "38b7f9030b", "41338d3e5a"]
+      "accion": "Difundir con ECU 911 y radios las provincias en alerta hasta el domingo.",
+      "porque": "Inamhi alerta hasta el 18; Vistazo habla de 17 provincias y El Universo de cinco; vía Cuenca-Molleturo cerrada.",
+      "base_legal": "Art. 61 y 62",
+      "fuentes": ["695e492b5d", "b2d2e8ad81", "b82be4da2b", "be3465e5bc"]
     },
     {
-      "accion": "Entregar al CNE lineamientos de riesgo para elegir sus 2.500 recintos alternos.",
-      "porque": "Radio Pichincha reporta que el CNE coordinará con la SNGR esos recintos de contingencia para las elecciones del 29 de noviembre.",
-      "base_legal": "Art. 23.4 y 23.5",
-      "fuentes": ["cce0a8c985", "0946fd62bb", "7732ce063d"]
+      "accion": "Alistar informe técnico sobre Quito para responder a la fiscalización de Quitopía.",
+      "porque": "Asambleísta pide información al Municipio y a organismos de gestión de riesgos; lo replican El Comercio y La República.",
+      "base_legal": "Art. 72 y 23.21",
+      "fuentes": ["c6cac919f2", "84d0ddf9d3", "1430175e81"]
     }
   ],
   "narrativas": [
     {
-      "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "La empujan la alerta del Inamhi hasta el domingo (El Comercio, Ecuavisa, Vistazo, Expreso, El Universo) y notas sobre un Niño de intensidad récord; Diario La Tribuna pide más alerta temprana en el sur. Oportunidad: que la SNGR sea la fuente que ordena qué provincias están en riesgo.",
-      "ids": ["b82be4da2b", "6a67784a9a", "74ea0aa520", "6f6a779f93", "d7b6d67051", "b2d2e8ad81", "695e492b5d", "cdad33abeb", "aa5d662a44", "abfbf7d205", "c8e95c3849", "71507b3260", "dfa9f970e3", "6404f7414c", "c0420fa6d4", "b75b74b6e2", "35643d3658", "d181f3df35", "9b39fcb99d", "e3ce86b3a5", "33a5e893b2", "d2e2ccfbdf"]
-    },
-    {
       "titulo": "Energía: alivio con Colombia, temor a cortes",
-      "explicacion": "Hoy es el tema más repetido en medios nacionales y colombianos: Noboa anuncia que Colombia reanuda la venta de energía; Cordes e industriales de Manabí advierten por los cortes. Apunta al Gobierno central, no a la Secretaría.",
-      "ids": ["c692b6800d", "9452b3e91c", "01d9b7b889", "8276c0558c", "5f35b19960", "3ab69e9dc8", "ab658536d5", "8dcd28ec29", "cd4449692c", "b9b83afcbe", "408754655c", "da4dcc6d7c", "7bf153eeb5", "c3e7976939", "d37bdad86e", "fdf221ef77", "7cb4204ce9", "10ff44afae", "ff6fee9b43", "437788385f", "b9f0291744", "6685b99e42", "4516c1054b", "e983bdf51f"]
+      "explicacion": "Medios nacionales y colombianos replican que Colombia reanuda la venta de energía; Cordes, industriales de Manabí y camaroneros advierten por cortes y el mantenimiento del sábado 17 aún no confirma cortes. Apunta al Gobierno central, no a la Secretaría.",
+      "ids": ["5f35b19960", "3ab69e9dc8", "7bf153eeb5", "b9b83afcbe", "ab658536d5", "8dcd28ec29", "cd4449692c", "408754655c", "da4dcc6d7c", "c3e7976939", "d37bdad86e", "fdf221ef77", "c692b6800d", "9452b3e91c", "01d9b7b889", "8276c0558c", "7cb4204ce9", "6355bbf0a2", "10ff44afae", "ff6fee9b43", "e983bdf51f", "c85d788013", "09dab02f73", "6cc706386d"]
     },
     {
-      "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "La sostienen cuentas oficiales (MIT, gobernaciones, MTDH, Cancillería, Ejército), el CNE con sus 2.500 recintos alternos y el taller SNGR-PMA para periodistas. Fortaleza para la Secretaría, pero con pocas vistas fuera de las cuentas institucionales.",
-      "ids": ["dab7416270", "fa4cd41f5a", "150110fc4e", "5592cc5dcb", "fdfe45cccb", "680afca209", "727dec5eac", "cce0a8c985", "0946fd62bb", "7732ce063d", "55c0674f24", "6567da953f", "7090da0809", "a7c71d5039", "928ecd9cb3", "5f3e96df58", "89f63e1d29", "f2817c60fb", "d3cb76eab4", "436ed51d09"]
+      "titulo": "Las lluvias empeorarán y no estamos preparados",
+      "explicacion": "La empujan la alerta del Inamhi hasta el domingo 18 (El Comercio, Ecuavisa, Vistazo, El Universo, Expreso) y notas sobre un Niño de intensidad récord; Diario La Tribuna pide más alerta temprana en el sur. Oportunidad: que la SNGR ordene qué provincias están en riesgo, porque los medios difieren en cuántas son.",
+      "ids": ["b82be4da2b", "6a67784a9a", "695e492b5d", "b2d2e8ad81", "d7b6d67051", "74ea0aa520", "6f6a779f93", "aa5d662a44", "9b39fcb99d", "6404f7414c", "e3ce86b3a5", "abfbf7d205", "c8e95c3849", "dfa9f970e3"]
     },
     {
       "titulo": "Nos quedamos sin agua y aislados",
-      "explicacion": "Ríos desbordados en la Costa (Primicias, Expreso con datos de la SNGR), carretera hundida en Manabí y cultivos inundados en Guayas (Diario Extra), Balao en emergencia y seis puntos críticos en Santo Domingo. Apunta a servicios locales, pero es riesgo operativo si la respuesta no se ve en territorio.",
-      "ids": ["48ce87f283", "494ba04fc8", "78d13fe9b6", "a5df210792", "85556c6fb4", "b493c806ae", "9ab2cd43f6", "efe0726d21", "41338d3e5a", "e464ce52d2", "b8dad2c692"]
-    },
-    {
-      "titulo": "Se sabía que venía y no se planificó",
-      "explicacion": "Apunta a los GAD: la Asamblea fiscalizará Quitopía (El Comercio, La República) y Carolina dijo en Radio Forever que los municipios no ejecutaron plenamente sus planes. Riesgo: el pedido de información del asambleísta alcanza también a los organismos de gestión de riesgos.",
-      "ids": ["8c536d386a", "84d0ddf9d3", "c6cac919f2", "6a44d4410f", "d745521ebb"]
+      "explicacion": "Cuatro ríos desbordados según la SNGR (Primicias, Radio Pichincha, teleSUR), vía Cuenca-Molleturo-Naranjal cerrada, carretera hundida en Manabí, agua acumulada en seis sectores de Guayaquil y Balao en emergencia. Apunta a servicios y vías locales, pero es riesgo operativo si la respuesta no se ve en territorio.",
+      "ids": ["9be9a3991c", "be3465e5bc", "1c293fe649", "48ce87f283", "aef89f4ac5", "78d13fe9b6", "32c6917d84", "ad6a6afc71", "494ba04fc8", "efe0726d21", "85556c6fb4", "b493c806ae", "9ab2cd43f6"]
     },
     {
       "titulo": "El Niño encarece la comida y golpea la economía",
       "explicacion": "Escasez y alza del pescado (Udla Channel), Cumbre de Banano en Guayaquil, plan regional de pesca, diferimiento de BanEcuador y maíz en riesgo en Napo por falta de lluvias (Ecuavisa). Apunta al Gobierno central, no a la Secretaría.",
-      "ids": ["1b00bb5f7e", "2c47cea064", "129e2978e0", "db00605b2a", "8fd352b61c", "5e23617423"]
+      "ids": ["1b00bb5f7e", "2c47cea064", "129e2978e0", "db00605b2a", "5e23617423", "8fd352b61c"]
+    },
+    {
+      "titulo": "Coordinación preventiva y entrega de asistencia oficial",
+      "explicacion": "La sostienen cuentas oficiales: Gobernación de Imbabura con la SNGR en Antonio Ante, capacitación EVIN Digital de la SNGR a Segura EP y Prefectura del Guayas, ejercicios militares en Riobamba y Pastaza, y el video de Carolina sobre Alístate Ecuador. Fortaleza, pero con pocas vistas fuera de las cuentas institucionales.",
+      "ids": ["709d57b59b", "0b6434ce78", "a626e423b7", "dab7416270", "0811c0ec31", "711ad504fc", "fa4cd41f5a", "150110fc4e", "5592cc5dcb", "064b06aa19", "6567da953f", "0946fd62bb", "cce0a8c985"]
+    },
+    {
+      "titulo": "Se sabía que venía y no se planificó",
+      "explicacion": "Apunta a los GAD: la Asamblea fiscalizará Quitopía, El Comercio recuerda que Quito se inunda en los mismos puntos desde hace un siglo y vecinos de Sauces 8 en Guayaquil llevan años pidiendo obras. Riesgo: el pedido de información del asambleísta alcanza también a los organismos de gestión de riesgos.",
+      "ids": ["1430175e81", "8c536d386a", "84d0ddf9d3", "c6cac919f2", "938cc78cf2", "3bada70708", "6a44d4410f", "aaf41a4366"]
     }
   ],
   "rumores": [],
