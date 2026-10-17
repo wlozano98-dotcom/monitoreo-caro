@@ -1,66 +1,66 @@
 {
   "vinetas": [
-    "Medios suben a 62 piezas en 24 h frente a 38 ayer; en X las positivas caen de 10 a 2.",
-    "Cifras de afectados dispersas: Xinhua y Prensa Latina dicen 22.000; Carolina dio 20.660 el 15 en provincias en alerta roja.",
-    "Alerta del Inamhi hasta el domingo 18 con datos distintos: Vistazo habla de 17 provincias, El Universo de cinco.",
-    "Asambleísta Luigi García propone pedir información sobre Quitopía también a organismos de gestión de riesgos; puede alcanzar a la SNGR."
+    "Medios estables: 51 piezas frente a 47 ayer; X cae de 33 a 15 y las positivas en redes, de 10 a 2.",
+    "El Universo, Metro y El Telégrafo destacan ayuda humanitaria a más de 300 familias (312) en cinco provincias.",
+    "Esmeraldas: El Universo reporta desbordamiento del río Cayapas con afectaciones en siete sectores; cifra nacional citada: 22.374 afectados.",
+    "Tema nuevo en medios: Plan Internacional advierte que El Niño agrava acoso, pobreza y abandono escolar de niñas (Primicias, El Diario)."
   ],
   "fuentes_vinetas": [
     [],
-    ["e0f3ac534d", "494ba04fc8", "38b7f9030b"],
-    ["695e492b5d", "b2d2e8ad81", "b82be4da2b"],
-    ["c6cac919f2", "84d0ddf9d3"]
+    ["eaf415a471", "9d1244c627", "fc368b9b67"],
+    ["a142a96269", "4cd6bd4936"],
+    ["57c5a43f33", "8d0f16459b", "31dec3a4ac"]
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy en X y web balance único de afectados por provincia.",
-      "porque": "Xinhua y Prensa Latina citan 22.000 afectados; Carolina dio 20.660 el 15; los medios replican cifras de fechas distintas.",
-      "base_legal": "Art. 61 y 72",
-      "fuentes": ["e0f3ac534d", "494ba04fc8", "38b7f9030b"]
-    },
-    {
-      "accion": "Difundir con el Inamhi mapa único de provincias en alerta hasta el domingo 18.",
-      "porque": "Vistazo reporta 17 provincias en alerta y El Universo cinco; Diario La Tribuna exige fortalecer la alerta temprana en el sur.",
+      "accion": "Publicar hoy con el Inamhi lista única de provincias en alerta hasta el domingo 18.",
+      "porque": "La Hora, Metro y El Comercio publican hoy sus propias zonas en riesgo; antes Vistazo habló de 17 provincias y El Universo de cinco.",
       "base_legal": "Art. 61, 62 y 64.6",
-      "fuentes": ["695e492b5d", "b2d2e8ad81", "9b39fcb99d"]
+      "fuentes": ["e5d8d57723", "1c75b8b1ad", "d5934c0aaf", "695e492b5d", "b2d2e8ad81"]
     },
     {
-      "accion": "Preparar informe técnico para la Asamblea sobre Quitopía con lo actuado por la SNGR.",
-      "porque": "La Asamblea fiscalizará Quitopía y el asambleísta propone requerir información a organismos de control y gestión de riesgos.",
-      "base_legal": "Art. 23.21 y 72",
-      "fuentes": ["c6cac919f2", "84d0ddf9d3", "1430175e81"]
+      "accion": "Ofrecer al COE de Esmeraldas apoyo subsidiario y evaluación EVIN en sectores del Cayapas.",
+      "porque": "El Universo reporta desbordamiento del río Cayapas con afectaciones en siete sectores; el Inamhi prevé lluvias intermitentes este sábado.",
+      "base_legal": "Art. 13, 21.4 y 68",
+      "fuentes": ["a142a96269", "540c2f8cb9"]
+    },
+    {
+      "accion": "Emitir lineamiento de protección a niñas en alojamientos temporales y difundirlo con Plan Internacional.",
+      "porque": "Primicias y El Diario recogen la advertencia de Plan Internacional: El Niño agrava acoso, pobreza y abandono escolar de niñas.",
+      "base_legal": "Art. 13, 23.4 y 67",
+      "fuentes": ["57c5a43f33", "8d0f16459b", "31dec3a4ac"]
     }
   ],
   "narrativas": [
     {
       "titulo": "Energía: alivio con Colombia, temor a cortes",
-      "explicacion": "Medios nacionales y colombianos replican que Colombia reanuda la venta de energía; Cordes, industriales de Manabí y camaroneros advierten por cortes, y el mantenimiento de hoy sábado 17 no tenía cortes confirmados. Apunta al Gobierno central, no a la Secretaría.",
+      "explicacion": "Medios nacionales y colombianos replican que Colombia reanuda la venta de energía; Cordes, industriales de Manabí y camaroneros advierten por cortes y Expreso pregunta si se garantizará el suministro. Apunta al Gobierno central, no a la Secretaría.",
       "ids": ["6355bbf0a2", "7cb4204ce9", "ab658536d5", "8dcd28ec29", "cd4449692c", "b9b83afcbe", "408754655c", "c85d788013", "da4dcc6d7c", "7bf153eeb5", "c3e7976939", "d37bdad86e", "fdf221ef77", "c692b6800d", "9452b3e91c", "01d9b7b889", "8276c0558c", "5f35b19960", "3ab69e9dc8", "10ff44afae", "ff6fee9b43", "6cc706386d", "e983bdf51f", "09dab02f73"]
     },
     {
       "titulo": "Nos quedamos sin agua y aislados",
-      "explicacion": "Vía Cuenca-Molleturo-Naranjal cerrada en el km 90 (El Comercio, El Universo, Riesgos Cuenca), carretera hundida en Manabí, agua acumulada en seis sectores de Guayaquil y cuatro ríos desbordados según la SNGR. Apunta a vías y servicios locales, pero es riesgo operativo si la respuesta no se ve en territorio.",
-      "ids": ["9be9a3991c", "be3465e5bc", "1c293fe649", "aef89f4ac5", "48ce87f283", "32c6917d84", "ad6a6afc71", "78d13fe9b6", "494ba04fc8", "85556c6fb4", "efe0726d21"]
+      "explicacion": "Vía Cuenca-Molleturo-Naranjal cerrada en el km 90, carretera hundida en Manabí, agua acumulada en Guayaquil, cuatro ríos desbordados según la SNGR y ahora el Cayapas en siete sectores de Esmeraldas. Apunta a vías y servicios locales, pero es riesgo operativo si la respuesta no se ve en territorio.",
+      "ids": ["a142a96269", "9be9a3991c", "be3465e5bc", "1c293fe649", "aef89f4ac5", "fe904f35dc", "48ce87f283", "32c6917d84", "ad6a6afc71", "78d13fe9b6", "494ba04fc8", "85556c6fb4", "efe0726d21", "9ab2cd43f6"]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "La empujan la alerta del Inamhi hasta el domingo 18 (El Comercio, Ecuavisa, Vistazo, El Universo, Expreso), Inamhi y Espol en Televistazo y notas sobre un Niño récord; Diario La Tribuna pide más alerta temprana en el sur. Oportunidad: que la SNGR ordene qué provincias están en riesgo, porque los medios difieren.",
-      "ids": ["b82be4da2b", "6a67784a9a", "d7b6d67051", "b2d2e8ad81", "695e492b5d", "6e5eb16083", "6f6a779f93", "aa5d662a44", "9b39fcb99d", "74ea0aa520", "d181f3df35"]
+      "explicacion": "La empujan las notas sobre la alerta del Inamhi para el 17 y 18 (La Hora, Metro, El Comercio, Ecuavisa, Vistazo, El Universo, Expreso), Inamhi y Espol en Televistazo y Diario La Tribuna, que pide más alerta temprana en el sur. Oportunidad: que la SNGR ordene qué provincias están en riesgo, porque los medios difieren.",
+      "ids": ["e5d8d57723", "1c75b8b1ad", "d5934c0aaf", "114ad90537", "bd8e2f3a13", "b82be4da2b", "6a67784a9a", "447bc2f2da", "d7b6d67051", "b2d2e8ad81", "695e492b5d", "6e5eb16083", "6f6a779f93", "aa5d662a44", "9b39fcb99d", "74ea0aa520", "d181f3df35"]
     },
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "La sostienen cuentas oficiales: Gobernación de Imbabura con la SNGR en Antonio Ante (18 personas), capacitación EVIN Digital a Segura EP, simulacros militares en Riobamba y Pastaza, alojamiento en San Cristóbal y el video de Carolina sobre Alístate Ecuador. Fortaleza, pero con pocas vistas fuera de las cuentas institucionales.",
-      "ids": ["709d57b59b", "0b6434ce78", "a626e423b7", "dab7416270", "0811c0ec31", "064b06aa19", "711ad504fc", "5592cc5dcb", "f3607654c9"]
+      "explicacion": "Hoy la empujan El Universo, Metro y El Telégrafo con la ayuda a 312 familias en cinco provincias, más cuentas oficiales: Gobernación de Imbabura en Antonio Ante, EVIN Digital con Segura EP, simulacros militares y el video de Carolina sobre Alístate Ecuador. Fortaleza, pero en X las publicaciones positivas cayeron.",
+      "ids": ["eaf415a471", "9d1244c627", "fc368b9b67", "709d57b59b", "0b6434ce78", "a626e423b7", "dab7416270", "0811c0ec31", "5592cc5dcb", "064b06aa19"]
     },
     {
       "titulo": "El Niño encarece la comida y golpea la economía",
-      "explicacion": "Arroceros piden medidas (Radio Canal Águila), productores de maíz piden alivio financiero por inundaciones y sequía (Expreso), escasez de pescado y maíz en riesgo en Napo. Apunta al Gobierno central, no a la Secretaría.",
-      "ids": ["21ddcde131", "3f2b0790d0", "1b00bb5f7e", "2c47cea064", "129e2978e0", "5e23617423", "8fd352b61c"]
+      "explicacion": "Primicias reporta 161.357 hectáreas de cultivos en riesgo en Guayas; arroceros y productores de maíz piden medidas y alivio financiero; escasez de pescado y maíz en riesgo en Napo. Apunta al Gobierno central, no a la Secretaría.",
+      "ids": ["be2bd2c871", "21ddcde131", "3f2b0790d0", "1b00bb5f7e", "5e23617423", "2c47cea064"]
     },
     {
       "titulo": "Se sabía que venía y no se planificó",
-      "explicacion": "Apunta a los GAD: la Asamblea fiscalizará Quitopía, El Comercio recuerda que Quito se inunda en los mismos puntos desde hace un siglo y vecinos de Sauces 8 piden obras; Noboa y Carolina cuestionaron la preparación local. Riesgo: el pedido de información alcanza a organismos de gestión de riesgos.",
-      "ids": ["938cc78cf2", "1430175e81", "8c536d386a", "84d0ddf9d3", "c6cac919f2", "3bada70708", "6a44d4410f", "aaf41a4366"]
+      "explicacion": "Apunta a los GAD: la Asamblea fiscalizará Quitopía, El Comercio recuerda que Quito se inunda en los mismos puntos desde hace un siglo y vecinos de Sauces 8 piden obras; Carolina cuestionó en radio la preparación de los municipios. Riesgo: el pedido de información alcanza a organismos de gestión de riesgos.",
+      "ids": ["1430175e81", "8c536d386a", "84d0ddf9d3", "c6cac919f2", "938cc78cf2", "3bada70708", "6a44d4410f"]
     }
   ],
   "rumores": [],
