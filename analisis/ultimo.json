@@ -1,42 +1,40 @@
 {
   "vinetas": [
-    "Baja la conversación: 55 piezas en 24 h frente a 102 ayer; solo 2 críticas, ambas en X.",
-    "Cifras de afectados difieren: El Universo y Diario Correo dicen 21.307; Instagram 22.374; Prensa Latina, 22 mil.",
-    "797 kits en cinco provincias dominan; El Universo y Metro dicen 312 familias, El Telégrafo 'más de 300' y 'más de 200'.",
-    "Esmeraldas sigue al frente: Diario Extra reporta dos ríos desbordados en el norte; Inamhi alertó lluvias hasta hoy 18."
+    "Cae el volumen: 40 piezas en 24 h frente a 91 ayer; solo 2 críticas, en X y de cuentas pequeñas.",
+    "Ecuavisa explica afectados, damnificados e impactados; las cifras siguen distintas: 21.307 (El Universo) y más de 22.000 (Xinhua, Prensa Latina).",
+    "Medios giran a la magnitud de El Niño: Primicias habla de fase de madurez; Mongabay, que podría extenderse hasta 2027.",
+    "En redes domina lo positivo: 9 de 16 piezas en X; La Hora difundió los 797 kits (812 vistas)."
   ],
   "fuentes_vinetas": [
     [],
     [
+      "43718854c8",
       "35d8688b59",
-      "250b4d0d91",
-      "4cd6bd4936",
+      "5a54bbbae3",
+      "e0c6a7817d",
       "494ba04fc8"
     ],
     [
-      "11cd03037a",
-      "eaf415a471",
-      "9d1244c627",
-      "fc368b9b67",
-      "9a7cd9733b"
+      "aa2f3a1280",
+      "d83c4d205b",
+      "93fce29220"
     ],
     [
-      "16654bb5e8",
-      "a142a96269",
-      "ccb2840eea"
+      "59c4922dc9",
+      "11cd03037a"
     ]
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy en web y X un solo corte oficial de afectados y familias atendidas.",
-      "porque": "Medios difieren: 21.307 afectados (El Universo) frente a 22.374 (Instagram); El Telégrafo dio 300 y 200 familias, no 312.",
+      "accion": "Publicar hoy en web y X un corte único de afectados, damnificados e impactados.",
+      "porque": "Ecuavisa explica los términos; El Universo da 21.307 afectados y Expreso más de 21.000; Xinhua y Prensa Latina, más de 22.000.",
       "base_legal": "Art. 61, 72 y 73",
       "fuentes": [
+        "43718854c8",
         "35d8688b59",
-        "4cd6bd4936",
-        "fc368b9b67",
-        "9a7cd9733b",
-        "eaf415a471"
+        "5a54bbbae3",
+        "e0c6a7817d",
+        "494ba04fc8"
       ]
     },
     {
@@ -50,11 +48,13 @@
       ]
     },
     {
-      "accion": "Difundir por X y TikTok de la Secretaría la lista de los 15 alojamientos temporales.",
-      "porque": "Carolina anunció 15 alojamientos en 14 provincias (NotiMundo, 189 vistas); su TikTok sobre Alístate Ecuador alcanzó 1.038 vistas.",
+      "accion": "Difundir por TikTok y X qué hacer ante cada nivel de alerta (Alístate Ecuador).",
+      "porque": "Primicias reporta El Niño en fase de madurez; Metro, que podría durar hasta 2027; El Universo muestra hogares reforzando techos.",
       "base_legal": "Art. 61 y 64.6",
       "fuentes": [
-        "c2c98de8ed",
+        "aa2f3a1280",
+        "93fce29220",
+        "f97c446158",
         "064b06aa19"
       ]
     }
@@ -85,7 +85,7 @@
     },
     {
       "titulo": "Nos quedamos sin agua y aislados",
-      "explicacion": "Dos ríos desbordados en el norte de Esmeraldas y el Cayapas en siete sectores, vía Cuenca-Molleturo-Naranjal cerrada en el km 90, carretera hundida en Manabí y agua acumulada en 14 sectores de Guayaquil. Apunta a vías y servicios locales, pero es riesgo operativo si la respuesta no se ve en territorio.",
+      "explicacion": "Dos ríos desbordados en el norte de Esmeraldas y el Cayapas en siete sectores, vía Cuenca-Molleturo-Naranjal cerrada en el km 90, carretera hundida en Manabí, agua en 14 sectores de Guayaquil y, en YouTube, Petrillo (Guayas) con un puente amarrado con sogas. Apunta a vías y servicios locales, pero es riesgo operativo si la respuesta no se ve en territorio.",
       "ids": [
         "16654bb5e8",
         "a142a96269",
@@ -94,12 +94,13 @@
         "9be9a3991c",
         "be3465e5bc",
         "48ce87f283",
-        "1c293fe649"
+        "1c293fe649",
+        "cabf7da073"
       ]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "La empujan las alertas del Inamhi para el 17 y 18 (La Hora, El Comercio, El Diario Ecuador, Metro) y Metro, que dice que El Niño podría extenderse hasta mediados de 2027. Oportunidad para que la Secretaría explique qué hacer ante cada alerta.",
+      "explicacion": "La empujan las alertas del Inamhi para el 17 y 18 (La Hora, El Comercio, El Diario Ecuador, Metro), Metro y Primicias, que hablan de un El Niño en fase de madurez que podría durar hasta 2027. Oportunidad para que la Secretaría explique qué hacer ante cada alerta; El Universo muestra hogares que ya se preparan.",
       "ids": [
         "93fce29220",
         "1c75b8b1ad",
@@ -107,7 +108,9 @@
         "d5934c0aaf",
         "ccb2840eea",
         "6173d5b365",
-        "3c968c2a7b"
+        "3c968c2a7b",
+        "aa2f3a1280",
+        "f97c446158"
       ]
     },
     {
@@ -125,26 +128,26 @@
     },
     {
       "titulo": "El Niño encarece la comida y golpea la economía",
-      "explicacion": "Primicias reporta 161.357 hectáreas de cultivos en riesgo en Guayas; productores de arroz y maíz piden medidas y alivio financiero; escasez de pescado en Puerto López. Apunta al Gobierno central, no a la Secretaría.",
+      "explicacion": "Primicias reporta 161.357 hectáreas de cultivos en riesgo en Guayas; productores de arroz y maíz piden medidas y alivio financiero; escasez de pescado en Puerto López; Mongabay advierte por los alimentos en la región. Apunta al Gobierno central, no a la Secretaría.",
       "ids": [
         "be2bd2c871",
         "3f2b0790d0",
         "21ddcde131",
         "ccfa189b1c",
-        "1b00bb5f7e"
+        "1b00bb5f7e",
+        "d83c4d205b"
       ]
     },
     {
       "titulo": "Se sabía que venía y no se planificó",
-      "explicacion": "Apunta a los GAD: la Asamblea fiscalizará Quitopía, El Comercio recuerda que Quito se inunda en los mismos puntos desde hace un siglo y vecinos de Sauces 8 piden obras; Carolina cuestionó en radio la preparación de los municipios. Riesgo: el pedido del asambleísta incluye a los organismos de gestión de riesgos.",
+      "explicacion": "Apunta a los GAD: la Asamblea fiscalizará Quitopía, El Comercio recuerda que Quito se inunda en los mismos puntos desde hace un siglo y vecinos de Sauces 8 piden obras. Riesgo: el pedido de fiscalización de la Asamblea puede extenderse a los organismos de gestión de riesgos.",
       "ids": [
         "1430175e81",
         "8c536d386a",
         "84d0ddf9d3",
         "c6cac919f2",
         "938cc78cf2",
-        "3bada70708",
-        "6a44d4410f"
+        "3bada70708"
       ]
     }
   ],
