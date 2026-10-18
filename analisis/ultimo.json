@@ -1,154 +1,66 @@
 {
   "vinetas": [
-    "Cae el volumen: 40 piezas en 24 h frente a 91 ayer; solo 2 críticas, en X y de cuentas pequeñas.",
-    "Ecuavisa explica afectados, damnificados e impactados; las cifras siguen distintas: 21.307 (El Universo) y más de 22.000 (Xinhua, Prensa Latina).",
-    "Medios giran a la magnitud de El Niño: Primicias habla de fase de madurez; Mongabay, que podría extenderse hasta 2027.",
-    "En redes domina lo positivo: 9 de 16 piezas en X; La Hora difundió los 797 kits (812 vistas)."
+    "Baja el volumen: 30 piezas en 24 h frente a 67 ayer; en redes solo 4 y ninguna crítica.",
+    "El Universo y dos diarios difunden que la Secretaría pide activar protocolos en 10 provincias hasta el lunes 19.",
+    "Primicias, Vistazo y El Diario Ecuador replican la alerta del Inamhi: lluvias muy fuertes en el Litoral y posible granizo en Quito.",
+    "Frente nuevo: El Universo reporta ocho incendios forestales activos en Chimborazo, Tungurahua y Loja este domingo."
   ],
   "fuentes_vinetas": [
     [],
-    [
-      "43718854c8",
-      "35d8688b59",
-      "5a54bbbae3",
-      "e0c6a7817d",
-      "494ba04fc8"
-    ],
-    [
-      "aa2f3a1280",
-      "d83c4d205b",
-      "93fce29220"
-    ],
-    [
-      "59c4922dc9",
-      "11cd03037a"
-    ]
+    ["edc2983494", "6dc889d259", "6f4898ade8"],
+    ["73cbd54e30", "e938783852", "b1f31d82c8"],
+    ["db240d55c4"]
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy en web y X un corte único de afectados, damnificados e impactados.",
-      "porque": "Ecuavisa explica los términos; El Universo da 21.307 afectados y Expreso más de 21.000; Xinhua y Prensa Latina, más de 22.000.",
-      "base_legal": "Art. 61, 72 y 73",
-      "fuentes": [
-        "43718854c8",
-        "35d8688b59",
-        "5a54bbbae3",
-        "e0c6a7817d",
-        "494ba04fc8"
-      ]
-    },
-    {
-      "accion": "Ofrecer a los GAD del norte de Esmeraldas apoyo con EVIN Digital por desbordes.",
-      "porque": "Diario Extra reporta dos ríos desbordados en el norte; El Universo, el Cayapas en siete sectores; Inamhi alertó crecidas hasta el 18.",
-      "base_legal": "Art. 21.4, 23.5 y 68",
-      "fuentes": [
-        "16654bb5e8",
-        "a142a96269",
-        "e5d8d57723"
-      ]
-    },
-    {
-      "accion": "Difundir por TikTok y X qué hacer ante cada nivel de alerta (Alístate Ecuador).",
-      "porque": "Primicias reporta El Niño en fase de madurez; Metro, que podría durar hasta 2027; El Universo muestra hogares reforzando techos.",
+      "accion": "Difundir en X y TikTok qué hacer ante granizo en Quito y lluvias costeras.",
+      "porque": "Inamhi alerta hasta el lunes 19; Primicias, Vistazo y El Diario Ecuador lo difunden y Expreso habla de diez provincias en alerta.",
       "base_legal": "Art. 61 y 64.6",
-      "fuentes": [
-        "aa2f3a1280",
-        "93fce29220",
-        "f97c446158",
-        "064b06aa19"
-      ]
+      "fuentes": ["73cbd54e30", "e938783852", "b1f31d82c8", "6386b8144a", "edc2983494"]
+    },
+    {
+      "accion": "Emitir con Bomberos parte diario de los ocho incendios en Chimborazo, Tungurahua, Loja.",
+      "porque": "El Universo reporta ocho incendios forestales activos este domingo; aún no hay piezas con información oficial sobre su atención.",
+      "base_legal": "Art. 23.5, 35 y 61",
+      "fuentes": ["db240d55c4"]
+    },
+    {
+      "accion": "Publicar hoy en la web un corte único de afectados, damnificados y kits entregados.",
+      "porque": "Circulan 21.307 afectados (El Universo) y 22 mil (Prensa Latina); El Telégrafo dio más de 200 y más de 300 familias, El Universo 312.",
+      "base_legal": "Art. 72 y 73",
+      "fuentes": ["35d8688b59", "494ba04fc8", "9a7cd9733b", "fc368b9b67", "eaf415a471"]
     }
   ],
   "narrativas": [
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "El Universo, La Hora, Metro y El Telégrafo difunden los 797 kits a familias de cinco provincias; Carolina anunció 15 alojamientos y El Diario el plan preventivo de 650 millones del Gobierno. Fortaleza, aunque El Telégrafo publicó cifras de familias distintas y varios medios lo atribuyen al Gobierno central.",
-      "ids": [
-        "11cd03037a",
-        "eaf415a471",
-        "9d1244c627",
-        "e0c6a7817d",
-        "59c4922dc9",
-        "fc368b9b67",
-        "9a7cd9733b",
-        "589c751c6d",
-        "dbebe85384",
-        "8771b4a257",
-        "c2c98de8ed",
-        "2a047bd8a6",
-        "4bad199fd4",
-        "7a496379e5",
-        "85ed92c72b",
-        "ecdca4f7e2",
-        "709d57b59b"
-      ]
-    },
-    {
-      "titulo": "Nos quedamos sin agua y aislados",
-      "explicacion": "Dos ríos desbordados en el norte de Esmeraldas y el Cayapas en siete sectores, vía Cuenca-Molleturo-Naranjal cerrada en el km 90, carretera hundida en Manabí, agua en 14 sectores de Guayaquil y, en YouTube, Petrillo (Guayas) con un puente amarrado con sogas. Apunta a vías y servicios locales, pero es riesgo operativo si la respuesta no se ve en territorio.",
-      "ids": [
-        "16654bb5e8",
-        "a142a96269",
-        "ce0145e815",
-        "aef89f4ac5",
-        "9be9a3991c",
-        "be3465e5bc",
-        "48ce87f283",
-        "1c293fe649",
-        "cabf7da073"
-      ]
+      "explicacion": "Hoy la empujan El Universo, El Diario y El Diario Ecuador con el pedido de la Secretaría de activar protocolos en 10 provincias, más NotiMundo con los 15 alojamientos que anunció Carolina. Fortaleza: la Secretaría aparece como la que alerta y coordina, aunque varios medios atribuyen la ayuda al Gobierno central.",
+      "ids": ["edc2983494", "6dc889d259", "6f4898ade8", "c2c98de8ed", "c0f5b91038", "59c4922dc9", "e0c6a7817d", "11cd03037a", "eaf415a471", "9d1244c627", "fc368b9b67", "9a7cd9733b", "589c751c6d", "dbebe85384", "a2ea59aec1", "d27ce9fd3b", "aaff3de37e", "8771b4a257", "ea2759ed6b", "2a047bd8a6", "c1f06224dd", "f4509d43c8", "ecdca4f7e2", "85ed92c72b", "4bad199fd4", "7a496379e5", "90cdc1cd17", "709d57b59b"]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "La empujan las alertas del Inamhi para el 17 y 18 (La Hora, El Comercio, El Diario Ecuador, Metro), Metro y Primicias, que hablan de un El Niño en fase de madurez que podría durar hasta 2027. Oportunidad para que la Secretaría explique qué hacer ante cada alerta; El Universo muestra hogares que ya se preparan.",
-      "ids": [
-        "93fce29220",
-        "1c75b8b1ad",
-        "e5d8d57723",
-        "d5934c0aaf",
-        "ccb2840eea",
-        "6173d5b365",
-        "3c968c2a7b",
-        "aa2f3a1280",
-        "f97c446158"
-      ]
+      "explicacion": "Crece con las alertas del Inamhi hasta el lunes 19 (Primicias, Vistazo, Ecuavisa, El Diario Ecuador, Expreso) y con Teleamazonas y Primicias sobre la madurez de El Niño 2026-2027. Oportunidad para que la Secretaría diga qué hacer ante cada alerta; El Universo muestra hogares que ya arreglan techos y patios.",
+      "ids": ["b1f31d82c8", "6386b8144a", "73cbd54e30", "0383ca017f", "e938783852", "b4e5f55145", "aa2f3a1280", "93fce29220", "6173d5b365", "d83c4d205b", "e5d8d57723", "1c75b8b1ad", "d5934c0aaf", "f97c446158"]
+    },
+    {
+      "titulo": "Nos quedamos sin agua y aislados",
+      "explicacion": "Dos ríos desbordados en el norte de Esmeraldas (Diario Extra), el Cayapas en siete sectores, la vía Cuenca-Molleturo-Naranjal cerrada en el km 90, carretera hundida en Manabí, anegamientos en Guayaquil y, en YouTube (2.862 vistas), Petrillo con un puente amarrado con sogas. Apunta a vías y servicios locales, pero es riesgo operativo si la respuesta no se ve en territorio.",
+      "ids": ["cabf7da073", "16654bb5e8", "a142a96269", "9be9a3991c", "be3465e5bc", "48ce87f283", "ce0145e815", "aef89f4ac5"]
     },
     {
       "titulo": "Energía: alivio con Colombia, temor a cortes",
-      "explicacion": "El Universo y El Telégrafo informan los mantenimientos eléctricos en 15 provincias; Expreso se pregunta si habrá suministro en los meses más intensos y Cordes e industriales de Manabí advierten por los cortes. Apunta al Gobierno central, no a la Secretaría.",
-      "ids": [
-        "ba03890d0a",
-        "3e6bc63bb0",
-        "fe51139467",
-        "053156b733",
-        "6355bbf0a2",
-        "10ff44afae",
-        "ff6fee9b43"
-      ]
+      "explicacion": "El Telégrafo, El Universo y Ecuavisa hablan de mantenimientos en 15 provincias y de un sector privado mejor preparado; Expreso pregunta si habrá suministro en los meses más intensos y Cordes e industriales de Manabí advierten por los cortes. Apunta al Gobierno central, no a la Secretaría.",
+      "ids": ["053156b733", "fe51139467", "ba03890d0a", "3e6bc63bb0", "845aab41d0", "6355bbf0a2", "ff6fee9b43", "10ff44afae", "c692b6800d", "5f35b19960"]
     },
     {
       "titulo": "El Niño encarece la comida y golpea la economía",
-      "explicacion": "Primicias reporta 161.357 hectáreas de cultivos en riesgo en Guayas; productores de arroz y maíz piden medidas y alivio financiero; escasez de pescado en Puerto López; Mongabay advierte por los alimentos en la región. Apunta al Gobierno central, no a la Secretaría.",
-      "ids": [
-        "be2bd2c871",
-        "3f2b0790d0",
-        "21ddcde131",
-        "ccfa189b1c",
-        "1b00bb5f7e",
-        "d83c4d205b"
-      ]
+      "explicacion": "Primicias reporta 161.357 hectáreas en riesgo en Guayas; productores de maíz y arroz piden alivio y medidas; escasez de pescado en Puerto López; Mongabay advierte por los alimentos en la región. Apunta al Gobierno central, no a la Secretaría.",
+      "ids": ["be2bd2c871", "3f2b0790d0", "ccfa189b1c", "d83c4d205b", "21ddcde131"]
     },
     {
-      "titulo": "Se sabía que venía y no se planificó",
-      "explicacion": "Apunta a los GAD: la Asamblea fiscalizará Quitopía, El Comercio recuerda que Quito se inunda en los mismos puntos desde hace un siglo y vecinos de Sauces 8 piden obras. Riesgo: el pedido de fiscalización de la Asamblea puede extenderse a los organismos de gestión de riesgos.",
-      "ids": [
-        "1430175e81",
-        "8c536d386a",
-        "84d0ddf9d3",
-        "c6cac919f2",
-        "938cc78cf2",
-        "3bada70708"
-      ]
+      "titulo": "Las niñas, las más expuestas en la emergencia",
+      "explicacion": "Plan Internacional (Primicias) y El Diario advierten más riesgo de violencia, pobreza y abandono escolar para niñas durante El Niño. Oportunidad para que la Secretaría muestre medidas diferenciadas en alojamientos temporales.",
+      "ids": ["57c5a43f33", "8d0f16459b", "31dec3a4ac"]
     }
   ],
   "rumores": [],
