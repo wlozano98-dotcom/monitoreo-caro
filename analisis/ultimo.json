@@ -1,68 +1,70 @@
 {
   "vinetas": [
-    "Las cifras de afectados difieren hoy: El Universo publica 21.307 y un fallecido; otra pieza, 22.374; Xinhua, más de 22.000.",
-    "La ayuda a 312 familias en cinco provincias domina los medios; El Telégrafo luego publicó 'más de 200'.",
-    "Redes casi en silencio: 3 publicaciones en X en 24 h frente a 27 ayer, y ninguna pieza crítica.",
-    "Inamhi mantiene alerta para el 17 y 18; Cayapas desbordado en siete sectores de Esmeraldas, agua en 14 sectores de Guayaquil."
+    "Baja la conversación: 59 piezas en 24 h frente a 99 ayer; solo 2 críticas, ambas en X.",
+    "Cifras de afectados difieren: El Universo y Diario Correo dicen 21.307; Prensa Latina e Instagram, más de 22.000.",
+    "797 kits en cinco provincias dominan; El Telégrafo publicó 'más de 300' y luego 'más de 200' familias, no 312.",
+    "Esmeraldas sigue al frente: Diario Extra reporta dos ríos desbordados en el norte; El Universo, el Cayapas en siete sectores."
   ],
   "fuentes_vinetas": [
-    ["35d8688b59", "4cd6bd4936", "e0f3ac534d"],
-    ["eaf415a471", "9d1244c627", "fc368b9b67", "9a7cd9733b", "e0c6a7817d"],
     [],
-    ["e5d8d57723", "a142a96269", "ce0145e815"]
+    ["35d8688b59", "250b4d0d91", "494ba04fc8", "4cd6bd4936"],
+    ["11cd03037a", "eaf415a471", "9d1244c627", "fc368b9b67", "9a7cd9733b"],
+    ["16654bb5e8", "a142a96269"]
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy en web y X una cifra oficial única de afectados y fallecidos.",
-      "porque": "Circulan tres cifras a la vez: El Universo 21.307 afectados, otra pieza 22.374 y Xinhua más de 22.000.",
-      "base_legal": "Art. 61 y 72",
-      "fuentes": ["35d8688b59", "4cd6bd4936", "e0f3ac534d"]
+      "accion": "Publicar hoy en web y X un solo corte oficial de afectados y familias atendidas.",
+      "porque": "Medios difieren: 21.307 afectados (El Universo) frente a más de 22.000 (Prensa Latina); El Telégrafo dio 300 y 200 familias, no 312.",
+      "base_legal": "Art. 61, 72 y 73",
+      "fuentes": ["35d8688b59", "494ba04fc8", "fc368b9b67", "9a7cd9733b", "eaf415a471"]
     },
     {
-      "accion": "Difundir boletín SNGR con provincias y cantones en riesgo por la alerta del 17-18.",
-      "porque": "El Universo habla de cinco provincias y Vistazo de 17; el Cayapas ya afecta siete sectores de Esmeraldas.",
-      "base_legal": "Art. 61, 62 y 64.6",
-      "fuentes": ["b2d2e8ad81", "695e492b5d", "a142a96269", "e5d8d57723"]
+      "accion": "Ofrecer a los GAD del norte de Esmeraldas apoyo con EVIN Digital por desbordes.",
+      "porque": "Diario Extra reporta dos ríos desbordados en el norte; El Universo, el Cayapas en siete sectores; Inamhi alertó crecidas hasta el 18.",
+      "base_legal": "Art. 21.4, 23.5 y 68",
+      "fuentes": ["16654bb5e8", "a142a96269", "e5d8d57723"]
     },
     {
-      "accion": "Emitir lineamientos con MIES para proteger a niñas en alojamientos temporales y zonas afectadas.",
-      "porque": "Primicias y El Diario difunden la advertencia de Plan Internacional: El Niño agrava acoso, pobreza y abandono escolar de niñas.",
-      "base_legal": "Art. 14, 23.4 y 67",
-      "fuentes": ["57c5a43f33", "8d0f16459b", "31dec3a4ac"]
+      "accion": "Difundir por X y TikTok de la Secretaría la lista de los 15 alojamientos temporales.",
+      "porque": "Carolina anunció 15 alojamientos en 14 provincias (NotiMundo, 189 vistas); su TikTok sobre Alístate Ecuador alcanzó 1.038 vistas.",
+      "base_legal": "Art. 61 y 64.6",
+      "fuentes": ["c2c98de8ed", "064b06aa19"]
     }
   ],
   "narrativas": [
     {
-      "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "La empujan las notas sobre la alerta del Inamhi para el 17 y 18 (La Hora, Metro, El Comercio, Ecuavisa, El Diario Ecuador) y Metro, que dice que El Niño podría extenderse hasta mediados de 2027. Los medios difieren en cuántas provincias están en riesgo: oportunidad para que la SNGR fije la información oficial.",
-      "ids": ["e5d8d57723", "1c75b8b1ad", "d5934c0aaf", "ccb2840eea", "b82be4da2b", "6a67784a9a", "447bc2f2da", "93fce29220", "6e5eb16083", "9b39fcb99d", "695e492b5d", "b2d2e8ad81"]
-    },
-    {
-      "titulo": "Energía: alivio con Colombia, temor a cortes",
-      "explicacion": "Hoy El Universo informa los mantenimientos eléctricos en 15 provincias; antes, medios replicaron que Colombia reanuda la venta de energía y Cordes, industriales de Manabí y camaroneros advirtieron por cortes. Apunta al Gobierno central, no a la Secretaría.",
-      "ids": ["fe51139467", "ba03890d0a", "3e6bc63bb0", "6355bbf0a2", "ab658536d5", "8dcd28ec29", "10ff44afae", "ff6fee9b43", "e983bdf51f", "c692b6800d"]
+      "titulo": "Coordinación preventiva y entrega de asistencia oficial",
+      "explicacion": "El Universo, La Hora, Metro y El Telégrafo difunden los 797 kits a familias de cinco provincias; Carolina anunció 15 alojamientos y El Diario el plan preventivo de 650 millones del Gobierno. Fortaleza, aunque El Telégrafo publicó cifras de familias distintas y varios medios lo atribuyen al Gobierno central.",
+      "ids": ["11cd03037a", "eaf415a471", "9d1244c627", "e0c6a7817d", "59c4922dc9", "fc368b9b67", "9a7cd9733b", "589c751c6d", "dbebe85384", "8771b4a257", "c2c98de8ed", "2a047bd8a6", "4bad199fd4", "7a496379e5", "85ed92c72b", "ecdca4f7e2", "709d57b59b"]
     },
     {
       "titulo": "Nos quedamos sin agua y aislados",
-      "explicacion": "Vía Cuenca-Molleturo-Naranjal cerrada en el km 90, carretera hundida en Manabí, agua acumulada en 14 sectores de Guayaquil y el Cayapas desbordado en siete sectores de Esmeraldas. Apunta a vías y servicios locales, pero es riesgo operativo si la respuesta no se ve en territorio.",
-      "ids": ["a142a96269", "ce0145e815", "9be9a3991c", "be3465e5bc", "aef89f4ac5", "48ce87f283", "1c293fe649", "4cd6bd4936", "494ba04fc8"]
+      "explicacion": "Dos ríos desbordados en el norte de Esmeraldas y el Cayapas en siete sectores, vía Cuenca-Molleturo-Naranjal cerrada en el km 90, carretera hundida en Manabí y agua acumulada en 14 sectores de Guayaquil. Apunta a vías y servicios locales, pero es riesgo operativo si la respuesta no se ve en territorio.",
+      "ids": ["16654bb5e8", "a142a96269", "ce0145e815", "aef89f4ac5", "9be9a3991c", "be3465e5bc", "48ce87f283", "1c293fe649"]
     },
     {
-      "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "El Universo, Metro, El Telégrafo y La Hora difunden la ayuda a 312 familias y 797 kits en cinco provincias, y El Universo el plan preventivo del Gobierno. Fortaleza, aunque varios medios lo atribuyen al Gobierno sin nombrar a la Secretaría y El Telégrafo publicó cifras distintas (más de 300 y más de 200 familias).",
-      "ids": ["eaf415a471", "9d1244c627", "fc368b9b67", "9a7cd9733b", "e0c6a7817d", "709d57b59b", "0b6434ce78", "4bad199fd4", "7a496379e5", "064b06aa19", "a626e423b7", "dab7416270"]
+      "titulo": "Las lluvias empeorarán y no estamos preparados",
+      "explicacion": "La empujan las alertas del Inamhi para el 17 y 18 (La Hora, El Comercio, El Diario Ecuador, Metro) y Metro, que dice que El Niño podría extenderse hasta mediados de 2027; La Tribuna pidió fortalecer la alerta temprana en el sur. Oportunidad para que la Secretaría explique qué hacer ante cada alerta.",
+      "ids": ["93fce29220", "1c75b8b1ad", "e5d8d57723", "d5934c0aaf", "ccb2840eea", "6173d5b365", "9b39fcb99d", "3c968c2a7b"]
+    },
+    {
+      "titulo": "Energía: alivio con Colombia, temor a cortes",
+      "explicacion": "El Universo y El Telégrafo informan los mantenimientos eléctricos en 15 provincias; Expreso se pregunta si habrá suministro en los meses más intensos y Cordes e industriales de Manabí advierten por los cortes. Apunta al Gobierno central, no a la Secretaría.",
+      "ids": ["ba03890d0a", "3e6bc63bb0", "fe51139467", "053156b733", "6355bbf0a2", "10ff44afae", "ff6fee9b43"]
     },
     {
       "titulo": "El Niño encarece la comida y golpea la economía",
-      "explicacion": "Primicias reporta 161.357 hectáreas de cultivos en riesgo en Guayas; arroceros y productores de maíz piden medidas y alivio financiero; escasez de pescado en Puerto López. Apunta al Gobierno central, no a la Secretaría.",
-      "ids": ["be2bd2c871", "3f2b0790d0", "ccfa189b1c", "21ddcde131", "5e23617423", "1b00bb5f7e"]
+      "explicacion": "Primicias reporta 161.357 hectáreas de cultivos en riesgo en Guayas; productores de arroz y maíz piden medidas y alivio financiero; escasez de pescado en Puerto López. Apunta al Gobierno central, no a la Secretaría.",
+      "ids": ["be2bd2c871", "3f2b0790d0", "21ddcde131", "ccfa189b1c", "1b00bb5f7e"]
     },
     {
       "titulo": "Se sabía que venía y no se planificó",
       "explicacion": "Apunta a los GAD: la Asamblea fiscalizará Quitopía, El Comercio recuerda que Quito se inunda en los mismos puntos desde hace un siglo y vecinos de Sauces 8 piden obras; Carolina cuestionó en radio la preparación de los municipios. Riesgo: el pedido del asambleísta incluye a los organismos de gestión de riesgos.",
-      "ids": ["938cc78cf2", "1430175e81", "8c536d386a", "84d0ddf9d3", "c6cac919f2", "3bada70708", "6a44d4410f"]
+      "ids": ["1430175e81", "8c536d386a", "84d0ddf9d3", "c6cac919f2", "938cc78cf2", "3bada70708", "6a44d4410f"]
     }
   ],
   "rumores": [],
-  "hitos": []
+  "hitos": [
+    {"dia": "2026-10-17", "titulo": "Gobierno dispone plan preventivo de 650 millones", "ids": ["85ed92c72b", "ecdca4f7e2"]}
+  ]
 }
