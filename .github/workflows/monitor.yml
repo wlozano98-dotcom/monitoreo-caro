@@ -48,3 +48,12 @@ jobs:
           git commit -m "Contexto para el análisis de Claude ($(date -u +%Y-%m-%dT%H:%MZ))"
           git pull --rebase origin main
           git push origin HEAD:main
+      # Vigilante: si monitor.py dejó avisos.txt, la corrida queda en rojo y GitHub manda un correo (decisión de Andrés).
+      - name: Avisar si algo falla
+        if: always()
+        run: |
+          [ -f avisos.txt ] || exit 0
+          echo "El vigilante encontró problemas:"
+          cat avisos.txt
+          while IFS= read -r l; do echo "::error::${l#- }"; done < avisos.txt
+          exit 1

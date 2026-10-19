@@ -32,12 +32,14 @@ ACTOR_FB_COMENTARIOS = "apify~facebook-comments-scraper"
 BUSQUEDAS_X = [
     '(@carolozanohok OR to:carolozanohok OR "Carolina Lozano") -from:carolozanohok',
     '(@Riesgos_Ec OR to:Riesgos_Ec OR "Gestión de Riesgos" OR "Secretaría de Riesgos") -from:Riesgos_Ec',
-    '("fenómeno de El Niño" OR "fenómeno del Niño") Ecuador',
+    # Por los efectos, no por la etiqueta "El Niño" (la gente tuitea "Guayaquil bajo el agua", no "fenómeno de El Niño").
+    '(lluvia OR lluvias OR inundación OR inundado OR anegado OR aguacero OR deslave OR derrumbe OR desbordó OR '
+    '"El Niño") (Ecuador OR Guayaquil OR Quito OR Manabí OR Esmeraldas OR "Los Ríos" OR Babahoyo OR Machala OR Cuenca)',
 ]
 TWEETS_POR_CORRIDA = 70
 
 PERFILES_TIKTOK = ["carolinalozanohok", "riesgos_ec"]
-BUSQUEDAS_TIKTOK = ["fenómeno del niño ecuador", "gestión de riesgos ecuador"]
+BUSQUEDAS_TIKTOK = ["inundaciones ecuador", "gestión de riesgos ecuador"]
 VIDEOS_TIKTOK = 4  # por perfil y por búsqueda (0,003 USD cada uno)
 COMENTARIOS_TIKTOK = 30
 VIDEOS_CON_COMENTARIOS = 3

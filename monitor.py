@@ -99,15 +99,22 @@ BUSQUEDAS_NOTICIAS = {
         'SNGR Ecuador',
         '"Gestión de Riesgos" Ecuador',
     ],
-    "nino": ['"Fenómeno de El Niño" Ecuador', '"El Niño" Ecuador lluvias', 'Ecuador inundaciones', 'Ecuador emergencia lluvias'],
+    # Por los efectos, no por la etiqueta: quien cuenta que suspendieron clases dice "por las lluvias", no "por El Niño".
+    # Medido el 19 oct 2026: la etiqueta encontraba el 57 % de lo que la agenda marca como El Niño; los efectos, ~85 %.
+    "nino": [
+        '"Fenómeno de El Niño" Ecuador',
+        'Ecuador (lluvias OR inundaciones OR aguacero OR anegados OR anegación)',
+        'Ecuador (deslave OR derrumbe OR desbordamiento OR "crecida del río" OR socavón)',
+        'Ecuador (damnificados OR afectados OR albergues OR "COE") lluvias',
+    ],
 }
 
 # Para filtrar los RSS generales de los medios: la pieza entra solo si menciona algo de esto.
 PALABRAS = re.compile(
     r"carolina lozano|lozano haro|carolozanohok|riesgos_ec|gesti[oó]n de riesgos|\bsngr\b|"
-    r"fen[oó]meno (de )?el ni[nñ]o|\bel ni[nñ]o\b|inundaci|deslave|desliz|aluvi[oó]n|"
-    r"desbord|damnificad|afectados por (las )?lluvias|estado de excepci[oó]n|"
-    r"emergencia (por|ante) (las )?lluvias|coe nacional|alerta (roja|naranja|amarilla)",
+    r"fen[oó]meno (de )?el ni[nñ]o|\bel ni[nñ]o\b|lluvi|inund|anega|aguacero|tormenta|granizo|deslave|desliz|"
+    r"derrumbe|aluvi[oó]n|socav|desbord|crecida|oleaje|damnificad|afectados por|albergue|estado de excepci[oó]n|"
+    r"emergencia|\bcoe\b|inamhi|alerta (roja|naranja|amarilla)",
     re.I,
 )
 
@@ -121,7 +128,8 @@ FEEDS_MEDIOS = {
 }
 
 # Búsquedas en YouTube (API oficial gratuita: cada búsqueda cuesta 100 de las 10.000 unidades diarias).
-BUSQUEDAS_YOUTUBE = ['"Carolina Lozano" riesgos', '"Gestión de Riesgos" Ecuador', 'fenómeno de El Niño Ecuador']
+BUSQUEDAS_YOUTUBE = ['"Carolina Lozano" riesgos', '"Gestión de Riesgos" Ecuador', 'fenómeno de El Niño Ecuador',
+                     'Ecuador lluvias|inundaciones|deslave|desbordamiento']
 COMENTARIOS_POR_VIDEO = 40
 VIDEOS_CON_COMENTARIOS = 6
 
@@ -321,6 +329,16 @@ def guardar(db, piezas):
         trozo = ids[i : i + 90]
         filas = db.q(f"SELECT id FROM piezas WHERE id IN ({','.join('?' * len(trozo))})", trozo)
         existentes.update(f["id"] for f in filas)
+    # Una nota que ya entró (por la agenda o por otra búsqueda) con otro nombre de medio no se repite.
+    titulos = list({p["titulo"] for p in unicas if p["fuente"] == "medios" and p["id"] not in existentes and p.get("titulo")})
+    repetidos = set()
+    for i in range(0, len(titulos), 90):
+        trozo = titulos[i : i + 90]
+        repetidos.update(f["titulo"] for f in db.q(f"SELECT titulo FROM piezas WHERE titulo IN ({','.join('?' * len(trozo))})", trozo))
+    unicas = [p for p in unicas if p["id"] in existentes or p.get("titulo") not in repetidos or p["fuente"] != "medios"]
+    ids = [p["id"] for p in unicas]
+    if not unicas:
+        return 0
     sentencias = []
     por_sentencia = 90 // len(COLUMNAS)
     for i in range(0, len(unicas), por_sentencia):
@@ -473,7 +491,10 @@ AGENDA_MEDIOS = {
     "teleamazonas.com": "Teleamazonas", "vistazo.com": "Vistazo", "fmmundo.com": "FM Mundo",
     "metroecuador.com.ec": "Metro Ecuador", "lahora.com.ec": "La Hora", "extra.ec": "Extra",
     "eltelegrafo.com.ec": "El Telégrafo", "elmercurio.com.ec": "El Mercurio", "larepublica.ec": "La República",
-    "tctelevision.com": "TC Televisión", "planv.com.ec": "Plan V",
+    "tctelevision.com": "TC Televisión", "planv.com.ec": "Plan V", "gamavision.com": "Gamavisión",
+    # Regionales (los que Google Noticias sí indexa): Machala, Riobamba, Loja, Ibarra, Ambato.
+    "diariocorreo.com.ec": "Diario Correo", "laprensa.com.ec": "La Prensa", "cronica.com.ec": "Crónica",
+    "elnorte.ec": "El Norte", "elheraldo.com.ec": "El Heraldo",
 }
 
 
@@ -594,6 +615,7 @@ def recoger_youtube():
 
 import redes  # noqa: E402  (va aparte porque depende de los actores de Apify)
 import lluvias  # noqa: E402  (ríos y lluvia del visor del INAMHI)
+import vigilante  # noqa: E402  (avisa por correo si algo se rompe en silencio)
 
 
 # ---------------------------------------------------------------- Gemini
@@ -1217,6 +1239,8 @@ def main():
     try:
         datos = lluvias.lluvias(db)
         detalle["lluvias"] = sum(1 for c in datos["cantones"] if c["color"] == "rojo")
+        if datos.get("errores"):
+            detalle["lluvias_errores"] = list(datos["errores"])
     except Exception as e:
         print(f"  ERROR lluvias: {e}")
         detalle["lluvias"] = f"error: {str(e)[:150]}"
@@ -1241,6 +1265,21 @@ def main():
             # Primero las narrativas: el resumen las usa para decidir qué importa.
             vigentes = narrativas(db)
             resumen_del_dia(db, vigentes)
+
+    print("Vigilante…")
+    try:
+        avisos = vigilante.revisar(db, detalle)
+        detalle["avisos"] = avisos
+        # Solo desde GitHub: el correo lo manda GitHub al marcar la corrida en rojo (último paso de monitor.yml).
+        if os.environ.get("GITHUB_ACTIONS") and vigilante.decidir(db, avisos):
+            detalle["aviso_enviado"] = True
+            with open(os.path.join(AQUI, "avisos.txt"), "w", encoding="utf-8") as f:
+                f.write("\n".join(f"- {v}" for v in avisos.values()) + "\n")
+        for v in avisos.values():
+            print(f"  AVISO: {v}")
+    except Exception as e:
+        print(f"  ERROR vigilante: {e}")
+        detalle["avisos"] = {"vigilante": f"El vigilante falló: {str(e)[:150]}"}
 
     detalle["consultas_d1"] = db.consultas
     db.q("INSERT INTO corridas (inicio, fin, detalle) VALUES (?, ?, ?)", [inicio, ahora(), json.dumps(detalle, ensure_ascii=False)])

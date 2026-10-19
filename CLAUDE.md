@@ -25,6 +25,15 @@ medios y redes sobre El Niño, la Secretaría y ella. Presupuesto cero: solo cap
   (`AGENDA_MEDIOS`, Google Noticias `site:` + RSS propios) en `titulares`; cada 4 h `agenda()` le pide a Gemini los
   temas y asigna cada titular (tema 0 = "El Niño y lluvias"); los conteos y el puesto se cuentan en Python.
   Va dentro del panel del nivel. Sin Google Trends (decisión de Andrés). Historial desde el 9 oct 2026. `--solo-agenda` para probar.
+  Puente (19 oct): los titulares que la agenda pone en El Niño y que las búsquedas no trajeron entran como piezas
+  (`consulta = 'agenda'`, solo 30 h). `guardar` no repite una nota de medio con el mismo título.
+- Búsquedas por los EFECTOS (lluvia, inundación, deslave, damnificados…), no por la etiqueta "El Niño": la etiqueta
+  perdía ~40 % (p. ej. la suspensión de clases). Así en Google Noticias, YouTube, X, TikTok y el filtro de RSS
+  (`PALABRAS`). Gemini descarta lo irrelevante. Andrés descartó las búsquedas que "se ajustan solas" (llegan tarde, derivan).
+- `vigilante.py` (pedido de Andrés): cada corrida revisa errores de fuentes, Google Noticias en 0, titulares, cobertura
+  (búsquedas vs agenda, mínimo 50 %), redes, Gemini, análisis de Claude, SitRep. Si hay algo, deja `avisos.txt` y el
+  último paso de monitor.yml pone la corrida en rojo -> GitHub manda correo (problema nuevo, o uno viejo 1 vez al día).
+  Solo en GitHub (`GITHUB_ACTIONS`). Aviso por correo, sin nada visual en el tablero (decisión de Andrés).
 - `lluvias.py` + `public/lluvias.html` (pedido de Andrés: dónde preposicionar kits; SIN medios ni redes): mapa por
   cantón en rojo "actuar" / amarillo "atención" + lista. Fuentes del visor del INAMHI (services.geoglows.org, públicas):
   alertas meteorológicas (nivel "Crecida" incluido), lluvia pronosticada WRF (~48 h), FFGS (crecida repentina = lluvia
