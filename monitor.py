@@ -1138,6 +1138,33 @@ def agenda(db):
     return datos
 
 
+def titulares_del_nino(db):
+    """Los titulares que la agenda puso en "El Niño y lluvias" y que las búsquedas no trajeron entran como piezas
+    (pasaba con ~40 %: p. ej. la suspensión de clases). Solo las últimas 30 h: no se recupera historial."""
+    desde = (datetime.now(timezone.utc) - timedelta(hours=30)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    filas = db.q(
+        "SELECT t.medio, t.titulo, t.url, t.fecha FROM titulares t WHERE t.nino = 1 AND t.fecha >= ? "
+        "AND NOT EXISTS (SELECT 1 FROM piezas p WHERE p.titulo = t.titulo OR p.url = t.url)",
+        [desde],
+    )
+    piezas = [
+        {
+            "id": huella("noticia", f["medio"].lower(), f["titulo"].lower()),
+            "fuente": "medios",
+            "medio": f["medio"],
+            "url": f["url"],
+            "titulo": f["titulo"],
+            "texto": "",
+            "fecha": f["fecha"],
+            "recogido": ahora(),
+            "consulta": "agenda",
+        }
+        for f in filas
+    ]
+    print(f"  Titulares de El Niño que faltaban: {len(piezas)}")
+    return piezas
+
+
 def analisis_de_claude_reciente(db, horas=9):
     """True si el último análisis de fondo lo hizo Claude (rutina de 8, 12 y 20 h) hace menos de `horas`."""
     filas = db.q("SELECT texto, creado FROM resumenes ORDER BY creado DESC LIMIT 1")
@@ -1200,6 +1227,12 @@ def main():
         if not ultima or ultima < (datetime.now(timezone.utc) - timedelta(hours=3, minutes=50)).strftime("%Y-%m-%dT%H:%M:%SZ"):
             print("Agenda nacional…")
             agenda(db)
+        print("Titulares de El Niño que no trajeron las búsquedas…")
+        try:
+            detalle["Agenda"] = guardar(db, titulares_del_nino(db))
+        except Exception as e:
+            print(f"  ERROR titulares de El Niño: {e}")
+            detalle["Agenda"] = f"error: {str(e)[:150]}"
         print("Gemini…")
         detalle["clasificadas"] = clasificar(db, int(config("MAX_CLASIFICAR", "400")))
         if analisis_de_claude_reciente(db):

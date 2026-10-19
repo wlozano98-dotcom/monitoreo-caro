@@ -80,7 +80,10 @@ Ecuador, registro ejecutivo, sin emojis ni signos de exclamación.
   tablero: una declaratoria de emergencia, una alerta nacional (p. ej. de tsunami), muertes, un anuncio fuerte del
   Gobierno o de la Secretaría, una polémica que estalla. No un día normal de lluvias ni una nota más. `dia`: el día de
   Ecuador en que pasó (dentro de los 3 días del contexto); `titulo`: máximo 8 palabras, el hecho, sin opinión; `ids`:
-  las piezas que lo cuentan. No repitas los "Hitos ya marcados" del contexto.
+  las piezas que lo cuentan. No repitas los "Hitos ya marcados" del contexto. El hecho tiene que ser NUEVO ese día:
+  una nota que retoma un anuncio anterior (cifras ya dichas, "se ha destinado", un plan ya presentado) no es hito.
+  Si no estás seguro de que pasó dentro de los 3 días, no lo marques (error real: los 650 millones que Carolina
+  anunció el 11 de octubre se marcaron el 17 por una nota tardía).
 - **narrativas** (3 a 6): las ideas de fondo que están calando en la población sobre la respuesta del Estado y de la
   Secretaría (qué cree la gente, a quién culpa o reconoce, qué teme), no temas noticiosos sueltos. Incluye también lo
   que se dice de municipios, prefecturas (GAD) u otros actores, y di en el título a quién apunta ("Culpan a los GAD
