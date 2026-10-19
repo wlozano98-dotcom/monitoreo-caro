@@ -1,66 +1,179 @@
 {
   "vinetas": [
-    "64 piezas en 24 h frente a 58 el día previo; ninguna crítica a la Secretaría, frente a 2 críticas en X antes.",
+    "Sin datos nuevos desde las 05:49: 64 piezas en 24 h frente a 58 antes; ninguna crítica a la Secretaría.",
     "Cifras difieren: W Radio cita a la Secretaría con 23.167 impactados; El Universo, 21.522 afectados. Ambos dicen tres fallecidos.",
     "El 17 y 18 El Universo y Expreso informaban un fallecido; anoche El Universo y W Radio dicen tres, sin detallar los nuevos.",
     "El pedido de activar protocolos en 10 provincias lo replicaron El Universo, El Diario, Expreso y, en X, El Noticiero y CORAPE."
   ],
   "fuentes_vinetas": [
     [],
-    ["890a872ef9", "49a8e497c1", "402b2157ef"],
-    ["35d8688b59", "5a54bbbae3", "49a8e497c1", "890a872ef9"],
-    ["edc2983494", "6dc889d259", "fb319257e8", "6386b8144a", "db08ea7b5d", "7d4bd0e1c6"]
+    [
+      "890a872ef9",
+      "49a8e497c1",
+      "402b2157ef"
+    ],
+    [
+      "35d8688b59",
+      "5a54bbbae3",
+      "49a8e497c1",
+      "890a872ef9"
+    ],
+    [
+      "edc2983494",
+      "6dc889d259",
+      "fb319257e8",
+      "6386b8144a",
+      "db08ea7b5d",
+      "7d4bd0e1c6"
+    ]
   ],
   "acciones": [
     {
       "accion": "Publicar hoy en web y X cifra única y aclarar los tres fallecidos.",
       "porque": "W Radio cita 23.167 impactados, El Universo 21.522 afectados; el 17 se informaba un fallecido. Ecuavisa explicó las categorías.",
       "base_legal": "Art. 61, 72 y 73",
-      "fuentes": ["890a872ef9", "49a8e497c1", "35d8688b59", "5a54bbbae3", "0c322f2116", "43718854c8"]
+      "fuentes": [
+        "890a872ef9",
+        "49a8e497c1",
+        "35d8688b59",
+        "5a54bbbae3",
+        "0c322f2116",
+        "43718854c8"
+      ]
     },
     {
-      "accion": "Anunciar hoy, con el Inamhi, si sigue la alerta en las 10 provincias.",
-      "porque": "Las alertas del Inamhi y el pedido de protocolos llegaban hasta el lunes 19; el domingo llovió fuerte en Quito y Babahoyo.",
+      "accion": "Anunciar a mediodía, con el Inamhi, si se extiende o levanta la alerta en 10 provincias.",
+      "porque": "Las alertas del Inamhi y el pedido de protocolos regían hasta hoy lunes 19; el domingo llovió fuerte en Quito y Babahoyo.",
       "base_legal": "Art. 61, 62 y 64.6",
-      "fuentes": ["b1f31d82c8", "73cbd54e30", "edc2983494", "319fd5e56e", "04ba1b16f1"]
+      "fuentes": [
+        "b1f31d82c8",
+        "73cbd54e30",
+        "edc2983494",
+        "319fd5e56e",
+        "04ba1b16f1"
+      ]
     },
     {
       "accion": "Pedir a los COE de Santa Bárbara y Babahoyo evaluación de necesidades; ofrecer apoyo subsidiario.",
       "porque": "La Tribuna reporta emergencia en Santa Bárbara (Sucumbíos) por vientos y lluvias; La Hora, calles anegadas en Babahoyo.",
       "base_legal": "Art. 14, 21.4 y 68",
-      "fuentes": ["8d86c5e4b8", "04ba1b16f1"]
+      "fuentes": [
+        "8d86c5e4b8",
+        "04ba1b16f1"
+      ]
     }
   ],
   "narrativas": [
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
       "explicacion": "El Universo, El Diario, Expreso, El Noticiero y CORAPE difunden el pedido de la Secretaría a los GAD de 10 provincias; Altavoz y NotiMundo, los alojamientos que anunció Carolina, y la Gobernación de Santa Elena la recalificación de cinco alojamientos. Fortaleza, aunque varios medios lo atribuyen al Gobierno central.",
-      "ids": ["e0c6a7817d", "eaf415a471", "9d1244c627", "11cd03037a", "59c4922dc9", "fc368b9b67", "9a7cd9733b", "c2c98de8ed", "6f4898ade8", "edc2983494", "6dc889d259", "8771b4a257", "709d57b59b", "2a047bd8a6", "0b6434ce78", "c1f06224dd", "c0f5b91038", "fb319257e8", "db08ea7b5d", "7d4bd0e1c6", "91f2569961", "fe59db20a1", "24357a62ce", "20afb632a3"]
+      "ids": [
+        "e0c6a7817d",
+        "eaf415a471",
+        "9d1244c627",
+        "11cd03037a",
+        "59c4922dc9",
+        "fc368b9b67",
+        "9a7cd9733b",
+        "c2c98de8ed",
+        "6f4898ade8",
+        "edc2983494",
+        "6dc889d259",
+        "8771b4a257",
+        "709d57b59b",
+        "2a047bd8a6",
+        "0b6434ce78",
+        "c1f06224dd",
+        "c0f5b91038",
+        "fb319257e8",
+        "db08ea7b5d",
+        "7d4bd0e1c6",
+        "91f2569961",
+        "fe59db20a1",
+        "24357a62ce",
+        "20afb632a3"
+      ]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
       "explicacion": "La empujan las alertas del Inamhi hasta el lunes 19 (El Diario, Primicias, Vistazo, Ecuavisa, Expreso), las lluvias con descargas en Quito y un El Niño en fase de madurez que podría durar hasta 2027 (Primicias, Teleamazonas). Oportunidad para que la Secretaría diga qué hacer ante cada alerta.",
-      "ids": ["b1f31d82c8", "73cbd54e30", "e938783852", "0383ca017f", "6386b8144a", "b4e5f55145", "aa2f3a1280", "93fce29220", "f97c446158", "6173d5b365", "3a018443a1", "319fd5e56e"]
+      "ids": [
+        "b1f31d82c8",
+        "73cbd54e30",
+        "e938783852",
+        "0383ca017f",
+        "6386b8144a",
+        "b4e5f55145",
+        "aa2f3a1280",
+        "93fce29220",
+        "f97c446158",
+        "6173d5b365",
+        "3a018443a1",
+        "319fd5e56e"
+      ]
     },
     {
       "titulo": "Las cifras de afectados no cuadran",
       "explicacion": "W Radio cita a la Secretaría con 23.167 impactados; El Universo, 21.522 afectados; El Diario y Ecuavisa, más de 21.000 y 1.600 damnificados, y los fallecidos pasaron de uno a tres sin detalle. Ecuavisa explica las categorías: riesgo de confusión si la Secretaría no publica un parte único.",
-      "ids": ["890a872ef9", "49a8e497c1", "402b2157ef", "0c322f2116", "43718854c8", "3b1797aae2", "5f49964c8f", "5a54bbbae3", "35d8688b59"]
+      "ids": [
+        "890a872ef9",
+        "49a8e497c1",
+        "402b2157ef",
+        "0c322f2116",
+        "43718854c8",
+        "3b1797aae2",
+        "5f49964c8f",
+        "5a54bbbae3",
+        "35d8688b59"
+      ]
     },
     {
       "titulo": "Nos quedamos sin agua y aislados",
       "explicacion": "Ríos desbordados en el norte de Esmeraldas, vía Cuenca-Molleturo-Naranjal cerrada, carretera hundida en Manabí, Petrillo con un puente amarrado con sogas (José Delgado TV, 3.781 vistas), calles anegadas en Babahoyo y emergencia en Santa Bárbara, Sucumbíos. Apunta a vías y servicios locales; riesgo operativo si la respuesta no se ve en territorio.",
-      "ids": ["cabf7da073", "16654bb5e8", "a142a96269", "9be9a3991c", "be3465e5bc", "48ce87f283", "ce0145e815", "aef89f4ac5", "04ba1b16f1", "8d86c5e4b8", "b8f7bfb15f"]
+      "ids": [
+        "cabf7da073",
+        "16654bb5e8",
+        "a142a96269",
+        "9be9a3991c",
+        "be3465e5bc",
+        "48ce87f283",
+        "ce0145e815",
+        "aef89f4ac5",
+        "04ba1b16f1",
+        "8d86c5e4b8",
+        "b8f7bfb15f"
+      ]
     },
     {
       "titulo": "Energía: alivio con Colombia, temor a cortes",
       "explicacion": "El Universo, El Telégrafo y Radio Fuego informan mantenimientos eléctricos en 15 provincias; Ecuavisa dice que el sector privado está mejor preparado y en X se teme una crisis hidroeléctrica por sequía. Apunta al Gobierno central, no a la Secretaría.",
-      "ids": ["845aab41d0", "053156b733", "ba03890d0a", "3e6bc63bb0", "fe51139467", "6355bbf0a2", "ab658536d5", "8dcd28ec29", "70df4d09df", "6144359b9c", "764699b8e6"]
+      "ids": [
+        "845aab41d0",
+        "053156b733",
+        "ba03890d0a",
+        "3e6bc63bb0",
+        "fe51139467",
+        "6355bbf0a2",
+        "ab658536d5",
+        "8dcd28ec29",
+        "70df4d09df",
+        "6144359b9c",
+        "764699b8e6"
+      ]
     },
     {
       "titulo": "El Niño encarece la comida y golpea la economía",
       "explicacion": "W Radio reporta en Cuenca el quintal de arroz a 55 dólares y el de azúcar a 48; Primicias, 161.357 hectáreas en riesgo en Guayas, y productores piden alivio financiero. Apunta al Gobierno central, no a la Secretaría.",
-      "ids": ["be2bd2c871", "3f2b0790d0", "21ddcde131", "ccfa189b1c", "5e23617423", "d83c4d205b", "1aad479434", "e5df24926d"]
+      "ids": [
+        "be2bd2c871",
+        "3f2b0790d0",
+        "21ddcde131",
+        "ccfa189b1c",
+        "5e23617423",
+        "d83c4d205b",
+        "1aad479434",
+        "e5df24926d"
+      ]
     }
   ],
   "rumores": [],
