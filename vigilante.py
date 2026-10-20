@@ -35,8 +35,9 @@ def revisar(db, detalle):
 
     # Cobertura: de lo que la agenda marcó como El Niño en 24 h, cuánto ya habían traído las búsquedas.
     c = db.q(
-        "SELECT COUNT(*) AS total, SUM(EXISTS (SELECT 1 FROM piezas p WHERE (p.titulo = t.titulo OR p.url = t.url) "
-        "AND COALESCE(p.consulta, '') <> 'agenda')) AS halladas FROM titulares t WHERE t.nino = 1 AND t.fecha >= ?",
+        "SELECT COUNT(*) AS total, SUM(EXISTS (SELECT 1 FROM piezas p WHERE p.titulo = t.titulo AND COALESCE(p.consulta, '') <> 'agenda') "
+        "OR EXISTS (SELECT 1 FROM piezas p WHERE p.url = t.url AND COALESCE(p.consulta, '') <> 'agenda')) AS halladas "
+        "FROM titulares t WHERE t.nino = 1 AND t.fecha >= ?",
         [hace(24)],
     )[0]
     if (c["total"] or 0) >= 15 and (c["halladas"] or 0) / c["total"] < COBERTURA_MIN:

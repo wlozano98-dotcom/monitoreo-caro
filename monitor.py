@@ -1166,7 +1166,7 @@ def titulares_del_nino(db):
     desde = (datetime.now(timezone.utc) - timedelta(hours=30)).strftime("%Y-%m-%dT%H:%M:%SZ")
     filas = db.q(
         "SELECT t.medio, t.titulo, t.url, t.fecha FROM titulares t WHERE t.nino = 1 AND t.fecha >= ? "
-        "AND NOT EXISTS (SELECT 1 FROM piezas p WHERE p.titulo = t.titulo OR p.url = t.url)",
+        "AND NOT EXISTS (SELECT 1 FROM piezas p WHERE p.titulo = t.titulo) AND NOT EXISTS (SELECT 1 FROM piezas p WHERE p.url = t.url)",
         [desde],
     )
     piezas = [
@@ -1203,6 +1203,9 @@ def main():
     args = set(sys.argv[1:])
     inicio = ahora()
     db = D1()
+    # Índices de migrations/0012 (por si no se aplicó a mano): sin ellos la cobertura y el puente agotan D1.
+    db.lote([("CREATE INDEX IF NOT EXISTS piezas_titulo ON piezas (titulo)", []),
+             ("CREATE INDEX IF NOT EXISTS piezas_url ON piezas (url)", [])])
     detalle = {}
     if "--solo-lluvias" in args:  # para probar: solo ríos y lluvia
         lluvias.lluvias(db)
