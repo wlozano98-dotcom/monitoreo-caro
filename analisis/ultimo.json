@@ -1,77 +1,176 @@
 {
   "vinetas": [
-    "Medios pasan de 39 a 229 piezas en 24 h y YouTube de 22 a 66, por el aguacero de 170 mm en Guayaquil.",
+    "Corte de las 21:53 de anoche: medios suben de 39 a 229 piezas en 24 h por 170 mm en Guayaquil.",
     "Cifras dispares: Ecuavisa titula dos muertos, Teleamazonas tres; en Tenguel van de 300 a 800 familias según el medio.",
-    "Advertencia 81 del Inamhi rige hasta el jueves 22; Balao, Milagro y Tenguel siguen en clases virtuales.",
+    "Retornan clases presenciales en zonas 5 y 8, salvo Balao, Milagro y Tenguel; Advertencia 81 rige hasta el jueves 22.",
     "Críticas en X suben de 0 a 5; la UNE recuerda que exigió en agosto un plan nacional y cita la suspensión de clases."
   ],
   "fuentes_vinetas": [
-    ["50a4125d23", "c5016045c8", "2ff6f44545"],
-    ["0630708732", "476de0ce0b", "7bffc06156", "1d7a72c370", "ba53691028"],
-    ["7f1ff5955e", "efe0090867", "a9c5f769ea", "44179f82ab"],
-    ["60935fb8cc", "047d9f2b0a", "4ff212bfce"]
+    [
+      "50a4125d23",
+      "c5016045c8",
+      "2ff6f44545"
+    ],
+    [
+      "0630708732",
+      "476de0ce0b",
+      "7bffc06156",
+      "1d7a72c370",
+      "ba53691028"
+    ],
+    [
+      "44179f82ab",
+      "a9c5f769ea",
+      "7f1ff5955e",
+      "efe0090867"
+    ],
+    [
+      "60935fb8cc",
+      "047d9f2b0a",
+      "4ff212bfce"
+    ]
   ],
   "acciones": [
     {
       "accion": "Publicar hoy parte único: fallecidos, afectados y familias de Tenguel, con corte horario.",
       "porque": "Ecuavisa titula dos muertos y Teleamazonas tres; Tenguel: 300 familias (Ecuavisa), 600 (El Universo), 800 (Televistazo).",
       "base_legal": "Art. 61, 72 y 73",
-      "fuentes": ["0630708732", "476de0ce0b", "7bffc06156", "1d7a72c370", "ba53691028", "a7d58a72d4"]
+      "fuentes": [
+        "0630708732",
+        "476de0ce0b",
+        "7bffc06156",
+        "1d7a72c370",
+        "ba53691028",
+        "a7d58a72d4"
+      ]
     },
     {
       "accion": "Coordinar con Municipio de Guayaquil y MIES el registro de familias afectadas en Tenguel.",
       "porque": "SNGR y Segura EP atienden Tenguel; el Ministerio evaluará el Bono de Contingencia con la Secretaría para quienes cumplan requisitos.",
       "base_legal": "Art. 14 y 68",
-      "fuentes": ["a7d58a72d4", "e533c407b9", "a9a650134c", "05ce77bf29", "c06583251c"]
+      "fuentes": [
+        "a7d58a72d4",
+        "e533c407b9",
+        "a9a650134c",
+        "05ce77bf29",
+        "c06583251c"
+      ]
     },
     {
-      "accion": "Difundir por radios y X qué hacer ante la Advertencia 81, hasta el jueves 22.",
+      "accion": "Difundir hoy por radios y X qué hacer ante la Advertencia 81, hasta el jueves 22.",
       "porque": "El Comercio prevé picos del 20 al 22; río Gala amenaza 40 familias en Naranjal; río Chimbo alerta Bucay y Cumandá.",
       "base_legal": "Art. 61 y 62",
-      "fuentes": ["7f1ff5955e", "7410752423", "1d7a72c370", "2465a7d1a0", "975fd71559"]
+      "fuentes": [
+        "7f1ff5955e",
+        "7410752423",
+        "1d7a72c370",
+        "2465a7d1a0",
+        "975fd71559"
+      ]
     }
   ],
   "narrativas": [
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
       "explicacion": "La empujan las alertas del Inamhi hasta el 22 (El Universo, Primicias, Vistazo, Metro) y la ESPOL con uno de los octubres más lluviosos desde 1950. Oportunidad para que la Secretaría guíe qué hacer ante cada alerta.",
-      "ids": ["7f1ff5955e", "7410752423", "efe0090867", "975fd71559", "6c28c0827c", "554064b0e9", "c8da146f91", "19debd3f5a", "370d2cd245", "153e45c218", "715171088b", "4053269a89"]
+      "ids": [
+        "7f1ff5955e",
+        "7410752423",
+        "efe0090867",
+        "975fd71559",
+        "6c28c0827c",
+        "554064b0e9",
+        "c8da146f91",
+        "19debd3f5a",
+        "370d2cd245",
+        "153e45c218",
+        "715171088b",
+        "4053269a89"
+      ]
     },
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
       "explicacion": "TC Televisión, Sucre Noticias y El Noticiero difunden el despliegue de la SNGR en Tenguel y Naranjal; Carolina aparece citada con los 11 eventos y el aviso a GAD. Fortaleza visible para la Secretaría.",
-      "ids": ["2d319939a8", "c06583251c", "a7d58a72d4", "e533c407b9", "06759067c4", "c97accda3e", "91ed474a55", "fd978a7d03", "6dc3fe9ff3", "71f65188d2", "05ce77bf29", "19d2095602", "67c7431466"]
+      "ids": [
+        "2d319939a8",
+        "c06583251c",
+        "a7d58a72d4",
+        "e533c407b9",
+        "06759067c4",
+        "c97accda3e",
+        "91ed474a55",
+        "fd978a7d03",
+        "6dc3fe9ff3",
+        "71f65188d2",
+        "05ce77bf29",
+        "19d2095602",
+        "67c7431466"
+      ]
     },
     {
       "titulo": "Críticas a la gestión local y falta de limpieza",
       "explicacion": "Apunta a la Alcaldía de Guayaquil y a municipios: comentarios en YouTube culpan a alcantarillas tapadas y a la gestión municipal; LlamingoEc en TikTok pregunta si los municipios están preparados. No apunta a la Secretaría, pero puede trasladarse si la emergencia crece.",
-      "ids": ["d6d35b14d8", "8e9dca8acb", "aa4dbe29f0", "b50fa34d84", "8868063584", "bd5be499dd", "7fa8d76d81", "18bd9820af", "3b4c8a0ecd", "9c0ab8cf9f"]
+      "ids": [
+        "d6d35b14d8",
+        "8e9dca8acb",
+        "aa4dbe29f0",
+        "b50fa34d84",
+        "8868063584",
+        "bd5be499dd",
+        "7fa8d76d81",
+        "18bd9820af",
+        "3b4c8a0ecd",
+        "9c0ab8cf9f"
+      ]
     },
     {
       "titulo": "Desconfianza y cuestionamientos políticos a las alertas",
       "explicacion": "Cuentas pequeñas en X cuestionan el reporte oficial (\"¿débil Guayas?\", \"¿en qué realidad viven?\") mientras el suburbio se inundaba, y comentarios en YouTube tachan al Gobierno de incapaz. Bajo alcance, pero toca la credibilidad de los reportes de la Secretaría.",
-      "ids": ["047d9f2b0a", "4ff212bfce", "a8cb2168bd", "95c4870495", "9593393b18", "d7c37d7db1", "5b4230c06f"]
+      "ids": [
+        "047d9f2b0a",
+        "4ff212bfce",
+        "a8cb2168bd",
+        "95c4870495",
+        "9593393b18",
+        "d7c37d7db1",
+        "5b4230c06f"
+      ]
     },
     {
       "titulo": "Riesgos avisó a tiempo; Educación reaccionó tarde",
       "explicacion": "Apunta al Ministerio de Educación: usuarios en X recuerdan que la SNGR y el Inamhi alertaron la víspera y un comentario en YouTube dice que la alerta era real. Oportunidad para mostrar el aviso a GAD del 18 de octubre.",
-      "ids": ["ec550ef4fc", "9e7bf47190", "0b3578efa0", "06759067c4", "edc2983494"]
+      "ids": [
+        "ec550ef4fc",
+        "9e7bf47190",
+        "0b3578efa0",
+        "06759067c4",
+        "edc2983494"
+      ]
     },
     {
       "titulo": "Nos quedamos sin agua y aislados",
       "explicacion": "Interagua suspendió operaciones por el desborde del río Tenguel, hay cierres en la vía Cuenca-Girón-Pasaje y la E20 en Winchele está a punto de colapsar (La Hora). Presión por servicios y vías que compete a otras entidades.",
-      "ids": ["ed5406b5ab", "628f7c16a5", "48912aedd4", "6196959742", "efd27bf12c"]
+      "ids": [
+        "ed5406b5ab",
+        "628f7c16a5",
+        "48912aedd4",
+        "6196959742",
+        "efd27bf12c"
+      ]
     }
   ],
   "rumores": [
     {
       "titulo": "Suspensión nacional de clases por lluvias",
       "explicacion": "El Ministerio de Educación lo desmintió: la suspensión solo rige en planteles afectados de las zonas 5 y 8 (Primicias, Extra, La República). Sugerido: replicar el mapa oficial de zonas para cortar la duda (arts. 61 y 72).",
-      "ids": ["49e71107e6", "0b3b7ff5bc", "10510c6aa6", "d297da76b0", "5207066550"]
+      "ids": [
+        "49e71107e6",
+        "0b3b7ff5bc",
+        "10510c6aa6",
+        "d297da76b0",
+        "5207066550"
+      ]
     }
   ],
-  "hitos": [
-    {"dia": "2026-10-19", "titulo": "Aguacero inunda Guayaquil y suspenden clases presenciales", "ids": ["50a4125d23", "dbe3f898cd", "abcdc338d3", "d0e42f64d4"]},
-    {"dia": "2026-10-18", "titulo": "Deslave mata a dos mineros en Ponce Enríquez", "ids": ["a165327b4f", "c244263f06", "5edaf3d3d8"]}
-  ]
+  "hitos": []
 }
