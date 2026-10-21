@@ -1,172 +1,80 @@
 {
   "vinetas": [
-    "Contexto de hace unas 20 h (corte 19 oct, 21:53): piezas de medios suben de 39 a 229 en 24 h.",
-    "Cifras dispares: Ecuavisa titula dos muertos, Teleamazonas tres; Tenguel va de 300 a 800 familias según el medio.",
-    "Retornan clases presenciales en zonas 5 y 8, salvo Balao, Milagro y Tenguel; Advertencia 81 rige hasta el jueves 22.",
-    "Críticas en X suben de 0 a 5; la UNE recuerda que exigió en agosto un plan nacional y cita la suspensión de clases."
+    "Milagro domina la cobertura: según la SNGR, más de mil familias afectadas; el noticiero de Ecuavisa superó 12.000 vistas.",
+    "Medios difunden cifras oficiales distintas: 392 eventos (Zaracay) frente a 437, con 160 abiertos (El Universo); 23.167 afectados.",
+    "Lo de mayor alcance en redes: TikTok sobre Jóvenes en Acción apoyando a Riesgos, 119.539 vistas; inicia 4 de noviembre.",
+    "La crítica en X bajó de 5 a 0 piezas; persiste la UNE: dice que Riesgos no respondió sus pedidos de reunión."
   ],
   "fuentes_vinetas": [
-    [],
-    [
-      "0630708732",
-      "476de0ce0b",
-      "7bffc06156",
-      "1d7a72c370",
-      "ba53691028"
-    ],
-    [
-      "44179f82ab",
-      "a9c5f769ea",
-      "7f1ff5955e",
-      "efe0090867"
-    ],
-    [
-      "60935fb8cc",
-      "047d9f2b0a",
-      "4ff212bfce"
-    ]
+    ["0265d0d7e7", "52f9b76af8", "98b842b92a", "89f0eff722", "757e4bd20c"],
+    ["ecfab9cdfb", "63fade161a", "7bf493571f"],
+    ["2cbea4ed8f", "10144454ee"],
+    ["60935fb8cc", "598a77b81e", "daac6c90f6"]
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy parte único: fallecidos, afectados y familias de Tenguel, con corte horario.",
-      "porque": "Ecuavisa titula dos muertos y Teleamazonas tres; Tenguel: 300 familias (Ecuavisa), 600 (El Universo), 800 (Televistazo).",
+      "accion": "Publicar hoy en web y redes un solo corte oficial de afectados y eventos.",
+      "porque": "Medios citan cifras distintas de la SNGR: 392 eventos según Zaracay, 437 con 160 abiertos según El Universo.",
       "base_legal": "Art. 61, 72 y 73",
-      "fuentes": [
-        "0630708732",
-        "476de0ce0b",
-        "7bffc06156",
-        "1d7a72c370",
-        "ba53691028",
-        "a7d58a72d4"
-      ]
+      "fuentes": ["ecfab9cdfb", "63fade161a", "7bf493571f", "5beb6f2e45"]
     },
     {
-      "accion": "Coordinar con Municipio de Guayaquil y MIES el registro de familias afectadas en Tenguel.",
-      "porque": "SNGR y Segura EP atienden Tenguel; el Ministerio evaluará el Bono de Contingencia con la Secretaría para quienes cumplan requisitos.",
-      "base_legal": "Art. 14 y 68",
-      "fuentes": [
-        "a7d58a72d4",
-        "e533c407b9",
-        "a9a650134c",
-        "05ce77bf29",
-        "c06583251c"
-      ]
+      "accion": "Ofrecer apoyo subsidiario al GAD de Milagro y publicar la asistencia entregada.",
+      "porque": "Más de mil familias afectadas y más de 20 sectores anegados en Milagro, según la SNGR y Ecuavisa.",
+      "base_legal": "Art. 13, 21.4 y 73",
+      "fuentes": ["0265d0d7e7", "757e4bd20c", "52f9b76af8", "4535698caf"]
     },
     {
-      "accion": "Difundir hoy por radios y X qué hacer ante la Advertencia 81, hasta el jueves 22.",
-      "porque": "El Comercio prevé picos del 20 al 22; río Gala amenaza 40 familias en Naranjal; río Chimbo alerta Bucay y Cumandá.",
-      "base_legal": "Art. 61 y 62",
-      "fuentes": [
-        "7f1ff5955e",
-        "7410752423",
-        "1d7a72c370",
-        "2465a7d1a0",
-        "975fd71559"
-      ]
+      "accion": "Responder por escrito a la UNE y fijar reunión técnica con Educación sobre planteles.",
+      "porque": "La UNE denuncia que Riesgos no respondió sus pedidos de reunión; Ecuavisa reporta 4.080 instituciones educativas en riesgo.",
+      "base_legal": "Art. 23.4, 23.5 y 75",
+      "fuentes": ["60935fb8cc", "a8b22b1b47", "598a77b81e"]
     }
   ],
   "narrativas": [
     {
-      "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "La empujan las alertas del Inamhi hasta el 22 (El Universo, Primicias, Vistazo, Metro) y la ESPOL con uno de los octubres más lluviosos desde 1950. Oportunidad para que la Secretaría guíe qué hacer ante cada alerta.",
-      "ids": [
-        "7f1ff5955e",
-        "7410752423",
-        "efe0090867",
-        "975fd71559",
-        "6c28c0827c",
-        "554064b0e9",
-        "c8da146f91",
-        "19debd3f5a",
-        "370d2cd245",
-        "153e45c218",
-        "715171088b",
-        "4053269a89"
-      ]
+      "titulo": "Coordinación preventiva y entrega de asistencia oficial",
+      "explicacion": "Cuentas oficiales, La Posta y El Noticiero muestran a Riesgos entregando kits y evaluando daños en Tenguel, Milagro y Esmeraldas. Es la principal oportunidad: sostenerla con datos de lo entregado.",
+      "ids": ["0fe2ef4ee8", "b335920c1d", "14e5511c0d", "af32b963f0", "1061b6e6ba", "8e7dfb77ec", "a39b35bb42", "e533c407b9", "a7d58a72d4", "2d319939a8", "c06583251c", "91202b5301", "670901eeae", "05ce77bf29", "71f65188d2"]
     },
     {
-      "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "TC Televisión, Sucre Noticias y El Noticiero difunden el despliegue de la SNGR en Tenguel y Naranjal; Carolina aparece citada con los 11 eventos y el aviso a GAD. Fortaleza visible para la Secretaría.",
-      "ids": [
-        "2d319939a8",
-        "c06583251c",
-        "a7d58a72d4",
-        "e533c407b9",
-        "06759067c4",
-        "c97accda3e",
-        "91ed474a55",
-        "fd978a7d03",
-        "6dc3fe9ff3",
-        "71f65188d2",
-        "05ce77bf29",
-        "19d2095602",
-        "67c7431466"
-      ]
+      "titulo": "Las lluvias empeorarán y no estamos preparados",
+      "explicacion": "Mongabay, Ecuavisa y Diario Crónica difunden advertencias de un Niño récord y de falta de preparación. Riesgo: que cada nueva emergencia se lea como imprevisión del Estado.",
+      "ids": ["2095f9da9e", "76dfecaf56", "3d2724d55c", "050b72d1f3", "d358bebabd", "54e7ae37ac", "a8b22b1b47", "52913e54b2"]
     },
     {
       "titulo": "Críticas a la gestión local y falta de limpieza",
-      "explicacion": "Apunta a la Alcaldía de Guayaquil y a municipios: comentarios en YouTube culpan a alcantarillas tapadas y a la gestión municipal; LlamingoEc en TikTok pregunta si los municipios están preparados. No apunta a la Secretaría, pero puede trasladarse si la emergencia crece.",
-      "ids": [
-        "d6d35b14d8",
-        "8e9dca8acb",
-        "aa4dbe29f0",
-        "b50fa34d84",
-        "8868063584",
-        "bd5be499dd",
-        "7fa8d76d81",
-        "18bd9820af",
-        "3b4c8a0ecd",
-        "9c0ab8cf9f"
-      ]
+      "explicacion": "Apunta a municipios y prefecturas: alcantarillas tapadas, falta de dragado en Tenguel, socavones en Santo Domingo y muros sin reparar. No se atribuye a la Secretaría, pero puede trasladarse si la ayuda tarda.",
+      "ids": ["dd092441df", "403b5e188b", "9e088eaf86", "b4848de2df", "ab94ba562b", "cbf627ac0e", "18bd9820af", "8868063584", "bcce26dbb6", "3bed7927cb", "02b56b5657", "aa4dbe29f0", "b50fa34d84", "8e9dca8acb", "d6d35b14d8"]
+    },
+    {
+      "titulo": "Riesgos avisó a tiempo; Educación reacciona tarde",
+      "explicacion": "En X se reconoce que Riesgos alertó y se culpa a Educación; la UNE critica la improvisación de Educación, pero también acusa a Riesgos de no responderle. Riesgo de perder el crédito si no se atiende a la UNE.",
+      "ids": ["ec550ef4fc", "9e7bf47190", "598a77b81e", "daac6c90f6", "24710a6cee", "60935fb8cc"]
+    },
+    {
+      "titulo": "Llegan bonos y jóvenes para la emergencia",
+      "explicacion": "Teleamazonas, Extra y Primicias explican el Bono de Contingencia, y un TikTok de 119.539 vistas dice que Jóvenes en Acción apoyará a Riesgos. Oportunidad de explicar qué harán y cómo se accede, antes de que surjan falsas expectativas.",
+      "ids": ["5912a3d04d", "045eba840b", "d874bb0f50", "28da0a3fc9", "2cbea4ed8f", "10144454ee", "f49e4ab636"]
     },
     {
       "titulo": "Desconfianza y cuestionamientos políticos a las alertas",
-      "explicacion": "Cuentas pequeñas en X cuestionan el reporte oficial (\"¿débil Guayas?\", \"¿en qué realidad viven?\") mientras el suburbio se inundaba, y comentarios en YouTube tachan al Gobierno de incapaz. Bajo alcance, pero toca la credibilidad de los reportes de la Secretaría.",
-      "ids": [
-        "047d9f2b0a",
-        "4ff212bfce",
-        "a8cb2168bd",
-        "95c4870495",
-        "9593393b18",
-        "d7c37d7db1",
-        "5b4230c06f"
-      ]
-    },
-    {
-      "titulo": "Riesgos avisó a tiempo; Educación reaccionó tarde",
-      "explicacion": "Apunta al Ministerio de Educación: usuarios en X recuerdan que la SNGR y el Inamhi alertaron la víspera y un comentario en YouTube dice que la alerta era real. Oportunidad para mostrar el aviso a GAD del 18 de octubre.",
-      "ids": [
-        "ec550ef4fc",
-        "9e7bf47190",
-        "0b3578efa0",
-        "06759067c4",
-        "edc2983494"
-      ]
-    },
-    {
-      "titulo": "Nos quedamos sin agua y aislados",
-      "explicacion": "Interagua suspendió operaciones por el desborde del río Tenguel, hay cierres en la vía Cuenca-Girón-Pasaje y la E20 en Winchele está a punto de colapsar (La Hora). Presión por servicios y vías que compete a otras entidades.",
-      "ids": [
-        "ed5406b5ab",
-        "628f7c16a5",
-        "48912aedd4",
-        "6196959742",
-        "efd27bf12c"
-      ]
+      "explicacion": "Comentarios aislados en YouTube y X hablan de autoridades indolentes y falta de dinero; Manavisión preguntó si alcanzan los 650 millones. Bajo volumen hoy, pero conviene transparentar el uso del presupuesto.",
+      "ids": ["86e62f89e3", "a8cb2168bd", "7fa8d76d81", "cacee811d2", "f9d6dd336e"]
     }
   ],
   "rumores": [
     {
-      "titulo": "Suspensión nacional de clases por lluvias",
-      "explicacion": "El Ministerio de Educación lo desmintió: la suspensión solo rige en planteles afectados de las zonas 5 y 8 (Primicias, Extra, La República). Sugerido: replicar el mapa oficial de zonas para cortar la duda (arts. 61 y 72).",
-      "ids": [
-        "49e71107e6",
-        "0b3b7ff5bc",
-        "10510c6aa6",
-        "d297da76b0",
-        "5207066550"
-      ]
+      "titulo": "Suspensión nacional de clases presenciales",
+      "explicacion": "Circuló la idea de una suspensión nacional; el Ministerio de Educación la desmintió. Respuesta sugerida: replicar la lista oficial de cantones con clases suspendidas (arts. 61 y 72).",
+      "ids": ["d7b0c5b765"]
     }
   ],
-  "hitos": []
+  "hitos": [
+    {
+      "dia": "2026-10-20",
+      "titulo": "Río Milagro desborda; más de mil familias afectadas",
+      "ids": ["4535698caf", "757e4bd20c", "52f9b76af8", "0265d0d7e7"]
+    }
+  ]
 }
