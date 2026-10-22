@@ -1,29 +1,70 @@
 {
   "vinetas": [
-    "La SNGR reporta 11 ríos desbordados en cinco provincias (corte 07:00); anoche eran 12. Guayas y Esmeraldas concentran siete.",
-    "El Oro: el COE cantonal declaró emergencia en El Guabo y Diario Extra muestra damnificados durmiendo fuera de casa.",
-    "Medios sin críticas a la Secretaría en 24 h; en redes solo dos videos de YouTube, de bajo alcance, critican al Gobierno.",
-    "Súper Niño: BBC, El Universo y Red Uno difunden impactos regionales; Primicias y AgroLatam prevén presión fiscal en 2027."
+    "Granizada en Quito domina medios: Metro parcial, autos arrastrados; El Universo destaca brigadas de la Secretaría en la ciudad.",
+    "Ríos desbordados bajan a 11 en cinco provincias (corte 07:00); Guayas y Esmeraldas concentran siete, según El Universo.",
+    "Afectados difieren entre medios: FM Mundo dice más de 26.000; Radio Centro, 23.600; Carolina dio 22.955 al 20 de octubre.",
+    "Volumen baja a 191 piezas desde 242 ayer; solo una crítica, un comentario en YouTube contra el Gobierno central."
   ],
   "fuentes_vinetas": [
-    ["1f77652b3d", "7f006b7d09", "73256465b6", "6abb894dc5", "08c202965d"],
-    ["36aea5fef8", "9098ff1e3e"],
-    ["bf8aff1503", "b70980f023"],
-    ["aea5eaa595", "7a31843a72", "3ca1fc68d3", "39c16ee947", "907fdb6154"]
+    ["d14d1e2393", "7d35b71fb9", "878ddf9056", "afb527ed80", "cfb09a551a", "d1dc5764dc"],
+    ["1f77652b3d", "73256465b6", "08c202965d"],
+    ["79a2cad415", "03a2abe004", "242da2b4e1"],
+    ["9c8a4a950d"]
   ],
   "acciones": [
-    {"accion": "Anunciar hoy en X y radios si la alerta de oleaje cierra o sigue.", "porque": "La alerta vence hoy 22 de octubre; Machala Móvil aún reporta 14 playas con bandera roja; Ecuavisa y Vistazo la difundieron.", "base_legal": "Art. 61 y 62", "fuentes": ["8ece2f2268", "3b3d7bac8b", "9533ccab69", "32e9162feb"]},
-    {"accion": "Ofrecer al COE de El Guabo apoyo subsidiario con alojamiento temporal y kits hoy.", "porque": "El COE cantonal declaró emergencia en El Guabo y Diario Extra reporta damnificados que duermen fuera de sus casas.", "base_legal": "Art. 13, 14 y 21.4", "fuentes": ["36aea5fef8", "9098ff1e3e"]},
-    {"accion": "Publicar hoy un corte único de afectados y ríos en Alístate Ecuador y radios.", "porque": "Radio Centro y Confirmado dicen más de 23.600 afectados; Carolina dio 22.955; los ríos desbordados bajaron de 12 a 11.", "base_legal": "Art. 61, 72 y 73", "fuentes": ["03a2abe004", "4b246093d1", "7ae7d57384", "1f77652b3d", "08c202965d", "0a8b990fb9"]}
+    {
+      "accion": "Publicar hoy en X y web la cifra oficial de afectados con corte",
+      "porque": "FM Mundo publica más de 26.000 afectados, Radio Centro 23.600 y Carolina dio 22.955 con corte al 20 de octubre.",
+      "base_legal": "Art. 61 y 72",
+      "fuentes": ["79a2cad415", "03a2abe004", "242da2b4e1"]
+    },
+    {
+      "accion": "Ofrecer al COE Metropolitano de Quito apoyo subsidiario y difundir reporte conjunto de afectaciones",
+      "porque": "Granizada cerró tres estaciones del Metro; La Hora reporta 10 emergencias y Metro Ecuador 12; Inamhi prevé que sigan lluvias.",
+      "base_legal": "Art. 13, 21.4, 29 y 61",
+      "fuentes": ["878ddf9056", "1f1c6c094c", "93c338ebac", "b6d4884150"]
+    },
+    {
+      "accion": "Coordinar con COE de El Guabo evaluación de necesidades y alojamiento temporal",
+      "porque": "El COE cantonal declaró emergencia en El Guabo, según Ecuavisa; Extra reporta damnificados durmiendo fuera de sus casas.",
+      "base_legal": "Art. 14, 21.4 y 68",
+      "fuentes": ["36aea5fef8", "9098ff1e3e"]
+    }
   ],
   "narrativas": [
-    {"titulo": "Coordinación preventiva y entrega de asistencia oficial", "explicacion": "La alerta de oleaje y los reportes de ríos de la Secretaría se replican sin críticas en Radio Pichincha, Ecuavisa, Primicias, Vistazo y decenas de cuentas; Celec socializó el embalse Baba con la SNGR y Carolina explicó Alístate Ecuador y los 15 alojamientos. Oportunidad si se acompaña con datos de lo entregado en Milagro y Tenguel.", "ids": ["1f77652b3d", "8ece2f2268", "a8f6edf94c", "3b2b48565d", "1de3b0283f", "9d337e48f4", "0d541c73a0", "a7b0c541df", "1bda880ae6", "62f91fc65b", "2d2fe8094c", "9188c9c2d4", "3b3d7bac8b", "6af32a896c", "9533ccab69", "2d1dedf78e", "77a46ca2bb", "32e9162feb", "1dea004db9", "4ad038b92d", "77bfa92a89", "1c5df2af49", "697eb80744", "acb8ea1aba", "03451f67bf", "ba0a0e5d41", "e1489e1193", "20f31406c4", "572715fbb7", "c5d3b82d79", "2988c26367", "242da2b4e1", "0a8b990fb9", "d8d733e6d0", "7ae7d57384", "ad920804a4", "98edbd037f", "08c202965d", "8d91060541"]},
-    {"titulo": "Las lluvias empeorarán y no estamos preparados", "explicacion": "BBC, El Universo y Red Uno difunden el 'Súper Niño', CRprensa lo llama muy fuerte, más de diez medios replican la alerta de la ONU y Ecuavisa pregunta si las escuelas inundadas de Guayaquil y Durán están listas. Riesgo de que cada emergencia se lea como imprevisión; oportunidad de mostrar la preparación con datos.", "ids": ["aea5eaa595", "7a31843a72", "3ca1fc68d3", "1b293b5989", "79f3e4c62d", "d2599ce2c2", "b8d9f2af63", "d501adcaba", "39b1a9d4b6", "b3bad269e0", "e5a73bdf89", "5a0f3d9ede", "d5c1e5db01", "d9e073c374", "05f386f148", "ceecb89443", "c642c10d7c", "7356838d86", "b70980f023", "12b0172411", "598a77b81e"]},
-    {"titulo": "Críticas a la gestión local y falta de limpieza", "explicacion": "Apunta a municipios y prefecturas: El Comercio dice que Quito se inunda en los mismos puntos, Extra muestra Samborondón bajo el agua y vecinos de Portoviejo, Machala y Jujan reclaman obras. Carolina reconoció en Radio i99 que los GAD aún tienen desafíos; varios reclamos etiquetan a la Secretaría, así que puede trasladarse a ella sin respuesta coordinada.", "ids": ["847712333d", "2b3277db3e", "fbc0219d5c", "bc024dcb7e", "a0248a833f", "eb698361a0", "f765fcfdc5", "beffc82039", "1da28e8f5b", "9e6638b0ac", "b4848de2df", "dd092441df", "1b67c39594", "94bd46141f", "fa267787bd", "8b0d4aacf6", "ab94ba562b", "b75b3c9900"]},
-    {"titulo": "Llegan bonos y jóvenes para la emergencia", "explicacion": "Teleamazonas y Extra explican el bono para damnificados, Primicias y Machala Móvil el seguro agrícola para 80.000 productores, y un TikTok de 119.539 vistas dice que Jóvenes en Acción apoyará a Riesgos; GamaNoticias cita su inicio el 4 de noviembre. Sin piezas nuevas hoy; conviene aclarar requisitos antes de falsas expectativas.", "ids": ["5912a3d04d", "045eba840b", "c9549e15c2", "9f0723d755", "2cbea4ed8f", "10144454ee"]},
-    {"titulo": "Desconfianza y cuestionamientos políticos a las alertas", "explicacion": "Videos y comentarios de poco alcance en YouTube hablan de malestar con la gestión y de que no hay dinero para la emergencia; Primicias y AgroLatam advierten presión fiscal en 2027 por El Niño. Bajo volumen, pero conviene transparentar el uso del presupuesto.", "ids": ["bf8aff1503", "2cc7fce1aa", "28c88171cc", "39c16ee947", "907fdb6154"]},
-    {"titulo": "El Niño pone en riesgo las elecciones", "explicacion": "El Diario, Machala Móvil, Radio Pichincha, Ecuavisa y Teleamazonas informan que el CNE identificó 368 recintos en riesgo y prepara 2.500 locales para el 29 de noviembre. Apunta al CNE, pero la Secretaría puede aportar información técnica de riesgo.", "ids": ["f3fbaf10a4", "fad88af53c", "d3906849fe", "f79421e1cf", "4d5b0d12c4", "6195ba959e", "91911cb73e", "bb56b70d1a"]}
+    {
+      "titulo": "Coordinación preventiva y entrega de asistencia oficial",
+      "explicacion": "La alerta de oleaje en 41 playas y los reportes de ríos de la Secretaría se replican sin críticas en Ecuavisa, Primicias, Vistazo, Radio Pichincha y decenas de cuentas; hoy El Universo destaca sus brigadas en Quito. Oportunidad de sumar datos de ayuda entregada en Milagro y Esmeraldas.",
+      "ids": ["d1dc5764dc", "1f77652b3d", "32e9162feb", "1dea004db9", "9d337e48f4", "08c202965d", "77b024a82d", "0d541c73a0", "1bda880ae6", "a7b0c541df", "3b3d7bac8b", "77a46ca2bb", "c5d3b82d79", "2988c26367", "242da2b4e1", "98edbd037f", "ba0a0e5d41", "77bfa92a89", "03451f67bf", "20f31406c4", "572715fbb7", "9533ccab69", "2d1dedf78e", "6af32a896c", "4ad038b92d", "e1489e1193", "3200990799"]
+    },
+    {
+      "titulo": "Las lluvias empeorarán y no estamos preparados",
+      "explicacion": "La Cruz Roja internacional se suma a la ONU y advierte un El Niño que podría ser histórico (El Universo, Radio Pichincha, Extra); BBC y Red Uno hablan de 'Súper Niño' y Ecuavisa pregunta si las escuelas de Guayaquil y Durán están listas. Riesgo de que cada emergencia se lea como imprevisión.",
+      "ids": ["ad10744f09", "dd959edd84", "b5aecd64b6", "79f3e4c62d", "aea5eaa595", "7a31843a72", "3ca1fc68d3", "1b293b5989", "b70980f023", "b6d4884150", "77900c357a", "58510131be", "d2599ce2c2", "b8d9f2af63", "e5a73bdf89", "a94a0dc0dc", "566b25f060"]
+    },
+    {
+      "titulo": "El Niño pone en riesgo las elecciones",
+      "explicacion": "El Diario, Machala Móvil, Radio Pichincha, Teleamazonas y Ecuavisa repiten que el CNE identificó 368 recintos en riesgo y prepara 2.500 locales alternos para el 29 de noviembre. Apunta al CNE; la Secretaría puede aportar información técnica de riesgo.",
+      "ids": ["f3fbaf10a4", "fad88af53c", "d3906849fe", "4d5b0d12c4", "f79421e1cf", "6195ba959e", "91911cb73e", "bb56b70d1a"]
+    },
+    {
+      "titulo": "Críticas a la gestión local y falta de limpieza",
+      "explicacion": "Apunta a municipios y prefecturas: El Comercio dice que Quito se inunda en los mismos puntos, Extra muestra Samborondón bajo el agua y vecinos de Milagro, Portoviejo, El Oro y Jujan reclaman obras. Carolina reconoció en Radio i99 que los GAD aún tienen desafíos; sin coordinación visible, el reclamo puede trasladarse a la Secretaría.",
+      "ids": ["847712333d", "2b3277db3e", "d668cec1d0", "beffc82039", "1da28e8f5b", "9e6638b0ac", "f765fcfdc5", "eb698361a0", "b4848de2df", "dd092441df", "fa267787bd", "8b0d4aacf6", "a0248a833f", "94bd46141f"]
+    },
+    {
+      "titulo": "Desconfianza y cuestionamientos políticos a las alertas",
+      "explicacion": "Videos y comentarios de poco alcance en YouTube hablan de malestar con la gestión y de falta de planificación, dirigidos al Gobierno central; Primicias y AgroLatam advierten presión fiscal en 2027 por El Niño. Bajo volumen; conviene transparentar el uso de recursos.",
+      "ids": ["9c8a4a950d", "bf8aff1503", "2cc7fce1aa", "28c88171cc", "39c16ee947", "907fdb6154"]
+    },
+    {
+      "titulo": "Las lluvias alivian Mazar y alejan apagones",
+      "explicacion": "Teleamazonas, El Comercio, La Hora y La República reportan que Mazar recuperó cerca de un metro; Radio Pichincha y Ecuavisa advierten que aún necesita más agua. Apunta al sector eléctrico; el alivio puede restar urgencia a los mensajes de prevención.",
+      "ids": ["2d2f7fb5ef", "bb72d36d7b", "0eb5683880", "4aad719e2c", "e65de00416", "62e68e9885", "bd5d279bd2", "008b39aff6", "44290685c9"]
+    }
   ],
   "rumores": [],
-  "hitos": []
+  "hitos": [
+    {"dia": "2026-10-22", "titulo": "Granizada en Quito cierra tres estaciones del Metro", "ids": ["878ddf9056", "7d35b71fb9", "d14d1e2393", "357d3168ba"]}
+  ]
 }
