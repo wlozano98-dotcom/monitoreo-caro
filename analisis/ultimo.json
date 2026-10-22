@@ -1,68 +1,74 @@
 {
   "vinetas": [
-    "Sin notas críticas de medios en 24 h (ayer 2); redes casi vacías: 6 piezas de X frente a 41 ayer.",
-    "Babahoyo vuelve a inundarse esta tarde: lo reportan El Comercio, FM Mundo y cámaras del ECU 911.",
-    "En Balao y Milagro el agua empieza a bajar, pero Ecuavisa reporta afectaciones que persisten.",
-    "El Telégrafo: lluvias en Guayaquil ya superan las de 1997; Inocar prevé lluvias más intensas desde diciembre."
+    "SNGR reporta 12 ríos y cuerpos hídricos desbordados en seis provincias al corte de 19:00; en la mañana eran cinco.",
+    "La alerta de oleaje de la SNGR, 41 playas y 14 en rojo hasta el jueves 22, circula en 21 publicaciones de X.",
+    "Carolina, en Radio i99 y Sucre Noticias: 15 alojamientos operativos y 2.800 espacios; reconoció desafíos de preparación en los GAD.",
+    "Ninguna nota de medios crítica a la SNGR en 24 h; Ecuavisa: el CNE ve 368 recintos electorales en riesgo."
   ],
   "fuentes_vinetas": [
-    [],
-    ["5c603d5c7f", "aedf84e2c5", "515bad1396"],
-    ["e2337cb9f7", "b3b4d84b64"],
-    ["5a0f3d9ede", "d5c1e5db01", "a94a0dc0dc", "4ea0538a5c"]
+    ["08c202965d", "1bda880ae6", "05f386f148", "7356838d86", "d7dc2dd6bf"],
+    ["3b3d7bac8b", "6af32a896c", "9533ccab69", "77a46ca2bb", "2d1dedf78e", "29e48c625b"],
+    ["d8d733e6d0", "2988c26367", "a0248a833f"],
+    ["f79421e1cf"]
   ],
   "acciones": [
     {
-      "accion": "Ofrecer hoy al COE de Babahoyo apoyo subsidiario para evaluar daños.",
-      "porque": "El Comercio, FM Mundo y ECU 911 muestran Babahoyo bajo el agua; Inamhi mantiene advertencia de lluvias hasta el jueves 22.",
-      "base_legal": "Art. 13, 21.4 y 29",
-      "fuentes": ["5c603d5c7f", "aedf84e2c5", "515bad1396", "ba980db0fd"]
+      "accion": "Emitir el jueves 22 el cierre o prórroga de la alerta de oleaje en 41 playas.",
+      "porque": "La alerta vence el jueves 22 y la replicaron Ecuavisa, Primicias, Vistazo y Radio Pichincha; sin aviso de cierre queda la duda.",
+      "base_legal": "Art. 61, 62 y 63",
+      "fuentes": ["3b3d7bac8b", "6af32a896c", "9533ccab69", "4ad038b92d", "f771a14d14"]
     },
     {
-      "accion": "Cerrar con MIES y GAD el registro de afectados de Balao y Milagro.",
-      "porque": "Ecuavisa: el agua baja en Balao y Milagro pero persisten afectaciones; Primicias, Extra y Prensa Mercosur explican cómo acceder al bono.",
-      "base_legal": "Art. 14 y 68",
-      "fuentes": ["e2337cb9f7", "b3b4d84b64", "52f9b76af8", "d874bb0f50", "045eba840b", "3ab7db71a4"]
+      "accion": "Ofrecer al COE de El Guabo apoyo subsidiario con evaluación EVIN tras su declaratoria.",
+      "porque": "Ecuavisa: COE cantonal declaró emergencia en El Guabo; Machala Móvil reportó desborde del río Chaguana; El Oro está entre las seis provincias.",
+      "base_legal": "Art. 13, 21.4, 65 y 68",
+      "fuentes": ["36aea5fef8", "1d5feed5eb", "08c202965d", "20f31406c4"]
     },
     {
-      "accion": "Publicar en la web un parte diario único: afectados, eventos, ríos y ayuda entregada.",
-      "porque": "Las cifras difieren: Confirmado.net, 23.600 afectados y 430 emergencias; Vistazo, más de 23.000 impactadas; El Universo, 437 eventos.",
+      "accion": "Fijar en Alístate Ecuador una sola cifra diaria de afectados, damnificados, eventos y ríos.",
+      "porque": "Las cifras difieren: Sucre Noticias atribuye a Carolina 22.955 afectados; Radio i99, 22.963; Confirmado.net, más de 23.600; Teleamazonas, 136 eventos adversos.",
       "base_legal": "Art. 61, 72 y 73",
-      "fuentes": ["4b246093d1", "981c6ecebb", "63fade161a"]
+      "fuentes": ["7ae7d57384", "ad920804a4", "4b246093d1", "1a4ae2466c", "0a8b990fb9"]
     }
   ],
   "narrativas": [
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Más de diez medios replican la alerta de la ONU por un Niño sin precedentes; El Telégrafo dice que Guayaquil ya supera 1997 e Inocar anticipa lluvias más intensas desde diciembre. Mongabay y videos pequeños de YouTube preguntan si el país está listo: riesgo de que cada emergencia se lea como imprevisión, oportunidad de explicar la preparación.",
-      "ids": ["b3bad269e0", "fade643266", "29ef6ffe96", "2701c5d287", "fc0dd1f495", "fc886ef28a", "4494aa0b59", "421c744924", "d501adcaba", "39b1a9d4b6", "42c9ab63c6", "3056f64db7", "b8d9f2af63", "e5a73bdf89", "76dfecaf56", "a94a0dc0dc", "4ea0538a5c", "5a0f3d9ede", "d5c1e5db01", "10314ced31", "2095f9da9e", "b70980f023", "28c88171cc"]
+      "explicacion": "Más de diez medios, hoy también TC Televisión, replican la alerta de la ONU por un Niño sin precedentes; El Telégrafo dice que Guayaquil ya supera 1997, Inocar anticipa lluvias más intensas desde diciembre y Primicias explica el récord de lluvias en Quito. Riesgo de que cada emergencia se lea como imprevisión; oportunidad de explicar la preparación.",
+      "ids": ["d2599ce2c2", "d9e073c374", "b3bad269e0", "fade643266", "29ef6ffe96", "2701c5d287", "fc0dd1f495", "fc886ef28a", "4494aa0b59", "421c744924", "d501adcaba", "39b1a9d4b6", "42c9ab63c6", "3056f64db7", "b8d9f2af63", "e5a73bdf89", "76dfecaf56", "a94a0dc0dc", "4ea0538a5c", "5a0f3d9ede", "d5c1e5db01", "10314ced31", "2095f9da9e", "b70980f023", "28c88171cc"]
     },
     {
       "titulo": "Críticas a la gestión local y falta de limpieza",
-      "explicacion": "Apunta a municipios y prefecturas: basura en canales de Guayaquil (El Universo), vecinos de Milagro que exigen limpieza y muro, el socavón de Portoviejo, calles de Santo Domingo y el Cabildo de Loja que archivó su ordenanza de riesgos. No se atribuye a la Secretaría, pero puede trasladarse si la ayuda tarda.",
-      "ids": ["eb698361a0", "f765fcfdc5", "beffc82039", "94bd46141f", "fa267787bd", "8b0d4aacf6", "b4848de2df", "dd092441df", "403b5e188b", "1b67c39594", "cbf627ac0e", "18bd9820af", "02b56b5657", "3bed7927cb", "d623d0236d"]
+      "explicacion": "Apunta a municipios y prefecturas: basura en canales de Guayaquil, vecinos de Milagro que exigen limpieza y muro, el socavón de Portoviejo, muros sin reparar en Jujan y desazolve a medias en Machala. Algunos reclamos etiquetan a la Secretaría y a Carolina, así que puede trasladarse a ella si no hay respuesta.",
+      "ids": ["eb698361a0", "f765fcfdc5", "beffc82039", "94bd46141f", "fa267787bd", "8b0d4aacf6", "b4848de2df", "dd092441df", "1b67c39594", "1da28e8f5b", "9e6638b0ac", "53701d7fae", "ab94ba562b", "b75b3c9900"]
     },
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "Radio Pichincha y El Comercio atribuyen a la Secretaría la alerta de oleaje en 41 playas; La Posta, El Noticiero y la cuenta de Riesgos mostraron ayuda en Tenguel, Milagro y Esmeraldas; hoy Extra, El Universo y ElOriente destacan las inspecciones del embalse Baba. Oportunidad si se acompaña con datos de lo entregado.",
-      "ids": ["4ad038b92d", "f771a14d14", "0fe2ef4ee8", "e533c407b9", "b335920c1d", "14e5511c0d", "1061b6e6ba", "af32b963f0", "1c5df2af49", "697eb80744", "acb8ea1aba", "57e49d8a3d"]
+      "explicacion": "La alerta de oleaje de la Secretaría se difunde ampliamente y sin críticas; El Universo, Extra y ElOriente destacan las medidas del embalse Baba socializadas con la Secretaría; Babahoyo, Santa Elena y la AME muestran trabajo conjunto, y Carolina explicó Alístate Ecuador y los alojamientos. Oportunidad si se acompaña con datos de lo entregado.",
+      "ids": ["4ad038b92d", "f771a14d14", "3b3d7bac8b", "6af32a896c", "9533ccab69", "77a46ca2bb", "2d1dedf78e", "29e48c625b", "08c202965d", "77bfa92a89", "697eb80744", "acb8ea1aba", "1c5df2af49", "03451f67bf", "ba0a0e5d41", "e1489e1193", "572715fbb7", "20f31406c4", "98edbd037f", "d8d733e6d0", "2988c26367", "0a8b990fb9", "c5d3b82d79", "0fe2ef4ee8", "b335920c1d", "1061b6e6ba", "af32b963f0"]
     },
     {
       "titulo": "Llegan bonos y jóvenes para la emergencia",
-      "explicacion": "Prensa Mercosur vuelve a explicar el Bono de Contingencia; Primicias y Machala Móvil difunden un seguro agrícola subsidiado para 80.000 productores; un TikTok de 119.539 vistas dice que Jóvenes en Acción apoyará a Riesgos y GamaNoticias ubica el inicio el 4 de noviembre. Oportunidad de aclarar requisitos y fechas antes de falsas expectativas.",
-      "ids": ["3ab7db71a4", "5912a3d04d", "045eba840b", "d874bb0f50", "2cbea4ed8f", "10144454ee", "28da0a3fc9", "05ce77bf29", "f49e4ab636", "c9549e15c2", "9f0723d755"]
+      "explicacion": "Prensa Mercosur, Primicias, Extra y Teleamazonas explican el Bono de Contingencia; Primicias y Machala Móvil difunden un seguro agrícola subsidiado para 80.000 productores; un TikTok de 119.539 vistas dice que Jóvenes en Acción apoyará a Riesgos. Oportunidad de aclarar requisitos y fechas antes de falsas expectativas.",
+      "ids": ["3ab7db71a4", "5912a3d04d", "045eba840b", "d874bb0f50", "2cbea4ed8f", "10144454ee", "28da0a3fc9", "f49e4ab636", "c9549e15c2", "9f0723d755"]
     },
     {
       "titulo": "Desconfianza y cuestionamientos políticos a las alertas",
-      "explicacion": "Comentarios aislados y de poco alcance en YouTube y X hablan de autoridades indolentes, falta de liderazgo y de dinero; uno contrasta lo destinado a Jóvenes en Acción con la emergencia. Manavisión preguntó si alcanzan los 650 millones. Bajo volumen, pero conviene transparentar el uso del presupuesto.",
-      "ids": ["2cc7fce1aa", "86e62f89e3", "a8cb2168bd", "bf8aff1503", "f9d6dd336e", "cacee811d2"]
+      "explicacion": "Comentarios y videos de poco alcance en YouTube hablan de autoridades indolentes, malestar con la gestión y de que no hay dinero para la emergencia; Manavisión preguntó si alcanzan los 650 millones. Bajo volumen, pero conviene transparentar el uso del presupuesto.",
+      "ids": ["2cc7fce1aa", "86e62f89e3", "bf8aff1503", "f9d6dd336e"]
     },
     {
       "titulo": "Educación improvisa ante planteles inundados",
-      "explicacion": "La UNE, en Radio Pichincha, critica la improvisación del Ministerio de Educación; hoy El Heraldo repite que 4.080 instituciones educativas están en riesgo. Apunta a Educación, no a la Secretaría, pero el tema escolar puede volver con cada suspensión de clases.",
-      "ids": ["598a77b81e", "daac6c90f6", "24710a6cee", "566b25f060", "a8b22b1b47", "f96f742abe"]
+      "explicacion": "La UNE, en Radio Pichincha, critica la improvisación del Ministerio de Educación y El Heraldo repite que 4.080 instituciones están en riesgo. Apunta a Educación, no a la Secretaría; sin piezas nuevas esta noche, pero puede volver con cada suspensión de clases.",
+      "ids": ["598a77b81e", "daac6c90f6", "24710a6cee", "566b25f060", "f96f742abe"]
     }
   ],
-  "rumores": [],
+  "rumores": [
+    {
+      "titulo": "Suspensión nacional de clases presenciales",
+      "explicacion": "Circuló la idea de una suspensión nacional y el Ministerio de Educación la desmintió (Convergente Tv). Si reaparece, responder con la lista oficial de cantones con clases virtuales.",
+      "ids": ["d7b0c5b765"]
+    }
+  ],
   "hitos": []
 }
