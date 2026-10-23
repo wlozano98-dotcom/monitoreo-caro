@@ -1,9 +1,9 @@
 {
   "vinetas": [
-    "Sin datos nuevos desde las 05:51: la granizada de Quito domina YouTube (Latina 34.167 vistas); reclamos apuntan al Municipio.",
-    "Balances con cortes distintos: 22.955 afectados (Carolina, corte 20 oct), 26.000 (FM Mundo), 28.000 impactadas (Extra).",
-    "Despliegue SNGR en Quito replicado sin críticas: El Universo en X, 4.852 vistas; críticas de YouTube apuntan al Gobierno central.",
-    "Inamhi alerta lluvias y tormentas del 23 al 25; El Universo ubica a Guayas entre lo más intenso."
+    "La granizada del 22 en Quito domina YouTube: Latina 34.167 vistas, El Comercio 24.683, Ecuavisa 18.784; reclamos van al Municipio.",
+    "El despliegue de la SNGR en Quito se replicó sin críticas: El Universo en X (4.852 vistas), El Noticiero, La Posta.",
+    "Cifras oficiales circulan con matices: SNGR dio 26.000 afectados y tres fallecidos; Extra ya habla de 28.000 impactadas.",
+    "Inamhi prevé tormentas del 23 al 25, más intensas en Guayas; desbordes bajan de 11 a 4, persisten Guayas y El Oro."
   ],
   "fuentes_vinetas": [
     [
@@ -11,185 +11,164 @@
       "b879bb299f",
       "dc21d68c41",
       "fa8ed37b69",
-      "d668cec1d0"
-    ],
-    [
-      "242da2b4e1",
-      "79a2cad415",
-      "0ea75c2acd",
-      "f3360d49e9"
+      "4d7b2da612",
+      "82eb4fc2f9"
     ],
     [
       "92f1f98457",
-      "d1dc5764dc",
-      "e5f14d94fb",
       "38c7227572",
-      "6182021f6a",
-      "b762c2a4be",
-      "5c3797c102"
+      "e5f14d94fb",
+      "d1dc5764dc"
     ],
     [
-      "6569308aea",
-      "d95ffefb33",
-      "47efe50a1e"
+      "f3360d49e9",
+      "79a2cad415",
+      "0ea75c2acd"
+    ],
+    [
+      "47efe50a1e",
+      "dbb7917307",
+      "b746014e52"
     ]
   ],
   "acciones": [
     {
-      "accion": "Publicar a las 18:00 balance nacional único, con corte y hora, en web y X.",
-      "porque": "Circulan 22.955, 26.000 y 28.000 afectados según el corte; La Guía usa cifras SNGR para calificar la respuesta de reactiva.",
-      "base_legal": "Art. 61, 72 y 73",
-      "fuentes": [
-        "242da2b4e1",
-        "79a2cad415",
-        "0ea75c2acd",
-        "dcf767b4bf"
-      ]
-    },
-    {
-      "accion": "Emitir lineamientos de preparación para el fin de semana a COE de Guayas y El Oro.",
-      "porque": "Inamhi alerta lluvias hasta el 25, Guayas entre lo más intenso; El Universo: Guayas y El Oro mantienen desbordes.",
-      "base_legal": "Art. 13, 23.4 y 62",
+      "accion": "Recomendaciones ante tormentas del fin de semana en Guayas y El Oro, por radios locales.",
+      "porque": "Inamhi prevé tormentas y posibles crecidas del 23 al 25, más intensas en Guayas; persisten desbordes en Guayas y El Oro.",
+      "base_legal": "Art. 61 y 62",
       "fuentes": [
         "47efe50a1e",
-        "6569308aea",
-        "d95ffefb33",
-        "b746014e52"
+        "dbb7917307",
+        "b746014e52",
+        "fe0c29379f"
       ]
     },
     {
-      "accion": "Coordinar con GAD de Esmeraldas y MIES registro de viviendas afectadas; apoyo subsidiario.",
-      "porque": "La Hora: Esmeraldas concentra más del 70 % de viviendas afectadas; Extra relata el suplicio de familias en Esmeraldas y El Oro.",
-      "base_legal": "Art. 21.4 y 68",
+      "accion": "Ofrecer al COE Metropolitano apoyo técnico subsidiario en La Gasca y Las Casas, y comunicarlo.",
+      "porque": "Videos de autos arrastrados en Quito suman decenas de miles de vistas; El Comercio pide respuestas estructurales y la SNGR ya está desplegada.",
+      "base_legal": "Art. 13 y 21",
       "fuentes": [
-        "79cb480ef3",
-        "fb315e4a67"
+        "99f42facfe",
+        "2fa08635c7",
+        "82eb4fc2f9",
+        "8155991542",
+        "38c7227572"
+      ]
+    },
+    {
+      "accion": "Publicar en la web cifras por provincia y ayuda entregada, con hora de corte.",
+      "porque": "Circulan 26.000 y 28.000 afectados; La Guía usa cifras de la SNGR para llamar reactiva la respuesta.",
+      "base_legal": "Art. 72 y 73",
+      "fuentes": [
+        "f3360d49e9",
+        "0ea75c2acd",
+        "dcf767b4bf"
       ]
     }
   ],
   "narrativas": [
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "El despliegue de la SNGR en Quito circuló sin críticas en El Universo, La Posta, El Noticiero, Radio Quito y W Radio, junto a ferias y reuniones con ECU 911, AIBE y MINTEL; La Hora suma el bono a 2.606 familias en Babahoyo. Oportunidad: pasar de 'estamos desplegados' a resultados verificables.",
+      "explicacion": "El despliegue de la SNGR en Quito y las declaraciones de Carolina Lozano se replicaron sin críticas en El Universo, El Noticiero, La Posta, Radio Quito, Altavoz y W Radio; ECU 911, AIBE, MINTEL y CORAPE destacan coordinación con la Secretaría. Oportunidad de mostrar resultados concretos del despliegue, no solo presencia.",
       "ids": [
-        "d1dc5764dc",
         "92f1f98457",
         "5618f0d8ac",
+        "d1dc5764dc",
+        "38c7227572",
         "e5f14d94fb",
         "176f13ba03",
         "2988ab4350",
-        "38c7227572",
         "bf80735b8f",
         "95e26f79c1",
         "d7e796163a",
         "fd4babecd8",
         "e8180aba29",
         "5392ca2900",
-        "3200990799",
         "c4ead9c13b",
-        "bcf05e24bf",
         "088c5483d5",
-        "b746014e52",
-        "1f77652b3d",
-        "f3360d49e9"
-      ]
-    },
-    {
-      "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "La Cruz Roja advierte un El Niño que podría ser histórico y el Inamhi anuncia tormentas hasta el 25; en comentarios se repite 'esto es solo el inicio' y 'no estamos preparados'. Riesgo de que cada nueva emergencia se lea como imprevisión del Estado.",
-      "ids": [
-        "95f680f139",
-        "61c6f95212",
-        "fe9779a8ff",
-        "7406b438d4",
-        "b5aecd64b6",
-        "ad10744f09",
-        "dd959edd84",
-        "ee40bce628",
-        "77900c357a",
-        "47efe50a1e",
-        "dbb7917307",
-        "d95ffefb33",
-        "6569308aea",
-        "56ac7dab76",
-        "4d4cca1a67",
-        "f823b55264"
+        "20f31406c4"
       ]
     },
     {
       "titulo": "Críticas a la gestión local y falta de limpieza",
-      "explicacion": "Apunta al Municipio de Quito: El Comercio dice que la ciudad vuelve a inundarse y exige respuestas estructurales, Metro Ecuador recoge un edificio inundado por segunda vez en 15 días y en X y YouTube culpan a la alcaldía por alcantarillas y el Metro; Extra señala obras inconclusas en Pascuales. También hay comentarios que agradecen al alcalde, así que no es unánime; si la SNGR no muestra coordinación con los GAD, el reclamo puede trasladarse a ella.",
+      "explicacion": "Apunta al Municipio de Quito: El Comercio dice que la ciudad vuelve a inundarse en los mismos puntos y en comentarios de YouTube y X se pide fiscalizar al alcalde por las estaciones del Metro y las alcantarillas; Extra señala obras inconclusas en Pascuales. Si la Secretaría no muestra coordinación con los GAD, el reclamo puede trasladarse a ella.",
       "ids": [
         "82eb4fc2f9",
+        "847712333d",
+        "46527c8f45",
+        "07fe55efc9",
+        "5c9306d333",
+        "aff4f0018e",
         "fa8ed37b69",
         "4d7b2da612",
         "d9cf6da75a",
         "d668cec1d0",
-        "aff4f0018e",
-        "5c9306d333",
-        "38f7d306dc",
-        "51afe999df",
-        "46527c8f45",
-        "07fe55efc9",
-        "e33a4c1f48",
         "a425f65f73",
-        "e677b7452c",
-        "942d3d31ef",
-        "e0b26c39df"
+        "e33a4c1f48"
       ]
     },
     {
-      "titulo": "Desconfianza y cuestionamientos políticos a las alertas",
-      "explicacion": "Dirigida al Gobierno central: La Guía califica la respuesta de reactiva usando cifras de la Secretaría, y comentarios en YouTube culpan a Noboa por la crisis energética, acusan campaña política y reclaman fondos a los gobiernos seccionales; AgroLatam advierte presión fiscal en 2027. Volumen bajo, pero usa datos oficiales como munición: conviene transparentar recursos.",
+      "titulo": "Las lluvias empeorarán y no estamos preparados",
+      "explicacion": "Cruz Roja, BBC, Red Uno y la ONU hablan de un El Niño histórico y en comentarios de YouTube se repite que esto es solo el inicio y que el país no está preparado. Riesgo de que cada emergencia se lea como imprevisión del Estado; oportunidad para mensajes de preparación familiar.",
       "ids": [
-        "dcf767b4bf",
-        "6182021f6a",
-        "b762c2a4be",
-        "6d77ee3f2c",
-        "f678d87012",
-        "9c8a4a950d",
-        "5c3797c102",
-        "b1f6fc401b",
-        "907fdb6154"
+        "ad10744f09",
+        "b5aecd64b6",
+        "aea5eaa595",
+        "3ca1fc68d3",
+        "d2599ce2c2",
+        "79f3e4c62d",
+        "77900c357a",
+        "61c6f95212",
+        "95f680f139",
+        "fe9779a8ff",
+        "b70980f023"
       ]
     },
     {
       "titulo": "Las lluvias alivian Mazar y alejan apagones",
-      "explicacion": "Teleamazonas, El Comercio, La Hora, La República y Ecuavisa reportan que Mazar recuperó cerca de un metro y Coca Codo aportó el 64 % de la generación hidroeléctrica; Radio Pichincha dice que Mazar aún necesita dos semanas de lluvias. Apunta al sector eléctrico; el alivio puede restar urgencia a la prevención.",
+      "explicacion": "Teleamazonas, El Comercio, La Hora, La República y Ecuavisa reportan que Mazar recuperó cerca de un metro y Coca Codo aportó el 64 % de la generación hidroeléctrica; Radio Pichincha advierte que Mazar requiere dos semanas de lluvias. Apunta al sector eléctrico; el alivio puede restar urgencia a la prevención.",
       "ids": [
-        "bb72d36d7b",
         "2d2f7fb5ef",
+        "bb72d36d7b",
         "a3a570bfac",
-        "4daff57336",
-        "32254327ce",
-        "bfe9403528",
-        "62e68e9885",
+        "008b39aff6",
         "4aad719e2c",
         "bd5d279bd2",
+        "62e68e9885",
         "0eb5683880",
         "e65de00416",
-        "e7fcc0df54",
-        "845ad66f25"
+        "32254327ce",
+        "4daff57336",
+        "bfe9403528"
+      ]
+    },
+    {
+      "titulo": "Desconfianza y cuestionamientos políticos a las alertas",
+      "explicacion": "Dirigida al Gobierno central: La Guía califica la respuesta de reactiva usando las cifras de la Secretaría y comentarios en YouTube culpan a Noboa por la crisis climática y energética o reclaman fondos para los GAD. Volumen bajo, pero usa datos oficiales como munición: conviene transparentar recursos.",
+      "ids": [
+        "dcf767b4bf",
+        "6182021f6a",
+        "b762c2a4be",
+        "f678d87012",
+        "9c8a4a950d",
+        "6d77ee3f2c",
+        "5c3797c102",
+        "bf8aff1503",
+        "907fdb6154"
       ]
     },
     {
       "titulo": "El Niño pone en riesgo las elecciones",
-      "explicacion": "El Diario y Machala Móvil repiten que el CNE identificó 368 recintos en riesgo y prepara 2.500 locales alternos para el 29 de noviembre. Apunta al CNE; la Secretaría puede aportar información técnica de riesgo.",
+      "explicacion": "Apunta al CNE: El Diario, Machala Móvil, Radio Pichincha, Teleamazonas y Ecuavisa repiten que el CNE identificó 368 recintos en riesgo y prepara 2.500 locales alternos para el 29 de noviembre. Sin novedades hoy; la Secretaría puede aportar información técnica de riesgo.",
       "ids": [
         "f3fbaf10a4",
-        "fad88af53c"
+        "fad88af53c",
+        "d3906849fe",
+        "4d5b0d12c4",
+        "f79421e1cf"
       ]
     }
   ],
-  "rumores": [
-    {
-      "titulo": "Noboa habría decretado estado de emergencia nacional",
-      "explicacion": "Dos publicaciones en Facebook afirman que el presidente decretó el estado de emergencia, sin citar decreto ni fuente; ningún medio nacional del monitoreo lo confirma. Responder con información oficial clara de qué declaratorias están vigentes y en qué territorios (arts. 61 y 72).",
-      "ids": [
-        "9605726d58",
-        "dccd9bc383"
-      ]
-    }
-  ],
+  "rumores": [],
   "hitos": []
 }
