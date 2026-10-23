@@ -1,73 +1,194 @@
 {
   "vinetas": [
-    "Granizada de Quito domina YouTube: Latina 34.167 vistas, El Comercio 24.683, Ecuavisa 18.784; los reclamos apuntan al Municipio, no a la SNGR.",
-    "Despliegue de la SNGR en Quito se replicó sin críticas: El Universo en X sumó 4.852 vistas; La Posta y El Noticiero citan a Carolina.",
-    "Críticas en YouTube suben de 2 a 5: comentarios contra Noboa por energía y lluvias, de alcance bajo; X sigue mayormente neutro.",
-    "Cifras difieren entre medios: FM Mundo da 26.000 afectados, Extra 28.000 impactadas; El Universo reporta desbordes bajando de 11 a 4."
+    "Sin datos nuevos desde las 05:51: la granizada de Quito domina YouTube (Latina 34.167 vistas); reclamos apuntan al Municipio.",
+    "Balances con cortes distintos: 22.955 afectados (Carolina, corte 20 oct), 26.000 (FM Mundo), 28.000 impactadas (Extra).",
+    "Despliegue SNGR en Quito replicado sin críticas: El Universo en X, 4.852 vistas; críticas de YouTube apuntan al Gobierno central.",
+    "Inamhi alerta lluvias y tormentas del 23 al 25; El Universo ubica a Guayas entre lo más intenso."
   ],
   "fuentes_vinetas": [
-    ["8155991542", "b879bb299f", "dc21d68c41", "fa8ed37b69", "4d7b2da612", "d668cec1d0"],
-    ["92f1f98457", "d1dc5764dc", "e5f14d94fb", "38c7227572"],
-    ["6182021f6a", "b762c2a4be", "5c3797c102", "61c6f95212", "6d77ee3f2c"],
-    ["79a2cad415", "0ea75c2acd", "b746014e52"]
+    [
+      "8155991542",
+      "b879bb299f",
+      "dc21d68c41",
+      "fa8ed37b69",
+      "d668cec1d0"
+    ],
+    [
+      "242da2b4e1",
+      "79a2cad415",
+      "0ea75c2acd",
+      "f3360d49e9"
+    ],
+    [
+      "92f1f98457",
+      "d1dc5764dc",
+      "e5f14d94fb",
+      "38c7227572",
+      "6182021f6a",
+      "b762c2a4be",
+      "5c3797c102"
+    ],
+    [
+      "6569308aea",
+      "d95ffefb33",
+      "47efe50a1e"
+    ]
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy un balance único y fechado en web y X: desbordes, afectados, fallecidos.",
-      "porque": "Medios publican cifras distintas: 26.000 afectados (FM Mundo), 28.000 impactadas (Extra); El Universo reporta desbordes bajando de 11 a 4.",
+      "accion": "Publicar a las 18:00 balance nacional único, con corte y hora, en web y X.",
+      "porque": "Circulan 22.955, 26.000 y 28.000 afectados según el corte; La Guía usa cifras SNGR para calificar la respuesta de reactiva.",
       "base_legal": "Art. 61, 72 y 73",
-      "fuentes": ["79a2cad415", "0ea75c2acd", "b746014e52", "f3360d49e9"]
+      "fuentes": [
+        "242da2b4e1",
+        "79a2cad415",
+        "0ea75c2acd",
+        "dcf767b4bf"
+      ]
     },
     {
-      "accion": "Emitir lineamientos a COE de Guayas y Esmeraldas por tormentas del 23 al 25.",
-      "porque": "Inamhi alerta lluvias y tormentas hasta el 25, Guayas entre lo más intenso; Esmeraldas concentra más del 70 % de viviendas afectadas.",
+      "accion": "Emitir lineamientos de preparación para el fin de semana a COE de Guayas y El Oro.",
+      "porque": "Inamhi alerta lluvias hasta el 25, Guayas entre lo más intenso; El Universo: Guayas y El Oro mantienen desbordes.",
       "base_legal": "Art. 13, 23.4 y 62",
-      "fuentes": ["47efe50a1e", "6569308aea", "d95ffefb33", "79cb480ef3"]
+      "fuentes": [
+        "47efe50a1e",
+        "6569308aea",
+        "d95ffefb33",
+        "b746014e52"
+      ]
     },
     {
-      "accion": "Ofrecer al COE de Quito evaluación técnica conjunta en La Gasca y Las Casas.",
-      "porque": "El Comercio reporta colapso estructural en La Gasca y pide respuestas estructurales; Primicias recoge el aluvión de Las Casas.",
-      "base_legal": "Art. 21.1, 23.2 y 23.5",
-      "fuentes": ["99f42facfe", "69fed3e268", "82eb4fc2f9", "2fa08635c7"]
+      "accion": "Coordinar con GAD de Esmeraldas y MIES registro de viviendas afectadas; apoyo subsidiario.",
+      "porque": "La Hora: Esmeraldas concentra más del 70 % de viviendas afectadas; Extra relata el suplicio de familias en Esmeraldas y El Oro.",
+      "base_legal": "Art. 21.4 y 68",
+      "fuentes": [
+        "79cb480ef3",
+        "fb315e4a67"
+      ]
     }
   ],
   "narrativas": [
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
       "explicacion": "El despliegue de la SNGR en Quito circuló sin críticas en El Universo, La Posta, El Noticiero, Radio Quito y W Radio, junto a ferias y reuniones con ECU 911, AIBE y MINTEL; La Hora suma el bono a 2.606 familias en Babahoyo. Oportunidad: pasar de 'estamos desplegados' a resultados verificables.",
-      "ids": ["d1dc5764dc", "92f1f98457", "5618f0d8ac", "e5f14d94fb", "176f13ba03", "2988ab4350", "38c7227572", "bf80735b8f", "95e26f79c1", "d7e796163a", "fd4babecd8", "e8180aba29", "5392ca2900", "3200990799", "c4ead9c13b", "bcf05e24bf", "088c5483d5", "b746014e52", "1f77652b3d", "f3360d49e9"]
+      "ids": [
+        "d1dc5764dc",
+        "92f1f98457",
+        "5618f0d8ac",
+        "e5f14d94fb",
+        "176f13ba03",
+        "2988ab4350",
+        "38c7227572",
+        "bf80735b8f",
+        "95e26f79c1",
+        "d7e796163a",
+        "fd4babecd8",
+        "e8180aba29",
+        "5392ca2900",
+        "3200990799",
+        "c4ead9c13b",
+        "bcf05e24bf",
+        "088c5483d5",
+        "b746014e52",
+        "1f77652b3d",
+        "f3360d49e9"
+      ]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
       "explicacion": "La Cruz Roja advierte un El Niño que podría ser histórico y el Inamhi anuncia tormentas hasta el 25; en comentarios se repite 'esto es solo el inicio' y 'no estamos preparados'. Riesgo de que cada nueva emergencia se lea como imprevisión del Estado.",
-      "ids": ["95f680f139", "61c6f95212", "fe9779a8ff", "7406b438d4", "b5aecd64b6", "ad10744f09", "dd959edd84", "ee40bce628", "77900c357a", "47efe50a1e", "dbb7917307", "d95ffefb33", "6569308aea", "56ac7dab76", "4d4cca1a67", "f823b55264"]
+      "ids": [
+        "95f680f139",
+        "61c6f95212",
+        "fe9779a8ff",
+        "7406b438d4",
+        "b5aecd64b6",
+        "ad10744f09",
+        "dd959edd84",
+        "ee40bce628",
+        "77900c357a",
+        "47efe50a1e",
+        "dbb7917307",
+        "d95ffefb33",
+        "6569308aea",
+        "56ac7dab76",
+        "4d4cca1a67",
+        "f823b55264"
+      ]
     },
     {
       "titulo": "Críticas a la gestión local y falta de limpieza",
       "explicacion": "Apunta al Municipio de Quito: El Comercio dice que la ciudad vuelve a inundarse y exige respuestas estructurales, Metro Ecuador recoge un edificio inundado por segunda vez en 15 días y en X y YouTube culpan a la alcaldía por alcantarillas y el Metro; Extra señala obras inconclusas en Pascuales. También hay comentarios que agradecen al alcalde, así que no es unánime; si la SNGR no muestra coordinación con los GAD, el reclamo puede trasladarse a ella.",
-      "ids": ["82eb4fc2f9", "fa8ed37b69", "4d7b2da612", "d9cf6da75a", "d668cec1d0", "aff4f0018e", "5c9306d333", "38f7d306dc", "51afe999df", "46527c8f45", "07fe55efc9", "e33a4c1f48", "a425f65f73", "e677b7452c", "942d3d31ef", "e0b26c39df"]
+      "ids": [
+        "82eb4fc2f9",
+        "fa8ed37b69",
+        "4d7b2da612",
+        "d9cf6da75a",
+        "d668cec1d0",
+        "aff4f0018e",
+        "5c9306d333",
+        "38f7d306dc",
+        "51afe999df",
+        "46527c8f45",
+        "07fe55efc9",
+        "e33a4c1f48",
+        "a425f65f73",
+        "e677b7452c",
+        "942d3d31ef",
+        "e0b26c39df"
+      ]
     },
     {
       "titulo": "Desconfianza y cuestionamientos políticos a las alertas",
       "explicacion": "Dirigida al Gobierno central: La Guía califica la respuesta de reactiva usando cifras de la Secretaría, y comentarios en YouTube culpan a Noboa por la crisis energética, acusan campaña política y reclaman fondos a los gobiernos seccionales; AgroLatam advierte presión fiscal en 2027. Volumen bajo, pero usa datos oficiales como munición: conviene transparentar recursos.",
-      "ids": ["dcf767b4bf", "6182021f6a", "b762c2a4be", "6d77ee3f2c", "f678d87012", "9c8a4a950d", "5c3797c102", "b1f6fc401b", "907fdb6154"]
+      "ids": [
+        "dcf767b4bf",
+        "6182021f6a",
+        "b762c2a4be",
+        "6d77ee3f2c",
+        "f678d87012",
+        "9c8a4a950d",
+        "5c3797c102",
+        "b1f6fc401b",
+        "907fdb6154"
+      ]
     },
     {
       "titulo": "Las lluvias alivian Mazar y alejan apagones",
       "explicacion": "Teleamazonas, El Comercio, La Hora, La República y Ecuavisa reportan que Mazar recuperó cerca de un metro y Coca Codo aportó el 64 % de la generación hidroeléctrica; Radio Pichincha dice que Mazar aún necesita dos semanas de lluvias. Apunta al sector eléctrico; el alivio puede restar urgencia a la prevención.",
-      "ids": ["bb72d36d7b", "2d2f7fb5ef", "a3a570bfac", "4daff57336", "32254327ce", "bfe9403528", "62e68e9885", "4aad719e2c", "bd5d279bd2", "0eb5683880", "e65de00416", "e7fcc0df54", "845ad66f25"]
+      "ids": [
+        "bb72d36d7b",
+        "2d2f7fb5ef",
+        "a3a570bfac",
+        "4daff57336",
+        "32254327ce",
+        "bfe9403528",
+        "62e68e9885",
+        "4aad719e2c",
+        "bd5d279bd2",
+        "0eb5683880",
+        "e65de00416",
+        "e7fcc0df54",
+        "845ad66f25"
+      ]
     },
     {
       "titulo": "El Niño pone en riesgo las elecciones",
       "explicacion": "El Diario y Machala Móvil repiten que el CNE identificó 368 recintos en riesgo y prepara 2.500 locales alternos para el 29 de noviembre. Apunta al CNE; la Secretaría puede aportar información técnica de riesgo.",
-      "ids": ["f3fbaf10a4", "fad88af53c"]
+      "ids": [
+        "f3fbaf10a4",
+        "fad88af53c"
+      ]
     }
   ],
   "rumores": [
     {
       "titulo": "Noboa habría decretado estado de emergencia nacional",
       "explicacion": "Dos publicaciones en Facebook afirman que el presidente decretó el estado de emergencia, sin citar decreto ni fuente; ningún medio nacional del monitoreo lo confirma. Responder con información oficial clara de qué declaratorias están vigentes y en qué territorios (arts. 61 y 72).",
-      "ids": ["9605726d58", "dccd9bc383"]
+      "ids": [
+        "9605726d58",
+        "dccd9bc383"
+      ]
     }
   ],
   "hitos": []
