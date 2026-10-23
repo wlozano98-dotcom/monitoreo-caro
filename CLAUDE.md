@@ -31,7 +31,8 @@ medios y redes sobre El Niño, la Secretaría y ella. Presupuesto cero: solo cap
   perdía ~40 % (p. ej. la suspensión de clases). Así en Google Noticias, YouTube, X, TikTok y el filtro de RSS
   (`PALABRAS`). Gemini descarta lo irrelevante. Andrés descartó las búsquedas que "se ajustan solas" (llegan tarde, derivan).
 - `vigilante.py` (pedido de Andrés): cada corrida revisa errores de fuentes, Google Noticias en 0, titulares, cobertura
-  (búsquedas vs agenda, mínimo 50 %), redes, Gemini, análisis de Claude, SitRep. Si hay algo, deja `avisos.txt` y el
+  (búsquedas vs agenda, mínimo 50 %), redes, Gemini, análisis de Claude, SitRep. monitor.yml además avisa si el
+  contexto para Claude tiene más de 7 h (la hora de la corrida se toma al empezar: `HORA_INICIO`). Si hay algo, deja `avisos.txt` y el
   último paso de monitor.yml pone la corrida en rojo -> GitHub manda correo (problema nuevo, o uno viejo 1 vez al día).
   Solo en GitHub (`GITHUB_ACTIONS`). Aviso por correo, sin nada visual en el tablero (decisión de Andrés).
 - `lluvias.py` + `public/lluvias.html` (pedido de Andrés: dónde preposicionar kits; SIN medios ni redes): mapa por
@@ -70,7 +71,7 @@ python3 monitor.py                                   # una corrida desde la Mac
 ```
 
 Análisis de fondo con Claude: rutina en la nube trig_019vffsRRdTVhhguuf5yzBBi (Opus 5.5), 6, 12, 18 y 22 h de Ecuador
-(cron `0 3,11,17,23 * * *` UTC). Lee `analisis/contexto.md` (lo deja monitor.yml en la corrida previa), escribe
+(cron `20 3,11,17,23 * * *` UTC; 20 min de margen porque GitHub arranca tarde las corridas). Lee `analisis/contexto.md` (lo deja monitor.yml en la corrida previa), escribe
 `analisis/ultimo.json` siguiendo `analisis/INSTRUCCIONES.md`; `analisis.yml` lo valida y lo carga (`analisis_claude.py`).
 Regla de Andrés: CERO información falsa. Cada viñeta y acción cita ids de piezas; `validar` rechaza ids inexistentes.
 Si hay análisis de Claude de menos de 9 h, Gemini no hace el análisis de fondo (solo clasifica).
