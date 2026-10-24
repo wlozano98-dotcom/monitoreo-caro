@@ -1,76 +1,74 @@
 {
   "vinetas": [
-    "Quito domina: medios reportan 41 emergencias por lluvias récord; Latina suma 41.120 vistas en YouTube; reclamos apuntan al Municipio.",
-    "Cifras oficiales difieren: casi 26.000 afectados (Ecuavisa, El Diario) frente a más de 28.000 (El Telégrafo); ríos desbordados: 4 u 11.",
-    "Inamhi anuncia la fase más intensa de El Niño (El Universo, Metro, El Diario); lluvias y tormentas hasta el 25.",
-    "Solo 4 de 219 piezas de 24 h son críticas, comentarios de YouTube contra el Gobierno; X baja de 53 a 4 piezas."
+    "Ayuda visible: TC y El Universo reportan 850 personas atendidas; TikTok de la Secretaría en Salitre suma 12.500 vistas.",
+    "Cifras oficiales siguen difiriendo: 25.963 afectados (El Mercurio) frente a más de 28.000 (El Telégrafo, Infobae); desbordes: 4 u 11.",
+    "Medios replican la fase más intensa (El Universo, El Comercio, Primicias, Ecuavisa); Inamhi: Litoral, más lluvia el fin de semana.",
+    "Piezas bajan de 303 a 231; solo 5 críticas, varias ironías en X al comunicado oficial sobre el 'inicio'."
   ],
   "fuentes_vinetas": [
-    ["fce59081e7", "06e93b929f", "8155991542", "723a7266c2", "82eb4fc2f9", "d668cec1d0", "4d7b2da612"],
-    ["ecf2d2b5fd", "68748f4a43", "b9c58b8de1", "1260a5eb7e", "b746014e52", "27a9bd8780"],
-    ["d1a606e50a", "99ad7feb50", "ae5e981926", "834032d181", "5196493dfe"],
-    ["6182021f6a", "b762c2a4be", "61c6f95212", "f678d87012"]
+    ["d35ad9ccc4", "0dd2e48e05", "c7acca87e3", "a2a791c728", "c9902a95aa"],
+    ["73fc75ac2f", "68748f4a43", "b9c58b8de1", "1260a5eb7e", "92100eb15d", "27a9bd8780"],
+    ["d1a606e50a", "51e0d87989", "04cf035c35", "e0265c57c7", "c2113b8030"],
+    ["f8e86b72c2", "1cb96925b7", "48081573be"]
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy un único corte oficial de afectados y ríos desbordados, con hora, en web y X.",
-      "porque": "Medios difunden casi 26.000 y más de 28.000 afectados; El Universo dice que los desbordes bajaron a 4, Radio Pichincha mantiene 11.",
+      "accion": "Publicar corte oficial único de afectados y desbordes, con hora, en web y X.",
+      "porque": "Circulan 25.963, casi 26.000 y más de 28.000 afectados; Radio Pichincha mantiene 11 desbordes y Expedientes dice que bajaron a 4.",
       "base_legal": "Art. 61, 72 y 73",
-      "fuentes": ["ecf2d2b5fd", "68748f4a43", "b9c58b8de1", "0ea75c2acd", "b746014e52", "27a9bd8780"]
+      "fuentes": ["73fc75ac2f", "68748f4a43", "b9c58b8de1", "1260a5eb7e", "27a9bd8780", "92100eb15d", "657dafd97f"]
     },
     {
-      "accion": "Con CORAPE, difundir recomendaciones para tormentas del fin de semana en Esmeraldas, Pichincha y Guayas.",
-      "porque": "Inamhi alerta lluvias y tormentas hasta el 25 en Esmeraldas, Sucumbíos y Pichincha; El Universo prevé mayor intensidad en Guayas.",
+      "accion": "Hoy, difundir con radios de Guayas, Manabí y Santa Elena alojamientos y recomendaciones.",
+      "porque": "Inamhi prevé lluvias más intensas en el Litoral el fin de semana y tormentas en Guayas, Manabí y Santa Elena.",
       "base_legal": "Art. 61 y 62",
-      "fuentes": ["c7a69e43c8", "5196493dfe", "47efe50a1e", "c4ead9c13b"]
+      "fuentes": ["c2113b8030", "af26722d7d", "32cb032256", "2aaf106616"]
     },
     {
-      "accion": "Pedir a la entidad pagadora el calendario del bono en Babahoyo y difundirlo.",
-      "porque": "El Diario: miles de familias inundadas en Babahoyo esperan cobrar el bono de contingencia; La Hora habla de 2.606 familias.",
-      "base_legal": "Art. 14 y 72",
-      "fuentes": ["b035cdd63f", "bcf05e24bf", "43697124cb"]
+      "accion": "Pedir al COE Metropolitano verificar el represamiento en la quebrada de Cumbayá y responder.",
+      "porque": "Pedido urgente a la Secretaría en X: deslizamientos represan agua en Cumbayá y podrían afectar conjuntos habitacionales.",
+      "base_legal": "Art. 23.2 y 29",
+      "fuentes": ["25e9f2195e"]
     }
   ],
   "narrativas": [
     {
+      "titulo": "Las lluvias empeorarán y no estamos preparados",
+      "explicacion": "Sigue creciendo: El Universo, El Comercio, Primicias, Ecuavisa (Erfen) y La Posta replican que El Niño entra en su fase más intensa, y TC Televisión debate si Ecuador está preparado; en comentarios se repite que esto recién empieza. Riesgo de que cada emergencia se lea como imprevisión; oportunidad para preparación familiar.",
+      "ids": ["d1a606e50a", "99ad7feb50", "ae5e981926", "834032d181", "a706af5134", "d7cd90e6a3", "6a54dead68", "5303d50c1c", "73c291e22e", "b64f8e4084", "4d832397f4", "95f680f139", "237d21ea28", "1c8f51850e", "85dae1be40", "948a86c693", "04cf035c35", "f32c92a176", "ab7874fd8b", "e0265c57c7", "51e0d87989", "3463bc8f03", "48081573be", "60d4723c6e", "c1b3aefd8f", "2e7695ba6c", "9f9f2974d7", "546dd41c3f", "c74a45891e"]
+    },
+    {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "El despliegue de la SNGR en Quito del 22 se replicó sin críticas (El Universo, El Noticiero, La Posta) y hoy la Secretaría aparece sobre todo como fuente de cifras. Oportunidad: mostrar resultados concretos, no solo presencia.",
-      "ids": ["92f1f98457", "5618f0d8ac", "d1dc5764dc", "38c7227572", "e5f14d94fb", "176f13ba03", "2988ab4350", "bf80735b8f", "95e26f79c1", "3d0078b752", "d7e796163a", "fd4babecd8", "e8180aba29", "5392ca2900", "c4ead9c13b", "1f77652b3d", "27a9bd8780", "bcf05e24bf"]
+      "explicacion": "TC Televisión y El Universo reportan 850 personas atendidas y nuevas entregas el fin de semana en cuatro provincias; el video de la Secretaría en Salitre suma 12.500 vistas y Carolina publicó la entrega a 350 familias. Oportunidad: seguir mostrando resultados con cifras verificables.",
+      "ids": ["d35ad9ccc4", "0dd2e48e05", "c7acca87e3", "a2a791c728", "c9902a95aa", "92a15ca42c", "55adb7fe4a", "2aaf106616", "ad5be5d35f", "3d0078b752", "1d73c59b76", "72428bd69a", "bcf05e24bf", "82db6cf7d6", "ae533e5801", "6517b5171c"]
     },
     {
       "titulo": "Críticas a la gestión local y falta de limpieza",
-      "explicacion": "Apunta al Municipio de Quito: El Universo y El Comercio cuestionan la infraestructura y que la ciudad se inunde en los mismos puntos; comentarios piden fiscalizar al alcalde por el Metro. Extra señala obras inconclusas en Pascuales. Si la Secretaría no muestra coordinación con los GAD, el reclamo puede trasladarse a ella.",
-      "ids": ["723a7266c2", "82eb4fc2f9", "847712333d", "07fe55efc9", "fa8ed37b69", "4d7b2da612", "d668cec1d0", "e0afc18b08", "aff4f0018e", "5c9306d333", "a425f65f73", "d9cf6da75a", "e33a4c1f48"]
+      "explicacion": "Apunta al Municipio de Quito: El Universo cuestiona la infraestructura subterránea, El Comercio dice que la Colón volvió a colapsar y Ecuavisa pregunta por qué colapsó Quito (4.368 vistas en YouTube); comentarios reclaman la ausencia del alcalde, aunque otros agradecen la limpieza. Si la Secretaría no muestra coordinación con los GAD, el reclamo puede trasladarse a ella.",
+      "ids": ["723a7266c2", "82eb4fc2f9", "96b96771d8", "e5141bb65c", "fa8ed37b69", "4d7b2da612", "d9cf6da75a", "e0afc18b08", "a425f65f73", "2599c35800"]
     },
     {
-      "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Crece hoy: Inamhi anuncia la fase más intensa, la OMM habla de una intensidad sin precedentes para diciembre y la ONU advierte que el tiempo para prevenir se agota; en comentarios se repite que esto es solo el inicio. Riesgo de que cada emergencia se lea como imprevisión; oportunidad para preparación familiar.",
-      "ids": ["d1a606e50a", "99ad7feb50", "ae5e981926", "834032d181", "a706af5134", "d7cd90e6a3", "6a54dead68", "5303d50c1c", "73c291e22e", "b64f8e4084", "4d832397f4", "dd959edd84", "ad10744f09", "95f680f139", "fe9779a8ff"]
+      "titulo": "La ayuda no llega a todos los afectados",
+      "explicacion": "Señal aún pequeña: un comentario en TikTok dice que familias del barrio Fátima de Portoviejo perdieron sus casas y no reciben ayuda, El Diario reporta familias de Babahoyo esperando el bono de contingencia y en X se pide atención urgente en Cumbayá. Riesgo de que contradiga el mensaje de entregas si no hay respuesta visible.",
+      "ids": ["b2c1bfdc4d", "b035cdd63f", "25e9f2195e"]
     },
     {
       "titulo": "Las lluvias alivian Mazar y alejan apagones",
-      "explicacion": "Apunta al sector eléctrico: Teleamazonas, El Comercio, La Hora y Ecuavisa reportan que Mazar recuperó cerca de un metro y Coca Codo aportó el 64 %; El Diario recuerda que sigue a siete metros del nivel crítico. El alivio puede restar urgencia a la prevención.",
-      "ids": ["b44bfd8b3e", "2d2f7fb5ef", "bb72d36d7b", "bd5d279bd2", "4aad719e2c", "62e68e9885", "0eb5683880", "e65de00416", "e7fcc0df54", "a3a570bfac", "008b39aff6", "32254327ce", "4daff57336", "bfe9403528"]
+      "explicacion": "Apunta al sector eléctrico: El Diario dice que Mazar subió un metro pero sigue a siete metros del nivel crítico y Ecuavisa habla de un respiro a los embalses. El alivio puede restar urgencia a la prevención.",
+      "ids": ["b44bfd8b3e", "bfe9403528", "32254327ce", "2d2f7fb5ef", "bb72d36d7b", "4aad719e2c", "62e68e9885", "0eb5683880", "e65de00416"]
     },
     {
       "titulo": "Desconfianza y cuestionamientos políticos a las alertas",
-      "explicacion": "Dirigida al Gobierno central: La Guía llama reactiva la respuesta usando cifras de la Secretaría y comentarios en YouTube culpan a Noboa o lo acusan de hacer campaña con la emergencia. Volumen bajo y cuentas pequeñas, pero usa datos oficiales: conviene transparentar recursos.",
-      "ids": ["dcf767b4bf", "6d77ee3f2c", "f678d87012", "9c8a4a950d", "b762c2a4be", "6182021f6a", "5c3797c102", "61c6f95212"]
-    },
-    {
-      "titulo": "El Niño pone en riesgo las elecciones",
-      "explicacion": "Apunta al CNE: se repiten los 368 recintos en riesgo y los 2.500 locales alternos para el 29 de noviembre; hoy solo suma el plan del CNE Los Ríos. La Secretaría puede aportar información técnica de riesgo.",
-      "ids": ["dfc7d3d93c", "f3fbaf10a4", "fad88af53c", "d3906849fe", "4d5b0d12c4"]
+      "explicacion": "Respuestas en X ironizan o insultan por el comunicado oficial que habla del inicio de la fase intensa, y en YouTube se culpa al Gobierno o se tacha a la prensa de alarmista. Cuentas pequeñas y volumen bajo, pero conviene que los comunicados sean claros sobre qué cambia.",
+      "ids": ["f8e86b72c2", "1cb96925b7", "99edcf1661", "6182021f6a", "dcf767b4bf", "6d77ee3f2c", "f678d87012", "b762c2a4be", "61c6f95212"]
     }
   ],
   "rumores": [
     {
       "titulo": "Noboa habría decretado estado de emergencia nacional",
-      "explicacion": "Dos publicaciones en Facebook afirman que el presidente decretó el estado de emergencia por las lluvias; ninguna pieza de medios ecuatorianos en el contexto lo confirma. Respuesta: aclarar con fuente oficial qué declaratorias están vigentes y dónde (arts. 61 y 72).",
+      "explicacion": "Publicaciones en Facebook afirman que el presidente decretó el estado de emergencia por las lluvias; ninguna pieza de medios ecuatorianos en el contexto lo confirma. Respuesta: aclarar con fuente oficial qué declaratorias están vigentes y dónde (arts. 61 y 72).",
       "ids": ["dccd9bc383", "9605726d58"]
     }
   ],
-  "hitos": [
-    {"dia": "2026-10-23", "titulo": "Inamhi: El Niño entra en fase más intensa", "ids": ["d1a606e50a", "99ad7feb50", "ae5e981926"]}
-  ]
+  "hitos": []
 }
