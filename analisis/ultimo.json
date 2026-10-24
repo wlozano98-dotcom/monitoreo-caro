@@ -1,73 +1,172 @@
 {
   "vinetas": [
-    "Medios bajan a 107 piezas (183 ayer); Vistazo e Inocar: El Niño tocará su máximo a fin de año.",
-    "Las cifras de afectados difieren: El Mercurio, citando a la SNGR, 25.963; El Telégrafo e Infobae, más de 28.000.",
-    "Video de la Secretaría en Salitre suma 12.500 vistas en TikTok; El Universo y TC Televisión replican la entrega a 850 personas.",
-    "Inamhi prevé lluvias más intensas en el Litoral el fin de semana e Inocar, aguaje del 25 al 28."
+    "Baja la conversación: 178 piezas en 24 h frente a 329 antes; críticas a Gobierno o SNGR, de 9 a 5.",
+    "Medios: la vía Alóag–Santo Domingo sigue cerrada por segundo día (Primicias, Teleamazonas, La Hora); nuevo derrumbe en Riobamba–Penipe–Baños.",
+    "Las cifras de afectados difieren entre medios: Ecuavisa dice cerca de 26.000; El Telégrafo e Infobae, más de 28.000.",
+    "Redes: lo de más alcance es el TikTok de la SNGR en Salitre (12.500 vistas); críticas en X, cuentas pequeñas."
   ],
   "fuentes_vinetas": [
-    ["884e4cdf1f", "1c8f51850e", "85dae1be40", "948a86c693"],
-    ["73fc75ac2f", "b9c58b8de1", "1260a5eb7e", "0ea75c2acd"],
-    ["c7acca87e3", "0dd2e48e05", "d35ad9ccc4"],
-    ["c2113b8030", "7a57f27fdd", "ae1fab8c37", "32cb032256"]
+    [],
+    [
+      "26a9d8e041",
+      "0ab669a36f",
+      "2e24e398dd",
+      "2c7e2fba37"
+    ],
+    [
+      "ecf2d2b5fd",
+      "b9c58b8de1",
+      "1260a5eb7e"
+    ],
+    [
+      "c7acca87e3",
+      "1cb96925b7",
+      "f8e86b72c2"
+    ]
   ],
   "acciones": [
     {
-      "accion": "Difundir con Inamhi e Inocar avisos de lluvia y aguaje para Litoral y playas.",
-      "porque": "Inamhi prevé lluvias más intensas en el Litoral el fin de semana; Inocar, aguaje del 25 al 28; Guayaquil: 13 sectores anegados.",
+      "accion": "Difundir con Inocar y GAD costeros aviso de aguaje 25-28 de octubre.",
+      "porque": "Inocar prevé oleaje y aguaje del 25 al 28, olas de hasta 2,30 m en Galápagos, y pide precaución en playas.",
       "base_legal": "Art. 61 y 62",
-      "fuentes": ["c2113b8030", "af26722d7d", "7a57f27fdd", "ae1fab8c37", "b008c620fc"]
+      "fuentes": [
+        "7a57f27fdd",
+        "ae1fab8c37",
+        "7d608442b8"
+      ]
     },
     {
-      "accion": "Pedir a COE de Portoviejo y Quito verificar barrio Fátima y quebrada de Cumbayá.",
-      "porque": "En TikTok dicen que familias del barrio Fátima perdieron casas y no reciben ayuda; en X alertan represamiento en Cumbayá.",
-      "base_legal": "Art. 14, 21.4 y 29",
-      "fuentes": ["b2c1bfdc4d", "25e9f2195e"]
+      "accion": "Publicar hoy en web y X cifra única de afectados e impactados, con definiciones.",
+      "porque": "Ecuavisa: cerca de 26.000 afectados; El Telégrafo e Infobae, más de 28.000; Extra habla de 28.000 impactadas.",
+      "base_legal": "Art. 61 y 72",
+      "fuentes": [
+        "ecf2d2b5fd",
+        "b9c58b8de1",
+        "1260a5eb7e",
+        "0ea75c2acd"
+      ]
     },
     {
-      "accion": "Publicar hoy en web y X un consolidado que distinga afectados, damnificados e impactados.",
-      "porque": "Medios publican cifras distintas: 25.963 afectados (El Mercurio, citando a la SNGR) y más de 28.000 (El Telégrafo, Infobae, Extra).",
-      "base_legal": "Art. 61, 72 y 73",
-      "fuentes": ["73fc75ac2f", "b9c58b8de1", "1260a5eb7e", "0ea75c2acd", "68748f4a43"]
+      "accion": "Ofrecer al CNE análisis de amenaza de los 368 recintos electorales expuestos.",
+      "porque": "TC Televisión: el CNE identificó 368 recintos en zonas expuestas a inundaciones y deslizamientos; CNE Los Ríos activó un plan ante lluvias.",
+      "base_legal": "Art. 23.4 y 23.5",
+      "fuentes": [
+        "7c71fcc56f",
+        "dfc7d3d93c"
+      ]
     }
   ],
   "narrativas": [
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Sigue dominando en medios: Vistazo, El Telégrafo, Teleamazonas, El Comercio, Ecuavisa y Primicias replican que El Niño entra en su fase más intensa y tocará su máximo a fin de año; en comentarios se repite que esto recién empieza. Riesgo de que cada emergencia se lea como imprevisión; oportunidad para mensajes de preparación familiar.",
-      "ids": ["884e4cdf1f", "1c8f51850e", "85dae1be40", "948a86c693", "237d21ea28", "6d822a416a", "51e0d87989", "e0265c57c7", "04cf035c35", "f32c92a176", "ab7874fd8b", "60d4723c6e", "c1b3aefd8f", "3463bc8f03", "794b2fbb67", "99ad7feb50", "d1a606e50a", "ae5e981926", "546dd41c3f", "c74a45891e", "6a54dead68", "95f680f139", "61c6f95212", "2e7695ba6c", "a706af5134", "5303d50c1c"]
+      "explicacion": "Vistazo, El Telégrafo, Teleamazonas, El Comercio, Ecuavisa y Primicias replican que El Niño entra en su fase más intensa y llegará a su máximo a fin de año; en comentarios se repite que esto recién empieza. Riesgo de que cada emergencia se lea como imprevisión; oportunidad para mensajes de preparación familiar.",
+      "ids": [
+        "884e4cdf1f",
+        "237d21ea28",
+        "6d822a416a",
+        "51e0d87989",
+        "e0265c57c7",
+        "7276bfb9f0",
+        "04cf035c35",
+        "2e7695ba6c",
+        "60d4723c6e",
+        "c1b3aefd8f",
+        "6a54dead68",
+        "41afa6a2b9",
+        "3463bc8f03",
+        "95f680f139",
+        "61c6f95212",
+        "794b2fbb67"
+      ]
+    },
+    {
+      "titulo": "Los deslaves cortan las vías principales",
+      "explicacion": "Una decena de medios sigue el cierre de la vía Alóag–Santo Domingo, con limpieza a cargo de la Prefectura de Pichincha, y Primicias suma un derrumbe en Riobamba–Penipe–Baños. Apunta a la Prefectura y a la vialidad; oportunidad de informar rutas alternas con fuentes oficiales.",
+      "ids": [
+        "c2e4b7b17b",
+        "2e24e398dd",
+        "c2def3cc47",
+        "26a9d8e041",
+        "0ab669a36f",
+        "da2541cd3f",
+        "2b603ba30d",
+        "31e9263a03",
+        "200db134da",
+        "31cd6728fe",
+        "1ee291f5aa",
+        "a70944fbca",
+        "2c7e2fba37",
+        "1fdeca34db"
+      ]
     },
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "TC Televisión y El Universo reportan la entrega de la SNGR a 850 personas y nuevas entregas el fin de semana en cuatro provincias; el video de la Secretaría en Salitre suma 12.500 vistas y Carolina publicó la entrega a 350 familias en Jaboncillo. Oportunidad: seguir mostrando resultados con cifras verificables.",
-      "ids": ["d35ad9ccc4", "0dd2e48e05", "c7acca87e3", "a2a791c728", "c9902a95aa", "92a15ca42c", "55adb7fe4a", "2aaf106616", "39a2ffb984", "6517b5171c"]
+      "explicacion": "TC Televisión y El Universo reportan la entrega de la SNGR a 850 personas y nuevas entregas el fin de semana en cuatro provincias; el TikTok de la Secretaría en Salitre suma 12.500 vistas y Carolina publicó la entrega a 350 familias en Jaboncillo. Oportunidad: seguir mostrando resultados con cifras verificables.",
+      "ids": [
+        "d35ad9ccc4",
+        "0dd2e48e05",
+        "c7acca87e3",
+        "a2a791c728",
+        "c9902a95aa",
+        "92a15ca42c",
+        "55adb7fe4a",
+        "2aaf106616",
+        "a527a7b0c6",
+        "d05b572318",
+        "ae533e5801"
+      ]
     },
     {
       "titulo": "Críticas a la gestión local y falta de limpieza",
-      "explicacion": "Apunta a los municipios, sobre todo al de Quito: El Comercio dice que la Colón volvió a colapsar, El Universo cuestiona la infraestructura subterránea y Ecuavisa pregunta por qué colapsó Quito (11.055 vistas); comentarios reclaman alcantarillas sin limpiar y la ausencia del alcalde. Si la Secretaría no muestra coordinación con los GAD, el reclamo puede trasladarse a ella.",
-      "ids": ["96b96771d8", "723a7266c2", "e5141bb65c", "82eb4fc2f9", "fa9524d43c", "2599c35800", "e0afc18b08", "4d7b2da612", "5c9306d333", "aff4f0018e", "07fe55efc9", "a425f65f73"]
+      "explicacion": "Apunta a los municipios, sobre todo al de Quito: El Comercio dice que la Colón volvió a colapsar, El Universo cuestiona la infraestructura subterránea y Ecuavisa pregunta por qué colapsó Quito (11.684 vistas); comentarios reclaman alcantarillas sin limpiar y la ausencia del alcalde. Si la Secretaría no muestra coordinación con los GAD, el reclamo puede trasladarse a ella.",
+      "ids": [
+        "96b96771d8",
+        "723a7266c2",
+        "e5141bb65c",
+        "82eb4fc2f9",
+        "12bde764e3",
+        "07fe55efc9",
+        "fa9524d43c",
+        "2599c35800",
+        "e0afc18b08",
+        "4d7b2da612",
+        "fa8ed37b69",
+        "a425f65f73",
+        "aff4f0018e"
+      ]
     },
     {
       "titulo": "Desconfianza y cuestionamientos políticos a las alertas",
       "explicacion": "Respuestas en X ironizan o insultan por el comunicado que habla del inicio de la fase intensa, y en YouTube se culpa al Presidente o se tacha a la prensa de alarmista. Cuentas pequeñas y volumen bajo; conviene que los comunicados digan con claridad qué cambia para la gente.",
-      "ids": ["f8e86b72c2", "1cb96925b7", "48081573be", "b54ecd258e", "99edcf1661", "b762c2a4be", "9c8a4a950d", "6d77ee3f2c"]
+      "ids": [
+        "1cb96925b7",
+        "f8e86b72c2",
+        "48081573be",
+        "b54ecd258e",
+        "99edcf1661",
+        "4040f1e65f",
+        "5c3797c102",
+        "b762c2a4be"
+      ]
     },
     {
       "titulo": "La ayuda no llega a todos los afectados",
       "explicacion": "Señal todavía pequeña: un comentario en TikTok dice que familias del barrio Fátima de Portoviejo perdieron sus casas y no reciben ayuda, El Diario reporta familias de Babahoyo esperando el bono de contingencia y en X se pide atención urgente en Cumbayá. Riesgo de que contradiga el mensaje de entregas si no hay respuesta visible.",
-      "ids": ["b2c1bfdc4d", "b035cdd63f", "25e9f2195e"]
-    },
-    {
-      "titulo": "Los deslaves cortan las vías principales",
-      "explicacion": "Diez medios reportan el cierre de la vía Alóag–Santo Domingo por un derrumbe en el km 54+900, con limpieza a cargo de la Prefectura de Pichincha; Teleamazonas informa que se suspendieron los trabajos. Apunta a la Prefectura y a la vialidad; oportunidad de informar rutas alternas y riesgos con fuentes oficiales.",
-      "ids": ["2b603ba30d", "da2541cd3f", "31e9263a03", "200db134da", "f8ab3d372a", "c6aabc6663", "31cd6728fe", "19bf5c38e4", "31c4547302", "a70944fbca", "0488ef7112", "1fdeca34db", "19376543f6"]
+      "ids": [
+        "b2c1bfdc4d",
+        "b035cdd63f",
+        "25e9f2195e"
+      ]
     }
   ],
   "rumores": [
     {
-      "titulo": "Publicaciones afirman que Noboa decretó estado de emergencia",
-      "explicacion": "Dos publicaciones en Facebook lo afirman sin citar decreto ni lugar, y ninguna otra pieza del contexto lo confirma. Respuesta sugerida: aclarar con información oficial qué declaratorias están vigentes y dónde (arts. 61 y 72).",
-      "ids": ["9605726d58", "dccd9bc383"]
+      "titulo": "Noboa habría decretado estado de emergencia nacional",
+      "explicacion": "Publicaciones en Facebook, una de Exitosa Noticias, afirman que el Presidente decretó el estado de emergencia; ninguna pieza de medios nacionales ni de la SNGR en estos 3 días lo confirma. Respuesta: informar con claridad qué declaratorias están vigentes y dónde (arts. 61 y 72).",
+      "ids": [
+        "9605726d58",
+        "dccd9bc383"
+      ]
     }
   ],
   "hitos": []
