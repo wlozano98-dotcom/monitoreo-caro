@@ -1,29 +1,67 @@
 {
   "vinetas": [
-    "Guayaquil, sábado: El Universo cuenta más de 25 sectores anegados, Extra 22 puntos; cortes de luz en Guayaquil y Daule.",
-    "Alóag–Santo Domingo volvió a cerrarse por completo en Tandapi, km 70, tras reabrir; cubren El Comercio, Primicias, Ecuavisa, Teleamazonas.",
-    "Cifras no cuadran: Primicias da casi 17.000 damnificados en Esmeraldas; El Diario Ecuador, más de 2.200 damnificados en todo el país.",
-    "En redes, las entregas oficiales en La Propicia, Palestina y El Guabo no superan 1.800 vistas; críticas, pocas y pequeñas."
+    "Medios: 24 emergencias y 11 ríos desbordados (El Telégrafo, Ecuavisa); la Alóag–Santo Domingo cerró total el sábado y reabrió hoy.",
+    "Guayaquil: El Comercio cuenta 68 inundaciones, El Universo más de 60 sectores; un video de Ecuador Comunicación suma 5.161 vistas.",
+    "Crítica a la SNGR casi nula: ninguna pieza crítica en X en 24 h (ayer 4); los reclamos apuntan a municipios.",
+    "Entregas en La Propicia, El Guabo y Palestina circulan casi solo en cuentas oficiales, con 196 a 1.758 vistas."
   ],
   "fuentes_vinetas": [
-    ["fb5c32fda5", "18fff1110d", "c02fbee7fb", "fa88886e7a"],
-    ["23b71df0be", "1e9cbd44df", "8948680261", "19f04b132e", "5c0566c03f"],
-    ["93bda05add", "68748f4a43", "4dd846dd1f"],
-    ["32d00a46c6", "c9f2b45467", "6ff3cd805a", "6a052a6ed5", "4c1f54df8d", "d29e419d45"]
+    ["9fa36461b1", "004e635b0d", "1e9cbd44df", "23b71df0be", "853a053701", "262377b2ad"],
+    ["67d242e09c", "158b8072f1", "fa5a114ffe"],
+    ["9220fa5ff3", "9bd546d2c0"],
+    ["32d00a46c6", "4c1f54df8d", "6ff3cd805a", "6a052a6ed5", "d29e419d45", "b88dd1d844"]
   ],
   "acciones": [
-    {"accion": "Difundir hoy Advertencia 82 del Inamhi y aguaje del Inocar en Guayas y Manabí", "porque": "Lluvias de moderadas a muy fuertes este domingo; aguaje del 25 al 28 de octubre; en Guayaquil un menor fue arrastrado.", "base_legal": "Art. 61 y 62", "fuentes": ["2b24552014", "f70bae9f80", "340e660026", "7a57f27fdd", "3cb8083221"]},
-    {"accion": "Coordinar con Prefectura de Pichincha un parte único de Alóag–Santo Domingo y rutas alternas", "porque": "Cerró, reabrió tras más de 20 horas y volvió a cerrarse en Tandapi km 70; Prensa Mercosur, más tarde, la reporta habilitada.", "base_legal": "Art. 23.5 y 61", "fuentes": ["5c0566c03f", "1e9cbd44df", "f620e22eb3", "02fd23dd6d", "42c0fc8d34"]},
-    {"accion": "Publicar en X la cifra oficial de afectados y damnificados por provincia con corte", "porque": "Primicias llama damnificados a casi 17.000 en Esmeraldas; Radio Pichincha, 27.145 afectados; El Diario Ecuador, más de 2.200 damnificados nacionales.", "base_legal": "Art. 61, 72 y 73", "fuentes": ["93bda05add", "4dd846dd1f", "68748f4a43", "e4e69bdba8"]}
+    {
+      "accion": "Publicar hoy en X y TikTok el estado oficial de alertas por provincia",
+      "porque": "El Diario titula 'alerta nacional' y videos de YouTube hablan de 'alerta máxima' y 'alerta roja' sin citar fuente oficial.",
+      "base_legal": "Art. 61 y 72",
+      "fuentes": ["1c8995717d", "c98d156646", "c9b29c8e5b"]
+    },
+    {
+      "accion": "Pedir a los GAD de Balao, Machala y Guayaquil evaluación inicial; publicar afectados",
+      "porque": "La SNGR dijo el sábado que Balao no tenía afectados; luego hubo 68 inundaciones en Guayaquil y desborde en Machala.",
+      "base_legal": "Art. 68 y 72",
+      "fuentes": ["cbbfc00c5b", "ab01d9405d", "67d242e09c", "be35623e25"]
+    },
+    {
+      "accion": "Llevar al COE Nacional de la próxima semana el avance de ejecución de planes",
+      "porque": "En TC Televisión se dijo que el 100 % de planes fue entregado y falta ejecutarlos; el COE sesionará la próxima semana.",
+      "base_legal": "Art. 23.4, 23.5 y 29",
+      "fuentes": ["f3b5ddf07c", "af7fd1a724"]
+    }
   ],
   "narrativas": [
-    {"titulo": "Los deslaves cortan las vías principales", "explicacion": "Decenas de notas siguen el cierre, la reapertura por la Prefectura de Pichincha y el nuevo cierre total de la Alóag–Santo Domingo, y los derrumbes de Riobamba–Penipe–Baños. Apunta a prefecturas y vialidad; oportunidad de difundir rutas alternas oficiales con el ECU 911.", "ids": ["23b71df0be", "1e9cbd44df", "8948680261", "19f04b132e", "f620e22eb3", "02fd23dd6d", "c92e9911b8", "fb7c75873a", "5c0566c03f", "aa5ba5a71e", "7685856ef5", "c2e4b7b17b", "26a9d8e041", "0ab669a36f", "2b603ba30d", "e6b035448d", "6e693bb505", "66dc70c2be", "2e24e398dd", "c2def3cc47", "42c0fc8d34", "4286cb97e3", "8448ce2927", "668062c7d5", "93a774deb0", "da2541cd3f", "94e4602ae5", "7507ccea73", "264057f1fa", "b55f8a9eb1", "2c7e2fba37", "7b1f7a0d8c", "45ed41ec56", "1fdeca34db"]},
-    {"titulo": "Las lluvias empeorarán y no estamos preparados", "explicacion": "Primicias (lluvias en la Costa hasta 4.564 % sobre lo normal), Radio Pichincha, Vistazo y El Universo repiten las advertencias del Inamhi, el Erfen y el Inocar; en comentarios de YouTube se lee que esto empieza mal y que estaba avisado. Riesgo de que cada emergencia se lea como imprevisión.", "ids": ["04f181596b", "7276bfb9f0", "884e4cdf1f", "2b24552014", "f70bae9f80", "340e660026", "237d21ea28", "6d822a416a", "2e7695ba6c", "41afa6a2b9", "6ae7b4e379", "794b2fbb67", "3463bc8f03"]},
-    {"titulo": "Coordinación preventiva y entrega de asistencia oficial", "explicacion": "Cuentas oficiales (SNGR, Carolina, MTDH, FF. AA., Gobernación de El Oro) y el ECU 911 muestran entregas en La Propicia, Palestina, El Guabo y Camilo Ponce Enríquez y monitoreo en Balao, con alcance de cientos o pocos miles de vistas. Oportunidad: cifras verificables y testimonios.", "ids": ["32d00a46c6", "f28bfed58c", "c9f2b45467", "6ff3cd805a", "6a052a6ed5", "4c1f54df8d", "d29e419d45", "b88dd1d844", "0dd2e48e05", "d35ad9ccc4", "309ac92d2f", "46f939d04b", "ab01d9405d", "cbbfc00c5b"]},
-    {"titulo": "El Gobierno responde con bonos y maquinaria", "explicacion": "El Telégrafo, El Universo y TC Televisión cuentan entregas de maquinaria y bombas (Durán) y La Prensa Ecuador explica un bono para damnificados. Oportunidad para el Gobierno central; conviene que la SNGR aclare cómo se registra a los damnificados.", "ids": ["8ba5fad720", "52f58f6be7", "2b9d720f37", "6517b5171c"]},
-    {"titulo": "Críticas a la gestión local y falta de limpieza", "explicacion": "Apunta a los municipios: comentarios en YouTube reclaman alcantarillas y drenajes sin limpiar, y El Universo y El Comercio cuestionaron la infraestructura de Quito; Ecuavisa explica los límites del alcantarillado de Guayaquil. No se dirige a la SNGR.", "ids": ["9220fa5ff3", "fa9524d43c", "2599c35800", "723a7266c2", "82eb4fc2f9", "1eb6cf45f4", "c4f8bd6a80"]},
-    {"titulo": "Desconfianza y cuestionamientos políticos a las alertas", "explicacion": "Respuestas en X ironizan sobre los comunicados conjuntos y una usuaria reclama prevención a Carolina; en YouTube se culpa al Presidente. Cuentas pequeñas y volumen bajo; cada comunicado debe decir qué cambia para la gente.", "ids": ["f8e86b72c2", "1cb96925b7", "48081573be", "e5e3020ee2", "b54ecd258e", "9b544f56a3"]},
-    {"titulo": "La ayuda no llega a todos los afectados", "explicacion": "Señal pequeña y sin piezas nuevas en 24 h: familias del barrio Fátima de Portoviejo sin ayuda en un comentario de TikTok y un pedido urgente por Cumbayá en X. Riesgo de que contradiga el mensaje de entregas si no hay respuesta visible.", "ids": ["b2c1bfdc4d", "25e9f2195e"]}
+    {
+      "titulo": "Los deslaves cortan las vías principales",
+      "explicacion": "Primicias, El Comercio, Ecuavisa, Teleamazonas y Radio Pichincha siguen el cierre total de la Alóag–Santo Domingo en Tandapi y su reapertura por la Prefectura de Pichincha, más la Riobamba–Penipe–Baños. Apunta a prefecturas y vialidad; oportunidad de difundir rutas alternas oficiales con el ECU 911.",
+      "ids": ["1e9cbd44df", "23b71df0be", "8948680261", "f620e22eb3", "19f04b132e", "c92e9911b8", "02fd23dd6d", "853a053701", "262377b2ad", "81cffc677d", "e2e812aa8f", "42c0fc8d34", "94e4602ae5", "7507ccea73", "264057f1fa", "b55f8a9eb1", "e6b035448d", "fb7c75873a", "5c0566c03f", "8448ce2927", "4286cb97e3", "6e693bb505", "1fdeca34db", "45ed41ec56"]
+    },
+    {
+      "titulo": "Coordinación preventiva y entrega de asistencia oficial",
+      "explicacion": "Cuentas oficiales (SNGR, Carolina, MTDH, FF. AA., Gobernación de El Oro) y el ECU 911 muestran entregas en La Propicia, Palestina, El Guabo y Ponce Enríquez y coordinación en Socio Vivienda 2 y Balao. El alcance es bajo fuera de TikTok de la SNGR; oportunidad de llevar cifras verificables a medios.",
+      "ids": ["32d00a46c6", "f28bfed58c", "c9f2b45467", "6a052a6ed5", "4c1f54df8d", "d29e419d45", "6ff3cd805a", "b88dd1d844", "ab01d9405d", "309ac92d2f", "46f939d04b", "c7acca87e3", "a2a791c728", "c9902a95aa"]
+    },
+    {
+      "titulo": "Las lluvias empeorarán y no estamos preparados",
+      "explicacion": "Primicias (lluvias en la Costa hasta 4.564 % sobre lo normal), Vistazo, Ecuavisa y TC Televisión ('¿Ecuador está preparado?') repiten que lo peor viene; en comentarios se lee que esto empieza mal. Riesgo de que cada emergencia se lea como imprevisión.",
+      "ids": ["04f181596b", "655c0a7570", "2e7695ba6c", "6ae7b4e379", "5032840d1e", "546dd41c3f", "c47060926c", "5810405b6b", "f3b5ddf07c", "490661cc20", "2d50deccc7"]
+    },
+    {
+      "titulo": "El Gobierno responde con bonos y maquinaria",
+      "explicacion": "El Universo y TC Televisión cuentan entregas de maquinaria y bombas (Durán), La Prensa Ecuador explica un bono para damnificados y El Universo anuncia sesión del COE Nacional. Oportunidad para el Gobierno central; conviene que la SNGR aclare cómo se registra a los damnificados.",
+      "ids": ["8ba5fad720", "52f58f6be7", "2b9d720f37", "af7fd1a724"]
+    },
+    {
+      "titulo": "Críticas a la gestión local y falta de limpieza",
+      "explicacion": "Apunta a los municipios: comentarios en YouTube reclaman alcantarillas sin limpiar y la ausencia de alcaldes, El Universo y El Comercio cuestionaron la infraestructura de Quito y El Universo pregunta qué deben hacer los gobiernos locales. No se dirige a la SNGR.",
+      "ids": ["9220fa5ff3", "fa9524d43c", "2599c35800", "e0afc18b08", "723a7266c2", "82eb4fc2f9", "fa8ed37b69", "4d7b2da612", "1eb6cf45f4", "9bd546d2c0"]
+    },
+    {
+      "titulo": "Desconfianza y cuestionamientos políticos a las alertas",
+      "explicacion": "Respuestas en X ironizan sobre los comunicados conjuntos y una usuaria reclama prevención a Carolina; en YouTube se culpa al Presidente. Cuentas pequeñas y sin piezas nuevas en X en 24 h; cada comunicado debe decir qué cambia para la gente.",
+      "ids": ["e5e3020ee2", "1cb96925b7", "f8e86b72c2", "b54ecd258e", "9b544f56a3"]
+    }
   ],
   "rumores": [],
   "hitos": []
