@@ -1,174 +1,31 @@
 {
   "vinetas": [
-    "Menos volumen: 91 notas de medios en 24 h frente a 124 antes; YouTube cae de 107 a 36.",
-    "Cifras difieren: Primicias y Radio Pichincha dicen casi 17.000 damnificados en Esmeraldas; el viernes eran 2.200 nacionales.",
-    "Medios: Alóag–Santo Domingo reabrió cuatro carriles tras más de 20 horas cerrada; limpieza a cargo de la Prefectura de Pichincha.",
-    "Alarma: Primicias reporta lluvias costeras hasta 4.564 % sobre lo normal; Inocar y Erfen prevén pico a fin de año."
+    "Medios: la vía Alóag–Santo Domingo reabrió y volvió a cerrarse totalmente en Tandapi, km 70, el sábado por la noche.",
+    "Tormenta nocturna en Guayaquil: El Universo cuenta más de 25 sectores; Extra, 22 puntos; Ecuavisa, siete. Un menor arrastrado.",
+    "Primicias: casi 17.000 damnificados en Esmeraldas; El Diario Ecuador: más de 2.200 en todo el país. Las cifras no cuadran.",
+    "En X las críticas a la SNGR bajan de 3 a 1; las entregas de ayuda dominan, con menos alcance que Salitre."
   ],
   "fuentes_vinetas": [
-    [],
-    [
-      "93bda05add",
-      "4dd846dd1f",
-      "c820da1300",
-      "68748f4a43"
-    ],
-    [
-      "5c0566c03f",
-      "aa5ba5a71e",
-      "7685856ef5",
-      "26a9d8e041"
-    ],
-    [
-      "04f181596b",
-      "884e4cdf1f",
-      "7276bfb9f0"
-    ]
+    ["1e9cbd44df", "f620e22eb3", "5c0566c03f", "23b71df0be"],
+    ["fb5c32fda5", "18fff1110d", "92d853ead2", "3cb8083221"],
+    ["93bda05add", "4dd846dd1f", "68748f4a43"],
+    ["e5e3020ee2", "b88dd1d844", "32d00a46c6", "c9f2b45467", "c7acca87e3"]
   ],
   "acciones": [
-    {
-      "accion": "Aclarar hoy en X y Alístate Ecuador afectados y damnificados de Esmeraldas",
-      "porque": "Primicias y Radio Pichincha dicen casi 17.000 damnificados en Esmeraldas; el viernes se reportaban más de 2.200 damnificados en todo el país.",
-      "base_legal": "Art. 61 y 72",
-      "fuentes": [
-        "93bda05add",
-        "4dd846dd1f",
-        "c820da1300",
-        "68748f4a43"
-      ]
-    },
-    {
-      "accion": "Difundir hoy mensajes de preparación familiar para Guayas, Manabí y Santa Elena",
-      "porque": "Inamhi prevé lluvias más intensas en el Litoral este fin de semana; Guayaquil, segundo día de tormentas; Manabí, entre las más afectadas.",
-      "base_legal": "Art. 61 y 64.6",
-      "fuentes": [
-        "c2113b8030",
-        "af26722d7d",
-        "3b63012506",
-        "f7757df81f"
-      ]
-    },
-    {
-      "accion": "Entregar al CNE lineamientos de riesgo para sus 368 recintos electorales expuestos",
-      "porque": "TC Televisión informa que el CNE identificó 368 recintos en zonas expuestas a inundaciones y deslizamientos por El Niño.",
-      "base_legal": "Art. 23.4 y 23.5",
-      "fuentes": [
-        "7c71fcc56f"
-      ]
-    }
+    {"accion": "Publicar hoy en X y la web afectados y damnificados por provincia, diferenciados.", "porque": "Primicias y Radio Pichincha titulan casi 17.000 damnificados en Esmeraldas; El Diario Ecuador reportó más de 2.200 en todo el país.", "base_legal": "Art. 61 y 72", "fuentes": ["93bda05add", "4dd846dd1f", "68748f4a43"]},
+    {"accion": "Ofrecer apoyo subsidiario al COE de Guayaquil y difundir la Advertencia 82 del Inamhi.", "porque": "Más de 25 sectores con agua (El Universo), deslizamiento en Socio Vivienda 2 y lluvias muy fuertes previstas para el domingo.", "base_legal": "Art. 14, 21.4 y 61", "fuentes": ["fb5c32fda5", "309ac92d2f", "2b24552014", "3cb8083221"]},
+    {"accion": "Pedir a la Prefectura de Pichincha y ECU 911 un parte conjunto de rutas alternas.", "porque": "La vía Alóag–Santo Domingo se cerró por completo en el km 70 horas después de reabrir; Radio Pichincha: Sierra y Costa incomunicadas.", "base_legal": "Art. 23.5 y 61", "fuentes": ["f620e22eb3", "1e9cbd44df", "5c0566c03f", "02fd23dd6d"]}
   ],
   "narrativas": [
-    {
-      "titulo": "Los deslaves cortan las vías principales",
-      "explicacion": "Una veintena de notas siguió el cierre y la reapertura de la vía Alóag–Santo Domingo, a cargo de la Prefectura de Pichincha, y el derrumbe en Riobamba–Penipe–Baños. Apunta a prefecturas y vialidad; oportunidad de difundir rutas alternas con fuentes oficiales.",
-      "ids": [
-        "8448ce2927",
-        "5c0566c03f",
-        "7507ccea73",
-        "264057f1fa",
-        "e6b035448d",
-        "b55f8a9eb1",
-        "6e693bb505",
-        "668062c7d5",
-        "aa5ba5a71e",
-        "93a774deb0",
-        "66dc70c2be",
-        "2c7e2fba37",
-        "c2e4b7b17b",
-        "2e24e398dd",
-        "7685856ef5",
-        "c2def3cc47",
-        "26a9d8e041",
-        "0ab669a36f",
-        "da2541cd3f",
-        "2b603ba30d",
-        "31e9263a03",
-        "1fdeca34db",
-        "45ed41ec56"
-      ]
-    },
-    {
-      "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Primicias, Vistazo, El Telégrafo, Teleamazonas y Ecuavisa repiten que El Niño se intensifica y llega a su máximo a fin de año; en comentarios se lee que esto recién empieza y que estaba avisado. Riesgo de que cada emergencia se lea como imprevisión; oportunidad para mensajes de preparación.",
-      "ids": [
-        "04f181596b",
-        "655c0a7570",
-        "7276bfb9f0",
-        "884e4cdf1f",
-        "237d21ea28",
-        "1c8f51850e",
-        "85dae1be40",
-        "948a86c693",
-        "6d822a416a",
-        "2e7695ba6c",
-        "c2113b8030",
-        "41afa6a2b9",
-        "3463bc8f03",
-        "6ae7b4e379",
-        "794b2fbb67",
-        "60d4723c6e",
-        "c1b3aefd8f",
-        "61c6f95212"
-      ]
-    },
-    {
-      "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "El Universo y TC Televisión reportan la entrega de la SNGR a 850 personas y nuevas entregas en cuatro provincias; el TikTok de la Secretaría en Salitre suma 12.500 vistas, y el Gobierno entregó maquinaria en Durán y a productores. Oportunidad: seguir mostrando resultados con cifras verificables.",
-      "ids": [
-        "0dd2e48e05",
-        "d35ad9ccc4",
-        "c7acca87e3",
-        "c9902a95aa",
-        "a2a791c728",
-        "92a15ca42c",
-        "55adb7fe4a",
-        "2aaf106616",
-        "2b9d720f37",
-        "52f58f6be7",
-        "6517b5171c"
-      ]
-    },
-    {
-      "titulo": "Críticas a la gestión local y falta de limpieza",
-      "explicacion": "Apunta a los municipios, sobre todo al de Quito: El Comercio y El Universo cuestionan la infraestructura tras el colapso de la Colón y el socavón de la Eloy Alfaro, y comentarios reclaman alcantarillas sin limpiar y la ausencia del alcalde. Si la Secretaría no muestra coordinación con los GAD, el reclamo puede trasladarse a ella.",
-      "ids": [
-        "fa9524d43c",
-        "2599c35800",
-        "96b96771d8",
-        "723a7266c2",
-        "82eb4fc2f9",
-        "e5141bb65c",
-        "e0afc18b08",
-        "4d7b2da612",
-        "fa8ed37b69",
-        "12bde764e3",
-        "07fe55efc9"
-      ]
-    },
-    {
-      "titulo": "La ayuda no llega a todos los afectados",
-      "explicacion": "Señal pequeña sin crecimiento: un comentario en TikTok sobre familias del barrio Fátima de Portoviejo sin ayuda, El Diario sobre familias de Babahoyo esperando el bono de contingencia y un pedido urgente por Cumbayá en X. Riesgo de que contradiga el mensaje de entregas si no hay respuesta visible.",
-      "ids": [
-        "b2c1bfdc4d",
-        "b035cdd63f",
-        "25e9f2195e"
-      ]
-    },
-    {
-      "titulo": "Desconfianza y cuestionamientos políticos a las alertas",
-      "explicacion": "Respuestas en X ironizan o insultan por el comunicado sobre la fase intensa, y en YouTube se culpa al Presidente o se acusa al Gobierno de hacer campaña con la emergencia. Cuentas pequeñas y volumen bajo; conviene que los comunicados digan qué cambia para la gente.",
-      "ids": [
-        "f8e86b72c2",
-        "1cb96925b7",
-        "48081573be",
-        "b54ecd258e",
-        "b762c2a4be",
-        "9c8a4a950d",
-        "6d77ee3f2c",
-        "f678d87012"
-      ]
-    }
+    {"titulo": "Los deslaves cortan las vías principales", "explicacion": "Decenas de notas siguen el cierre, la reapertura y el nuevo cierre total de la Alóag–Santo Domingo, a cargo de la Prefectura de Pichincha, y los derrumbes en Riobamba–Penipe–Baños. Apunta a prefecturas y vialidad; oportunidad de difundir rutas alternas oficiales.", "ids": ["c92e9911b8", "02fd23dd6d", "23b71df0be", "f620e22eb3", "1e9cbd44df", "19f04b132e", "fb7c75873a", "4286cb97e3", "8448ce2927", "5c0566c03f", "7507ccea73", "264057f1fa", "e6b035448d", "b55f8a9eb1", "6e693bb505", "aa5ba5a71e", "93a774deb0", "66dc70c2be", "2c7e2fba37", "c2e4b7b17b", "2e24e398dd", "7685856ef5", "c2def3cc47", "7b1f7a0d8c", "26a9d8e041", "0ab669a36f", "668062c7d5", "45ed41ec56", "46f939d04b", "309ac92d2f"]},
+    {"titulo": "Las lluvias empeorarán y no estamos preparados", "explicacion": "El Universo, Primicias, Vistazo y Radio Pichincha repiten nuevas advertencias del Inamhi y del Erfen y lluvias en la Costa muy por encima de lo normal; en comentarios se lee que esto empieza mal y que estaba avisado. Riesgo de que cada emergencia se lea como imprevisión.", "ids": ["2b24552014", "f70bae9f80", "04f181596b", "655c0a7570", "7276bfb9f0", "5032840d1e", "c47060926c", "6ae7b4e379", "794b2fbb67", "3463bc8f03", "61c6f95212", "95f680f139", "25ed2efa9e", "e5e3020ee2", "41afa6a2b9", "aa958a51ac"]},
+    {"titulo": "Coordinación preventiva y entrega de asistencia oficial", "explicacion": "Cuentas oficiales (SNGR, Carolina, MTDH, FF. AA., Gobernación de El Oro) muestran entregas en La Propicia, Palestina, El Guabo y Camilo Ponce Enríquez, pero con alcance de cientos o pocos miles de vistas. Oportunidad: cifras verificables y testimonios, que fue lo que funcionó en Salitre.", "ids": ["f28bfed58c", "b88dd1d844", "c9f2b45467", "32d00a46c6", "6a052a6ed5", "4c1f54df8d", "d29e419d45", "6ff3cd805a", "0dd2e48e05", "d35ad9ccc4", "a2a791c728", "c9902a95aa", "c7acca87e3", "52f58f6be7", "2b9d720f37", "ab01d9405d"]},
+    {"titulo": "Críticas a la gestión local y falta de limpieza", "explicacion": "Apunta a los municipios, sobre todo al de Quito: El Comercio y El Universo cuestionan la infraestructura y comentarios reclaman alcantarillas sin limpiar y la ausencia del alcalde; Ecuavisa explica los límites del alcantarillado de Guayaquil. Sin piezas nuevas de este reclamo en 24 h.", "ids": ["fa9524d43c", "2599c35800", "723a7266c2", "82eb4fc2f9", "e0afc18b08", "4d7b2da612", "fa8ed37b69", "a425f65f73", "1eb6cf45f4"]},
+    {"titulo": "Desconfianza y cuestionamientos políticos a las alertas", "explicacion": "Respuestas en X ironizan sobre los comunicados y en YouTube se culpa al Presidente o se acusa al Gobierno de hacer campaña. Cuentas pequeñas y volumen bajo; conviene que cada comunicado diga qué cambia para la gente.", "ids": ["1cb96925b7", "f8e86b72c2", "b54ecd258e", "b762c2a4be", "6d77ee3f2c", "5c3797c102", "6182021f6a"]},
+    {"titulo": "La ayuda no llega a todos los afectados", "explicacion": "Señal pequeña y sin piezas nuevas en 24 h: familias de Portoviejo sin ayuda en un comentario de TikTok y un pedido urgente por Cumbayá en X. Riesgo de que contradiga el mensaje de entregas si no hay respuesta visible.", "ids": ["b2c1bfdc4d", "25e9f2195e"]}
   ],
   "rumores": [],
-  "hitos": []
+  "hitos": [
+    {"dia": "2026-10-24", "titulo": "Hallan cuerpo de estudiante en río Caoni", "ids": ["1b940062c5", "bcb4f0d373"]}
+  ]
 }
