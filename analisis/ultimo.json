@@ -1,74 +1,76 @@
 {
   "vinetas": [
-    "Medios suben a 157 piezas (95 ayer): tormenta en Manta, Guayaquil y Santa Elena; el Caupicho desborda en Quito.",
-    "Noboa advierte un 'súper Niño' (Radio Centro, 2.645 vistas); el Inamhi prevé lluvias intensas hasta el 28 de octubre.",
-    "Única nota crítica de medios: La República calcula más de US$60 millones en pérdidas agrícolas y apunta al Gobierno central.",
-    "En X las críticas bajan de 3 a 1 y los positivos quedan en 8, sostenidos por los kits de la SNGR."
+    "Tormenta del lunes paralizó Guayaquil: vuelos desviados, túneles cerrados; los medios cuentan entre 18 y 42 sectores anegados.",
+    "Medios: 243 piezas vs 117, repiten balance SNGR de tres fallecidos y 30.534 afectados; X bajó de 57 a 6.",
+    "Riesgo para la alerta: Ecuavisa recoge padres que piden avisos a tiempo para suspender clases; la UNE pide emergencia educativa.",
+    "Inamhi: hoy y mañana, días más críticos, advertencia 83 hasta el miércoles 28; Prefectura del Guayas: \"esto recién empieza\"."
   ],
   "fuentes_vinetas": [
-    ["0df91d2ef8", "09a1e15ca2", "5204d7935e", "953504fb24", "174df19a83", "c418164de4"],
-    ["8c2618b84b", "da5da4fe11", "907b478a49", "82a450a6ca"],
-    ["ad52c86448", "5ff1483fa0"],
-    ["5f99012d23", "51cd575cbf", "e9ae35cd03", "2e08d8b69c"]
+    ["09a5931e02", "a181105bac", "4201f9c8e1", "287809b065", "5204d7935e", "2c991d9c36", "0e1b557238"],
+    ["396e485035", "6e4ebfa3ee", "6b10ded9ff", "a91349c178"],
+    ["95a9109a05", "76c6954d15", "d9f86eb8e7", "e00da2dcb6"],
+    ["a98086226b", "8d16996e9f", "effe01313b", "f7aa60468b", "4840c5326f"]
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy corte oficial único: afectados y ríos desbordados, con hora de corte.",
-      "porque": "Radio Pichincha cita 30.534 afectados, RTP 28.276 y El Mercurio en X 27.145; El Telégrafo y Extra, 11 ríos desbordados.",
-      "base_legal": "Art. 61 y 72",
-      "fuentes": ["396e485035", "70d6f26999", "c2d72ea79f", "83df2cdd36", "6bf52457a6", "16fa6e1c74"]
+      "accion": "Acordar con Educación y COE de Guayaquil hora fija para anunciar suspensión de clases.",
+      "porque": "Ecuavisa: padres piden avisos a tiempo; la UNE pide emergencia educativa; Inamhi: hoy y mañana, días más críticos.",
+      "base_legal": "Art. 29, 62 y 64.6",
+      "fuentes": ["95a9109a05", "76c6954d15", "d9f86eb8e7", "e00da2dcb6", "a98086226b", "1ed1434420"]
     },
     {
-      "accion": "Informar en X y web qué entregó la SNGR en Balao y Tenguel, con fecha.",
-      "porque": "Ecuavisa cuenta más de 1.000 afectados y emitió hoy reportaje; Veinticuatro-Siete y Noti Sambo reclamaron a Riesgos ayuda urgente.",
-      "base_legal": "Art. 14, 72 y 73",
-      "fuentes": ["de0ad6b1c6", "70c75c71d2", "6c5be29805", "a997f016cf"]
+      "accion": "Ofrecer apoyo subsidiario al COE de Balao y publicar la ayuda entregada allí.",
+      "porque": "Ecuavisa: 500 familias afectadas y 200 metros de muro colapsados; el prefecto Encalada denunció albergues desmantelados en Balao.",
+      "base_legal": "Art. 14, 21.4 y 73",
+      "fuentes": ["0dd6580e90", "3c8f86b965", "ec24938f52", "0537aa793b", "de0ad6b1c6"]
     },
     {
-      "accion": "Pedir a COE de Manta, Machala y Quito su evaluación; ofrecer apoyo subsidiario.",
-      "porque": "Extra: más de 120 sectores de Machala inundados; techo de la terminal de Manta colapsó; Caupicho anegó viviendas y escuela.",
-      "base_legal": "Art. 21.4, 29 y 68",
-      "fuentes": ["d4441d6448", "0df91d2ef8", "4cd3d41362"]
+      "accion": "Publicar en web y X un balance único diario de afectados y ríos desbordados.",
+      "porque": "Medios difieren: 11 o 12 ríos; 30.436, 30.534 o más de 30.500 afectados; El Oro, 882 o más de 6.000.",
+      "base_legal": "Art. 61, 72 y 73",
+      "fuentes": ["83df2cdd36", "b8c04b3ce4", "9373b30de5", "b76377056b", "396e485035", "a91349c178", "a634cb80b0", "f942b7df8e"]
     }
   ],
   "narrativas": [
     {
       "titulo": "Las lluvias ya afectan a todo el país",
-      "explicacion": "Radio Pichincha, Prensa Mercosur, El Mercurio y Teleamazonas repiten el balance SNGR de tres fallecidos y más de 30.000 afectados; hoy se suman la tormenta en Manta, Guayaquil y Santa Elena, el Caupicho en Quito y 11 ríos desbordados. Las cifras de afectados todavía difieren entre medios.",
-      "ids": ["396e485035", "e7e7b9d125", "31b67e63dc", "87febc8aaa", "e8e8a3f543", "45559144bc", "16fa6e1c74", "83df2cdd36", "6bf52457a6", "f0576b9868", "0b05be118a", "24ae7359b2", "bb841e22ed", "0df91d2ef8", "174df19a83", "a6426a70fb", "953504fb24", "85231de1ff", "35bdffdeb4", "f7e70b8619"]
-    },
-    {
-      "titulo": "La ayuda llega tarde a Balao",
-      "explicacion": "Ecuavisa vuelve hoy sobre Balao con un reportaje y cuenta más de 1.000 afectados en Balao y Tenguel; ayer Ecuador Comunicación, Veinticuatro-Siete y Noti Sambo pidieron ayuda a la Prefectura y a Riesgos. Tras el cruce con el prefecto Encalada sobre albergues, el riesgo es que la demora se cargue a la Secretaría.",
-      "ids": ["de0ad6b1c6", "70c75c71d2", "9917802efc", "7d1531fc37", "f9de0dc4be", "6c5be29805", "a997f016cf", "3d8fd99d6e", "d67662ff97", "0537aa793b"]
+      "explicacion": "Radio Pichincha, Infobae, El Universo, Primicias y Teleamazonas repiten el balance SNGR de tres fallecidos y más de 30.000 afectados; hoy se suman la tormenta en Guayaquil y Manta y 11 o 12 ríos desbordados. Las cifras siguen sin coincidir entre medios, lo que expone a la Secretaría a dudas sobre sus datos.",
+      "ids": ["6e4ebfa3ee", "6b10ded9ff", "396e485035", "b76377056b", "a91349c178", "e7e7b9d125", "31b67e63dc", "87febc8aaa", "e8e8a3f543", "9373b30de5", "c779ff076f", "2d9703ff6f", "09e90df151", "b8c04b3ce4", "83df2cdd36", "16fa6e1c74", "45559144bc", "bfdc357f9f", "f0576b9868", "d301e2d779", "cf9fd3efdb", "6bf52457a6", "4db126425d", "c4bcb4de74", "7a0c362951", "d6859f95b2", "9b011159e1", "92b9c4629c", "0a7c04598e", "9fa36461b1", "004e635b0d", "09a5931e02", "a181105bac", "9e7dae91e8", "81669d39fb"]
     },
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "Ecuavisa, El Universo, TC Televisión y La Data difundieron los 2.107 kits de la SNGR en cuatro provincias; Desarrollo Humano y militares muestran trabajo conjunto en El Oro y Los Ríos. Sigue siendo la principal fuente de tono positivo, pero no tuvo piezas nuevas hoy.",
-      "ids": ["db2e675122", "a3ba71ca09", "7e653cac83", "5f99012d23", "e9ae35cd03", "51cd575cbf", "2e08d8b69c", "d208401055", "334a608030", "00c7fba0d8", "434ab2fc31", "d7de1aad01"]
+      "explicacion": "El fin de semana Ecuavisa, El Universo, TC Televisión y La Data difundieron los 2.107 kits de la SNGR en cuatro provincias; hoy solo hay notas menores (Metro Ecuador: Riesgos identifica sectores afectados en Guayaquil) y las declaraciones de Carolina Lozano en YouTube casi no tienen vistas. Es la principal fuente de tono positivo y se está apagando.",
+      "ids": ["e9ae35cd03", "5f99012d23", "51cd575cbf", "db2e675122", "a3ba71ca09", "7e653cac83", "2e08d8b69c", "d208401055", "334a608030", "434ab2fc31", "d7de1aad01", "db9874d645", "4a82037e24", "5bf1aa7760", "7d1531fc37", "20187b0c2f", "392b34d15d", "8114552f7b", "7ea29c1370"]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Noboa habla de un 'súper Niño' y varios medios replican que el Inamhi prevé lluvias y tormentas hasta el 28 de octubre; en comentarios de YouTube se reclama que no se hizo nada para prevenir. Riesgo de que cada inundación se lea como imprevisión; oportunidad de mostrar los planes ya activados.",
-      "ids": ["8c2618b84b", "da5da4fe11", "907b478a49", "82a450a6ca", "07b00432e3", "cc5cd0111b", "641fdbdd81", "f3b5ddf07c", "8046e7e3f6", "19b6f308b3"]
+      "explicacion": "Noboa habla de un 'súper Niño' (Radio Centro, 9.527 vistas), el Inamhi prevé días críticos hasta el 28 y más lluvia desde esa fecha, la OEA advierte inundaciones y la Prefectura del Guayas dice que 'esto recién empieza'; en comentarios de YouTube se reclama que no se hizo nada para prevenir. Riesgo de que cada inundación se lea como imprevisión; oportunidad de mostrar los planes ya entregados.",
+      "ids": ["8c2618b84b", "da5da4fe11", "a98086226b", "a5298f7479", "a18f6ef9f9", "907b478a49", "49d6036d90", "2b805feaa3", "7579f5175b", "dd2d330741", "39641bc75d", "03c9a7d6af", "f7aa60468b", "4840c5326f", "6f1c9aae93", "19b6f308b3", "0c57e9541a", "053b1cdd19", "f3b5ddf07c"]
+    },
+    {
+      "titulo": "La ayuda llega tarde a Balao",
+      "explicacion": "Ecuavisa vuelve hoy sobre Balao con 500 familias afectadas y el colapso de un muro de contención, con videos de más de 1.500 vistas; el domingo cuentas pequeñas pidieron ayuda a la Prefectura y a Riesgos. Tras el cruce con el prefecto Encalada sobre albergues, el riesgo es que la demora se cargue a la Secretaría.",
+      "ids": ["0dd6580e90", "3c8f86b965", "ec24938f52", "c4abaa527d", "70c75c71d2", "5cced2addd", "de0ad6b1c6", "0e405d227d", "a997f016cf", "3d8fd99d6e", "d67662ff97", "2904029091", "0537aa793b", "c9b8f51fb0"]
     },
     {
       "titulo": "Críticas a la gestión local y falta de limpieza",
-      "explicacion": "Apunta a municipios y prefecturas: Diario Correo culpa a la negligencia de las inundaciones en Tendales, Extra reporta más de 120 sectores de Machala inundados por dos canales y un comentario en Ecuavisa culpa al Municipio de Quito por el Caupicho. No se dirige a la SNGR.",
-      "ids": ["0b2e618b4b", "d4441d6448", "f1381f47a3", "54f97f908f", "27f94ed49a", "0677e0f5f5", "b946690554"]
+      "explicacion": "Apunta a municipios y prefecturas: Diario Correo culpa a la negligencia por Tendales, Extra reporta más de 120 sectores de Machala inundados por dos canales, Teleamazonas muestra basura en esteros de Guayaquil y comentarios en Ecuavisa culpan al Municipio de Quito por el Caupicho. No se dirige a la SNGR.",
+      "ids": ["0b2e618b4b", "d4441d6448", "97edab9c34", "4eb088697d", "f1381f47a3", "2e7b737fde", "27f94ed49a"]
     },
     {
-      "titulo": "El Niño ya golpea al agro y al bolsillo",
-      "explicacion": "La República calcula más de US$60 millones en pérdidas agrícolas y La Hora recoge el pedido de auxilio de agricultores de Los Ríos; Primicias y AgroLatam hablan de crédito y precios. Apunta al Gobierno central, no a la Secretaría, pero puede sumar presión por ayuda económica.",
-      "ids": ["ad52c86448", "5ff1483fa0", "a901f05568", "7cbe2a9f87"]
+      "titulo": "Piden avisar a tiempo la suspensión de clases",
+      "explicacion": "Ecuavisa y El Diario recogen a padres que reclaman avisos oportunos y la UNE pide declaratoria de emergencia educativa; apunta sobre todo al Ministerio de Educación y a los COE. Puede rozar a la Secretaría si se lee como falla de alerta temprana.",
+      "ids": ["95a9109a05", "76c6954d15", "d9f86eb8e7", "e00da2dcb6"]
     }
   ],
   "rumores": [
     {
-      "titulo": "Nueva alerta roja emitida este domingo",
-      "explicacion": "Una cuenta en X (373 vistas) afirma que la Secretaría emitió alerta roja este domingo; otras piezas citan la alerta roja nacional vigente desde el 29 de agosto. Respuesta sugerida: recordar en canales oficiales desde cuándo rige la alerta y qué implica (arts. 61 y 72).",
+      "titulo": "\"Riesgos emitió este domingo la alerta roja\"",
+      "explicacion": "Una cuenta de X afirma que la SNGR declaró la alerta roja el domingo 25; otras piezas indican que rige desde el 29 de agosto. Puede hacer creer que hay una alerta nueva; responder con la fecha y el alcance oficiales de la alerta vigente (arts. 61 y 72).",
       "ids": ["c98c01c51c", "157c66a269", "c2d72ea79f"]
     }
   ],
-  "hitos": []
+  "hitos": [
+    {"dia": "2026-10-26", "titulo": "Tormenta paraliza Guayaquil: vuelos desviados, túneles cerrados", "ids": ["09a5931e02", "a181105bac", "4201f9c8e1", "287809b065", "9184cd4421"]}
+  ]
 }
