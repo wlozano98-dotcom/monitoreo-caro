@@ -1,73 +1,191 @@
 {
   "vinetas": [
-    "Medios suben a 109 piezas (92 ayer): cifras de afectados difieren, de 27.145 a más de 30.000, según el medio.",
-    "Balao concentra críticas: pedido de ayuda urgente a Prefectura y Riesgos con 4.818 vistas; en X, 4 críticas (ayer 1).",
-    "En TC, Carolina dijo que albergues y primera respuesta son de los municipios, tras denuncia del prefecto Encalada sobre Balao.",
-    "Positivos en X suben de 4 a 13: Ecuavisa, Diario Correo y Centro difunden asistencia SNGR en cuatro provincias."
+    "Medios suben a 110 piezas (94 ayer); El Mercurio, Teleamazonas y Prensa Latina ya hablan de más de 30.000 afectados.",
+    "Balao y Tenguel siguen al frente: Ecuavisa cuenta más de 1.000 personas afectadas; pedido de ayuda a Riesgos sumó 4.818 vistas.",
+    "En X, positivos suben de 4 a 13 por los kits de la SNGR; las 4 críticas vienen de Balao, por ayuda tardía.",
+    "Nuevos frentes de madrugada: 68 sectores anegados en Guayaquil, Dos Mangas incomunicada y agricultores de Los Ríos piden auxilio."
   ],
   "fuentes_vinetas": [
-    ["c2d72ea79f", "e8e8a3f543", "70d6f26999", "7a0c362951", "c4bcb4de74"],
-    ["f9de0dc4be", "6c5be29805", "a997f016cf", "3d8fd99d6e", "d67662ff97"],
-    ["0537aa793b", "8046e7e3f6"],
-    ["5f99012d23", "e9ae35cd03", "51cd575cbf", "2e08d8b69c"]
+    [
+      "31b67e63dc",
+      "e8e8a3f543",
+      "87febc8aaa"
+    ],
+    [
+      "de0ad6b1c6",
+      "f9de0dc4be",
+      "7d1531fc37"
+    ],
+    [
+      "5f99012d23",
+      "51cd575cbf",
+      "e9ae35cd03",
+      "6c5be29805",
+      "a997f016cf",
+      "d67662ff97"
+    ],
+    [
+      "e1271d465b",
+      "fad1b09e7d",
+      "7d58e4fb79",
+      "5ff1483fa0"
+    ]
   ],
   "acciones": [
     {
-      "accion": "Ofrecer a Prefectura y Municipio de Balao apoyo subsidiario; publicar lo entregado allí.",
-      "porque": "Pedido de ayuda urgente en Balao sumó 4.818 vistas; este domingo se desbordaron los ríos Pilco, Tenguel y Balao.",
-      "base_legal": "Art. 14, 21.4 y 73",
-      "fuentes": ["f9de0dc4be", "53064d1320", "7d1531fc37", "6c5be29805"]
-    },
-    {
-      "accion": "Acordar con municipio y Prefectura de Guayas una vocería conjunta sobre albergues en Balao.",
-      "porque": "Encalada denunció albergues desmantelados en Balao; Carolina recordó en El Noticiero que la primera respuesta es municipal: riesgo de cruce.",
-      "base_legal": "Art. 13, 14 y 61",
-      "fuentes": ["0537aa793b", "8046e7e3f6"]
-    },
-    {
       "accion": "Publicar hoy en X y web un corte oficial único de afectados, con hora.",
-      "porque": "Teleamazonas y Primicias dicen más de 30.000; El Universo, más de 28.000; RTP, 28.276; El Mercurio, 27.145.",
+      "porque": "Hoy El Mercurio y Teleamazonas dicen más de 30.000; RTP, 28.276; El Mercurio en X, 27.145; El Universo, más de 28.000.",
       "base_legal": "Art. 61, 72 y 73",
-      "fuentes": ["e8e8a3f543", "c4bcb4de74", "7a0c362951", "70d6f26999", "c2d72ea79f"]
+      "fuentes": [
+        "31b67e63dc",
+        "e8e8a3f543",
+        "70d6f26999",
+        "c2d72ea79f",
+        "7a0c362951"
+      ]
+    },
+    {
+      "accion": "Ofrecer a Guayaquil, Balao y Prefectura apoyo subsidiario en Tenguel-Balao; publicar lo entregado.",
+      "porque": "Ecuavisa: más de 1.000 personas afectadas en Balao y Tenguel; Noti Sambo y Veinticuatro-Siete reclaman ayuda tardía a Riesgos.",
+      "base_legal": "Art. 14, 21.4 y 73",
+      "fuentes": [
+        "de0ad6b1c6",
+        "f9de0dc4be",
+        "6c5be29805",
+        "a997f016cf",
+        "0537aa793b"
+      ]
+    },
+    {
+      "accion": "Pedir al COE de Santa Elena el estado de Dos Mangas y ofrecer apoyo subsidiario.",
+      "porque": "Teleamazonas reporta el desborde del río en Dos Mangas con comunidades incomunicadas; no hay más piezas sobre la respuesta.",
+      "base_legal": "Art. 21.4 y 29",
+      "fuentes": [
+        "7d58e4fb79"
+      ]
     }
   ],
   "narrativas": [
     {
       "titulo": "La ayuda llega tarde a Balao",
-      "explicacion": "Ecuador Comunicación, Veinticuatro-Siete, Noti Sambo y MakroDigital muestran familias que lo perdieron todo y piden ayuda urgente a la Prefectura y a Riesgos. El cruce público con el prefecto Encalada sobre los albergues puede trasladar la culpa a la Secretaría si no se muestra coordinación.",
-      "ids": ["f9de0dc4be", "6c5be29805", "a997f016cf", "3d8fd99d6e", "d67662ff97", "2904029091", "0537aa793b"]
+      "explicacion": "Ecuador Comunicación, Veinticuatro-Siete y Noti Sambo muestran familias que lo perdieron todo y piden ayuda a la Prefectura y a Riesgos; Ecuavisa ya cuenta más de 1.000 afectados en Balao y Tenguel. El cruce con el prefecto Encalada sobre albergues puede trasladar la culpa a la Secretaría.",
+      "ids": [
+        "f9de0dc4be",
+        "6c5be29805",
+        "a997f016cf",
+        "3d8fd99d6e",
+        "d67662ff97",
+        "2904029091",
+        "0537aa793b",
+        "de0ad6b1c6",
+        "7d1531fc37"
+      ]
     },
     {
       "titulo": "Las lluvias ya afectan a todo el país",
-      "explicacion": "Teleamazonas, Primicias, Infobae, El Universo, Vistazo y cuentas de radio repiten el balance de la SNGR (tres fallecidos, 629 eventos, 120 cantones), pero con cifras de afectados que no coinciden: 27.145, 28.276, más de 28.000, más de 29.000 y más de 30.000. Riesgo de confusión si no hay un corte oficial con hora.",
-      "ids": ["e8e8a3f543", "c4bcb4de74", "d6859f95b2", "9b011159e1", "7a0c362951", "79d5e82c43", "38542b4609", "70d6f26999", "c2d72ea79f", "4db126425d", "0a7c04598e", "92b9c4629c", "1ef66ab8b7", "f942b7df8e"]
+      "explicacion": "El Mercurio, Teleamazonas, Primicias, Infobae y Prensa Latina repiten el balance de la SNGR (tres fallecidos, más de 30.000 afectados), pero otras cuentas citan 27.145 o 28.276. De madrugada se suman Guayaquil (68 sectores), Dos Mangas en Santa Elena y agricultores de Los Ríos.",
+      "ids": [
+        "e8e8a3f543",
+        "c4bcb4de74",
+        "d6859f95b2",
+        "9b011159e1",
+        "7a0c362951",
+        "79d5e82c43",
+        "38542b4609",
+        "70d6f26999",
+        "c2d72ea79f",
+        "4db126425d",
+        "0a7c04598e",
+        "92b9c4629c",
+        "1ef66ab8b7",
+        "f942b7df8e",
+        "31b67e63dc",
+        "87febc8aaa",
+        "7d58e4fb79",
+        "5ff1483fa0",
+        "e1271d465b",
+        "fad1b09e7d"
+      ]
     },
     {
       "titulo": "Coordinación preventiva y entrega de asistencia oficial",
       "explicacion": "Ecuavisa, El Universo, TC Televisión y La Data difunden los 2.107 kits de la SNGR en Esmeraldas, El Oro, Los Ríos y Guayas; Desarrollo Humano y militares muestran trabajo conjunto en El Oro y Los Ríos. Es la principal fuente de tono positivo; el TikTok de la Secretaría tuvo 1.386 vistas.",
-      "ids": ["db2e675122", "a3ba71ca09", "7e653cac83", "5f99012d23", "e9ae35cd03", "51cd575cbf", "2e08d8b69c", "d208401055", "334a608030", "00c7fba0d8", "434ab2fc31", "d7de1aad01"]
+      "ids": [
+        "db2e675122",
+        "a3ba71ca09",
+        "7e653cac83",
+        "5f99012d23",
+        "e9ae35cd03",
+        "51cd575cbf",
+        "2e08d8b69c",
+        "d208401055",
+        "334a608030",
+        "00c7fba0d8",
+        "434ab2fc31",
+        "d7de1aad01"
+      ]
     },
     {
       "titulo": "Los deslaves cortan las vías principales",
       "explicacion": "Ecuavisa, El Comercio, Teleamazonas y Tiempo Real siguen la Alóag–Santo Domingo: reabierta el domingo, otra vez cerrada en el km 35 (Tandapi) y luego con paso controlado; en Ponce Enríquez 15 personas fueron evacuadas. Apunta a prefecturas y vialidad; Gestión de Riesgos aparece atendiendo junto a la Policía.",
-      "ids": ["8bf02e6394", "488c8d47d1", "1ea791a893", "a1d5f029ad", "03ad5f2e21", "d01c7fb886", "262377b2ad", "81cffc677d", "853a053701", "15c5a17849", "d5f7263f19", "d466a35191", "1185ac233f", "3d4f695850"]
+      "ids": [
+        "8bf02e6394",
+        "488c8d47d1",
+        "1ea791a893",
+        "a1d5f029ad",
+        "03ad5f2e21",
+        "d01c7fb886",
+        "262377b2ad",
+        "81cffc677d",
+        "853a053701",
+        "15c5a17849",
+        "d5f7263f19",
+        "d466a35191",
+        "1185ac233f",
+        "3d4f695850",
+        "c3982a37cb"
+      ]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
       "explicacion": "El Inamhi mantiene la advertencia 83 hasta el 28 de octubre y Vistazo ubica a Guayas y El Oro entre las zonas de mayor riesgo; TC preguntó si Ecuador está preparado y Extra recuerda los estragos de 1982-1983. Riesgo de que cada inundación se lea como imprevisión; oportunidad de mostrar qué planes se activaron.",
-      "ids": ["641fdbdd81", "effe01313b", "8d16996e9f", "a50fa04347", "cc9fdc0e28", "69f377043b", "f3b5ddf07c", "5810405b6b", "8046e7e3f6", "6ec8899630", "79e14ee4b8"]
+      "ids": [
+        "641fdbdd81",
+        "effe01313b",
+        "8d16996e9f",
+        "a50fa04347",
+        "cc9fdc0e28",
+        "69f377043b",
+        "f3b5ddf07c",
+        "5810405b6b",
+        "8046e7e3f6",
+        "6ec8899630",
+        "79e14ee4b8"
+      ]
     },
     {
       "titulo": "Críticas a la gestión local y falta de limpieza",
-      "explicacion": "Apunta a municipios y a la Prefectura de El Oro: El Universo muestra baches de Guayaquil tapados con cáscaras de coco y pregunta qué deben hacer los gobiernos locales; en X se cuestionan las obras ante el desborde del canal El Macho en Machala. No se dirige a la SNGR.",
-      "ids": ["54f97f908f", "9bd546d2c0", "b946690554", "0677e0f5f5", "27f94ed49a", "19501df14b"]
+      "explicacion": "Apunta a municipios y a la Prefectura de El Oro: Diario Correo culpa a la negligencia de las inundaciones en Tendales; El Universo muestra baches de Guayaquil tapados con cáscaras de coco. No se dirige a la SNGR.",
+      "ids": [
+        "54f97f908f",
+        "9bd546d2c0",
+        "b946690554",
+        "0677e0f5f5",
+        "27f94ed49a",
+        "19501df14b",
+        "0b2e618b4b"
+      ]
     }
   ],
   "rumores": [
     {
       "titulo": "Nueva alerta roja emitida este domingo",
       "explicacion": "Una cuenta en X (373 vistas) afirma que la Secretaría emitió alerta roja este domingo; otras piezas citan la alerta roja nacional vigente desde el 29 de agosto. Respuesta sugerida: recordar en canales oficiales desde cuándo rige la alerta y qué implica (arts. 61 y 72).",
-      "ids": ["c98c01c51c", "157c66a269", "c2d72ea79f"]
+      "ids": [
+        "c98c01c51c",
+        "157c66a269",
+        "c2d72ea79f"
+      ]
     }
   ],
   "hitos": []
