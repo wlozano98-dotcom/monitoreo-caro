@@ -1,22 +1,22 @@
 {
   "vinetas": [
-    "X: 70 críticas en 24 h (ayer 1), respuestas a @Riesgos_Ec y @carolozanohok el lunes; cuentas pequeñas, máximo 421 vistas.",
+    "Sin datos nuevos desde las 12:17. X: 70 críticas en 24 h (ayer 1), cuentas pequeñas, máximo 421 vistas.",
     "En X se repite que Carlos Vera supo de la tormenta antes que la población; ninguna pieza lo prueba.",
-    "Medios: joven de 18 años murió arrastrado por un canal en Flor de Bastión; sectores anegados difieren: 42, 80, 90.",
-    "Ecuavisa: Segura EP admite que Guayaquil no tiene radar; Inamhi prevé otro pico hoy 15:00-17:00 con marea alta."
+    "Medios: joven de 18 años murió arrastrado por un canal en Flor de Bastión; sectores anegados difieren: 42, 66, 80, 90.",
+    "Inamhi prevé tormentas esta noche en Guayaquil e Inocar alerta marea alta; Segura EP admite no tener radar."
   ],
   "fuentes_vinetas": [
     ["3941c7bd80", "1d7d130ed1", "d3bdc317ac", "9eb1881ec6", "c11d39b237", "85f164973f", "35015e16fe"],
     ["fd0204f09e", "c162f1f076", "5e19c95d3d", "989e86f314", "5346d56f14", "9e537a7c79", "4002d41772", "c9ed0e514b"],
-    ["25ea1c6f2b", "95d85f05b2", "17a3c657c6", "2c991d9c36", "35cefdd280", "bf0cd3561a", "29063f4f2f"],
-    ["f6b76a8fa8", "82a007a60f", "7e5484f71a", "b54c9fb9c0"]
+    ["25ea1c6f2b", "95d85f05b2", "17a3c657c6", "05ed81845f", "ed168fdbf8", "35cefdd280", "bf0cd3561a", "29063f4f2f"],
+    ["7e5484f71a", "5720e2b9e6", "b54c9fb9c0", "f6b76a8fa8"]
   ],
   "acciones": [
     {
-      "accion": "Difundir antes de las 15:00 alerta SNGR por pico de lluvia y marea alta en Guayaquil.",
-      "porque": "Inamhi prevé pico hoy de 15:00 a 17:00 e Inocar alerta marea alta; el lunes murió un joven en Flor de Bastión.",
+      "accion": "Difundir esta noche alerta SNGR en Guayaquil: lluvia nocturna, marea alta, canales peligrosos.",
+      "porque": "Inamhi prevé tormentas en la noche e Inocar alerta marea alta; el lunes murió un joven arrastrado en Flor de Bastión.",
       "base_legal": "Art. 61 y 62",
-      "fuentes": ["82a007a60f", "b54c9fb9c0", "7e5484f71a", "25ea1c6f2b"]
+      "fuentes": ["7e5484f71a", "5720e2b9e6", "b54c9fb9c0", "25ea1c6f2b", "95d85f05b2"]
     },
     {
       "accion": "Publicar en X y web la cronología horaria de avisos SNGR e Inamhi del lunes.",
@@ -25,8 +25,8 @@
       "fuentes": ["7ea29c1370", "fd0204f09e", "c162f1f076", "5e19c95d3d", "5346d56f14", "8a2b4f3244"]
     },
     {
-      "accion": "Proponer en el COE Nacional de hoy lineamiento conjunto con Educación para suspender clases.",
-      "porque": "Reclamos en X sobre clases presenciales del lunes llegaron a @carolozanohok; UNE-El Oro pide emergencia educativa.",
+      "accion": "Proponer en el COE Nacional lineamiento con Educación para avisar suspensiones la víspera.",
+      "porque": "Reclamos en X por clases presenciales del lunes llegaron a @carolozanohok; UNE-El Oro pide emergencia educativa.",
       "base_legal": "Art. 13, 23.4 y 29",
       "fuentes": ["eea3d1a658", "923e442d6d", "c06ee51bb3", "504b254af1", "3941c7bd80", "5107009040"]
     }
@@ -44,8 +44,8 @@
     },
     {
       "titulo": "Piden avisar a tiempo la suspensión de clases",
-      "explicacion": "Apunta sobre todo al Ministerio de Educación y a la ministra Gilda Alcívar, pero los reclamos llegan a la cuenta de Carolina; Educación dispuso clases no presenciales para el martes y la UNE-El Oro pide emergencia educativa. Puede leerse como falla de alerta temprana de la Secretaría.",
-      "ids": ["923e442d6d", "c06ee51bb3", "504b254af1", "354b6aecfb", "01329454e6", "7970ba831d", "3941c7bd80", "a0db0defea", "66f3e4fd56", "c6c5145694", "e204b826e4", "9f62a6f8f3", "c07347a9f0", "5107009040", "4778c89853", "031f508d65"]
+      "explicacion": "Apunta sobre todo al Ministerio de Educación y a la ministra Gilda Alcívar, pero los reclamos llegan a la cuenta de Carolina; Educación activó clases virtuales el martes en zonas afectadas de Guayaquil, Durán y Samborondón y la UNE-El Oro pide emergencia educativa. Puede leerse como falla de alerta temprana de la Secretaría.",
+      "ids": ["923e442d6d", "c06ee51bb3", "504b254af1", "354b6aecfb", "01329454e6", "7970ba831d", "3941c7bd80", "a0db0defea", "66f3e4fd56", "c6c5145694", "e204b826e4", "9f62a6f8f3", "c07347a9f0", "5107009040", "4778c89853", "031f508d65", "69e9313b55", "34b2f19b28"]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
@@ -55,7 +55,7 @@
     {
       "titulo": "Las lluvias ya afectan a todo el país",
       "explicacion": "Medios repiten el balance SNGR de tres fallecidos y más de 30.000 afectados, con cifras que difieren (30.539 y 30.534), y suman 15 ríos desbordados en cinco provincias, Machala, Manta, Santo Domingo y Quito. Diferencias de cifras exponen a la Secretaría a dudas sobre sus datos.",
-      "ids": ["a8aa543dcd", "6e4ebfa3ee", "6b10ded9ff", "d9226dc283", "ea338f3f74", "631b883528", "bc75f18e44", "4cd2ecf164", "667dee8cda", "69013aaa65", "d301e2d779", "1a1365a707", "574cd0b1ad", "d08f7afb00"]
+      "ids": ["a8aa543dcd", "6e4ebfa3ee", "6b10ded9ff", "d9226dc283", "ea338f3f74", "631b883528", "bc75f18e44", "4cd2ecf164", "667dee8cda", "69013aaa65", "d301e2d779", "1a1365a707", "574cd0b1ad", "d08f7afb00", "a8f7c53852"]
     },
     {
       "titulo": "Críticas a la gestión local y falta de limpieza",
@@ -70,11 +70,5 @@
       "ids": ["c162f1f076", "5e19c95d3d", "989e86f314", "5346d56f14", "9e537a7c79", "89d681f309"]
     }
   ],
-  "hitos": [
-    {
-      "dia": "2026-10-27",
-      "titulo": "Hallan sin vida a joven arrastrado en Flor de Bastión",
-      "ids": ["95d85f05b2", "25ea1c6f2b", "c5b1da2092", "17a3c657c6", "48cad07d90"]
-    }
-  ]
+  "hitos": []
 }
