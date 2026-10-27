@@ -1,76 +1,74 @@
 {
   "vinetas": [
-    "Tormenta del lunes paralizó Guayaquil: vuelos desviados, túneles cerrados; los medios cuentan entre 18 y 42 sectores anegados.",
-    "Medios: 243 piezas vs 117, repiten balance SNGR de tres fallecidos y 30.534 afectados; X bajó de 57 a 6.",
-    "Riesgo para la alerta: Ecuavisa recoge padres que piden avisos a tiempo para suspender clases; la UNE pide emergencia educativa.",
-    "Inamhi: hoy y mañana, días más críticos, advertencia 83 hasta el miércoles 28; Prefectura del Guayas: \"esto recién empieza\"."
+    "Medios: 294 piezas vs 112, casi todas neutras; en X, 70 críticas vs 4 ayer, en respuestas a la Secretaría.",
+    "En X se extiende que a Carlos Vera le avisaron antes que a la ciudadanía; ninguna pieza lo prueba.",
+    "Una decena de respuestas pide a Carolina clases virtuales; Educación anunció la no presencialidad del martes a las 17:03.",
+    "Inamhi prevé otro pico en Guayaquil este martes entre 15:00 y 17:00; en Flor de Bastión un joven sigue desaparecido."
   ],
   "fuentes_vinetas": [
-    ["09a5931e02", "a181105bac", "4201f9c8e1", "287809b065", "5204d7935e", "2c991d9c36", "0e1b557238"],
-    ["396e485035", "6e4ebfa3ee", "6b10ded9ff", "a91349c178"],
-    ["95a9109a05", "76c6954d15", "d9f86eb8e7", "e00da2dcb6"],
-    ["a98086226b", "8d16996e9f", "effe01313b", "f7aa60468b", "4840c5326f"]
+    [],
+    ["fd0204f09e", "5346d56f14", "5e19c95d3d", "c162f1f076", "989e86f314", "9e537a7c79", "a34f7571da", "1a8057b4c2", "c9ed0e514b", "4002d41772", "8a2b4f3244"],
+    ["7970ba831d", "354b6aecfb", "01329454e6", "923e442d6d", "c06ee51bb3", "504b254af1", "e204b826e4", "c3211ed8c9", "303da5fff2"],
+    ["82a007a60f", "f095c174a0", "20b1791e7f", "2e58b1058f", "1048457052"]
   ],
   "acciones": [
     {
-      "accion": "Acordar con Educación y COE de Guayaquil hora fija para anunciar suspensión de clases.",
-      "porque": "Ecuavisa: padres piden avisos a tiempo; la UNE pide emergencia educativa; Inamhi: hoy y mañana, días más críticos.",
-      "base_legal": "Art. 29, 62 y 64.6",
-      "fuentes": ["95a9109a05", "76c6954d15", "d9f86eb8e7", "e00da2dcb6", "a98086226b", "1ed1434420"]
+      "accion": "Difundir antes de las 13:00 alerta por el pico Inamhi de 15:00 a 17:00.",
+      "porque": "Inamhi anticipa pico martes de 15:00 a 17:00; Inocar, marea alta; en X reprochan que el aviso del lunes llegó tarde.",
+      "base_legal": "Art. 61, 62 y 64.6",
+      "fuentes": ["82a007a60f", "20b1791e7f", "0cf95befab", "1d7d130ed1", "d3bdc317ac", "85f164973f", "cf2f08284f"]
     },
     {
-      "accion": "Ofrecer apoyo subsidiario al COE de Balao y publicar la ayuda entregada allí.",
-      "porque": "Ecuavisa: 500 familias afectadas y 200 metros de muro colapsados; el prefecto Encalada denunció albergues desmantelados en Balao.",
-      "base_legal": "Art. 14, 21.4 y 73",
-      "fuentes": ["0dd6580e90", "3c8f86b965", "ec24938f52", "0537aa793b", "de0ad6b1c6"]
+      "accion": "Publicar en X y web la hora de cada advertencia Inamhi y comunicado SNGR",
+      "porque": "En X se repite que a Carlos Vera le avisaron primero; El Diario ya publicaba advertencias del Inamhi a las 9:40.",
+      "base_legal": "Art. 61 y 72",
+      "fuentes": ["c162f1f076", "5e19c95d3d", "5346d56f14", "989e86f314", "8705ab4a05", "7ea29c1370", "a98086226b"]
     },
     {
-      "accion": "Publicar en web y X un balance único diario de afectados y ríos desbordados.",
-      "porque": "Medios difieren: 11 o 12 ríos; 30.436, 30.534 o más de 30.500 afectados; El Oro, 882 o más de 6.000.",
-      "base_legal": "Art. 61, 72 y 73",
-      "fuentes": ["83df2cdd36", "b8c04b3ce4", "9373b30de5", "b76377056b", "396e485035", "a91349c178", "a634cb80b0", "f942b7df8e"]
+      "accion": "Acordar con Educación y COE cantonal una hora fija para anunciar modalidad de clases.",
+      "porque": "Respuestas a Carolina exigen clases virtuales; Primicias publicó la no presencialidad del martes a las 17:03; Ecuavisa: padres piden avisos oportunos.",
+      "base_legal": "Art. 23.4, 29 y 62",
+      "fuentes": ["7970ba831d", "354b6aecfb", "c06ee51bb3", "504b254af1", "c3211ed8c9", "95a9109a05", "76c6954d15"]
     }
   ],
   "narrativas": [
     {
-      "titulo": "Las lluvias ya afectan a todo el país",
-      "explicacion": "Radio Pichincha, Infobae, El Universo, Primicias y Teleamazonas repiten el balance SNGR de tres fallecidos y más de 30.000 afectados; hoy se suman la tormenta en Guayaquil y Manta y 11 o 12 ríos desbordados. Las cifras siguen sin coincidir entre medios, lo que expone a la Secretaría a dudas sobre sus datos.",
-      "ids": ["6e4ebfa3ee", "6b10ded9ff", "396e485035", "b76377056b", "a91349c178", "e7e7b9d125", "31b67e63dc", "87febc8aaa", "e8e8a3f543", "9373b30de5", "c779ff076f", "2d9703ff6f", "09e90df151", "b8c04b3ce4", "83df2cdd36", "16fa6e1c74", "45559144bc", "bfdc357f9f", "f0576b9868", "d301e2d779", "cf9fd3efdb", "6bf52457a6", "4db126425d", "c4bcb4de74", "7a0c362951", "d6859f95b2", "9b011159e1", "92b9c4629c", "0a7c04598e", "9fa36461b1", "004e635b0d", "09a5931e02", "a181105bac", "9e7dae91e8", "81669d39fb"]
+      "titulo": "A Carlos Vera le avisaron antes que al pueblo",
+      "explicacion": "Surge el lunes en más de una decena de respuestas en X a @Riesgos_Ec y @carolozanohok, de cuentas pequeñas pero repetidas. Golpea la credibilidad de la Secretaría como fuente oficial; se responde con transparencia sobre horas de las alertas.",
+      "ids": ["fb1560d444", "fd0204f09e", "4002d41772", "c162f1f076", "c9ed0e514b", "5346d56f14", "5e19c95d3d", "989e86f314", "89d681f309", "a34f7571da", "9e537a7c79", "1a8057b4c2", "e9a9c5ce37", "8a2b4f3244", "d9083f39c2", "8556dd168b"]
     },
     {
-      "titulo": "Coordinación preventiva y entrega de asistencia oficial",
-      "explicacion": "El fin de semana Ecuavisa, El Universo, TC Televisión y La Data difundieron los 2.107 kits de la SNGR en cuatro provincias; hoy solo hay notas menores (Metro Ecuador: Riesgos identifica sectores afectados en Guayaquil) y las declaraciones de Carolina Lozano en YouTube casi no tienen vistas. Es la principal fuente de tono positivo y se está apagando.",
-      "ids": ["e9ae35cd03", "5f99012d23", "51cd575cbf", "db2e675122", "a3ba71ca09", "7e653cac83", "2e08d8b69c", "d208401055", "334a608030", "434ab2fc31", "d7de1aad01", "db9874d645", "4a82037e24", "5bf1aa7760", "7d1531fc37", "20187b0c2f", "392b34d15d", "8114552f7b", "7ea29c1370"]
-    },
-    {
-      "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Noboa habla de un 'súper Niño' (Radio Centro, 9.527 vistas), el Inamhi prevé días críticos hasta el 28 y más lluvia desde esa fecha, la OEA advierte inundaciones y la Prefectura del Guayas dice que 'esto recién empieza'; en comentarios de YouTube se reclama que no se hizo nada para prevenir. Riesgo de que cada inundación se lea como imprevisión; oportunidad de mostrar los planes ya entregados.",
-      "ids": ["8c2618b84b", "da5da4fe11", "a98086226b", "a5298f7479", "a18f6ef9f9", "907b478a49", "49d6036d90", "2b805feaa3", "7579f5175b", "dd2d330741", "39641bc75d", "03c9a7d6af", "f7aa60468b", "4840c5326f", "6f1c9aae93", "19b6f308b3", "0c57e9541a", "053b1cdd19", "f3b5ddf07c"]
-    },
-    {
-      "titulo": "La ayuda llega tarde a Balao",
-      "explicacion": "Ecuavisa vuelve hoy sobre Balao con 500 familias afectadas y el colapso de un muro de contención, con videos de más de 1.500 vistas; el domingo cuentas pequeñas pidieron ayuda a la Prefectura y a Riesgos. Tras el cruce con el prefecto Encalada sobre albergues, el riesgo es que la demora se cargue a la Secretaría.",
-      "ids": ["0dd6580e90", "3c8f86b965", "ec24938f52", "c4abaa527d", "70c75c71d2", "5cced2addd", "de0ad6b1c6", "0e405d227d", "a997f016cf", "3d8fd99d6e", "d67662ff97", "2904029091", "0537aa793b", "c9b8f51fb0"]
-    },
-    {
-      "titulo": "Críticas a la gestión local y falta de limpieza",
-      "explicacion": "Apunta a municipios y prefecturas: Diario Correo culpa a la negligencia por Tendales, Extra reporta más de 120 sectores de Machala inundados por dos canales, Teleamazonas muestra basura en esteros de Guayaquil y comentarios en Ecuavisa culpan al Municipio de Quito por el Caupicho. No se dirige a la SNGR.",
-      "ids": ["0b2e618b4b", "d4441d6448", "97edab9c34", "4eb088697d", "f1381f47a3", "2e7b737fde", "27f94ed49a"]
+      "titulo": "Riesgos avisa tarde y desde el escritorio",
+      "explicacion": "Tras el reporte situacional de Carolina Lozano y la subsecretaria Quispillo, usuarios de X reclaman que el aviso llegó después del desastre y piden presencia en Sauces, Samanes, el suburbio y la vía a la Costa. Es el principal riesgo reputacional directo para la Secretaría y para ella.",
+      "ids": ["1d7d130ed1", "d3bdc317ac", "85f164973f", "7585eecbdb", "cf2f08284f", "d6865d520e", "620755d8ee", "d84e7b0b54", "3b0a9448ac", "c07347a9f0", "9bddace0ae", "9eb1881ec6", "c11d39b237", "005cda4e23", "39ef965c32", "35015e16fe", "4e7c7aecf1", "90ba85add7"]
     },
     {
       "titulo": "Piden avisar a tiempo la suspensión de clases",
-      "explicacion": "Ecuavisa y El Diario recogen a padres que reclaman avisos oportunos y la UNE pide declaratoria de emergencia educativa; apunta sobre todo al Ministerio de Educación y a los COE. Puede rozar a la Secretaría si se lee como falla de alerta temprana.",
-      "ids": ["95a9109a05", "76c6954d15", "d9f86eb8e7", "e00da2dcb6"]
+      "explicacion": "Apunta sobre todo al Ministerio de Educación y a la ministra Gilda Alcívar, pero los reclamos se dirigen a la cuenta de Carolina; Ecuavisa recogió a padres que piden avisos oportunos. Puede leerse como falla de alerta temprana de la Secretaría.",
+      "ids": ["7970ba831d", "354b6aecfb", "01329454e6", "923e442d6d", "c06ee51bb3", "504b254af1", "a0db0defea", "66f3e4fd56", "3941c7bd80", "9f62a6f8f3", "95a9109a05", "76c6954d15", "e204b826e4", "c6c5145694"]
+    },
+    {
+      "titulo": "Las lluvias empeorarán y no estamos preparados",
+      "explicacion": "Noboa habla de un 'súper Niño' (Radio Centro, 14.857 vistas), el Inamhi anuncia el 'mayor apogeo' y más lluvia desde el 28, la OEA pide inversión preventiva y la Prefectura del Guayas dice que 'esto recién empieza'; en comentarios se reclama que no se hizo nada para prevenir. Cada nueva inundación puede leerse como imprevisión.",
+      "ids": ["8c2618b84b", "31b2db0997", "f6c675e4e1", "f095c174a0", "82a007a60f", "a5298f7479", "a98086226b", "f7aa60468b", "03c9a7d6af", "7579f5175b", "19b6f308b3", "053b1cdd19", "a4bef17bea"]
+    },
+    {
+      "titulo": "Las lluvias ya afectan a todo el país",
+      "explicacion": "Medios repiten el balance SNGR de tres fallecidos y más de 30.000 afectados y suman Guayaquil, Manta, Machala y El Guabo; las cifras difieren entre piezas (30.436, 30.534, más de 30.500). Expone a la Secretaría a dudas sobre sus datos.",
+      "ids": ["6e4ebfa3ee", "6b10ded9ff", "396e485035", "b76377056b", "a91349c178", "ea338f3f74", "05f1e598db", "9373b30de5", "c779ff076f", "8967f3a3ee", "cf9fd3efdb", "d301e2d779", "09a5931e02", "a181105bac", "574cd0b1ad", "9e7dae91e8", "1b319ca6fe", "918f64606f", "860a5f26af", "638db69254"]
+    },
+    {
+      "titulo": "Críticas a la gestión local y falta de limpieza",
+      "explicacion": "Apunta a municipios y prefecturas: Extra reporta más de 120 sectores de Machala inundados por dos canales y comentarios culpan a los municipios de Guayaquil y Quito y a la Prefectura del Guayas por el dragado. No se dirige a la SNGR.",
+      "ids": ["d4441d6448", "4eb088697d", "f1381f47a3", "2e7b737fde", "98360168e4", "ee5fda732b", "86ac173789", "bce72821dd"]
     }
   ],
   "rumores": [
     {
-      "titulo": "\"Riesgos emitió este domingo la alerta roja\"",
-      "explicacion": "Una cuenta de X afirma que la SNGR declaró la alerta roja el domingo 25; otras piezas indican que rige desde el 29 de agosto. Puede hacer creer que hay una alerta nueva; responder con la fecha y el alcance oficiales de la alerta vigente (arts. 61 y 72).",
-      "ids": ["c98c01c51c", "157c66a269", "c2d72ea79f"]
+      "titulo": "Fuentes oficiales avisaron solo a Carlos Vera",
+      "explicacion": "Cuentas de X afirman que el Gobierno o la Secretaría dieron a Carlos Vera información exclusiva de la tormenta; ninguna pieza aporta prueba. Respuesta sugerida: publicar las horas de las advertencias del Inamhi y de los comunicados SNGR y reiterar los canales oficiales (arts. 61 y 72).",
+      "ids": ["c162f1f076", "5e19c95d3d", "989e86f314", "5346d56f14", "9e537a7c79", "89d681f309"]
     }
   ],
-  "hitos": [
-    {"dia": "2026-10-26", "titulo": "Tormenta paraliza Guayaquil: vuelos desviados, túneles cerrados", "ids": ["09a5931e02", "a181105bac", "4201f9c8e1", "287809b065", "9184cd4421"]}
-  ]
+  "hitos": []
 }
