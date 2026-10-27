@@ -1,233 +1,80 @@
 {
   "vinetas": [
-    "En X, 70 críticas en 24 h frente a 4 ayer, en respuestas a la Secretaría; ninguna supera 421 vistas.",
-    "Medios: 297 piezas, casi todas neutras; El Universo recoge el balance SNGR de 18 emergencias en nueve provincias.",
-    "X repite que a Carlos Vera le avisaron antes; ninguna pieza lo prueba. Sin piezas de X tras las 20:03.",
-    "Inamhi prevé otro pico hoy en Guayaquil, 15:00 a 17:00, con marea alta; joven de Flor de Bastión seguía desaparecido."
+    "X: 70 críticas en 24 h (ayer 1), respuestas a @Riesgos_Ec y @carolozanohok el lunes; cuentas pequeñas, máximo 421 vistas.",
+    "En X se repite que Carlos Vera supo de la tormenta antes que la población; ninguna pieza lo prueba.",
+    "Medios: joven de 18 años murió arrastrado por un canal en Flor de Bastión; sectores anegados difieren: 42, 80, 90.",
+    "Ecuavisa: Segura EP admite que Guayaquil no tiene radar; Inamhi prevé otro pico hoy 15:00-17:00 con marea alta."
   ],
   "fuentes_vinetas": [
-    [
-      "3941c7bd80",
-      "0442dd2016",
-      "7970ba831d",
-      "d3bdc317ac",
-      "1d7d130ed1"
-    ],
-    [
-      "69013aaa65"
-    ],
-    [
-      "fd0204f09e",
-      "5346d56f14",
-      "5e19c95d3d",
-      "c162f1f076",
-      "989e86f314",
-      "9e537a7c79",
-      "a34f7571da",
-      "1a8057b4c2",
-      "c9ed0e514b",
-      "4002d41772",
-      "9bddace0ae"
-    ],
-    [
-      "82a007a60f",
-      "ce282dbb61",
-      "0cf95befab",
-      "20b1791e7f",
-      "c5eba39430",
-      "96558ad648"
-    ]
+    ["3941c7bd80", "1d7d130ed1", "d3bdc317ac", "9eb1881ec6", "c11d39b237", "85f164973f", "35015e16fe"],
+    ["fd0204f09e", "c162f1f076", "5e19c95d3d", "989e86f314", "5346d56f14", "9e537a7c79", "4002d41772", "c9ed0e514b"],
+    ["25ea1c6f2b", "95d85f05b2", "17a3c657c6", "2c991d9c36", "35cefdd280", "bf0cd3561a", "29063f4f2f"],
+    ["f6b76a8fa8", "82a007a60f", "7e5484f71a", "b54c9fb9c0"]
   ],
   "acciones": [
     {
-      "accion": "Emitir antes de las 12:00 alerta SNGR por el pico de 15:00-17:00 en Guayaquil.",
-      "porque": "Inamhi anticipa pico martes de 15:00 a 17:00; Inocar alerta marea alta; en X reprochan que el aviso del lunes llegó tarde.",
-      "base_legal": "Art. 61, 62 y 64.6",
-      "fuentes": [
-        "82a007a60f",
-        "ce282dbb61",
-        "0cf95befab",
-        "20b1791e7f",
-        "1d7d130ed1",
-        "d3bdc317ac",
-        "85f164973f"
-      ]
+      "accion": "Difundir antes de las 15:00 alerta SNGR por pico de lluvia y marea alta en Guayaquil.",
+      "porque": "Inamhi prevé pico hoy de 15:00 a 17:00 e Inocar alerta marea alta; el lunes murió un joven en Flor de Bastión.",
+      "base_legal": "Art. 61 y 62",
+      "fuentes": ["82a007a60f", "b54c9fb9c0", "7e5484f71a", "25ea1c6f2b"]
     },
     {
-      "accion": "Publicar en X y web la hora de cada aviso Inamhi y SNGR.",
-      "porque": "Decenas de respuestas repiten que a Carlos Vera le avisaron primero; Veinticuatro Siete cita un comunicado SNGR del lunes a las 16:05.",
+      "accion": "Publicar en X y web la cronología horaria de avisos SNGR e Inamhi del lunes.",
+      "porque": "Unas 15 respuestas en X dicen que Carlos Vera supo antes; hay un comunicado SNGR de las 16:05 que puede mostrarse.",
       "base_legal": "Art. 61 y 72",
-      "fuentes": [
-        "c162f1f076",
-        "5e19c95d3d",
-        "5346d56f14",
-        "989e86f314",
-        "fd0204f09e",
-        "7ea29c1370",
-        "a98086226b"
-      ]
+      "fuentes": ["7ea29c1370", "fd0204f09e", "c162f1f076", "5e19c95d3d", "5346d56f14", "8a2b4f3244"]
     },
     {
-      "accion": "Pedir al COE de Guayas y a Educación anunciar hoy la modalidad del miércoles.",
-      "porque": "Inamhi prevé más lluvia desde el 28; en X exigen a Carolina clases virtuales; Ecuavisa: padres piden avisos a tiempo.",
-      "base_legal": "Art. 23.4, 29 y 62",
-      "fuentes": [
-        "a5298f7479",
-        "7970ba831d",
-        "354b6aecfb",
-        "c06ee51bb3",
-        "504b254af1",
-        "95a9109a05",
-        "76c6954d15"
-      ]
+      "accion": "Proponer en el COE Nacional de hoy lineamiento conjunto con Educación para suspender clases.",
+      "porque": "Reclamos en X sobre clases presenciales del lunes llegaron a @carolozanohok; UNE-El Oro pide emergencia educativa.",
+      "base_legal": "Art. 13, 23.4 y 29",
+      "fuentes": ["eea3d1a658", "923e442d6d", "c06ee51bb3", "504b254af1", "3941c7bd80", "5107009040"]
     }
   ],
   "narrativas": [
     {
-      "titulo": "A Carlos Vera le avisaron antes que al pueblo",
-      "explicacion": "Se repite en 16 respuestas en X a @Riesgos_Ec y @carolozanohok la noche del lunes, de cuentas pequeñas (la mayor con 6.586 seguidores y 40 vistas). Golpea la credibilidad de la Secretaría como fuente oficial; se responde con transparencia sobre las horas de los avisos.",
-      "ids": [
-        "8556dd168b",
-        "fb1560d444",
-        "fd0204f09e",
-        "4002d41772",
-        "c162f1f076",
-        "c9ed0e514b",
-        "5e19c95d3d",
-        "89d681f309",
-        "989e86f314",
-        "5346d56f14",
-        "8a2b4f3244",
-        "d9083f39c2",
-        "a34f7571da",
-        "9e537a7c79",
-        "1a8057b4c2",
-        "e9a9c5ce37"
-      ]
+      "titulo": "Riesgos avisa tarde y desde el escritorio",
+      "explicacion": "Tras el reporte situacional del lunes de Carolina Lozano y la subsecretaria Quispillo, decenas de respuestas en X dicen que el aviso llegó después del desastre y reclaman presencia en Sauces, Samanes, el suburbio y la vía a la Costa. Sigue siendo el principal riesgo reputacional directo para la Secretaría y para ella.",
+      "ids": ["9bddace0ae", "1d7d130ed1", "9eb1881ec6", "c11d39b237", "d3bdc317ac", "85f164973f", "7585eecbdb", "005cda4e23", "39ef965c32", "4e7c7aecf1", "cf2f08284f", "d6865d520e", "3b0a9448ac", "620755d8ee", "d84e7b0b54", "35015e16fe", "6ee2d935d3", "f901afca6d", "3941c7bd80"]
     },
     {
-      "titulo": "Riesgos avisa tarde y desde el escritorio",
-      "explicacion": "Tras el reporte situacional de Carolina Lozano y la subsecretaria Quispillo, usuarios de X dicen que el aviso llegó después del desastre y reclaman presencia en Sauces, Samanes, el suburbio y la vía a la Costa. Es el principal riesgo reputacional directo para la Secretaría y para ella.",
-      "ids": [
-        "9bddace0ae",
-        "39ef965c32",
-        "9eb1881ec6",
-        "1d7d130ed1",
-        "7585eecbdb",
-        "005cda4e23",
-        "d3bdc317ac",
-        "3b0a9448ac",
-        "c11d39b237",
-        "85f164973f",
-        "cf2f08284f",
-        "6ee2d935d3",
-        "35015e16fe",
-        "4e7c7aecf1",
-        "d84e7b0b54",
-        "620755d8ee",
-        "f901afca6d",
-        "0442dd2016"
-      ]
+      "titulo": "A Carlos Vera le avisaron antes que al pueblo",
+      "explicacion": "Se repite en respuestas a @Riesgos_Ec y @carolozanohok la noche del lunes, de cuentas pequeñas (la mayor con 6.586 seguidores y 40 vistas). Golpea la credibilidad de la Secretaría como fuente oficial; se responde mostrando las horas de los avisos.",
+      "ids": ["fd0204f09e", "c162f1f076", "5e19c95d3d", "989e86f314", "5346d56f14", "9e537a7c79", "89d681f309", "e9a9c5ce37", "c9ed0e514b", "4002d41772", "fb1560d444", "8556dd168b", "a34f7571da", "1a8057b4c2", "fda4b19d85", "d9083f39c2", "8a2b4f3244"]
     },
     {
       "titulo": "Piden avisar a tiempo la suspensión de clases",
-      "explicacion": "Apunta sobre todo al Ministerio de Educación y a la ministra Gilda Alcívar, pero los reclamos llegan a la cuenta de Carolina; Ecuavisa recogió a padres que piden avisos oportunos y la UNE pide emergencia educativa. Puede leerse como falla de alerta temprana de la Secretaría.",
-      "ids": [
-        "a0db0defea",
-        "7970ba831d",
-        "354b6aecfb",
-        "01329454e6",
-        "c07347a9f0",
-        "923e442d6d",
-        "c06ee51bb3",
-        "504b254af1",
-        "66f3e4fd56",
-        "c6c5145694",
-        "e204b826e4",
-        "9f62a6f8f3",
-        "76c6954d15",
-        "95a9109a05",
-        "5107009040",
-        "e00da2dcb6",
-        "0c57e9541a",
-        "4778c89853"
-      ]
+      "explicacion": "Apunta sobre todo al Ministerio de Educación y a la ministra Gilda Alcívar, pero los reclamos llegan a la cuenta de Carolina; Educación dispuso clases no presenciales para el martes y la UNE-El Oro pide emergencia educativa. Puede leerse como falla de alerta temprana de la Secretaría.",
+      "ids": ["923e442d6d", "c06ee51bb3", "504b254af1", "354b6aecfb", "01329454e6", "7970ba831d", "3941c7bd80", "a0db0defea", "66f3e4fd56", "c6c5145694", "e204b826e4", "9f62a6f8f3", "c07347a9f0", "5107009040", "4778c89853", "031f508d65"]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "El Inamhi anuncia el 'mayor apogeo' y más lluvia desde el 28, la OEA pide prepararse y la Prefectura del Guayas dice que vienen días más difíciles; en comentarios se reclama que no se previno. Cada nueva inundación puede leerse como imprevisión.",
-      "ids": [
-        "31b2db0997",
-        "f6c675e4e1",
-        "a5298f7479",
-        "82a007a60f",
-        "f095c174a0",
-        "03c9a7d6af",
-        "49d6036d90",
-        "39641bc75d",
-        "4840c5326f",
-        "6b4517a9b1",
-        "d84e7b0b54",
-        "a502cbd61d",
-        "980aedad83",
-        "325afd8cdd",
-        "0bb63a3d9d"
-      ]
+      "explicacion": "El Inamhi anuncia el 'mayor apogeo' y nuevos picos, un experto en Teleamazonas ubica el pico a fines de noviembre y diciembre y la OEA pide prepararse; en comentarios se reclama que no se previno. Cada nueva inundación puede leerse como imprevisión del Estado.",
+      "ids": ["3691ee37c4", "980797fe52", "82a007a60f", "f6c675e4e1", "31b2db0997", "f901becfde", "054eaab8a6", "36e02f59d7", "a502cbd61d", "6b4517a9b1", "bfd2e80b4f"]
     },
     {
       "titulo": "Las lluvias ya afectan a todo el país",
-      "explicacion": "Medios repiten el balance SNGR de tres fallecidos y más de 30.000 afectados, con cifras que difieren entre piezas (30.436, 30.534, más de 30.500), y suman Machala, Balao, Manta y Quito. El Televistazo de Ecuavisa del lunes suma 123.007 vistas. Expone a la Secretaría a dudas sobre sus datos.",
-      "ids": [
-        "69013aaa65",
-        "6e4ebfa3ee",
-        "6b10ded9ff",
-        "a91349c178",
-        "b76377056b",
-        "d9226dc283",
-        "9373b30de5",
-        "c779ff076f",
-        "2d9703ff6f",
-        "cf9fd3efdb",
-        "4b68da5f09",
-        "a634cb80b0",
-        "1b319ca6fe",
-        "574cd0b1ad",
-        "81669d39fb",
-        "3c8f86b965",
-        "860a5f26af",
-        "918f64606f"
-      ]
+      "explicacion": "Medios repiten el balance SNGR de tres fallecidos y más de 30.000 afectados, con cifras que difieren (30.539 y 30.534), y suman 15 ríos desbordados en cinco provincias, Machala, Manta, Santo Domingo y Quito. Diferencias de cifras exponen a la Secretaría a dudas sobre sus datos.",
+      "ids": ["a8aa543dcd", "6e4ebfa3ee", "6b10ded9ff", "d9226dc283", "ea338f3f74", "631b883528", "bc75f18e44", "4cd2ecf164", "667dee8cda", "69013aaa65", "d301e2d779", "1a1365a707", "574cd0b1ad", "d08f7afb00"]
     },
     {
       "titulo": "Críticas a la gestión local y falta de limpieza",
-      "explicacion": "Apunta a municipios y prefecturas: comentarios culpan a los municipios de Guayaquil y Quito por alcantarillas y a la Prefectura del Guayas por el dragado; Extra recoge que municipio y expertos discrepan sobre la preparación de Guayaquil. No se dirige a la SNGR.",
-      "ids": [
-        "a18f554283",
-        "bce72821dd",
-        "3ec658e78f",
-        "98360168e4",
-        "ee5fda732b",
-        "86ac173789",
-        "4eb088697d",
-        "2e7b737fde",
-        "1b8e3fd9c1",
-        "541c7e9898"
-      ]
+      "explicacion": "Apunta a municipios y prefecturas: comentarios culpan al Municipio de Guayaquil por alcantarillas y a la Prefectura del Guayas por el dragado; Segura EP admite que no hay radar y Nataly Morillo critica el plan de Quito. No se dirige a la SNGR.",
+      "ids": ["7ce0b5e5b7", "a18f554283", "98360168e4", "ee5fda732b", "86ac173789", "5bf83a8bfa", "491aa0412c", "1b8e3fd9c1", "77fc0834b4", "f6b76a8fa8"]
     }
   ],
   "rumores": [
     {
-      "titulo": "Fuentes oficiales avisaron solo a Carlos Vera",
-      "explicacion": "Cuentas de X afirman que el Gobierno o la Secretaría dieron a Carlos Vera información exclusiva de la tormenta; ninguna pieza aporta prueba. Respuesta sugerida: publicar las horas de las advertencias del Inamhi y de los comunicados SNGR y reiterar los canales oficiales (arts. 61 y 72).",
-      "ids": [
-        "c162f1f076",
-        "5e19c95d3d",
-        "989e86f314",
-        "5346d56f14",
-        "9e537a7c79",
-        "89d681f309"
-      ]
+      "titulo": "Al periodista Carlos Vera le dieron información exclusiva de la tormenta",
+      "explicacion": "Varias respuestas en X afirman sin prueba que el Gobierno o la Secretaría pasó el aviso a Carlos Vera antes que a la población. Respuesta sugerida: publicar las horas exactas de los avisos oficiales del lunes y recordar los canales oficiales (arts. 61 y 72).",
+      "ids": ["c162f1f076", "5e19c95d3d", "989e86f314", "5346d56f14", "9e537a7c79", "89d681f309"]
     }
   ],
-  "hitos": []
+  "hitos": [
+    {
+      "dia": "2026-10-27",
+      "titulo": "Hallan sin vida a joven arrastrado en Flor de Bastión",
+      "ids": ["95d85f05b2", "25ea1c6f2b", "c5b1da2092", "17a3c657c6", "48cad07d90"]
+    }
+  ]
 }
