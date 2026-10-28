@@ -147,7 +147,7 @@
     },
     {
       "titulo": "El Gobierno llega con bombas, bonos y kits",
-      "explicacion": "Medios difunden el anuncio de Noboa de 1.778 bombas de agua (Radio Pichincha dice 1.788) y el bono de contingencia de USD 303,99; la Alcaldía de Muisne agradece kits a la SNGR. Es la principal oportunidad positiva, aunque la diferencia de cifras puede generar dudas.",
+      "explicacion": "Medios difunden las bombas de agua anunciadas por Noboa con cifras distintas (1.778 en El Comercio y Vistazo, 1.788 en Radio Pichincha, 1 700 en Teleamazonas) y el bono de contingencia de USD 303,99; la Alcaldía de Muisne agradece kits a la SNGR. Es la principal oportunidad positiva, aunque la diferencia de cifras puede generar dudas.",
       "ids": [
         "73d8460f68",
         "1e62bd1527",
@@ -162,7 +162,9 @@
         "a319727052",
         "f7b83b4496",
         "26300ead40",
-        "49f3d49d19"
+        "49f3d49d19",
+        "ed9315a9ce",
+        "ab88793ace"
       ]
     },
     {
