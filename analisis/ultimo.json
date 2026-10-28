@@ -1,201 +1,182 @@
 {
   "vinetas": [
-    "Críticas en X caen de 84 a 31 en 24 h; en YouTube suben de 16 a 23. Video de Dieb: 3.696 vistas.",
-    "Machala ya abrió segundo albergue y Diario Correo prevé lluvias más intensas el 2 de noviembre, en pleno feriado.",
-    "María Cristina Kronfle agradece a Carolina su rescate (1.854 vistas); respuestas le reclaman falta de aviso y de suspensión de clases.",
-    "Cifras de afectados difieren entre medios: América Económica 34.208, Primicias casi 32.000, ABC más de 30.500."
+    "La crítica en redes cae: en X, 8 piezas críticas en 24 h frente a 99 el día anterior; YouTube, 6 frente a 32.",
+    "Esmeraldas pasa al centro: medios reportan cerca de 18.000 afectados y un puente colapsado (El Comercio, El Universo, Radio Pichincha).",
+    "Cifras nacionales difieren: Radio Pichincha, con datos SNGR, da cerca de 32.000 afectados; América Económica, 34.208. Ambos: cuatro fallecidos.",
+    "Machala: damnificados coparon el albergue (El Comercio) y se habilitó un segundo tras llenarse el Coliseo (El Universo)."
   ],
   "fuentes_vinetas": [
+    [],
     [
-      "d3b97cc3c3"
+      "a8dba4f9e4",
+      "0d4386923c",
+      "3d641525b5",
+      "aa2583d7d7"
     ],
     [
-      "56a9970fd9",
-      "1180f708ae",
-      "85dbd4be3c"
+      "6f4066e976",
+      "6f2fb3992d"
     ],
     [
-      "d9e677006d",
-      "f380de6b08",
-      "c75fe54a50"
-    ],
-    [
-      "6f2fb3992d",
-      "5f64fa52a4",
-      "43490dcdbc"
+      "1a3db0c4a6",
+      "56a9970fd9"
     ]
   ],
   "acciones": [
     {
-      "accion": "Confirmar con el COE cantonal de Machala kits y cupos del segundo albergue.",
-      "porque": "El Coliseo 3.000 se llenó; RTS reporta más de 900 afectados y 400 viviendas dañadas; se prevén lluvias más intensas el 2-nov.",
+      "accion": "Ofrecer hoy a Machala apoyo subsidiario en albergues y kits; difundir puntos de acogida.",
+      "porque": "El Comercio: damnificados coparon el albergue; El Universo: segundo albergue tras llenarse el Coliseo; Ecuavisa: más de 250 barrios inundados tres días.",
       "base_legal": "Art. 13, 14 y 21.4",
       "fuentes": [
+        "1a3db0c4a6",
         "56a9970fd9",
-        "e6b23d9d9b",
-        "a123f3e385",
-        "1180f708ae"
+        "99c0611a0b"
       ]
     },
     {
-      "accion": "Lanzar con Inamhi mensajes de autoprotección para el feriado de Difuntos en radios costeras.",
-      "porque": "El Comercio: el feriado pone a prueba las vías; vía E15 cerrada por el puente Tapaila; Machala espera lluvias más intensas.",
-      "base_legal": "Art. 61 y 62",
-      "fuentes": [
-        "85dbd4be3c",
-        "1180f708ae",
-        "aa2583d7d7",
-        "2e2ce56cbc"
-      ]
-    },
-    {
-      "accion": "Publicar en web y X un boletín a hora fija: cifras oficiales y horas de avisos.",
-      "porque": "Medios publican 34.208, casi 32.000 y más de 30.500 afectados; el video sobre Carlos Vera suma 3.696 vistas sin prueba.",
+      "accion": "Publicar cifra oficial única, nacional y de Esmeraldas, en web y @Riesgos_Ec.",
+      "porque": "Medios difieren: cerca de 32.000 (Radio Pichincha) y 34.208 afectados (América Económica); en Esmeraldas, de más de 17.000 a 17.964.",
       "base_legal": "Art. 61 y 72",
       "fuentes": [
+        "6f4066e976",
         "6f2fb3992d",
-        "5f64fa52a4",
-        "43490dcdbc",
-        "d3b97cc3c3",
-        "7e959db51c"
+        "a8dba4f9e4",
+        "0d4386923c",
+        "3d641525b5"
+      ]
+    },
+    {
+      "accion": "Lanzar con Inamhi campaña de feriado: Advertencia 84, vías con deslaves y rutas alternas.",
+      "porque": "Inamhi emitió la Advertencia 84 hasta el 1 de noviembre; la vía Alóag–Santo Domingo tiene paso controlado; turismo prevé 5 % más gasto.",
+      "base_legal": "Art. 23.4 y 61",
+      "fuentes": [
+        "8b9be869f7",
+        "8a9c3d19aa",
+        "e61e33abaf",
+        "7cd9e66e8d",
+        "1180f708ae"
       ]
     }
   ],
   "narrativas": [
     {
-      "titulo": "Riesgos avisa tarde y desde el escritorio",
-      "explicacion": "Respuestas en X a @Riesgos_Ec y @carolozanohok siguen con burlas por fotos, mapas y avisos tardíos, y Radio Pichincha recogió que el COE admitió fallas de difusión. Sigue siendo el principal riesgo directo para la Secretaría y para ella, aunque las críticas en X cayeron de 84 a 31 en 24 h.",
-      "ids": [
-        "0378b6a872",
-        "9e0b1b20c4",
-        "89491b5b55",
-        "57dfca8ad0",
-        "b33c031677",
-        "8fa32bb390",
-        "90ef61347c",
-        "017f4bd260",
-        "2e8a59230d",
-        "e9262f0867",
-        "163825993d",
-        "7fa9b09cfa",
-        "656dfaada9",
-        "d7d2a0603b",
-        "71768c00be",
-        "5e1f774568",
-        "7e959db51c",
-        "83312e9a0e",
-        "7b4915be35"
-      ]
-    },
-    {
-      "titulo": "A Carlos Vera le avisaron antes que al pueblo",
-      "explicacion": "El video de Anastacio Dieb en YouTube sube a 3.696 vistas y 316 interacciones; sus comentarios dicen que el Gobierno sabía y no avisó, sin prueba. Golpea la credibilidad de la Secretaría como fuente oficial; se responde publicando las horas de los avisos.",
-      "ids": [
-        "d3b97cc3c3",
-        "12eafec938",
-        "3996da9386",
-        "fb46f2e578",
-        "92f58802b0",
-        "9fc092e340",
-        "e9262f0867",
-        "f81acd9ada",
-        "edc14ed799",
-        "d86550e728",
-        "115cf975e1"
-      ]
-    },
-    {
-      "titulo": "Piden avisar a tiempo la suspensión de clases",
-      "explicacion": "Apunta sobre todo a Educación: la prensa difunde que Guayaquil, Durán y Samborondón siguen con clases no presenciales el miércoles 28, pero en respuestas a la cuenta de Carolina persiste el reclamo de que el lunes no se avisó ni se suspendieron clases. Puede leerse como falla de alerta temprana de la Secretaría.",
-      "ids": [
-        "f380de6b08",
-        "84d4b46a05",
-        "b20984e201",
-        "47ae5dcdd4",
-        "42c97594b9",
-        "2ab20d6e6a",
-        "9bea3cea66",
-        "1354cd6748",
-        "50bdf272f5",
-        "0e306bd805",
-        "d66e8502e5",
-        "49d3ed1fbf",
-        "e322b1f1d6",
-        "5b751d1ea6",
-        "410cc3fb81",
-        "c0c9166ea3",
-        "d7bd1fad09"
-      ]
-    },
-    {
-      "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Medios recogen que lo más fuerte está por empezar (pico a fines de noviembre y diciembre, lluvias hasta mayo de 2027), El Comercio informa que el mar llegó a 29 grados y programas en YouTube preguntan si el país está preparado. Cada nueva inundación puede leerse como imprevisión del Estado.",
-      "ids": [
-        "3691ee37c4",
-        "980797fe52",
-        "ff47fa16f1",
-        "b7c04e318b",
-        "b626aa3808",
-        "f4d2aed31e",
-        "851b3e17ee",
-        "02227c17a0",
-        "054eaab8a6",
-        "36e02f59d7",
-        "6868cbcbde",
-        "1180f708ae"
-      ]
-    },
-    {
       "titulo": "El Gobierno llega con bombas, bonos y kits",
-      "explicacion": "Medios difunden las bombas de agua anunciadas por Noboa con cifras distintas (1.778 en El Comercio y Vistazo, 1.788 en Radio Pichincha, 1 700 en Teleamazonas) y el bono de contingencia de USD 303,99; la Alcaldía de Muisne agradece kits a la SNGR. Es la principal oportunidad positiva, aunque la diferencia de cifras puede generar dudas.",
+      "explicacion": "Medios explican cómo cobrar el bono de USD 303,99; El Universo dice que ya se entregó en Guayas y Manabí y se coordina en El Oro, Esmeraldas y Los Ríos. Es la principal oportunidad, pero las cifras de bombas siguen difiriendo (1.778, 1.788, 1 700) y un retraso del bono en esas provincias puede volverse reclamo.",
       "ids": [
-        "73d8460f68",
-        "1e62bd1527",
-        "b42a7eda51",
-        "91a8204fd3",
-        "fe3814c988",
-        "e0b2a34f5c",
-        "1f7a40dc94",
-        "201f0cd326",
-        "4dbc0090e6",
+        "197a190510",
+        "12c403f58d",
+        "b387048122",
+        "0ebbc75de8",
+        "af070517a7",
+        "ea9bc8ee96",
         "1ada04fb93",
         "a319727052",
         "f7b83b4496",
+        "201f0cd326",
+        "4dbc0090e6",
+        "e4fb8e4cca",
+        "73d8460f68",
+        "b42a7eda51",
+        "91a8204fd3",
+        "1e62bd1527",
+        "fe3814c988",
+        "e0b2a34f5c",
+        "1f7a40dc94",
+        "ed9315a9ce",
         "26300ead40",
         "49f3d49d19",
-        "ed9315a9ce",
+        "b6c57c4694",
         "ab88793ace"
       ]
     },
     {
+      "titulo": "Riesgos avisa tarde y desde el escritorio",
+      "explicacion": "Las burlas en X a @Riesgos_Ec y @carolozanohok por fotos, mapas y avisos tardíos se concentraron el 27 y hoy bajan; persisten comentarios en Ecuavisa contra los pronósticos y Radio Pichincha recogió que el COE admitió fallas de difusión. Sigue siendo el principal riesgo directo para la Secretaría y para ella.",
+      "ids": [
+        "7e959db51c",
+        "83312e9a0e",
+        "7fa9b09cfa",
+        "656dfaada9",
+        "d7d2a0603b",
+        "2e8a59230d",
+        "57dfca8ad0",
+        "017f4bd260",
+        "f380de6b08",
+        "7b4915be35",
+        "5e1f774568",
+        "163825993d",
+        "aab4a0f5c0",
+        "3a96b8a401",
+        "6d19e00dda",
+        "02227c17a0"
+      ]
+    },
+    {
+      "titulo": "Piden avisar a tiempo la suspensión de clases",
+      "explicacion": "Apunta sobre todo a Educación y al COE: la prensa informa que siguen sin clases presenciales las zonas afectadas de Guayaquil, Durán y Samborondón, pero hay quien pregunta por qué los niños volvieron a clases presenciales. La confusión sobre qué sectores aplican puede leerse como falla de alerta.",
+      "ids": [
+        "fecdfc47a6",
+        "1812ce9345",
+        "033227b447",
+        "f380de6b08",
+        "42c97594b9",
+        "9bea3cea66",
+        "2ab20d6e6a",
+        "4bb5eeb5e7",
+        "1354cd6748"
+      ]
+    },
+    {
+      "titulo": "Las lluvias empeorarán y no estamos preparados",
+      "explicacion": "Medios recogen que el mar llegó a 29 grados, que la OMM alerta de un El Niño sin precedentes y que Inocar pide obras de mitigación; El Búho (5.369 vistas) dice que en diciembre podría empeorar. Cada nueva inundación puede leerse como imprevisión del Estado; también es espacio para la preparación familiar.",
+      "ids": [
+        "6868cbcbde",
+        "44c72269fc",
+        "7c2afb7813",
+        "66f2e247da",
+        "bf2f68c6ca",
+        "d2b86f259c",
+        "ff47fa16f1",
+        "f4d2aed31e",
+        "b626aa3808",
+        "851b3e17ee"
+      ]
+    },
+    {
       "titulo": "Critican a los GAD por basura y drenajes",
-      "explicacion": "Apunta a municipios: Urvaseo dice que la basura agravó las inundaciones de Guayaquil, Segura EP admite límites de drenaje y la falta de radar, y Extra pide una ciudad mejor planificada. No se dirige a la SNGR.",
+      "explicacion": "Apunta a municipios: Urvaseo culpa a la basura, Segura EP admite límites de drenaje, El Universo dice que a Quito le falta planificación y Extra reporta más de 40 horas sin agua en Playas. No se dirige a la SNGR.",
       "ids": [
         "ac7584bf09",
-        "a385821e0a",
-        "3fb495d6c8",
         "f27f8d573d",
         "bf89d9ccf9",
-        "f6b76a8fa8",
-        "7ce0b5e5b7",
-        "a18f554283",
-        "6fd88900fc",
-        "491aa0412c",
-        "77fc0834b4",
-        "5bf83a8bfa"
+        "a385821e0a",
+        "3fb495d6c8",
+        "84acafdd1a",
+        "0471c1c0f6",
+        "8c6a98cf5c"
+      ]
+    },
+    {
+      "titulo": "Las lluvias arruinan al agro y suben la comida",
+      "explicacion": "Apunta al Gobierno central, no a la Secretaría: agricultores marcharán en Babahoyo por deudas tras perder cosechas, Ecuavisa reporta alza del arroz por pérdidas en Yaguachi y comentarios piden controlar precios. Puede crecer si el agro no ve ayuda.",
+      "ids": [
+        "f203980ca7",
+        "5207916e10",
+        "56cf3e4479",
+        "559f603476",
+        "9bae6823ea",
+        "262de893e5",
+        "b0ac13d125",
+        "c7f4311d0f"
       ]
     }
   ],
   "rumores": [
     {
-      "titulo": "Al periodista Carlos Vera le dieron información exclusiva de la tormenta",
-      "explicacion": "Respuestas en X y un video en YouTube (3.696 vistas) afirman o sugieren, sin prueba, que el Gobierno o la Secretaría avisó a Carlos Vera antes que a la población; un comentario agrega que el Gobierno ocultó El Niño a propósito. Respuesta sugerida: publicar las horas exactas de los avisos oficiales del lunes y recordar los canales oficiales (arts. 61 y 72).",
+      "titulo": "El Gobierno sabía y ocultó la alerta",
+      "explicacion": "El video de Anastacio Dieb (3.878 vistas) plantea que Carlos Vera habría recibido una advertencia antes de que fuera pública, y un comentario afirma que se ocultó información a propósito; no hay prueba. Respuesta: publicar las horas de emisión de cada alerta del Inamhi y la SNGR (arts. 61 y 72).",
       "ids": [
         "d3b97cc3c3",
-        "3996da9386",
-        "fb46f2e578",
-        "92f58802b0",
-        "9fc092e340",
         "12eafec938"
       ]
     }
