@@ -1,26 +1,26 @@
 {
   "vinetas": [
-    "Sin datos nuevos desde las 06:00. En redes la crítica cae: X 6 críticas frente a 30; YouTube 7 frente a 24.",
-    "TikTok concentra la crítica: 14 comentarios; la mayoría pregunta a Riesgos 'cuándo pagan', al parecer participantes de Jóvenes en Acción.",
-    "Inamhi (Advertencia 84) prevé lluvias intensas en el Litoral del 29 de octubre al 1 de noviembre, en pleno feriado.",
-    "Machala: Ecuavisa reporta 250 barrios cinco días bajo el agua; Diario Correo, enfermedades en el norte; albergue lleno."
+    "Sin datos nuevos desde las 06:00 (contexto de hace 12 h). En redes la crítica baja: X 6 críticas frente a 30.",
+    "TikTok concentra la crítica: 14 comentarios, casi todos preguntan a Riesgos 'cuándo pagan'; uno dice que otros ministerios ya pagaron.",
+    "Medios casi todo neutro (168 de 178): Inamhi prevé lluvias intensas en el Litoral hasta el 1 de noviembre, feriado incluido.",
+    "Machala: Ecuavisa reporta 250 barrios cinco días bajo el agua; Diario Correo, enfermedades en el norte; primer albergue lleno."
   ],
   "fuentes_vinetas": [
     [],
     [
       "586ad3e8fc",
       "45e5915f78",
-      "5eb2f745d1",
       "9a4a5027b1",
-      "13bc9b5f92",
-      "6fa422ceb4",
       "057f52da52",
-      "4fccf4a0b3"
+      "e8b523afc5",
+      "13bc9b5f92",
+      "ac308c9d48"
     ],
     [
       "5ba4559cfa",
-      "59a52ee461",
       "8b9be869f7",
+      "59a52ee461",
+      "c9968a1e0c",
       "e61e33abaf"
     ],
     [
@@ -32,7 +32,7 @@
   ],
   "acciones": [
     {
-      "accion": "Confirmar quién paga Jóvenes en Acción y publicar la fecha en TikTok de Riesgos.",
+      "accion": "Confirmar quién paga Jóvenes en Acción y responder la fecha en TikTok de Riesgos.",
       "porque": "14 comentarios críticos en TikTok piden a Riesgos 'cuándo pagan'; uno dice que otros ministerios ya pagaron.",
       "base_legal": "Art. 61 y 72",
       "fuentes": [
@@ -40,33 +40,31 @@
         "45e5915f78",
         "9a4a5027b1",
         "057f52da52",
-        "1e0ee88b04",
-        "2dd7d98ad0",
+        "ed086091d7",
         "4fccf4a0b3"
       ]
     },
     {
-      "accion": "Difundir en canal único del COE Advertencia 84 y vías afectadas para el feriado.",
-      "porque": "Inamhi prevé lluvias intensas en el Litoral hasta el 1 de noviembre; feriado del 31 al 3; E15 cerrada por puente colapsado.",
-      "base_legal": "Art. 23.4 y 61",
+      "accion": "Difundir en el canal único del COE Advertencia 84 y vías afectadas del feriado.",
+      "porque": "Inamhi prevé lluvias intensas hasta el 1 de noviembre; feriado del 31 de octubre; viajeros cruzan a pie el puente de la E15.",
+      "base_legal": "Art. 23.4, 61 y 62",
       "fuentes": [
-        "5ba4559cfa",
         "8b9be869f7",
+        "5ba4559cfa",
         "a47c5c0b14",
         "e61e33abaf",
-        "aa2583d7d7",
         "f2f64e1f86"
       ]
     },
     {
-      "accion": "Pedir al COE de Machala y al MSP brigadas de salud en el norte inundado.",
-      "porque": "Diario Correo: enfermedades tras tres días bajo el agua; Ecuavisa: 250 barrios inundados cinco días; primer albergue lleno.",
+      "accion": "Ofrecer al COE de Machala apoyo subsidiario en albergues y pedir brigadas al MSP.",
+      "porque": "Teleamazonas y El Comercio: primer albergue lleno; Diario Correo: enfermedades en el norte tras tres días bajo el agua.",
       "base_legal": "Art. 14, 21.4 y 29",
       "fuentes": [
-        "2290e86eff",
-        "7732a2a642",
         "723ce87c3c",
-        "56a9970fd9"
+        "1a3db0c4a6",
+        "2290e86eff",
+        "7732a2a642"
       ]
     }
   ],
