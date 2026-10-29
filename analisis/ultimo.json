@@ -1,68 +1,80 @@
 {
   "vinetas": [
-    "La crítica en redes cae: en X, 8 piezas críticas en 24 h frente a 99 el día anterior; YouTube, 6 frente a 32.",
-    "Esmeraldas pasa al centro: medios reportan cerca de 18.000 afectados y un puente colapsado (El Comercio, El Universo, Radio Pichincha).",
-    "Cifras nacionales difieren: Radio Pichincha, con datos SNGR, da cerca de 32.000 afectados; América Económica, 34.208. Ambos: cuatro fallecidos.",
-    "Machala: damnificados coparon el albergue (El Comercio) y se habilitó un segundo tras llenarse el Coliseo (El Universo)."
+    "La crítica en redes baja: en X, 6 piezas críticas en 24 h frente a 45 el día anterior; YouTube, 6 frente a 26.",
+    "En TikTok, 13 comentarios exigen a Riesgos 'cuándo pagan'; por su texto, serían de Jóvenes en Acción, no damnificados.",
+    "Medios dudan de los pronósticos: Ecuavisa y Extra explican por qué falló el del Inamhi en Guayaquil.",
+    "Machala lleva cinco días con 250 barrios bajo el agua (Ecuavisa) y abrió un segundo albergue tras llenarse el primero."
   ],
   "fuentes_vinetas": [
     [],
     [
-      "a8dba4f9e4",
-      "0d4386923c",
-      "3d641525b5",
-      "aa2583d7d7"
+      "586ad3e8fc",
+      "45e5915f78",
+      "1e0ee88b04",
+      "37641655d6",
+      "ed086091d7",
+      "4fccf4a0b3",
+      "9a4a5027b1"
     ],
     [
-      "6f4066e976",
-      "6f2fb3992d"
+      "f1f23ac9bf",
+      "7bd9176989",
+      "6181229da8"
     ],
     [
-      "1a3db0c4a6",
+      "7732a2a642",
+      "723ce87c3c",
       "56a9970fd9"
     ]
   ],
   "acciones": [
     {
-      "accion": "Ofrecer hoy a Machala apoyo subsidiario en albergues y kits; difundir puntos de acogida.",
-      "porque": "El Comercio: damnificados coparon el albergue; El Universo: segundo albergue tras llenarse el Coliseo; Ecuavisa: más de 250 barrios inundados tres días.",
+      "accion": "Confirmar con el ministerio pagador y publicar en TikTok la fecha de pago de Jóvenes en Acción.",
+      "porque": "13 comentarios en TikTok reclaman pago a Riesgos; uno dice que otros ministerios ya pagaron y otro, 'los que postulamos'.",
+      "base_legal": "Art. 61 y 75",
+      "fuentes": [
+        "586ad3e8fc",
+        "45e5915f78",
+        "1e0ee88b04",
+        "2dd7d98ad0",
+        "37641655d6",
+        "4fccf4a0b3"
+      ]
+    },
+    {
+      "accion": "Ofrecer a Machala apoyo subsidiario para el segundo albergue y difundir su ubicación.",
+      "porque": "Ecuavisa: 250 barrios cinco días bajo el agua; Teleamazonas y El Universo: el albergue se llenó y se habilitó otro.",
       "base_legal": "Art. 13, 14 y 21.4",
       "fuentes": [
-        "1a3db0c4a6",
+        "7732a2a642",
+        "723ce87c3c",
         "56a9970fd9",
-        "99c0611a0b"
+        "1a3db0c4a6"
       ]
     },
     {
-      "accion": "Publicar cifra oficial única, nacional y de Esmeraldas, en web y @Riesgos_Ec.",
-      "porque": "Medios difieren: cerca de 32.000 (Radio Pichincha) y 34.208 afectados (América Económica); en Esmeraldas, de más de 17.000 a 17.964.",
-      "base_legal": "Art. 61 y 72",
-      "fuentes": [
-        "6f4066e976",
-        "6f2fb3992d",
-        "a8dba4f9e4",
-        "0d4386923c",
-        "3d641525b5"
-      ]
-    },
-    {
-      "accion": "Lanzar con Inamhi campaña de feriado: Advertencia 84, vías con deslaves y rutas alternas.",
-      "porque": "Inamhi emitió la Advertencia 84 hasta el 1 de noviembre; la vía Alóag–Santo Domingo tiene paso controlado; turismo prevé 5 % más gasto.",
+      "accion": "Difundir por el canal único del COE la Advertencia 84 y vías afectadas antes del feriado.",
+      "porque": "Inamhi alerta lluvias hasta el 1 de noviembre; E15 en Esmeraldas con puente dañado; Alóag-Santo Domingo con deslaves.",
       "base_legal": "Art. 23.4 y 61",
       "fuentes": [
-        "8b9be869f7",
+        "6181229da8",
+        "a47c5c0b14",
+        "f2f64e1f86",
         "8a9c3d19aa",
-        "e61e33abaf",
-        "7cd9e66e8d",
-        "1180f708ae"
+        "e61e33abaf"
       ]
     }
   ],
   "narrativas": [
     {
       "titulo": "El Gobierno llega con bombas, bonos y kits",
-      "explicacion": "Medios explican cómo cobrar el bono de USD 303,99; El Universo dice que ya se entregó en Guayas y Manabí y se coordina en El Oro, Esmeraldas y Los Ríos. Es la principal oportunidad, pero las cifras de bombas siguen difiriendo (1.778, 1.788, 1 700) y un retraso del bono en esas provincias puede volverse reclamo.",
+      "explicacion": "El Universo reporta 140 bombas en Jujan y entregas en siete cantones de Manabí; cuentas del Ministerio de Trabajo y la Gobernación de Manabí muestran entregas junto a la SNGR en Quinsaloma, Portoviejo y Jipijapa. Es la principal oportunidad, pero las cifras de bombas siguen difiriendo (1.778, 1.788, 1 700).",
       "ids": [
+        "98c301eef6",
+        "b033cc037b",
+        "90322e56b6",
+        "03047e5a05",
+        "0aec536ce7",
         "197a190510",
         "12c403f58d",
         "b387048122",
@@ -72,112 +84,119 @@
         "1ada04fb93",
         "a319727052",
         "f7b83b4496",
-        "201f0cd326",
-        "4dbc0090e6",
-        "e4fb8e4cca",
-        "73d8460f68",
-        "b42a7eda51",
-        "91a8204fd3",
-        "1e62bd1527",
-        "fe3814c988",
-        "e0b2a34f5c",
-        "1f7a40dc94",
-        "ed9315a9ce",
-        "26300ead40",
-        "49f3d49d19",
+        "2eb1b496c6",
+        "f4c9814f18",
+        "45650891e7",
+        "e0b87ede98",
         "b6c57c4694",
-        "ab88793ace"
+        "ed9315a9ce",
+        "1f7a40dc94",
+        "1e62bd1527",
+        "ab88793ace",
+        "26300ead40",
+        "49f3d49d19"
       ]
     },
     {
       "titulo": "Riesgos avisa tarde y desde el escritorio",
-      "explicacion": "Las burlas en X a @Riesgos_Ec y @carolozanohok por fotos, mapas y avisos tardíos se concentraron el 27 y hoy bajan; persisten comentarios en Ecuavisa contra los pronósticos y Radio Pichincha recogió que el COE admitió fallas de difusión. Sigue siendo el principal riesgo directo para la Secretaría y para ella.",
+      "explicacion": "Las burlas en X bajan; la duda se traslada a los pronósticos: Ecuavisa y Extra explican por qué falló el del Inamhi en Guayaquil y en comentarios piden ayuda en vez de informes. El canal único de alertas del COE (Teleamazonas) es la oportunidad de responder.",
       "ids": [
-        "7e959db51c",
-        "83312e9a0e",
-        "7fa9b09cfa",
-        "656dfaada9",
-        "d7d2a0603b",
-        "2e8a59230d",
-        "57dfca8ad0",
-        "017f4bd260",
-        "f380de6b08",
-        "7b4915be35",
-        "5e1f774568",
-        "163825993d",
+        "f1f23ac9bf",
+        "7bd9176989",
+        "431933e9f5",
+        "efd44458cc",
         "aab4a0f5c0",
         "3a96b8a401",
         "6d19e00dda",
-        "02227c17a0"
+        "3f06d3c104",
+        "2bc5203933",
+        "83312e9a0e",
+        "163825993d",
+        "fd577b0f1d",
+        "7e959db51c",
+        "267420ef7f"
+      ]
+    },
+    {
+      "titulo": "Gestión de Riesgos no paga a los jóvenes",
+      "explicacion": "Comentarios en TikTok y X, al parecer de participantes de Jóvenes en Acción, preguntan cuándo les pagan y comparan con otros ministerios; Gemini los marcó como reclamos de bono. Golpea directo a la Secretaría en sus videos de mayor alcance (17.300 y 11.300 vistas).",
+      "ids": [
+        "586ad3e8fc",
+        "45e5915f78",
+        "9a4a5027b1",
+        "6fa422ceb4",
+        "057f52da52",
+        "37641655d6",
+        "b908075724",
+        "b08a919e98",
+        "13bc9b5f92",
+        "ac308c9d48",
+        "00278154a1",
+        "e8b523afc5",
+        "5eb2f745d1",
+        "520b71195d",
+        "ed086091d7",
+        "7a5f55990b",
+        "1e0ee88b04",
+        "2dd7d98ad0"
       ]
     },
     {
       "titulo": "Piden avisar a tiempo la suspensión de clases",
-      "explicacion": "Apunta sobre todo a Educación y al COE: la prensa informa que siguen sin clases presenciales las zonas afectadas de Guayaquil, Durán y Samborondón, pero hay quien pregunta por qué los niños volvieron a clases presenciales. La confusión sobre qué sectores aplican puede leerse como falla de alerta.",
+      "explicacion": "Apunta a Educación y al COE: Guayaquil, Durán y Samborondón vuelven a clases presenciales el jueves 29, pero Teleamazonas dice que más de 1 700 planteles siguen virtuales y hay quien cuestiona el retorno. La confusión puede leerse como falla de alerta.",
       "ids": [
-        "fecdfc47a6",
-        "1812ce9345",
+        "f53b11c01c",
+        "050dab0bc1",
+        "8a40f83ded",
+        "aaaeaf1463",
+        "8f755f3142",
+        "6b0bc1e546",
         "033227b447",
-        "f380de6b08",
-        "42c97594b9",
+        "267420ef7f",
+        "1812ce9345",
+        "fecdfc47a6",
         "9bea3cea66",
-        "2ab20d6e6a",
-        "4bb5eeb5e7",
-        "1354cd6748"
+        "42c97594b9",
+        "ccd0d3b905"
       ]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Medios recogen que el mar llegó a 29 grados, que la OMM alerta de un El Niño sin precedentes y que Inocar pide obras de mitigación; El Búho (5.369 vistas) dice que en diciembre podría empeorar. Cada nueva inundación puede leerse como imprevisión del Estado; también es espacio para la preparación familiar.",
+      "explicacion": "Medios recogen que la OMM alerta de un El Niño sin precedentes y que Inocar pide obras de mitigación; El Búho (10.677 vistas) titula que en diciembre podría empeorar y Extra insiste en la prevención. Cada nueva inundación puede leerse como imprevisión; también es espacio para la preparación familiar.",
       "ids": [
-        "6868cbcbde",
-        "44c72269fc",
+        "87b5d0cfd9",
         "7c2afb7813",
         "66f2e247da",
         "bf2f68c6ca",
+        "3f2792e7b6",
+        "bdb2c8a5dc",
         "d2b86f259c",
-        "ff47fa16f1",
-        "f4d2aed31e",
+        "44c72269fc",
+        "6868cbcbde",
         "b626aa3808",
-        "851b3e17ee"
+        "f4d2aed31e"
       ]
     },
     {
       "titulo": "Critican a los GAD por basura y drenajes",
-      "explicacion": "Apunta a municipios: Urvaseo culpa a la basura, Segura EP admite límites de drenaje, El Universo dice que a Quito le falta planificación y Extra reporta más de 40 horas sin agua en Playas. No se dirige a la SNGR.",
+      "explicacion": "Apunta a municipios: Urvaseo culpa a la basura en Guayaquil, Ecuavisa habla de redes antiguas en Quito, El Universo dice que a Quito le falta planificación y Extra reporta escasez de agua en Playas. No se dirige a la SNGR.",
       "ids": [
-        "ac7584bf09",
-        "f27f8d573d",
-        "bf89d9ccf9",
-        "a385821e0a",
-        "3fb495d6c8",
-        "84acafdd1a",
+        "e54e45b76c",
+        "a3fedd9788",
+        "8c6a98cf5c",
         "0471c1c0f6",
-        "8c6a98cf5c"
-      ]
-    },
-    {
-      "titulo": "Las lluvias arruinan al agro y suben la comida",
-      "explicacion": "Apunta al Gobierno central, no a la Secretaría: agricultores marcharán en Babahoyo por deudas tras perder cosechas, Ecuavisa reporta alza del arroz por pérdidas en Yaguachi y comentarios piden controlar precios. Puede crecer si el agro no ve ayuda.",
-      "ids": [
-        "f203980ca7",
-        "5207916e10",
-        "56cf3e4479",
-        "559f603476",
-        "9bae6823ea",
-        "262de893e5",
-        "b0ac13d125",
-        "c7f4311d0f"
+        "84acafdd1a",
+        "ac7584bf09",
+        "bf89d9ccf9"
       ]
     }
   ],
   "rumores": [
     {
       "titulo": "El Gobierno sabía y ocultó la alerta",
-      "explicacion": "El video de Anastacio Dieb (3.878 vistas) plantea que Carlos Vera habría recibido una advertencia antes de que fuera pública, y un comentario afirma que se ocultó información a propósito; no hay prueba. Respuesta: publicar las horas de emisión de cada alerta del Inamhi y la SNGR (arts. 61 y 72).",
+      "explicacion": "El video de Anastacio Dieb (3.878 vistas) plantea que Carlos Vera habría recibido una advertencia antes de que fuera pública; no hay prueba. Respuesta: publicar las horas de emisión de cada alerta del Inamhi y la SNGR (arts. 61 y 72).",
       "ids": [
-        "d3b97cc3c3",
-        "12eafec938"
+        "d3b97cc3c3"
       ]
     }
   ],
