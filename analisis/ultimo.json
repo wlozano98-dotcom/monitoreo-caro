@@ -1,204 +1,68 @@
 {
   "vinetas": [
-    "La crítica en redes baja: en X, 6 piezas críticas en 24 h frente a 45 el día anterior; YouTube, 6 frente a 26.",
-    "En TikTok, 13 comentarios exigen a Riesgos 'cuándo pagan'; por su texto, serían de Jóvenes en Acción, no damnificados.",
-    "Medios dudan de los pronósticos: Ecuavisa y Extra explican por qué falló el del Inamhi en Guayaquil.",
-    "Machala lleva cinco días con 250 barrios bajo el agua (Ecuavisa) y abrió un segundo albergue tras llenarse el primero."
+    "La crítica en redes cae: en X, 6 piezas críticas en 24 h frente a 30; en YouTube, 7 frente a 24.",
+    "TikTok concentra la crítica: 14 comentarios; la mayoría pregunta a Riesgos 'cuándo pagan', al parecer participantes de Jóvenes en Acción.",
+    "Inamhi prevé lluvias más intensas en el Litoral del 29 de octubre al 1 de noviembre, en pleno feriado.",
+    "Diario Correo: en el norte de Machala, tras tres días bajo el agua, aparecen enfermedades y falla el abastecimiento."
   ],
   "fuentes_vinetas": [
     [],
-    [
-      "586ad3e8fc",
-      "45e5915f78",
-      "1e0ee88b04",
-      "37641655d6",
-      "ed086091d7",
-      "4fccf4a0b3",
-      "9a4a5027b1"
-    ],
-    [
-      "f1f23ac9bf",
-      "7bd9176989",
-      "6181229da8"
-    ],
-    [
-      "7732a2a642",
-      "723ce87c3c",
-      "56a9970fd9"
-    ]
+    ["586ad3e8fc", "45e5915f78", "5eb2f745d1", "9a4a5027b1", "13bc9b5f92", "6fa422ceb4", "057f52da52", "4fccf4a0b3"],
+    ["5ba4559cfa", "59a52ee461", "e61e33abaf"],
+    ["2290e86eff", "ffaa2041cc"]
   ],
   "acciones": [
     {
-      "accion": "Confirmar con el ministerio pagador y publicar en TikTok la fecha de pago de Jóvenes en Acción.",
-      "porque": "13 comentarios en TikTok reclaman pago a Riesgos; uno dice que otros ministerios ya pagaron y otro, 'los que postulamos'.",
-      "base_legal": "Art. 61 y 75",
-      "fuentes": [
-        "586ad3e8fc",
-        "45e5915f78",
-        "1e0ee88b04",
-        "2dd7d98ad0",
-        "37641655d6",
-        "4fccf4a0b3"
-      ]
+      "accion": "Confirmar quién paga Jóvenes en Acción y publicar la fecha en TikTok de Riesgos.",
+      "porque": "14 comentarios críticos en TikTok piden a Riesgos 'cuándo pagan'; uno dice que otros ministerios ya pagaron.",
+      "base_legal": "Art. 61 y 72",
+      "fuentes": ["586ad3e8fc", "45e5915f78", "9a4a5027b1", "057f52da52", "1e0ee88b04", "2dd7d98ad0", "4fccf4a0b3"]
     },
     {
-      "accion": "Ofrecer a Machala apoyo subsidiario para el segundo albergue y difundir su ubicación.",
-      "porque": "Ecuavisa: 250 barrios cinco días bajo el agua; Teleamazonas y El Universo: el albergue se llenó y se habilitó otro.",
-      "base_legal": "Art. 13, 14 y 21.4",
-      "fuentes": [
-        "7732a2a642",
-        "723ce87c3c",
-        "56a9970fd9",
-        "1a3db0c4a6"
-      ]
-    },
-    {
-      "accion": "Difundir por el canal único del COE la Advertencia 84 y vías afectadas antes del feriado.",
-      "porque": "Inamhi alerta lluvias hasta el 1 de noviembre; E15 en Esmeraldas con puente dañado; Alóag-Santo Domingo con deslaves.",
+      "accion": "Difundir en canal único del COE Advertencia 84 y vías afectadas para el feriado.",
+      "porque": "Inamhi prevé lluvias intensas en el Litoral hasta el 1 de noviembre; feriado del 31 al 3; E15 cerrada por puente colapsado.",
       "base_legal": "Art. 23.4 y 61",
-      "fuentes": [
-        "6181229da8",
-        "a47c5c0b14",
-        "f2f64e1f86",
-        "8a9c3d19aa",
-        "e61e33abaf"
-      ]
+      "fuentes": ["5ba4559cfa", "8b9be869f7", "a47c5c0b14", "e61e33abaf", "aa2583d7d7", "f2f64e1f86"]
+    },
+    {
+      "accion": "Pedir al COE de Machala y al MSP brigadas de salud en el norte inundado.",
+      "porque": "Diario Correo: enfermedades tras tres días bajo el agua; Ecuavisa: 250 barrios inundados cinco días; primer albergue lleno.",
+      "base_legal": "Art. 14, 21.4 y 29",
+      "fuentes": ["2290e86eff", "7732a2a642", "723ce87c3c", "56a9970fd9"]
     }
   ],
   "narrativas": [
     {
       "titulo": "El Gobierno llega con bombas, bonos y kits",
-      "explicacion": "El Universo reporta 140 bombas en Jujan y entregas en siete cantones de Manabí; cuentas del Ministerio de Trabajo y la Gobernación de Manabí muestran entregas junto a la SNGR en Quinsaloma, Portoviejo y Jipijapa. Es la principal oportunidad, pero las cifras de bombas siguen difiriendo (1.778, 1.788, 1 700).",
-      "ids": [
-        "98c301eef6",
-        "b033cc037b",
-        "90322e56b6",
-        "03047e5a05",
-        "0aec536ce7",
-        "197a190510",
-        "12c403f58d",
-        "b387048122",
-        "0ebbc75de8",
-        "af070517a7",
-        "ea9bc8ee96",
-        "1ada04fb93",
-        "a319727052",
-        "f7b83b4496",
-        "2eb1b496c6",
-        "f4c9814f18",
-        "45650891e7",
-        "e0b87ede98",
-        "b6c57c4694",
-        "ed9315a9ce",
-        "1f7a40dc94",
-        "1e62bd1527",
-        "ab88793ace",
-        "26300ead40",
-        "49f3d49d19"
-      ]
-    },
-    {
-      "titulo": "Riesgos avisa tarde y desde el escritorio",
-      "explicacion": "Las burlas en X bajan; la duda se traslada a los pronósticos: Ecuavisa y Extra explican por qué falló el del Inamhi en Guayaquil y en comentarios piden ayuda en vez de informes. El canal único de alertas del COE (Teleamazonas) es la oportunidad de responder.",
-      "ids": [
-        "f1f23ac9bf",
-        "7bd9176989",
-        "431933e9f5",
-        "efd44458cc",
-        "aab4a0f5c0",
-        "3a96b8a401",
-        "6d19e00dda",
-        "3f06d3c104",
-        "2bc5203933",
-        "83312e9a0e",
-        "163825993d",
-        "fd577b0f1d",
-        "7e959db51c",
-        "267420ef7f"
-      ]
+      "explicacion": "El Universo y El Telégrafo reportan bombas en Jujan y para 150 productores de Manabí; cuentas del Ministerio de Trabajo, la Gobernación de Manabí y Muisne muestran entregas junto a la SNGR. Es la principal oportunidad, aunque la cifra total de bombas difiere entre piezas (1.778 y 1.700).",
+      "ids": ["98c301eef6", "dabecafc57", "b033cc037b", "90322e56b6", "03047e5a05", "0aec536ce7", "197a190510", "12c403f58d", "b387048122", "0ebbc75de8", "af070517a7", "ea9bc8ee96", "1ada04fb93", "a319727052", "2eb1b496c6", "f4c9814f18", "45650891e7", "e0b87ede98", "26300ead40", "49f3d49d19", "ab88793ace", "1f7a40dc94", "ed9315a9ce"]
     },
     {
       "titulo": "Gestión de Riesgos no paga a los jóvenes",
-      "explicacion": "Comentarios en TikTok y X, al parecer de participantes de Jóvenes en Acción, preguntan cuándo les pagan y comparan con otros ministerios; Gemini los marcó como reclamos de bono. Golpea directo a la Secretaría en sus videos de mayor alcance (17.300 y 11.300 vistas).",
-      "ids": [
-        "586ad3e8fc",
-        "45e5915f78",
-        "9a4a5027b1",
-        "6fa422ceb4",
-        "057f52da52",
-        "37641655d6",
-        "b908075724",
-        "b08a919e98",
-        "13bc9b5f92",
-        "ac308c9d48",
-        "00278154a1",
-        "e8b523afc5",
-        "5eb2f745d1",
-        "520b71195d",
-        "ed086091d7",
-        "7a5f55990b",
-        "1e0ee88b04",
-        "2dd7d98ad0"
-      ]
+      "explicacion": "Comentarios en TikTok y X, al parecer de participantes de Jóvenes en Acción, preguntan cuándo les paga Riesgos y comparan con otros ministerios. Golpea directo a la Secretaría en sus videos de mayor alcance (17.300 y 11.300 vistas); una respuesta con la fecha la desactivaría.",
+      "ids": ["586ad3e8fc", "45e5915f78", "5eb2f745d1", "b08a919e98", "13bc9b5f92", "ac308c9d48", "9a4a5027b1", "b908075724", "00278154a1", "e8b523afc5", "6fa422ceb4", "057f52da52", "37641655d6", "c718f2d35b", "608fc28b82", "ed086091d7", "7a5f55990b", "1e0ee88b04", "2dd7d98ad0", "4fccf4a0b3", "4caf1a843c"]
+    },
+    {
+      "titulo": "Riesgos avisa tarde y desde el escritorio",
+      "explicacion": "Las burlas en X bajan, pero la duda sigue: Ecuavisa y Extra explican por qué falló el pronóstico en Guayaquil, expertos en Ecuavisa piden al COE alertas por zona y rutas de evacuación en colegios, y en comentarios piden ayuda en vez de informes. El canal único de alertas del COE es la respuesta.",
+      "ids": ["ae168ee718", "efd44458cc", "7bd9176989", "f1f23ac9bf", "aab4a0f5c0", "3a96b8a401", "6d19e00dda", "fd577b0f1d", "267420ef7f", "51de758602", "83312e9a0e", "2bc5203933", "163825993d", "431933e9f5", "d3b97cc3c3", "a47c5c0b14", "1ea3255d17"]
     },
     {
       "titulo": "Piden avisar a tiempo la suspensión de clases",
-      "explicacion": "Apunta a Educación y al COE: Guayaquil, Durán y Samborondón vuelven a clases presenciales el jueves 29, pero Teleamazonas dice que más de 1 700 planteles siguen virtuales y hay quien cuestiona el retorno. La confusión puede leerse como falla de alerta.",
-      "ids": [
-        "f53b11c01c",
-        "050dab0bc1",
-        "8a40f83ded",
-        "aaaeaf1463",
-        "8f755f3142",
-        "6b0bc1e546",
-        "033227b447",
-        "267420ef7f",
-        "1812ce9345",
-        "fecdfc47a6",
-        "9bea3cea66",
-        "42c97594b9",
-        "ccd0d3b905"
-      ]
+      "explicacion": "Apunta a Educación y al COE: Guayaquil, Durán y Samborondón vuelven a clases presenciales el jueves 29, pero Teleamazonas dice que más de 1 700 planteles siguen virtuales y hay comentarios que piden declarar emergencia educativa. La confusión puede leerse como falla de alerta.",
+      "ids": ["050dab0bc1", "1bf6880f55", "f53b11c01c", "8a40f83ded", "6b0bc1e546", "aaaeaf1463", "f7c616b7f8", "54ba2e11e4", "033227b447", "42c97594b9", "ae168ee718", "267420ef7f"]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Medios recogen que la OMM alerta de un El Niño sin precedentes y que Inocar pide obras de mitigación; El Búho (10.677 vistas) titula que en diciembre podría empeorar y Extra insiste en la prevención. Cada nueva inundación puede leerse como imprevisión; también es espacio para la preparación familiar.",
-      "ids": [
-        "87b5d0cfd9",
-        "7c2afb7813",
-        "66f2e247da",
-        "bf2f68c6ca",
-        "3f2792e7b6",
-        "bdb2c8a5dc",
-        "d2b86f259c",
-        "44c72269fc",
-        "6868cbcbde",
-        "b626aa3808",
-        "f4d2aed31e"
-      ]
+      "explicacion": "Medios recogen que la OMM alerta de un El Niño sin precedentes, que el mar llegó a 29 grados e Inocar pide obras de mitigación; El Búho (10.677 vistas) titula que en diciembre podría empeorar. Cada nueva inundación puede leerse como imprevisión; también es espacio para la preparación familiar.",
+      "ids": ["7c2afb7813", "66f2e247da", "bf2f68c6ca", "87b5d0cfd9", "3d65e81f24", "bdb2c8a5dc", "44c72269fc", "6868cbcbde", "b626aa3808", "f0be91e281"]
     },
     {
       "titulo": "Critican a los GAD por basura y drenajes",
-      "explicacion": "Apunta a municipios: Urvaseo culpa a la basura en Guayaquil, Ecuavisa habla de redes antiguas en Quito, El Universo dice que a Quito le falta planificación y Extra reporta escasez de agua en Playas. No se dirige a la SNGR.",
-      "ids": [
-        "e54e45b76c",
-        "a3fedd9788",
-        "8c6a98cf5c",
-        "0471c1c0f6",
-        "84acafdd1a",
-        "ac7584bf09",
-        "bf89d9ccf9"
-      ]
+      "explicacion": "Apunta a municipios: Urvaseo culpa a la basura en Guayaquil, Ecuavisa habla de redes antiguas en Quito, El Universo dice que a Quito le falta planificación y Extra reporta Playas sin agua por más de 40 horas. No se dirige a la SNGR.",
+      "ids": ["ac7584bf09", "e54e45b76c", "0471c1c0f6", "a3fedd9788", "8c6a98cf5c", "84acafdd1a", "bf89d9ccf9", "a385821e0a"]
     }
   ],
-  "rumores": [
-    {
-      "titulo": "El Gobierno sabía y ocultó la alerta",
-      "explicacion": "El video de Anastacio Dieb (3.878 vistas) plantea que Carlos Vera habría recibido una advertencia antes de que fuera pública; no hay prueba. Respuesta: publicar las horas de emisión de cada alerta del Inamhi y la SNGR (arts. 61 y 72).",
-      "ids": [
-        "d3b97cc3c3"
-      ]
-    }
-  ],
+  "rumores": [],
   "hitos": []
 }
