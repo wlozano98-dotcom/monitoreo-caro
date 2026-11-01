@@ -1,202 +1,80 @@
 {
   "vinetas": [
-    "Contexto del 29, 06:00 (64 h de antigüedad): el monitor no actualiza datos. Crítica en X bajó: 6 frente a 30.",
-    "TikTok concentra la crítica: 14 comentarios, casi todos preguntan a Riesgos 'cuándo pagan'; uno dice que otros ministerios ya pagaron.",
-    "Medios casi todo neutro (168 de 178): Inamhi prevé lluvias intensas en el Litoral hasta el 1 de noviembre, feriado incluido.",
-    "Machala: Ecuavisa reporta 250 barrios cinco días bajo el agua; Diario Correo, enfermedades en el norte; primer albergue lleno."
+    "Santa Cruz, Galápagos, en emergencia domina medios: Teleamazonas sube a dos los fallecidos; afectados difieren entre 800 y 2.000.",
+    "Medios y X destacan el puente aéreo FAE-Riesgos; Carolina es la vocera visible (TikTok de Teleamazonas: 5.561 vistas).",
+    "Las cifras no cuadran entre medios: ayuda de 10 o 14 toneladas; evacuados 80, 800 o mil.",
+    "Continente: 13 o 14 ríos desbordados según la fuente, Bolívar anegado y descargas de Daule-Peripa desde hoy al mediodía."
   ],
   "fuentes_vinetas": [
-    [],
-    [
-      "586ad3e8fc",
-      "45e5915f78",
-      "9a4a5027b1",
-      "057f52da52",
-      "e8b523afc5",
-      "13bc9b5f92",
-      "ac308c9d48"
-    ],
-    [
-      "5ba4559cfa",
-      "8b9be869f7",
-      "59a52ee461",
-      "c9968a1e0c",
-      "e61e33abaf"
-    ],
-    [
-      "7732a2a642",
-      "2290e86eff",
-      "723ce87c3c",
-      "1a3db0c4a6"
-    ]
+    ["db7412b3fe", "71eb7f44a6", "918bc2e309", "88f23d1db0", "6aab6d874a"],
+    ["ea35c37f73", "b4002767f3", "47fb043e70", "45f6ff753b", "840e45dce6"],
+    ["c91df74fe8", "f1b8cb6d44", "da51fac7fa", "be6c8f4e3f", "e2b222b5b8"],
+    ["f76632a4c9", "0401a0cd89", "94a43688d7", "7948e215d6", "7aeec333a3"]
   ],
   "acciones": [
     {
-      "accion": "Confirmar quién paga Jóvenes en Acción y responder la fecha en TikTok de Riesgos.",
-      "porque": "14 comentarios críticos en TikTok piden a Riesgos 'cuándo pagan'; uno dice que otros ministerios ya pagaron.",
-      "base_legal": "Art. 61 y 72",
-      "fuentes": [
-        "586ad3e8fc",
-        "45e5915f78",
-        "9a4a5027b1",
-        "057f52da52",
-        "ed086091d7",
-        "4fccf4a0b3"
-      ]
+      "accion": "Publicar hoy un parte oficial único de Santa Cruz: fallecidos, desaparecidos, evacuados, toneladas.",
+      "porque": "Medios dan 80, 800 o mil evacuados y 10 o 14 toneladas; Teleamazonas ya reporta dos fallecidos.",
+      "base_legal": "Art. 61, 72 y 73",
+      "fuentes": ["da51fac7fa", "be6c8f4e3f", "e2b222b5b8", "c91df74fe8", "f1b8cb6d44", "db7412b3fe"]
     },
     {
-      "accion": "Difundir por el canal único del COE Advertencia 84 y vías del retorno del feriado.",
-      "porque": "Inamhi prevé lluvias intensas hasta el 1 de noviembre; feriado desde el sábado 31; viajeros cruzan a pie el puente E15.",
-      "base_legal": "Art. 23.4, 61 y 62",
-      "fuentes": [
-        "8b9be869f7",
-        "5ba4559cfa",
-        "a47c5c0b14",
-        "e61e33abaf",
-        "f2f64e1f86"
-      ]
+      "accion": "Difundir con el COE de Guayas alerta y recomendaciones a ribereños del Daule antes del mediodía.",
+      "porque": "El Universo y Primicias anuncian descargas controladas del embalse Daule-Peripa desde el mediodía del domingo 1 de noviembre.",
+      "base_legal": "Art. 61 y 62",
+      "fuentes": ["7aeec333a3", "d23506f47f", "335e22d5ed"]
     },
     {
-      "accion": "Ofrecer al COE de Machala apoyo subsidiario en albergues y pedir brigadas al MSP.",
-      "porque": "Teleamazonas y El Comercio: primer albergue lleno; Diario Correo: enfermedades en el norte tras tres días bajo el agua.",
-      "base_legal": "Art. 14, 21.4 y 29",
-      "fuentes": [
-        "723ce87c3c",
-        "1a3db0c4a6",
-        "2290e86eff",
-        "7732a2a642"
-      ]
+      "accion": "Ofrecer apoyo subsidiario al COE de Bolívar para Caluma y Las Naves, con informe público.",
+      "porque": "Teleamazonas y noticiasdeBolívar (6.293 vistas en TikTok) muestran nuevos desbordes; en Caluma solo se reportan 38 kits entregados.",
+      "base_legal": "Art. 13, 14 y 21.4",
+      "fuentes": ["94a43688d7", "7948e215d6", "320e4baac7", "6dd3a87ee5"]
     }
   ],
   "narrativas": [
     {
       "titulo": "El Gobierno llega con bombas, bonos y kits",
-      "explicacion": "El Universo y El Telégrafo reportan bombas en Jujan y para 150 productores de Manabí; cuentas del Ministerio de Trabajo, la Gobernación de Manabí y Muisne muestran entregas junto a la SNGR. Es la principal oportunidad, aunque la cifra total de bombas difiere entre piezas (1.778 y 1.700).",
-      "ids": [
-        "98c301eef6",
-        "dabecafc57",
-        "b033cc037b",
-        "90322e56b6",
-        "03047e5a05",
-        "0aec536ce7",
-        "197a190510",
-        "12c403f58d",
-        "b387048122",
-        "0ebbc75de8",
-        "af070517a7",
-        "ea9bc8ee96",
-        "1ada04fb93",
-        "a319727052",
-        "2eb1b496c6",
-        "f4c9814f18",
-        "45650891e7",
-        "e0b87ede98",
-        "26300ead40",
-        "49f3d49d19",
-        "ab88793ace",
-        "1f7a40dc94",
-        "ed9315a9ce"
-      ]
+      "explicacion": "Medios y cuentas oficiales muestran 1.000 kits y un avión Hércules a Galápagos, kits en Babahoyo y Caluma y bombas a agricultores. Es la principal oportunidad, pero las cifras de toneladas difieren entre medios (10 y 14).",
+      "ids": ["1ed181862b", "a79062a523", "c91df74fe8", "f1b8cb6d44", "ea35c37f73", "b4002767f3", "47fb043e70", "840e45dce6", "320e4baac7", "d6a28aa199", "06ce75a6ce", "4a2fc35d61", "2100f6d78f"]
     },
     {
-      "titulo": "Gestión de Riesgos no paga a los jóvenes",
-      "explicacion": "Comentarios en TikTok y X, al parecer de participantes de Jóvenes en Acción, preguntan cuándo les paga Riesgos y comparan con otros ministerios. Golpea directo a la Secretaría en sus videos de mayor alcance (17.300 y 11.300 vistas); una respuesta con la fecha la desactivaría.",
-      "ids": [
-        "586ad3e8fc",
-        "45e5915f78",
-        "5eb2f745d1",
-        "b08a919e98",
-        "13bc9b5f92",
-        "ac308c9d48",
-        "9a4a5027b1",
-        "b908075724",
-        "00278154a1",
-        "e8b523afc5",
-        "6fa422ceb4",
-        "057f52da52",
-        "37641655d6",
-        "c718f2d35b",
-        "608fc28b82",
-        "ed086091d7",
-        "7a5f55990b",
-        "1e0ee88b04",
-        "2dd7d98ad0",
-        "4fccf4a0b3",
-        "4caf1a843c"
-      ]
+      "titulo": "Santa Cruz quedó bajo el agua y aislada",
+      "explicacion": "Primicias titula que la gente lo perdió todo; Ecuador Comunicación (5.390 vistas) habla de zonas aisladas y El Universo recoge pasajeros que dicen que nadie les responde. Si la ayuda tarda en verse en los barrios, la crítica puede girar hacia la respuesta del Estado.",
+      "ids": ["1f36975266", "aabaa86b06", "2b80f02082", "848ede69b3", "5918b33136", "db7412b3fe", "ef3bcea785"]
     },
     {
       "titulo": "Riesgos avisa tarde y desde el escritorio",
-      "explicacion": "Las burlas en X bajan, pero la duda sigue: Ecuavisa y Extra explican por qué falló el pronóstico en Guayaquil, expertos en Ecuavisa piden al COE alertas por zona y rutas de evacuación en colegios, y en comentarios piden ayuda en vez de informes. El canal único de alertas del COE es la respuesta.",
-      "ids": [
-        "ae168ee718",
-        "efd44458cc",
-        "7bd9176989",
-        "f1f23ac9bf",
-        "aab4a0f5c0",
-        "3a96b8a401",
-        "6d19e00dda",
-        "fd577b0f1d",
-        "267420ef7f",
-        "51de758602",
-        "83312e9a0e",
-        "2bc5203933",
-        "163825993d",
-        "431933e9f5",
-        "d3b97cc3c3",
-        "a47c5c0b14",
-        "1ea3255d17"
-      ]
-    },
-    {
-      "titulo": "Piden avisar a tiempo la suspensión de clases",
-      "explicacion": "Apunta a Educación y al COE: Guayaquil, Durán y Samborondón vuelven a clases presenciales el jueves 29, pero Teleamazonas dice que más de 1 700 planteles siguen virtuales y hay comentarios que piden declarar emergencia educativa. La confusión puede leerse como falla de alerta.",
-      "ids": [
-        "050dab0bc1",
-        "1bf6880f55",
-        "f53b11c01c",
-        "8a40f83ded",
-        "6b0bc1e546",
-        "aaaeaf1463",
-        "f7c616b7f8",
-        "54ba2e11e4",
-        "033227b447",
-        "42c97594b9",
-        "ae168ee718",
-        "267420ef7f"
-      ]
+      "explicacion": "Sigue en respuestas de cuentas pequeñas en X y YouTube: reactivos, sin plan, nunca preparados, y una acusación sin pruebas de que la secretaria se fue de feriado. Bajo alcance hoy; la presencia visible en Galápagos la contradice.",
+      "ids": ["e4bbbf134d", "bd4bc11add", "a471059ba1", "dc30ba5ba1", "5010671d9b", "00d787189a"]
     },
     {
       "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Medios recogen que la OMM alerta de un El Niño sin precedentes, que el mar llegó a 29 grados e Inocar pide obras de mitigación; El Búho (10.677 vistas) titula que en diciembre podría empeorar. Cada nueva inundación puede leerse como imprevisión; también es espacio para la preparación familiar.",
-      "ids": [
-        "7c2afb7813",
-        "66f2e247da",
-        "bf2f68c6ca",
-        "87b5d0cfd9",
-        "3d65e81f24",
-        "bdb2c8a5dc",
-        "44c72269fc",
-        "6868cbcbde",
-        "b626aa3808",
-        "f0be91e281"
-      ]
+      "explicacion": "Confirmado.net recoge a un oceanógrafo que advierte desastres más severos en 2027 y videos de YouTube preguntan si Ecuador está listo. Cada nueva emergencia puede leerse como imprevisión; también es espacio para la preparación familiar.",
+      "ids": ["90faf50b51", "743fc0179d", "ed3f0fc58f", "0a83368fac", "c5aa0ef784", "27ef42f78d"]
     },
     {
-      "titulo": "Critican a los GAD por basura y drenajes",
-      "explicacion": "Apunta a municipios: Urvaseo culpa a la basura en Guayaquil, Ecuavisa habla de redes antiguas en Quito, El Universo dice que a Quito le falta planificación y Extra reporta Playas sin agua por más de 40 horas. No se dirige a la SNGR.",
-      "ids": [
-        "ac7584bf09",
-        "e54e45b76c",
-        "0471c1c0f6",
-        "a3fedd9788",
-        "8c6a98cf5c",
-        "84acafdd1a",
-        "bf89d9ccf9",
-        "a385821e0a"
-      ]
+      "titulo": "Critican a los GAD por drenajes y obras",
+      "explicacion": "Apunta a municipios: El Universo publica 'Una inundación anunciada' sobre Guayaquil, La República reporta reclamos en el Concejo por falta de maquinaria y hay comentarios que piden auditar a Quito. No se dirige a la SNGR.",
+      "ids": ["be2f19577f", "0b7b86724d", "ac207ca7f8", "9f4cb02a19", "f82f2f4e8e", "314ed6054d"]
+    },
+    {
+      "titulo": "Culpan a quien construye junto a los ríos",
+      "explicacion": "Comentarios en videos de Ecuavisa y F365 sobre las casas arrastradas en Santa Elena culpan a propietarios, a autoridades locales que lo permiten y, en uno, también al Gobierno central. Es espacio para hablar de zonas seguras sin culpar a las víctimas.",
+      "ids": ["73b8b48600", "4e8cd442c5", "d082a02535", "5ad97b71b4"]
     }
   ],
-  "rumores": [],
-  "hitos": []
+  "rumores": [
+    {
+      "titulo": "Catástrofes inminentes y mar calentado a propósito",
+      "explicacion": "Un video de YouTube (205 vistas) anuncia terremotos y grandes inundaciones con el cielo rojo de fondo, y un comentario atribuye el calor del mar a tecnología HAARP. Alcance bajo; si crece, responder con información del Inamhi e Inocar sobre el cielo rojo y el calentamiento del mar.",
+      "ids": ["094354d9be", "f80dea3851"]
+    }
+  ],
+  "hitos": [
+    {
+      "dia": "2026-10-31",
+      "titulo": "Inundaciones en Santa Cruz, Galápagos: emergencia y fallecidos",
+      "ids": ["6aab6d874a", "326f07498d", "da51fac7fa", "db7412b3fe"]
+    }
+  ]
 }
