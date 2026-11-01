@@ -21,6 +21,9 @@ TOPE_MES_USD = 4.5
 # Una vez al día, en la corrida de la noche (21:17 de Ecuador), para que lleguen frescas al análisis de las 22:00.
 HORAS_NOCHE = (20, 21, 22)  # hora de Ecuador; margen por los retrasos de GitHub
 CADA_HORAS = {"x": 20, "tiktok": 20, "facebook": 20}  # evita repetir si GitHub corre dos veces en la ventana
+# Desde el 29 oct GitHub salta muchas corridas y ninguna caía entre las 20 y 22 h: si una red lleva más de esto sin
+# correr, se pone al día en la corrida que haya, sea la hora que sea.
+ATRASO_HORAS = 26
 
 ACTOR_X = "kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest"
 ACTOR_TIKTOK = "clockworks~free-tiktok-scraper"  # apidojo es más barato pero limita corridas al mes en cuenta gratis
@@ -85,6 +88,14 @@ def toca(db, red):
         return True
     ultima = datetime.fromisoformat(filas[0]["cuando"].replace("Z", "+00:00"))
     return datetime.now(timezone.utc) - ultima >= timedelta(hours=CADA_HORAS[red], minutes=-20)
+
+
+def atrasada(db, red):
+    filas = db.q("SELECT cuando FROM ultimas WHERE red = ?", [red])
+    if not filas:
+        return True
+    ultima = datetime.fromisoformat(filas[0]["cuando"].replace("Z", "+00:00"))
+    return datetime.now(timezone.utc) - ultima >= timedelta(hours=ATRASO_HORAS)
 
 
 def marcar(db, red):
@@ -320,14 +331,16 @@ def recolectores():
         print(f"Redes: no se pudo ver el gasto de Apify ({e}), se saltan por precaución")
         return []
     print(f"Redes: Apify lleva {gasto:.2f} USD este mes (tope {TOPE_MES_USD})")
-    hora = datetime.now(m.ECUADOR).hour
-    if hora not in HORAS_NOCHE and not os.environ.get("REDES_AHORA"):
-        print(f"Redes: solo en la corrida de la noche ({HORAS_NOCHE[0]}-{HORAS_NOCHE[-1]} h); ahora son las {hora} h")
-        return []
     if gasto >= TOPE_MES_USD:
         print("Redes: tope del mes alcanzado, se saltan hasta el próximo mes")
         return []
     db = m.D1()
+    hora = datetime.now(m.ECUADOR).hour
+    if hora not in HORAS_NOCHE and not os.environ.get("REDES_AHORA"):
+        if not any(atrasada(db, red) for red in CADA_HORAS):
+            print(f"Redes: solo en la corrida de la noche ({HORAS_NOCHE[0]}-{HORAS_NOCHE[-1]} h); ahora son las {hora} h")
+            return []
+        print(f"Redes: llevan más de {ATRASO_HORAS} h sin correr; se ponen al día aunque sean las {hora} h")
     return [
         ("X", lambda: recoger_x(db)),
         ("TikTok", lambda: recoger_tiktok(db)),

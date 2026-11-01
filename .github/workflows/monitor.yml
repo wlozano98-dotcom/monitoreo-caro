@@ -35,25 +35,18 @@ jobs:
         run: python monitor.py
       # La rutina de Claude corre a las 11:20, 17:20, 23:20 y 03:20 UTC (6, 12, 18 y 22 h de Ecuador): las corridas
       # de las 10:17, 16:17, 22:17 y 02:17 UTC le dejan listo el contexto. También al correrlo a mano.
-      # Si no toca prepararlo y el contexto tiene más de 7 h, se perdió una preparación: aviso por correo.
+      # Desde el 29 oct GitHub solo dispara ~1 de cada 3 corridas y a cualquier hora: si el contexto tiene más de 5 h,
+      # se prepara en la corrida que haya (si no, Claude analizaba datos de hace 2 días y nadie lo notaba).
       - name: Preparar contexto para el análisis de Claude
         env:
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           h=$HORA_INICIO
-          if [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ "$h" != "10" ] && [ "$h" != "16" ] && [ "$h" != "22" ] && [ "$h" != "02" ]; then
-            echo "No toca preparar contexto (corrida de las $h UTC)"
-            python3 - <<'PY'
-          import datetime, re
-          m = re.search(r"\((\d{4}-\d\d-\d\d \d\d:\d\d), hora de Ecuador\)", open("analisis/contexto.md", encoding="utf-8").readline())
-          ahora = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-5))).replace(tzinfo=None)
-          horas = (ahora - datetime.datetime.strptime(m.group(1), "%Y-%m-%d %H:%M")).total_seconds() / 3600 if m else 99
-          if horas > 7:
-              with open("avisos.txt", "a", encoding="utf-8") as f:
-                  f.write(f"- El contexto para el análisis de Claude tiene {horas:.0f} h: no se preparó en la corrida que tocaba\n")
-          PY
-            exit 0
+          horas=$(python3 analisis_claude.py edad)
+          echo "Contexto con $horas h"
+          if [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ "$h" != "10" ] && [ "$h" != "16" ] && [ "$h" != "22" ] && [ "$h" != "02" ] && [ "$horas" -le 5 ]; then
+            echo "No toca preparar contexto (corrida de las $h UTC)"; exit 0
           fi
           python analisis_claude.py preparar
           git config user.name "monitoreo-bot"

@@ -6,7 +6,7 @@ El agente de la nube no tiene claves ni toca la base:
   3. `cargar` (en GitHub Actions, al cambiar analisis/ultimo.json): lo pasa a la base. Las cifras de cada narrativa
      y rumor se cuentan aquí con las piezas que el agente citó, igual que con Gemini.
 
-Uso: python3 analisis_claude.py preparar | validar [archivo] | cargar [archivo]
+Uso: python3 analisis_claude.py preparar | validar [archivo] | cargar [archivo] | edad
 """
 
 import json
@@ -21,6 +21,20 @@ CARPETA = os.path.join(m.AQUI, "analisis")
 CONTEXTO = os.path.join(CARPETA, "contexto.md")
 ULTIMO = os.path.join(CARPETA, "ultimo.json")
 ID_CORTO = 10  # las piezas se citan por los primeros 10 caracteres de su id
+
+
+EDAD_MAX = 8  # horas: un análisis hecho sobre un contexto más viejo no se carga (pasó del 29 al 31 oct)
+
+
+def edad():
+    """Horas (enteras) desde que se preparó analisis/contexto.md, según su encabezado; 99 si no se puede leer."""
+    try:
+        linea = open(CONTEXTO, encoding="utf-8").readline()
+        f = re.search(r"\((\d{4}-\d\d-\d\d \d\d:\d\d), hora de Ecuador\)", linea).group(1)
+    except Exception:
+        return 99
+    ahora = datetime.now(m.ECUADOR).replace(tzinfo=None)
+    return int((ahora - datetime.strptime(f, "%Y-%m-%d %H:%M")).total_seconds() // 3600)
 
 
 def preparar():
@@ -111,6 +125,8 @@ def validar(ruta=ULTIMO):
         errores.append("fuentes_vinetas: una lista de ids por cada viñeta, en el mismo orden")
     if isinstance(acc, list) and not all(isinstance(x, dict) and isinstance(x.get("fuentes"), list) and x["fuentes"] for x in acc):
         errores.append("acciones: cada una con 'fuentes' (al menos un id de pieza)")
+    if edad() > EDAD_MAX:
+        errores.append(f"analisis/contexto.md tiene {edad()} h: el análisis se haría sobre datos viejos")
     # Contra la invención: todo id citado debe existir en el contexto que se le dio.
     if os.path.exists(CONTEXTO):
         conocidos = set(re.findall(r"^\[([0-9a-f]{%d})\]" % ID_CORTO, open(CONTEXTO, encoding="utf-8").read(), re.M))
@@ -196,6 +212,8 @@ if __name__ == "__main__":
         preparar()
     elif orden == "validar":
         validar(ruta)
+    elif orden == "edad":
+        print(edad())
     elif orden == "cargar":
         cargar(ruta)
     else:

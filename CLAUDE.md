@@ -31,8 +31,9 @@ medios y redes sobre El Niño, la Secretaría y ella. Presupuesto cero: solo cap
   perdía ~40 % (p. ej. la suspensión de clases). Así en Google Noticias, YouTube, X, TikTok y el filtro de RSS
   (`PALABRAS`). Gemini descarta lo irrelevante. Andrés descartó las búsquedas que "se ajustan solas" (llegan tarde, derivan).
 - `vigilante.py` (pedido de Andrés): cada corrida revisa errores de fuentes, Google Noticias en 0, titulares, cobertura
-  (búsquedas vs agenda, mínimo 50 %), redes, Gemini, análisis de Claude, SitRep. monitor.yml además avisa si el
-  contexto para Claude tiene más de 7 h (la hora de la corrida se toma al empezar: `HORA_INICIO`). Si hay algo, deja `avisos.txt` y el
+  (búsquedas vs agenda, mínimo 50 %), redes, Gemini, análisis de Claude, SitRep. Desde el 29 oct GitHub dispara ~1 de cada 3
+  corridas a cualquier hora: si `analisis/contexto.md` tiene más de 5 h se prepara en la corrida que haya, y `validar`
+  rechaza análisis hechos sobre un contexto de más de 8 h. Las redes, si llevan más de 26 h sin correr, se ponen al día a cualquier hora. Si hay algo, deja `avisos.txt` y el
   último paso de monitor.yml pone la corrida en rojo -> GitHub manda correo (problema nuevo, o uno viejo 1 vez al día).
   Solo en GitHub (`GITHUB_ACTIONS`). Aviso por correo, sin nada visual en el tablero (decisión de Andrés).
 - `lluvias.py` + `public/lluvias.html` (pedido de Andrés: dónde preposicionar kits; SIN medios ni redes): mapa por
