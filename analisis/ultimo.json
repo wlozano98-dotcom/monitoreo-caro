@@ -1,76 +1,31 @@
 {
   "vinetas": [
-    "Tormenta del domingo inundó Guayaquil: Primicias cuenta más de 80 sectores; El Universo citó más de 50 según Segura EP.",
-    "Críticas en X subieron de 8 a 30 en 24 h: piden albergues y acusan que no hubo alerta.",
-    "El reclamo 'ninguna advertencia de Riesgos' (3.266 vistas) choca con tormentas anunciadas por el Inamhi el domingo.",
-    "Galápagos sigue como oportunidad: Vistazo y W Radio nombran a la SNGR en el segundo vuelo de 7,6 toneladas."
+    "Críticas en X subieron de 8 a 30 en 24 h, concentradas el domingo en la noche contra Riesgos.",
+    "Medios citan a la SNGR como fuente: 18 ríos desbordados, nueve en Guayas (Teleamazonas, El Comercio, El Universo).",
+    "Tercer vuelo con siete toneladas a Galápagos: titulares de Ecuavisa, Primicias y Teleamazonas no nombran a la SNGR.",
+    "Nuevo foco en Santa Elena: FM Mundo reporta seis comunas aisladas y 100 familias afectadas."
   ],
   "fuentes_vinetas": [
-    ["853325a8ff", "7f7c084396"],
-    ["1b68114682", "11a23480af", "beb20c6922", "5b7323abd5"],
-    ["1b68114682", "2f604c8b41", "79ceb12f2f"],
-    ["cfbc666aa3", "119db1a09b", "cac0cbef23"]
+    ["1b68114682", "7c4964eabe", "44c11d871f", "11a23480af", "5b7323abd5"],
+    ["b625300325", "ca57b323b3", "6763ffbf09"],
+    ["2dfd7f605d", "9d217efe2e", "c7b17b4a5c"],
+    ["e590ef6d5f", "b2ba7de5b3", "14c25caa90"]
   ],
   "acciones": [
-    {
-      "accion": "Publicar hoy en X la lista oficial de albergues de Guayaquil, coordinada con Segura EP.",
-      "porque": "@monikeke (1.985 vistas) y otras cuentas preguntan dónde hay albergues; Segura EP solo respondió con uno: Volver a Soñar.",
-      "base_legal": "Art. 61 y 72",
-      "fuentes": ["11a23480af", "beb20c6922", "3f397726e2", "79e81d4762"]
-    },
-    {
-      "accion": "Difundir en redes el aviso Inamhi-Inocar vigente hasta el 4 de noviembre para Guayaquil.",
-      "porque": "Inocar prevé marea de hasta 4,05 m entre el 1 y 4 de noviembre; en X se acusa que Riesgos no alertó.",
-      "base_legal": "Art. 61 y 62",
-      "fuentes": ["0ba0211159", "3cd61db8f5", "1b68114682", "da0225bec7"]
-    },
-    {
-      "accion": "Ofrecer apoyo subsidiario al COE cantonal de Guayaquil para Pascuales y Las Orquídeas.",
-      "porque": "Pedido de rescate por desborde de estero en Pascuales (15.282 vistas) y gente atrapada en Las Orquídeas (3.389 vistas).",
-      "base_legal": "Art. 14, 21.4 y 68",
-      "fuentes": ["21a435c081", "7c4964eabe", "170117678f", "c25643c208"]
-    }
+    {"accion": "Difundir en X de Riesgos, con Segura EP, las direcciones de los dos albergues de Guayaquil.", "porque": "Metro y Extra ya las publican; el domingo en la noche cuentas como @monikeke (1.985 vistas) preguntaban a Riesgos dónde ir.", "base_legal": "Art. 61 y 72", "fuentes": ["95d6a6ac12", "6297490f6a", "11a23480af", "beb20c6922"]},
+    {"accion": "Ofrecer apoyo subsidiario a los GAD de Santa Elena para las comunas aisladas.", "porque": "FM Mundo: seis comunas aisladas y 100 familias afectadas; Teleamazonas reporta zonas incomunicadas; hay alerta por lluvias hasta el 4 de noviembre.", "base_legal": "Art. 13, 14 y 21.4", "fuentes": ["e590ef6d5f", "b2ba7de5b3", "14c25caa90", "2a6e2294e7"]},
+    {"accion": "Publicar hoy la cifra nacional de afectados y sectores, con hora de corte.", "porque": "Extra difunde 46.000 afectados y El Universo 39.270; en Guayaquil El Universo dice 90 sectores y Ecuavisa más de 100.", "base_legal": "Art. 61, 72 y 73", "fuentes": ["03582bb900", "d94afb932a", "dcdb239221", "2c04729733"]}
   ],
   "narrativas": [
-    {
-      "titulo": "Riesgos avisa tarde y desde el escritorio",
-      "explicacion": "Volvió con la tormenta de Guayaquil: 'ninguna advertencia de la Secretaría' (3.266 vistas), 'dónde están' y 'no hay gestión de riesgos' (5.648 vistas). Algunas respuestas recuerdan que sí hubo alerta; es el principal riesgo directo para la SNGR y Carolina.",
-      "ids": ["1b68114682", "da0225bec7", "5b7323abd5", "44c11d871f", "9875d65e32", "f2b8e58372", "2c356362f7", "f380eeb577", "17928c9ba5", "7718f68055", "fde8b6e787", "5c136c5f46"]
-    },
-    {
-      "titulo": "Nadie dice dónde están los albergues",
-      "explicacion": "Cuentas de Guayaquil preguntan a la Alcaldía, Segura EP y Riesgos dónde ir esa noche; solo hubo una respuesta con un albergue. Apunta a la Alcaldía y a la SNGR: un vacío de información fácil de cerrar con datos oficiales.",
-      "ids": ["11a23480af", "beb20c6922", "79e81d4762", "3a29d7d2fa", "eff585007a", "3f397726e2"]
-    },
-    {
-      "titulo": "Critican a los GAD por drenajes y obras",
-      "explicacion": "Apunta a la Alcaldía de Guayaquil (cuarta inundación en 14 días, según Mónica Velásquez en TikTok) y al GAD de Chone por evacuación de aguas sin limpieza. Algunas cuentas defienden al Gobierno y culpan al municipio; no se dirige a la SNGR.",
-      "ids": ["8b7d9a9ef3", "b20bb6099c", "5c136c5f46", "88748ec724", "8819d639cb", "a22e6dfca3", "e8b63f0c3a", "6bce460b67", "2e6a3c20ef"]
-    },
-    {
-      "titulo": "El Gobierno llega con bombas, bonos y kits",
-      "explicacion": "Medios y cuentas difunden el segundo vuelo de 7,6 toneladas a Santa Cruz, 17 toneladas trasladadas por la FAE y 500 kits con Tía en Machala. Varias notas lo atribuyen al Gobierno sin nombrar a la SNGR, y Guayaquil ya eclipsa esta oportunidad.",
-      "ids": ["cfbc666aa3", "119db1a09b", "55098845f5", "56000e86e6", "c376ef0a15", "6aaf315e05", "5dda01d8e3", "4c70ed843c", "15b78f1560", "cfce29171c", "cac0cbef23", "0e23086d9e", "020c5d45d8", "255a442bc9", "fb069bf32b", "70126f863f", "5bf9da25da"]
-    },
-    {
-      "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Medios difunden el mapa del Inamhi con tormentas hasta el 4 de noviembre y la marea alta de Inocar; en redes se lee como imprevisión ('se les avisó hace un año'). Riesgo de culpa acumulada, oportunidad para guías de preparación familiar.",
-      "ids": ["5b7323abd5", "a86eb3721b", "bb62396095", "3cd61db8f5", "6e13e26972", "0ba0211159", "cb6633dfb1"]
-    },
-    {
-      "titulo": "En Santa Cruz la ayuda no llega a todos",
-      "explicacion": "Teleamazonas recoge que hay familias atrapadas con dificultades para recibir ayuda; comentarios piden la renuncia de Carolina porque la ayuda 'no alcanza'. Alcance bajo en comentarios, pero toca directamente a la secretaria.",
-      "ids": ["4e1eab2979", "b4ca740311", "64f1ca6209"]
-    }
+    {"titulo": "Riesgos avisa tarde y desde el escritorio", "explicacion": "Pico el domingo en la noche en X: 'ninguna advertencia de la Secretaría' (3.266 vistas) y 'no hay gestión de riesgos' (5.648 vistas); una respuesta recuerda que la alerta existía. El lunes los medios vuelven a citar a la SNGR como fuente, sin crítica; es el principal riesgo directo para Carolina.", "ids": ["1b68114682", "da0225bec7", "5b7323abd5", "44c11d871f", "9875d65e32", "f2b8e58372", "2c356362f7", "7718f68055", "17928c9ba5", "c8773dd5f4", "73c24e5cc7", "f380eeb577", "b9801b1a3f", "fde8b6e787"]},
+    {"titulo": "Nadie dice dónde están los albergues", "explicacion": "El reclamo nocturno apuntaba a la Alcaldía y a Riesgos; el lunes el Municipio (Segura EP) publicó dos albergues y los medios lo atribuyen solo a él. El vacío se cierra, pero sin crédito para la SNGR.", "ids": ["11a23480af", "beb20c6922", "3a29d7d2fa", "79e81d4762", "3f397726e2", "95d6a6ac12", "6297490f6a", "86aec7b8b8"]},
+    {"titulo": "Critican a los GAD por drenajes y obras", "explicacion": "Apunta a la Alcaldía de Guayaquil: Mónica Velásquez en TikTok (4.456 vistas) habla de la cuarta inundación en 14 días y cuentas de Urdesa y Las Orquídeas etiquetan a la Alcaldía. No se dirige a la SNGR.", "ids": ["8b7d9a9ef3", "ab83e9e2f5", "4e41e2cdf2", "2e6a3c20ef", "170117678f"]},
+    {"titulo": "El Gobierno llega con bombas, bonos y kits", "explicacion": "Sigue la cobertura de vuelos a Galápagos: el segundo (7,6 toneladas) se atribuyó a la SNGR en Vistazo y W Radio, pero el tercero aparece en titulares como 'Gobierno'. Oportunidad de vocería propia que se está perdiendo.", "ids": ["2dfd7f605d", "9d217efe2e", "d4f7c34a2e", "c7b17b4a5c", "cfbc666aa3", "119db1a09b", "5dda01d8e3", "255a442bc9", "020c5d45d8", "cac0cbef23"]},
+    {"titulo": "Las lluvias empeorarán y no estamos preparados", "explicacion": "Medios difunden la alerta del Inamhi hasta el 4 de noviembre; en redes se lee como imprevisión ('se les avisó hace 1 año'). Riesgo de culpa acumulada si vuelve a inundarse Guayaquil esta noche.", "ids": ["2a6e2294e7", "36d40b0612", "768a0b79b3", "bb62396095", "a86eb3721b", "cb6633dfb1", "09d706daf7", "5b7323abd5"]},
+    {"titulo": "En Santa Cruz la ayuda no llega a todos", "explicacion": "Teleamazonas recogió que hay familias atrapadas con dificultad para recibir ayuda y hay comentarios que piden la renuncia de Carolina. Alcance bajo, pero la toca directamente; el tercer vuelo puede contestarlo si se informa a quién llega.", "ids": ["4e1eab2979", "64f1ca6209", "388e59237b", "b4ca740311"]}
   ],
   "rumores": [
-    {
-      "titulo": "Un rayo incendió el cerro del Carmen",
-      "explicacion": "Videos en YouTube (hasta 1.215 vistas) afirmaron un incendio por rayo en el cerro del Carmen; según El Universo, los Bomberos lo descartaron: eran luces de un letrero. Conviene replicar la aclaración oficial de Bomberos (arts. 61 y 72).",
-      "ids": ["4b165ba9a6", "979dc3adaa", "7b66bbbd52", "1d80a6fe8f"]
-    }
+    {"titulo": "Un rayo incendió el cerro del Carmen", "explicacion": "Videos en YouTube (hasta 1.215 vistas) afirmaron un incendio por rayo en el cerro del Carmen; según El Universo, los Bomberos lo descartaron: eran luces de un letrero. Conviene replicar la aclaración oficial de Bomberos (arts. 61 y 72).", "ids": ["4b165ba9a6", "979dc3adaa", "7b66bbbd52", "1d80a6fe8f"]}
   ],
-  "hitos": [
-    {"dia": "2026-11-01", "titulo": "Tormenta inunda más de 80 sectores de Guayaquil", "ids": ["853325a8ff", "1e4fb68747", "7f7c084396"]}
-  ]
+  "hitos": []
 }
