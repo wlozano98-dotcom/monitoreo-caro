@@ -1,80 +1,31 @@
 {
   "vinetas": [
-    "Santa Cruz: Teleamazonas eleva a dos los fallecidos; otros medios mantienen uno y dos desaparecidos. Falta cifra oficial única.",
-    "X pasó de 6 a 50 piezas en 24 h, 23 positivas: puente aéreo FAE-Riesgos con Carolina como vocera.",
-    "Continente: El Comercio reporta cierres viales en diez provincias; Teleamazonas, más de 36 mil afectados y Latacunga–La Maná cerrada.",
-    "Hoy desde el mediodía descarga el Daule-Peripa; se prevén lluvias fuertes en Quito, Guayaquil y Galápagos. Crítica en redes, de bajo alcance."
+    "Ninguna pieza del domingo nombra a Carolina; dominan el segundo vuelo (7,6 t) y la primera dama en Galápagos.",
+    "Teleamazonas recoge la crítica: denuncian familias atrapadas en Santa Cruz y decenas sin kit pese a 700 entregados.",
+    "Cifras dispares: entre 36.000 y 46.000 afectados en el país; en Santa Cruz, 2.000 o 3.120 según el medio.",
+    "Inamhi anuncia tormentas hasta el 4 de noviembre; Quito pasó a nivel rojo y Daule-Peripa inició descargas controladas."
   ],
   "fuentes_vinetas": [
-    ["db7412b3fe", "71eb7f44a6", "102896d8cf", "fb1fb19081", "083e20342e"],
-    ["47fb043e70", "c444886f30", "fff5d28d5e", "cebd27d99e", "23f5e97888", "840e45dce6"],
-    ["8657613d4f", "1a2e2d28b7", "72be81361c", "445c2d90cd", "5b7c841d99"],
-    ["7aeec333a3", "1ddcf7ab4f", "e7759a9994", "d276ba5e18", "a471059ba1"]
+    ["56000e86e6", "afeb18ab01", "f82173171f", "984b4ca982"],
+    ["4e1eab2979", "c3e008bb30"],
+    ["03582bb900", "6b9e21686c", "d94afb932a", "1fbe25ed9e", "7584fea552"],
+    ["3cd61db8f5", "faf98962a3", "fa54cdc56a", "ba8d7f4e65", "776e3fea7d"]
   ],
   "acciones": [
-    {
-      "accion": "Publicar hoy parte oficial único: Santa Cruz (fallecidos, desaparecidos, evacuados) y ríos desbordados.",
-      "porque": "Medios dan uno o dos fallecidos, 800 o 2.000 afectados, 80 u 800 evacuados, y 13 o 14 ríos desbordados.",
-      "base_legal": "Art. 61 y 72",
-      "fuentes": ["db7412b3fe", "102896d8cf", "918bc2e309", "fb1fb19081", "be6c8f4e3f", "b610f285cd", "0401a0cd89", "d9e58ce8cf"]
-    },
-    {
-      "accion": "Difundir con el COE de Guayas recomendaciones a ribereños del Daule durante las descargas.",
-      "porque": "El Universo, Primicias e Infobae informan descargas del Daule-Peripa desde el mediodía del domingo; Extra anuncia tormenta nocturna en Guayaquil.",
-      "base_legal": "Art. 61 y 62",
-      "fuentes": ["7aeec333a3", "d23506f47f", "1ddcf7ab4f", "d276ba5e18"]
-    },
-    {
-      "accion": "Ofrecer apoyo subsidiario al COE de Bolívar en Las Naves y Caluma, con informe público.",
-      "porque": "Teleamazonas (2.794 vistas) muestra nuevo desborde del Naves Chico; noticiasdeBolívar (6.293 vistas) reporta Caluma; El Comercio, solo 38 kits entregados.",
-      "base_legal": "Art. 13, 14 y 21.4",
-      "fuentes": ["94a43688d7", "82f84c6020", "7948e215d6", "320e4baac7", "e461e595ac"]
-    }
+    {"accion": "Apoyar al COE de Santa Cruz con registro de familias sin kit y publicar cronograma", "porque": "Teleamazonas reporta 700 kits entregados, decenas de familias esperando y habitantes que dicen que hay familias atrapadas y sin ayuda.", "base_legal": "Art. 14, 21.4 y 68", "fuentes": ["c3e008bb30", "4e1eab2979", "cc1430cfc0"]},
+    {"accion": "Publicar en @Riesgos_Ec un parte único diario: fallecidos, afectados y Santa Cruz", "porque": "Diario Extra da 46.000 afectados, Prensa Latina más de 36.000, El Universo 39.270; Santa Cruz figura con 2.000 o 3.120.", "base_legal": "Art. 61 y 72", "fuentes": ["03582bb900", "6b9e21686c", "d94afb932a", "1fbe25ed9e"]},
+    {"accion": "Carolina, vocera hoy de alertas hasta el 4 de noviembre y descargas del Daule", "porque": "Inamhi prevé tormentas hasta el 4 de noviembre, Metro pregunta qué pasará con el río Daule; ninguna pieza del domingo la nombra.", "base_legal": "Art. 23.5, 61 y 62", "fuentes": ["3cd61db8f5", "160ba8a749", "ba8d7f4e65", "f6e51afb1e"]}
   ],
   "narrativas": [
-    {
-      "titulo": "El Gobierno llega con bombas, bonos y kits",
-      "explicacion": "Teleamazonas, El Universo y cuentas de X con cientos de miles de seguidores muestran el puente aéreo FAE-Riesgos y a Carolina informando; El Comercio suma bonos en diez provincias. Es la principal oportunidad, pero las toneladas difieren entre medios (10 y 14).",
-      "ids": ["1ed181862b", "a79062a523", "c91df74fe8", "f1b8cb6d44", "ea35c37f73", "b4002767f3", "47fb043e70", "840e45dce6", "320e4baac7", "d6a28aa199", "06ce75a6ce", "4a2fc35d61", "0c6e3a3b8d", "38c9be9063", "8f0785cd0d", "cebd27d99e", "c444886f30", "fff5d28d5e", "23f5e97888", "180a3241e9", "26e9b2534f", "3a40a1bf5d", "f8b6e9254b"]
-    },
-    {
-      "titulo": "Santa Cruz quedó bajo el agua y aislada",
-      "explicacion": "Videos de Teleamazonas y canales de YouTube con miles de vistas muestran calles anegadas, sectores aislados y dos fallecidos; El Universo recogió a pasajeros que dicen que nadie les responde. Hoy La Hora cita al ECU911 sin novedades pese a la lluvia: si la ayuda no se ve en los barrios, la crítica puede girar al Estado.",
-      "ids": ["1f36975266", "aabaa86b06", "2b80f02082", "848ede69b3", "5918b33136", "db7412b3fe", "ef3bcea785", "71eb7f44a6", "102896d8cf", "7ef9835606", "2eed37f850", "4f3e58047d", "f16b4e81a2"]
-    },
-    {
-      "titulo": "Riesgos avisa tarde y desde el escritorio",
-      "explicacion": "Sigue solo en respuestas de cuentas pequeñas en X y YouTube: reactivos, sin plan, la misma noticia cada año, y una acusación sin pruebas de que la secretaria se fue de feriado. Bajo alcance; la vocería de Carolina sobre Santa Cruz en medios la contradice.",
-      "ids": ["e4bbbf134d", "bd4bc11add", "a471059ba1", "dc30ba5ba1", "5010671d9b", "00d787189a"]
-    },
-    {
-      "titulo": "Las lluvias empeorarán y no estamos preparados",
-      "explicacion": "Un oceanógrafo citado por Confirmado.net advierte desastres más severos en 2027, El Universo pregunta por qué hay tantos eventos y en comentarios se lee que lo fuerte aún no empieza. Cada emergencia puede leerse como imprevisión; también es espacio para la preparación familiar.",
-      "ids": ["90faf50b51", "743fc0179d", "ed3f0fc58f", "0a83368fac", "c5aa0ef784", "27ef42f78d", "b78792db46", "b7a511aa8f", "58fe837992"]
-    },
-    {
-      "titulo": "Critican a los GAD por drenajes y obras",
-      "explicacion": "Apunta a municipios: El Universo publica 'Una inundación anunciada' sobre Guayaquil, La República reporta reclamos en el Concejo por falta de maquinaria y hay respuestas sobre un dragado prometido y no cumplido. No se dirige a la SNGR.",
-      "ids": ["be2f19577f", "0b7b86724d", "ac207ca7f8", "f82f2f4e8e", "314ed6054d", "9eae51be6e"]
-    },
-    {
-      "titulo": "Culpan a quien construye junto a los ríos",
-      "explicacion": "Comentarios en videos de Ecuavisa y F365 sobre las casas arrastradas en Santa Elena culpan a propietarios, a autoridades locales que lo permiten y, en uno, también al Gobierno central. Es espacio para hablar de zonas seguras sin culpar a las víctimas.",
-      "ids": ["73b8b48600", "4e8cd442c5", "d082a02535", "5ad97b71b4"]
-    }
+    {"titulo": "El Gobierno llega con bombas, bonos y kits", "explicacion": "Infobae, El Universo y Metro cuentan el segundo vuelo de 7,6 toneladas, la primera dama en Galápagos y casi 2.500 kits en Santa Elena y Galápagos. Sigue siendo la principal oportunidad, pero el domingo se atribuye al Gobierno sin nombrar a Carolina, y las toneladas del primer vuelo difieren (10 y 14).", "ids": ["56000e86e6", "afeb18ab01", "f82173171f", "d94afb932a", "0e5532ff7f", "cc1430cfc0", "63f3f49206", "0c6e3a3b8d", "c97bb0b17a", "e036b6cf77", "984b4ca982", "5210278018", "38c9be9063", "8f0785cd0d", "320e4baac7", "c91df74fe8", "f1b8cb6d44", "1ed181862b", "a79062a523", "ea35c37f73", "b4002767f3", "47fb043e70", "840e45dce6", "cebd27d99e", "c444886f30", "fff5d28d5e", "23f5e97888", "180a3241e9", "26e9b2534f", "3a40a1bf5d", "f8b6e9254b", "d6a28aa199"]},
+    {"titulo": "En Santa Cruz la ayuda no llega a todos", "explicacion": "Teleamazonas recoge familias que siguen esperando kits y habitantes que dicen que hay familias atrapadas; El Universo ya había publicado 'Nadie nos responde'. Comentarios en YouTube piden viviendas y critican la tardanza. Es el principal riesgo: la crítica apunta al Gobierno central y puede alcanzar a la Secretaría.", "ids": ["4e1eab2979", "c3e008bb30", "2b80f02082", "2eef19660a", "b4ca740311", "c6cd5b90e3", "9718e7dcf0", "53956c7bb9"]},
+    {"titulo": "Santa Cruz quedó bajo el agua y aislada", "explicacion": "Videos de SEVENRO (24.822 vistas), HCH, JP+ y medios internacionales (AFP, El País) muestran calles anegadas, un fallecido o dos según la fuente y cerca de 2.000 afectados. La luz volvió a Santa Cruz y la vía a Itabaca reabrió con paso controlado, lo que permite mostrar recuperación.", "ids": ["e1ff6319eb", "264dec255c", "c3f9be68e8", "3f4ec9c265", "bc10df3faf", "ce3c700dbf", "0a8a1a9dcf", "bfe591f9a8", "1f36975266", "848ede69b3", "5918b33136", "db7412b3fe", "ef3bcea785", "71eb7f44a6", "102896d8cf", "7ef9835606", "f16b4e81a2", "2389fbec8c", "75784663a8"]},
+    {"titulo": "Las lluvias empeorarán y no estamos preparados", "explicacion": "Medios difunden que el Inamhi prevé tormentas hasta el 4 de noviembre y un video anuncia que lo peor viene en diciembre; en comentarios se pregunta qué se hizo para prevenir. Cada nueva emergencia puede leerse como imprevisión; también abre espacio para la preparación familiar.", "ids": ["3cd61db8f5", "faf98962a3", "6e13e26972", "3c850c7e62", "3114cf1492", "05dbd5579c", "b78792db46", "c5aa0ef784", "90faf50b51", "b7a511aa8f", "58fe837992"]},
+    {"titulo": "Riesgos avisa tarde y desde el escritorio", "explicacion": "Solo respuestas de cuentas pequeñas en X y YouTube: reactivos, sin plan, la misma noticia cada año y una acusación sin pruebas de que la secretaria se fue de feriado. Sin piezas nuevas de X, TikTok ni Facebook desde la noche del sábado; alcance bajo.", "ids": ["e4bbbf134d", "bd4bc11add", "a471059ba1", "5010671d9b", "d1677d858d", "b8c9cae43a"]},
+    {"titulo": "Critican a los GAD por drenajes y obras", "explicacion": "Apunta a municipios: Extra señala aceras rotas ocultas por el agua en Guayaquil y hay respuestas sobre construcciones permitidas en zonas de riesgo y un dragado prometido y no cumplido. No se dirige a la SNGR.", "ids": ["492f2f2983", "f82f2f4e8e", "9eae51be6e", "5ad97b71b4", "73b8b48600"]}
   ],
   "rumores": [
-    {
-      "titulo": "Catástrofes inminentes y mar calentado a propósito",
-      "explicacion": "Un video de YouTube (205 vistas) anuncia terremotos y grandes inundaciones con el cielo rojo de fondo, y un comentario atribuye el calor del mar a tecnología HAARP. Alcance bajo; si crece, responder con información del Inamhi e Inocar.",
-      "ids": ["094354d9be", "f80dea3851"]
-    }
+    {"titulo": "El mar fue calentado con tecnología HAARP", "explicacion": "Un comentario en un video de Teleamazonas atribuye el calentamiento del océano a máquinas submarinas HAARP. Alcance mínimo; si crece, responder con información oficial del Inamhi y el Inocar sobre El Niño.", "ids": ["f80dea3851"]}
   ],
-  "hitos": [
-    {
-      "dia": "2026-10-30",
-      "titulo": "Deslave mata a esposos en Camilo Ponce Enríquez",
-      "ids": ["3cbddc43f0", "c10f64ecb9", "57ddd7cfbe"]
-    }
-  ]
+  "hitos": []
 }
