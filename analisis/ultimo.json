@@ -1,31 +1,205 @@
 {
   "vinetas": [
-    "Críticas en X subieron de 4 a 30 en 24 h; 'ninguna advertencia de la Secretaría de Riesgos' sumó 3.266 vistas.",
-    "Medios citan a Riesgos (18 ríos desbordados), con cifras dispares: 90 o 114 sectores en Guayaquil, 7 o 9 fallecidos.",
-    "Medios atribuyen al Gobierno el tercer vuelo y la maquinaria a Santa Cruz; Teleamazonas denuncia irregularidades en la entrega.",
-    "Espol anuncia diez días de 'descanso' en Guayaquil; el Inamhi advierte que persisten condiciones para lluvias fuertes."
+    "Sin datos de X, TikTok ni Facebook en las últimas 24 h; ayer X sumó 30 críticas. Medios: 200 piezas, 1 crítica.",
+    "El Estilete en YouTube pregunta '¿Dónde está Noboa?' (9.560 vistas) y si Neira dirige; ninguna pieza de 24 h nombra a Carolina.",
+    "Circulan cifras distintas: 7 o 9 fallecidos, 39.270 o 46.000 afectados; a la SNGR solo la citan por 18 ríos desbordados.",
+    "Teleamazonas denuncia irregularidades en la ayuda en Santa Cruz; vuelos y maquinaria se titulan como envío del Gobierno."
   ],
   "fuentes_vinetas": [
-    ["1b68114682", "5b7323abd5", "da0225bec7"],
-    ["b625300325", "e662d64ddd", "dcdb239221", "bb626c5ec8", "13e07185d5", "047cf341ea", "dea9227b3d"],
-    ["2dfd7f605d", "cf54b27067", "765e63cb17", "1ff63ca976"],
-    ["f381514643", "20a878debd", "2a6e2294e7"]
+    [],
+    [
+      "848ac51c78",
+      "b958d2ef8e",
+      "8ed5df2988"
+    ],
+    [
+      "13e07185d5",
+      "047cf341ea",
+      "c9f0335c38",
+      "e224536530",
+      "b625300325"
+    ],
+    [
+      "1ff63ca976",
+      "6e07762778",
+      "c5ce4769b2",
+      "9d217efe2e",
+      "765e63cb17"
+    ]
   ],
   "acciones": [
-    {"accion": "Vocería conjunta con Inamhi esta noche: la alerta sigue hasta el 4 de noviembre.", "porque": "Espol habla de 'descanso' de diez días; hay alerta por lluvias fuertes en tres provincias esta noche y madrugada.", "base_legal": "Art. 61 y 62", "fuentes": ["f381514643", "20a878debd", "f9ce1a5116", "2a6e2294e7"]},
-    {"accion": "Publicar un balance único SNGR por cantón: fallecidos, sectores afectados y albergues.", "porque": "Medios dan 90 o 114 sectores en Guayaquil y 7 o 9 fallecidos; en X reclamaron información sobre albergues.", "base_legal": "Art. 61 y 72", "fuentes": ["dcdb239221", "bb626c5ec8", "13e07185d5", "047cf341ea", "11a23480af"]},
-    {"accion": "Publicar en la web las entregas en Santa Cruz por sector, ante la denuncia.", "porque": "Teleamazonas denuncia irregularidades en la entrega de ayuda en Santa Cruz; un comentario pide la renuncia de Carolina.", "base_legal": "Art. 72 y 73", "fuentes": ["1ff63ca976", "64f1ca6209"]}
+    {
+      "accion": "Publicar hoy un consolidado oficial único: fallecidos, afectados, ríos desbordados y albergues por provincia.",
+      "porque": "Medios y videos difunden 7 o 9 fallecidos y 39.270 o 46.000 afectados; la SNGR solo aparece citada por 18 ríos.",
+      "base_legal": "Art. 61, 72 y 73",
+      "fuentes": [
+        "13e07185d5",
+        "ea91a8fe4b",
+        "047cf341ea",
+        "c9f0335c38",
+        "e224536530"
+      ]
+    },
+    {
+      "accion": "Revisar con el COE de Galápagos la denuncia y publicar entregas en Santa Cruz.",
+      "porque": "Teleamazonas denuncia irregularidades en la entrega en Santa Cruz; comentarios en YouTube dicen que la ayuda no llega a todos.",
+      "base_legal": "Art. 14, 29 y 73",
+      "fuentes": [
+        "1ff63ca976",
+        "e19d45fb5b",
+        "279a9cc4cf"
+      ]
+    },
+    {
+      "accion": "Carolina como vocera técnica en territorio: balance con cifras oficiales junto al COE.",
+      "porque": "El Estilete (9.560 vistas) pregunta quién dirige la emergencia; ninguna pieza de 24 h nombra a Carolina ni la cita.",
+      "base_legal": "Art. 23.1-2 y 61",
+      "fuentes": [
+        "848ac51c78",
+        "b958d2ef8e",
+        "8ed5df2988"
+      ]
+    }
   ],
   "narrativas": [
-    {"titulo": "Riesgos avisa tarde y desde el escritorio", "explicacion": "Cuentas de X culparon de madrugada a la SNGR por la tormenta de Guayaquil: 'ninguna advertencia' (3.266 vistas) y 'no hay gestión de riesgos' (5.648 vistas); otras respuestas recordaron que la alerta sí existía. Es el principal riesgo directo para la SNGR y Carolina.", "ids": ["1b68114682", "da0225bec7", "5b7323abd5", "44c11d871f", "f2b8e58372", "9875d65e32", "c8773dd5f4", "2c356362f7", "c909f26089", "cb6633dfb1", "f380eeb577", "73c24e5cc7", "17928c9ba5", "7718f68055", "b9801b1a3f"]},
-    {"titulo": "Nadie dice dónde están los albergues", "explicacion": "La pregunta de madrugada a la Alcaldía, Segura EP y Riesgos (1.985 vistas) la respondieron en el día los medios con alojamientos de Segura EP y una escuela de Educación. Apunta a la Alcaldía y a la SNGR; la Secretaría no aparece como fuente de esa información.", "ids": ["11a23480af", "beb20c6922", "3a29d7d2fa", "79e81d4762", "3f397726e2", "95d6a6ac12", "e38a164c51", "6297490f6a", "86aec7b8b8", "d5a8166cb8"]},
-    {"titulo": "El Gobierno llega con bombas, bonos y kits", "explicacion": "Vistazo y otras cuentas nombran a la SNGR en el segundo vuelo a Galápagos (7,6 toneladas), pero el tercer vuelo y la maquinaria se titulan como envío del Gobierno. También circulan 1.550 kits en Machala y 500 kits de Tía con la SNGR.", "ids": ["cfbc666aa3", "119db1a09b", "5dda01d8e3", "4c70ed843c", "2dfd7f605d", "cf54b27067", "765e63cb17", "9d217efe2e", "c7b17b4a5c", "d4f7c34a2e", "6e07762778", "5b333dd150", "8673fef661", "255a442bc9", "d13c1fb62c", "0c7efe3806"]},
-    {"titulo": "Critican a los GAD por drenajes y obras", "explicacion": "Apunta a la Alcaldía de Guayaquil (cuarta inundación en 14 días según Mónica Velásquez en TikTok, 4.456 vistas; 'ese canal no abastece' en Las Orquídeas) y al GAD de Chone. Varias respuestas culpan al municipio y no a la SNGR.", "ids": ["8b7d9a9ef3", "4601f6d4d9", "e8b63f0c3a", "0917987875", "803d056b6b", "9120698109", "b20bb6099c", "5c136c5f46", "a22e6dfca3", "ab83e9e2f5"]},
-    {"titulo": "Las lluvias empeorarán y no estamos preparados", "explicacion": "El Universo reporta que Guayaquil recibió en un día 27 veces la lluvia de noviembre de 2025 y se anticipa una temporada intensa; en redes se lee como imprevisión ('se les avisó hace 1 año'). Oportunidad para guías de preparación familiar con el Inamhi.", "ids": ["e9c42f0ae9", "e4ac3daf04", "20a878debd", "2a6e2294e7", "5b7323abd5", "bb62396095", "a86eb3721b", "09d706daf7"]},
-    {"titulo": "En Santa Cruz la ayuda no llega a todos", "explicacion": "Teleamazonas denuncia irregularidades en la entrega de ayuda en Santa Cruz y un comentario pide la renuncia de Carolina porque 'no alcanza'. Pocas piezas, pero toca directamente a la Secretaría.", "ids": ["1ff63ca976", "64f1ca6209"]}
+    {
+      "titulo": "El Gobierno llega con bombas, vuelos y kits",
+      "explicacion": "Medios titulan como envío del Gobierno el tercer vuelo a Santa Cruz, la maquinaria, las 1.194 bombas y la ayuda en seis provincias; la SNGR aparece en pocas notas (7,6 toneladas, 500 kits con Tía). Oportunidad: la ayuda se ve, pero la Secretaría no se reconoce como quien la regula.",
+      "ids": [
+        "f7deef05b6",
+        "3b2dac6d6a",
+        "bd33f571ab",
+        "8de022a1bd",
+        "c5ce4769b2",
+        "6e07762778",
+        "765e63cb17",
+        "cf54b27067",
+        "205bc1f0ee",
+        "887bf2772a",
+        "d13c1fb62c",
+        "8673fef661",
+        "2dfd7f605d",
+        "5b333dd150",
+        "9d217efe2e",
+        "d4f7c34a2e",
+        "c7b17b4a5c",
+        "e1981d80b8",
+        "4d594fc1bb",
+        "255a442bc9",
+        "420e8dd914"
+      ]
+    },
+    {
+      "titulo": "Riesgos avisa tarde y desde el escritorio",
+      "explicacion": "Pico en X la madrugada del 2 de noviembre: 'ninguna advertencia de la Secretaría' (3.266 vistas) y 'no hay gestión de riesgos' (5.648 vistas). En las últimas 24 h no hay datos de X para saber si sigue; es el principal riesgo directo para la SNGR.",
+      "ids": [
+        "1b68114682",
+        "5b7323abd5",
+        "da0225bec7",
+        "44c11d871f",
+        "f2b8e58372",
+        "9875d65e32",
+        "c8773dd5f4",
+        "b9801b1a3f",
+        "2c356362f7",
+        "f380eeb577",
+        "17928c9ba5",
+        "7718f68055",
+        "cb6633dfb1"
+      ]
+    },
+    {
+      "titulo": "El Presidente no da la cara en la emergencia",
+      "explicacion": "El Estilete pregunta en YouTube dónde está Noboa (9.560 vistas) y si José Julio Neira está a cargo; comentarios repiten que el Gobierno no ayuda. Apunta a Presidencia, pero abre la pregunta de quién conduce la respuesta, donde Carolina no aparece.",
+      "ids": [
+        "848ac51c78",
+        "b958d2ef8e",
+        "f85175f5c9",
+        "ffbcc84b91",
+        "e6449e633e",
+        "de0c292916",
+        "68ec9dc0f6",
+        "f1fa3e0853",
+        "c0faf81762"
+      ]
+    },
+    {
+      "titulo": "Nadie dice dónde están los albergues",
+      "explicacion": "La pregunta de madrugada a la Alcaldía, Segura EP y Riesgos (1.985 vistas) la respondieron los medios con alojamientos de Segura EP y una escuela de Educación en Las Orquídeas. Apunta a la Alcaldía y a la SNGR; la Secretaría no figura como fuente.",
+      "ids": [
+        "11a23480af",
+        "beb20c6922",
+        "79e81d4762",
+        "3a29d7d2fa",
+        "eff585007a",
+        "3f397726e2",
+        "95d6a6ac12",
+        "e38a164c51",
+        "6297490f6a",
+        "10ad60c13e",
+        "dc8f28c1e3",
+        "d5a8166cb8",
+        "5f7e7e2d0f",
+        "86aec7b8b8"
+      ]
+    },
+    {
+      "titulo": "Critican a los GAD por drenajes y obras",
+      "explicacion": "Apunta a la Alcaldía de Guayaquil (cuarta inundación en 14 días según Mónica Velásquez en TikTok, 4.456 vistas; 'ese canal no abastece' en Las Orquídeas) y al GAD de Chone. Varias respuestas culpan al municipio y no a la SNGR.",
+      "ids": [
+        "8b7d9a9ef3",
+        "4601f6d4d9",
+        "0917987875",
+        "803d056b6b",
+        "9120698109",
+        "f139dfe130",
+        "e8b63f0c3a",
+        "b20bb6099c",
+        "5c136c5f46",
+        "6bce460b67",
+        "ab83e9e2f5"
+      ]
+    },
+    {
+      "titulo": "En Santa Cruz la ayuda no llega a todos",
+      "explicacion": "Teleamazonas denuncia irregularidades en la entrega en Santa Cruz y comentarios en YouTube dicen que Galápagos recibe más que el resto de la costa. Pocas piezas, pero toca directamente a la Secretaría, que regula la asistencia humanitaria.",
+      "ids": [
+        "1ff63ca976",
+        "e19d45fb5b",
+        "279a9cc4cf",
+        "6853601168"
+      ]
+    }
   ],
   "rumores": [
-    {"titulo": "Un rayo incendió el cerro del Carmen", "explicacion": "Videos en YouTube (Samapro TV, 1.215 vistas) afirmaron que un rayo incendiaba el cerro del Carmen; Bomberos aclararon que eran las luces de un letrero. Basta replicar la aclaración oficial (arts. 61 y 72).", "ids": ["4b165ba9a6", "979dc3adaa", "7b66bbbd52", "1d80a6fe8f"]}
+    {
+      "titulo": "Incendio por rayo en el cerro del Carmen",
+      "explicacion": "Videos en YouTube (uno con 1.215 vistas) afirmaron que un rayo incendió el cerro del Carmen; Bomberos aclararon que eran las luces de un letrero. Respuesta: difundir la aclaración oficial (arts. 61 y 72).",
+      "ids": [
+        "4b165ba9a6",
+        "7b66bbbd52",
+        "979dc3adaa",
+        "1d80a6fe8f"
+      ]
+    },
+    {
+      "titulo": "Cocodrilos en las inundaciones de Guayaquil",
+      "explicacion": "Samapro TV afirma avistamientos de cocodrilos en Guayaquil sin fuente (504 vistas). Alcance bajo; si crece, responder con información oficial clara (arts. 61 y 72).",
+      "ids": [
+        "3adf54011f"
+      ]
+    }
   ],
-  "hitos": []
+  "hitos": [
+    {
+      "dia": "2026-11-02",
+      "titulo": "SNGR reporta 18 ríos desbordados en cinco provincias",
+      "ids": [
+        "e224536530",
+        "b625300325",
+        "ca57b323b3",
+        "e662d64ddd"
+      ]
+    }
+  ]
 }
