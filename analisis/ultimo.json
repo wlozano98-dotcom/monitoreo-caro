@@ -1,78 +1,199 @@
 {
   "vinetas": [
-    "El bono del COE domina medios: Ecuavisa habla de hasta USD 964; Infobae, de USD 8,5 millones sin definir cómo entregarlos.",
-    "Milagro amaneció inundado: Educación suspendió clases y la Judicatura pasó a teletrabajo; Guayaquil suma más de 160 emergencias.",
-    "Galápagos: la alcaldesa confirma un fallecido y ningún desaparecido; A24com y TN8 dicen dos. FM Mundo habla de informes técnicos ignorados.",
-    "Sin datos de X ni TikTok en 24 h; en YouTube las críticas bajan de 24 a 14, centradas en Noboa."
+    "Datos hasta las 11:38. El bono del COE domina medios: hasta USD 964; Infobae dice que aún no se define la entrega.",
+    "Carolina Lozano aparece con el balance: 11 fallecidos y más de 11.000 viviendas; Teleamazonas (4.277 vistas) suma 39 mil afectados.",
+    "Milagro inundado: sin clases presenciales y Judicatura en teletrabajo; Inamhi alerta lluvias intensas hasta el sábado 7.",
+    "Sin datos de X ni TikTok en 24 h; en YouTube las críticas bajan de 24 a 14 y apuntan a Noboa."
   ],
   "fuentes_vinetas": [
-    ["1e3546e738", "edc2b619ad", "b0ec6642b9", "435ccaaf97", "019a71498b"],
-    ["88213a81c3", "39d42c2e7f", "605d186aa0", "caf5d65f04", "f448e97e55", "0839cf30be"],
-    ["e7bed30e8d", "55527422c0", "09cf6d52fd", "d67fa35cc5", "859d37dd84"],
-    ["5bd7397281", "771690401f"]
+    [
+      "1e3546e738",
+      "edc2b619ad",
+      "b0ec6642b9",
+      "435ccaaf97",
+      "019a71498b"
+    ],
+    [
+      "f815b7f7ac",
+      "95865107eb",
+      "cea91cc700",
+      "0a9d66fb5b"
+    ],
+    [
+      "88213a81c3",
+      "39d42c2e7f",
+      "605d186aa0",
+      "caf5d65f04",
+      "4f12854cc7",
+      "42214fd2e5"
+    ],
+    [
+      "5bd7397281",
+      "771690401f",
+      "e393987943"
+    ]
   ],
   "acciones": [
     {
-      "accion": "Ofrecer apoyo subsidiario al COE de Milagro y difundir la alerta Inamhi hasta el 7",
-      "porque": "Milagro amaneció inundado, sin clases presenciales y con la Judicatura en teletrabajo; el Inamhi pronostica lluvias intensas hasta el sábado 7.",
-      "base_legal": "Art. 21.4, 29 y 61",
-      "fuentes": ["88213a81c3", "c5d2a2bf98", "caf5d65f04", "4f12854cc7", "42214fd2e5"]
-    },
-    {
       "accion": "Publicar hoy cifra oficial de Santa Cruz: fallecidos, desaparecidos, familias y ayuda entregada",
-      "porque": "La alcaldesa confirma un fallecido y ningún desaparecido; A24com y TN8 dicen dos; Teleamazonas recoge retrasos de ayuda en Puerto Ayora.",
+      "porque": "La alcaldesa confirma un fallecido y ningún desaparecido; A24com (4.103 vistas) y TN8 dicen dos; Teleamazonas recoge retrasos de ayuda en Puerto Ayora.",
       "base_legal": "Art. 61, 72 y 73",
-      "fuentes": ["e7bed30e8d", "55527422c0", "09cf6d52fd", "d67fa35cc5", "1c4ce1a4e7", "28782b4b1c"]
+      "fuentes": [
+        "e7bed30e8d",
+        "55527422c0",
+        "09cf6d52fd",
+        "d67fa35cc5",
+        "1c4ce1a4e7",
+        "28782b4b1c"
+      ]
     },
     {
-      "accion": "Coordinar con MIES y publicar requisitos, registro y fechas del bono en X",
-      "porque": "Infobae dice que aún no se define cómo se entregará; medios explican el bono con preguntas y el ministro Luque lo detalla en radio.",
+      "accion": "Coordinar con MIES y MTOP una guía pública del bono: requisitos, registro y fechas",
+      "porque": "Infobae dice que aún no se define cómo se entregará; medios lo explican con preguntas y el ministro Luque lo detalla en radio.",
       "base_legal": "Art. 14, 61 y 68",
-      "fuentes": ["edc2b619ad", "435ccaaf97", "b0ec6642b9", "019a71498b", "1e3546e738"]
+      "fuentes": [
+        "edc2b619ad",
+        "435ccaaf97",
+        "b0ec6642b9",
+        "019a71498b",
+        "1e3546e738"
+      ]
+    },
+    {
+      "accion": "Ofrecer apoyo subsidiario al COE de Milagro y difundir la alerta Inamhi hasta el 7",
+      "porque": "Milagro amaneció inundado, sin clases presenciales y con la Judicatura en teletrabajo; Inamhi pronostica lluvias intensas hasta el sábado 7.",
+      "base_legal": "Art. 21.4, 29 y 61",
+      "fuentes": [
+        "88213a81c3",
+        "c5d2a2bf98",
+        "caf5d65f04",
+        "4f12854cc7",
+        "42214fd2e5"
+      ]
     }
   ],
   "narrativas": [
     {
       "titulo": "El Gobierno llega con bombas, vuelos y kits",
       "explicacion": "El bono de reparación, los bienes del Senae y los 11 albergues en Guayaquil se atribuyen al COE Nacional y al Gobierno; FM Mundo recoge una rápida respuesta en Galápagos. La Secretaría solo aparece en pocas cuentas que la nombran en el cuarto vuelo.",
-      "ids": ["0ebcef9c99", "1e3546e738", "887e7a8348", "9ebcf70b17", "c4e675dade", "555efcef3c", "106cc73fdc", "aeed2c3865", "62768ef5f8", "aad72fdf49", "3d6cf30d62", "019a71498b", "d54192056e", "bee61ce4f0", "154ffc3ac2", "7575a2e11d", "90acb139f6", "612c133163", "83e1214cbb", "df2961311b", "f7deef05b6", "0b9b02a363", "305fada526", "e38b1755fa", "a18613fb46", "fea0b60052", "268cedefe6"]
+      "ids": [
+        "0ebcef9c99",
+        "1e3546e738",
+        "887e7a8348",
+        "9ebcf70b17",
+        "c4e675dade",
+        "555efcef3c",
+        "106cc73fdc",
+        "aeed2c3865",
+        "62768ef5f8",
+        "aad72fdf49",
+        "3d6cf30d62",
+        "019a71498b",
+        "d54192056e",
+        "bee61ce4f0",
+        "154ffc3ac2",
+        "7575a2e11d",
+        "90acb139f6",
+        "612c133163",
+        "83e1214cbb",
+        "df2961311b",
+        "f7deef05b6",
+        "0b9b02a363",
+        "305fada526",
+        "e38b1755fa",
+        "a18613fb46",
+        "fea0b60052",
+        "268cedefe6"
+      ]
     },
     {
       "titulo": "El Presidente no da la cara en la emergencia",
       "explicacion": "El Estilete (11.923 vistas), Hechos Ecuador (9.855) y ContrePunto (2.945) lo instalaron; hoy lo siguen Gregori Ecuador (1.723) y Zeustv (1.404), que suma que Noboa no llegó a Cuenca. Apunta a Presidencia, pero deja abierta la pregunta de quién conduce la respuesta.",
-      "ids": ["848ac51c78", "52558a68ce", "7261037e8d", "5bd7397281", "771690401f", "e393987943", "c778af2534", "5ddcfdbea5", "f6b2fa57db", "ca9253ae14", "b958d2ef8e", "ab18d79d05", "e680c4e4e7"]
+      "ids": [
+        "848ac51c78",
+        "52558a68ce",
+        "7261037e8d",
+        "5bd7397281",
+        "771690401f",
+        "e393987943",
+        "c778af2534",
+        "5ddcfdbea5",
+        "f6b2fa57db",
+        "ca9253ae14",
+        "b958d2ef8e",
+        "ab18d79d05",
+        "e680c4e4e7"
+      ]
     },
     {
       "titulo": "La ayuda no alcanza ni llega a todos",
       "explicacion": "Teleamazonas recoge retrasos en Puerto Ayora y reclamos en Guayaquil, Daule y Durán; Radio Face Tv (5.155 vistas) habla de abandono estatal en Balzar y comentarios llaman insuficiente la ayuda. Toca a la Secretaría, que regula la asistencia humanitaria.",
-      "ids": ["1c4ce1a4e7", "5223884079", "00f6f3d873", "03dae9061a", "742290a40f", "926d8203d7", "36d4ac5b45", "e30147741b"]
+      "ids": [
+        "1c4ce1a4e7",
+        "5223884079",
+        "00f6f3d873",
+        "03dae9061a",
+        "742290a40f",
+        "926d8203d7",
+        "36d4ac5b45",
+        "e30147741b"
+      ]
     },
     {
       "titulo": "El Gobierno improvisó sabiendo que venía El Niño",
       "explicacion": "Marco Navas (64.393 seguidores) dice que el plan de riesgos no se hizo con los GAD y comentarios en X y YouTube nombran a la secretaría de riesgos como improvisada; FM Mundo suma que en Galápagos se habrían ignorado informes técnicos. Es la crítica que toca directamente las competencias de la SNGR.",
-      "ids": ["4b6a8dc223", "e9c0ed7982", "0f9150029f", "9c32f96696", "f819de2b30", "de20db1a31", "859d37dd84"]
+      "ids": [
+        "4b6a8dc223",
+        "e9c0ed7982",
+        "0f9150029f",
+        "9c32f96696",
+        "f819de2b30",
+        "de20db1a31",
+        "859d37dd84"
+      ]
     },
     {
       "titulo": "Critican a los GAD por drenajes y obras",
       "explicacion": "El Universo publica que Guayaquil está rutinariamente amenazada y que moradores exigen limpieza de canales y muros; Extra recoge pedidos de rebaja de impuestos municipales y en Los Ríos piden información sobre taludes. Apunta a los GAD, no a la SNGR.",
-      "ids": ["22553e9fe1", "a8fef0012e", "93c4222ec4", "a308e4eda6", "6b5e95ac0d", "07adf82f50", "acbc63c5d7", "f2646d5819", "4947beaa7c", "fc51b2c7c7", "5e5f549d64"]
+      "ids": [
+        "22553e9fe1",
+        "a8fef0012e",
+        "93c4222ec4",
+        "a308e4eda6",
+        "6b5e95ac0d",
+        "07adf82f50",
+        "acbc63c5d7",
+        "f2646d5819",
+        "4947beaa7c",
+        "fc51b2c7c7",
+        "5e5f549d64"
+      ]
     },
     {
       "titulo": "Usan la emergencia y la ayuda para campaña",
       "explicacion": "Cuentas pequeñas hablan de campaña anticipada y piden que las donaciones se canalicen por la Secretaría y la Gobernación; sin piezas nuevas hoy. Con el bono en plena campaña seccional, el riesgo crece si la entrega no se transparenta.",
-      "ids": ["a1cdea3121", "bae7c79e4e", "0f9150029f"]
+      "ids": [
+        "a1cdea3121",
+        "bae7c79e4e",
+        "0f9150029f"
+      ]
     }
   ],
   "rumores": [
     {
       "titulo": "El río Guayas está por desbordarse",
       "explicacion": "Circuló en redes una alerta de desborde que Segura EP desmintió; el ECU 911 solo reporta monitoreo del caudal. Respuesta sugerida: dato oficial del nivel del río y qué hacer en riberas, por canales oficiales (arts. 61 y 72).",
-      "ids": ["028ca762a7", "d42484a6c6"]
+      "ids": [
+        "028ca762a7",
+        "d42484a6c6"
+      ]
     },
     {
       "titulo": "Hay cocodrilos en las inundaciones de Guayaquil",
       "explicacion": "Samapro TV (504 vistas) afirma avistamientos sin citar fuente. Bajo alcance; si crece, respuesta con información oficial clara (arts. 61 y 72).",
-      "ids": ["3adf54011f"]
+      "ids": [
+        "3adf54011f"
+      ]
     }
   ],
   "hitos": []
