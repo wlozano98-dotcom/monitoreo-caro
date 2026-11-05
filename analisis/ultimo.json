@@ -1,150 +1,70 @@
 {
   "vinetas": [
-    "Cifras de afectados difieren: la SNGR dio cerca de 32.700 impactados en la Asamblea; Ecuavisa difunde casi 49 mil.",
-    "Santa Cruz: El Comercio cuestiona la prevención; COE, Primicias y La Hora apuntan a falta de drenaje.",
-    "En YouTube la crítica de más alcance va al Presidente: Ecuador En Directo, 14.656 vistas; Orquídeas 'sin ayuda', 3.543 vistas.",
-    "Manabí, nuevo foco en medios: evacuados en Puerto López por dos ríos desbordados; 60 % de Chone sin agua."
+    "Cifras dispares: la SNGR expuso en la Asamblea 32.700 impactados; Ecuavisa y Teleamazonas difunden 48 a 49 mil afectados.",
+    "El Comercio cuestiona directamente a la SNGR: El Niño estaba anunciado y Santa Cruz igual quedó bajo el agua.",
+    "En YouTube la crítica de mayor alcance es contra Noboa: Ecuador En Directo suma 20.512 vistas; ED Latam, 2.162.",
+    "Manabí es el nuevo foco: evacuación en Puerto López por dos ríos y 60 % de Chone sin agua (Primicias)."
   ],
   "fuentes_vinetas": [
-    [
-      "bfe4e46831",
-      "62ecd21f75",
-      "dffe1e6f3f",
-      "4d26c2f750"
-    ],
-    [
-      "46bad54049",
-      "8cecdb9ae2",
-      "ac780c0343",
-      "e1c21b4172"
-    ],
-    [
-      "d4c3690638",
-      "7f1408e322"
-    ],
-    [
-      "dad099eed4",
-      "f6ecf2a0cc",
-      "c6bfdc8099",
-      "46702dca12"
-    ]
+    ["bfe4e46831", "62ecd21f75", "c16ea98dd0", "4d26c2f750"],
+    ["46bad54049"],
+    ["d4c3690638", "8fe3edfb8c"],
+    ["dad099eed4", "f45b29fa1d", "c6bfdc8099"]
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy en redes de la SNGR una cifra oficial de afectados fechada.",
-      "porque": "SNGR expuso cerca de 32.700 impactados; Ecuavisa difunde casi 49 mil; un comentario en YouTube acusa ocultar cifras.",
-      "base_legal": "Art. 61 y 72",
-      "fuentes": [
-        "bfe4e46831",
-        "62ecd21f75",
-        "4d26c2f750",
-        "70f2619f02"
-      ]
+      "accion": "Publicar hoy un consolidado único de impactados, afectados y fallecidos, explicando cada categoría.",
+      "porque": "SNGR dio 32.700 impactados en la Asamblea; Ecuavisa y Teleamazonas hablan de 48-49 mil afectados; en YouTube acusan ocultar cifras.",
+      "base_legal": "Art. 61, 72 y 73",
+      "fuentes": ["bfe4e46831", "62ecd21f75", "c16ea98dd0", "70f2619f02"]
     },
     {
-      "accion": "Ofrecer apoyo subsidiario a COE de Chone y Puerto López: agua y evacuación.",
-      "porque": "Primicias: evacuados en Puerto López por dos ríos desbordados; Extra: rotura de tubería deja 60 % de Chone sin agua.",
-      "base_legal": "Art. 13, 14 y 21.4",
-      "fuentes": [
-        "dad099eed4",
-        "f45b29fa1d",
-        "f6ecf2a0cc"
-      ]
+      "accion": "Coordinar con el COE y el ministro Luque una guía pública para cobrar el bono.",
+      "porque": "Infobae dice que aún no se define la entrega de los USD 8,5 millones; damnificados de Machala buscan cómo acceder.",
+      "base_legal": "Art. 14, 61 y 68",
+      "fuentes": ["edc2b619ad", "fd15cff500", "019a71498b", "b205c785be"]
     },
     {
-      "accion": "Pedir al COE Nacional publicar requisitos, fechas y canal del bono de 964.",
-      "porque": "Infobae: aún no se define cómo se entregará la ayuda; Diario Correo: damnificados de Machala buscan acceder al bono.",
-      "base_legal": "Art. 61 y 73",
-      "fuentes": [
-        "edc2b619ad",
-        "fd15cff500",
-        "b205c785be"
-      ]
+      "accion": "Ofrecer apoyo subsidiario a Chone y Puerto López: agua segura y evaluación de necesidades.",
+      "porque": "Primicias reporta evacuaciones en Puerto López y 60 % de Chone sin agua; Teleamazonas registra deslizamientos en Manabí.",
+      "base_legal": "Art. 13, 21.4 y 68",
+      "fuentes": ["dad099eed4", "f45b29fa1d", "c6bfdc8099", "f6ecf2a0cc"]
     }
   ],
   "narrativas": [
     {
-      "titulo": "El Gobierno llega con bombas, vuelos y kits",
-      "explicacion": "Medios y cuentas oficiales muestran entregas de la SNGR en Guayaquil, albergues, toneladas de ayuda de FF. AA. y brigadas médicas en Santa Cruz. Oportunidad para Carolina si se acompaña de cifras verificables.",
-      "ids": [
-        "a46bc054fb",
-        "1687cc75a8",
-        "d110cdc7ea",
-        "72d59dc8d3",
-        "28bcf7660c",
-        "11f3e838f8",
-        "1e6ea70cc6",
-        "5be2694284",
-        "90acb139f6"
-      ]
-    },
-    {
-      "titulo": "La ayuda no alcanza ni llega a todos",
-      "explicacion": "Damnificados de Puerto Ayora, Orquídeas, Daule y Durán denuncian retrasos; canales de YouTube y comentarios lo amplifican. Riesgo directo para la Secretaría, que regula la asistencia humanitaria.",
-      "ids": [
-        "7f1408e322",
-        "1c4ce1a4e7",
-        "5223884079",
-        "36d4ac5b45",
-        "926d8203d7",
-        "f819de2b30"
-      ]
-    },
-    {
-      "titulo": "El Gobierno improvisó sabiendo que venía El Niño",
-      "explicacion": "El Comercio lo plantea con Santa Cruz y FM Mundo recoge que se habrían ignorado informes técnicos; en YouTube se acusa falta de prevención. Pone en duda la capacidad preventiva de la Secretaría.",
-      "ids": [
-        "46bad54049",
-        "859d37dd84",
-        "8fe3edfb8c",
-        "c717de0a18",
-        "f819de2b30",
-        "3e48666788"
-      ]
-    },
-    {
       "titulo": "Critican a los GAD por drenajes y obras",
-      "explicacion": "El COE señala que Galápagos no tiene drenaje, Plan V analiza la urbanización Divino Niño y en Guayaquil se reclaman canales y dragado; AME dice que 20 cantones no presentan planes. Reparte responsabilidades, pero no libera a la Secretaría.",
-      "ids": [
-        "8cecdb9ae2",
-        "ac780c0343",
-        "e1c21b4172",
-        "1578bd0c02",
-        "bd1249b2da",
-        "22553e9fe1",
-        "a8fef0012e",
-        "0bf610f1e3",
-        "16b8d6270c",
-        "a308e4eda6",
-        "07adf82f50"
-      ]
+      "explicacion": "El COE dice que Galápagos no tiene drenaje, Plan V analiza la urbanización Divino Niño y en Guayaquil, Simón Bolívar y Manabí se reclaman obras y vías. Reparte responsabilidades, pero no libera a la Secretaría.",
+      "ids": ["8cecdb9ae2", "ac780c0343", "e1c21b4172", "1578bd0c02", "bd1249b2da", "c6c310dfff", "0bf610f1e3", "873694bec0", "7aa21ba5b1"]
     },
     {
-      "titulo": "El Presidente no da la cara en la emergencia",
-      "explicacion": "Canales políticos de YouTube con miles de vistas centran la crítica en Noboa y su ausencia. La presencia de Carolina en territorio puede contrastar, pero también expone a la Secretaría como cara visible.",
-      "ids": [
-        "d4c3690638",
-        "7261037e8d",
-        "5bd7397281",
-        "e393987943",
-        "c778af2534",
-        "a1815c4792"
-      ]
+      "titulo": "El Gobierno llega con bombas, vuelos y kits",
+      "explicacion": "El Universo muestra a Riesgos entregando alimentos en cinco sectores de Guayaquil, FF. AA. reporta 121,4 toneladas y Carolina difunde equipos en territorio. Oportunidad si se acompaña de cifras verificables.",
+      "ids": ["a46bc054fb", "1687cc75a8", "d110cdc7ea", "72d59dc8d3", "28bcf7660c", "5be2694284", "1e6ea70cc6", "90acb139f6"]
     },
     {
       "titulo": "Anuncian el bono pero no dicen cómo cobrarlo",
-      "explicacion": "El bono de hasta USD 964 domina la cobertura de ayuda, pero Infobae advierte que no está definida la entrega y en Machala buscan cómo acceder. Si se demora, alimenta la idea de que la ayuda no llega.",
-      "ids": [
-        "edc2b619ad",
-        "fd15cff500",
-        "8c4fbb94d7",
-        "855ec6358b",
-        "7e8640bd29",
-        "6dbe4f1cbf",
-        "b205c785be"
-      ]
+      "explicacion": "El bono de hasta USD 964 domina la cobertura de ayuda; Infobae advierte que la entrega no está definida y en Machala buscan cómo acceder. Si se demora, alimenta la idea de que la ayuda no llega.",
+      "ids": ["edc2b619ad", "fd15cff500", "8c4fbb94d7", "b0ec6642b9", "855ec6358b", "019a71498b", "b205c785be", "6a514e7744", "89fbb517a4"]
+    },
+    {
+      "titulo": "El Gobierno improvisó sabiendo que venía El Niño",
+      "explicacion": "El Comercio lo plantea con Santa Cruz y nombra a la Secretaría; ED Latam y una publicación de Facebook lo amplifican. Golpea la imagen preventiva de la SNGR.",
+      "ids": ["46bad54049", "8fe3edfb8c", "3e48666788", "f819de2b30"]
+    },
+    {
+      "titulo": "El Presidente no da la cara en la emergencia",
+      "explicacion": "Canales políticos de YouTube con miles de vistas (Ecuador En Directo, ContrePunto, Gregori Ecuador) centran la crítica en Noboa. La Secretaría queda como cara visible del Estado en territorio.",
+      "ids": ["d4c3690638", "7261037e8d", "5bd7397281", "787a274623"]
+    },
+    {
+      "titulo": "La ayuda no alcanza ni llega a todos",
+      "explicacion": "Radio Face Tv (3.543 vistas) dice que Las Orquídeas está devastada y sin ayuda suficiente del Gobierno; comentarios critican la entrega tardía de colchones. Riesgo directo para la Secretaría, que regula la asistencia humanitaria.",
+      "ids": ["7f1408e322", "f819de2b30"]
     }
   ],
   "rumores": [],
-  "hitos": []
+  "hitos": [
+    {"dia": "2026-11-04", "titulo": "Niño de dos años muere arrastrado en Balzar", "ids": ["e0943a09a4"]}
+  ]
 }
