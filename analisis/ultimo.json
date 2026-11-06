@@ -1,31 +1,179 @@
 {
   "vinetas": [
-    "Medios: el diferimiento de créditos por 90 días dispuesto por Noboa dominó el jueves en El Universo, Primicias, El Comercio y Teleamazonas.",
-    "En YouTube la crítica sube a 21 piezas en 24 h (16 antes): ausencia de Noboa; Ecuador En Directo 20.512 vistas, El Estilete 11.935.",
-    "Cifras dispares: Teleamazonas reporta 28 ríos desbordados en seis provincias y, un día antes, 30 en cinco; medios citan 11 y 12 muertos.",
-    "Aislamiento crece: colapso del paso del puente Tapaila incomunica tres cantones de Esmeraldas; vía Alóag cerrada en km 83; 100 familias aisladas en Manabí."
+    "Noboa cuestionó hoy a municipios: Guayaquil no invirtió ni la cuarta parte en alcantarillado. Lo replican El Universo, Primicias, Extra.",
+    "Primicias: la proforma 2027 asigna USD 21 millones a la Secretaría, frente a 23 millones en 2026, en plena emergencia.",
+    "Muy replicado de la Secretaría: 28 desbordamientos en seis provincias (Teleamazonas, Ecuadorinmediato) y el albergue en Milagro.",
+    "Medios difieren en afectados: 49.000, casi 50.000 o 56.000; y en fallecidos: 11 o 12. No circula cifra única."
   ],
   "fuentes_vinetas": [
-    ["1105c3fe66", "1566f7c62c", "5113255809", "f3bbd02992", "cd068d2cc3", "2d1c8533ab"],
-    ["d4c3690638", "194e850547", "fc1c3e47ca"],
-    ["9bf3ee9619", "2a7d96e2f0", "19c87432c4", "1063ca553b"],
-    ["e4a03b1dee", "a9dd9a68a7", "54c6f41d1d", "3456c4198a"]
+    [
+      "efd983b349",
+      "12963e23fc",
+      "da23aeb5d4",
+      "3ac93e4f66"
+    ],
+    [
+      "e5427f9a16",
+      "2b210620b8"
+    ],
+    [
+      "5ca9bfe814",
+      "243d66d34e",
+      "e4399e0d63",
+      "23a50333ed",
+      "6f24118941"
+    ],
+    [
+      "31977ca5e8",
+      "19c87432c4",
+      "a9fe7de0f6",
+      "04f24ed2cd",
+      "78375bb5b8",
+      "7bcb5fd5ec"
+    ]
   ],
   "acciones": [
-    {"accion": "Publicar con el MIES una guía única del bono de USD 964: registro, requisitos y plazos.", "porque": "Infobae: aún no se define cómo se entregará; damnificados de Machala buscan acceder; videos preguntan quién lo cobra.", "base_legal": "Art. 61, 68 y 72", "fuentes": ["edc2b619ad", "fd15cff500", "1063ca553b"]},
-    {"accion": "Emitir un parte oficial diario fijo con ríos desbordados, fallecidos y afectados por provincia.", "porque": "Teleamazonas da 28 ríos en seis provincias y 30 en cinco; Los Primeros TV cita 12 muertos, Ecuador Diario 11.", "base_legal": "Art. 61, 72 y 73", "fuentes": ["9bf3ee9619", "2a7d96e2f0", "19c87432c4", "1063ca553b"]},
-    {"accion": "Ofrecer al COE de Esmeraldas apoyo subsidiario para los tres cantones incomunicados por Tapaila.", "porque": "Teleamazonas y FM Mundo: colapsó el paso alterno del puente en Rioverde y tres cantones quedaron incomunicados.", "base_legal": "Art. 13, 14 y 21.4", "fuentes": ["e4a03b1dee", "a9dd9a68a7"]}
+    {
+      "accion": "Publicar hoy en web y X un balance oficial único: afectados, fallecidos, ríos, albergues.",
+      "porque": "Medios difunden 49.000, casi 50.000 y 56.000 afectados, y 11 o 12 fallecidos; la cifra oficial se diluye.",
+      "base_legal": "Art. 61 y 72",
+      "fuentes": [
+        "31977ca5e8",
+        "19c87432c4",
+        "a9fe7de0f6",
+        "04f24ed2cd",
+        "7bcb5fd5ec"
+      ]
+    },
+    {
+      "accion": "Enviar lineamientos y apoyo técnico a los 20 cantones sin plan ante El Niño",
+      "porque": "Noboa cuestionó hoy a municipios; Teleamazonas reporta 20 cantones sin plan. La Secretaría debe quedar como apoyo, no como acusadora.",
+      "base_legal": "Art. 21.4, 23.4 y 23.5",
+      "fuentes": [
+        "af77504d95",
+        "3ac93e4f66",
+        "efd983b349"
+      ]
+    },
+    {
+      "accion": "Con el MIES, publicar guía por provincia: registro de damnificados y cobro del bono.",
+      "porque": "Diario Extra y Ecuador Diario explican cómo y quién cobra el bono; damnificados de Machala buscan acceder.",
+      "base_legal": "Art. 68 y 61",
+      "fuentes": [
+        "e78e6036ab",
+        "fd15cff500",
+        "1063ca553b"
+      ]
+    }
   ],
   "narrativas": [
-    {"titulo": "Anuncian el bono pero no dicen cómo cobrarlo", "explicacion": "Medios explican montos y requisitos del bono de hasta USD 964, pero persisten dudas sobre quién lo cobra y cómo; el diferimiento de créditos se suma a la expectativa. Riesgo de frustración si el registro de damnificados no es claro.", "ids": ["edc2b619ad", "fd15cff500", "1063ca553b", "c906ed1eae", "8c4fbb94d7", "b0ec6642b9", "855ec6358b"]},
-    {"titulo": "El Presidente no da la cara en la emergencia", "explicacion": "Canales políticos de YouTube (Ecuador En Directo, El Estilete, Hoja de Ruta) concentran el mayor alcance crítico y sus comentarios repiten la idea. Apunta al Presidente, no a la Secretaría, pero contagia la imagen del Gobierno en la emergencia.", "ids": ["d4c3690638", "194e850547", "fc1c3e47ca", "ce937565c2", "706a95f46a", "61d6c711bd", "582447dbb7", "a4edaf73db", "3821c5becf", "48db469638"]},
-    {"titulo": "Critican a los GAD por drenajes y obras", "explicacion": "Se cuestiona a municipios por planes y drenajes: 20 cantones sin planes contra El Niño y Santa Cruz sin sistema de drenaje. Oportunidad para lineamientos de la Secretaría sin asumir obras ajenas.", "ids": ["af77504d95", "8cecdb9ae2", "ac780c0343", "5d4c88caea", "3c6ff9631a", "5650a0eeed", "97d1df5b1e"]},
-    {"titulo": "El Gobierno no da recursos a los municipios", "explicacion": "Comentarios en YouTube culpan al Gobierno central de no transferir recursos a las alcaldías para enfrentar El Niño. Alcance aún bajo; vigilar si lo recogen alcaldes o medios.", "ids": ["8c6abfb2c4", "e9ee903157", "2d1cc9625e", "ce003d537d", "2e1924df1d"]},
-    {"titulo": "El Gobierno llega con bombas, vuelos y kits", "explicacion": "Medios reportan entregas de la Secretaría en cinco sectores de Guayaquil, toneladas movilizadas por FF. AA., tanques de agua y un centro de salud en Santa Cruz; Carolina lo difunde en TikTok y Facebook. Sostiene la imagen operativa de la Secretaría.", "ids": ["688b49bb65", "a46bc054fb", "72d59dc8d3", "dc2da69b6a", "693a8d1e26", "fac8df1852", "1687cc75a8", "d110cdc7ea"]},
-    {"titulo": "El Gobierno improvisó sabiendo que venía El Niño", "explicacion": "El Comercio señala que Santa Cruz quedó bajo el agua pese al anuncio, La Hora duda de la obra del talud en la vía Alóag y canales críticos hablan de prioridades presupuestarias. Golpea la credibilidad de la prevención.", "ids": ["46bad54049", "ba38ae15ca", "8fe3edfb8c", "3e48666788"]}
+    {
+      "titulo": "El Presidente no da la cara en la emergencia",
+      "explicacion": "Canales políticos de YouTube (Ecuador En Directo, El Estilete, Hoja de Ruta) suman el mayor alcance crítico y sus comentarios repiten la idea. Apunta al Presidente, no a la Secretaría, pero contagia la imagen del Gobierno en la emergencia.",
+      "ids": [
+        "d4c3690638",
+        "194e850547",
+        "fc1c3e47ca",
+        "8ff6e6449b",
+        "706a95f46a",
+        "ce937565c2",
+        "61d6c711bd",
+        "582447dbb7",
+        "a4edaf73db",
+        "3821c5becf",
+        "450613c871",
+        "48db469638"
+      ]
+    },
+    {
+      "titulo": "Critican a los GAD por drenajes y obras",
+      "explicacion": "Ahora la empuja el propio Noboa (alcantarillado de Guayaquil), replicado por El Universo, Primicias y Extra, junto con los 20 cantones sin plan. Riesgo: la Secretaría necesita a los GAD para la respuesta; oportunidad de liderar con lineamientos sin sumarse al choque.",
+      "ids": [
+        "efd983b349",
+        "12963e23fc",
+        "da23aeb5d4",
+        "3ac93e4f66",
+        "af77504d95",
+        "914469a65d",
+        "648255e327",
+        "71a22a8d68",
+        "9d87c1e487",
+        "5d4c88caea"
+      ]
+    },
+    {
+      "titulo": "El Gobierno llega con bombas, vuelos y kits",
+      "explicacion": "Medios y cuentas grandes (La Posta, FF. AA.) difunden el vuelo de la FAE a Galápagos con personal de la Secretaría, 280 cajas a Puerto López y Jipijapa y el albergue de Milagro; Carolina lo muestra en TikTok y Facebook. Sostiene la imagen operativa de la Secretaría.",
+      "ids": [
+        "23a50333ed",
+        "6f24118941",
+        "0139ce8b77",
+        "829cf74acc",
+        "ecefaa6dd4",
+        "fb636846c9",
+        "0c2a61e167",
+        "c1757c9689",
+        "5e0e65fde3",
+        "e48f371953",
+        "f9e0d194b2",
+        "688b49bb65",
+        "2dd532cecd",
+        "720627d44b",
+        "693a8d1e26",
+        "fac8df1852",
+        "dc2da69b6a",
+        "a84638c813",
+        "1687cc75a8",
+        "d110cdc7ea"
+      ]
+    },
+    {
+      "titulo": "El Gobierno no da recursos a los municipios",
+      "explicacion": "Comentarios en YouTube culpan al Gobierno central de no transferir recursos a las alcaldías. Con Noboa culpando hoy a los municipios, puede crecer como respuesta de los GAD; alcance aún bajo.",
+      "ids": [
+        "2d1cc9625e",
+        "ce003d537d",
+        "8c6abfb2c4",
+        "e9ee903157"
+      ]
+    },
+    {
+      "titulo": "Anuncian el bono pero no dicen cómo cobrarlo",
+      "explicacion": "Medios explican el bono y el diferimiento de créditos (que no es automático y requiere autorización del cliente), pero persisten preguntas de quién cobra y cómo. Riesgo de frustración si el registro de damnificados no es claro.",
+      "ids": [
+        "e78e6036ab",
+        "fd15cff500",
+        "1063ca553b",
+        "c906ed1eae",
+        "657f137b66",
+        "8c4fbb94d7",
+        "65327b3cd9",
+        "cd068d2cc3",
+        "d96ecffc18"
+      ]
+    },
+    {
+      "titulo": "El Gobierno improvisó sabiendo que venía El Niño",
+      "explicacion": "El Comercio (Santa Cruz bajo el agua pese al anuncio), La Hora (talud de la vía Alóag), Primicias y Crónica cuestionan la preparación del Estado. Golpea la credibilidad de la prevención, que toca a la Secretaría.",
+      "ids": [
+        "46bad54049",
+        "ba38ae15ca",
+        "a203dcea92",
+        "9cc42b1d4f",
+        "f8b77b40b6"
+      ]
+    }
   ],
   "rumores": [],
   "hitos": [
-    {"dia": "2026-11-05", "titulo": "Noboa autoriza diferir créditos 90 días", "ids": ["1105c3fe66", "5113255809", "f3bbd02992", "4f38624257"]}
+    {
+      "dia": "2026-11-06",
+      "titulo": "Noboa cuestiona inversión de Guayaquil en alcantarillado",
+      "ids": [
+        "efd983b349",
+        "12963e23fc",
+        "da23aeb5d4"
+      ]
+    }
   ]
 }
