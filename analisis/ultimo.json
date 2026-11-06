@@ -1,38 +1,46 @@
 {
   "vinetas": [
-    "Noboa cuestionó hoy a municipios: Guayaquil no invirtió ni la cuarta parte en alcantarillado. Lo replican El Universo, Primicias, Extra.",
-    "Primicias: la proforma 2027 asigna USD 21 millones a la Secretaría, frente a 23 millones en 2026, en plena emergencia.",
-    "Muy replicado de la Secretaría: 28 desbordamientos en seis provincias (Teleamazonas, Ecuadorinmediato) y el albergue en Milagro.",
-    "Medios difieren en afectados: 49.000, casi 50.000 o 56.000; y en fallecidos: 11 o 12. No circula cifra única."
+    "Noboa culpó a municipios y prefecturas sin planes; El Universo, Primicias y Extra replican alcantarillado de Guayaquil.",
+    "Primicias: proforma 2027 da USD 21 millones a la Secretaría frente a 23 proyectados para 2026; difundido en X.",
+    "Cifras dispersas en medios: 49.000, casi 50.000 o 56.000 afectados; 11 o 12 fallecidos. Falta un balance oficial único.",
+    "En redes, el TikTok de Carolina en el albergue de Milagro (5.294 vistas) supera al video crítico de Hoja de Ruta (2.655)."
   ],
   "fuentes_vinetas": [
     [
+      "3ac93e4f66",
       "efd983b349",
       "12963e23fc",
-      "da23aeb5d4",
-      "3ac93e4f66"
+      "da23aeb5d4"
     ],
     [
       "e5427f9a16",
       "2b210620b8"
     ],
     [
-      "5ca9bfe814",
-      "243d66d34e",
-      "e4399e0d63",
-      "23a50333ed",
-      "6f24118941"
-    ],
-    [
       "31977ca5e8",
       "19c87432c4",
+      "78375bb5b8",
       "a9fe7de0f6",
       "04f24ed2cd",
-      "78375bb5b8",
       "7bcb5fd5ec"
+    ],
+    [
+      "6f24118941",
+      "0139ce8b77",
+      "fc1c3e47ca"
     ]
   ],
   "acciones": [
+    {
+      "accion": "Ofrecer al COE de Esmeraldas apoyo subsidiario para Rioverde y cantones incomunicados.",
+      "porque": "El Universo: Rioverde y las islas, otra vez anegadas hoy; Teleamazonas y FM Mundo: tres cantones incomunicados por colapso en Tapaila.",
+      "base_legal": "Art. 13, 14 y 21.4",
+      "fuentes": [
+        "66012c8ab1",
+        "a9dd9a68a7",
+        "e4a03b1dee"
+      ]
+    },
     {
       "accion": "Publicar hoy en web y X un balance oficial único: afectados, fallecidos, ríos, albergues.",
       "porque": "Medios difunden 49.000, casi 50.000 y 56.000 afectados, y 11 o 12 fallecidos; la cifra oficial se diluye.",
@@ -46,23 +54,12 @@
       ]
     },
     {
-      "accion": "Enviar lineamientos y apoyo técnico a los 20 cantones sin plan ante El Niño",
-      "porque": "Noboa cuestionó hoy a municipios; Teleamazonas reporta 20 cantones sin plan. La Secretaría debe quedar como apoyo, no como acusadora.",
-      "base_legal": "Art. 21.4, 23.4 y 23.5",
+      "accion": "Publicar en la web recursos 2026 usados en la emergencia antes del debate de proforma.",
+      "porque": "Primicias difunde en X (1.336 vistas) que la Secretaría tendría USD 21 millones en 2027 frente a 23 en 2026.",
+      "base_legal": "Art. 73",
       "fuentes": [
-        "af77504d95",
-        "3ac93e4f66",
-        "efd983b349"
-      ]
-    },
-    {
-      "accion": "Con el MIES, publicar guía por provincia: registro de damnificados y cobro del bono.",
-      "porque": "Diario Extra y Ecuador Diario explican cómo y quién cobra el bono; damnificados de Machala buscan acceder.",
-      "base_legal": "Art. 68 y 61",
-      "fuentes": [
-        "e78e6036ab",
-        "fd15cff500",
-        "1063ca553b"
+        "e5427f9a16",
+        "2b210620b8"
       ]
     }
   ],
@@ -87,7 +84,7 @@
     },
     {
       "titulo": "Critican a los GAD por drenajes y obras",
-      "explicacion": "Ahora la empuja el propio Noboa (alcantarillado de Guayaquil), replicado por El Universo, Primicias y Extra, junto con los 20 cantones sin plan. Riesgo: la Secretaría necesita a los GAD para la respuesta; oportunidad de liderar con lineamientos sin sumarse al choque.",
+      "explicacion": "La empuja ahora el propio Noboa (municipios y prefecturas sin planes, alcantarillado de Guayaquil), replicado por El Universo, Primicias y Extra. La Secretaría necesita a los GAD en la respuesta: conviene liderar con lineamientos y no sumarse al choque.",
       "ids": [
         "efd983b349",
         "12963e23fc",
