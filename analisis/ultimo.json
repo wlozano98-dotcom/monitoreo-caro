@@ -1,71 +1,68 @@
 {
   "vinetas": [
-    "Riesgos publicó la lista de 85 GAD con planes tardíos; El Universo: 65,5 % de planes locales sin iniciar.",
-    "Informe Erfen: El Niño podría ser muy fuerte o extraordinario, como 1982 y 1997; lo replican seis medios.",
-    "Manabí: más de 1.000 familias afectadas (El Universo), 400 en Tosagua (Ecuavisa); norte de Esmeraldas incomunicado por puente.",
-    "Redes: críticas en YouTube bajan de 25 a 9, ninguna contra la Secretaría; TikTok de Carolina en Milagro: 5.294 vistas."
+    "Primicias y Extra: la proforma 2027 asigna a Riesgos USD 21 millones, frente a 23 millones en 2026.",
+    "La lista de 85 GAD con planes tardíos sigue en El Comercio, El Universo, Metro, El Mercurio y abc.com.py.",
+    "Nuevos focos: río Cadeate afecta a más de 150 familias en Manglaralto; 400 en Tosagua; Santa Cruz evalúa reubicaciones.",
+    "Baja el volumen: 128 notas de medios frente a 205 ayer; críticas en YouTube, 5 frente a 25."
   ],
   "fuentes_vinetas": [
-    ["13e7fb01da", "c853ccd8c1", "9ec1f11677", "c898d97d15", "cf4be0d719", "eed62d776e", "bebee6d6fc"],
-    ["e175853767", "3e6cadf149", "0d6a3af5ab", "39134d932c", "955536387f", "5c21bac76b"],
-    ["423504fc58", "e7cb4d29d8", "5bb2125be7"],
-    ["f821e44a99", "706a95f46a", "6f24118941"]
+    ["e5427f9a16", "2b210620b8", "ff1cc77bde"],
+    ["600eb1b13d", "13e7fb01da", "9ec1f11677", "eed62d776e", "abbddfc847", "cf4be0d719"],
+    ["1febd08769", "e7cb4d29d8", "9cc3304679"],
+    []
   ],
   "acciones": [
     {
-      "accion": "Coordinar con FF. AA. y COE asistencia a Tosagua y al norte incomunicado de Esmeraldas.",
-      "porque": "Ecuavisa: más de 400 familias afectadas en Tosagua; Teleamazonas: norte de Esmeraldas incomunicado tras colapso de un puente.",
-      "base_legal": "Art. 13, 14 y 21.4",
-      "fuentes": ["e7cb4d29d8", "5bb2125be7", "a9dd9a68a7", "c1757c9689"]
+      "accion": "Coordinar con los GAD el registro de afectados en Tosagua y Manglaralto para el bono.",
+      "porque": "Ecuavisa: más de 400 familias afectadas en Tosagua; Teleamazonas: más de 150 en Manglaralto; Extra explica el cobro del bono.",
+      "base_legal": "Art. 14 y 68",
+      "fuentes": ["e7cb4d29d8", "1febd08769", "e78e6036ab", "1063ca553b"]
     },
     {
-      "accion": "Publicar a hora fija un balance oficial único: ríos, afectados, fallecidos y albergues.",
-      "porque": "Hoy circulan 19, 28, 29 y 30 ríos desbordados; afectados entre 49.000 y 56.000 según el medio.",
-      "base_legal": "Art. 61 y 72",
-      "fuentes": ["eb250edcb7", "5d47d5896e", "733661dd06", "15e27905a4", "31977ca5e8", "a9fe7de0f6"]
+      "accion": "Aclarar ante medios y Asamblea el presupuesto 2027 de Riesgos frente a El Niño.",
+      "porque": "Primicias (1,3 millones de seguidores en X) y Extra: proforma 2027 asigna USD 21 millones, frente a 23 millones en 2026.",
+      "base_legal": "Art. 23.21, 72 y 73",
+      "fuentes": ["e5427f9a16", "2b210620b8", "ff1cc77bde"]
     },
     {
-      "accion": "Acompañar la lista de 85 GAD con asistencia técnica provincial y metas verificables.",
-      "porque": "Lista de Riesgos replicada por El Universo, Metro, FM Mundo y El Mercurio; Noboa también culpa a GAD: evitar choque político.",
-      "base_legal": "Art. 23.4, 23.5 y 21.4",
-      "fuentes": ["13e7fb01da", "9ec1f11677", "c853ccd8c1", "eed62d776e", "a4807c0acc"]
+      "accion": "Ofrecer asistencia técnica a los 85 GAD tardíos y publicar semanalmente su avance verificable.",
+      "porque": "El Universo: 65,5 % de planes locales sin iniciar; Metro: SNGR exige acciones verificables; El Mercurio: Cuenca y ocho cantones tardíos.",
+      "base_legal": "Art. 21.4, 23.4 y 75",
+      "fuentes": ["cf4be0d719", "9ec1f11677", "eed62d776e", "c898d97d15"]
     }
   ],
   "narrativas": [
     {
+      "titulo": "El Gobierno llega con bombas, vuelos y kits",
+      "explicacion": "FF. AA., La Posta y medios difunden el vuelo a Galápagos con personal de la Secretaría, las cajas a Puerto López y Jipijapa y el albergue de Milagro que mostró Carolina. Sostiene la imagen operativa de la Secretaría.",
+      "ids": ["0c2a61e167", "fb636846c9", "c1757c9689", "5e0e65fde3", "6f24118941", "0139ce8b77", "23a50333ed", "f9e0d194b2", "81a8932e7b", "a4413deada", "720627d44b", "2dd532cecd", "e891730e45", "13e03e5e3f", "ecefaa6dd4", "829cf74acc", "688b49bb65"]
+    },
+    {
       "titulo": "Culpan a los GAD por planes tardíos",
-      "explicacion": "La empuja la propia Secretaría con la lista de 85 GAD, replicada por El Universo, Metro, FM Mundo, El Mercurio y medios extranjeros. Fortalece su rectoría, pero la expone a la respuesta de alcaldes y prefectos en año electoral.",
-      "ids": ["13e7fb01da", "c853ccd8c1", "9ec1f11677", "c898d97d15", "cf4be0d719", "eed62d776e", "bebee6d6fc", "abbddfc847", "4042ec7775", "c56889818d"]
+      "explicacion": "La empuja la Secretaría con la lista de 85 GAD; El Comercio, El Universo, Metro, FM Mundo, El Mercurio y medios extranjeros la replican. Refuerza su rectoría, pero la expone a la réplica de alcaldes y prefectos en año electoral.",
+      "ids": ["13e7fb01da", "c853ccd8c1", "9ec1f11677", "c898d97d15", "cf4be0d719", "eed62d776e", "3dfddbd95f", "bebee6d6fc", "abbddfc847", "600eb1b13d", "4042ec7775", "c56889818d", "af77504d95"]
     },
     {
       "titulo": "Critican a los GAD por drenajes y obras",
-      "explicacion": "Noboa cuestionó la inversión de Guayaquil en alcantarillado (Primicias, El Universo, Extra, Vistazo) y Teleamazonas muestra esteros sin mantenimiento. Apunta a los GAD; la Secretaría los necesita para la respuesta.",
-      "ids": ["12963e23fc", "6f869f0132", "da23aeb5d4", "efd983b349", "a4807c0acc", "3ac93e4f66", "58b68b9d10", "e4c167e472", "ddaab1cefb"]
+      "explicacion": "Noboa cuestionó la inversión de Guayaquil en alcantarillado (Primicias, El Universo, Extra, Vistazo); Teleamazonas muestra esteros sin mantenimiento y en Portoviejo piden más a la Prefectura. Apunta a los GAD, que la Secretaría necesita para la respuesta.",
+      "ids": ["12963e23fc", "6f869f0132", "efd983b349", "da23aeb5d4", "a4807c0acc", "3ac93e4f66", "58b68b9d10", "e4c167e472", "06322cb063", "ddaab1cefb"]
     },
     {
-      "titulo": "El Gobierno llega con bombas, vuelos y kits",
-      "explicacion": "La Posta y FF. AA. difunden el vuelo a Galápagos con personal de la Secretaría y las 280 cajas a Puerto López y Jipijapa; Carolina muestra el albergue de Milagro. Sostiene la imagen operativa de la Secretaría.",
-      "ids": ["0c2a61e167", "fb636846c9", "c1757c9689", "5e0e65fde3", "e48f371953", "6f24118941", "0139ce8b77", "829cf74acc", "23a50333ed", "f9e0d194b2", "81a8932e7b", "a4413deada", "720627d44b", "13e03e5e3f", "e891730e45"]
+      "titulo": "Recortan el presupuesto de Riesgos en plena emergencia",
+      "explicacion": "Primicias y Extra informan que la proforma 2027 baja a USD 21 millones el presupuesto de la Secretaría (23 millones en 2026). Con poca reacción en redes (4 interacciones en X), puede leerse como debilidad de la Secretaría justo cuando el Erfen anticipa un evento extraordinario.",
+      "ids": ["e5427f9a16", "2b210620b8", "ff1cc77bde"]
     },
     {
       "titulo": "Anuncian el bono pero no dicen cómo cobrarlo",
-      "explicacion": "Extra y YouTube explican montos y requisitos, pero persiste la pregunta de quién cobra; El Universo aclara que el diferimiento de créditos no es automático. Riesgo de frustración si el registro de damnificados no es claro.",
-      "ids": ["e78e6036ab", "c906ed1eae", "1063ca553b", "fcf734eb37", "d96ecffc18", "65327b3cd9", "0e118dbf11"]
-    },
-    {
-      "titulo": "El Presidente no da la cara en la emergencia",
-      "explicacion": "Canales de YouTube (Hoja de Ruta, Hablando claro, Mr. Andrés) y sus comentarios repiten la idea. Apunta al Presidente, no a la Secretaría, aunque afecta la imagen del Gobierno en la emergencia.",
-      "ids": ["f821e44a99", "706a95f46a", "fc1c3e47ca", "8ff6e6449b", "ce937565c2", "3821c5becf", "48db469638", "b724cc3de8"]
+      "explicacion": "Extra, Ecuador Diario y medios explican montos y requisitos del bono y del diferimiento; El Universo aclara que el diferimiento no es automático. Riesgo de frustración si el registro de damnificados no es claro.",
+      "ids": ["1063ca553b", "e78e6036ab", "65327b3cd9", "a1d6fbda01", "fcf734eb37", "2f112537cf", "d96ecffc18", "0e118dbf11"]
     },
     {
       "titulo": "El Gobierno improvisó sabiendo que venía El Niño",
-      "explicacion": "La Hora (talud de la vía Alóag), Crónica y canales de YouTube cuestionan la preparación del Estado. Con el Erfen anunciando un evento extraordinario, golpea la credibilidad de la prevención, que toca a la Secretaría.",
-      "ids": ["ba38ae15ca", "9cc42b1d4f", "f8b77b40b6", "298cde6a60", "4a72f48b50"]
+      "explicacion": "La Hora (talud de la vía Alóag), Crónica, Unidad Popular y canales de YouTube cuestionan la preparación del Estado; comentarios acusan al Gobierno de no dar recursos a los municipios. Golpea la credibilidad de la prevención, que toca a la Secretaría.",
+      "ids": ["ba38ae15ca", "9cc42b1d4f", "f8b77b40b6", "b724cc3de8", "4a72f48b50", "8c6abfb2c4", "e9ee903157", "2d1cc9625e"]
     }
   ],
   "rumores": [],
-  "hitos": [
-    {"dia": "2026-11-06", "titulo": "Riesgos publica lista de 85 GAD con planes tardíos", "ids": ["13e7fb01da", "c853ccd8c1", "9ec1f11677"]},
-    {"dia": "2026-11-06", "titulo": "Erfen: El Niño podría ser extraordinario", "ids": ["e175853767", "3e6cadf149", "0d6a3af5ab"]}
-  ]
+  "hitos": []
 }
