@@ -1,66 +1,200 @@
 {
   "vinetas": [
-    "Las Orquídeas domina redes: Riesgos_Ec suma 5.920 vistas y Neira 3.090 con la entrega de más de 800 kits.",
-    "Contrapeso en medios: Extra dice que familias de Las Orquídeas siguen esperando; Ecuavisa, medicinas en Santa Cruz ocho días después.",
-    "Aguaje del 9 al 12 de noviembre: Celec reduce descargas de Daule-Peripa y El Universo advierte inundaciones en Guayaquil.",
-    "Medios bajan de 141 a 92 piezas en 24 h; X sube de 23 a 39, con Las Orquídeas y el sismo de Manabí."
+    "Desbordes bajan según la Secretaría: de 19 ríos en cinco provincias a 15 en Guayas, Los Ríos y Santa Elena.",
+    "Aguaje del 9 al 12 empieza mañana: Celec ya reduce descargas de Daule-Peripa; El Universo advierte inundaciones en Guayaquil.",
+    "En redes crece 'lo peor viene': video que lo ubica en Navidad sube de 5.924 a 8.546 vistas en YouTube.",
+    "Medios caen de 121 a 85 piezas; las 6 críticas en X son respuestas pequeñas, de 15 a 40 vistas."
   ],
   "fuentes_vinetas": [
-    ["a28a7b41a4", "0a4041e397", "e67057316c", "2f5bb9ffd2"],
-    ["df98407ad2", "19b8016868"],
-    ["643f370d42", "45be819456", "89911b077e"],
-    []
+    [
+      "aa24669d65",
+      "04926c0684",
+      "631621ccb3",
+      "05169eb4aa",
+      "305d787461"
+    ],
+    [
+      "643f370d42",
+      "45be819456",
+      "89911b077e"
+    ],
+    [
+      "5227cc9789",
+      "f1d0a7de8f",
+      "9ad7b1a3ca"
+    ],
+    [
+      "44e60582fa",
+      "04cdab4084",
+      "fd1a3c0d74",
+      "d35679dca8",
+      "516fd36792",
+      "55162156a3"
+    ]
   ],
   "acciones": [
     {
-      "accion": "Difundir hoy alerta de aguaje 9-12 noviembre en Guayaquil, coordinada con COE cantonal y Celec.",
-      "porque": "Celec reduce descargas de Daule-Peripa por aguaje del 9 al 12; El Universo advierte inundaciones por lluvias y aguajes.",
+      "accion": "Difundir hoy aviso de aguaje 9-12 noviembre en Guayaquil, coordinado con COE cantonal y Celec.",
+      "porque": "Celec reduce descargas de Daule-Peripa por aguaje del 9 al 12; un informe citado por El Universo advierte inundaciones en Guayaquil.",
       "base_legal": "Art. 23.5 y 61",
-      "fuentes": ["643f370d42", "45be819456", "89911b077e"]
+      "fuentes": [
+        "643f370d42",
+        "45be819456",
+        "89911b077e"
+      ]
     },
     {
-      "accion": "Publicar cobertura de kits en Las Orquídeas y registrar en el PMU familias pendientes.",
-      "porque": "Extra reporta familias que siguen esperando ayuda; en X, respuestas al post de Neira hablan de 'migajas' y 'kits por votos'.",
-      "base_legal": "Art. 14, 68 y 73",
-      "fuentes": ["df98407ad2", "c31233e06c", "04cdab4084", "d35679dca8"]
+      "accion": "Publicar en X y web cifras consolidadas del SitRep: fallecidos, afectados, damnificados y ríos.",
+      "porque": "Cifras dispares: todotexcoco publica 11 muertos y 50.000 damnificados; en X, citando a la SNGR, 12 muertos y unos 56.800 afectados.",
+      "base_legal": "Art. 61 y 72",
+      "fuentes": [
+        "afa9e3dfa7",
+        "bdf94e38e1",
+        "998365822a"
+      ]
     },
     {
-      "accion": "Video de Carolina en TikTok y Facebook: cómo prepararse para el pico previsto.",
-      "porque": "Un video que anuncia que lo peor llegará en Navidad suma 5.924 vistas; su visor llegó a 2.269 en TikTok.",
+      "accion": "Video de Carolina en TikTok y Facebook: qué esperar hasta marzo y cómo prepararse.",
+      "porque": "Video que ubica lo peor en Navidad llega a 8.546 vistas; La Hora señala enero a marzo de 2027 como meses más complejos.",
       "base_legal": "Art. 61",
-      "fuentes": ["5227cc9789", "c040f3f286", "f1d0a7de8f", "1b5cb26952"]
+      "fuentes": [
+        "5227cc9789",
+        "f1d0a7de8f",
+        "9ad7b1a3ca",
+        "1b5cb26952"
+      ]
     }
   ],
   "narrativas": [
     {
       "titulo": "El Gobierno llega con bombas, vuelos y kits",
-      "explicacion": "La Secretaría, José Julio Neira, Sucre Noticias, Tiempo Real, La Posta y El Universo difunden más de 800 kits en Las Orquídeas, 100 kits en Durán y ayuda en Santa Cruz, con Carolina puerta a puerta. Sostiene su imagen operativa, pero la expone a que se compare con las familias que dicen seguir esperando.",
-      "ids": ["a28a7b41a4", "e2335bd8e2", "c6e005c26c", "0a4041e397", "e67057316c", "2f5bb9ffd2", "c31233e06c", "b40aac15a1", "661c933afc", "c038dca1a3", "c26e23bcf8", "f12681d1b1", "d90a03b7d1", "b65b59109b", "ce3b84898d", "6668123dba", "e61ac6c294", "974f4795c9", "e891730e45", "0139ce8b77", "6f24118941", "35e76f314c", "e826a6e2ba"]
+      "explicacion": "La Secretaría (5.920 vistas en X), José Julio Neira, La Posta y El Universo difunden más de 800 kits en Las Orquídeas y 100 en Durán; hoy El Diario titula que llegó la ayuda a Santa Cruz. Sostiene la imagen operativa de Carolina, pero invita a compararla con quienes dicen seguir esperando.",
+      "ids": [
+        "a28a7b41a4",
+        "e2335bd8e2",
+        "c6e005c26c",
+        "0a4041e397",
+        "e67057316c",
+        "2f5bb9ffd2",
+        "c31233e06c",
+        "b40aac15a1",
+        "661c933afc",
+        "c038dca1a3",
+        "c26e23bcf8",
+        "f12681d1b1",
+        "d90a03b7d1",
+        "b65b59109b",
+        "ce3b84898d",
+        "6668123dba",
+        "e61ac6c294",
+        "974f4795c9",
+        "e891730e45",
+        "35e76f314c",
+        "e826a6e2ba",
+        "880722ca32",
+        "3876f532af"
+      ]
     },
     {
       "titulo": "Lo peor de El Niño todavía no llega",
-      "explicacion": "El informe del Erfen sigue en Vistazo, Ecuavisa, El Universo e Infobae (posible segundo pico en 2027), y en YouTube un video que dice que lo peor llegará en Navidad suma 5.924 vistas. Oportunidad para que la Secretaría guíe la preparación; riesgo de miedo sin mensaje oficial.",
-      "ids": ["c040f3f286", "098222d6d1", "39134d932c", "b92c911552", "0d6a3af5ab", "4efb6d906a", "0ecd55f5f2", "94c21932a3", "ff6f958385", "fbb6bcc9a9", "cca3f9bdb5", "8805ef6600", "f1d0a7de8f", "5227cc9789", "0ccdd9db3f", "622972e485"]
+      "explicacion": "El informe del Erfen (intensidad extraordinaria) sigue en Metro, Ecuavisa e Infobae, y La Hora apunta a enero-marzo de 2027; en YouTube, un video que ubica lo peor en Navidad llega a 8.546 vistas. Oportunidad para que la Secretaría guíe la preparación; riesgo de miedo sin mensaje oficial.",
+      "ids": [
+        "c040f3f286",
+        "098222d6d1",
+        "39134d932c",
+        "b92c911552",
+        "0d6a3af5ab",
+        "4efb6d906a",
+        "0ecd55f5f2",
+        "94c21932a3",
+        "ff6f958385",
+        "fbb6bcc9a9",
+        "cca3f9bdb5",
+        "8805ef6600",
+        "f1d0a7de8f",
+        "5227cc9789",
+        "0ccdd9db3f",
+        "622972e485",
+        "9ad7b1a3ca",
+        "41da6ea844"
+      ]
+    },
+    {
+      "titulo": "La ayuda llega tarde y es para la foto",
+      "explicacion": "En medios la sostienen Ecuavisa (medicinas en Santa Cruz ocho días después) y Extra (familias de Las Orquídeas que siguen esperando); en X, solo respuestas de cuentas pequeñas que hablan de 'migajas' y 'kits por votos'. No creció hoy, pero en año electoral exige transparentar la entrega sin imagen política (art. 78.5).",
+      "ids": [
+        "19b8016868",
+        "df98407ad2",
+        "04cdab4084",
+        "fd1a3c0d74",
+        "d35679dca8",
+        "516fd36792",
+        "44e60582fa",
+        "55162156a3",
+        "c2d6ccde65",
+        "2780d0dbb2",
+        "b724cc3de8"
+      ]
+    },
+    {
+      "titulo": "Culpan a los GAD por planes tardíos",
+      "explicacion": "La lista de 85 GAD que publicó la Secretaría siguió en El Comercio, El Universo, El Mercurio (Azuay) y W Radio, sin piezas nuevas hoy. Refuerza la rectoría de la Secretaría, aunque la expone a la réplica de alcaldes y prefectos en campaña.",
+      "ids": [
+        "9d78a35ea3",
+        "49842f3d51",
+        "9aa7f93ec4",
+        "b4c82a2ee4",
+        "b3bf361355",
+        "600eb1b13d",
+        "abbddfc847",
+        "bebee6d6fc",
+        "cf4be0d719",
+        "c853ccd8c1",
+        "9ec1f11677",
+        "13e7fb01da",
+        "4042ec7775",
+        "eed62d776e",
+        "3dfddbd95f",
+        "c898d97d15",
+        "c56889818d"
+      ]
+    },
+    {
+      "titulo": "Critican a los GAD por drenajes y obras",
+      "explicacion": "Tras el reclamo de Noboa a Guayaquil por el alcantarillado (81.789 vistas en TikTok), Teleamazonas, Extra y El Universo muestran esteros sin mantenimiento, tierra de un deslave que bloquea una calle en el cerro San Eduardo y una vía en la Alborada sin reparar. Apunta a los GAD, no a la Secretaría.",
+      "ids": [
+        "b324ab0d1f",
+        "12963e23fc",
+        "6f869f0132",
+        "da23aeb5d4",
+        "efd983b349",
+        "e4c167e472",
+        "903754595d",
+        "cf78b33ae4",
+        "269ab01ad5",
+        "58b68b9d10",
+        "ddaab1cefb",
+        "077deb2dd8"
+      ]
     },
     {
       "titulo": "Manabí se siente informada por la Secretaría",
       "explicacion": "Comentarios en Facebook desde Manabí agradecen la información de Riesgos y de Carolina, y la Secretaría informó pronto que el sismo de 4,7 frente a Puerto López no dejó daños (La Hora, NotiMundo). Canal a replicar en Guayas y Santa Elena.",
-      "ids": ["223dc49043", "38a4438adb", "bb85972b37", "1fb349179e", "c6042d3235", "e0ff905189", "1b2a628b97", "4f005b8985", "93a27d8ec8", "1b5cb26952", "2964e8bb23", "9aa9c2bc54", "e05ca0e68d"]
-    },
-    {
-      "titulo": "La ayuda llega tarde y es para la foto",
-      "explicacion": "En medios la sostienen Ecuavisa (medicinas en Santa Cruz ocho días después) y Extra (familias de Las Orquídeas que siguen esperando); en X, respuestas de cuentas pequeñas al post de Neira hablan de 'migajas' y 'kits por votos'. En año electoral, transparentar la entrega y mantener la ayuda sin imagen política (art. 78.5).",
-      "ids": ["19b8016868", "df98407ad2", "04cdab4084", "fd1a3c0d74", "d35679dca8", "516fd36792", "44e60582fa", "55162156a3", "c2d6ccde65", "2780d0dbb2", "b724cc3de8", "9cc42b1d4f"]
-    },
-    {
-      "titulo": "Culpan a los GAD por planes tardíos",
-      "explicacion": "La lista de 85 GAD de la Secretaría pierde fuerza en medios, pero sigue en W Radio (Azuay), Latitud Noticias y cuentas de verificación. Refuerza la rectoría de la Secretaría, aunque la expone a la réplica de alcaldes y prefectos en campaña.",
-      "ids": ["9d78a35ea3", "49842f3d51", "9aa7f93ec4", "b4c82a2ee4", "b3bf361355", "600eb1b13d", "abbddfc847", "bebee6d6fc", "cf4be0d719", "c853ccd8c1", "9ec1f11677", "13e7fb01da", "4042ec7775", "eed62d776e", "3dfddbd95f", "c898d97d15", "c56889818d"]
-    },
-    {
-      "titulo": "Critican a los GAD por drenajes y obras",
-      "explicacion": "El video de TC sobre Noboa y el alcantarillado de Guayaquil (81.789 vistas en TikTok) sigue siendo la pieza de mayor alcance; en redes se culpa a municipios por cerros y alcantarillas. Apunta a los GAD, con los que la Secretaría trabaja en el PMU de Las Orquídeas.",
-      "ids": ["b324ab0d1f", "12963e23fc", "6f869f0132", "da23aeb5d4", "efd983b349", "e4c167e472", "903754595d", "cf78b33ae4", "269ab01ad5"]
+      "ids": [
+        "223dc49043",
+        "38a4438adb",
+        "bb85972b37",
+        "1fb349179e",
+        "c6042d3235",
+        "e0ff905189",
+        "1b2a628b97",
+        "4f005b8985",
+        "93a27d8ec8",
+        "1b5cb26952",
+        "2964e8bb23",
+        "9aa9c2bc54",
+        "e05ca0e68d"
+      ]
     }
   ],
   "rumores": [],
