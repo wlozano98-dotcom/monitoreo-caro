@@ -1,82 +1,153 @@
 {
   "vinetas": [
-    "Datos hasta las 11:32: 161 piezas en 24 h frente a 335; críticas de 27 a 4; sin X, TikTok ni Facebook.",
-    "Vistazo, Infobae, La República y Prensa Libre replican al Erfen: El Niño podría ser extraordinario, como 1982 y 1997.",
-    "Siete medios informan el cierre de 10 días de la vía Alóag–Santo Domingo; La Hora cuestiona la obra del talud.",
-    "Cifras dispares circulando: 19, 28 y 30 ríos desbordados; entre 49.000 y más de 56.000 afectados, según medio y corte."
+    "198 piezas en 24 h frente a 256 ayer; las críticas a la SNGR o al Gobierno bajan de 15 a 8.",
+    "La jornada de Carolina en Las Orquídeas lidera lo positivo en redes (@Riesgos_Ec, 5.920 vistas); Extra reporta familias esperando ayuda.",
+    "Ecuavisa: medicinas llegaron a Santa Cruz ocho días después de la inundación; el resto de medios cubre la reapertura turística.",
+    "En Guayas: Celec reduce descargas de Daule-Peripa por aguaje del 9 al 12; Inamhi prevé lluvias en 18 provincias."
   ],
   "fuentes_vinetas": [
     [],
     [
-      "c040f3f286",
-      "098222d6d1",
-      "39134d932c",
-      "b92c911552",
-      "e175853767"
+      "a28a7b41a4",
+      "0a4041e397",
+      "e67057316c",
+      "df98407ad2"
     ],
     [
-      "627c1abdf6",
-      "dc968210b8",
-      "ebc7950955",
-      "9e7e45a9ce",
-      "9a2788c73e",
-      "2ff17e3084",
-      "184ffa2f38",
-      "ba38ae15ca"
+      "19b8016868",
+      "91f7f814c7",
+      "6f50fb852a"
     ],
     [
-      "eb250edcb7",
-      "00886faf23",
-      "15e27905a4",
-      "31977ca5e8",
-      "a9fe7de0f6",
-      "7bcb5fd5ec"
+      "643f370d42",
+      "45be819456",
+      "89911b077e",
+      "320393d902"
     ]
   ],
   "acciones": [
     {
-      "accion": "Publicar dos veces al día en web y X un parte único con hora de corte.",
-      "porque": "Medios y YouTube difunden 19, 28 y 30 ríos desbordados y de 49.000 a 56.000 afectados; las cifras parecen contradecirse.",
-      "base_legal": "Art. 61 y 72",
+      "accion": "Publicar hoy aviso de aguaje 9-12 noviembre en Guayaquil, coordinado con Inocar y Municipio.",
+      "porque": "Celec reduce descargas de Daule-Peripa por el aguaje; El Universo advierte inundaciones si coinciden lluvias intensas y aguajes en noviembre.",
+      "base_legal": "Art. 23.4, 61 y 62",
       "fuentes": [
-        "eb250edcb7",
-        "00886faf23",
-        "15e27905a4",
-        "31977ca5e8",
-        "a9fe7de0f6",
-        "78375bb5b8"
+        "643f370d42",
+        "45be819456",
+        "89911b077e"
       ]
     },
     {
-      "accion": "Rueda de prensa de Carolina con Inamhi: qué significa el informe Erfen y qué preparar.",
-      "porque": "Vistazo, Infobae, La República y Prensa Libre repiten 'intensidad extraordinaria'; El Tribuno habla de segundo pico en 2027.",
-      "base_legal": "Art. 61 y 62",
+      "accion": "Publicar en @Riesgos_Ec kits entregados por sector en Las Orquídeas y canal para faltantes.",
+      "porque": "Medios reportan más de 800 kits entregados, pero Extra dice que familias siguen esperando ayuda tras perderlo todo.",
+      "base_legal": "Art. 14, 72 y 73",
       "fuentes": [
-        "c040f3f286",
-        "098222d6d1",
-        "39134d932c",
-        "b92c911552",
-        "fbb6bcc9a9"
+        "c31233e06c",
+        "e67057316c",
+        "df98407ad2"
       ]
     },
     {
-      "accion": "Emitir lineamiento a los 85 GAD atrasados con plazo y apoyo técnico subsidiario.",
-      "porque": "El Universo: 65,5 % de planes locales sin iniciar; El Mercurio: Cuenca y ocho cantones de Azuay entregaron tarde.",
-      "base_legal": "Art. 21.4, 23.4 y 23.5",
+      "accion": "Publicar cronología de ayuda a Santa Cruz y avance de las fichas de afectados.",
+      "porque": "Ecuavisa dice que las medicinas llegaron ocho días después; Teleamazonas muestra entregas y siete familias podrían ser reubicadas.",
+      "base_legal": "Art. 68, 72 y 73",
       "fuentes": [
-        "cf4be0d719",
-        "eed62d776e",
-        "9ec1f11677",
-        "c898d97d15"
+        "19b8016868",
+        "6668123dba",
+        "9cc3304679",
+        "22814c902d"
       ]
     }
   ],
   "narrativas": [
     {
-      "titulo": "Culpan a los GAD por planes tardíos",
-      "explicacion": "La empuja la Secretaría con la lista de 85 GAD; El Comercio, El Universo, Metro, FM Mundo, El Mercurio y abc.com.py la replican. Refuerza su rectoría, pero la expone a la réplica de alcaldes y prefectos.",
+      "titulo": "Lo peor de El Niño todavía no llega",
+      "explicacion": "El informe del Erfen sigue en medios nacionales y extranjeros (El Universo, Vistazo, Teleamazonas, La Hora) y en videos de YouTube con comentarios de miedo. Oportunidad para que la Secretaría guíe la preparación de enero a marzo; riesgo de alarma si no hay mensaje oficial.",
       "ids": [
+        "94c21932a3",
+        "c040f3f286",
+        "098222d6d1",
+        "cca3f9bdb5",
+        "f1d0a7de8f",
+        "5227cc9789",
+        "fbb6bcc9a9",
+        "0ccdd9db3f",
+        "b92c911552",
+        "39134d932c",
+        "3e6cadf149",
+        "e175853767",
+        "5c21bac76b",
+        "955536387f",
+        "0d6a3af5ab",
+        "622972e485",
+        "ca70060e8a",
+        "70f8a79c13",
+        "54896c5498"
+      ]
+    },
+    {
+      "titulo": "El Gobierno llega con bombas, vuelos y kits",
+      "explicacion": "La Secretaría, José Julio Neira, La Posta, Sucre Noticias y Tiempo Real difunden la entrega puerta a puerta en Las Orquídeas, la coordinación con FF. AA. desde el PMU y la ayuda en Durán y Santa Cruz. Sostiene la imagen operativa de la Secretaría y de Carolina.",
+      "ids": [
+        "c31233e06c",
+        "e67057316c",
+        "2f5bb9ffd2",
+        "a28a7b41a4",
+        "e2335bd8e2",
+        "0a4041e397",
+        "c26e23bcf8",
+        "f12681d1b1",
+        "d90a03b7d1",
+        "c6e005c26c",
+        "661c933afc",
+        "b65b59109b",
+        "b40aac15a1",
+        "6668123dba",
+        "c038dca1a3",
+        "974f4795c9",
+        "e826a6e2ba",
+        "ce3b84898d"
+      ]
+    },
+    {
+      "titulo": "La ayuda llega tarde y es para la foto",
+      "explicacion": "Ecuavisa (medicinas en Santa Cruz ocho días después) y Extra (familias de Las Orquídeas esperando) la sostienen en medios; en X, respuestas de cuentas pequeñas al post de Neira hablan de 'migajas' y 'kits por votos'. Riesgo en año electoral: transparentar la entrega y mantener la ayuda sin imagen política (art. 78.5).",
+      "ids": [
+        "19b8016868",
+        "df98407ad2",
+        "04cdab4084",
+        "fd1a3c0d74",
+        "d35679dca8",
+        "516fd36792",
+        "44e60582fa",
+        "55162156a3"
+      ]
+    },
+    {
+      "titulo": "Critican a los GAD por drenajes y obras",
+      "explicacion": "El video de TC sobre Noboa y el alcantarillado de Guayaquil (81.789 vistas en TikTok) es la pieza de mayor alcance; Primicias, Extra, El Universo y Teleamazonas lo replicaron, y en redes culpan a municipios por cerros y alcantarillas. Apunta a los GAD, con los que la Secretaría trabaja en el PMU de Las Orquídeas.",
+      "ids": [
+        "b324ab0d1f",
+        "12963e23fc",
+        "6f869f0132",
+        "da23aeb5d4",
+        "efd983b349",
+        "a4807c0acc",
+        "58b68b9d10",
+        "3ac93e4f66",
+        "e4c167e472",
+        "903754595d",
+        "cf78b33ae4"
+      ]
+    },
+    {
+      "titulo": "Culpan a los GAD por planes tardíos",
+      "explicacion": "La lista de 85 GAD de la Secretaría pierde fuerza pero sigue en W Radio (Azuay), Latitud Noticias y cuentas de verificación. Refuerza la rectoría de la Secretaría, aunque la expone a la réplica de alcaldes y prefectos.",
+      "ids": [
+        "49842f3d51",
+        "9d78a35ea3",
         "600eb1b13d",
+        "b3bf361355",
+        "9aa7f93ec4",
         "abbddfc847",
         "bebee6d6fc",
         "cf4be0d719",
@@ -84,92 +155,26 @@
         "9ec1f11677",
         "13e7fb01da",
         "4042ec7775",
-        "c56889818d",
         "eed62d776e",
         "3dfddbd95f",
-        "c898d97d15"
+        "c898d97d15",
+        "c56889818d"
       ]
     },
     {
-      "titulo": "Critican a los GAD por drenajes y obras",
-      "explicacion": "Noboa cuestionó la inversión de Guayaquil en alcantarillado (Primicias, El Universo, Extra, Vistazo); Teleamazonas muestra esteros sin mantenimiento y en Portoviejo piden más a la Prefectura. Apunta a los GAD, que la Secretaría necesita para la respuesta.",
+      "titulo": "Manabí se siente informada por la Secretaría",
+      "explicacion": "Varios comentarios en Facebook desde Manabí agradecen la información de Riesgos y de Carolina, y el Visor Alístate Ecuador suma 3.426 vistas en Facebook y 2.269 en TikTok. Oportunidad para replicar ese canal en Guayas y Santa Elena.",
       "ids": [
-        "12963e23fc",
-        "6f869f0132",
-        "da23aeb5d4",
-        "efd983b349",
-        "a4807c0acc",
-        "58b68b9d10",
-        "06322cb063",
-        "e4c167e472",
-        "3ac93e4f66",
-        "ddaab1cefb"
-      ]
-    },
-    {
-      "titulo": "El Gobierno llega con bombas, vuelos y kits",
-      "explicacion": "FF. AA., La Posta y medios difunden el vuelo a Galápagos con personal de la Secretaría, las cajas a Puerto López y Jipijapa y el albergue de Milagro que mostró Carolina. Sostiene la imagen operativa de la Secretaría.",
-      "ids": [
-        "0c2a61e167",
-        "fb636846c9",
-        "c1757c9689",
-        "5e0e65fde3",
-        "0139ce8b77",
-        "6f24118941",
-        "23a50333ed",
-        "f9e0d194b2",
-        "81a8932e7b",
-        "a4413deada",
-        "e826a6e2ba",
-        "ecefaa6dd4",
-        "2dd532cecd"
-      ]
-    },
-    {
-      "titulo": "Anuncian el bono pero no dicen cómo cobrarlo",
-      "explicacion": "Extra, Forbes, El Universo y El Diario explican montos, el Decreto 529 y que el diferimiento no es automático. Riesgo de frustración si el registro de damnificados no es claro.",
-      "ids": [
-        "e78e6036ab",
-        "65327b3cd9",
-        "a1d6fbda01",
-        "d96ecffc18",
-        "b6701ee2d3",
-        "fcf734eb37",
-        "0e118dbf11",
-        "4b0799e3a6"
-      ]
-    },
-    {
-      "titulo": "Lo peor de El Niño todavía no llega",
-      "explicacion": "El informe del Erfen (intensidad 'muy fuerte o extraordinaria') domina medios nacionales y extranjeros y aparece en videos con temor en comentarios. Oportunidad para que la Secretaría guíe la preparación; riesgo de pánico si no hay mensaje oficial.",
-      "ids": [
-        "c040f3f286",
-        "098222d6d1",
-        "39134d932c",
-        "b92c911552",
-        "fbb6bcc9a9",
-        "0d6a3af5ab",
-        "3e6cadf149",
-        "e175853767",
-        "955536387f",
-        "5c21bac76b",
-        "622972e485",
-        "73cf7b6381",
-        "8805ef6600"
-      ]
-    },
-    {
-      "titulo": "El Gobierno improvisó sabiendo que venía El Niño",
-      "explicacion": "La Hora (talud de la vía Alóag), Crónica, Unidad Popular y canales de YouTube cuestionan la preparación del Estado y la ausencia del Presidente; comentarios acusan al Gobierno de no dar recursos a los municipios. Golpea la credibilidad de la prevención, que toca a la Secretaría.",
-      "ids": [
-        "ba38ae15ca",
-        "9cc42b1d4f",
-        "4a72f48b50",
-        "f8b77b40b6",
-        "f821e44a99",
-        "8c6abfb2c4",
-        "e9ee903157",
-        "2d1cc9625e"
+        "223dc49043",
+        "1fb349179e",
+        "e0ff905189",
+        "1b2a628b97",
+        "c6042d3235",
+        "38a4438adb",
+        "bb85972b37",
+        "4f005b8985",
+        "93a27d8ec8",
+        "1b5cb26952"
       ]
     }
   ],
