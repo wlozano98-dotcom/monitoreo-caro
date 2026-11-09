@@ -1,73 +1,195 @@
 {
   "vinetas": [
-    "Desbordes bajan: 15 ríos y esteros en Guayas, Los Ríos y Santa Elena, frente a 19 en cinco provincias el viernes.",
-    "De 78 notas en 24 h, solo una critica (Ecuavisa, Santa Cruz); no hay datos de X, TikTok ni Facebook de hoy.",
-    "Esta noche marea de 4,55 m en Guayaquil y aguaje del 9 al 12; Celec reduce descargas de Daule-Peripa.",
-    "Santo Domingo: Teleamazonas reporta calles destruidas; la vía Alóag-Santo Domingo seguirá cerrada al menos diez días más."
+    "En X las críticas suben de 6 a 30 en 24 h, sobre todo respuestas al reparto de Milagro que etiquetan a Carolina.",
+    "Tendencia en X: acusan uso partidista de la ayuda (color, escudo, fotos, 'campaña anticipada'); cuentas pequeñas, la mayor con 508 vistas.",
+    "Manabí: Extra muestra Charapotó inundado por el río Viejo; Teleamazonas, comunidades incomunicadas. El reporte de 15 ríos no incluye Manabí.",
+    "Ecuavisa, El Diario y Diario Correo difunden que El Niño encarecería la canasta básica hasta 30 %, según expertos."
   ],
   "fuentes_vinetas": [
-    ["05169eb4aa", "631621ccb3", "23b46ef51a", "305d787461", "1116f9e0f1"],
-    ["19b8016868"],
-    ["61dac090e9", "c5916eefdd", "643f370d42"],
-    ["bc0cbc8463", "0abdfc11e8", "7850cf706f", "bcbb339752"]
+    [
+      "3ba9ce3bb3",
+      "2fbd1abcac",
+      "b65633db6a",
+      "6f6c97642b",
+      "7986268e1e",
+      "e4684e7919"
+    ],
+    [
+      "3ba9ce3bb3",
+      "28a0c8557f",
+      "2fbd1abcac",
+      "b65633db6a",
+      "e459a55866",
+      "69eb1e38f5"
+    ],
+    [
+      "b8a6ec4c2c",
+      "030744f5aa",
+      "e1cfe73184",
+      "05169eb4aa",
+      "e69db288f1"
+    ],
+    [
+      "5341e98f06",
+      "3114f1f4b8",
+      "e755115993",
+      "e6a469b4ce"
+    ]
   ],
   "acciones": [
     {
-      "accion": "Emitir mañana con Inocar aviso de aguaje 9-12 noviembre para Guayaquil por redes y SMS.",
-      "porque": "El Universo y El Telégrafo anuncian marea de más de 4 m esta noche; Celec ya reduce descargas de Daule-Peripa por el aguaje.",
-      "base_legal": "Art. 61 y 62",
-      "fuentes": ["61dac090e9", "c5916eefdd", "643f370d42"]
-    },
-    {
-      "accion": "Publicar en la web kits entregados por sector: Las Orquídeas, Durán, Milagro, Santa Cruz.",
-      "porque": "Ecuavisa destaca que Santa Cruz recibió medicinas ocho días después; Extra recoge familias de Las Orquídeas que siguen esperando.",
+      "accion": "Publicar hoy en la web de Riesgos el detalle de kits de Milagro y Orquídeas.",
+      "porque": "30 críticas en X acusan uso partidista y piden cuentas por los 200 kits de Milagro; año electoral exige mostrar entrega sin imagen política.",
       "base_legal": "Art. 72, 73 y 78.5",
-      "fuentes": ["19b8016868", "df98407ad2", "b40aac15a1", "21249db3ea", "880722ca32"]
+      "fuentes": [
+        "3ba9ce3bb3",
+        "2fbd1abcac",
+        "b65633db6a",
+        "6f6c97642b",
+        "15a3346a84",
+        "4c1fbcf3be"
+      ]
     },
     {
-      "accion": "Publicar con el COE Nacional quién recibe el bono de $964 y cómo pedirlo.",
-      "porque": "Ojo Ec (934 vistas) y guías de El Universo y El Diario responden dudas sobre quién accede a bonos y diferimientos.",
-      "base_legal": "Art. 61, 68 y 73",
-      "fuentes": ["c78d6c21e8", "8284378e92", "236b7a9f46", "79d7159a83"]
+      "accion": "Difundir con Inocar y ECU 911 horarios de aguaje 9-11 nov en redes de Riesgos.",
+      "porque": "Marea de 4,55 m anegó calles de Guayaquil; Inocar prevé pleamares hasta el 11; TikTok de 24/7 llegó a 15.443 vistas.",
+      "base_legal": "Art. 61",
+      "fuentes": [
+        "b5d6d29883",
+        "8704a84dd6",
+        "0b4dcc1850",
+        "8b5747fa4a",
+        "f098d7967a",
+        "643f370d42"
+      ]
+    },
+    {
+      "accion": "Ofrecer al COE de Manabí apoyo subsidiario para Charapotó y comunidades incomunicadas.",
+      "porque": "Extra: río Viejo inundó casas, escuelas y cementerio en Charapotó; Teleamazonas: comunidades incomunicadas en Manabí por ríos desbordados.",
+      "base_legal": "Art. 13, 21.4 y 28",
+      "fuentes": [
+        "b8a6ec4c2c",
+        "030744f5aa"
+      ]
     }
   ],
   "narrativas": [
     {
       "titulo": "El Gobierno llega con bombas, vuelos y kits",
-      "explicacion": "Hoy suman Milagro (El Universo, El Telégrafo), Durán y Santa Cruz (El Diario), tras los más de 800 kits en Las Orquídeas que difundió la Secretaría en X (5.920 vistas). Sostiene la imagen operativa de Carolina, pero invita a comparar con quienes dicen seguir esperando.",
-      "ids": ["21249db3ea", "c944ccc9c5", "0b89675863", "b40aac15a1", "880722ca32", "c8a6956fa3", "3876f532af", "a28a7b41a4", "e2335bd8e2", "c31233e06c", "2f5bb9ffd2", "e67057316c", "c038dca1a3", "0a4041e397", "c26e23bcf8", "f12681d1b1", "d90a03b7d1", "661c933afc", "c6e005c26c", "b65b59109b", "6668123dba", "e61ac6c294", "2425ae90c0", "ad723b7ced"]
+      "explicacion": "Medios (El Telégrafo, TC, El Universo, El Diario) y cuentas de noticias en X difunden 200 kits y 200 de vestir en Milagro, 135 familias en Tosagua y bombas de agua; el TikTok de Riesgos llega a 11.000 vistas. Sostiene la imagen operativa de Carolina, pero es el mismo contenido que hoy atrae las críticas.",
+      "ids": [
+        "74324df165",
+        "4c1fbcf3be",
+        "6843792f3c",
+        "15a3346a84",
+        "4bc22f1083",
+        "197133caa3",
+        "7dab9a1523",
+        "21249db3ea",
+        "8b7687a051",
+        "f4a371594c",
+        "1f0ad68689",
+        "91edbebd05",
+        "b89a2e91e5",
+        "84c273077a",
+        "9e7c1e0a96",
+        "b40aac15a1",
+        "c944ccc9c5",
+        "0b89675863",
+        "c8a6956fa3",
+        "880722ca32"
+      ]
     },
     {
       "titulo": "La ayuda llega tarde y es para la foto",
-      "explicacion": "En medios la sostiene Ecuavisa (medicinas en Santa Cruz ocho días después) y Extra (Las Orquídeas sigue esperando); en X, respuestas de cuentas pequeñas hablan de 'migajas' y 'kits por votos'. No creció hoy, pero en año electoral exige transparentar la entrega sin imagen política (art. 78.5).",
-      "ids": ["19b8016868", "df98407ad2", "04cdab4084", "fd1a3c0d74", "d35679dca8", "44e60582fa", "516fd36792", "55162156a3", "b8f35bc3fc", "e13050335b"]
+      "explicacion": "Revive en X: decenas de respuestas al reparto de Milagro hablan de 'campaña anticipada', colores del partido, 'puro show' y '200 miserables kits'; son cuentas pequeñas, pero muchas dicen lo mismo y etiquetan a Carolina. Riesgo reputacional en año electoral; se responde con transparencia de la entrega (art. 73) y sin imagen política (art. 78.5).",
+      "ids": [
+        "3ba9ce3bb3",
+        "28a0c8557f",
+        "2fbd1abcac",
+        "b65633db6a",
+        "e4684e7919",
+        "69eb1e38f5",
+        "e459a55866",
+        "e07631ebcd",
+        "419f9ae8ea",
+        "7986268e1e",
+        "6f6c97642b",
+        "a11dedc895",
+        "5c31915a83",
+        "19b8016868"
+      ]
     },
     {
       "titulo": "Lo peor de El Niño todavía no llega",
-      "explicacion": "Teleamazonas dice hoy que el evento se consolida entre los más fuertes y se intensificaría entre noviembre y diciembre; Infobae habla de un segundo pico en 2027 y un video de YouTube que ubica lo peor en Navidad llega a 10.431 vistas. Oportunidad para que la Secretaría guíe la preparación; riesgo de miedo sin mensaje oficial.",
-      "ids": ["876346f8f5", "5e6d4f9914", "f299d51363", "ff6f958385", "9ad7b1a3ca", "70db06912c", "0ecd55f5f2", "5227cc9789", "f1d0a7de8f", "cca3f9bdb5", "c040f3f286", "098222d6d1", "94c21932a3", "41da6ea844", "622972e485", "0aab7eea58", "8805ef6600"]
+      "explicacion": "Teleamazonas dice que el evento se consolida por encima de 1982 y 1997 y El Comercio que noviembre y diciembre traerán lluvias más fuertes; varios medios hablan de un segundo pico en 2027 y un TikTok explica que el suelo de la Costa ya está saturado (4.409 vistas). Oportunidad para que la Secretaría guíe la preparación; riesgo de miedo sin mensaje oficial.",
+      "ids": [
+        "876346f8f5",
+        "e8161bc0b8",
+        "5e6d4f9914",
+        "fa096d79e7",
+        "f2a3db352e",
+        "9a98874ce3",
+        "ff6f958385",
+        "70db06912c",
+        "9ad7b1a3ca",
+        "5227cc9789",
+        "0ecd55f5f2",
+        "2716bc4b39",
+        "05fc1313f3"
+      ]
     },
     {
       "titulo": "¿Quién recibe el bono y el diferimiento?",
-      "explicacion": "Tras el bono de hasta $964 y el diferimiento de créditos a 90 días, El Universo, El Diario y canales de YouTube (Ojo Ec, 934 vistas) publican guías de quién accede. Oportunidad: es ayuda concreta del Estado; riesgo si la gente no entiende cómo pedirla.",
-      "ids": ["c78d6c21e8", "8284378e92", "236b7a9f46", "79d7159a83", "bc27d6b53b", "e6ccde42e6", "0e118dbf11", "cc4b375b0e", "b6701ee2d3", "d5ac00a893", "869f11b06a"]
+      "explicacion": "Teleamazonas, El Universo, El Diario y canales de YouTube (Ojo Ec, Hablemos Claro, más de 1.100 vistas cada uno) explican el diferimiento de 90 días y el bono de hasta $964, mientras Extra recoge a afectados de Las Orquídeas que gastaron hasta $8.000. Oportunidad si la gente entiende cómo pedirlo; riesgo de frustración si no.",
+      "ids": [
+        "6c9607ff32",
+        "79d7159a83",
+        "c78d6c21e8",
+        "236b7a9f46",
+        "8284378e92",
+        "4b0799e3a6",
+        "83a1aa4d16"
+      ]
     },
     {
-      "titulo": "Culpan a los GAD por planes tardíos",
-      "explicacion": "La lista de 85 GAD que publicó la Secretaría siguió en El Comercio, El Universo, El Mercurio (Azuay) y W Radio, sin piezas nuevas hoy. Refuerza la rectoría de la Secretaría, aunque la expone a la réplica de alcaldes y prefectos en campaña.",
-      "ids": ["13e7fb01da", "600eb1b13d", "eed62d776e", "9d78a35ea3", "c898d97d15", "cf4be0d719", "9ec1f11677", "c853ccd8c1", "bebee6d6fc", "49842f3d51", "abbddfc847", "4042ec7775"]
+      "titulo": "El Niño va a encarecer la comida",
+      "explicacion": "Nueva en medios: Ecuavisa, El Diario y Diario Correo citan a expertos que prevén hasta 30 % más en la canasta básica. No es competencia de la Secretaría, pero suma temor económico a la emergencia.",
+      "ids": [
+        "5341e98f06",
+        "3114f1f4b8",
+        "e755115993",
+        "e6a469b4ce",
+        "2508d1b447"
+      ]
     },
     {
       "titulo": "Critican a los GAD por drenajes y obras",
-      "explicacion": "Tras el reclamo de Noboa a Guayaquil por el alcantarillado (TikTok, 81.789 vistas), hoy El Universo muestra la vía de la Alborada sin reparar y Primicias titula que Guayaquil 'paga la inundación en cuotas'. Apunta a los GAD, no a la Secretaría.",
-      "ids": ["b324ab0d1f", "58b68b9d10", "077deb2dd8", "5279e032ab", "58fb87fb02", "e4c167e472", "3ac93e4f66"]
+      "explicacion": "Primicias (Guayaquil 'paga la inundación en cuotas'), El Universo (vía de la Alborada sin reparar) y El Comercio (editorial sobre las quebradas de Quito) apuntan a los municipios. Apunta a los GAD, no a la Secretaría.",
+      "ids": [
+        "5279e032ab",
+        "077deb2dd8",
+        "b00f041c06",
+        "eb45780a6c"
+      ]
     }
   ],
   "rumores": [
     {
-      "titulo": "Medio extranjero habla de 50.000 damnificados",
-      "explicacion": "todotexcoco.com publica 11 muertos y 50.000 damnificados; una cuenta que cita a la SNGR habla de 12 fallecidos y unos 56.800 afectados. Las cifras difieren y mezclan afectado con damnificado: responder con la cifra del último SitRep, distinguiendo ambos (arts. 61 y 72).",
-      "ids": ["afa9e3dfa7", "1da340fe97", "bdf94e38e1"]
+      "titulo": "El visor Alístate Ecuador espía o roba datos",
+      "explicacion": "Respuestas en X preguntan si el visor tiene 'software espía' y afirman que la herramienta 'estaba siendo vulnerada', sin fuente. Puede frenar el uso de la herramienta; responder con información oficial clara sobre qué datos usa y su seguridad (arts. 61 y 72).",
+      "ids": [
+        "4a75b30138",
+        "3ede7cc3d1"
+      ]
+    },
+    {
+      "titulo": "El Niño ya deja 11 muertos y 50.000 damnificados",
+      "explicacion": "Titulares del sitio extranjero todotexcoco.com dan esas cifras, que no aparecen en ninguna otra pieza del monitoreo. Responder con las cifras del SitRep oficial publicadas y fechadas (arts. 61 y 72).",
+      "ids": [
+        "afa9e3dfa7",
+        "1da340fe97"
+      ]
     }
   ],
   "hitos": []
