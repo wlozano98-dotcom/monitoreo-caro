@@ -1,196 +1,76 @@
 {
   "vinetas": [
-    "Críticas en X suben de 6 a 30 en 24 h: respuestas al reparto de Milagro que etiquetan a Carolina.",
-    "Tendencia en X: acusan uso partidista de la ayuda (color, escudo, fotos); cuentas pequeñas, la mayor con 508 vistas.",
-    "Ríos desbordados: Vistazo y W Radio dicen 15, Prensa Mercosur 16; ninguno incluye Manabí, donde Extra muestra Charapotó inundado.",
-    "Ecuavisa, El Diario y Diario Correo difunden que El Niño encarecería la canasta básica hasta 30 %, según expertos."
+    "El Universo: Lozano reconoce solo 19 % de acciones preventivas cumplidas; el titular no dice quién incumple.",
+    "Río Burro inundó 25 barrios de Manta; video de AV.TV.Digital llega a 27.958 vistas y vecinos dicen que no hubo tiempo.",
+    "Cifras dispares: COE da más de 57 mil afectados; Teleamazonas, 40.000; video de Entre Dos Luces, 50 mil familias (22.178 vistas).",
+    "Críticas en X caen de 23 a 7 en 24 h; el reclamo por kits partidistas en Milagro pierde fuerza."
   ],
   "fuentes_vinetas": [
-    [
-      "3ba9ce3bb3",
-      "2fbd1abcac",
-      "b65633db6a",
-      "6f6c97642b",
-      "7986268e1e",
-      "e4684e7919"
-    ],
-    [
-      "3ba9ce3bb3",
-      "28a0c8557f",
-      "2fbd1abcac",
-      "b65633db6a",
-      "e459a55866",
-      "69eb1e38f5"
-    ],
-    [
-      "e69db288f1",
-      "3b279cd28d",
-      "44a40960d4",
-      "b8a6ec4c2c",
-      "030744f5aa"
-    ],
-    [
-      "5341e98f06",
-      "3114f1f4b8",
-      "e755115993",
-      "e6a469b4ce"
-    ]
+    ["2bb981de43"],
+    ["1c0569e70d", "4751f8ce05", "5d80349464", "858fa838bd", "6454211cea"],
+    ["3ad271c145", "0e80389e07", "99826bc541", "a3fb84ec6f", "aa8bb6bc43"],
+    ["3ba9ce3bb3", "28a0c8557f"]
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy en la web el detalle de kits de Milagro y Orquídeas.",
-      "porque": "30 críticas en X acusan uso partidista de los 200 kits de Milagro; en año electoral conviene transparentar la entrega.",
-      "base_legal": "Art. 72, 73 y 78.5",
-      "fuentes": [
-        "3ba9ce3bb3",
-        "2fbd1abcac",
-        "b65633db6a",
-        "6f6c97642b",
-        "15a3346a84",
-        "4c1fbcf3be"
-      ]
+      "accion": "Aclarar hoy en X y medios qué mide el 19 % y quién debe cumplir.",
+      "porque": "El Universo titula que solo 19 % de acciones preventivas se cumplió, según Lozano; sin contexto el atraso se le atribuye.",
+      "base_legal": "Art. 61 y 72",
+      "fuentes": ["2bb981de43"]
     },
     {
-      "accion": "Difundir con Inocar y ECU 911 horarios de aguaje 9-11 nov en redes.",
-      "porque": "Marea de 4,55 m anegó calles de Guayaquil; Inocar prevé pleamares hasta el 11; TikTok de 24/7 llegó a 15.443 vistas.",
-      "base_legal": "Art. 61",
-      "fuentes": [
-        "b5d6d29883",
-        "8704a84dd6",
-        "0b4dcc1850",
-        "8b5747fa4a",
-        "f098d7967a",
-        "643f370d42"
-      ]
+      "accion": "Ofrecer al COE cantonal de Manta apoyo subsidiario y revisar alerta temprana del Burro.",
+      "porque": "El Diario: 25 barrios afectados en Manta; vecinos dicen a El Universo que el río salió sin tiempo para nada.",
+      "base_legal": "Art. 21.4, 28 y 62",
+      "fuentes": ["1c0569e70d", "5d80349464", "4751f8ce05"]
     },
     {
-      "accion": "Ofrecer al COE de Manabí apoyo subsidiario para Charapotó y comunidades incomunicadas.",
-      "porque": "Extra: río Viejo inundó casas, escuelas y cementerio en Charapotó; Teleamazonas: comunidades incomunicadas en Manabí por ríos desbordados.",
-      "base_legal": "Art. 13, 21.4 y 28",
-      "fuentes": [
-        "b8a6ec4c2c",
-        "030744f5aa"
-      ]
+      "accion": "Publicar con el COE Nacional un consolidado diario único de afectados y ríos.",
+      "porque": "Medios difieren: 15 o 20 ríos desbordados; 40 mil o 57 mil afectados, o 50 mil familias, según el medio.",
+      "base_legal": "Art. 61 y 72",
+      "fuentes": ["f0df4818e8", "f677ad8521", "1f38ec96b6", "a3fb84ec6f", "3ad271c145", "aa8bb6bc43"]
     }
   ],
   "narrativas": [
     {
       "titulo": "El Gobierno llega con bombas, vuelos y kits",
-      "explicacion": "Medios (El Telégrafo, TC, El Universo, El Diario) y cuentas de noticias en X difunden 200 kits y 200 de vestir en Milagro, 135 familias en Tosagua y bombas de agua; el TikTok de Riesgos llega a 11.000 vistas. Sostiene la imagen operativa de Carolina, pero es el mismo contenido que hoy atrae las críticas.",
-      "ids": [
-        "74324df165",
-        "4c1fbcf3be",
-        "6843792f3c",
-        "15a3346a84",
-        "4bc22f1083",
-        "197133caa3",
-        "7dab9a1523",
-        "21249db3ea",
-        "8b7687a051",
-        "f4a371594c",
-        "1f0ad68689",
-        "91edbebd05",
-        "b89a2e91e5",
-        "84c273077a",
-        "9e7c1e0a96",
-        "b40aac15a1",
-        "c944ccc9c5",
-        "0b89675863",
-        "c8a6956fa3",
-        "880722ca32"
-      ]
+      "explicacion": "TC, El Universo y El Diario difunden la entrega de 1.778 bombas en 18 provincias; siguen los 200 kits de Milagro y la ayuda en Tosagua y Manabí. Sostiene la imagen operativa, aunque las bombas se atribuyen al Gobierno central más que a la Secretaría.",
+      "ids": ["eb60499e7a", "3ddd543709", "607ee4a3d8", "dadbced358", "097dad20c9", "485ed8b237", "91edbebd05", "b89a2e91e5", "6843792f3c", "4c1fbcf3be", "74324df165", "8887d4b8a7", "7dab9a1523", "f4a371594c"]
     },
     {
       "titulo": "La ayuda llega tarde y es para la foto",
-      "explicacion": "Revive en X: decenas de respuestas al reparto de Milagro hablan de 'campaña anticipada', colores del partido, 'puro show' y '200 miserables kits'; son cuentas pequeñas, pero muchas dicen lo mismo y etiquetan a Carolina. Riesgo reputacional en año electoral; se responde con transparencia de la entrega (art. 73) y sin imagen política (art. 78.5).",
-      "ids": [
-        "3ba9ce3bb3",
-        "28a0c8557f",
-        "2fbd1abcac",
-        "b65633db6a",
-        "e4684e7919",
-        "69eb1e38f5",
-        "e459a55866",
-        "e07631ebcd",
-        "419f9ae8ea",
-        "7986268e1e",
-        "6f6c97642b",
-        "a11dedc895",
-        "5c31915a83",
-        "19b8016868"
-      ]
+      "explicacion": "Respuestas en X al reparto de Milagro hablan de colores del partido, 'puro show' y uso de la ayuda para votos; son cuentas pequeñas y bajan frente a ayer. Riesgo en año electoral; se responde con transparencia de la entrega (art. 73) y sin imagen política (art. 78.5).",
+      "ids": ["3ba9ce3bb3", "28a0c8557f", "69eb1e38f5", "5c31915a83", "419f9ae8ea", "2fbd1abcac", "b65633db6a", "e4684e7919", "6f6c97642b", "7986268e1e", "a11dedc895"]
+    },
+    {
+      "titulo": "Nadie se preparó a tiempo",
+      "explicacion": "Comentarios en YouTube reclaman falta de plan y de prevención del Gobierno, y El Universo publica que solo 19 % de acciones preventivas se cumplió. Riesgo de que la cifra se use contra Carolina si no se explica quién debe cumplir; oportunidad para mostrar el seguimiento a los GAD.",
+      "ids": ["2bb981de43", "f623a289ec", "f205506c54", "d80ba73ab3", "49b2254f83", "9eb2bfa137", "5d80349464"]
     },
     {
       "titulo": "Lo peor de El Niño todavía no llega",
-      "explicacion": "Teleamazonas dice que el evento se consolida por encima de 1982 y 1997 y El Comercio que noviembre y diciembre traerán lluvias más fuertes; varios medios hablan de un segundo pico en 2027 y un TikTok explica que el suelo de la Costa ya está saturado (4.409 vistas). Oportunidad para que la Secretaría guíe la preparación; riesgo de miedo sin mensaje oficial.",
-      "ids": [
-        "876346f8f5",
-        "e8161bc0b8",
-        "5e6d4f9914",
-        "fa096d79e7",
-        "f2a3db352e",
-        "9a98874ce3",
-        "ff6f958385",
-        "70db06912c",
-        "9ad7b1a3ca",
-        "5227cc9789",
-        "0ecd55f5f2",
-        "2716bc4b39",
-        "05fc1313f3"
-      ]
+      "explicacion": "Teleamazonas dice que puede superar a 1982 y 1997, El Comercio y El Diario anuncian lluvias más fuertes en noviembre y diciembre, y la OMM y otros medios hablan de 2027. Oportunidad para que la Secretaría guíe la preparación; riesgo de miedo sin mensaje oficial.",
+      "ids": ["df2caea0f7", "e8161bc0b8", "5c0a89fcd2", "2df7a71df6", "e6a291043a", "fa096d79e7", "f2a3db352e", "84b9c3cef2", "ab2b1043fb", "38517ac1ce", "bc485f18fb"]
     },
     {
       "titulo": "¿Quién recibe el bono y el diferimiento?",
-      "explicacion": "Teleamazonas, El Universo, El Diario y canales de YouTube (Ojo Ec, Hablemos Claro, más de 1.100 vistas cada uno) explican el diferimiento de 90 días y el bono de hasta $964, mientras Extra recoge a afectados de Las Orquídeas que gastaron hasta $8.000. Oportunidad si la gente entiende cómo pedirlo; riesgo de frustración si no.",
-      "ids": [
-        "6c9607ff32",
-        "79d7159a83",
-        "c78d6c21e8",
-        "236b7a9f46",
-        "8284378e92",
-        "4b0799e3a6",
-        "83a1aa4d16"
-      ]
-    },
-    {
-      "titulo": "El Niño va a encarecer la comida",
-      "explicacion": "Nueva en medios: Ecuavisa, El Diario y Diario Correo citan a expertos que prevén hasta 30 % más en la canasta básica. No es competencia de la Secretaría, pero suma temor económico a la emergencia.",
-      "ids": [
-        "5341e98f06",
-        "3114f1f4b8",
-        "e755115993",
-        "e6a469b4ce",
-        "2508d1b447"
-      ]
+      "explicacion": "FM Mundo, Vistazo, Teleamazonas, Primicias, La Hora, El Mercurio y El Universo publican guías del diferimiento de 90 días, mientras Extra recoge a afectados que gastaron hasta $8.000. Oportunidad si la gente entiende cómo acceder; riesgo de frustración si no.",
+      "ids": ["d1e50ffaa8", "eb423b6997", "dd7315b563", "bf7ec65b76", "3b59e7d56e", "596183331c", "a4c39c1783", "aa380102a5", "98ca4908dc", "6c9607ff32", "83a1aa4d16"]
     },
     {
       "titulo": "Critican a los GAD por drenajes y obras",
-      "explicacion": "Primicias (Guayaquil 'paga la inundación en cuotas'), El Universo (vía de la Alborada sin reparar) y El Comercio (editorial sobre las quebradas de Quito) apuntan a los municipios. Apunta a los GAD, no a la Secretaría.",
-      "ids": [
-        "5279e032ab",
-        "077deb2dd8",
-        "b00f041c06",
-        "eb45780a6c"
-      ]
+      "explicacion": "En Manta los vecinos culpan a alcantarillas tapadas (Primicias) y reclaman limpieza (El Diario); en Durán moradores rellenan calles por su cuenta (El Universo) y El Comercio pide proteger las quebradas de Quito. Apunta a los GAD, no a la Secretaría.",
+      "ids": ["6454211cea", "1c0569e70d", "60b05fbbed", "b00f041c06"]
     }
   ],
   "rumores": [
     {
-      "titulo": "El visor Alístate Ecuador espía o roba datos",
-      "explicacion": "Respuestas en X preguntan si el visor tiene 'software espía' y afirman que la herramienta 'estaba siendo vulnerada', sin fuente. Puede frenar el uso de la herramienta; responder con información oficial clara sobre qué datos usa y su seguridad (arts. 61 y 72).",
-      "ids": [
-        "4a75b30138",
-        "3ede7cc3d1"
-      ]
-    },
-    {
-      "titulo": "El Niño ya deja 11 muertos y 50.000 damnificados",
-      "explicacion": "Titulares del sitio extranjero todotexcoco.com dan esas cifras, que no aparecen en ninguna otra pieza del monitoreo. Responder con las cifras del SitRep oficial publicadas y fechadas (arts. 61 y 72).",
-      "ids": [
-        "afa9e3dfa7",
-        "1da340fe97"
-      ]
+      "titulo": "El visor Alístate Ecuador roba datos",
+      "explicacion": "Respuestas en X, de cuentas pequeñas, afirman sin prueba que el visor está vulnerado o tiene software espía. Puede frenar su uso; conviene explicar con información oficial qué datos pide y cómo se protegen (arts. 61 y 72).",
+      "ids": ["3ede7cc3d1", "4a75b30138"]
     }
   ],
-  "hitos": []
+  "hitos": [
+    {"dia": "2026-11-09", "titulo": "Río Burro se desborda e inunda Manta", "ids": ["c996062f37", "0acda9a0a2", "1c0569e70d", "4751f8ce05"]}
+  ]
 }
