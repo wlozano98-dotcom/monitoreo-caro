@@ -1,28 +1,28 @@
 {
   "vinetas": [
     "Desbordes bajan: 15 ríos y esteros en Guayas, Los Ríos y Santa Elena, frente a 19 en cinco provincias el viernes.",
-    "De 78 notas en 24 h, solo una critica (Ecuavisa, Santa Cruz); aún no hay datos de X, TikTok ni Facebook de hoy.",
-    "Milagro (750 afectados) y Durán (100 kits) suman entregas del Gobierno; El Diario titula 'Llegó la ayuda a Santa Cruz'.",
-    "Marea de 4,55 m esta noche en Guayaquil y aguaje del 9 al 12 de noviembre: Celec reduce descargas de Daule-Peripa."
+    "De 78 notas en 24 h, solo una critica (Ecuavisa, Santa Cruz); no hay datos de X, TikTok ni Facebook de hoy.",
+    "Esta noche marea de 4,55 m en Guayaquil y aguaje del 9 al 12; Celec reduce descargas de Daule-Peripa.",
+    "Santo Domingo: Teleamazonas reporta calles destruidas; la vía Alóag-Santo Domingo seguirá cerrada al menos diez días más."
   ],
   "fuentes_vinetas": [
-    ["05169eb4aa", "631621ccb3", "23b46ef51a", "305d787461", "04926c0684", "46975c6c51"],
+    ["05169eb4aa", "631621ccb3", "23b46ef51a", "305d787461", "1116f9e0f1"],
     ["19b8016868"],
-    ["c944ccc9c5", "21249db3ea", "b40aac15a1", "880722ca32"],
-    ["61dac090e9", "c5916eefdd", "643f370d42", "45be819456", "89911b077e"]
+    ["61dac090e9", "c5916eefdd", "643f370d42"],
+    ["bc0cbc8463", "0abdfc11e8", "7850cf706f", "bcbb339752"]
   ],
   "acciones": [
     {
-      "accion": "Emitir con Inocar aviso de aguaje 9-12 noviembre en Guayaquil por redes y SMS.",
-      "porque": "Marea de 4,55 m esta noche; El Universo advierte inundaciones si coinciden lluvias y aguajes; Celec ya reduce Daule-Peripa.",
+      "accion": "Emitir mañana con Inocar aviso de aguaje 9-12 noviembre para Guayaquil por redes y SMS.",
+      "porque": "El Universo y El Telégrafo anuncian marea de más de 4 m esta noche; Celec ya reduce descargas de Daule-Peripa por el aguaje.",
       "base_legal": "Art. 61 y 62",
-      "fuentes": ["61dac090e9", "c5916eefdd", "89911b077e", "643f370d42"]
+      "fuentes": ["61dac090e9", "c5916eefdd", "643f370d42"]
     },
     {
       "accion": "Publicar en la web kits entregados por sector: Las Orquídeas, Durán, Milagro, Santa Cruz.",
       "porque": "Ecuavisa destaca que Santa Cruz recibió medicinas ocho días después; Extra recoge familias de Las Orquídeas que siguen esperando.",
       "base_legal": "Art. 72, 73 y 78.5",
-      "fuentes": ["19b8016868", "df98407ad2", "c31233e06c", "b40aac15a1", "21249db3ea"]
+      "fuentes": ["19b8016868", "df98407ad2", "b40aac15a1", "21249db3ea", "880722ca32"]
     },
     {
       "accion": "Publicar con el COE Nacional quién recibe el bono de $964 y cómo pedirlo.",
@@ -59,7 +59,7 @@
     },
     {
       "titulo": "Critican a los GAD por drenajes y obras",
-      "explicacion": "Tras el reclamo de Noboa a Guayaquil por el alcantarillado (TikTok), hoy El Universo muestra la vía de la Alborada sin reparar y Primicias titula que Guayaquil 'paga la inundación en cuotas'. Apunta a los GAD, no a la Secretaría.",
+      "explicacion": "Tras el reclamo de Noboa a Guayaquil por el alcantarillado (TikTok, 81.789 vistas), hoy El Universo muestra la vía de la Alborada sin reparar y Primicias titula que Guayaquil 'paga la inundación en cuotas'. Apunta a los GAD, no a la Secretaría.",
       "ids": ["b324ab0d1f", "58b68b9d10", "077deb2dd8", "5279e032ab", "58fb87fb02", "e4c167e472", "3ac93e4f66"]
     }
   ],
