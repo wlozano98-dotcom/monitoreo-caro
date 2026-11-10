@@ -1,73 +1,78 @@
 {
   "vinetas": [
-    "Manabí: el PMU de Carolina suma 12.654 vistas en X; afectados difieren: 1.415 (El Diario), más de dos mil (Teleamazonas).",
-    "En redes, Montecristi es el rostro: un ebanista que perdió todo suma 21.102 vistas en TikTok; piden atención inmediata.",
-    "Personas que dicen ser de Gestión de Riesgos en Jaramijó, Playas, Loja y Jipijapa reclaman no tener actividades asignadas.",
-    "X: críticas bajan de 30 a 9, positivas suben de 13 a 23; medios pasan de 92 a 174 piezas."
+    "Carolina activó el PMU de Manabí: su post en X suma 12.654 vistas y lo replican La Posta, El Diario y TC.",
+    "Montecristi sigue pidiendo ayuda: TikTok de Carlos García (21.102 vistas) y un canal de YouTube dice que el Gobierno abandonó Manabí.",
+    "Cifras difieren: en Manabí, El Diario da 1.415 afectados y Teleamazonas más de dos mil; ríos desbordados bajan de 20 a 8.",
+    "En X las piezas críticas bajan de 31 a 8 en 24 h; en YouTube suben de 1 a 7; medios, casi todos neutros."
   ],
   "fuentes_vinetas": [
-    ["41e2a54064", "d94ce949ce", "9fc017873a", "39dd1b24c9"],
-    ["7ab7529ef9", "9c0d990e90", "5b3eca95ee"],
-    ["86da965d58", "22bcb0b15c", "037c1897ba", "73558febe6", "393085f043"],
+    ["41e2a54064", "1f7170dfad", "d94ce949ce", "e7ea5d3819"],
+    ["7ab7529ef9", "c31ed7f456", "9c0d990e90"],
+    ["d94ce949ce", "39dd1b24c9", "718020804e", "e3730be9a2"],
     []
   ],
   "acciones": [
     {
-      "accion": "Publicar cada noche el parte del PMU Manabí: afectados, ayuda entregada y pendientes.",
-      "porque": "Afectados difieren: 1.415 (El Diario) o más de dos mil (Teleamazonas); en TikTok Montecristi pide ayuda.",
-      "base_legal": "Art. 13, 61 y 73",
-      "fuentes": ["d94ce949ce", "9fc017873a", "39dd1b24c9", "9c0d990e90", "7ab7529ef9", "41e2a54064"]
+      "accion": "Publicar hoy desde el PMU de Manabí una cifra única de afectados por cantón y entregas.",
+      "porque": "El Diario reporta 1.415 afectados y 437 damnificados; Teleamazonas, más de dos mil; Montecristi reclama en TikTok con 21.102 vistas.",
+      "base_legal": "Art. 61, 72 y 73",
+      "fuentes": ["d94ce949ce", "39dd1b24c9", "7ab7529ef9", "41e2a54064"]
     },
     {
-      "accion": "Difundir con el COE de Guayaquil qué hacer ante mareas altas hasta el 12.",
-      "porque": "Primicias: Guayaquil espera mareas de más de 4 metros hasta el 12; Las Orquídeas vive éxodo tras inundación histórica.",
-      "base_legal": "Art. 61 y 62",
-      "fuentes": ["888a5cc5dc", "c6328499a0", "cec87eef2e", "be4c96fdc1"]
+      "accion": "Con COE cantonal de Montecristi y Manta, cerrar la evaluación EVIN y difundirla por barrio.",
+      "porque": "Canal de YouTube dice que el Gobierno dejó botada a Manabí (1.109 vistas); en X preguntan dónde están el COE y Gestión de Riesgos.",
+      "base_legal": "Art. 29 y 68",
+      "fuentes": ["c31ed7f456", "43441a6376", "9c0d990e90", "f413f36204"]
     },
     {
-      "accion": "Aclarar por Facebook a Jóvenes en Acción cuándo reciben tareas; priorizar Manabí.",
-      "porque": "Personas de Riesgos en Jaramijó, Playas, Loja y Jipijapa dicen no tener actividades mientras Manabí suma 1.415 afectados (El Diario).",
-      "base_legal": "Art. 36 a 39",
-      "fuentes": ["86da965d58", "22bcb0b15c", "037c1897ba", "73558febe6", "393085f043", "d94ce949ce"]
+      "accion": "Difundir con Inamhi y COE de Guayaquil alerta por mareas altas hasta el 12.",
+      "porque": "Primicias anuncia mareas de más de 4 metros hasta el 12 de noviembre; Guasmo y Las Orquídeas ya se inundaron (El Universo, Primicias).",
+      "base_legal": "Art. 61, 62 y 64.6",
+      "fuentes": ["888a5cc5dc", "0b3a1b7f81", "c6328499a0", "6378531175"]
     }
   ],
   "narrativas": [
     {
       "titulo": "El Gobierno llega con bombas, vuelos y kits",
-      "explicacion": "Carolina anuncia el PMU de Manabí (12 técnicos SNGR, bomberos) y lo replican La Posta y El Diario; TC y la Gobernación muestran el despliegue en Montecristi; siguen las 1.778 bombas y la ayuda en Guayas, Los Ríos y Galápagos. Sostiene la imagen operativa de la Secretaría si el PMU muestra resultados en Montecristi.",
-      "ids": ["41e2a54064", "1f7170dfad", "d94ce949ce", "e7ea5d3819", "34e9092e13", "13c6abb47d", "f413f36204", "f76ac39893", "eebbb7e002", "7383c20357", "9e6149e45c", "07a5b6c932", "d6d089bfa0", "075151e0bf", "d5e1670a82", "91edbebd05", "fc7430a84f", "954e71a0f7"]
+      "explicacion": "Carolina anuncia el PMU de Manabí (12.654 vistas en X) y lo replican La Posta, El Diario, TC, Sucre Noticias y Contraluz; siguen las 1.778 bombas, el Bono de Contingencia en Baba y la ayuda en Guayas, Los Ríos y Galápagos. Sostiene la imagen operativa si el PMU muestra resultados en Montecristi.",
+      "ids": ["41e2a54064", "1f7170dfad", "d94ce949ce", "e7ea5d3819", "13c6abb47d", "34e9092e13", "6d0c338b82", "d695b64035", "f413f36204", "3ddd543709", "eb60499e7a", "7383c20357", "9e6149e45c", "07a5b6c932", "fc7430a84f", "954e71a0f7", "d5e1670a82", "d6d089bfa0", "eebbb7e002", "88db285232"]
     },
     {
       "titulo": "En Manabí piden ayuda y preguntan por Riesgos",
-      "explicacion": "TikTok de Rostros Ecuador y de Carlos García (21.102 vistas) muestran Montecristi inundado; respuestas en X preguntan dónde están el COE y Gestión de Riesgos, y un canal de YouTube dice que el Gobierno dejó botada a Manabí. Riesgo de abandono si el PMU no se ve en los barrios.",
-      "ids": ["7ab7529ef9", "9c0d990e90", "5b3eca95ee", "43441a6376", "c31ed7f456", "fc8eb2b8e3"]
-    },
-    {
-      "titulo": "Nadie se preparó a tiempo",
-      "explicacion": "El Universo publica que solo 19 % de acciones preventivas se cumplió según Carolina; La Naranja en TikTok pregunta si Ecuador está preparado y comentarios en YouTube culpan al Gobierno por falta de plan. Riesgo de que el 19 % se le atribuya a ella si no se explica quién debe cumplir.",
-      "ids": ["2bb981de43", "a1f4d3c11e", "f623a289ec", "f205506c54", "d80ba73ab3", "49b2254f83", "d8854d5edf"]
+      "explicacion": "El TikTok de Carlos García (21.102 vistas) y Rostros Ecuador muestran Montecristi inundado; Radio Face TV en YouTube dice que el Gobierno dejó botada a Manabí, y en X preguntan dónde están el COE y Gestión de Riesgos. Riesgo de abandono si el PMU no se ve en los barrios.",
+      "ids": ["7ab7529ef9", "9c0d990e90", "c31ed7f456", "43441a6376", "5b3eca95ee", "fc8eb2b8e3", "9fc017873a"]
     },
     {
       "titulo": "Lo peor de El Niño todavía no llega",
-      "explicacion": "Teleamazonas dice que puede superar a 1982 y 1997 y La República habla de un segundo pico en 2027; canales de YouTube y comentarios lo comparan con 1997. Oportunidad para que la Secretaría guíe la preparación; riesgo de miedo sin mensaje oficial.",
-      "ids": ["df2caea0f7", "afbe075ba2", "df295c9150", "1ae6d858cf", "cda5bf16ab", "ab2b1043fb", "3816ea5e8a", "38517ac1ce", "bc485f18fb", "918ec07999"]
+      "explicacion": "Teleamazonas dice que puede superar a 1982 y 1997, La República habla de un segundo pico en 2027 y la OMM advierte más desastres; en YouTube lo comparan con 1997. Oportunidad para guiar la preparación; riesgo de miedo sin mensaje oficial.",
+      "ids": ["df2caea0f7", "afbe075ba2", "df295c9150", "e6a291043a", "2df7a71df6", "5e6d4f9914", "38517ac1ce", "ab2b1043fb", "8e136af8ad"]
+    },
+    {
+      "titulo": "Nadie se preparó a tiempo",
+      "explicacion": "El Universo publica que solo 19 % de acciones preventivas se cumplió según Carolina; La Naranja en TikTok pregunta si Ecuador está preparado y comentarios en YouTube y X culpan al Gobierno por falta de plan. Riesgo de que el 19 % se le atribuya a ella si no se explica quién debía cumplir.",
+      "ids": ["2bb981de43", "a1f4d3c11e", "f623a289ec", "d8854d5edf", "49b2254f83", "9eb2bfa137", "3816ea5e8a"]
     },
     {
       "titulo": "Critican a los GAD por drenajes y obras",
-      "explicacion": "En Manta culpan a alcantarillas tapadas (Primicias, Extra) y el barrio Manhattan bloquea una vía (El Diario); en Guayaquil moradores rellenan calles por su cuenta (El Universo) y Babahoyo se inundó tras 10 horas de lluvia (Ecuavisa). Apunta a los GAD, no a la Secretaría.",
-      "ids": ["6454211cea", "ad0d81cd75", "f9ce4baa8f", "60b05fbbed", "b00f041c06", "9eba647ec3", "b96d1645b0"]
+      "explicacion": "En Manta culpan a alcantarillas tapadas (Primicias, Extra) y el barrio Manhattan bloquea una vía (El Diario); en el Guasmo piden limpiar sumideros (El Universo), en Durán rellenan calles por su cuenta y Babahoyo se inundó tras 10 horas de lluvia (Ecuavisa). Apunta a los GAD, no a la Secretaría.",
+      "ids": ["6454211cea", "ad0d81cd75", "f9ce4baa8f", "0b3a1b7f81", "60b05fbbed", "b96d1645b0", "9eba647ec3"]
+    },
+    {
+      "titulo": "Usan la ayuda para hacer campaña",
+      "explicacion": "Respuestas en X a publicaciones de entrega de kits acusan colores y símbolos del partido de gobierno en la ayuda (la de mayor alcance, 508 vistas) y campaña anticipada. Apunta sobre todo al Gobierno central; riesgo para la Secretaría si los kits llevan marcas partidistas (art. 78.5).",
+      "ids": ["3ba9ce3bb3", "ea2919fbe6", "28a0c8557f", "2fbd1abcac", "e4684e7919", "b65633db6a", "e459a55866"]
     },
     {
       "titulo": "Gente de Riesgos dice que no tiene tareas",
-      "explicacion": "En comentarios de Facebook y X, personas que dicen ser de Gestión de Riesgos (una nombra a Jóvenes en Acción) en Jaramijó, Playas, Loja, El Oro y Jipijapa dicen que no les asignan actividades, y otro comentario los llama vagos pagados por votos. Son cuentas pequeñas pero repiten lo mismo; riesgo de que el programa se lea como gasto sin uso en plena emergencia.",
-      "ids": ["86da965d58", "22bcb0b15c", "037c1897ba", "7991f9e344", "73558febe6", "393085f043", "419f9ae8ea"]
+      "explicacion": "En comentarios de Facebook y X, personas que dicen ser de Gestión de Riesgos en Jaramijó, Playas, Loja y El Oro dicen que no les asignan actividades, y otro comentario los llama vagos pagados por votos. Cuentas pequeñas pero repiten lo mismo.",
+      "ids": ["86da965d58", "22bcb0b15c", "037c1897ba", "393085f043", "7991f9e344", "419f9ae8ea"]
     }
   ],
   "rumores": [
     {
-      "titulo": "El visor Alístate Ecuador roba datos",
-      "explicacion": "Respuestas en X, de cuentas pequeñas, afirman sin prueba que el visor está vulnerado o tiene software espía. Puede frenar su uso; conviene explicar con información oficial qué datos pide y cómo se protegen (arts. 61 y 72).",
-      "ids": ["3ede7cc3d1", "4a75b30138"]
+      "titulo": "No hay fenómeno de El Niño",
+      "explicacion": "Un canal de YouTube que se presenta como meteorólogo afirma que no hay El Niño (23 y 4 vistas), contra el informe del Erfen. Bajo alcance; si crece, responder con el boletín oficial del Erfen e Inamhi (arts. 61 y 72).",
+      "ids": ["e6a3a39538", "c7756d6d42", "5e6d4f9914"]
     }
   ],
   "hitos": []
