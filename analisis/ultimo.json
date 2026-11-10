@@ -1,56 +1,56 @@
 {
   "vinetas": [
-    "El Universo: Lozano reconoce solo 19 % de acciones preventivas cumplidas; el titular no dice quién incumple.",
-    "Río Burro inundó 25 barrios de Manta; video de AV.TV.Digital llega a 27.958 vistas y vecinos dicen que no hubo tiempo.",
-    "Cifras dispares: COE da más de 57 mil afectados; Teleamazonas, 40.000; video de Entre Dos Luces, 50 mil familias (22.178 vistas).",
-    "Críticas en X caen de 23 a 7 en 24 h; el reclamo por kits partidistas en Milagro pierde fuerza."
+    "Cifras de afectados no cuadran: 57 mil (COE en El Diario), 40.000 (Teleamazonas) y 50 mil familias en video de 22.178 vistas.",
+    "Ríos desbordados también difieren: Riesgos reporta 15 (Teleamazonas, Metro); El Comercio, Teleamazonas y El Telégrafo dicen 20.",
+    "Costa golpeada hoy: Babahoyo con hasta 122 mm (El Diario), 25 barrios de Manta afectados y más de 200 familias en Charapotó.",
+    "El Universo: Lozano dice que solo 19 % de acciones preventivas se cumplió; en X las críticas bajan de 23 a 7."
   ],
   "fuentes_vinetas": [
-    ["2bb981de43"],
-    ["1c0569e70d", "4751f8ce05", "5d80349464", "858fa838bd", "6454211cea"],
-    ["3ad271c145", "0e80389e07", "99826bc541", "a3fb84ec6f", "aa8bb6bc43"],
-    ["3ba9ce3bb3", "28a0c8557f"]
+    ["3ad271c145", "0e80389e07", "a3fb84ec6f", "aa8bb6bc43", "99826bc541"],
+    ["f8507bc821", "f0df4818e8", "1f38ec96b6", "f677ad8521", "e65254cf42"],
+    ["9045723577", "1c0569e70d", "4751f8ce05", "5dfb22393a", "b8a6ec4c2c"],
+    ["2bb981de43", "3ba9ce3bb3"]
   ],
   "acciones": [
     {
-      "accion": "Aclarar hoy en X y medios qué mide el 19 % y quién debe cumplir.",
-      "porque": "El Universo titula que solo 19 % de acciones preventivas se cumplió, según Lozano; sin contexto el atraso se le atribuye.",
+      "accion": "Publicar con el COE Nacional un parte diario único: afectados, ríos desbordados y fallecidos.",
+      "porque": "Medios dan 15 o 20 ríos desbordados y 40 mil o 57 mil afectados; un video habla de 50 mil familias.",
       "base_legal": "Art. 61 y 72",
+      "fuentes": ["f8507bc821", "f677ad8521", "1f38ec96b6", "a3fb84ec6f", "3ad271c145", "aa8bb6bc43"]
+    },
+    {
+      "accion": "Explicar en rueda de prensa qué mide el 19 % y qué GAD deben cumplir.",
+      "porque": "El Universo titula que solo 19 % de acciones preventivas se cumplió según Lozano; sin contexto, el atraso se le atribuye a ella.",
+      "base_legal": "Art. 23.4, 61 y 72",
       "fuentes": ["2bb981de43"]
     },
     {
-      "accion": "Ofrecer al COE cantonal de Manta apoyo subsidiario y revisar alerta temprana del Burro.",
-      "porque": "El Diario: 25 barrios afectados en Manta; vecinos dicen a El Universo que el río salió sin tiempo para nada.",
-      "base_legal": "Art. 21.4, 28 y 62",
-      "fuentes": ["1c0569e70d", "5d80349464", "4751f8ce05"]
-    },
-    {
-      "accion": "Publicar con el COE Nacional un consolidado diario único de afectados y ríos.",
-      "porque": "Medios difieren: 15 o 20 ríos desbordados; 40 mil o 57 mil afectados, o 50 mil familias, según el medio.",
-      "base_legal": "Art. 61 y 72",
-      "fuentes": ["f0df4818e8", "f677ad8521", "1f38ec96b6", "a3fb84ec6f", "3ad271c145", "aa8bb6bc43"]
+      "accion": "Ofrecer a los COE cantonales de Manta y Babahoyo apoyo subsidiario con asistencia humanitaria.",
+      "porque": "El Diario: 25 barrios afectados en Manta y hasta 122 mm en Babahoyo; vecinos de Manta dicen que no hubo tiempo.",
+      "base_legal": "Art. 14, 21.4 y 28",
+      "fuentes": ["1c0569e70d", "9045723577", "5d80349464", "e966dceec3"]
     }
   ],
   "narrativas": [
     {
       "titulo": "El Gobierno llega con bombas, vuelos y kits",
-      "explicacion": "TC, El Universo y El Diario difunden la entrega de 1.778 bombas en 18 provincias; siguen los 200 kits de Milagro y la ayuda en Tosagua y Manabí. Sostiene la imagen operativa, aunque las bombas se atribuyen al Gobierno central más que a la Secretaría.",
-      "ids": ["eb60499e7a", "3ddd543709", "607ee4a3d8", "dadbced358", "097dad20c9", "485ed8b237", "91edbebd05", "b89a2e91e5", "6843792f3c", "4c1fbcf3be", "74324df165", "8887d4b8a7", "7dab9a1523", "f4a371594c"]
+      "explicacion": "TC, El Universo y El Diario difunden la entrega de 1.778 bombas en 18 provincias, y siguen los 200 kits de Milagro y la ayuda a 135 familias de Tosagua. Sostiene la imagen operativa, aunque las bombas se atribuyen al Gobierno central más que a la Secretaría.",
+      "ids": ["eb60499e7a", "3ddd543709", "607ee4a3d8", "dadbced358", "097dad20c9", "485ed8b237", "91edbebd05", "b89a2e91e5", "6843792f3c", "4c1fbcf3be", "74324df165", "8887d4b8a7", "7dab9a1523", "f4a371594c", "8b7687a051"]
     },
     {
       "titulo": "La ayuda llega tarde y es para la foto",
-      "explicacion": "Respuestas en X al reparto de Milagro hablan de colores del partido, 'puro show' y uso de la ayuda para votos; son cuentas pequeñas y bajan frente a ayer. Riesgo en año electoral; se responde con transparencia de la entrega (art. 73) y sin imagen política (art. 78.5).",
-      "ids": ["3ba9ce3bb3", "28a0c8557f", "69eb1e38f5", "5c31915a83", "419f9ae8ea", "2fbd1abcac", "b65633db6a", "e4684e7919", "6f6c97642b", "7986268e1e", "a11dedc895"]
+      "explicacion": "Respuestas en X al reparto de Milagro hablan de colores del partido, 'puro show' y '200 miserables kits'; son cuentas pequeñas y bajan frente a ayer. Riesgo en año electoral; se responde con transparencia de la entrega (art. 73) y sin imagen política (art. 78.5).",
+      "ids": ["3ba9ce3bb3", "28a0c8557f", "69eb1e38f5", "5c31915a83", "419f9ae8ea", "2fbd1abcac", "b65633db6a", "e4684e7919", "6f6c97642b", "7986268e1e", "a11dedc895", "e07631ebcd"]
     },
     {
       "titulo": "Nadie se preparó a tiempo",
-      "explicacion": "Comentarios en YouTube reclaman falta de plan y de prevención del Gobierno, y El Universo publica que solo 19 % de acciones preventivas se cumplió. Riesgo de que la cifra se use contra Carolina si no se explica quién debe cumplir; oportunidad para mostrar el seguimiento a los GAD.",
+      "explicacion": "Comentarios en YouTube y X reclaman falta de plan y de prevención del Gobierno, y El Universo publica que solo 19 % de acciones preventivas se cumplió. Riesgo de que la cifra se use contra Carolina si no se explica quién debe cumplir; oportunidad para mostrar el seguimiento a los GAD.",
       "ids": ["2bb981de43", "f623a289ec", "f205506c54", "d80ba73ab3", "49b2254f83", "9eb2bfa137", "5d80349464"]
     },
     {
       "titulo": "Lo peor de El Niño todavía no llega",
-      "explicacion": "Teleamazonas dice que puede superar a 1982 y 1997, El Comercio y El Diario anuncian lluvias más fuertes en noviembre y diciembre, y la OMM y otros medios hablan de 2027. Oportunidad para que la Secretaría guíe la preparación; riesgo de miedo sin mensaje oficial.",
-      "ids": ["df2caea0f7", "e8161bc0b8", "5c0a89fcd2", "2df7a71df6", "e6a291043a", "fa096d79e7", "f2a3db352e", "84b9c3cef2", "ab2b1043fb", "38517ac1ce", "bc485f18fb"]
+      "explicacion": "Teleamazonas dice que puede superar a 1982 y 1997, El Comercio y El Diario anuncian lluvias más fuertes en noviembre y diciembre, y la OMM y otros medios hablan de 2027; comentarios en YouTube ya lo comparan con 1997. Oportunidad para que la Secretaría guíe la preparación; riesgo de miedo sin mensaje oficial.",
+      "ids": ["df2caea0f7", "876346f8f5", "e8161bc0b8", "5c0a89fcd2", "2df7a71df6", "e6a291043a", "fa096d79e7", "f2a3db352e", "84b9c3cef2", "ab2b1043fb", "38517ac1ce", "bc485f18fb"]
     },
     {
       "titulo": "¿Quién recibe el bono y el diferimiento?",
@@ -70,7 +70,5 @@
       "ids": ["3ede7cc3d1", "4a75b30138"]
     }
   ],
-  "hitos": [
-    {"dia": "2026-11-09", "titulo": "Río Burro se desborda e inunda Manta", "ids": ["c996062f37", "0acda9a0a2", "1c0569e70d", "4751f8ce05"]}
-  ]
+  "hitos": []
 }
