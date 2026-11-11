@@ -1,181 +1,73 @@
 {
   "vinetas": [
-    "En X las críticas caen a 2 en 24 h, frente a 15 ayer; abundan elogios a Gobernación y SNGR.",
-    "Ríos desbordados: Radio Pichincha cita a la SNGR con 8 y 16 en aumento; Teleamazonas y FM Mundo dicen 10.",
-    "Manabí: El Diario reporta 1.415 afectados con el PMU; Teleamazonas, más de dos mil. Radio Face TV acusa abandono.",
-    "Agua entró a escuelas en Yaguachi y Charapotó; en Montecristi devolvieron estudiantes; en YouTube piden clases virtuales en la Costa."
+    "Inocar prevé olas de hasta 2,30 m y mareas de más de 4 m en Guayaquil hasta el 12; ocho playas cerradas.",
+    "Manabí concentra el reclamo: Radio Face TV acusa abandono (1.657 vistas); El Universo reporta 103 familias afectadas en Montecristi.",
+    "Críticas en X bajan a 2 en 24 h (15 antes); en YouTube suben a 6, sobre todo comentarios.",
+    "Medios giran a lo económico: acuerdo con el FMI por 1.090 millones, cacao caería más de 10 %, alivio de deudas."
   ],
   "fuentes_vinetas": [
-    [
-      "f413f36204",
-      "49ed2d26a1",
-      "4faa22050b",
-      "41e2a54064"
-    ],
-    [
-      "e3730be9a2",
-      "20ff00ae31",
-      "97aefa6fb0",
-      "1bbbfbc02a",
-      "8f4a46f599"
-    ],
-    [
-      "d94ce949ce",
-      "39dd1b24c9",
-      "9fc017873a",
-      "c31ed7f456"
-    ],
-    [
-      "5266224a06",
-      "4d8e902ba8",
-      "e128bad3e8",
-      "d40d55c580",
-      "4bdb9afc61"
-    ]
+    ["d9508166bb", "888a5cc5dc", "042caf3be9", "1c3b50e750", "09606698ec", "2c9bc403c7"],
+    ["c31ed7f456", "7359e4125a", "482faf573b", "7ab7529ef9", "9c0d990e90"],
+    ["c31ed7f456", "4bdb9afc61", "10fc2b4981", "61ff17a6a5", "d8854d5edf"],
+    ["7cb9b541cd", "79e576429a", "19382cda0c", "d33cd88e82", "f0da680f9f"]
   ],
   "acciones": [
     {
-      "accion": "Publicar cada 6 h en X y web un corte único de ríos desbordados, con hora.",
-      "porque": "Hoy los medios citan 8 o 10 ríos desbordados y ayer 20; sin hora de corte las cifras parecen contradictorias.",
-      "base_legal": "Art. 61 y 72",
-      "fuentes": [
-        "e3730be9a2",
-        "20ff00ae31",
-        "97aefa6fb0",
-        "1bbbfbc02a",
-        "e65254cf42"
-      ]
+      "accion": "Difundir con Inocar alerta de aguaje en Costa y Galápagos hasta el 12.",
+      "porque": "Inocar prevé olas de 2,30 m y mareas de más de 4 m en Guayaquil; ocho playas cerradas; Suburbio en alerta (Extra).",
+      "base_legal": "Art. 23.5 y 61",
+      "fuentes": ["d9508166bb", "888a5cc5dc", "042caf3be9", "1c3b50e750", "2c9bc403c7", "09606698ec"]
     },
     {
-      "accion": "Difundir con video qué entregó el PMU en Montecristi y Manta, y cifra oficial.",
-      "porque": "Radio Face TV dice que el Gobierno dejó botada a Manabí; afectados difieren entre 1.415 y más de dos mil.",
+      "accion": "Publicar balance verificado del PMU de Manabí: familias atendidas, kits y albergue en Montecristi.",
+      "porque": "Radio Face TV acusa abandono (1.657 vistas); cifras difieren: 1.415 afectados (El Diario) y más de dos mil (Teleamazonas).",
       "base_legal": "Art. 13, 61 y 73",
-      "fuentes": [
-        "c31ed7f456",
-        "d94ce949ce",
-        "39dd1b24c9",
-        "7359e4125a",
-        "7ab7529ef9"
-      ]
+      "fuentes": ["c31ed7f456", "d94ce949ce", "39dd1b24c9", "7359e4125a", "41e2a54064"]
     },
     {
-      "accion": "Coordinar con Educación y COE de Manabí y Guayas qué escuelas inundadas no abren.",
-      "porque": "En Montecristi devolvieron estudiantes a casa (1.122 vistas); el agua entró a escuelas en Yaguachi y Charapotó.",
-      "base_legal": "Art. 23.5 y 29",
-      "fuentes": [
-        "5266224a06",
-        "e128bad3e8",
-        "4d8e902ba8",
-        "eed6799c9e",
-        "4bdb9afc61"
-      ]
+      "accion": "Ofrecer apoyo subsidiario a Yaguachi y Babahoyo para evaluar necesidades y entregar asistencia.",
+      "porque": "El agua entró a escuelas, viviendas y cementerio en Yaguachi; Babahoyo quedó bajo el agua; Prefectura del Guayas suma 80 emergencias.",
+      "base_legal": "Art. 13, 21.4 y 68",
+      "fuentes": ["e128bad3e8", "d40d55c580", "4759b58275", "4f051ed0e0", "adfdef3c53"]
     }
   ],
   "narrativas": [
     {
       "titulo": "El Gobierno llega con bombas, vuelos y kits",
       "explicacion": "Carolina anuncia el PMU de Manabí (12.654 vistas en X) y lo replican La Posta, El Diario, TC y Contraluz; se suman 164 brigadas del MSP, el bono de 303,99 en Los Ríos y 106 casas en Baba. Sostiene la imagen operativa si el PMU muestra resultados.",
-      "ids": [
-        "41e2a54064",
-        "1f7170dfad",
-        "d94ce949ce",
-        "e7ea5d3819",
-        "34e9092e13",
-        "13c6abb47d",
-        "6d0c338b82",
-        "d695b64035",
-        "f413f36204",
-        "f76ac39893",
-        "94cabbce53",
-        "754d84f14e",
-        "5fb9288a13",
-        "1259aef10f",
-        "954e71a0f7",
-        "b6a2cd5006",
-        "7383c20357",
-        "9e6149e45c",
-        "07a5b6c932",
-        "d6d089bfa0",
-        "6cedc45c25",
-        "d5e1670a82",
-        "74324df165"
-      ]
+      "ids": ["41e2a54064", "1f7170dfad", "d94ce949ce", "e7ea5d3819", "34e9092e13", "13c6abb47d", "6d0c338b82", "d695b64035", "f413f36204", "f76ac39893", "94cabbce53", "754d84f14e", "5fb9288a13", "1259aef10f", "954e71a0f7", "b6a2cd5006", "7383c20357", "9e6149e45c", "07a5b6c932", "d6d089bfa0", "6cedc45c25", "d5e1670a82", "74324df165"]
     },
     {
       "titulo": "En Manabí piden ayuda y preguntan por Riesgos",
       "explicacion": "El TikTok de Carlos García (21.102 vistas) y Rostros Ecuador muestran Montecristi inundado; Radio Face TV dice que el Gobierno dejó botada a Manabí y en X preguntan dónde están el COE y Gestión de Riesgos. Riesgo de abandono si el PMU no se ve en los barrios.",
-      "ids": [
-        "7ab7529ef9",
-        "9c0d990e90",
-        "c31ed7f456",
-        "43441a6376",
-        "5b3eca95ee",
-        "f52ddab121",
-        "fc8eb2b8e3",
-        "f3940d53d4",
-        "ca2b4bfeaa"
-      ]
+      "ids": ["7ab7529ef9", "9c0d990e90", "c31ed7f456", "43441a6376", "5b3eca95ee", "f52ddab121", "fc8eb2b8e3", "f3940d53d4", "ca2b4bfeaa", "f1de94e0f0"]
     },
     {
-      "titulo": "Mandan a los niños a escuelas inundadas",
-      "explicacion": "Ecuavisa, El Comercio y El Diario muestran agua en escuelas de Yaguachi y Charapotó; en Montecristi devolvieron estudiantes a casa y en YouTube piden clases virtuales en la Costa. Apunta a Educación y al Gobierno central; oportunidad para que la Secretaría aporte información de riesgo.",
-      "ids": [
-        "5266224a06",
-        "eed6799c9e",
-        "4bdb9afc61",
-        "e128bad3e8",
-        "d40d55c580",
-        "4d8e902ba8",
-        "f3940d53d4",
-        "db604973ff"
-      ]
+      "titulo": "Lo peor de El Niño todavía no llega",
+      "explicacion": "Teleamazonas dice que puede superar a 1982 y 1997, La República habla de un segundo pico en 2027 y una investigadora del Inocar pide prepararse para el peor escenario (Primicias); en YouTube lo comparan con 1997. Oportunidad para guiar la preparación; riesgo de miedo sin mensaje oficial.",
+      "ids": ["afbe075ba2", "df295c9150", "2e84721e7d", "b1ecbeafec", "38517ac1ce", "ab2b1043fb", "49af182e7d"]
     },
     {
       "titulo": "Nadie se preparó a tiempo",
       "explicacion": "El Universo publica que solo 19 % de acciones preventivas se cumplió según Carolina; La Naranja en TikTok pregunta si Ecuador está preparado y comentarios en YouTube culpan al Gobierno por falta de plan. Riesgo de que el 19 % se le atribuya a ella si no se explica quién debía cumplir.",
-      "ids": [
-        "2bb981de43",
-        "a1f4d3c11e",
-        "d8854d5edf",
-        "49b2254f83",
-        "f623a289ec",
-        "2e84721e7d"
-      ]
+      "ids": ["2bb981de43", "a1f4d3c11e", "d8854d5edf", "49b2254f83", "f623a289ec", "db604973ff"]
     },
     {
       "titulo": "Critican a los GAD por drenajes y obras",
       "explicacion": "En Manta culpan a alcantarillas tapadas (Primicias, Extra) y el barrio Manhattan bloquea una vía; en el Guasmo piden limpiar sumideros (El Universo), en Durán rellenan calles por su cuenta y Babahoyo se inundó (Ecuavisa, La Hora). Apunta a los GAD, no a la Secretaría.",
-      "ids": [
-        "6454211cea",
-        "ad0d81cd75",
-        "f9ce4baa8f",
-        "0b3a1b7f81",
-        "60b05fbbed",
-        "aab51e1dfa",
-        "b96d1645b0",
-        "4759b58275",
-        "9eba647ec3"
-      ]
+      "ids": ["6454211cea", "ad0d81cd75", "f9ce4baa8f", "0b3a1b7f81", "60b05fbbed", "aab51e1dfa", "b96d1645b0", "4759b58275", "9eba647ec3"]
     },
     {
       "titulo": "Usan la ayuda para hacer campaña",
       "explicacion": "Respuestas en X a publicaciones de entrega de kits acusan colores y símbolos del partido de gobierno (la de mayor alcance, 508 vistas), y un comentario en YouTube dice que solo hay plata para publicidad de campaña. Apunta al Gobierno central; riesgo para la Secretaría si los kits llevan marcas partidistas (art. 78.5).",
-      "ids": [
-        "3ba9ce3bb3",
-        "28a0c8557f",
-        "ea2919fbe6",
-        "f623a289ec"
-      ]
+      "ids": ["3ba9ce3bb3", "28a0c8557f", "ea2919fbe6", "f623a289ec"]
     }
   ],
   "rumores": [
     {
       "titulo": "No hay fenómeno de El Niño",
       "explicacion": "Un canal de YouTube que se presenta como meteorólogo reitera que no hay El Niño en Ecuador (31 y 7 vistas), contra los avisos de Inamhi e Inocar. Alcance mínimo; si crece, responder con el estado oficial del fenómeno (arts. 61 y 72).",
-      "ids": [
-        "e6a3a39538",
-        "c7756d6d42"
-      ]
+      "ids": ["e6a3a39538", "c7756d6d42"]
     }
   ],
   "hitos": []
