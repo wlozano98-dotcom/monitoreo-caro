@@ -1,30 +1,176 @@
 {
   "vinetas": [
-    "Montecristi domina redes: TikTok de Carlos García (21.102 vistas) y AV.TV (5.644) muestran familias que piden ayuda.",
-    "Cifras de Montecristi difieren: 103 familias (Última Hora), 145 (Extra) y más de 150 (Gobernación de Manabí).",
-    "Medios replican reportes de la SNGR de 8 a 10 ríos desbordados; Ecuavisa habla de más de 45 mil afectados.",
-    "En X las críticas suben de 8 a 15 en 24 h, casi todas reclamos repetidos sobre Jóvenes en Acción."
+    "En X las críticas suben a 15 desde 3: casi todas reclamos de Jóvenes en Acción a Carolina, bajo alcance.",
+    "Cifra nacional confusa: Ecuavisa y El Diario hablan de 45 mil afectados; Teleamazonas citó 57 mil del COE el 9.",
+    "Montecristi: los medios dan 103, 145 y más de 150 familias afectadas; AV.TV (5.661 vistas) muestra que piden ayuda.",
+    "Inocar advierte lluvias extraordinarias a fin de noviembre (Teleamazonas); hoy Noboa detalla en El Universo su plan de contingencia."
   ],
   "fuentes_vinetas": [
-    ["7ab7529ef9", "1fc8c80990"],
-    ["5e5b429229", "d294492041", "ea8b7de0a5"],
-    ["20ff00ae31", "f297c4480f", "aaabe94538", "f36746a933"],
-    ["e94eafb610", "36f7a26027", "53f21b0b1e", "cbdecc2936"]
+    [
+      "53f21b0b1e",
+      "4473670a53",
+      "536fcbbbc8",
+      "db3cfaf7f3",
+      "cbdecc2936"
+    ],
+    [
+      "f36746a933",
+      "c9577bc817",
+      "0e80389e07",
+      "99826bc541"
+    ],
+    [
+      "7359e4125a",
+      "d294492041",
+      "1fc8c80990",
+      "ea8b7de0a5"
+    ],
+    [
+      "22b63ae297",
+      "7a6f75871d",
+      "eaf3fb700c"
+    ]
   ],
   "acciones": [
-    {"accion": "Publicar hoy en @Riesgos_Ec una cifra oficial única de familias afectadas en Montecristi.", "porque": "Medios dan 103, 145 y más de 150 familias; un TikTok de 21.102 vistas muestra pérdidas en Leónidas Proaño.", "base_legal": "Art. 61 y 72", "fuentes": ["5e5b429229", "d294492041", "ea8b7de0a5", "7ab7529ef9"]},
-    {"accion": "Mostrar desde el PMU de Manabí entregas por barrio en Montecristi, con fotos y cifras.", "porque": "Radio Face TV (1.829 vistas) dice que el Gobierno dejó botada a Manabí; en Colorado la comunidad exige atención.", "base_legal": "Art. 13 y 61", "fuentes": ["c31ed7f456", "9c0d990e90", "401a89d40e"]},
-    {"accion": "Preparar con Inamhi e Inocar campaña ante lluvias extraordinarias de fin de noviembre.", "porque": "Teleamazonas: Inocar advierte lluvias extraordinarias a fines de noviembre; en YouTube preguntan si será peor que 1997.", "base_legal": "Art. 23.4 y 61", "fuentes": ["22b63ae297", "7a6f75871d", "bf48f2557a"]}
+    {
+      "accion": "Publicar hoy en @Riesgos_Ec la cifra nacional de afectados con hora de corte.",
+      "porque": "Ecuavisa y El Diario publican más de 45 mil afectados; Teleamazonas y otros medios, 57 mil del COE. Nadie explica la diferencia.",
+      "base_legal": "Art. 61 y 72",
+      "fuentes": [
+        "f36746a933",
+        "c9577bc817",
+        "0e80389e07",
+        "5b83d36192",
+        "99826bc541"
+      ]
+    },
+    {
+      "accion": "Con el GAD y el MIES, publicar cifra única de familias afectadas en Montecristi.",
+      "porque": "Medios dan 103, 145 y 150 familias; Radio Face TV (1.829 vistas) dice que el Gobierno deja botada a Manabí.",
+      "base_legal": "Art. 68 y 73",
+      "fuentes": [
+        "7359e4125a",
+        "d294492041",
+        "ea8b7de0a5",
+        "c31ed7f456"
+      ]
+    },
+    {
+      "accion": "Fijar canal oficial de Jóvenes en Acción en El Oro con tutores y convocatorias.",
+      "porque": "Una cuenta publicó 13 reclamos a Carolina sobre plataforma y convocatorias; otro joven pide tutor. Noboa anunció 700.000 cupos.",
+      "base_legal": "Art. 61 y 75",
+      "fuentes": [
+        "53f21b0b1e",
+        "be830052ad",
+        "db3cfaf7f3",
+        "cbdecc2936",
+        "5f1cdde407"
+      ]
+    }
   ],
   "narrativas": [
-    {"titulo": "El Gobierno llega con bombas, vuelos y kits", "explicacion": "Riesgos_Ec muestra a Carolina en el albergue de Machala (7.392 vistas), medios replican bonos en El Oro, el puente de Río Verde y la entrega a 150 familias de Montecristi. Sostiene la imagen operativa si se ve en los barrios.", "ids": ["5efcbd884b", "89c457a54d", "401a89d40e", "139017c5bd", "2f4d09abb6", "1c352df9d0", "5f1cdde407", "754d84f14e", "5fb9288a13", "7d95af5773", "ea8b7de0a5", "852edadd78"]},
-    {"titulo": "En Manabí piden ayuda y preguntan por Riesgos", "explicacion": "TikTok y YouTube (Carlos García, AV.TV, Rostros Ecuador) muestran a Montecristi pidiendo ayuda y Radio Face TV habla de abandono. Riesgo de abandono si el PMU no se ve en territorio.", "ids": ["7ab7529ef9", "1fc8c80990", "9c0d990e90", "c31ed7f456", "d294492041", "5e5b429229", "641eb7a461"]},
-    {"titulo": "Critican a los GAD por drenajes y obras", "explicacion": "Comentarios en Ecuavisa culpan a municipios de Guayaquil, Durán y Samborondón por falta de planificación; en el Guasmo levantan muros y en Durán se suman problemas históricos. Apunta a los GAD, no a la Secretaría.", "ids": ["f6d13e5df1", "73dc05eb95", "aab51e1dfa", "422e36e7fe", "e7301c88ca", "13fcee77b9", "842554c847"]},
-    {"titulo": "Lo peor de El Niño todavía no llega", "explicacion": "Teleamazonas recoge la advertencia de Inocar de lluvias extraordinarias a fin de noviembre y canales de YouTube lo comparan con 1997. Oportunidad para guiar la preparación; riesgo de miedo sin mensaje oficial.", "ids": ["22b63ae297", "7a6f75871d", "a8cd9c72b4", "570d5e0ff8", "bf48f2557a", "231c711b31", "b1ecbeafec"]},
-    {"titulo": "Reclaman a Carolina por Jóvenes en Acción", "explicacion": "Respuestas en X, casi todas de una cuenta pequeña, piden a Carolina información oficial, tutores y una plataforma que funcione, también en El Oro. Bajo alcance, pero apunta a ella por nombre.", "ids": ["e94eafb610", "36f7a26027", "778c2b7480", "be830052ad", "14202a718a", "53f21b0b1e", "cbdecc2936"]}
+    {
+      "titulo": "El Gobierno llega con bombas, vuelos y kits",
+      "explicacion": "Riesgos_Ec muestra a Carolina en Machala (7.392 y 2.875 vistas) y los medios replican bonos en Machala, El Oro y Baba, el puente de Río Verde y la ayuda a 150 familias de Montecristi. Sostiene la imagen operativa si se ve también en los barrios que reclaman.",
+      "ids": [
+        "89c457a54d",
+        "5efcbd884b",
+        "ea8b7de0a5",
+        "852edadd78",
+        "139017c5bd",
+        "2f4d09abb6",
+        "1c352df9d0",
+        "6de05bab44",
+        "7d95af5773",
+        "8e677750a2",
+        "206768e4c5",
+        "09da141277",
+        "1259aef10f",
+        "41e2a54064",
+        "f01f22efea"
+      ]
+    },
+    {
+      "titulo": "Reclaman a Carolina por Jóvenes en Acción",
+      "explicacion": "Respuestas en X, casi todas de una cuenta pequeña de El Oro, piden a Carolina información oficial, tutores y una plataforma que funcione. Bajo alcance, pero la nombran a ella y el programa crecerá con los 700.000 cupos anunciados.",
+      "ids": [
+        "53f21b0b1e",
+        "4473670a53",
+        "9ecc835558",
+        "536fcbbbc8",
+        "db3cfaf7f3",
+        "620730d31c",
+        "08b384dac4",
+        "bfb75bc8d2",
+        "14202a718a",
+        "be830052ad",
+        "778c2b7480",
+        "36f7a26027",
+        "e94eafb610",
+        "cbdecc2936"
+      ]
+    },
+    {
+      "titulo": "Lo peor de El Niño todavía no llega",
+      "explicacion": "Teleamazonas y Primicias recogen a Inocar: lluvias extraordinarias a fin de noviembre y prepararse para el peor escenario; canales de YouTube lo comparan con 1997. Oportunidad para guiar la preparación; riesgo de miedo sin mensaje oficial.",
+      "ids": [
+        "22b63ae297",
+        "7a6f75871d",
+        "2e84721e7d",
+        "a8cd9c72b4",
+        "570d5e0ff8",
+        "bf48f2557a",
+        "38517ac1ce",
+        "ab2b1043fb",
+        "df295c9150"
+      ]
+    },
+    {
+      "titulo": "Critican a los GAD por drenajes y obras",
+      "explicacion": "Comentarios en Ecuavisa culpan a los municipios de Guayaquil, Durán y Samborondón por falta de planificación; Ecuavisa muestra vecinos de Las Orquídeas y del suroeste que denuncian abandono por inundaciones y marea alta. Apunta a los GAD, no a la Secretaría.",
+      "ids": [
+        "73dc05eb95",
+        "f6d13e5df1",
+        "aab51e1dfa",
+        "0b3a1b7f81",
+        "e7301c88ca",
+        "cef70bcc23",
+        "7e65bd90a0",
+        "60041a6ccc",
+        "422e36e7fe"
+      ]
+    },
+    {
+      "titulo": "En Manabí piden ayuda y preguntan por Riesgos",
+      "explicacion": "TikTok y YouTube (Carlos García 21.102 vistas, AV.TV 5.661, Rostros Ecuador) muestran a Montecristi pidiendo ayuda y Radio Face TV habla de abandono; en X preguntan dónde está Gestión de Riesgos. Riesgo de abandono si el PMU no se ve en territorio.",
+      "ids": [
+        "1fc8c80990",
+        "7ab7529ef9",
+        "9c0d990e90",
+        "c31ed7f456",
+        "43441a6376",
+        "fc8eb2b8e3",
+        "5b3eca95ee"
+      ]
+    }
   ],
   "rumores": [
-    {"titulo": "Suspensión definitiva de clases presenciales", "explicacion": "Ecuavisa informa que el Ministerio de Educación lo desmintió; en Quevedo hay inquietud por una posible educación virtual. Respuesta: replicar el aviso oficial de Educación por canales de la SNGR (arts. 61 y 72).", "ids": ["14c3bb1669", "5f22dc5835"]}
+    {
+      "titulo": "Recortaron el presupuesto de Riesgos de 49 a 17 millones",
+      "explicacion": "Una cuenta pequeña en X (7 vistas) lo afirma sin fuente; las piezas no permiten saber si es cierto. Si vuelve a circular, responder con el presupuesto y su ejecución publicados (arts. 72 y 73).",
+      "ids": [
+        "51b9b44b0c"
+      ]
+    },
+    {
+      "titulo": "Se suspenden definitivamente las clases presenciales",
+      "explicacion": "Ecuavisa informa que el Ministerio de Educación lo desmintió; aun así padres en Guayaquil compran equipos y en Quevedo hay inquietud. Conviene que la información oficial sobre clases sea clara (arts. 61 y 72).",
+      "ids": [
+        "14c3bb1669",
+        "37f2fae11b",
+        "5f22dc5835"
+      ]
+    }
   ],
   "hitos": []
 }
