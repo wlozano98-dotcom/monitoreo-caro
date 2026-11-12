@@ -1,176 +1,68 @@
 {
   "vinetas": [
-    "En X las críticas suben a 15 desde 3: casi todas reclamos de Jóvenes en Acción a Carolina, bajo alcance.",
-    "Cifra nacional confusa: Ecuavisa y El Diario hablan de 45 mil afectados; Teleamazonas citó 57 mil del COE el 9.",
-    "Montecristi: los medios dan 103, 145 y más de 150 familias afectadas; AV.TV (5.661 vistas) muestra que piden ayuda.",
-    "Inocar advierte lluvias extraordinarias a fin de noviembre (Teleamazonas); hoy Noboa detalla en El Universo su plan de contingencia."
+    "La conversación baja: 149 piezas en 24 h frente a 244; en X solo 3 y ninguna crítica (ayer 16).",
+    "Los medios difunden balances distintos: 12 muertos y 45.000, 57.000 o 64.000 afectados; no hay cifra única visible.",
+    "Babahoyo inundado: video de AV.TV sobre los exteriores del Hospital del IESS suma 15.460 vistas; Primicias reporta agua hasta 30 cm.",
+    "Inamhi prevé lluvias fuertes hasta el 15 de noviembre con marea alta; CNE prevé reubicar recintos en Los Ríos y Galápagos."
   ],
   "fuentes_vinetas": [
-    [
-      "53f21b0b1e",
-      "4473670a53",
-      "536fcbbbc8",
-      "db3cfaf7f3",
-      "cbdecc2936"
-    ],
-    [
-      "f36746a933",
-      "c9577bc817",
-      "0e80389e07",
-      "99826bc541"
-    ],
-    [
-      "7359e4125a",
-      "d294492041",
-      "1fc8c80990",
-      "ea8b7de0a5"
-    ],
-    [
-      "22b63ae297",
-      "7a6f75871d",
-      "eaf3fb700c"
-    ]
+    [],
+    ["47476217b8", "157c1744ff", "a7c30dff0a", "1c335edf3d"],
+    ["65bf1696f4", "440a0cfeaf"],
+    ["f11fb8a929", "2e561d69f1", "388b6abe9f"]
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy en @Riesgos_Ec la cifra nacional de afectados con hora de corte.",
-      "porque": "Ecuavisa y El Diario publican más de 45 mil afectados; Teleamazonas y otros medios, 57 mil del COE. Nadie explica la diferencia.",
+      "accion": "Publicar hoy en web y @Riesgos_Ec un balance oficial único de afectados y fallecidos",
+      "porque": "Medios nacionales e internacionales citan 45.000, 57.000 y 64.000 afectados con 12 muertos; cifras dispares abren espacio a la desconfianza.",
       "base_legal": "Art. 61 y 72",
-      "fuentes": [
-        "f36746a933",
-        "c9577bc817",
-        "0e80389e07",
-        "5b83d36192",
-        "99826bc541"
-      ]
+      "fuentes": ["47476217b8", "157c1744ff", "a7c30dff0a", "1c335edf3d", "0cf7a311cb"]
     },
     {
-      "accion": "Con el GAD y el MIES, publicar cifra única de familias afectadas en Montecristi.",
-      "porque": "Medios dan 103, 145 y 150 familias; Radio Face TV (1.829 vistas) dice que el Gobierno deja botada a Manabí.",
-      "base_legal": "Art. 68 y 73",
-      "fuentes": [
-        "7359e4125a",
-        "d294492041",
-        "ea8b7de0a5",
-        "c31ed7f456"
-      ]
+      "accion": "Ofrecer apoyo subsidiario al COE de Babahoyo y reforzar alertas en Los Ríos",
+      "porque": "AV.TV muestra el Hospital del IESS rodeado de agua (15.460 vistas); Inamhi y La Hora anticipan lluvias fuertes en Los Ríos hasta el sábado.",
+      "base_legal": "Art. 14, 21.4 y 61",
+      "fuentes": ["65bf1696f4", "440a0cfeaf", "d3f8f4be84", "875c32bc98", "abf77519f0"]
     },
     {
-      "accion": "Fijar canal oficial de Jóvenes en Acción en El Oro con tutores y convocatorias.",
-      "porque": "Una cuenta publicó 13 reclamos a Carolina sobre plataforma y convocatorias; otro joven pide tutor. Noboa anunció 700.000 cupos.",
-      "base_legal": "Art. 61 y 75",
-      "fuentes": [
-        "53f21b0b1e",
-        "be830052ad",
-        "db3cfaf7f3",
-        "cbdecc2936",
-        "5f1cdde407"
-      ]
+      "accion": "Entregar al CNE lineamientos y mapas de riesgo para reubicar recintos electorales",
+      "porque": "Radio Pichincha: a menos de 20 días de las elecciones, el CNE prevé reubicar recintos en Los Ríos y Galápagos por las lluvias.",
+      "base_legal": "Art. 23.4 y 23.5",
+      "fuentes": ["388b6abe9f"]
     }
   ],
   "narrativas": [
     {
       "titulo": "El Gobierno llega con bombas, vuelos y kits",
-      "explicacion": "Riesgos_Ec muestra a Carolina en Machala (7.392 y 2.875 vistas) y los medios replican bonos en Machala, El Oro y Baba, el puente de Río Verde y la ayuda a 150 familias de Montecristi. Sostiene la imagen operativa si se ve también en los barrios que reclaman.",
-      "ids": [
-        "89c457a54d",
-        "5efcbd884b",
-        "ea8b7de0a5",
-        "852edadd78",
-        "139017c5bd",
-        "2f4d09abb6",
-        "1c352df9d0",
-        "6de05bab44",
-        "7d95af5773",
-        "8e677750a2",
-        "206768e4c5",
-        "09da141277",
-        "1259aef10f",
-        "41e2a54064",
-        "f01f22efea"
-      ]
-    },
-    {
-      "titulo": "Reclaman a Carolina por Jóvenes en Acción",
-      "explicacion": "Respuestas en X, casi todas de una cuenta pequeña de El Oro, piden a Carolina información oficial, tutores y una plataforma que funcione. Bajo alcance, pero la nombran a ella y el programa crecerá con los 700.000 cupos anunciados.",
-      "ids": [
-        "53f21b0b1e",
-        "4473670a53",
-        "9ecc835558",
-        "536fcbbbc8",
-        "db3cfaf7f3",
-        "620730d31c",
-        "08b384dac4",
-        "bfb75bc8d2",
-        "14202a718a",
-        "be830052ad",
-        "778c2b7480",
-        "36f7a26027",
-        "e94eafb610",
-        "cbdecc2936"
-      ]
-    },
-    {
-      "titulo": "Lo peor de El Niño todavía no llega",
-      "explicacion": "Teleamazonas y Primicias recogen a Inocar: lluvias extraordinarias a fin de noviembre y prepararse para el peor escenario; canales de YouTube lo comparan con 1997. Oportunidad para guiar la preparación; riesgo de miedo sin mensaje oficial.",
-      "ids": [
-        "22b63ae297",
-        "7a6f75871d",
-        "2e84721e7d",
-        "a8cd9c72b4",
-        "570d5e0ff8",
-        "bf48f2557a",
-        "38517ac1ce",
-        "ab2b1043fb",
-        "df295c9150"
-      ]
+      "explicacion": "Medios replican bonos en Machala (1.864 familias), El Oro y Baba, helicópteros con alimentos en Manabí y la planta potabilizadora en Santa Cruz; @Riesgos_Ec muestra a Carolina en Machala. Sostiene la imagen operativa si se ve también donde hoy se inunda, como Babahoyo.",
+      "ids": ["993452cdd5", "71bdefa507", "1c352df9d0", "c2a1321571", "6de05bab44", "10d1b65741", "b931c67ed6", "9e7d369e84", "7d95af5773", "89c457a54d", "5efcbd884b", "ea8b7de0a5", "852edadd78", "206768e4c5", "f01f22efea"]
     },
     {
       "titulo": "Critican a los GAD por drenajes y obras",
-      "explicacion": "Comentarios en Ecuavisa culpan a los municipios de Guayaquil, Durán y Samborondón por falta de planificación; Ecuavisa muestra vecinos de Las Orquídeas y del suroeste que denuncian abandono por inundaciones y marea alta. Apunta a los GAD, no a la Secretaría.",
-      "ids": [
-        "73dc05eb95",
-        "f6d13e5df1",
-        "aab51e1dfa",
-        "0b3a1b7f81",
-        "e7301c88ca",
-        "cef70bcc23",
-        "7e65bd90a0",
-        "60041a6ccc",
-        "422e36e7fe"
-      ]
+      "explicacion": "Ecuavisa muestra vecinos del suroeste de Guayaquil y de Las Orquídeas que denuncian inundaciones y abandono; comentarios culpan a Guayaquil, Durán y Samborondón por falta de planificación. Apunta a los GAD, no a la Secretaría.",
+      "ids": ["7e65bd90a0", "cef70bcc23", "0f61e436cc", "7ecaafca75", "0e30c6ba10", "5481a7f670", "73dc05eb95", "f6d13e5df1", "0b3a1b7f81", "aab51e1dfa"]
+    },
+    {
+      "titulo": "Lo peor de El Niño todavía no llega",
+      "explicacion": "Teleamazonas recoge a Inocar: lluvias extraordinarias a fines de noviembre; Primicias suma marea alta hasta el 15 y canales de YouTube hablan de un Niño histórico. Oportunidad para guiar la preparación; riesgo de miedo sin mensaje oficial.",
+      "ids": ["93a204be15", "633bdaf700", "7a6f75871d", "a8cd9c72b4", "f2c4db34e1", "77d68aba39", "2e561d69f1", "f11fb8a929", "782dab7010"]
     },
     {
       "titulo": "En Manabí piden ayuda y preguntan por Riesgos",
-      "explicacion": "TikTok y YouTube (Carlos García 21.102 vistas, AV.TV 5.661, Rostros Ecuador) muestran a Montecristi pidiendo ayuda y Radio Face TV habla de abandono; en X preguntan dónde está Gestión de Riesgos. Riesgo de abandono si el PMU no se ve en territorio.",
-      "ids": [
-        "1fc8c80990",
-        "7ab7529ef9",
-        "9c0d990e90",
-        "c31ed7f456",
-        "43441a6376",
-        "fc8eb2b8e3",
-        "5b3eca95ee"
-      ]
-    }
-  ],
-  "rumores": [
-    {
-      "titulo": "Recortaron el presupuesto de Riesgos de 49 a 17 millones",
-      "explicacion": "Una cuenta pequeña en X (7 vistas) lo afirma sin fuente; las piezas no permiten saber si es cierto. Si vuelve a circular, responder con el presupuesto y su ejecución publicados (arts. 72 y 73).",
-      "ids": [
-        "51b9b44b0c"
-      ]
+      "explicacion": "AV.TV (5.669 vistas) y Rostros Ecuador muestran a Montecristi pidiendo ayuda y Radio Face TV habla de abandono; Diario Extra y Última Hora cuentan familias afectadas con cifras distintas. Riesgo de abandono si el PMU no se ve en territorio.",
+      "ids": ["1fc8c80990", "9c0d990e90", "c31ed7f456", "a33eb068d5", "d294492041", "42f5c7fbb2", "641eb7a461", "5e5b429229"]
     },
     {
-      "titulo": "Se suspenden definitivamente las clases presenciales",
-      "explicacion": "Ecuavisa informa que el Ministerio de Educación lo desmintió; aun así padres en Guayaquil compran equipos y en Quevedo hay inquietud. Conviene que la información oficial sobre clases sea clara (arts. 61 y 72).",
-      "ids": [
-        "14c3bb1669",
-        "37f2fae11b",
-        "5f22dc5835"
-      ]
+      "titulo": "Reclaman a Carolina por Jóvenes en Acción",
+      "explicacion": "Respuestas en X, casi todas de una cuenta pequeña de El Oro, piden a Carolina información oficial, tutores y una plataforma que funcione; en 24 h quedó un solo reclamo. Bajo alcance, pero la nombran a ella.",
+      "ids": ["cbdecc2936", "e94eafb610", "36f7a26027", "778c2b7480", "be830052ad", "14202a718a", "bfb75bc8d2", "08b384dac4", "620730d31c", "db3cfaf7f3", "536fcbbbc8", "9ecc835558", "4473670a53", "53f21b0b1e"]
+    },
+    {
+      "titulo": "El Niño encarece la comida y los materiales",
+      "explicacion": "Teleamazonas y Diario Extra reportan alza de precios y escasez en mercados de Quito; El Diario, falta de materiales para techos en Portoviejo. No apunta a la Secretaría, pero amplía el malestar más allá de las zonas inundadas.",
+      "ids": ["1c035283e4", "355cb2d9bc", "1ddd450216", "0523bc8ccb"]
     }
   ],
+  "rumores": [],
   "hitos": []
 }
