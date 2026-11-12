@@ -1,32 +1,32 @@
 {
   "vinetas": [
-    "Sin datos de X ni TikTok en 24 h (ayer X tuvo 42 piezas); notas de medios bajan de 129 a 103.",
-    "Medios difieren en afectados: 45.000 (Radio Pichincha), 57.000 (Radio Miraflores), 64.000 (Infobae, Noticias SIN); coinciden en 12 muertos.",
-    "Babahoyo concentra el alcance: AV.TV muestra el Hospital del IESS inundado (15.487 vistas); hoy, lluvias más fuertes en Guayas y Los Ríos.",
-    "Arrancó la campaña exprés de 15 días que prohíbe dádivas y recursos públicos; CNE prevé reubicar recintos en Los Ríos y Galápagos."
+    "Contexto de las 04:59: en 24 h no hay datos de X ni TikTok (ayer X, 42 piezas); notas de medios bajan de 129 a 103.",
+    "Afectados nacionales no cuadran: 45.000 (Ecuavisa, Radio Pichincha), 57.000 (Radio Miraflores), 64.000 (Infobae, Noticias SIN); todos dicen 12 muertos.",
+    "Babahoyo lidera el alcance: AV.TV muestra el Hospital del IESS inundado (15.487 vistas); El Universo prevé hoy lluvias más fuertes en Guayas y Los Ríos.",
+    "Montecristi sigue con cifras dispares: 103 familias (Última Hora), 145 (Diario Extra), 350 (Primicias); la Gobernación mostró a la SNGR entregando ayuda."
   ],
   "fuentes_vinetas": [
     [],
-    ["66c96c58e2", "157c1744ff", "0cf7a311cb", "1c335edf3d"],
-    ["65bf1696f4", "04631cedb7", "440a0cfeaf"],
-    ["f9e366da65", "388b6abe9f"]
+    ["f36746a933", "66c96c58e2", "157c1744ff", "0cf7a311cb", "1c335edf3d"],
+    ["65bf1696f4", "04631cedb7"],
+    ["5e5b429229", "d294492041", "28d2d26bfe", "ea8b7de0a5", "852edadd78"]
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy en @Riesgos_Ec una cifra nacional única de afectados y fallecidos, con hora de corte.",
-      "porque": "Medios dan 45.000, 57.000 y 64.000 afectados; en Montecristi las cifras van de 103 a 350 familias.",
-      "base_legal": "Art. 61 y 72",
-      "fuentes": ["66c96c58e2", "157c1744ff", "0cf7a311cb", "5e5b429229", "d294492041", "1fc8c80990", "28d2d26bfe"]
+      "accion": "Difundir hoy con Inamhi e Inocar aviso para Guayas y Los Ríos: lluvia y marea alta hasta el domingo 15.",
+      "porque": "El Universo prevé las lluvias más fuertes hoy en Guayas y Los Ríos; El Comercio y Primicias: marea alta coincide; Babahoyo ya anegado.",
+      "base_legal": "Art. 61 y 62",
+      "fuentes": ["04631cedb7", "dd7f5516c1", "2e561d69f1", "2c9c06061d", "65bf1696f4", "440a0cfeaf"]
     },
     {
-      "accion": "Difundir con Inamhi e Inocar aviso para Guayas y Los Ríos: lluvia y marea alta hasta el 15.",
-      "porque": "El Universo prevé las lluvias más fuertes hoy en Guayas y Los Ríos; Primicias: marea alta coincide hasta el 15; Babahoyo ya anegado.",
-      "base_legal": "Art. 61 y 62",
-      "fuentes": ["04631cedb7", "2e561d69f1", "86c64ca978", "65bf1696f4", "440a0cfeaf"]
+      "accion": "Publicar en @Riesgos_Ec cifra nacional única de afectados, damnificados y fallecidos, con hora de corte.",
+      "porque": "Medios difunden 45.000, 57.000 y 64.000 afectados; en Montecristi van de 103 a 350 familias.",
+      "base_legal": "Art. 61 y 72",
+      "fuentes": ["f36746a933", "157c1744ff", "0cf7a311cb", "5e5b429229", "28d2d26bfe"]
     },
     {
       "accion": "Emitir lineamiento a GAD y entidades: ayuda humanitaria sin logos, candidatos ni actos de campaña.",
-      "porque": "Radio Pichincha: desde el 12 de noviembre rige campaña de 15 días que prohíbe dádivas; ya hay comentarios que atribuyen la ayuda a campaña.",
+      "porque": "Radio Pichincha: desde el 12 de noviembre rige campaña de 15 días que prohíbe dádivas y uso de recursos públicos.",
       "base_legal": "Art. 14, 23.4 y 78.5",
       "fuentes": ["f9e366da65", "388b6abe9f", "5009d4c504"]
     }
@@ -34,28 +34,28 @@
   "narrativas": [
     {
       "titulo": "El Gobierno llega con bonos, vuelos y kits",
-      "explicacion": "Medios replican bonos de contingencia en Machala (1.864 familias), Baba y El Oro, helicópteros con alimentos en Manabí y la planta potabilizadora en Santa Cruz; @Riesgos_Ec mostró a Carolina en Machala. Sostiene la imagen operativa, pero en 24 h casi no se nombra a la Secretaría.",
+      "explicacion": "Medios replican bonos de contingencia en Machala (1.864 familias), Baba y El Oro, helicópteros con alimentos en Manabí y la planta potabilizadora en Santa Cruz; @Riesgos_Ec mostró a Carolina en Machala. Sostiene la imagen operativa, aunque en 24 h casi no se nombra a la Secretaría.",
       "ids": ["993452cdd5", "71bdefa507", "c2a1321571", "6de05bab44", "1c352df9d0", "10d1b65741", "b931c67ed6", "139017c5bd", "2f4d09abb6", "5efcbd884b", "89c457a54d", "7d95af5773", "09da141277", "8e677750a2", "f01f22efea"]
     },
     {
       "titulo": "Critican a los GAD por drenajes y obras",
-      "explicacion": "Ecuavisa muestra vecinos del suroeste de Guayaquil y de Las Orquídeas que denuncian abandono; el canal Millones al Agua (2.774 vistas) muestra calles inundadas en Samborondón y sus comentarios discuten quién paga. Apunta a los GAD, no a la Secretaría.",
-      "ids": ["7e65bd90a0", "cef70bcc23", "0f61e436cc", "7ecaafca75", "897c3c8a5f", "0e30c6ba10", "f0bc3ddb52", "5481a7f670"]
+      "explicacion": "Ecuavisa muestra vecinos del suroeste de Guayaquil y de Las Orquídeas que denuncian abandono y pacientes de Babahoyo cruzando con agua; el canal Millones al Agua (2.774 vistas) discute quién paga en Samborondón. Apunta a los GAD, no a la Secretaría.",
+      "ids": ["7e65bd90a0", "cef70bcc23", "b96d1645b0", "0f61e436cc", "7ecaafca75", "897c3c8a5f", "0e30c6ba10", "f0bc3ddb52", "5481a7f670", "73dc05eb95"]
     },
     {
       "titulo": "Lo peor de El Niño todavía no llega",
-      "explicacion": "Teleamazonas recoge a Inocar: lluvias extraordinarias a fines de noviembre; Primicias suma marea alta hasta el 15 y Altavoz pregunta si Ecuador está preparado. Oportunidad para guiar la preparación; riesgo de miedo sin mensaje oficial.",
-      "ids": ["93a204be15", "633bdaf700", "2e561d69f1", "dd7f5516c1", "77d68aba39", "f8be90da2c", "782dab7010", "f11fb8a929"]
+      "explicacion": "Teleamazonas recoge a Inocar: lluvias extraordinarias a fines de noviembre; Primicias suma marea alta hasta el 15 y canales de YouTube preguntan si será el más fuerte de la historia. Oportunidad para guiar la preparación; riesgo de miedo sin mensaje oficial.",
+      "ids": ["93a204be15", "633bdaf700", "7a6f75871d", "22b63ae297", "2e561d69f1", "a8cd9c72b4", "77d68aba39", "f8be90da2c", "f11fb8a929"]
     },
     {
       "titulo": "En Manabí piden ayuda y preguntan por Riesgos",
-      "explicacion": "AV.TV (5.670 vistas) muestra a Montecristi pidiendo ayuda y Radio Face TV habló de abandono; Primicias, Diario Extra y Última Hora dan cifras de familias distintas. La Gobernación mostró a la SNGR entregando ayuda; riesgo de abandono si eso no se ve.",
-      "ids": ["1fc8c80990", "28d2d26bfe", "d294492041", "5e5b429229", "42f5c7fbb2", "c31ed7f456", "641eb7a461", "a33eb068d5", "852edadd78", "ea8b7de0a5"]
+      "explicacion": "AV.TV (5.670 vistas) y Rostros Ecuador muestran a Montecristi pidiendo ayuda y Radio Face TV habló de abandono; medios dan cifras de familias distintas. La Gobernación mostró a la SNGR entregando ayuda a 150 familias; riesgo de abandono si eso no se ve.",
+      "ids": ["1fc8c80990", "9c0d990e90", "7ab7529ef9", "28d2d26bfe", "d294492041", "5e5b429229", "42f5c7fbb2", "c31ed7f456", "641eb7a461", "852edadd78", "ea8b7de0a5"]
     },
     {
       "titulo": "El Niño encarece la comida y los materiales",
-      "explicacion": "Teleamazonas y Diario Extra reportan alza de precios y desabastecimiento en Quito; La Hora cuenta 1.302 ha de cultivos afectados en Los Ríos y Ecuavisa, daños a la industria láctea. No apunta a la Secretaría, pero amplía el malestar.",
-      "ids": ["1c035283e4", "355cb2d9bc", "1ddd450216", "e7e6f46b81", "52836fa27e", "8d33c1aed9"]
+      "explicacion": "Teleamazonas y Diario Extra reportan alza de precios y desabastecimiento en Quito; El Diario, escasez de materiales para techos en Portoviejo; La Hora, 1.302 ha de cultivos afectados en Los Ríos. No apunta a la Secretaría, pero amplía el malestar.",
+      "ids": ["1c035283e4", "355cb2d9bc", "1ddd450216", "0523bc8ccb", "e7e6f46b81", "52836fa27e"]
     }
   ],
   "rumores": [],
