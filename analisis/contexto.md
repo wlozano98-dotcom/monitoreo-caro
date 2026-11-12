@@ -1,32 +1,32 @@
-# Contexto para el análisis de fondo (2026-11-11 20:08, hora de Ecuador)
+# Contexto para el análisis de fondo (2026-11-12 04:59, hora de Ecuador)
 
 Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Cita las piezas por su [id].
 
 ## Cifras: últimas 24 h frente a las 24 h anteriores
 
-- hoy · medios · neutro: 98
-- hoy · medios · positivo: 8
-- hoy · x · neutro: 2
-- hoy · x · positivo: 1
+- hoy · medios · neutro: 99
+- hoy · medios · positivo: 4
 - hoy · youtube · critico: 2
-- hoy · youtube · neutro: 34
-- hoy · youtube · positivo: 4
-- ayer · medios · neutro: 120
-- ayer · medios · positivo: 15
-- ayer · tiktok · neutro: 5
-- ayer · x · critico: 16
-- ayer · x · neutro: 22
+- hoy · youtube · neutro: 38
+- hoy · youtube · positivo: 1
+- ayer · medios · neutro: 112
+- ayer · medios · positivo: 17
+- ayer · tiktok · neutro: 3
+- ayer · x · critico: 15
+- ayer · x · neutro: 19
 - ayer · x · positivo: 8
-- ayer · youtube · critico: 6
-- ayer · youtube · neutro: 52
+- ayer · youtube · critico: 2
+- ayer · youtube · neutro: 48
+- ayer · youtube · positivo: 3
 
 ## Narrativas de la corrida anterior
 
-- El Gobierno llega con bombas, vuelos y kits — 15 piezas; 9 en 24 h vs 5 antes. Riesgos_Ec muestra a Carolina en Machala (7.392 y 2.875 vistas) y los medios replican bonos en Machala, El Oro y Baba, el puente de Río Verde y la ayuda a 150 familias de Montecristi. Sostiene la imagen operativa si se ve también en los barrios que reclaman.
-- Critican a los GAD por drenajes y obras — 9 piezas; 4 en 24 h vs 5 antes. Comentarios en Ecuavisa culpan a los municipios de Guayaquil, Durán y Samborondón por falta de planificación; Ecuavisa muestra vecinos de Las Orquídeas y del suroeste que denuncian abandono por inundaciones y marea alta. Apunta a los GAD, no a la Secretaría.
-- Reclaman a Carolina por Jóvenes en Acción — 14 piezas; 1 en 24 h vs 13 antes. Respuestas en X, casi todas de una cuenta pequeña de El Oro, piden a Carolina información oficial, tutores y una plataforma que funcione. Bajo alcance, pero la nombran a ella y el programa crecerá con los 700.000 cupos anunciados.
-- Lo peor de El Niño todavía no llega — 9 piezas; 1 en 24 h vs 6 antes. Teleamazonas y Primicias recogen a Inocar: lluvias extraordinarias a fin de noviembre y prepararse para el peor escenario; canales de YouTube lo comparan con 1997. Oportunidad para guiar la preparación; riesgo de miedo sin mensaje oficial.
-- En Manabí piden ayuda y preguntan por Riesgos — 7 piezas; 1 en 24 h vs 3 antes. TikTok y YouTube (Carlos García 21.102 vistas, AV.TV 5.661, Rostros Ecuador) muestran a Montecristi pidiendo ayuda y Radio Face TV habla de abandono; en X preguntan dónde está Gestión de Riesgos. Riesgo de abandono si el PMU no se ve en territorio.
+- El Gobierno llega con bombas, vuelos y kits — 15 piezas; 9 en 24 h vs 6 antes. Medios replican bonos en Machala (1.864 familias), El Oro y Baba, helicópteros con alimentos en Manabí y la planta potabilizadora en Santa Cruz; @Riesgos_Ec muestra a Carolina en Machala. Sostiene la imagen operativa si se ve también donde hoy se inunda, como Babahoyo.
+- Critican a los GAD por drenajes y obras — 10 piezas; 6 en 24 h vs 4 antes. Ecuavisa muestra vecinos del suroeste de Guayaquil y de Las Orquídeas que denuncian inundaciones y abandono; comentarios culpan a Guayaquil, Durán y Samborondón por falta de planificación. Apunta a los GAD, no a la Secretaría.
+- Lo peor de El Niño todavía no llega — 9 piezas; 6 en 24 h vs 3 antes. Teleamazonas recoge a Inocar: lluvias extraordinarias a fines de noviembre; Primicias suma marea alta hasta el 15 y canales de YouTube hablan de un Niño histórico. Oportunidad para guiar la preparación; riesgo de miedo sin mensaje oficial.
+- En Manabí piden ayuda y preguntan por Riesgos — 8 piezas; 5 en 24 h vs 2 antes. AV.TV (5.669 vistas) y Rostros Ecuador muestran a Montecristi pidiendo ayuda y Radio Face TV habla de abandono; Diario Extra y Última Hora cuentan familias afectadas con cifras distintas. Riesgo de abandono si el PMU no se ve en territorio.
+- El Niño encarece la comida y los materiales — 4 piezas; 3 en 24 h vs 1 antes. Teleamazonas y Diario Extra reportan alza de precios y escasez en mercados de Quito; El Diario, falta de materiales para techos en Portoviejo. No apunta a la Secretaría, pero amplía el malestar más allá de las zonas inundadas.
+- Reclaman a Carolina por Jóvenes en Acción — 14 piezas; 0 en 24 h vs 14 antes. Respuestas en X, casi todas de una cuenta pequeña de El Oro, piden a Carolina información oficial, tutores y una plataforma que funcione; en 24 h quedó un solo reclamo. Bajo alcance, pero la nombran a ella.
 
 ## Hitos ya marcados (no los repitas)
 
@@ -62,6 +62,113 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
 
 ## Piezas de los últimos 3 días (450, de la más reciente a la más antigua)
 
+[e7e6f46b81] 2026-11-12 05:30 UTC · medios · Diario La Hora · neutro · Agricultura y producción · Los Ríos · pide: Dinero y créditos
+    Los Ríos registra 1.302 ha de cultivos afectados
+    Los Ríos reporta más de 1.300 hectáreas de cultivos afectadas por invierno.
+
+[4fa8889e8f] 2026-11-12 05:12 UTC · medios · Diario La Hora · neutro · Lluvias e inundaciones · Los Ríos · dirigido a: Municipio o Prefectura (positivo) · pide: Maquinaria y limpieza
+    Babahoyo interviene 12,9 km de redes de drenaje
+    Municipio de Babahoyo interviene redes de drenaje para prevenir inundaciones.
+    idea: El municipio realiza obras de mitigación
+
+[f9e366da65] 2026-11-12 05:07 UTC · medios · Radio Pichincha · neutro · Política y críticas · dirigido a: Gobierno central (neutro)
+    Más de 51.000 candidaturas entran en la carrera electoral: arranca la campaña exprés de 15 días
+    CNE ajusta campaña electoral exprés por riesgo de El Niño.
+    Durante dos semanas, las candidaturas calificadas desplegarán sus propuestas bajo un esquema de control que prohíbe dádivas, proscribe el uso de recursos públicos y centraliza la pauta mediática en el Fondo de Promoción Electoral. Este 12 de noviembre de 2026 inició oficialmente 
+
+[ca2489c378] 2026-11-12 03:53 UTC · medios · Prensa Mercosur · neutro · Educación
+    Ecuador — Las lluvias por El Niño cambian las clases y modifican la forma de aprender de los alumnos
+    Lluvias por El Niño fuerzan cambios en el sistema de aprendizaje escolar.
+
+[f0bc3ddb52] 2026-11-12 03:26 UTC · youtube · @@Eloisa-v8e (MILLONES AL AGUA) · neutro · Política y críticas · dirigido a: Municipio o Prefectura (positivo) · 1 interacciones · es respuesta/comentario
+    Usuario exige que urbanizaciones paguen y exonera al municipio.
+    idea: El municipio no debe pagar obras para sectores privados
+    Las urbanizaciones paguen pues. El municipio jamás . El dinero del pueblo común no debe usarse en estos PELUCONES . Eso es para obras del pueblo no caprichos de RICACHONES. Alícuotas paguen
+
+[d625d3bd58] 2026-11-12 03:25 UTC · youtube · @@Eloisa-v8e (MILLONES AL AGUA) · neutro · Lluvias e inundaciones · 1 interacciones · es respuesta/comentario
+    Comentario afirmando que el mar cobra lo que le pertenece.
+    El mar cobra lo que es suyo
+
+[e809d19308] 2026-11-12 03:23 UTC · youtube · @@LUISGONZALEZ-r2k4g (Ted_educa) · neutro · Otro · es respuesta/comentario
+    Comentario sarcástico sobre llamar a la mamá del niño.
+    llamen a la mama del niño
+
+[61a780a05f] 2026-11-12 03:21 UTC · youtube · @@LUISEMILIOGONZLEZVILLN (Ted_educa) · neutro · Lluvias e inundaciones · es respuesta/comentario
+    Comentario anunciando la llegada de El Niño.
+    llego el niño ç
+
+[b262756ad0] 2026-11-12 03:07 UTC · youtube · @ (La IA lo calculó) · neutro · Prevención y alertas · 9 interacciones · 558 vistas
+    Súper Niño: ¿diluvio o sequía en tu país? Ecuador +43%… Colombia −19% 🌧️🏜️ #ElNiño
+    Análisis comparativo de precipitaciones por El Niño en la región.
+    No es un pronóstico: es lo que pasó. Tomamos la lluvia de cada país, mes por mes, y comparamos los seis meses fuertes ...
+
+[52836fa27e] 2026-11-12 03:05 UTC · youtube · @ (Ecuavisa) · neutro · Agricultura y producción · 8 interacciones · 1043 vistas
+    Estragos por el fenómeno de El Niño e impacto en la industria láctea | Televistazo | Ecuavisa
+    Lluvias e inundaciones generan estragos en la industria láctea.
+    Noticias de Ecuador 11 de noviembre del 2026 – Las intensas lluvias y el desbordamiento de ríos continúan causando graves ...
+
+[8648d719d8] 2026-11-12 03:00 UTC · youtube · @ (Ted_educa) · neutro · Prevención y alertas · Guayas · aspecto: Comunicación e información · pide: Información y alertas · 6 interacciones · 7 vistas
+    Fenómeno de El Niño 2026: todo lo que debes saber en 4 minutos | Ecuador
+    Explicación educativa sobre el fenómeno de El Niño en Ecuador.
+    El Fenómeno de El Niño explicado fácil: qué es, por qué llueve tanto en la Costa, por qué Guayaquil se inunda, el dengue, cómo ...
+
+[dd7f5516c1] 2026-11-12 02:55 UTC · medios · El Comercio · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas
+    Lluvias en Ecuador y marea alta se juntan este jueves, tome precauciones
+    Advierten por coincidencia de lluvias y marea alta en Ecuador este jueves.
+
+[04631cedb7] 2026-11-12 02:47 UTC · medios · El Universo · neutro · Lluvias e inundaciones · Guayas · aspecto: Prevención y alertas · pide: Información y alertas
+    Guayas y Los Ríos tendrán las lluvias más fuertes este jueves 12 de noviembre: así estará el clima en Ecuador
+    Guayas y Los Ríos registrarán las lluvias más fuertes este jueves.
+
+[86c64ca978] 2026-11-12 02:44 UTC · medios · El Diario Ecuador · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas
+    Lluvias intensas en Ecuador: Inamhi alerta de inundaciones y tormentas eléctricas hasta el 15 de noviembre
+    Alerta de Inamhi por tormentas eléctricas e inundaciones hasta el 15 de noviembre.
+
+[c02ff6cfa9] 2026-11-12 02:36 UTC · medios · El Telégrafo · neutro · Prevención y alertas · Manabí · dirigido a: Municipio o Prefectura (positivo) · pide: Maquinaria y limpieza
+    Chone avanza en obras para reducir inundaciones y mejorar el agua potable
+    Chone ejecuta obras para reducir inundaciones y mejorar agua potable.
+
+[a1b08ec97a] 2026-11-12 02:30 UTC · medios · El Comercio · neutro · Educación
+    Las lluvias por El Niño cambian las clases y modifican la forma de aprender de los alumnos
+    Lluvias por El Niño provocan cambios en clases escolares.
+    El Niño puede cambiar las condiciones de estudio y afectar el aprendizaje de los alumnos en Ecuador.
+
+[28d2d26bfe] 2026-11-12 02:25 UTC · medios · Primicias · neutro · Afectados y damnificados · Manabí · pide: Evacuación y rescate
+    'Alcancé a coger a mi hijo, pero el agua me cerró la puerta', el drama de 350 familias afectadas por las lluvias de El Niño en Montecristi
+    Lluvias por El Niño afectan a 350 familias en Montecristi.
+
+[ef39d15aa4] 2026-11-12 02:06 UTC · youtube · @ (Teleamazonas Ecuador) · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas · 44 interacciones · 2273 vistas
+    Inamhi pronostica lluvias y tormentas eléctricas en varias zonas del país hasta este domingo
+    Inamhi pronostica lluvias y tormentas eléctricas en el país.
+    TAnoticias | Inamhi pronostica lluvias y tormentas eléctricas de intensidad en varias zonas del país hasta este domingo.
+
+[897c3c8a5f] 2026-11-12 01:59 UTC · youtube · @@GIOVANNIALCIVAR (MILLONES AL AGUA) · neutro · Lluvias e inundaciones · Guayas · dirigido a: Municipio o Prefectura (critico) · pide: Maquinaria y limpieza · 2 interacciones · es respuesta/comentario
+    Crítica por falta de dragado y vertido de escombros en ríos.
+    idea: Falta dragado en los ríos
+    No han dragado el DAULE y Guayas los residuos y material utilizado en las construcciones de las urbanizaciones que han tirado al río, irresponsables.
+
+[3476524812] 2026-11-12 01:57 UTC · medios · Teleamazonas · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas
+    Inamhi emite advertencia por lluvias y tormentas eléctricas vigentes hasta el domingo
+    Inamhi advierte sobre lluvias y tormentas eléctricas hasta el domingo.
+
+[2c9c06061d] 2026-11-12 01:54 UTC · medios · El Universo · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas
+    Inamhi alerta por lluvias fuertes y riesgo de inundaciones hasta el domingo
+    Inamhi alerta por lluvias fuertes y riesgo de inundaciones hasta el domingo.
+
+[91df97a6ef] 2026-11-12 01:41 UTC · youtube · @ (QuantumSimply) · neutro · Prevención y alertas · 1 vistas
+    Why Is It Called El Nino? | El Nino Special
+    Explicación del origen del nombre del fenómeno El Niño.
+    El Nino got its name from fishermen off Peru and Ecuador, who knew a warm current that appeared around Christmas and named ...
+
+[807e29b55e] 2026-11-12 01:35 UTC · youtube · @ (Internavegador) · neutro · Deslaves y vías · Guayas · pide: Vías y puentes · 2 interacciones · 23 vistas
+    🇪🇨 Así se vive el Fenómeno de El Niño en las carreteras de Guayaquil
+    Intensas lluvias afectan el tránsito en las carreteras de Guayaquil.
+    Las intensas lluvias provocadas por el Fenómeno de El Niño están convirtiendo las carreteras de Guayaquil, Ecuador, en zonas ...
+
+[d4ddebded5] 2026-11-12 01:22 UTC · medios · Vistazo · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas
+    INAMHI advierte lluvias fuertes e inundaciones en Ecuador hasta el domingo 15 de noviembre
+    Inamhi advierte sobre intensas lluvias e inundaciones hasta el 15 de noviembre.
+
 [9ca5ea673d] 2026-11-12 00:36 UTC · medios · Teleamazonas · neutro · Salud · aspecto: Prevención y alertas · pide: Salud
     Advierten riesgos por la aparición de serpientes y roedores durante la temporada de lluvias
     Advierten riesgos por aparición de serpientes y roedores en temporada de lluvias.
@@ -71,7 +178,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Marea alta coincidirá con lluvias fuertes hasta el 15 de noviembre.
     idea: Mareas altas agravan el riesgo por lluvias
 
-[0298b6292a] 2026-11-12 00:13 UTC · youtube · @ (Vanesa Litvac) · neutro · Lluvias e inundaciones · 7 interacciones · 28 vistas
+[0298b6292a] 2026-11-12 00:13 UTC · youtube · @ (Vanesa Litvac) · neutro · Lluvias e inundaciones · 16 interacciones · 165 vistas
     SOP para inundaciones en Ecuador
     Video sobre procedimientos operativos estándar para inundaciones en Ecuador.
 
@@ -80,12 +187,16 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Presidente no descarta emitir nuevos bonos ante El Niño.
     idea: El Gobierno evalúa más bonos para enfrentar la crisis
 
+[7548df51bb] 2026-11-12 00:12 UTC · medios · Primicias · neutro · Respuesta del Gobierno · aspecto: Coordinación entre instituciones · dirigido a: Gobierno central (neutro) · pide: Dinero y créditos
+    Presidente Noboa no descarta que Ecuador emita nuevos bonos para conseguir recursos ante el fenómeno de El Niño
+    Noboa evalúa emitir bonos para conseguir recursos ante el fenómeno El Niño.
+
 [681bcaa233] 2026-11-12 00:10 UTC · medios · El Mercurio · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas
     Lluvias, entre fuertes e intensas, pronostica el Inamhi hasta el 15 de noviembre
     Inamhi pronostica lluvias intensas hasta el 15 de noviembre.
     idea: Se pronostican lluvias intensas
 
-[5481a7f670] 2026-11-12 00:02 UTC · youtube · @@Angela-l6g3u (MILLONES AL AGUA) · neutro · Lluvias e inundaciones · Guayas · dirigido a: Municipio o Prefectura (critico) · es respuesta/comentario
+[5481a7f670] 2026-11-12 00:02 UTC · youtube · @@Angela-l6g3u (MILLONES AL AGUA) · neutro · Lluvias e inundaciones · Guayas · dirigido a: Municipio o Prefectura (critico) · 2 interacciones · es respuesta/comentario
     Comentario sobre responsabilidades en daños por inundaciones.
     Deberían pagar lis dos!
 
@@ -94,7 +205,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Recomendaciones de prevención sobre apagar el aire acondicionado en tormentas.
     La prevención debe realizarse antes de que lleguen los rayos.
 
-[355cb2d9bc] 2026-11-11 23:57 UTC · youtube · @ (Teleamazonas Ecuador) · neutro · Agricultura y producción · Pichincha · 3 interacciones · 132 vistas
+[355cb2d9bc] 2026-11-11 23:57 UTC · youtube · @ (Teleamazonas Ecuador) · neutro · Agricultura y producción · Pichincha · 4 interacciones · 226 vistas
     Comerciantes de Quito reportan alza de precios y desabastecimiento por el Fenómeno de El Niño.
     Comerciantes de Quito reportan alza de precios y desabastecimiento por El Niño.
     TAnoticias | Comerciantes de Quito reportan alza de precios y dificultad para abastecerse por el Fenómeno de El Niño.
@@ -103,7 +214,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Fenómeno de El Niño causa variaciones de precios y escasez en mercados de Quito
     Fenómeno de El Niño causa variaciones de precios y escasez en mercados de Quito.
 
-[77d68aba39] 2026-11-11 23:15 UTC · youtube · @ (Altavoz) · neutro · Lluvias e inundaciones · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 1 interacciones · 8 vistas
+[77d68aba39] 2026-11-11 23:15 UTC · youtube · @ (Altavoz) · neutro · Lluvias e inundaciones · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 1 interacciones · 56 vistas
     EL FENÓMENO DE EL NIÑO APENAS COMIENZA: ¿ESTÁ ECUADOR PREPARADO? - MARIANA QUISPILLO | Altavoz
     Análisis sobre si Ecuador está preparado ante el inicio del Fenómeno de El Niño.
     Desde el 29 de agosto, Ecuador registra 45.239 personas afectadas y 18.223 damnificadas por las lluvias, además de 12 ...
@@ -116,12 +227,12 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Mención de problemas con bomba de agua en Samborondón por tormentas y aguaje.
     🌊 La bomba de Plaza Batán se apagó en plena marea alta, y Samborondón vivió 4 tormentas en un mes… con El Niño apenas empezando. 👉 Si vives en Samborondón o Guayaquil, ¿se te inundó la calle con el aguaje? Cuéntame. 🔔 Suscríbete a Millones al Agua. Si te perdiste la primera parte
 
-[0f61e436cc] 2026-11-11 22:54 UTC · youtube · @ (MILLONES AL AGUA) · neutro · Lluvias e inundaciones · Guayas · dirigido a: Municipio o Prefectura (critico) · 18 interacciones · 160 vistas
+[0f61e436cc] 2026-11-11 22:54 UTC · youtube · @ (MILLONES AL AGUA) · neutro · Lluvias e inundaciones · Guayas · dirigido a: Municipio o Prefectura (critico) · 77 interacciones · 2774 vistas
     ECUADOR: Mansiones de $2 MILLONES en Samborondón… y Las Calles Ya Están Bajo el Agua
     Reportaje sobre inundaciones en zonas residenciales exclusivas de Samborondón.
     En Samborondón, frente a Guayaquil, hay mansiones que se venden en 2,5 millones de dólares y alícuotas de hasta 1.200 ...
 
-[ce2cc3708d] 2026-11-11 22:50 UTC · youtube · @ (el bluchi) · neutro · Lluvias e inundaciones · 5 interacciones · 195 vistas
+[ce2cc3708d] 2026-11-11 22:50 UTC · youtube · @ (el bluchi) · neutro · Lluvias e inundaciones · 23 interacciones · 654 vistas
     las lluvias en ecuador
     Contenido general sobre las lluvias en Ecuador.
 
@@ -169,7 +280,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Lluvias fuertes volverán a siete provincias con riesgo de crecidas.
     idea: Hay alto riesgo de crecidas de ríos por lluvias
 
-[65bf1696f4] 2026-11-11 21:32 UTC · youtube · @ (AV.TV.Digital) · neutro · Lluvias e inundaciones · Los Ríos · dirigido a: Municipio o Prefectura (critico) · 73 interacciones · 15460 vistas
+[65bf1696f4] 2026-11-11 21:32 UTC · youtube · @ (AV.TV.Digital) · neutro · Lluvias e inundaciones · Los Ríos · dirigido a: Municipio o Prefectura (critico) · 73 interacciones · 15487 vistas
     BABAHOYO BAJO EL AGUA! Inundaciones afectan los exteriores del Hospital del IESS
     Fuertes lluvias inundan los exteriores del Hospital del IESS en Babahoyo.
     Las fuertes lluvias registradas en Babahoyo, provincia de Los Ríos, han provocado inundaciones en diferentes sectores de la ...
@@ -183,7 +294,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     El Niño al Día EC | Nubes cargadas de agua amenazan la Costa | Teleamazonas Noticias
     Nubes cargadas de agua amenazan la región Costa.
 
-[3de2a4fa4a] 2026-11-11 21:11 UTC · youtube · @ (Ecuavisa) · neutro · Salud · pide: Salud
+[3de2a4fa4a] 2026-11-11 21:11 UTC · youtube · @ (Ecuavisa) · neutro · Salud · pide: Salud · 1 interacciones
     Aumento de infecciones intestinales por fenómeno del niño | En Contacto | Ecuavisa
     Aumento de infecciones intestinales por el fenómeno de El Niño y cómo proteger la salud.
     Cómo proteger tu salud frente al fenómeno de El Niño? 🌧️ Con la llegada de la temporada de lluvias y los efectos del ...
@@ -193,7 +304,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Pronóstico del Inamhi emite alerta de lluvias nocturnas para la Costa.
     Inamhi emitió alerta para la noche de este miércoles y madrugada del jueves.
 
-[633bdaf700] 2026-11-11 20:29 UTC · youtube · @ (Teleamazonas Ecuador) · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro) · pide: Información y alertas · 1 interacciones · 77 vistas
+[633bdaf700] 2026-11-11 20:29 UTC · youtube · @ (Teleamazonas Ecuador) · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Gobierno central (neutro) · pide: Información y alertas · 1 interacciones · 140 vistas
     Inocar adviertió lluvias extraordinarias a finales de noviembre y monitorea temperatura del mar
     Inocar advierte lluvias extraordinarias y monitorea temperatura del mar.
     Visita nuestra web oficial en: ▻ http://www.teleamazonas.com/ ...
@@ -229,6 +340,10 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     INAMHI alerta por lluvias fuertes en Guayas, Los Ríos y Manabí.
     idea: El Inamhi emite alertas para provincias costeras
 
+[d669500970] 2026-11-11 20:19 UTC · medios · ElOriente.com · neutro · Prevención y alertas · Guayas · aspecto: Prevención y alertas · pide: Información y alertas
+    El clima hoy en Ecuador: INAMHI alerta por lluvias fuertes en Guayas, Los Ríos y Manabí la noche del 11 de noviembre
+    Inamhi emite alerta de lluvias fuertes para Guayas, Los Ríos y Manabí.
+
 [a7c30dff0a] 2026-11-11 20:17 UTC · medios · Los Primeros TV · neutro · Afectados y damnificados
     Ecuador: 12 muertos y más de 64.000 afectados por los estragos de El Niño
     Ecuador reporta 12 muertos y afectados por El Niño.
@@ -253,7 +368,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Inundaciones en Ecuador: Más de 64.000 personas
     Inundaciones en Ecuador con mas de 64.000 afectados.
 
-[1a2798f2a6] 2026-11-11 19:44 UTC · youtube · @ (Ciencia y Mucho más) · neutro · Lluvias e inundaciones · dirigido a: Gobierno central (critico) · 2 interacciones · 28 vistas
+[1a2798f2a6] 2026-11-11 19:44 UTC · youtube · @ (Ciencia y Mucho más) · neutro · Lluvias e inundaciones · dirigido a: Gobierno central (critico) · 2 interacciones · 40 vistas
     Desastres en Ecuador: La tragedia de las lluvias extremas⚠️
     Resumen sobre la emergencia climática por lluvias con fallecidos y afectados en Ecuador.
     Ecuador enfrenta una devastadora emergencia climática tras intensas lluvias que han dejado 12 fallecidos, más de 57.000 ...
@@ -261,6 +376,10 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
 [440a0cfeaf] 2026-11-11 19:42 UTC · medios · Primicias · neutro · Lluvias e inundaciones · Los Ríos · pide: Agua
     El Niño: Lluvias dejan anegaciones con niveles de agua de hasta 30 centímetros en Babahoyo y más de 100 afectados en Montecristi
     Lluvias dejan anegaciones en Babahoyo y afectados en Montecristi.
+
+[ea375c0154] 2026-11-11 19:40 UTC · medios · Primicias · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas
+    Consulte aquí el pronóstico del clima del Inamhi en Ecuador para el 12 de noviembre
+    Pronóstico del clima en Ecuador emitido por Inamhi para el 12 de noviembre.
 
 [993452cdd5] 2026-11-11 19:36 UTC · medios · El Diario Ecuador · neutro · Ayuda humanitaria · El Oro · aspecto: Llegada de la ayuda · dirigido a: Gobierno central (neutro) · pide: Dinero y créditos
     Daniel Noboa entrega bonos de contingencia a damnificados por inundaciones en Machala
@@ -288,7 +407,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Trasladan a Ecuador continental 750 colchones dañados por inundaciones en la isla Santa Cruz
     Trasladan colchones dañados por inundaciones en Santa Cruz.
 
-[f8be90da2c] 2026-11-11 19:09 UTC · youtube · @ (Zona de Impacto) · neutro · Lluvias e inundaciones · Galápagos · 1 vistas
+[f8be90da2c] 2026-11-11 19:09 UTC · youtube · @ (Zona de Impacto) · neutro · Lluvias e inundaciones · Galápagos · 5 vistas
     GALÁPAGOS Y PERÚ: 9 millones en riesgo por el Fenómeno del Niño — ¿Lo peor aún no llega?
     El Fenómeno de El Niño golpea Ecuador y Perú con inundaciones en Galápagos y Guayaquil.
     El Fenómeno del Niño 2026 ya golpea Ecuador y Perú: inundaciones en Galápagos, Guayaquil y Tumbes, y más de 9 millones ...
@@ -318,7 +437,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Presidente Noboa dice que Ecuador necesitará electricidad de Colombia durante tres o cuatro semanas más
     Ecuador necesitara electricidad de Colombia por semanas.
 
-[cc403a3ed2] 2026-11-11 17:54 UTC · youtube · @ (Ecuavisa) · neutro · Salud · pide: Salud · 1 interacciones · 195 vistas
+[cc403a3ed2] 2026-11-11 17:54 UTC · youtube · @ (Ecuavisa) · neutro · Salud · pide: Salud · 1 interacciones · 239 vistas
     Enfermedades respiratorias en aumento por época de lluvias | En Contacto | Ecuavisa
     Aumento de enfermedades respiratorias debido a la época de lluvias.
     idea: Las lluvias incrementan las enfermedades respiratorias
@@ -347,7 +466,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     El Niño golpea a los emprendedores: así buscan ayudarlos las empresas de venta directa
     Empresas de venta directa apoyan a emprendedores ante impacto de El Niño.
 
-[8e27c79dc0] 2026-11-11 16:45 UTC · youtube · @ (Wuanplus Ads) · neutro · Prevención y alertas · 2 interacciones · 77 vistas
+[8e27c79dc0] 2026-11-11 16:45 UTC · youtube · @ (Wuanplus Ads) · neutro · Prevención y alertas · 2 interacciones · 109 vistas
     Supervivencia ante lluvias e inundaciones: Consejos de expertos para proteger a tu familia
     Consejos de expertos para proteger a la familia ante lluvias e inundaciones.
     Sabes qué hacer si el agua entra a tu casa o si tu vehículo queda atrapado en una calle inundada? ¿Por qué bañarse en el agua ...
@@ -412,13 +531,13 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     El concierto de Anuel AA en Guayaquil se posterga por el Fenómeno de El Niño
     Concierto de Anuel AA en Guayaquil es postergado por El Niño.
 
-[7e65bd90a0] 2026-11-11 14:33 UTC · youtube · @ (Ecuavisa) · neutro · Lluvias e inundaciones · Guayas · aspecto: Presencia en territorio · dirigido a: Municipio o Prefectura (critico) · pide: Maquinaria y limpieza · 8 interacciones · 1247 vistas
+[7e65bd90a0] 2026-11-11 14:33 UTC · youtube · @ (Ecuavisa) · neutro · Lluvias e inundaciones · Guayas · aspecto: Presencia en territorio · dirigido a: Municipio o Prefectura (critico) · pide: Maquinaria y limpieza · 8 interacciones · 1451 vistas
     Inundaciones por marea alta en el suroeste de Guayaquil | Televistazo | Ecuavisa
     Vecinos de Guayaquil denuncian inundaciones por marea alta.
     idea: Las inundaciones por marea alta afectan a los barrios
     Vecinos de las calles 45 entre la J y la K, en el suroeste de Guayaquil, denuncian inundaciones recurrentes causadas por el ...
 
-[cef70bcc23] 2026-11-11 14:33 UTC · youtube · @ (Ecuavisa) · neutro · Afectados y damnificados · Guayas · aspecto: Presencia en territorio · dirigido a: Municipio o Prefectura (critico) · pide: Maquinaria y limpieza · 1 interacciones · 321 vistas
+[cef70bcc23] 2026-11-11 14:33 UTC · youtube · @ (Ecuavisa) · neutro · Afectados y damnificados · Guayas · aspecto: Presencia en territorio · dirigido a: Municipio o Prefectura (critico) · pide: Maquinaria y limpieza · 1 interacciones · 501 vistas
     Las Orquídeas: moradores denuncian abandono tras inundaciones | Televistazo | Ecuavisa
     Moradores de Las Orquídeas denuncian abandono tras inundaciones.
     idea: Las autoridades abandonaron a los moradores afectados
@@ -428,7 +547,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Lluvias en Ecuador este miércoles 11 de noviembre: Guayas, Manabí y otras provincias tendrán precipitaciones
     Inamhi prevé precipitaciones en Guayas, Manabí y otras provincias este miércoles.
 
-[2079d4d3fa] 2026-11-11 14:29 UTC · youtube · @ (CREA VIDEO TV) · neutro · Ayuda humanitaria · aspecto: Llegada de la ayuda · dirigido a: Gobierno central (neutro) · pide: Dinero y créditos · 1 interacciones · 85 vistas
+[2079d4d3fa] 2026-11-11 14:29 UTC · youtube · @ (CREA VIDEO TV) · neutro · Ayuda humanitaria · aspecto: Llegada de la ayuda · dirigido a: Gobierno central (neutro) · pide: Dinero y créditos · 1 interacciones · 96 vistas
     ¡Bono de hasta $964! Aprobaron nueva ayuda por las lluvias en Ecuador
     El COE Nacional aprueba un bono de ayuda por El Niño.
     idea: Se aprobó un bono de ayuda para afectados
@@ -499,12 +618,12 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Cortes de luz en Milagro por fuertes lluvias: esto informó CNEL
     Fuertes lluvias provocan cortes de luz en Milagro y CNEL informa sobre atención.
 
-[d8d592bb8c] 2026-11-11 12:55 UTC · youtube · @ (Así Aguanta) · neutro · Lluvias e inundaciones · Esmeraldas · 2 vistas
+[d8d592bb8c] 2026-11-11 12:55 UTC · youtube · @ (Así Aguanta) · neutro · Lluvias e inundaciones · Esmeraldas · 5 vistas
     Ecuador contra el agua 3: el agua que no se va, el desvío que cedió, el mar y el tubo, en 3D
     Reporte audiovisual sobre inundaciones, desvíos cediendo en Esmeraldas y marea alta en Salinas.
     El río ya bajó, pero el agua no se va. Un desvío de tierra cede en Esmeraldas. El mar salta el malecón de Salinas. Y un tubo bajo ...
 
-[4ee6877b86] 2026-11-11 12:41 UTC · youtube · @ (Radio Centro Ecuador 97.7 fm) · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas · 1 interacciones · 12 vistas
+[4ee6877b86] 2026-11-11 12:41 UTC · youtube · @ (Radio Centro Ecuador 97.7 fm) · neutro · Prevención y alertas · aspecto: Prevención y alertas · pide: Información y alertas · 1 interacciones · 15 vistas
     Intensificación del Fenómeno de El Niño
     Entrevista al exdirector del Inamhi sobre la intensificación del Fenómeno de El Niño.
     entrevistanotihoy Bolivar Erazo - Exdirector del Inamhi-Intensificación del Fenómeno de El Niño ...
@@ -531,13 +650,13 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Lluvias fuertes provocan cortes de energía en Milagro: personal de CNEL trabaja para restablecer el servicio
     CNEL trabaja para restablecer el servicio eléctrico tras cortes por lluvias en Milagro.
 
-[6de05bab44] 2026-11-11 12:15 UTC · youtube · @ (Veinticuatro Siete) · positivo · Ayuda humanitaria · Los Ríos · aspecto: Llegada de la ayuda · dirigido a: Gobierno central (positivo) · pide: Dinero y créditos · 1 interacciones · 318 vistas
+[6de05bab44] 2026-11-11 12:15 UTC · youtube · @ (Veinticuatro Siete) · positivo · Ayuda humanitaria · Los Ríos · aspecto: Llegada de la ayuda · dirigido a: Gobierno central (positivo) · pide: Dinero y créditos · 1 interacciones · 343 vistas
     🚨 1.034 #FAMILIAS AFECTADAS POR LAS #INUNDACIONES EN #BABA RECIBIRÁN #BONO
     Gobierno entrega Bono de Contingencia a 1.034 familias afectadas por inundaciones en Baba.
     idea: El Gobierno entrega bonos a familias afectadas
     El Gobierno Nacional habilitó el Bono de Contingencia para 1.034 familias afectadas por las inundaciones en el cantón Baba, ...
 
-[70afa521c0] 2026-11-11 12:00 UTC · youtube · @ (Radio Centro Ecuador 97.7 fm) · neutro · Agricultura y producción · 14 vistas
+[70afa521c0] 2026-11-11 12:00 UTC · youtube · @ (Radio Centro Ecuador 97.7 fm) · neutro · Agricultura y producción · 15 vistas
     ¿Cuáles son las afectaciones al PIB por el fenómeno de El Niño?
     Analista económico aborda las afectaciones al PIB por el fenómeno de El Niño.
     entrevistanotihoy Santiago García Analista Económico-Afectaciones al PIB por el fenómeno de El Niño ...
@@ -554,7 +673,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     El Niño golpea a Ecuador: más de 45.000 afectados, 12 muertos y nueve ríos desbordados
     El Niño deja más de 45.000 afectados, 12 muertos y nueve ríos desbordados en Ecuador.
 
-[2892061f0d] 2026-11-11 11:34 UTC · youtube · @ (Teleamazonas Ecuador) · neutro · Lluvias e inundaciones · Guayas · 33 interacciones · 1324 vistas
+[2892061f0d] 2026-11-11 11:34 UTC · youtube · @ (Teleamazonas Ecuador) · neutro · Lluvias e inundaciones · Guayas · 33 interacciones · 1413 vistas
     Lluvias dejaron calzadas mojadas y anegaciones en varias avenidas de Guayaquil
     Lluvias dejan calzadas mojadas y avenidas anegadas en Guayaquil.
     Visita nuestra web oficial en: ▻ http://www.teleamazonas.com/ ...
@@ -585,7 +704,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Obras por impuestos ante El Niño: Sector logístico plantea una ley para financiar infraestructura con inversión privada
     Sector logístico plantea ley de obras por impuestos para financiar infraestructura.
 
-[a00da2b148] 2026-11-11 10:52 UTC · youtube · @ (Nature X) · neutro · Lluvias e inundaciones · Guayas · pide: Evacuación y rescate · 13 interacciones · 937 vistas
+[a00da2b148] 2026-11-11 10:52 UTC · youtube · @ (Nature X) · neutro · Lluvias e inundaciones · Guayas · pide: Evacuación y rescate · 15 interacciones · 1004 vistas
     🚨🇪🇨 FAMILIAS OBLIGADAS A SALIR DE SUS CASAS EN MEDIO DE LA INUNDACIÓN!#Guaya #Ecuador #Inundaciones
     Familias deben evacuarse debido a graves inundaciones en Guayaquil.
 
@@ -602,7 +721,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Mochila de emergencia ante el fenómeno de El Niño en Ecuador
     Recomendaciones sobre la mochila de emergencia.
 
-[641eb7a461] 2026-11-11 06:40 UTC · youtube · @ (RTS La Noticia) · neutro · Afectados y damnificados · Manabí · 3 interacciones · 150 vistas
+[641eb7a461] 2026-11-11 06:40 UTC · youtube · @ (RTS La Noticia) · neutro · Afectados y damnificados · Manabí · 3 interacciones · 180 vistas
     Fenómeno del Niño en Manabí suma 119 eventos y casi 2.000 afectados
     Manabí registra 119 eventos y cerca de 2.000 afectados por El Niño.
     Manta, Portoviejo y Montecristi figuran entre los cantones con más emergencias registradas.
@@ -625,7 +744,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Quevedo: lluvias generan inquietud por posible educación virtual
     Lluvias en Quevedo generan inquietud ante un posible cambio a modalidad virtual.
 
-[5e5b429229] 2026-11-11 05:50 UTC · youtube · @ (Última Hora Ecuador) · neutro · Afectados y damnificados · Manabí · 1 interacciones · 68 vistas
+[5e5b429229] 2026-11-11 05:50 UTC · youtube · @ (Última Hora Ecuador) · neutro · Afectados y damnificados · Manabí · 1 interacciones · 83 vistas
     Lluvias en Montecristi dejan afectadas a 103 familias I Ultima Hora Ec I Primera Emisión 06.11.26
     Lluvias en Montecristi dejan 103 familias afectadas.
     Reclamos por Derechos de Autor?, déjanos un mensaje.
@@ -651,7 +770,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Montecristi registra 145 familias afectadas por las fuertes lluvias en Manabí
     Montecristi registra 145 familias afectadas por las fuertes lluvias.
 
-[8e677750a2] 2026-11-11 03:44 UTC · youtube · @ (Somos La Señal) · positivo · Respuesta del Gobierno · Manabí · aspecto: Presencia en territorio · dirigido a: Gobierno central (positivo) · pide: Maquinaria y limpieza · 5 interacciones · 170 vistas
+[8e677750a2] 2026-11-11 03:44 UTC · youtube · @ (Somos La Señal) · positivo · Respuesta del Gobierno · Manabí · aspecto: Presencia en territorio · dirigido a: Gobierno central (positivo) · pide: Maquinaria y limpieza · 5 interacciones · 206 vistas
     URGENTE: Gobierno moviliza maquinaria por lluvias, condena por iguanas y acuerdo con Marruecos.
     Gobierno moviliza maquinaria y personal ante lluvias en Manta y Montecristi.
     idea: El Gobierno moviliza maquinaria ante emergencias
@@ -667,17 +786,17 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     EXTRA lleva las historias de los damnificados por las lluvias a sus lectores
     Diario Extra reporta historias de personas damnificadas por las lluvias.
 
-[1fc8c80990] 2026-11-11 03:13 UTC · youtube · @ (AV.TV.Digital) · neutro · Afectados y damnificados · Manabí · pide: Albergue · 23 interacciones · 5669 vistas
+[1fc8c80990] 2026-11-11 03:13 UTC · youtube · @ (AV.TV.Digital) · neutro · Afectados y damnificados · Manabí · pide: Albergue · 23 interacciones · 5670 vistas
     ¡PIDEN AYUDA! Más de 150 familias afectadas por inundaciones en Montecristi
     Más de 150 familias piden ayuda por inundaciones en Montecristi.
     idea: Damnificados por inundaciones piden auxilio
     Más de 150 familias de la parroquia Leónidas Proaño, en el cantón Montecristi, provincia de Manabí, atraviesan una difícil ...
 
-[02a8bfb5b5] 2026-11-11 03:07 UTC · youtube · @ (NATURA82) · neutro · Otro · 16 interacciones · 1250 vistas
+[02a8bfb5b5] 2026-11-11 03:07 UTC · youtube · @ (NATURA82) · neutro · Otro · 16 interacciones · 1356 vistas
     Migración de aves o es otra cosa ? sera que el fenómeno del Niño ? #aves #Ecuador
     Publicación muestra migración de aves en Ecuador preguntando si se debe a El Niño.
 
-[f619aeb8c4] 2026-11-11 03:06 UTC · youtube · @ (Ecuavisa) · neutro · Lluvias e inundaciones · 20 interacciones · 6662 vistas
+[f619aeb8c4] 2026-11-11 03:06 UTC · youtube · @ (Ecuavisa) · neutro · Lluvias e inundaciones · 23 interacciones · 7523 vistas
     Estragos de El Niño: inundaciones en la Costa y sequía en la Sierra | Televistazo | Ecuavisa
     Impacto de El Niño provoca inundaciones en la Costa y sequía en la Sierra.
     Noticias de Ecuador 10 de noviembre del 2026 – El impacto del fenómeno de El Niño se intensifica en Ecuador, dejando un ...
@@ -687,7 +806,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Escasez y aumento de precios de materiales de impermeabilización en Portoviejo por lluvias.
     Las lluvias dispararon la demanda de productos para reparar techos y losas en Portoviejo, mientras comerciantes reportan escasez y aumentos de precios.
 
-[206768e4c5] 2026-11-11 02:56 UTC · youtube · @ (CCI Canal Digital de Cuenca) · positivo · Ayuda humanitaria · aspecto: Llegada de la ayuda · dirigido a: Gobierno central (positivo) · pide: Dinero y créditos · 1208 vistas
+[206768e4c5] 2026-11-11 02:56 UTC · youtube · @ (CCI Canal Digital de Cuenca) · positivo · Ayuda humanitaria · aspecto: Llegada de la ayuda · dirigido a: Gobierno central (positivo) · pide: Dinero y créditos · 1275 vistas
     Noboa anuncia bono de reparación y alivio financiero para afectados por inundaciones
     Noboa anuncia bono de reparación y alivio financiero para damnificados por inundaciones.
     idea: El Gobierno entrega bonos y alivio financiero
@@ -749,7 +868,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: El Gobierno está en el territorio
     @GoberManabi @avalleec @DanielNoboaOk @Riesgos_Ec El Gobierno Del Ecuador en Territorio 💜💜🇪🇨💪🏻
 
-[842554c847] 2026-11-11 01:06 UTC · youtube · @ (Ecuavisa) · neutro · Lluvias e inundaciones · Guayas · dirigido a: Municipio o Prefectura (neutro) · 15 interacciones · 2273 vistas
+[842554c847] 2026-11-11 01:06 UTC · youtube · @ (Ecuavisa) · neutro · Lluvias e inundaciones · Guayas · dirigido a: Municipio o Prefectura (neutro) · 15 interacciones · 2455 vistas
     Guayaquil bajo agua: el reto del nuevo alcalde frente a El Niño | Televistazo | Ecuavisa
     Guayaquil enfrenta severas inundaciones por el Fenómeno de El Niño y el reto del nuevo alcalde.
     idea: Las ciudades se inundan por las lluvias
@@ -888,12 +1007,12 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Por qué cientos de aves vuelan cerca de las costas de Santa Elena y Manabí: investigador explica su relación con el fenómeno de El Niño
     Investigador explica presencia de aves en la costa por El Niño.
 
-[8d2ba43e1e] 2026-11-10 22:59 UTC · youtube · @ (RTP ECUADOR) · neutro · Lluvias e inundaciones · 24 interacciones · 1160 vistas
+[8d2ba43e1e] 2026-11-10 22:59 UTC · youtube · @ (RTP ECUADOR) · neutro · Lluvias e inundaciones · 24 interacciones · 1231 vistas
     EL FENÓMENO DE EL NIÑO PROVOCA EL DESBORDAMIENTO DE 10 RÍOS EN CUATRO PROVINCIAS DE ECUADOR.
     El Fenómeno de El Niño provoca el desbordamiento de ríos en cuatro provincias.
     idea: Los ríos se desbordan por las lluvias
 
-[a8cd9c72b4] 2026-11-10 22:46 UTC · youtube · @ (Archivos Secretos) · neutro · Prevención y alertas · 31 interacciones · 1010 vistas
+[a8cd9c72b4] 2026-11-10 22:46 UTC · youtube · @ (Archivos Secretos) · neutro · Prevención y alertas · 32 interacciones · 1023 vistas
     ¿El Niño más fuerte de la historia? El dato que preocupa a Ecuador
     Reporte advierte sobre alta probabilidad de que El Niño alcance intensidad histórica.
     El Niño ya está activo y continúa fortaleciéndose en el océano Pacífico. NOAA calcula un 83 % de probabilidad de que alcance ...
@@ -1043,7 +1162,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: Falta información y coordinación en Jóvenes en Acción
     @carolozanohok Es indignante la falta de informaciÃ³n y coordinaciÃ³n que estamos viviendo quienes formamos parte del programa JÃ³venes en AcciÃ³n vinculados a la SecretarÃ­a Nacional de GestiÃ³n de Riesgos en la provincia de El Oro.
 
-[570d5e0ff8] 2026-11-10 21:15 UTC · youtube · @ (Atlas Misterioso) · neutro · Prevención y alertas · aspecto: Prevención y alertas · 35 interacciones · 1237 vistas
+[570d5e0ff8] 2026-11-10 21:15 UTC · youtube · @ (Atlas Misterioso) · neutro · Prevención y alertas · aspecto: Prevención y alertas · 35 interacciones · 1243 vistas
     El mar frente a Ecuador, hasta 5 °C más caliente
     Informa calentamiento del mar ecuatoriano de hasta 5 °C sobre lo normal según reporte del ERFEN.
     idea: El mar registra un calentamiento extremo
@@ -1102,7 +1221,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Desbordamiento del río Daule afecta Samborondón y Gestión de Riesgos lo incluye en reporte.
     El río Daule se desbordó este martes afectando a varios sectores de #LaPuntilla, en Samborondón. La Secretaría Nacional de Gestión de Riesgos incluyó el evento en su reporte de emergencias por las lluvias que afectan a Guayas y otras provincias. El ECU 911 mantiene el monitoreo d
 
-[2f942e851a] 2026-11-10 20:52 UTC · youtube · @ (diariocorreoec) · neutro · Respuesta del Gobierno · aspecto: Comunicación e información · dirigido a: Carolina Lozano (neutro) · 2 interacciones · 182 vistas
+[2f942e851a] 2026-11-10 20:52 UTC · youtube · @ (diariocorreoec) · neutro · Respuesta del Gobierno · aspecto: Comunicación e información · dirigido a: Carolina Lozano (neutro) · 4 interacciones · 275 vistas
     #EntrevistaEnVivo | Carolina Lozano Haro Ministra Secretaria Nacional de Gestión de Riesgos
     Entrevista a Carolina Lozano, Ministra Secretaria Nacional de Gestión de Riesgos.
     idea: Las autoridades informan sobre la gestión de riesgos
@@ -1150,7 +1269,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     ¿Cómo pueden los afectados por El Niño solicitar el alivio de sus deudas en Ecuador?
     Pasos e información para que afectados por El Niño soliciten el alivio de sus deudas.
 
-[2edbb5b82c] 2026-11-10 20:19 UTC · youtube · @ (RTP ECUADOR) · neutro · Prevención y alertas · Guayas · aspecto: Prevención y alertas · dirigido a: Municipio o Prefectura (positivo) · 28 vistas
+[2edbb5b82c] 2026-11-10 20:19 UTC · youtube · @ (RTP ECUADOR) · neutro · Prevención y alertas · Guayas · aspecto: Prevención y alertas · dirigido a: Municipio o Prefectura (positivo) · 30 vistas
     Alcalde de Samborondón, Juan José Yúnez
     Alcalde de Samborondón detalla acciones frente al fenómeno de El Niño.
     idea: El municipio ejecuta acciones de prevención
@@ -1296,7 +1415,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: Los municipios gobernaron sin visión ni planificación
     Guayaquil, Durán, Samborondón construidos con cero planificación. Gobernado por años por ineptos, ignorantes, incapcitados. Ningún gobernante tuvo visión de futuro, solo llevarse el dinero.
 
-[f924f3e859] 2026-11-10 17:48 UTC · youtube · @ (Ecuavisa) · neutro · Lluvias e inundaciones · Manabí · 23 interacciones · 3793 vistas
+[f924f3e859] 2026-11-10 17:48 UTC · youtube · @ (Ecuavisa) · neutro · Lluvias e inundaciones · Manabí · 23 interacciones · 3862 vistas
     Ríos desbordados e inundaciones en Manabí por El Niño | En Contacto | Ecuavisa
     Lluvias por El Niño provocan desbordamiento de ríos e inundaciones en Manabí y Guayas.
     Las intensas lluvias causadas por el fenómeno de El Niño han provocado el desbordamiento de ríos en Manabí y Guayas, ...
@@ -1305,7 +1424,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Ecuador activa 164 brigadas médicas por las lluvias y El Fenómeno del Niño.
     Ecuador despliega 164 brigadas médicas para atender los impactos de El Niño.
 
-[4586b3e096] 2026-11-10 17:30 UTC · youtube · @ (Al borde) · neutro · Lluvias e inundaciones · Santa Elena · 5 interacciones · 312 vistas
+[4586b3e096] 2026-11-10 17:30 UTC · youtube · @ (Al borde) · neutro · Lluvias e inundaciones · Santa Elena · 23 interacciones · 1678 vistas
     Salinas: Las Torres Frente al Mar Se Quedan Sin Playa — Y el Mar Ya Cruzó el Malecón
     Salinas sin playa y mar cruza el malecón por aguaje.
     idea: El mar afecta el malecón por aguaje
@@ -1602,7 +1721,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Olas de hasta 2,30 metros se esperan en Ecuador por oleaje y aguaje
     Prevén olas de hasta 2,30 metros en Ecuador por oleaje y aguaje.
 
-[9813c5a78d] 2026-11-10 12:21 UTC · youtube · @ (Instruir en Línea) · neutro · Prevención y alertas · aspecto: Coordinación entre instituciones · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 12 interacciones · 1954 vistas
+[9813c5a78d] 2026-11-10 12:21 UTC · youtube · @ (Instruir en Línea) · neutro · Prevención y alertas · aspecto: Coordinación entre instituciones · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 12 interacciones · 2044 vistas
     Nuevas actividades Secretaria Nacional de Gestión de Riesgos Jóvenes en Acción
     Actividades de la Secretaría de Gestión de Riesgos con el programa Jóvenes en Acción.
     idea: La Secretaría impulsa programas de capacitación
@@ -2044,136 +2163,3 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Reconocimiento al trabajo en territorio de la Gobernación y la SNGR.
     idea: La Secretaría está desplegada en el territorio
     @GoberManabi @Riesgos_Ec @MinTrabajoEc Siempre trabajando en territorio Sra Gobernadora 💜💜💪🏻🇪🇨
-
-[d6d089bfa0] 2026-11-09 23:14 UTC · x · @LaPosta_Ecu (La Posta) · positivo · Ayuda humanitaria · Galápagos · aspecto: Llegada de la ayuda · dirigido a: Secretaría de Gestión de Riesgos (positivo) · pide: Salud · 1410 vistas · cuenta con 456241 seguidores
-    Entregan toldos y repelentes en Santa Cruz para prevenir enfermedades por inundaciones.
-    idea: La ayuda humanitaria llega a los afectados
-    En Santa Cruz las autoridades iniciaron la entrega de toldos impregnados y repelentes a las familias afectadas por las inundaciones, con el objetivo de prevenir picaduras y reducir el riesgo de enfermedades. Además, del 9 al 13 de noviembre se realizarán jornadas de fumigación en
-
-[9114241440] 2026-11-09 23:03 UTC · medios · Diario Extra · neutro · Lluvias e inundaciones
-    Lluvias en Ecuador: estos son los 20 ríos desbordados en la Costa
-    Reportan 20 ríos desbordados en la Costa ecuatoriana.
-
-[62125d70de] 2026-11-09 23:00 UTC · youtube · @ (Ecuavisa) · neutro · Lluvias e inundaciones · 29 interacciones · 5201 vistas
-    Inundaciones, emergencias y estragos en las provincias | El Niño Televistazo | Ecuavisa
-    Noticiero informa sobre inundaciones y emergencias por el fenómeno de El Niño.
-    idea: El invierno causa emergencias en todo el país
-    Las intensas lluvias y el avance del Fenómeno de El Niño continúan generando emergencias a nivel nacional. En esta emisión ...
-
-[7383c20357] 2026-11-09 22:56 UTC · medios · El Telégrafo (por eliminar) · positivo · Ayuda humanitaria · Los Ríos · aspecto: Llegada de la ayuda · dirigido a: Gobierno central (positivo)
-    Gobierno entrega 1.778 bombas de agua a agricultores afectados por las inundaciones
-    Gobierno entrega bombas de agua a agricultores afectados por inundaciones.
-    idea: El Gobierno entrega ayuda a los agricultores afectados
-
-[1f7170dfad] 2026-11-09 22:55 UTC · x · @LaPosta_Ecu (La Posta) · positivo · Respuesta del Gobierno · Manabí · aspecto: Liderazgo de Carolina Lozano · dirigido a: Carolina Lozano (positivo) · 1 interacciones · 1509 vistas · cuenta con 456240 seguidores
-    Carolina Lozano dispone instalar Puesto de Mando Unificado en Manabí.
-    idea: La secretaria coordina la respuesta interinstitucional en territorio
-    Manabí tendrá un Puesto de Mando Unificado para coordinar la respuesta ante las emergencias generadas por el fenómeno de El Niño. La secretaria nacional de Gestión de Riesgos, Carolina Lozano, dispuso su instalación junto a la Gobernación de la provincia, con el despliegue de téc
-
-[f413f36204] 2026-11-09 22:49 UTC · x · @GoberManabi (Gᴏʙᴇʀɴᴀᴄɪᴏ́ɴ ᴅᴇ Mᴀɴᴀʙɪ́) · positivo · Afectados y damnificados · Manabí · aspecto: Presencia en territorio · dirigido a: Secretaría de Gestión de Riesgos (positivo) · pide: Alimentos · 34 interacciones · 279 vistas · cuenta con 71463 seguidores
-    Gobernación recorre Montecristi y anuncia asistencia a 100 familias con la SNGR.
-    idea: Las autoridades están presentes en el territorio
-    Recorrimos los sectores de Leónidas Proaño y Colorado, en Montecristi, para constatar las afectaciones ocasionadas por la intensa lluvia registrada. Más de 100 familias resultaron afectadas y recibirán asistencia humanitaria a través de @Riesgos_Ec y @MinTrabajoEc https://t.co/yB
-
-[a962b038e6] 2026-11-09 22:44 UTC · medios · El Universo · neutro · Prevención y alertas · Guayas
-    ¿En qué cantones de la Costa se prevén lluvias y lloviznas la noche del lunes 9 de noviembre y la madrugada del martes 10?
-    Pronóstico de lluvias y lloviznas en cantones de la Costa.
-
-[c0fc163928] 2026-11-09 22:41 UTC · x · @segura_ep (Segura EP - C5GYE) · positivo · Afectados y damnificados · Guayas · aspecto: Presencia en territorio · dirigido a: Municipio o Prefectura (positivo) · pide: Alimentos · 3 interacciones · 1254 vistas · cuenta con 206260 seguidores
-    Realizan evaluación de necesidades en Guayaquil para entrega de asistencia humanitaria.
-    idea: Estamos en territorio ayudando a quienes más lo necesitan
-    Agentes de Control Municipal de #SeguraEP, en coordinación con la Gerencia de Gestión de Riesgos, realizan la Evaluación Inicial de Necesidades frente a eventos adversos y desastres (EVIN) en el sector de Las Orquídeas. El objetivo es determinar las necesidades de cada familia pa
-
-[fad551aafb] 2026-11-09 22:34 UTC · medios · Teleamazonas · neutro · Educación · Galápagos · dirigido a: Gobierno central (neutro)
-    Clases en Galápagos serán en modalidad híbrida desde el martes 10 de noviembre
-    Clases en Galápagos pasan a modalidad híbrida este martes 10.
-    idea: Se modifica la modalidad de clases en la provincia
-
-[e2cd2441de] 2026-11-09 22:34 UTC · youtube · @ (Maximiliano Moreno Hidalgo-Dr. Tigre) · neutro · Lluvias e inundaciones · 29 vistas
-    El impacto del Fenómeno del Niño en el Ecuador del 2026
-    Análisis sobre el impacto del Fenómeno de El Niño en 2026.
-
-[41e2a54064] 2026-11-09 22:31 UTC · x · @carolozanohok (Carolina Lozano) · positivo · Respuesta del Gobierno · Manabí · aspecto: Coordinación entre instituciones · dirigido a: Carolina Lozano (positivo) · 84 interacciones · 12654 vistas · cuenta con 57900 seguidores
-    Carolina Lozano dispone activación de PMU en Manabí para coordinar respuesta a emergencias.
-    idea: Se activa el puesto de mando unificado
-    He dispuesto la activación de un Puesto de Mando Unificado en Manabí, liderado por la Secretaría Nacional de Gestión de Riesgos junto a la @GoberManabi, para coordinar la respuesta a las emergencias. Contamos con: • 12 técnicos de la SNGR. • 15 bomberos. • 20 funcionarios del MTD
-
-[5266224a06] 2026-11-09 22:30 UTC · youtube · @ (Noticias Tumbes) · neutro · Educación · Manabí · pide: Información y alertas · 23 interacciones · 1122 vistas
-    Estudiantes llegaron a clases y fueron enviados de regreso a casa | #ecuador #lluvias #viral
-    Estudiantes de Montecristi son regresados a sus casas por afectación de lluvias.
-    Algunos estudiantes acudieron a una institución educativa del sector Tierra Santa, en Montecristi, pero fueron regresados a sus ...
-
-[b11e06fedf] 2026-11-09 22:28 UTC · medios · Primicias · neutro · Educación · Galápagos · dirigido a: Gobierno central (neutro)
-    Clases en la isla Santa Cruz, en Galápagos, serán híbridas desde el 10 de noviembre
-    Clases en isla Santa Cruz serán en modalidad híbrida desde el 10 de noviembre.
-    idea: Las clases continúan de forma híbrida
-
-[99260a7838] 2026-11-09 22:19 UTC · medios · Metro Ecuador · neutro · Educación · Galápagos · dirigido a: Gobierno central (neutro)
-    Clases en Galápagos serán híbridas desde el 10 de noviembre: el 61 % de estudiantes volverá a las aulas
-    Clases en Galápagos serán híbridas; 61% de estudiantes vuelve a aulas.
-    idea: Se implementa educación híbrida ante la temporada invernal
-
-[3481688ebd] 2026-11-09 22:19 UTC · medios · El Diario · neutro · Agricultura y producción · Manabí · dirigido a: Municipio o Prefectura (neutro)
-    Comerciantes de la Alajuela piden bahía comercial ante temor al invierno
-    Comerciantes piden bahía comercial ante temor al invierno en Alajuela.
-    idea: Los comerciantes temen perder sus productos por el invierno
-
-[232a08570b] 2026-11-09 22:18 UTC · x · @ECU911Ambato (Coordinación Zonal 3 ECU 911 Ambato) · positivo · Deslaves y vías · Chimborazo · aspecto: Rapidez de la respuesta · dirigido a: Secretaría de Gestión de Riesgos (positivo) · pide: Maquinaria y limpieza · 12 interacciones · 293 vistas · cuenta con 26532 seguidores
-    Coordinan atención de deslizamiento en Chimborazo y habilitan la vía Penipe-Cahuají.
-    idea: Atención oportuna de vías afectadas
-    📍 #Chimborazo | Desde el @ECU911_ se coordinó con @Riesgos_Ec la atención de un deslizamiento de tierra que afectó la vía Penipe–Cahuají. 🚨 🚜 Personal y maquinaria realizaron los trabajos de limpieza y retiro de material pétreo para recuperar la circulación vehicular. 🚗 La vía se
-
-[93843b163c] 2026-11-09 22:15 UTC · medios · El Universo · neutro · Deslaves y vías · Pichincha · dirigido a: Bomberos y Cruz Roja (neutro)
-    Caída de un árbol aplasta un vehículo y complica el tránsito en la avenida Mariscal Sucre en Quito
-    Caida de arbol complica transito en avenida de Quito.
-    La emergencia ocurrió en el redondel de Miraflores, en la intersección con la avenida Universitaria. Dos carriles fueron cerrados en sentido norte-sur.
-
-[8092cefddc] 2026-11-09 22:05 UTC · youtube · @ (Radio Ecuantena) · neutro · Lluvias e inundaciones · Santa Elena · 28 interacciones · 1348 vistas
-    🐦 Miles de pájaros sin rumbo en Santa Elena y Manabí por fuertes lluvias y tormentas eléctricas
-    Miles de pájaros desorientados por tormentas en Santa Elena y Manabí.
-    Tendencia Ante las fuertes lluvias y tormentas eléctricas, miles de pájaros fueron vistos sin rumbo en partes de la provincia de ...
-
-[b462c87b4e] 2026-11-09 22:05 UTC · medios · FM Mundo · neutro · Educación · Galápagos · dirigido a: Gobierno central (neutro)
-    Santa Cruz retoma las clases en modalidad híbrida desde este 10 de noviembre
-    Santa Cruz retoma clases en modalidad híbrida desde el 10 de noviembre.
-    idea: Las clases pasan a modalidad híbrida por precaución
-
-[52a1f55b6a] 2026-11-09 22:04 UTC · x · @LissettePi24722 (Lissette Pino) · positivo · Afectados y damnificados · Manabí · aspecto: Presencia en territorio · dirigido a: Secretaría de Gestión de Riesgos (positivo) · cuenta con 13 seguidores · es respuesta/comentario
-    Ciudadana felicita el trabajo en territorio en Montecristi junto a la SNGR.
-    idea: Excelente trabajo en territorio
-    @GoberManabi @avalleec @DanielNoboaOk @Riesgos_Ec Excelente trabajo en territorio Sra Gobernadora 💜💜🇪🇨
-
-[63b4084c9e] 2026-11-09 22:00 UTC · youtube · @ (WE Canal) · neutro · Afectados y damnificados · dirigido a: Gobierno central (critico) · pide: Albergue · 1 interacciones · 61 vistas
-    El Fenómeno de El Niño golpea a Ecuador: más de 10 muertos y miles de familias afectadas
-    El fenómeno de El Niño deja más de 10 muertos y miles de afectados en Ecuador.
-    idea: El impacto de El Niño deja víctimas y destrucción
-    El Fenómeno de El Niño golpea con fuerza a Ecuador. Los ríos desbordados, las viviendas inundadas y las casas destruidas ...
-
-[6d0c338b82] 2026-11-09 21:58 UTC · x · @contraluzec_ (Contraluz | Política, Economía y más) · neutro · Lluvias e inundaciones · Manabí · aspecto: Presencia en territorio · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 130 vistas · cuenta con 68153 seguidores
-    SNGR informa despliegue operativo en Montecristi por inundaciones del fenómeno de El Niño.
-    idea: Se despliegan equipos para atender inundaciones
-    #Manabí | La Secretaría Nacional de Gestión de Riesgos (@Riesgos_Ec) informó que bomberos, militares, policías y personal técnico se desplegaron en Montecristi, Manabí, para atender las inundaciones asociadas al fenómeno de El Niño. Cerca de 100 familias resultaron afectadas, seg
-
-[cda5bf16ab] 2026-11-09 21:56 UTC · medios · Teleamazonas · neutro · Prevención y alertas
-    ¿Que pasará en la Sierra con El Niño?
-    Análisis sobre el impacto de El Niño en la región Sierra.
-    idea: Se evalúan los posibles efectos de El Niño
-
-[d695b64035] 2026-11-09 21:50 UTC · x · @altavozecu_ (Altavoz Ec) · positivo · Lluvias e inundaciones · Manabí · aspecto: Rapidez de la respuesta · dirigido a: Secretaría de Gestión de Riesgos (positivo) · 1 interacciones · 419 vistas · cuenta con 89588 seguidores
-    Gobierno activa evaluación en Montecristi para atender a familias afectadas por inundaciones.
-    idea: Gobierno activa evaluación para atender a los afectados
-    ¡GOBIERNO ACTIVA EVALUACIÓN PARA ATENDER A 100 FAMILIAS! 🚨 La Secretaría Nacional de Gestión de Riesgos (SNGR) se desplegó en Montecristi, Manabí, para evaluar las afectaciones provocadas por las inundaciones que impactaron a aproximadamente 100 familias. Los sectores afectados i
-
-[9476853ba4] 2026-11-09 21:47 UTC · youtube · @ (Maximiliano Moreno Hidalgo-Dr. Tigre) · neutro · Otro · 5 vistas
-    El impacto en Ecuador del Fenómeno del Niño de 1940
-    Video histórico sobre el impacto del Fenómeno del Niño de 1940 en Ecuador.
-
-[b810ecb43c] 2026-11-09 21:43 UTC · medios · Teleamazonas · neutro · Prevención y alertas · Guayas · dirigido a: Municipio o Prefectura (neutro)
-    Guayaquil mantiene monitoreo del clima tras las lluvias y el inicio de aguaje de noviembre
-    Guayaquil mantiene monitoreo del clima tras lluvias y aguaje.
-    idea: Las autoridades monitorean el clima constantemente
-
-[54a442fc68] 2026-11-09 21:39 UTC · x · @marconiicedeno (Marconi Israel Cedeño Pico) · positivo · Afectados y damnificados · Manabí · aspecto: Presencia en territorio · dirigido a: Municipio o Prefectura (positivo) · 1 vistas · cuenta con 1 seguidores · es respuesta/comentario
-    Reconocimiento a la labor de la gobernación de Manabí ante las emergencias.
-    idea: Muy bien la gobernación en territorio
-    @GoberManabi @avalleec @DanielNoboaOk @Riesgos_Ec Muy bien gobernación de Manabí.
