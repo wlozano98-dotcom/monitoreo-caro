@@ -1,28 +1,62 @@
 {
   "vinetas": [
-    "Conversación casi toda neutra: 86 notas de medios y 37 videos de YouTube en 24 h; sin datos de X, TikTok ni Facebook.",
-    "Promar TV y un video de YouTube cifran 12 fallecidos; Promar suma más de 64.000 afectados desde agosto. No hay cifra oficial SNGR en piezas.",
-    "Ocho ríos desbordados y 12 subiendo (El Universo, Teleamazonas); Inamhi alerta lluvias hasta el domingo 15 en la Costa.",
-    "La Secretaría casi no aparece como fuente: la ayuda la firma el Gobierno (12 provincias, bono en Caluma y Las Naves)."
+    "Medios reportan ocho inundaciones y dos aluviones en cuatro provincias; El Universo destaca el monitoreo de la SNGR.",
+    "Las cifras de afectados difieren entre medios: 45.000 (Radio Pichincha, Ecuavisa), 57.000 (Radio Miraflores) y 64.000 (Infobae, Promar TV).",
+    "Galápagos sigue en foco: la alerta en tres islas la replican Infobae y medios de Perú y Paraguay; San Cristóbal, otra vez inundada.",
+    "Menos cobertura: 80 notas de medios en 24 h frente a 109; bonos de USD 303,99 se atribuyen al Gobierno, la SNGR aparece poco."
   ],
   "fuentes_vinetas": [
-    [],
-    ["3d8d1bba39", "f0047ca292"],
-    ["550ae8bc5a", "1e1073c87b", "b61458f123", "f6ceb11112"],
-    ["b31f71ea4d", "256b7f96bd", "89fc7b39ba"]
+    ["ce6fd69b7b", "e4fd07fb9a", "9df85936be", "72dd480bac", "f1cfd3b483"],
+    ["66c96c58e2", "f36746a933", "157c1744ff", "0cf7a311cb", "3d8d1bba39"],
+    ["9ba6c0f4ea", "bb8e1de652", "420330a3b7", "ed7aee8c79", "0887fac89f"],
+    ["b31f71ea4d", "13fa3797c1", "256b7f96bd", "32b20de492"]
   ],
   "acciones": [
-    {"accion": "Publicar hoy en web y redes SNGR el balance oficial: fallecidos, afectados, ríos desbordados.", "porque": "Medios ya difunden 12 fallecidos y más de 64.000 afectados sin cifra oficial citada; ocho ríos desbordados y 12 subiendo.", "base_legal": "Art. 61 y 72", "fuentes": ["3d8d1bba39", "f0047ca292", "550ae8bc5a"]},
-    {"accion": "Pedir a COE de Manta y Caluma reubicar familias en riesgo; ofrecer apoyo subsidiario SNGR.", "porque": "El Comercio: 18 incidencias en Manta; Teleamazonas: familias siguen en viviendas riesgosas tras crecida en Charquiyacu, Caluma.", "base_legal": "Art. 13, 21.4 y 29", "fuentes": ["0bddd51aa9", "a289f0885f", "d89f12d8f8"]},
-    {"accion": "Difundir con Inamhi e Inocar mensaje SNGR para Costa y Galápagos hasta el domingo 15.", "porque": "Inamhi alerta lluvias hasta el 15, Inocar mareas altas 12-15 y alerta en tres islas de Galápagos replicada por Infobae.", "base_legal": "Art. 61, 62 y 64.6", "fuentes": ["b61458f123", "4fd0f35c67", "9ca066b011", "bb8e1de652"]}
+    {
+      "accion": "Apoyar a municipios de Yaguachi y Milagro con fichas EVIN y difundir avance hoy.",
+      "porque": "Yaguachi suspendió clases por inundaciones; en Milagro, RTS reporta tercera inundación del barrio San Miguel 2 y vecinos sin ayuda.",
+      "base_legal": "Art. 14 y 68",
+      "fuentes": ["4ad477abc6", "b0be36dd09", "dbd9b20f33", "ce5fed617c"]
+    },
+    {
+      "accion": "Publicar en web y redes la cifra oficial de afectados y fallecidos con corte.",
+      "porque": "Medios publican 45.000, 57.000 y 64.000 afectados; Infobae y medios extranjeros replican cifras distintas.",
+      "base_legal": "Art. 61, 72 y 73",
+      "fuentes": ["66c96c58e2", "157c1744ff", "0cf7a311cb", "3d8d1bba39"]
+    },
+    {
+      "accion": "Emitir lineamiento a GAD: ayuda humanitaria sin imagen ni nombre de candidatos en campaña.",
+      "porque": "Radio Pichincha: arrancó el 12 de noviembre la campaña exprés de 15 días, que prohíbe dádivas y uso de recursos públicos.",
+      "base_legal": "Art. 14, 23.4 y 78.5",
+      "fuentes": ["f9e366da65", "610c1da34c"]
+    }
   ],
   "narrativas": [
-    {"titulo": "Galápagos vuelve a estar bajo alerta", "explicacion": "Ecuavisa, El Comercio, Teleamazonas, Primicias e Infobae, más medios de Perú y Paraguay, replican la alerta en tres islas y el cierre de dos sitios en San Cristóbal. El eco internacional amplifica cualquier falla tras Santa Cruz.", "ids": ["39cf14426f", "9ba6c0f4ea", "420330a3b7", "bb8e1de652", "ed7aee8c79", "9ca066b011", "ea1d3460d9", "69fe481167", "fad6d3816d", "6c42720dec", "eaf255bbef"]},
-    {"titulo": "Lo peor de El Niño todavía no llega", "explicacion": "El Comercio recoge a NOAA (El Niño muy fuerte en 2027, sin Súper Niño), Primicias cita a Fitch y canales de YouTube preguntan si será histórico o como 1997. Oportunidad para que la Secretaría guíe la preparación; riesgo de miedo sin mensaje oficial.", "ids": ["d81a0ddf82", "c42b893e78", "73c9204d32", "80caee387a", "e2691c5731", "958909ffb4", "5b7d3f74b6", "997a7dd40e"]},
-    {"titulo": "El Gobierno llega con bonos, vuelos y kits", "explicacion": "El Universo reporta ayuda ampliada a 12 provincias; Vistazo y Metro explican el bono de USD 303,99 y la ficha EVIN; Noboa no descarta emitir bonos y se difieren créditos 90 días. La imagen es del Gobierno; la SNGR casi no aparece.", "ids": ["b31f71ea4d", "256b7f96bd", "13fa3797c1", "6f40c0a33d", "32b20de492", "04404ecd75", "ce5fed617c", "b0814842e7", "04689e9622"]},
-    {"titulo": "En Manabí piden ayuda y preguntan por Riesgos", "explicacion": "El Comercio reporta 18 incidencias en Manta, Teleamazonas alerta en San Mateo y Extra cuenta un rescate en una quebrada; en Portoviejo temen nuevas inundaciones. Riesgo de percepción de abandono si la presencia de la SNGR no se ve.", "ids": ["0bddd51aa9", "a289f0885f", "50444f7dbc", "063da1c43c", "bbeefde098", "acf4558689", "8252781fa5"]},
-    {"titulo": "Critican a los GAD por drenajes y obras", "explicacion": "Vecinos de Portoviejo y Manabí reclaman obras y lodo del plan Triple AAA, en Machala piden maquinaria y en Los Ríos la basura eleva el riesgo; comentarios en el canal Millones al Agua culpan al municipio de Samborondón. Apunta a los GAD, no a la Secretaría.", "ids": ["a2ed582dec", "c2cfe99577", "7522a4ab29", "6fa6570d71", "897c3c8a5f", "0f61e436cc", "5481a7f670"]},
-    {"titulo": "El Niño encarece la comida y los materiales", "explicacion": "Teleamazonas muestra plagas tras inundaciones y cultivos vulnerables, La Hora reporta 1.302 ha afectadas en Los Ríos y El Universo el impacto en el banano. No apunta a la Secretaría, pero amplía el malestar.", "ids": ["57babedec8", "3d636ae4ea", "e7e6f46b81", "a2758c3134", "798e7bb9cf"]}
+    {
+      "titulo": "Galápagos vuelve a estar bajo alerta",
+      "explicacion": "El Comercio, Ecuavisa, Infobae y medios de Perú y Paraguay replican la alerta en tres islas; Teleamazonas muestra San Cristóbal otra vez inundada y La Hora reporta ayuda en Santa Cruz. El eco internacional exige información oficial constante desde la Secretaría.",
+      "ids": ["9ba6c0f4ea", "39cf14426f", "bb8e1de652", "ed7aee8c79", "420330a3b7", "ea1d3460d9", "d464a7995f", "69fe481167", "fad6d3816d", "6c42720dec", "0887fac89f", "1348e10b8c", "eaf255bbef", "9ca066b011", "76919e3811"]
+    },
+    {
+      "titulo": "La Costa se inunda otra vez y teme más",
+      "explicacion": "Yaguachi suspende clases, Milagro suma su tercera inundación con vecinos que dicen no recibir ayuda, la vía Babahoyo-Jujan tiene 39 cm de agua y en Manta y Portoviejo temen nuevas crecidas. Riesgo de percepción de abandono si la Secretaría no se ve en territorio.",
+      "ids": ["4ad477abc6", "b0be36dd09", "dbd9b20f33", "b3416b2fa7", "88abe6bec5", "34f7ac5b45", "a289f0885f", "0bddd51aa9", "8252781fa5", "acf4558689", "063da1c43c"]
+    },
+    {
+      "titulo": "Lo peor de El Niño todavía no llega",
+      "explicacion": "El Comercio y El Universo recogen a NOAA (El Niño muy fuerte en 2027, sin Súper Niño), Primicias cita a Fitch y canales de YouTube comparan con 1997. Oportunidad para que la Secretaría guíe la preparación; riesgo de miedo sin mensaje oficial.",
+      "ids": ["d81a0ddf82", "41c4ab5b17", "a3587cd4e6", "bb33cee8aa", "49f2fbc0bf", "73c9204d32", "80caee387a", "c42b893e78", "e2691c5731", "2088eae9bc"]
+    },
+    {
+      "titulo": "El Gobierno llega con bonos, vuelos y kits",
+      "explicacion": "El Universo reporta ayuda ampliada a 12 provincias, Vistazo, Metro y La Prensa explican el bono de USD 303,99 y el MDH lo habilita en Las Naves y Caluma. La imagen de la ayuda es del Gobierno; la Secretaría casi no aparece.",
+      "ids": ["b31f71ea4d", "256b7f96bd", "13fa3797c1", "6f40c0a33d", "32b20de492", "04404ecd75", "7b1ac63c39", "b0814842e7", "04689e9622", "a839ae4752"]
+    },
+    {
+      "titulo": "Critican a los GAD por drenajes y obras",
+      "explicacion": "Ecuavisa muestra el alcantarillado colapsado en Durán, La Hora culpa a la basura en Los Ríos, vecinos de Portoviejo y Montecristi reclaman obras y en Machala piden maquinaria. Apunta a los GAD, no a la Secretaría.",
+      "ids": ["33bc2117e1", "6fa6570d71", "a2ed582dec", "c2cfe99577", "7522a4ab29", "897c3c8a5f", "0f61e436cc"]
+    }
   ],
   "rumores": [],
   "hitos": []
