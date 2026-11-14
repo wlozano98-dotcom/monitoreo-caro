@@ -1,63 +1,33 @@
 {
   "vinetas": [
-    "Medios reportan ocho inundaciones y dos aluviones en cuatro provincias; El Universo destaca el monitoreo de la SNGR.",
-    "Las cifras de afectados difieren entre medios: 45.000 (Radio Pichincha, Ecuavisa), 57.000 (Radio Miraflores) y 64.000 (Infobae, Promar TV).",
-    "Galápagos sigue en foco: la alerta en tres islas la replican Infobae y medios de Perú y Paraguay; San Cristóbal, otra vez inundada.",
-    "Menos cobertura: 80 notas de medios en 24 h frente a 109; bonos de USD 303,99 se atribuyen al Gobierno, la SNGR aparece poco."
+    "Tormenta del viernes en Guayaquil: un taxista murió en la vía a Daule y padre e hijo desaparecieron en una zanja.",
+    "Guayas concentra el desborde: El Comercio cuenta siete ríos y esteros; Teleamazonas, 12 en tres provincias. Milagro, 60 % bajo agua.",
+    "YouTube sube de 37 a 84 piezas; bajo el video de Jairala (12.882 vistas) unos culpan a Noboa y otros al Municipio.",
+    "Inamhi anticipa el pico de lluvias en Guayaquil desde la tarde de este sábado 14; alerta roja en Manabí, Esmeraldas y Galápagos."
   ],
   "fuentes_vinetas": [
-    ["ce6fd69b7b", "e4fd07fb9a", "9df85936be", "72dd480bac", "f1cfd3b483"],
-    ["66c96c58e2", "f36746a933", "157c1744ff", "0cf7a311cb", "3d8d1bba39"],
-    ["9ba6c0f4ea", "bb8e1de652", "420330a3b7", "ed7aee8c79", "0887fac89f"],
-    ["b31f71ea4d", "13fa3797c1", "256b7f96bd", "32b20de492"]
+    ["0abae5120f", "398cc3aad3", "7e5134c2cf", "9fb1ce35d8", "9c1777ceed", "b33db38296"],
+    ["5c403cb2ac", "d6fa46920c", "9a548d31c7"],
+    ["e9d53a2f20", "9d3acf1148", "8d79af6275", "87a1f1a3d9", "fd635ee267", "bb29c14bc0"],
+    ["67fb45a439", "0856016200", "3a9b22b763", "6df3ecd106"]
   ],
   "acciones": [
-    {
-      "accion": "Apoyar a municipios de Yaguachi y Milagro con fichas EVIN y difundir avance hoy.",
-      "porque": "Yaguachi suspendió clases por inundaciones; en Milagro, RTS reporta tercera inundación del barrio San Miguel 2 y vecinos sin ayuda.",
-      "base_legal": "Art. 14 y 68",
-      "fuentes": ["4ad477abc6", "b0be36dd09", "dbd9b20f33", "ce5fed617c"]
-    },
-    {
-      "accion": "Publicar en web y redes la cifra oficial de afectados y fallecidos con corte.",
-      "porque": "Medios publican 45.000, 57.000 y 64.000 afectados; Infobae y medios extranjeros replican cifras distintas.",
-      "base_legal": "Art. 61, 72 y 73",
-      "fuentes": ["66c96c58e2", "157c1744ff", "0cf7a311cb", "3d8d1bba39"]
-    },
-    {
-      "accion": "Emitir lineamiento a GAD: ayuda humanitaria sin imagen ni nombre de candidatos en campaña.",
-      "porque": "Radio Pichincha: arrancó el 12 de noviembre la campaña exprés de 15 días, que prohíbe dádivas y uso de recursos públicos.",
-      "base_legal": "Art. 14, 23.4 y 78.5",
-      "fuentes": ["f9e366da65", "610c1da34c"]
-    }
+    {"accion": "Emitir antes del mediodía aviso SNGR para Guayaquil: alejarse de zanjas, canales y calles anegadas.", "porque": "Inamhi prevé el pico el sábado 14 en la tarde; el viernes murió un taxista y padre e hijo cayeron a una zanja.", "base_legal": "Art. 61 y 62", "fuentes": ["67fb45a439", "0856016200", "0abae5120f", "9fb1ce35d8", "a8fb29ffe4"]},
+    {"accion": "Enviar delegado SNGR al Puesto de Mando de Milagro y ofrecer apoyo subsidiario al COE cantonal.", "porque": "Milagro tiene el 60 % de la cabecera bajo agua; vecinos de San Miguel 2 reportan tercera inundación y falta de ayuda.", "base_legal": "Art. 13, 14 y 21.4", "fuentes": ["9a548d31c7", "056f3f9a2f", "dbd9b20f33", "e4f21da0c9"]},
+    {"accion": "Publicar corte oficial con hora de ríos desbordados y afectados para unificar cifras en medios.", "porque": "Medios dan siete, 11 y 12 ríos desbordados; afectados varían entre 45.000, 57.000 y 64.000 según el medio.", "base_legal": "Art. 61 y 72", "fuentes": ["5c403cb2ac", "56fff2c809", "d6fa46920c", "47476217b8", "157c1744ff", "1c335edf3d"]}
   ],
   "narrativas": [
-    {
-      "titulo": "Galápagos vuelve a estar bajo alerta",
-      "explicacion": "El Comercio, Ecuavisa, Infobae y medios de Perú y Paraguay replican la alerta en tres islas; Teleamazonas muestra San Cristóbal otra vez inundada y La Hora reporta ayuda en Santa Cruz. El eco internacional exige información oficial constante desde la Secretaría.",
-      "ids": ["9ba6c0f4ea", "39cf14426f", "bb8e1de652", "ed7aee8c79", "420330a3b7", "ea1d3460d9", "d464a7995f", "69fe481167", "fad6d3816d", "6c42720dec", "0887fac89f", "1348e10b8c", "eaf255bbef", "9ca066b011", "76919e3811"]
-    },
-    {
-      "titulo": "La Costa se inunda otra vez y teme más",
-      "explicacion": "Yaguachi suspende clases, Milagro suma su tercera inundación con vecinos que dicen no recibir ayuda, la vía Babahoyo-Jujan tiene 39 cm de agua y en Manta y Portoviejo temen nuevas crecidas. Riesgo de percepción de abandono si la Secretaría no se ve en territorio.",
-      "ids": ["4ad477abc6", "b0be36dd09", "dbd9b20f33", "b3416b2fa7", "88abe6bec5", "34f7ac5b45", "a289f0885f", "0bddd51aa9", "8252781fa5", "acf4558689", "063da1c43c"]
-    },
-    {
-      "titulo": "Lo peor de El Niño todavía no llega",
-      "explicacion": "El Comercio y El Universo recogen a NOAA (El Niño muy fuerte en 2027, sin Súper Niño), Primicias cita a Fitch y canales de YouTube comparan con 1997. Oportunidad para que la Secretaría guíe la preparación; riesgo de miedo sin mensaje oficial.",
-      "ids": ["d81a0ddf82", "41c4ab5b17", "a3587cd4e6", "bb33cee8aa", "49f2fbc0bf", "73c9204d32", "80caee387a", "c42b893e78", "e2691c5731", "2088eae9bc"]
-    },
-    {
-      "titulo": "El Gobierno llega con bonos, vuelos y kits",
-      "explicacion": "El Universo reporta ayuda ampliada a 12 provincias, Vistazo, Metro y La Prensa explican el bono de USD 303,99 y el MDH lo habilita en Las Naves y Caluma. La imagen de la ayuda es del Gobierno; la Secretaría casi no aparece.",
-      "ids": ["b31f71ea4d", "256b7f96bd", "13fa3797c1", "6f40c0a33d", "32b20de492", "04404ecd75", "7b1ac63c39", "b0814842e7", "04689e9622", "a839ae4752"]
-    },
-    {
-      "titulo": "Critican a los GAD por drenajes y obras",
-      "explicacion": "Ecuavisa muestra el alcantarillado colapsado en Durán, La Hora culpa a la basura en Los Ríos, vecinos de Portoviejo y Montecristi reclaman obras y en Machala piden maquinaria. Apunta a los GAD, no a la Secretaría.",
-      "ids": ["33bc2117e1", "6fa6570d71", "a2ed582dec", "c2cfe99577", "7522a4ab29", "897c3c8a5f", "0f61e436cc"]
-    }
+    {"titulo": "La Costa se inunda otra vez y teme más", "explicacion": "Teleamazonas, El Comercio y El Universo muestran Milagro al 60 % bajo agua, clases suspendidas en Yaguachi y la vía Babahoyo-Jujan con 39 cm; vecinos de Milagro hablan de tercera inundación sin ayuda. Riesgo de percepción de abandono si la Secretaría no se ve en territorio.", "ids": ["9a548d31c7", "e4f21da0c9", "dbd9b20f33", "00da8be5d1", "4ad477abc6", "b3416b2fa7", "6f8a262a1f", "5c403cb2ac", "d6fa46920c"]},
+    {"titulo": "Guayaquil inundada: culpan a Noboa o al Municipio", "explicacion": "Bajo el video de Jairala sobre el colapso de Guayaquil, comentarios culpan al Presidente y otros responden que la obra es del Municipio. La Secretaría no aparece en la disputa; oportunidad de hablar de prevención sin entrar en la pelea política.", "ids": ["e9d53a2f20", "9d3acf1148", "8d79af6275", "87a1f1a3d9", "1de8834e4e", "fd635ee267", "bb29c14bc0", "18eb5469c0"]},
+    {"titulo": "El Gobierno llega con bonos, vuelos y kits", "explicacion": "Ecuavisa, Vistazo, Extra y El Diario explican cómo consultar el bono de USD 303,99; Teleamazonas atribuye al Gobierno los albergues de Milagro y FAO y PMA ofrecen apoyo. La imagen de la ayuda es del Gobierno; la Secretaría casi no aparece.", "ids": ["644f962be1", "087f31cdc0", "abd3ca99d5", "b4b831bde6", "70d1750627", "d1b2979563", "a62c1680d1"]},
+    {"titulo": "Galápagos vuelve a estar bajo alerta", "explicacion": "Teleamazonas reporta alerta roja en Galápagos y San Cristóbal otra vez inundada; La Hora y El Universo cuentan la ayuda en Santa Cruz, supervisada por Lavinia Valbonesi. Exige información oficial constante de la Secretaría.", "ids": ["6df3ecd106", "0887fac89f", "1348e10b8c", "93e203c412", "75d81b4a9d"]},
+    {"titulo": "Lo peor de El Niño todavía no llega", "explicacion": "El Universo, El Productor y Primicias hablan de un Niño que se fortalece hacia 2027. Oportunidad para que la Secretaría guíe la preparación; riesgo de miedo sin mensaje oficial.", "ids": ["41c4ab5b17", "a3587cd4e6", "bb33cee8aa", "9df85936be"]},
+    {"titulo": "Critican a los GAD por drenajes y obras", "explicacion": "Ecuavisa muestra el alcantarillado colapsado en Durán y un canal de YouTube recuerda un plan de obras de 2004 para Milagro que quedó guardado. Apunta a los GAD, no a la Secretaría.", "ids": ["33bc2117e1", "21100711f1", "261b7c7568", "b0ec9044f6", "e9e896b45d"]}
   ],
-  "rumores": [],
-  "hitos": []
+  "rumores": [
+    {"titulo": "No hay fenómeno de El Niño", "explicacion": "Tres videos de un canal que se presenta como meteorólogo niegan El Niño durante la tormenta de Guayaquil (menos de 200 vistas en total). Puede restar seriedad a las alertas; responder con información oficial del Inamhi y la SNGR sobre el evento en curso.", "ids": ["4145e10d6a", "4e3152d60d", "38bdffd5ba"]}
+  ],
+  "hitos": [
+    {"dia": "2026-11-13", "titulo": "Taxista muere y padre e hijo desaparecen en Guayaquil", "ids": ["0abae5120f", "398cc3aad3", "9fb1ce35d8", "9c1777ceed"]}
+  ]
 }
