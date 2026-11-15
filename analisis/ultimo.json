@@ -1,202 +1,32 @@
 {
   "vinetas": [
-    "Guayaquil: Luque confirma dos muertos; Bomberos cerraron sin hallazgos la búsqueda de padre e hijo; Segura EP: taxista, causas naturales.",
-    "El Universo y El Telégrafo nombran a la Secretaría entregando ayuda en Milagro; TC y Teleamazonas la atribuyen al Gobierno.",
-    "Medios: de 101 a 156 notas en 24 h; críticas en YouTube, de 6 a 10, casi todas al Gobierno central.",
-    "Nuevos frentes: evacuación urgente en La Cascada, Santa Cruz, y deslizamiento en cerro Santa Ana evacúa edificio guayaquileño."
+    "Medios suben a 151 notas en 24 h (120 ayer): Guayaquil suma dos muertos, dos desaparecidos y deslave en cerro Santa Ana.",
+    "Cifras sin consolidar: El Universo cita infarto del taxista; un video de 3.460 vistas da por muertos a padre e hijo desaparecidos.",
+    "Milagro, con 70 % de la cabecera bajo el agua según Metro, es donde El Universo muestra a la Secretaría entregando ayuda.",
+    "YouTube: comentarios críticos suben de 6 a 14; los que nombran a la Secretaría vienen de una sola cuenta, sin alcance."
   ],
   "fuentes_vinetas": [
-    [
-      "02096841de",
-      "8cba9fc0d3",
-      "78ece932c0",
-      "a8085c0774",
-      "0ba5f619a3",
-      "99ed662603",
-      "6a3dbea753"
-    ],
-    [
-      "02da29e08b",
-      "cd31f58e85",
-      "9157b4e2f2",
-      "6c18423498"
-    ],
-    [
-      "9d3acf1148",
-      "8d79af6275",
-      "03e80fcfe7",
-      "ee8001d1d8",
-      "b95a92b3ba"
-    ],
-    [
-      "67d0192b71",
-      "b3ad688756",
-      "ce3748cb0d",
-      "e0807facae",
-      "097651f15d",
-      "a637128e4a"
-    ]
+    ["37ac98c7cd", "4831baf55b", "0a71d7f44d", "e0807facae"],
+    ["6a3dbea753", "d243c8a7fb", "288e0a13db", "78ece932c0"],
+    ["32d110e931", "02da29e08b", "cd31f58e85"],
+    ["16e97fa477", "a7f38beb08", "8d4fa29445"]
   ],
   "acciones": [
-    {
-      "accion": "Publicar hoy balance oficial SNGR de fallecidos, desaparecidos y ríos desbordados, con causas confirmadas",
-      "porque": "Radio Face TV habla de tres muertos (3.819 vistas); Luque confirma dos; Segura EP dice que el taxista murió por causas naturales.",
-      "base_legal": "Art. 61 y 72",
-      "fuentes": [
-        "fdbd113c31",
-        "02096841de",
-        "99ed662603",
-        "7bc05eee4d",
-        "4831baf55b"
-      ]
-    },
-    {
-      "accion": "Difundir con Inamhi aviso dominical en Costa y Galápagos: no cruzar canales ni corrientes",
-      "porque": "Inamhi prevé lluvias fuertes en Costa y Galápagos el 15; padre e hijo cayeron a un canal y un hombre fue arrastrado.",
-      "base_legal": "Art. 61 y 62",
-      "fuentes": [
-        "5a1e2bde94",
-        "3f71a55da5",
-        "78ece932c0",
-        "a73102881b"
-      ]
-    },
-    {
-      "accion": "Ofrecer al COE de Santa Cruz apoyo subsidiario en albergues y evacuación en La Cascada",
-      "porque": "Primicias, Radio Pichincha y Vistazo: evacuación urgente y tres albergues habilitados; un vuelo regresó a Quito por la lluvia.",
-      "base_legal": "Art. 13, 14 y 21.4",
-      "fuentes": [
-        "67d0192b71",
-        "b3ad688756",
-        "edc01d0fbc",
-        "a1e6ceaf16"
-      ]
-    }
+    {"accion": "Publicar hoy balance oficial único de víctimas en Guayaquil, validado con Bomberos y COE cantonal.", "porque": "Medios difieren: un muerto o dos, taxista ahogado o por infarto; video de 3.460 vistas da por muertos a desaparecidos.", "base_legal": "Art. 61 y 72", "fuentes": ["6a3dbea753", "d243c8a7fb", "b89424484d", "4831baf55b", "288e0a13db", "78ece932c0"]},
+    {"accion": "Difundir con Inamhi mensaje de autoprotección para Guayaquil: alejarse de canales, zanjas y cerro Santa Ana.", "porque": "Inamhi alerta tormentas para la madrugada del domingo; padre e hijo cayeron a una zanja; edificio evacuado por deslave.", "base_legal": "Art. 23.4 y 61", "fuentes": ["1441084995", "d89f23b139", "5a1e2bde94", "515854ed7b", "0a71d7f44d"]},
+    {"accion": "Publicar en la web la ayuda entregada en Milagro y Santa Cruz por sector, sin imagen de autoridades.", "porque": "Metro reporta ayuda a más de 100 familias en Milagro; TC destaca a Lavinia Valbonesi en Santa Cruz.", "base_legal": "Art. 73 y 78.5", "fuentes": ["55c6a0c391", "3e2fb7ab39", "02da29e08b", "b8b6708267", "fc64437ab7"]}
   ],
   "narrativas": [
-    {
-      "titulo": "Las lluvias ya cobran vidas en Guayaquil",
-      "explicacion": "Todos los grandes medios y el video de Teleamazonas (3.877 vistas) repiten dos muertos y dos desaparecidos; Bomberos cerraron la búsqueda en Florida Norte sin resultados y las cifras aún difieren entre medios. Riesgo de que se lea como falta de prevención; oportunidad para un balance oficial claro y mensajes de autoprotección.",
-      "ids": [
-        "37ac98c7cd",
-        "4831baf55b",
-        "f90d2c616f",
-        "02096841de",
-        "8cba9fc0d3",
-        "78ece932c0",
-        "a8085c0774",
-        "0ba5f619a3",
-        "99ed662603",
-        "288e0a13db",
-        "5848f70191",
-        "9fb1ce35d8",
-        "fdbd113c31"
-      ]
-    },
-    {
-      "titulo": "Guayaquil inundada: culpan a Noboa o al Municipio",
-      "explicacion": "En comentarios de YouTube unos culpan al Presidente y su campaña y otros responden que las obras son del Municipio y la alcaldesa. La Secretaría no está en la disputa; conviene hablar de prevención sin entrar en la pelea política.",
-      "ids": [
-        "9d3acf1148",
-        "87a1f1a3d9",
-        "8d79af6275",
-        "1de8834e4e",
-        "18eb5469c0",
-        "fd635ee267",
-        "de945c99cf",
-        "63608e4ab4",
-        "03e80fcfe7",
-        "ee8001d1d8"
-      ]
-    },
-    {
-      "titulo": "La Costa se inunda otra vez y teme más",
-      "explicacion": "Milagro sigue bajo el agua con clases virtuales y evacuaciones, Los Ríos habilita rutas alternas en la E25, Quevedo y Portoviejo se inundan y Santa Cruz vuelve a evacuar. Riesgo de percepción de abandono donde la Secretaría no se ve en territorio.",
-      "ids": [
-        "059bf6ac41",
-        "7462958452",
-        "91b3ef5ab0",
-        "45add9e0ff",
-        "12fc2321d5",
-        "676d0612b7",
-        "1cfd9e2292",
-        "d759fcc581",
-        "67d0192b71",
-        "b3ad688756"
-      ]
-    },
-    {
-      "titulo": "El Gobierno llega con bonos, vuelos y kits",
-      "explicacion": "El Universo y El Telégrafo atribuyen a la Secretaría la ayuda en Milagro; TC y Teleamazonas hablan del Gobierno Nacional, la Aduana entrega 55.935 prendas y Lavinia Valbonesi encabeza la entrega en Santa Cruz. Oportunidad de que la Secretaría se vea con datos de distribución, sin proselitismo.",
-      "ids": [
-        "02da29e08b",
-        "cd31f58e85",
-        "9157b4e2f2",
-        "6c18423498",
-        "e243a6aca8",
-        "b8b6708267",
-        "d1b2979563",
-        "0125e88101"
-      ]
-    },
-    {
-      "titulo": "Critican a los GAD por drenajes y obras",
-      "explicacion": "El Comercio pregunta si el alcantarillado de Guayaquil es insuficiente, vecinos de Milagro reclaman por basura en el estero San Miguel, Bosques de la Costa protesta por deslizamientos y comentarios piden dragar ríos. Apunta a municipios y prefecturas, no a la Secretaría.",
-      "ids": [
-        "eba3abd257",
-        "cf93ff85d9",
-        "a146d2cf4f",
-        "1241937d8d",
-        "63608e4ab4",
-        "7706f0c704",
-        "f903d02585",
-        "4658cc64f3",
-        "c28567ed66",
-        "15c4c25a71"
-      ]
-    },
-    {
-      "titulo": "No hubo plan de prevención ante El Niño",
-      "explicacion": "Comentarios en YouTube preguntan dónde está la Secretaría de Riesgos y su plan de prevención y culpan al Gobierno; casi todos vienen de una misma cuenta, con alcance mínimo. Hoy no es tendencia, pero es la única crítica directa a la Secretaría: vigilar si la recogen medios.",
-      "ids": [
-        "16e97fa477",
-        "a7f38beb08",
-        "b95a92b3ba",
-        "06c12de7ac",
-        "a15be0d4c9",
-        "117075f3af",
-        "6c439180c0"
-      ]
-    },
-    {
-      "titulo": "Lo peor de El Niño todavía no llega",
-      "explicacion": "El Universo y El Productor hablan de un Niño que se fortalece hacia 2027, aunque otra publicación dice que el escenario récord perdió fuerza; comentarios dicen que esto apenas empieza. Oportunidad para que la Secretaría guíe la preparación con datos oficiales.",
-      "ids": [
-        "41c4ab5b17",
-        "a3587cd4e6",
-        "5b7d3f74b6",
-        "9d34ae73dc",
-        "dac7b369e5"
-      ]
-    }
+    {"titulo": "Las lluvias ya cobran vidas en Guayaquil", "explicacion": "Todos los grandes medios y videos de Teleamazonas repiten dos muertos y dos desaparecidos; Bomberos cerraron la búsqueda en Florida Norte sin resultados y las versiones sobre las víctimas difieren. Riesgo de leerse como falta de prevención; oportunidad para un balance oficial claro.", "ids": ["37ac98c7cd", "b9d30a4062", "f90d2c616f", "b60560a3c8", "78ece932c0", "a8085c0774", "f2fde3e129", "897ce8cc7a", "288e0a13db", "4831baf55b", "1b223981d1", "8cba9fc0d3", "02096841de", "d243c8a7fb", "5848f70191", "00cc0bd05d"]},
+    {"titulo": "La Costa se inunda otra vez y teme más", "explicacion": "Milagro con 70 % de la cabecera inundada y clases virtuales, 13 ríos y esteros desbordados en tres provincias, calles inundadas en Quevedo y Portoviejo, evacuaciones en Santa Cruz, y deslave en el cerro Santa Ana. Riesgo de percepción de abandono donde la Secretaría no se ve.", "ids": ["32d110e931", "050dde5df7", "719d62dc42", "059bf6ac41", "7bbf4dea98", "45add9e0ff", "589a6a7870", "676d0612b7", "12fc2321d5", "7bc05eee4d", "1cfd9e2292", "c11d41028e", "9d6672b4f3", "99cf79a68e", "0a71d7f44d", "67d0192b71", "b3ad688756", "2b0e671c69", "6ad78817d7"]},
+    {"titulo": "Critican a los GAD por drenajes y obras", "explicacion": "El Comercio cuestiona el alcantarillado de Guayaquil, El Universo y Teleamazonas recogen quejas por basura en el estero San Miguel de Milagro y comentarios piden dragar ríos. Apunta a municipios y prefecturas, no a la Secretaría.", "ids": ["eba3abd257", "a146d2cf4f", "cf93ff85d9", "1241937d8d", "63608e4ab4", "f903d02585", "7706f0c704", "c28567ed66", "4658cc64f3", "bb29c14bc0", "15c4c25a71", "de945c99cf"]},
+    {"titulo": "El Gobierno llega con bonos, vuelos y kits", "explicacion": "El Universo y El Telégrafo atribuyen a la Secretaría la ayuda en Milagro; Metro, TC y Teleamazonas hablan del Gobierno Nacional y TC destaca a Lavinia Valbonesi en Santa Cruz. Oportunidad de mostrar datos de distribución, cuidando que no se lea como proselitismo.", "ids": ["3e2fb7ab39", "55c6a0c391", "02da29e08b", "cd31f58e85", "9157b4e2f2", "6c18423498", "b8b6708267", "93e203c412", "e243a6aca8", "b4b831bde6", "70d1750627", "d1b2979563"]},
+    {"titulo": "No hubo plan de prevención ante El Niño", "explicacion": "Comentarios en YouTube preguntan dónde está la Secretaría de Riesgos y su plan de prevención; casi todos los repite una misma cuenta con alcance mínimo. No es tendencia, pero es la única crítica directa a la Secretaría.", "ids": ["d69ff7bdb3", "16e97fa477", "b95a92b3ba", "8d4fa29445", "367be646e7", "a7f38beb08", "06c12de7ac", "a15be0d4c9", "117075f3af", "e0f474f875"]},
+    {"titulo": "Guayaquil inundada: culpan a Noboa o al Municipio", "explicacion": "En comentarios de YouTube unos culpan al Presidente y otros responden que las obras son del Municipio. La Secretaría no está en la disputa; conviene hablar de prevención sin entrar en la pelea política.", "ids": ["87a1f1a3d9", "8d79af6275", "9d3acf1148", "fd635ee267", "18eb5469c0", "1de8834e4e", "03e80fcfe7", "ee8001d1d8", "6c439180c0"]}
   ],
   "rumores": [
-    {
-      "titulo": "Dicen que no hay fenómeno de El Niño",
-      "explicacion": "Tres videos de un mismo canal de YouTube (entre 47 y 93 vistas) afirman que no hay El Niño. Alcance bajo, pero resta seriedad a las alertas; responder con información oficial del Inamhi y la Secretaría, sin mencionar al canal.",
-      "ids": [
-        "4145e10d6a",
-        "4e3152d60d",
-        "38bdffd5ba"
-      ]
-    },
-    {
-      "titulo": "Apertura abrupta de la presa Daule Peripa",
-      "explicacion": "Un comentario en YouTube da por hecha una apertura abrupta de la presa, sin fuente. Alcance mínimo, pero tocaría a poblaciones aguas abajo; si crece, aclarar con información oficial.",
-      "ids": [
-        "7effbda112"
-      ]
-    }
+    {"titulo": "Dan por muertos a padre e hijo desaparecidos", "explicacion": "Un video de Entre Dos Luces (3.460 vistas) y un comentario afirman que se ahogaron, pero los medios reportan que la búsqueda terminó sin hallarlos. Respuesta: dato oficial de Bomberos y COE sobre el estado del caso.", "ids": ["288e0a13db", "e0f474f875", "78ece932c0"]},
+    {"titulo": "No existe fenómeno de El Niño", "explicacion": "Un canal de YouTube repite en tres videos (menos de 250 vistas en total) que no hay El Niño; puede restar cuidado ante las alertas. Respuesta: recordar con Inamhi la advertencia vigente.", "ids": ["4145e10d6a", "4e3152d60d", "38bdffd5ba"]}
   ],
   "hitos": []
 }
