@@ -1,33 +1,34 @@
 {
   "vinetas": [
-    "Milagro concentra la Costa: Vistazo y El Universo reportan cerca de 400 evacuados y 15 botes por el estero San Miguel.",
-    "Cifras sin consolidar: El Mercurio y Prensa Latina dan 14 fallecidos; albergados, 283 (El Comercio) frente a 171 (El Universo).",
-    "Riesgo electoral: El Universo reporta que el CNE cuenta 21 recintos inundados, 20 en Guayas, y ensaya evacuaciones.",
-    "Medios bajan de 166 a 103 piezas en 24 h; críticas en YouTube, de 15 a 6, sin alcance contra la Secretaría."
+    "Baja el volumen: medios de 158 a 88 piezas en 24 h; YouTube de 98 a 64; críticas en YouTube, de 15 a 3.",
+    "Riesgo electoral: Primicias y Radio Pichincha reportan 21 recintos con inundación en Guayas y Los Ríos, según el simulacro del CNE.",
+    "Ayuda en Milagro: Desarrollo Humano reporta 1.700 kits; El Universo y El Telégrafo atribuyen entregas a la Secretaría.",
+    "Cifras sin consolidar: El Mercurio y Prensa Latina dan 14 fallecidos; albergados, 283 (El Comercio) frente a 171 (El Universo)."
   ],
   "fuentes_vinetas": [
+    [],
     [
-      "cfd4548b32",
-      "7726f3db87",
-      "3afc1b7b57"
+      "c34519e196",
+      "61d70a653d",
+      "5a540b82ad",
+      "092f8b7f13"
+    ],
+    [
+      "0f83199014",
+      "02da29e08b",
+      "cd31f58e85"
     ],
     [
       "e374c3d916",
       "a6d2d780b8",
       "8f6c573fe4",
       "fc64437ab7"
-    ],
-    [
-      "5a540b82ad",
-      "60bc188a27",
-      "9f4b6e2e56"
-    ],
-    []
+    ]
   ],
   "acciones": [
     {
-      "accion": "Publicar hoy balance oficial único de fallecidos, desaparecidos, evacuados y albergados, con hora de corte.",
-      "porque": "El Mercurio y Prensa Latina dan 14 fallecidos; El Comercio 283 albergados en Guayas y El Universo 171 en Guayas y Galápagos.",
+      "accion": "Publicar hoy balance oficial único de fallecidos, desaparecidos y albergados, con hora de corte.",
+      "porque": "El Mercurio y Prensa Latina dan 14 fallecidos; El Comercio, 283 albergados en Guayas; El Universo, 171 en Guayas y Galápagos.",
       "base_legal": "Art. 61 y 72",
       "fuentes": [
         "e374c3d916",
@@ -37,129 +38,144 @@
       ]
     },
     {
-      "accion": "Entregar al CNE lineamientos y mapa de riesgo de recintos electorales en Guayas y Los Ríos.",
-      "porque": "El Universo: el CNE reporta 21 recintos inundados, 20 en Guayas y uno en Los Ríos, y prevé recintos alternos.",
-      "base_legal": "Art. 23.4, 23.5 y 61",
+      "accion": "Entregar al CNE lineamientos de evacuación para 21 recintos en Guayas y Los Ríos.",
+      "porque": "Primicias y Radio Pichincha: el simulacro del CNE identificó 21 recintos con inundación; El Universo: 20 en Guayas y uno en Los Ríos.",
+      "base_legal": "Art. 23.4 y 23.5",
       "fuentes": [
-        "5a540b82ad",
-        "60bc188a27",
-        "9f4b6e2e56"
+        "c34519e196",
+        "61d70a653d",
+        "5a540b82ad"
       ]
     },
     {
-      "accion": "Ofrecer apoyo subsidiario al COE de Milagro y publicar diariamente la ayuda entregada allí.",
-      "porque": "Cerca de 400 evacuados, 15 botes y 80 rescatistas en Milagro; Metro reporta el 70 % de la cabecera cantonal bajo el agua.",
-      "base_legal": "Art. 14, 21.4 y 73",
+      "accion": "Ofrecer al COE de Quevedo apoyo subsidiario para 123 viviendas en zona de deslizamiento.",
+      "porque": "La Hora reporta 123 viviendas de Quevedo, en Los Ríos, en zona de riesgo por deslizamientos.",
+      "base_legal": "Art. 13, 21.4 y 23.4",
       "fuentes": [
-        "cfd4548b32",
-        "7726f3db87",
-        "3afc1b7b57",
-        "731b4f1227",
-        "32d110e931",
-        "02da29e08b"
+        "3edb50b207"
       ]
     }
   ],
   "narrativas": [
     {
       "titulo": "La Costa se inunda otra vez y teme más",
-      "explicacion": "Los grandes medios repiten 16 ríos desbordados en cuatro provincias, Milagro con cerca de 400 evacuados, daños en cinco cantones de Manabí, evacuaciones en Santa Cruz y cortes de luz de hasta 18 horas. Riesgo de percepción de abandono donde la Secretaría no se ve; oportunidad de informar con datos oficiales.",
+      "explicacion": "Los grandes medios repiten 16 ríos desbordados en cuatro provincias, cerca de 400 evacuados en Milagro, daños en cinco cantones de Manabí, evacuaciones en Santa Cruz y cortes de luz de hasta 18 horas; La Hora suma 123 viviendas en riesgo en Quevedo. Riesgo de percepción de abandono donde la Secretaría no se ve; oportunidad de informar con datos oficiales.",
       "ids": [
-        "38bea63de9",
+        "45ec209af1",
         "40a162248d",
         "69f6f7bdef",
-        "45ec209af1",
-        "cfd4548b32",
+        "38bea63de9",
         "7726f3db87",
+        "cfd4548b32",
         "3afc1b7b57",
-        "731b4f1227",
         "32d110e931",
-        "f2e244988b",
-        "d14ef88642",
         "d8095e59d8",
         "8958abed83",
-        "d410350613",
-        "cf75a1a5c9",
-        "a7bbb7b860",
-        "dbe5707286",
-        "6ad78817d7",
-        "588d08dce1",
+        "22dabb0ee3",
+        "571a78369a",
         "8b2691e47f",
+        "588d08dce1",
+        "3edb50b207",
+        "09beb01cd0",
+        "64a7736515",
+        "886b558e10",
+        "a7bbb7b860",
         "0a145cfe36",
-        "719d62dc42"
+        "4b25e0b14b"
       ]
     },
     {
-      "titulo": "Las lluvias ya cobran vidas en Guayaquil",
-      "explicacion": "El Comercio y Extra siguen el caso de padre e hijo en Florida Norte, con la búsqueda cerrada sin hallarlos; El Mercurio y Prensa Latina titulan 14 fallecidos por El Niño. Riesgo de leerse como falta de prevención si no hay un balance oficial.",
+      "titulo": "Temen votar con recintos bajo el agua",
+      "explicacion": "Primicias, Teleamazonas, Ecuavisa, Radio Pichincha y medios internacionales cubren el simulacro del CNE que halló 21 recintos con inundación en Guayas y Los Ríos. Oportunidad para que la Secretaría aparezca con lineamientos técnicos; riesgo si el día de la elección hay recintos anegados sin plan visible.",
       "ids": [
-        "e374c3d916",
-        "a6d2d780b8",
-        "37ac98c7cd",
-        "0cd0cc0486",
-        "afe19a7dd1",
-        "897ce8cc7a",
-        "f2fde3e129",
-        "a8085c0774"
+        "c34519e196",
+        "61d70a653d",
+        "092f8b7f13",
+        "9605f339ee",
+        "554fd1403f",
+        "60bc188a27",
+        "9c3a70d691",
+        "9f4b6e2e56",
+        "5a540b82ad",
+        "7c2d9c06f6"
       ]
     },
     {
       "titulo": "Critican a los GAD por drenajes y obras",
-      "explicacion": "El Universo recoge a vecinos de Florida Norte que dicen que los muros del canal llegaron tarde, Extra pregunta a candidatos qué harán y El Universo cuestiona el agua en Bahía de Caráquez. Apunta a municipios y prefecturas, no a la Secretaría.",
+      "explicacion": "El Universo y Extra recogen a vecinos de Florida Norte que dicen que los muros del canal llegaron tarde, críticas por basura en el estero San Miguel de Milagro y el agua en Bahía de Caráquez. Apunta a municipios y prefecturas, no a la Secretaría.",
       "ids": [
         "e8fd155578",
         "afe19a7dd1",
-        "4b7d07b290",
         "8f80ff71e4",
-        "a96fc1fdf0",
-        "e1c3f03cf1",
-        "eba3abd257",
-        "a146d2cf4f"
+        "4b7d07b290",
+        "cf93ff85d9",
+        "a146d2cf4f",
+        "1241937d8d",
+        "eba3abd257"
+      ]
+    },
+    {
+      "titulo": "Las lluvias ya cobran vidas en Guayaquil",
+      "explicacion": "TC Televisión, El Comercio y Ecuavisa siguen el caso de padre e hijo en Florida Norte, con la búsqueda cerrada sin hallarlos; El Mercurio y Prensa Latina titulan 14 fallecidos por El Niño. Riesgo de leerse como falta de prevención si no hay un balance oficial.",
+      "ids": [
+        "f0373585fd",
+        "0cd0cc0486",
+        "e374c3d916",
+        "a6d2d780b8",
+        "37ac98c7cd",
+        "96b3ad9b43",
+        "288e0a13db"
       ]
     },
     {
       "titulo": "El Gobierno llega con bonos, vuelos y kits",
-      "explicacion": "El Universo y El Telégrafo atribuyen a la Secretaría la ayuda en Milagro, Metro habla de ayuda del Gobierno nacional a más de 100 familias y El Universo de funcionarias del Gobierno en Milagro. Oportunidad de mostrar datos de distribución, cuidando que no se lea como proselitismo.",
+      "explicacion": "Desarrollo Humano reporta 1.700 kits en Milagro, El Universo y El Telégrafo atribuyen a la Secretaría ayuda en Milagro y Metro habla de más de 100 familias asistidas. Oportunidad de publicar datos de distribución, cuidando que no se lea como proselitismo.",
       "ids": [
+        "0f83199014",
         "02da29e08b",
         "cd31f58e85",
+        "45c5624a04",
         "3e2fb7ab39",
         "55c6a0c391",
-        "45c5624a04",
-        "6715e552eb"
+        "6715e552eb",
+        "b8b6708267",
+        "6c18423498"
       ]
     },
     {
       "titulo": "No hubo plan de prevención ante El Niño",
-      "explicacion": "Comentarios en YouTube preguntan por el plan de prevención y culpan a la ministra de Educación por no suspender clases; casi todos los repite una misma cuenta con alcance mínimo. No es tendencia, pero es la única crítica directa a la Secretaría.",
+      "explicacion": "Comentarios en YouTube preguntan dónde está la Secretaría de Riesgos y su plan de prevención; casi todos los repite una misma cuenta con alcance mínimo, y un canal pequeño acusa al Presidente de hacer campaña. No es tendencia, pero es la única crítica directa a la Secretaría.",
       "ids": [
-        "d69ff7bdb3",
-        "d0fb14bc93",
-        "e0f474f875",
-        "117075f3af",
         "16e97fa477",
-        "8d4fa29445",
         "a7f38beb08",
-        "b95a92b3ba"
+        "8d4fa29445",
+        "d69ff7bdb3",
+        "a15be0d4c9",
+        "5997a8b3b3",
+        "117075f3af"
       ]
     },
     {
       "titulo": "El Niño encarece la comida y las finanzas",
       "explicacion": "Teleamazonas reporta escasez y alza de mariscos en Quito y la proyección del Banco Mundial de un alza de 18 % en alimentos; un video cita a Fitch sobre el acuerdo con el FMI. No apunta a la Secretaría, pero amplía la preocupación más allá de las inundaciones.",
       "ids": [
-        "3030ec1ce4",
         "035bca75a6",
-        "65e1092d5d",
+        "3030ec1ce4",
         "1a940accec",
-        "eb155764b6"
+        "65e1092d5d",
+        "5a5398a18f",
+        "c86c5a6389"
       ]
     }
   ],
   "rumores": [
     {
       "titulo": "No existe fenómeno de El Niño",
-      "explicacion": "Un mismo canal de YouTube sigue publicando videos que dicen que no hay El Niño (decenas de vistas); puede restar cuidado ante las alertas. Respuesta: recordar con Inamhi la alerta vigente para la Costa.",
+      "explicacion": "Un mismo canal de YouTube sigue publicando videos que dicen que no hay El Niño (decenas de vistas o menos); puede restar cuidado ante las alertas. Respuesta: recordar con el Inamhi los pronósticos y alertas vigentes para la Costa.",
       "ids": [
+        "5b84197fc0",
+        "86999bf04c",
+        "f47f635416",
         "0336f04db5",
         "0ae563fdf7",
         "6b3f4f58b4"
@@ -167,8 +183,9 @@
     },
     {
       "titulo": "Dan por muertos a padre e hijo desaparecidos",
-      "explicacion": "Comentarios en YouTube afirman que se ahogaron, pero los medios reportan que la búsqueda terminó sin hallarlos. Respuesta: dato oficial de Bomberos y COE sobre el estado del caso.",
+      "explicacion": "Un video de Entre Dos Luces (3.460 vistas) y comentarios afirman que se ahogaron, pero los medios reportan que la búsqueda cerró sin hallarlos. Respuesta: dato oficial de Bomberos y COE sobre el estado del caso.",
       "ids": [
+        "288e0a13db",
         "d0fb14bc93",
         "e0f474f875",
         "0cd0cc0486",
