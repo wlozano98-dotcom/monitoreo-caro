@@ -1,31 +1,245 @@
 {
-  "vinetas": [
-    "Milagro domina: Ecuavisa dice que 50 % está bajo el agua; El Comercio y El Universo, más de 1.000 evacuados.",
-    "Cifras sin unificar: medios dan 77.000 afectados y Ecuavisa 50 mil; ríos desbordados, 20 o 16 según el medio.",
-    "El Universo muestra a la Secretaría en Milagro y el cerro Santa Ana; críticas en YouTube suben de 4 a 7.",
-    "Video de MILLONES AL AGUA, 54.411 vistas, anuncia aguaje máximo el 25; Inocar: pleamar de 3,84 m hasta el 19."
+ "vinetas": [
+  "Milagro sigue al centro: Ecuavisa reporta 50 % bajo agua y 3.500 afectados; El Universo, más de 1.100 evacuados.",
+  "El Comercio e Infobae replican 14 muertos y 77.000 afectados; Ecuavisa dice 50 mil y un canal de YouTube, 17 muertos.",
+  "Críticas en YouTube suben de 4 a 7: acusan al Gobierno de hacer campaña y no prevenir; poco alcance.",
+  "Inocar prevé pleamar de 3,84 m hasta el 19; video con 54.411 vistas anuncia aguaje máximo el 25."
+ ],
+ "fuentes_vinetas": [
+  [
+   "12784f8069",
+   "49cc09962a",
+   "fa87ac321f"
   ],
-  "fuentes_vinetas": [
-    ["12784f8069", "2bfcf95fc9", "d8f235ddc2", "fa87ac321f"],
-    ["b5b21599d5", "dbff2df7fc", "433fadb3f3", "d1a60d17fb", "ec403021ae"],
-    ["4692fd1b1a", "02acaeebfa", "a288f4abd1", "7416fecc6e", "1516e56b85", "a8c513f96a"],
-    ["0d653f4bb6", "fef218001d", "157f4da518"]
+  [
+   "b5b21599d5",
+   "1426458a8d",
+   "dbff2df7fc",
+   "01216ee7d5"
   ],
-  "acciones": [
-    {"accion": "Difundir hoy con Inocar e Inamhi calendario oficial de pleamares y lluvias para Guayas.", "porque": "Inocar prevé pleamar de 3,84 m del 17 al 19; Inamhi alerta tormentas en Guayas, Los Ríos y Esmeraldas; video viral anuncia aguaje el 25.", "base_legal": "Art. 61 y 62", "fuentes": ["fef218001d", "157f4da518", "4bd6d298e6", "0d653f4bb6"]},
-    {"accion": "Activar con MIES y COE de Milagro el registro de damnificados y publicar avances.", "porque": "El Universo: más de 1.100 evacuados en dos alojamientos en escuelas; Ecuavisa: 3.500 afectados y 50 % del cantón bajo el agua.", "base_legal": "Art. 68 y 73", "fuentes": ["fa87ac321f", "d8f235ddc2", "49cc09962a", "12784f8069"]},
-    {"accion": "Publicar hoy cifra oficial única de afectados, fallecidos y ríos, con hora de corte.", "porque": "Medios dan 77.000 afectados (El Comercio) y 50 mil (Ecuavisa); ríos: 20 (Teleamazonas) y 16 atribuidos a la Secretaría (Ecuavisa).", "base_legal": "Art. 61 y 72", "fuentes": ["b5b21599d5", "dbff2df7fc", "433fadb3f3", "ec403021ae"]}
+  [
+   "5997a8b3b3",
+   "7416fecc6e",
+   "d69ff7bdb3",
+   "16e97fa477",
+   "a288f4abd1"
   ],
-  "narrativas": [
-    {"titulo": "La Costa se inunda otra vez y teme más", "explicacion": "Ecuavisa, Teleamazonas, El Universo y El Comercio llenan la agenda con Milagro bajo el agua, Portoviejo, Galápagos y 20 ríos desbordados; en YouTube crecen los videos de inundación. Riesgo de percepción de abandono donde la Secretaría no se ve; oportunidad de informar con datos oficiales.", "ids": ["12784f8069", "2bfcf95fc9", "6d1bb462be", "89c9bf788d", "49cc09962a", "d8f235ddc2", "fa87ac321f", "ee7bb2d780", "44ab481784", "a9d239a141", "9d31b841ca", "d2e8234278", "2bdb1bc137", "586c82f4d3", "1fc122ad9a", "be7bb26537", "6ef727a545", "433fadb3f3", "d1a60d17fb", "2461b87066", "0bc7c9b6c3", "fc2ed6ba77", "ae5115fdbf", "85bd6adcc4", "f3039ff3e8", "a1cbb4e815", "540a973565", "0d653f4bb6", "d4b70a51fe", "28703c5a37"]},
-    {"titulo": "Critican a los GAD por drenajes y obras", "explicacion": "Comentarios al video de MILLONES AL AGUA y reportajes de El Universo, Extra y El Diario culpan al Municipio de Guayaquil por el alcantarillado, el dragado y muros tardíos en Florida Norte, y reclaman a prefecturas por vías. Apunta a municipios y prefecturas, no a la Secretaría.", "ids": ["aa1486eb31", "9df7b5433c", "25eec3522d", "cd3cfdf92f", "cde14c05c6", "e0c7fa07bd", "360b65d312", "4ebe8ac1d1", "8272bb7ccf", "e8fd155578", "afe19a7dd1", "63608e4ab4", "eba3abd257", "8f80ff71e4"]},
-    {"titulo": "El Gobierno llega con bonos, vuelos y kits", "explicacion": "Teleamazonas reporta 13 millones en bonos de contingencia, El Universo y El Diario más de 46.000 personas asistidas, la Aduana casi 17 toneladas de bienes y El Universo muestra a la Secretaría en Milagro y el cerro Santa Ana. Oportunidad de publicar la distribución, cuidando que no se lea como proselitismo.", "ids": ["055d0e5411", "09cc4c96a3", "d71b01aa92", "a700aabffa", "764c733871", "f20a0a572f", "0f83199014", "45c5624a04", "4692fd1b1a", "02acaeebfa", "02da29e08b", "ad4eaba709", "3e2fb7ab39", "55c6a0c391", "9157b4e2f2", "cd31f58e85"]},
-    {"titulo": "No hubo plan de prevención ante El Niño", "explicacion": "Canales y comentarios de YouTube acusan al Gobierno central de responder tarde y de que Noboa haga campaña en plena emergencia; hay pedidos sueltos de declarar emergencia en la Costa y uno reclama la ausencia de la Secretaría. Alcance aún bajo, pero las críticas en YouTube suben de 4 a 7 en 24 h.", "ids": ["a288f4abd1", "7416fecc6e", "5997a8b3b3", "1516e56b85", "a8c513f96a", "f9e1f949fa", "3f75ad5ac4", "adaca32eab", "15ec00e1cb", "d69ff7bdb3", "16e97fa477", "b95a92b3ba", "117075f3af", "6c439180c0", "88a4c4a535", "4de2b5b1a2"]},
-    {"titulo": "Temen votar con recintos bajo el agua", "explicacion": "Primicias, El Universo, El Diario y Teleamazonas siguen los 21 recintos inundados (20 en Guayas y uno en Los Ríos) y el plan del CNE con más de 2.500 locales alternos para el 29 de noviembre; Ecuavisa muestra a candidatos recorriendo zonas inundadas. Oportunidad para lineamientos técnicos de la Secretaría; riesgo de que la ayuda se mezcle con campaña.", "ids": ["886a972697", "c34519e196", "1fc7e5dece", "61d70a653d", "092f8b7f13", "9605f339ee", "554fd1403f", "60bc188a27", "9c3a70d691", "9f4b6e2e56", "5a540b82ad", "7c2d9c06f6", "c387859f1b", "269b1a05e3", "d6f287e966", "1c21e5547a", "124adb7c97"]},
-    {"titulo": "El Niño ya suma 14 muertos y miles afectados", "explicacion": "El Comercio, Infobae y medios internacionales replican 14 muertos y 77.000 afectados; Ecuavisa habla de 50 mil, y siguen apareciendo muertes: tres en un vehículo en Los Ríos (La Hora), un cadáver en Milagro (Extra) y el taxista en Guayaquil. Sin una cifra oficial única, el vacío lo llenan otros.", "ids": ["b5b21599d5", "37fe093de9", "4af9ba7f2e", "0466986f71", "8258438f77", "1426458a8d", "0e329ddc3f", "4d26cafcab", "46652e8372", "944e26d73d", "3328aff8ad", "dbff2df7fc", "4dc368ab7c", "73c5ddfbb7", "033bd5ab22", "d2694f4088", "e374c3d916"]}
-  ],
-  "rumores": [
-    {"titulo": "No existe el fenómeno de El Niño", "explicacion": "Una cuenta de YouTube que se presenta como meteorólogo subió seis videos con esa afirmación, con alcance mínimo (pocas vistas cada uno). Vigilar; si crece, responder con los datos oficiales del Inamhi y la Secretaría (arts. 61 y 72).", "ids": ["5b84197fc0", "86999bf04c", "f47f635416", "0336f04db5", "0ae563fdf7", "6b3f4f58b4"]}
-  ],
-  "hitos": []
+  [
+   "fef218001d",
+   "157f4da518",
+   "0d653f4bb6"
+  ]
+ ],
+ "acciones": [
+  {
+   "accion": "Emitir aviso conjunto con Inocar e Inamhi: pleamar y lluvias en Guayas, Los Ríos",
+   "porque": "Inocar prevé pleamar de 3,84 m del 17 al 19 en Guayaquil; Inamhi anuncia lluvias intensas en Esmeraldas, Guayas y Los Ríos.",
+   "base_legal": "Art. 61 y 62",
+   "fuentes": [
+    "fef218001d",
+    "157f4da518",
+    "4bd6d298e6"
+   ]
+  },
+  {
+   "accion": "Coordinar con MIES y COE de Milagro registro de damnificados y publicar avance diario",
+   "porque": "El Universo: más de 1.100 evacuados en dos alojamientos; Ecuavisa: 3.500 afectados y 50 % del cantón bajo agua.",
+   "base_legal": "Art. 68 y 73",
+   "fuentes": [
+    "fa87ac321f",
+    "49cc09962a",
+    "12784f8069"
+   ]
+  },
+  {
+   "accion": "Emitir con el CNE lineamientos de riesgo para 21 recintos electorales inundados",
+   "porque": "CNE reporta 21 recintos inundados, 20 en Guayas y 1 en Los Ríos; las elecciones son el 29 de noviembre.",
+   "base_legal": "Art. 23.4 y 62",
+   "fuentes": [
+    "5a540b82ad",
+    "c34519e196",
+    "d6f287e966",
+    "c387859f1b"
+   ]
+  }
+ ],
+ "narrativas": [
+  {
+   "titulo": "La Costa se inunda otra vez y teme más",
+   "explicacion": "Ecuavisa, Teleamazonas y El Universo llevan Milagro, Portoviejo y Galápagos; un video de YouTube con 54.411 vistas anuncia el aguaje máximo del 25. Riesgo: que la Secretaría parezca ir detrás del agua; oportunidad: liderar la información de alerta.",
+   "ids": [
+    "12784f8069",
+    "2bfcf95fc9",
+    "6d1bb462be",
+    "89c9bf788d",
+    "49cc09962a",
+    "d8f235ddc2",
+    "fa87ac321f",
+    "ee7bb2d780",
+    "44ab481784",
+    "a9d239a141",
+    "9d31b841ca",
+    "d2e8234278",
+    "2bdb1bc137",
+    "586c82f4d3",
+    "1fc122ad9a",
+    "be7bb26537",
+    "6ef727a545",
+    "433fadb3f3",
+    "d1a60d17fb",
+    "2461b87066",
+    "0bc7c9b6c3",
+    "fc2ed6ba77",
+    "ae5115fdbf",
+    "85bd6adcc4",
+    "f3039ff3e8",
+    "a1cbb4e815",
+    "540a973565",
+    "0d653f4bb6",
+    "d4b70a51fe",
+    "28703c5a37"
+   ]
+  },
+  {
+   "titulo": "Critican a los GAD por drenajes y obras",
+   "explicacion": "Comentarios y reportajes culpan al Municipio de Guayaquil por alcantarillado, dragado y la zanja de Florida Norte, y a la Prefectura de Manabí por vías. Apunta a los GAD; para la Secretaría es ocasión de exigir y acompañar con lineamientos, no de asumir la culpa.",
+   "ids": [
+    "aa1486eb31",
+    "9df7b5433c",
+    "25eec3522d",
+    "cd3cfdf92f",
+    "cde14c05c6",
+    "e0c7fa07bd",
+    "360b65d312",
+    "4ebe8ac1d1",
+    "8272bb7ccf",
+    "e8fd155578",
+    "afe19a7dd1",
+    "63608e4ab4",
+    "eba3abd257",
+    "8f80ff71e4"
+   ]
+  },
+  {
+   "titulo": "El Gobierno llega con bonos, vuelos y kits",
+   "explicacion": "Medios difunden 1.700 kits en Milagro, 46.649 personas asistidas, bonos por 13 millones y créditos de BanEcuador; El Universo muestra a la Secretaría en Milagro y el cerro Santa Ana. Oportunidad, si la entrega no falla.",
+   "ids": [
+    "055d0e5411",
+    "09cc4c96a3",
+    "d71b01aa92",
+    "a700aabffa",
+    "764c733871",
+    "f20a0a572f",
+    "0f83199014",
+    "45c5624a04",
+    "4692fd1b1a",
+    "02acaeebfa",
+    "02da29e08b",
+    "ad4eaba709",
+    "3e2fb7ab39",
+    "55c6a0c391",
+    "9157b4e2f2",
+    "cd31f58e85"
+   ]
+  },
+  {
+   "titulo": "No hubo plan de prevención ante El Niño",
+   "explicacion": "Cuentas en YouTube acusan al Gobierno de negligencia y de hacer campaña en plena emergencia; una pregunta directamente dónde está la Secretaría de Riesgos. Poco alcance hoy, pero es el riesgo reputacional más directo para Carolina.",
+   "ids": [
+    "a288f4abd1",
+    "7416fecc6e",
+    "5997a8b3b3",
+    "1516e56b85",
+    "a8c513f96a",
+    "f9e1f949fa",
+    "3f75ad5ac4",
+    "adaca32eab",
+    "15ec00e1cb",
+    "d69ff7bdb3",
+    "16e97fa477",
+    "b95a92b3ba",
+    "117075f3af",
+    "6c439180c0",
+    "88a4c4a535",
+    "4de2b5b1a2"
+   ]
+  },
+  {
+   "titulo": "Temen votar con recintos bajo el agua",
+   "explicacion": "El CNE y los medios hablan de 21 recintos inundados y simulacros de evacuación antes del 29 de noviembre. Apunta al CNE; la Secretaría puede aportar lineamientos técnicos y ganar credibilidad.",
+   "ids": [
+    "886a972697",
+    "c34519e196",
+    "1fc7e5dece",
+    "61d70a653d",
+    "092f8b7f13",
+    "9605f339ee",
+    "554fd1403f",
+    "60bc188a27",
+    "9c3a70d691",
+    "9f4b6e2e56",
+    "5a540b82ad",
+    "7c2d9c06f6",
+    "c387859f1b",
+    "269b1a05e3",
+    "d6f287e966",
+    "1c21e5547a",
+    "124adb7c97"
+   ]
+  },
+  {
+   "titulo": "El Niño ya suma 14 muertos y miles afectados",
+   "explicacion": "La cifra de 14 muertos y 77.000 afectados se replica en medios de varios países, pero circulan también 50 mil afectados y 17 muertos. Sin un corte oficial único, cada medio elige su número.",
+   "ids": [
+    "b5b21599d5",
+    "37fe093de9",
+    "4af9ba7f2e",
+    "0466986f71",
+    "8258438f77",
+    "1426458a8d",
+    "0e329ddc3f",
+    "4d26cafcab",
+    "46652e8372",
+    "944e26d73d",
+    "3328aff8ad",
+    "dbff2df7fc",
+    "4dc368ab7c",
+    "73c5ddfbb7",
+    "033bd5ab22",
+    "d2694f4088",
+    "e374c3d916"
+   ]
+  }
+ ],
+ "rumores": [
+  {
+   "titulo": "No existe el fenómeno de El Niño",
+   "explicacion": "Un canal de YouTube publicó seis videos (5 a 45 vistas) que niegan El Niño. Alcance bajo; responder con datos oficiales del Inamhi si crece (arts. 61 y 72).",
+   "ids": [
+    "5b84197fc0",
+    "86999bf04c",
+    "f47f635416",
+    "0336f04db5",
+    "0ae563fdf7",
+    "6b3f4f58b4"
+   ]
+  },
+  {
+   "titulo": "Ya son 17 los muertos por El Niño",
+   "explicacion": "Un video de YouTube (237 vistas) habla de 17 muertos, sin fuente; los medios replican 14. Responder con el corte oficial de fallecidos y su hora (arts. 61 y 72).",
+   "ids": [
+    "01216ee7d5"
+   ]
+  }
+ ],
+ "hitos": [
+  {
+   "dia": "2026-11-14",
+   "titulo": "Milagro suspende clases presenciales y abre albergues",
+   "ids": [
+    "7bbf4dea98",
+    "605d4eac7a"
+   ]
+  }
+ ]
 }
