@@ -1,33 +1,34 @@
 {
  "vinetas": [
   "Sin piezas nuevas desde las 02:34 de hoy; en 24 h las críticas en YouTube bajan de 12 a 2.",
-  "Milagro sigue siendo el foco: El Comercio reporta más de 1.100 evacuados; Primicias, familias aisladas pidiendo agua y comida.",
-  "Sin corte oficial único: medios dan 77.000, 78.000 y 83.975 afectados; un video de YouTube habla de 17 muertos.",
-  "COE del Guayas advierte que descargas de Daule-Peripa podrían anegar cuatro cantones; Inamhi prevé lluvias fuertes hasta el sábado."
+  "Milagro, quinto día bajo el agua: El Comercio reporta más de 1.100 evacuados; Primicias, familias aisladas pidiendo agua y comida.",
+  "Inamhi prevé lluvias fuertes hasta el sábado; COE del Guayas advierte anegación de cuatro cantones por descargas de Daule-Peripa.",
+  "La Sierra entra al mapa: granizada en Riobamba deja 32 incidentes (Teleamazonas) y hospital de niños inundado (La Prensa)."
  ],
  "fuentes_vinetas": [
   [],
   [
+   "b8beeda4ec",
    "8407985fcf",
    "db8b0fc4e0"
   ],
   [
-   "adc4df3617",
-   "d5332286cf",
-   "c66637344b",
-   "01216ee7d5"
+   "f811f3a9a1",
+   "3f50a4d490"
   ],
   [
-   "3f50a4d490",
-   "f811f3a9a1"
+   "2f73a41b14",
+   "4ec8ccb9a4",
+   "a60e431c76"
   ]
  ],
  "acciones": [
   {
-   "accion": "Pedir al COE de Milagro lista de familias aisladas y coordinar entrega con FF. AA. hoy",
-   "porque": "El Comercio: más de 1.100 evacuados; Primicias: familias aisladas piden agua y comida; RTS: albergues copados; editorial de El Universo pide no descuidarlas.",
+   "accion": "Pedir al COE de Milagro lista de aislados y entregar con FF. AA. hoy",
+   "porque": "Teleamazonas: Milagro cumple cinco días bajo el agua; El Comercio: más de 1.100 evacuados; Primicias: familias aisladas piden agua y comida.",
    "base_legal": "Art. 13, 14 y 68",
    "fuentes": [
+    "b8beeda4ec",
     "8407985fcf",
     "db8b0fc4e0",
     "3bba275d36",
@@ -36,7 +37,7 @@
    ]
   },
   {
-   "accion": "Acordar con COE Guayas aviso a los cuatro cantones antes de descargas de Daule-Peripa",
+   "accion": "Acordar con COE Guayas aviso previo a los cuatro cantones por descargas de Daule-Peripa",
    "porque": "El Universo: el COE del Guayas expone riesgo de anegación en cuatro cantones por descargas; Inamhi prevé lluvias fuertes hasta el sábado.",
    "base_legal": "Art. 23.5, 62 y 64.6",
    "fuentes": [
@@ -45,7 +46,7 @@
    ]
   },
   {
-   "accion": "Publicar hoy corte oficial con hora: afectados, fallecidos, desaparecidos y quién emite cada alerta",
+   "accion": "Publicar corte oficial con hora: afectados, fallecidos, desaparecidos y qué entidad emite cada alerta",
    "porque": "Medios dan 77.000, 78.000 y 83.975 afectados; un video habla de 17 muertos; El Comercio pregunta a quién le toca explicar la alerta.",
    "base_legal": "Art. 61, 72 y 73",
    "fuentes": [
