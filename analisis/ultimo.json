@@ -1,231 +1,68 @@
 {
- "vinetas": [
-  "Radio Pichincha: Riesgos no tenía registrada la emergencia de Milagro; El Universo: Carolina señala fallas del Municipio.",
-  "Cifras sin corte único: Carolina da más de 35.000 damnificados; medios extranjeros, 14 muertos y hasta 91.222 afectados.",
-  "Inamhi: alerta roja en cinco provincias costeras desde esta noche y lluvias con tormentas hasta el 21, en pleno feriado.",
-  "Críticas en YouTube bajan de 9 a 3 en 24 h; lo más visto: Milagro bajo el agua (31.149 vistas)."
- ],
- "fuentes_vinetas": [
-  [
-   "ec221b83c7",
-   "3d10db2b26",
-   "b196c4731a"
+  "vinetas": [
+    "En medios, la crítica directa a la Secretaría es Radio Pichincha: no registraba la emergencia de Milagro firmada el 16.",
+    "Milagro concentra lo más visto: AV.TV.Digital, 31.177 vistas de familias buscando refugio; Ecuavisa lo llama el más afectado.",
+    "Cifras dispares: Carolina y Teleamazonas, más de 35.000 damnificados; Diario Extra, más de 36.000; prensa extranjera, hasta 91.222 afectados.",
+    "YouTube positivo sube de 2 a 26: casi todo son comentarios de Jóvenes en Acción, no opinión sobre la emergencia."
   ],
-  [
-   "09983f5dc6",
-   "4d359f9672",
-   "9c47827b24",
-   "c3a0033a0b",
-   "736383680d",
-   "61c5343066"
+  "fuentes_vinetas": [
+    ["ec221b83c7", "3d10db2b26", "b196c4731a"],
+    ["b70f446a99", "d3cfc1ad15", "a60731b952", "3c33f71d75"],
+    ["4d359f9672", "d10b9070c2", "351f3c4e5e", "c3a0033a0b", "ab7f346c5d"],
+    ["3f016c7875", "359b3c16ff", "f608c912b6", "2f6aa67c63", "016b1a6205"]
   ],
-  [
-   "86ce5ed867",
-   "e87c57fe3d",
-   "cfe3ee0051"
+  "acciones": [
+    {
+      "accion": "Publicar hoy en web y redes un corte oficial único, con hora y cantones",
+      "porque": "SNGR: 35.000 damnificados y 56.000 afectados; El Diario Ecuador, 83.975 afectados; medios extranjeros, 77.000 a 91.222. Cada medio elige su número.",
+      "base_legal": "Art. 61, 72 y 73",
+      "fuentes": ["ab7f346c5d", "4d359f9672", "e1db571201", "c3a0033a0b", "6a68939ec0", "351f3c4e5e"]
+    },
+    {
+      "accion": "Emitir con alcaldía de Milagro y COE Guayas un parte conjunto diario de albergues",
+      "porque": "Radio Pichincha: Riesgos no registraba la emergencia de Milagro; El Universo: Carolina señala fallas del Municipio; COE Guayas pide reportes de albergues.",
+      "base_legal": "Art. 13, 23.5 y 29",
+      "fuentes": ["ec221b83c7", "3d10db2b26", "6aaddcebc9", "a60731b952", "b70f446a99"]
+    },
+    {
+      "accion": "Lanzar con Inamhi aviso a viajeros del feriado: Costa, Alóag y Baeza-El Chaco",
+      "porque": "El Diario Ecuador: lluvias fuertes del 20 al 22; Alóag con paso controlado en el km 83; Baeza-El Chaco cerrada por deslizamiento.",
+      "base_legal": "Art. 61, 62 y 64.6",
+      "fuentes": ["cfe3ee0051", "e87c57fe3d", "692941ebd3", "5f4d90aec7", "ec09f47608", "af0f29500c"]
+    }
   ],
-  [
-   "b70f446a99"
-  ]
- ],
- "acciones": [
-  {
-   "accion": "Acordar con alcaldía de Milagro y COE Guayas un parte conjunto diario y vocería",
-   "porque": "Radio Pichincha: Riesgos no registraba la emergencia de Milagro; El Universo: Carolina señala fallas del Municipio. Riesgo de pelea pública.",
-   "base_legal": "Art. 23.5, 29 y 61",
-   "fuentes": [
-    "ec221b83c7",
-    "3d10db2b26",
-    "b196c4731a",
-    "6aaddcebc9",
-    "cda0014d1e"
-   ]
-  },
-  {
-   "accion": "Difundir con Inamhi y COE alerta a viajeros del feriado: Costa, Quito, vía Alóag",
-   "porque": "Primicias: alerta roja en cinco provincias costeras desde el 18; Inamhi, lluvias hasta el 21; Alóag reabre con horario restringido.",
-   "base_legal": "Art. 61, 62 y 64.6",
-   "fuentes": [
-    "86ce5ed867",
-    "e87c57fe3d",
-    "cfe3ee0051",
-    "5f4d90aec7",
-    "80e8174c72",
-    "cf5f85e052"
-   ]
-  },
-  {
-   "accion": "Entregar al CNE mapa de recintos electorales en riesgo de inundación o deslave",
-   "porque": "Primicias y Vistazo: el CNE analiza suspender o aplazar votaciones en zonas afectadas; Teleamazonas: recintos electorales inundados.",
-   "base_legal": "Art. 23.2 y 23.5",
-   "fuentes": [
-    "601ba14e51",
-    "2bb3ce8ea2",
-    "aa9c25cb0a",
-    "af7f8255dc",
-    "c0c6017bcf"
-   ]
-  }
- ],
- "narrativas": [
-  {
-   "titulo": "La Costa se inunda otra vez y teme más",
-   "explicacion": "Guayas concentra 13 de 14 ríos y esteros desbordados (El Universo) y el Inamhi pone en alerta roja cinco provincias costeras; Guayaquil vuelve a anegarse el 18. Riesgo: que la Secretaría parezca ir detrás del agua; oportunidad: liderar la información de alerta.",
-   "ids": [
-    "f4172c967b",
-    "2b12ed5c76",
-    "bd6c984993",
-    "0588ae0b40",
-    "3f50a4d490",
-    "5526159ea7",
-    "21d2a2b2b9",
-    "f0cbfed000",
-    "227d539009",
-    "c9016515d0",
-    "a03e0856b0",
-    "8407985fcf",
-    "4f7952abf2",
-    "26ba4dfce7",
-    "3772ee17ea",
-    "7886eba863",
-    "a5fc8e494a",
-    "21dfc8d6ee",
-    "682f3d469f",
-    "50121f05a9",
-    "d8f235ddc2",
-    "bb734bde23",
-    "a6198ea99c",
-    "6f8a08c441",
-    "176987bf3c",
-    "2cda09bf22",
-    "20110f7478",
-    "31141938d8",
-    "0fa6a0eaa1",
-    "96b8500d05",
-    "d3cfc1ad15",
-    "1140733f10",
-    "cd1a535184",
-    "86ce5ed867",
-    "d5a2668ac0"
-   ]
-  },
-  {
-   "titulo": "La ayuda no llega a los aislados de Milagro",
-   "explicacion": "Extra muestra familias viviendo en un colegio; videos de YouTube (AV.TV.Digital, 31.149 vistas; DNews) muestran familias que buscan refugio y piden ayuda; un editorial de El Universo pide no agotar la atención. Es el reclamo que más rápido puede volverse contra la Secretaría.",
-   "ids": [
-    "db8b0fc4e0",
-    "02d9ef2b8a",
-    "04eb3595fa",
-    "3bba275d36",
-    "a61ff4e948",
-    "1a655c206b",
-    "5102bbc7de",
-    "a60731b952",
-    "b70f446a99",
-    "a5aae746e6",
-    "59a5dfadf7",
-    "60e1a6b14e",
-    "a21cc87c73"
-   ]
-  },
-  {
-   "titulo": "Riesgos y Municipio de Milagro, descoordinados",
-   "explicacion": "Radio Pichincha publica que la Secretaría no tenía registrada la emergencia que Milagro firmó el 16 de noviembre; El Universo recoge que Carolina señala fallas del Municipio. Si escala a cruce de culpas, ambas partes pierden credibilidad ante los damnificados.",
-   "ids": [
-    "ec221b83c7",
-    "3d10db2b26",
-    "b196c4731a",
-    "6aaddcebc9"
-   ]
-  },
-  {
-   "titulo": "El Niño ya suma 14 muertos y miles afectados",
-   "explicacion": "Carolina da en Teleamazonas más de 35.000 damnificados; Ecuadorinmediato, 56.000 afectados; medios extranjeros repiten 14 muertos con afectados de 77.000 a 91.222. Sin un corte oficial único, cada medio elige su número.",
-   "ids": [
-    "e1db571201",
-    "c66637344b",
-    "d5332286cf",
-    "5a3d6f7047",
-    "adc4df3617",
-    "a4a05b9ae4",
-    "0c7cab0447",
-    "562cb4ace8",
-    "e419a15cfb",
-    "c48dd10a8c",
-    "0d07fe199b",
-    "db9efa38ed",
-    "4dc368ab7c",
-    "0a4fbbda85",
-    "6d16fa2557",
-    "b190a43c3d",
-    "9c276981b2",
-    "86797b0948",
-    "61c5343066",
-    "736383680d",
-    "c3a0033a0b",
-    "8f6dea556f",
-    "48f3865d3e",
-    "d88936215d",
-    "88d31347ff",
-    "6a68939ec0",
-    "8b9faf0c6d",
-    "3fc24f89c1",
-    "9c47827b24",
-    "09983f5dc6",
-    "4d359f9672",
-    "ab7f346c5d",
-    "351f3c4e5e",
-    "a99cfcacd8",
-    "743443eadb"
-   ]
-  },
-  {
-   "titulo": "El Gobierno llega con bonos, vuelos y kits",
-   "explicacion": "Radio Centro (2.060 vistas): el Gobierno atendió a 54.000 personas; El Universo: bono de contingencia para la familia de padre e hijo hallados en Florida Norte; el ministro Luque dice que trabajan sin banderas, y comentarios le responden lo contrario. Oportunidad, si la entrega en Milagro no falla.",
-   "ids": [
-    "8b72553980",
-    "055d0e5411",
-    "ad4eaba709",
-    "dda290fe78",
-    "b507bee271",
-    "f465508e49",
-    "35897b3133",
-    "9c4b64ab4d",
-    "372733e2c4",
-    "691ff891e4",
-    "08ef72da25"
-   ]
-  },
-  {
-   "titulo": "Critican a los GAD por drenajes y obras",
-   "explicacion": "Metro y comentarios en YouTube culpan a municipios por sumideros y zanjas; El Diario: familias de La Concordia llevan dos meses incomunicadas; Diario Correo: Machala sin fecha para el agua; Teleamazonas: socavón en Quito. Apunta a los GAD, no a la Secretaría.",
-   "ids": [
-    "1b1c4e3d30",
-    "f64d8cc160",
-    "b0a1100c69",
-    "95cb1b13ad",
-    "4a70633479",
-    "d137cc68fc",
-    "1345a2e2f7",
-    "d84ceaeddb"
-   ]
-  }
- ],
- "rumores": [
-  {
-   "titulo": "Viene un terremoto 6.6: prepárense",
-   "explicacion": "Un video de YouTube (KL videos, 249.775 vistas) titula \"terremoto 6.6 prepárense aquí\" y \"olas de 18 m\" junto a imágenes de Guayas bajo el agua. Responder con información oficial clara sobre alertas vigentes (arts. 61 y 72).",
-   "ids": [
-    "4b9bce15dd"
-   ]
-  },
-  {
-   "titulo": "Ya son 17 muertos por El Niño",
-   "explicacion": "Un video de YouTube afirma 17 muertos, mientras los medios repiten 14. Responder con un corte oficial con fecha y hora (arts. 61 y 72).",
-   "ids": [
-    "01216ee7d5"
-   ]
-  }
- ],
- "hitos": []
+  "narrativas": [
+    {
+      "titulo": "La ayuda no llega a los aislados de Milagro",
+      "explicacion": "Diario Extra (familias en un colegio, cinco días entre inundaciones y serpientes) y videos de YouTube con miles de vistas muestran familias que piden refugio y comida; El Universo pide en editorial no agotar la atención. Es el reclamo que más rápido puede volverse contra la Secretaría.",
+      "ids": ["b70f446a99", "a5aae746e6", "a60731b952", "3c33f71d75", "60e1a6b14e", "a61ff4e948", "02d9ef2b8a", "1a655c206b", "04eb3595fa", "15926d0e47", "c3eead9d58", "d3cfc1ad15", "3bba275d36", "a21cc87c73"]
+    },
+    {
+      "titulo": "Riesgos y Municipio de Milagro, descoordinados",
+      "explicacion": "Radio Pichincha publica que la Secretaría no tenía registrada la emergencia que Milagro firmó el 16; El Universo recoge que Carolina señala fallas del Municipio, y el COE Guayas exige reportes de albergues y kits. Si escala a cruce de culpas, ambas partes pierden credibilidad.",
+      "ids": ["ec221b83c7", "3d10db2b26", "b196c4731a", "6aaddcebc9"]
+    },
+    {
+      "titulo": "El Niño ya suma 14 muertos y miles afectados",
+      "explicacion": "Carolina da en Teleamazonas más de 35.000 damnificados; Ecuadorinmediato, 56.000 afectados; Diario Extra, más de 36.000 damnificados; medios extranjeros repiten 14 muertos con afectados de 77.000 a 91.222. Sin un corte oficial único, cada medio elige su número.",
+      "ids": ["4d359f9672", "09983f5dc6", "9c47827b24", "ab7f346c5d", "e18330a7d1", "d10b9070c2", "351f3c4e5e", "c3a0033a0b", "736383680d", "8f6dea556f", "48f3865d3e", "d88936215d", "88d31347ff", "6a68939ec0", "61c5343066", "9c276981b2", "86797b0948", "8b9faf0c6d", "3fc24f89c1", "8a0631a884", "e1db571201", "c66637344b", "a99cfcacd8", "743443eadb", "a4a05b9ae4", "0c7cab0447", "562cb4ace8", "adc4df3617", "f465508e49"]
+    },
+    {
+      "titulo": "La Costa se inunda otra vez y teme más",
+      "explicacion": "El Universo: Guayas concentra 13 de 14 ríos y esteros desbordados; Inamhi pone en alerta roja cinco provincias costeras y Guayaquil, Babahoyo y la E25 siguen anegadas. Riesgo: que la Secretaría parezca ir detrás del agua; oportunidad: liderar la información de alerta.",
+      "ids": ["86ce5ed867", "31141938d8", "0fa6a0eaa1", "96b8500d05", "176987bf3c", "2cda09bf22", "20110f7478", "d5a2668ac0", "9a3eb3f855", "c47d60cedd", "18151c0d16", "cd1a535184", "248f15f6b5", "518362a9f9", "f4172c967b", "86ecdc9414"]
+    },
+    {
+      "titulo": "Critican a los GAD por drenajes y obras",
+      "explicacion": "Ecuavisa: cinco muertos y 206 zanjas bajo revisión en Guayaquil; Metro: basura en sumideros; El Diario: familias de La Concordia dos meses incomunicadas y noveno socavón en Portoviejo; El Universo: Guayaquil no puede llegar tarde otra vez. Apunta a los GAD, no a la Secretaría.",
+      "ids": ["dac294c4d2", "95cb1b13ad", "b0a1100c69", "4a70633479", "d137cc68fc", "1345a2e2f7", "f1ba91a9c6", "05e3a5911b"]
+    },
+    {
+      "titulo": "Están en campaña y no en la emergencia",
+      "explicacion": "Con elecciones el 29 de noviembre, comentarios en YouTube acusan al Gobierno y a los políticos de hacer campaña en vez de atender; el ministro Luque responde que trabajan sin banderas. Son cuentas pequeñas: vigilar si un medio lo recoge; para la Secretaría, cuidar que la ayuda no lleve marcas políticas.",
+      "ids": ["c2835bbb4b", "360c259f41", "12628f8e81", "08ef72da25", "235f081eeb", "372733e2c4", "af7f8255dc"]
+    }
+  ],
+  "rumores": [],
+  "hitos": []
 }
