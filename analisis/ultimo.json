@@ -1,68 +1,188 @@
 {
-  "vinetas": [
-    "En medios, la crítica directa a la Secretaría es Radio Pichincha: no registraba la emergencia de Milagro firmada el 16.",
-    "Milagro concentra lo más visto: AV.TV.Digital, 31.177 vistas de familias buscando refugio; Ecuavisa lo llama el más afectado.",
-    "Cifras dispares: Carolina y Teleamazonas, más de 35.000 damnificados; Diario Extra, más de 36.000; prensa extranjera, hasta 91.222 afectados.",
-    "YouTube positivo sube de 2 a 26: casi todo son comentarios de Jóvenes en Acción, no opinión sobre la emergencia."
+ "vinetas": [
+  "Radio Pichincha: Riesgos no registraba la emergencia de Milagro; El Universo: Carolina señala fallas del Municipio. Riesgo: cruce de culpas.",
+  "Milagro domina lo más visto: AV.TV.Digital, 31.177 vistas; Ecuavisa, 7.923; Diario Extra muestra familias viviendo en un colegio.",
+  "Sin corte único: Carolina da más de 35.000 damnificados; Diario Extra, 36.000; RTP, 83.000 afectados; El Litoral, 91.222.",
+  "Feriado del 20 al 22 con lluvias fuertes; elecciones el 29: CNE no descarta aplazar, siete recintos siguen inundados."
+ ],
+ "fuentes_vinetas": [
+  [
+   "ec221b83c7",
+   "3d10db2b26",
+   "b196c4731a"
   ],
-  "fuentes_vinetas": [
-    ["ec221b83c7", "3d10db2b26", "b196c4731a"],
-    ["b70f446a99", "d3cfc1ad15", "a60731b952", "3c33f71d75"],
-    ["4d359f9672", "d10b9070c2", "351f3c4e5e", "c3a0033a0b", "ab7f346c5d"],
-    ["3f016c7875", "359b3c16ff", "f608c912b6", "2f6aa67c63", "016b1a6205"]
+  [
+   "b70f446a99",
+   "d3cfc1ad15",
+   "a60731b952"
   ],
-  "acciones": [
-    {
-      "accion": "Publicar hoy en web y redes un corte oficial único, con hora y cantones",
-      "porque": "SNGR: 35.000 damnificados y 56.000 afectados; El Diario Ecuador, 83.975 afectados; medios extranjeros, 77.000 a 91.222. Cada medio elige su número.",
-      "base_legal": "Art. 61, 72 y 73",
-      "fuentes": ["ab7f346c5d", "4d359f9672", "e1db571201", "c3a0033a0b", "6a68939ec0", "351f3c4e5e"]
-    },
-    {
-      "accion": "Emitir con alcaldía de Milagro y COE Guayas un parte conjunto diario de albergues",
-      "porque": "Radio Pichincha: Riesgos no registraba la emergencia de Milagro; El Universo: Carolina señala fallas del Municipio; COE Guayas pide reportes de albergues.",
-      "base_legal": "Art. 13, 23.5 y 29",
-      "fuentes": ["ec221b83c7", "3d10db2b26", "6aaddcebc9", "a60731b952", "b70f446a99"]
-    },
-    {
-      "accion": "Lanzar con Inamhi aviso a viajeros del feriado: Costa, Alóag y Baeza-El Chaco",
-      "porque": "El Diario Ecuador: lluvias fuertes del 20 al 22; Alóag con paso controlado en el km 83; Baeza-El Chaco cerrada por deslizamiento.",
-      "base_legal": "Art. 61, 62 y 64.6",
-      "fuentes": ["cfe3ee0051", "e87c57fe3d", "692941ebd3", "5f4d90aec7", "ec09f47608", "af0f29500c"]
-    }
+  [
+   "4d359f9672",
+   "09983f5dc6",
+   "351f3c4e5e",
+   "3fc24f89c1",
+   "c3a0033a0b"
   ],
-  "narrativas": [
-    {
-      "titulo": "La ayuda no llega a los aislados de Milagro",
-      "explicacion": "Diario Extra (familias en un colegio, cinco días entre inundaciones y serpientes) y videos de YouTube con miles de vistas muestran familias que piden refugio y comida; El Universo pide en editorial no agotar la atención. Es el reclamo que más rápido puede volverse contra la Secretaría.",
-      "ids": ["b70f446a99", "a5aae746e6", "a60731b952", "3c33f71d75", "60e1a6b14e", "a61ff4e948", "02d9ef2b8a", "1a655c206b", "04eb3595fa", "15926d0e47", "c3eead9d58", "d3cfc1ad15", "3bba275d36", "a21cc87c73"]
-    },
-    {
-      "titulo": "Riesgos y Municipio de Milagro, descoordinados",
-      "explicacion": "Radio Pichincha publica que la Secretaría no tenía registrada la emergencia que Milagro firmó el 16; El Universo recoge que Carolina señala fallas del Municipio, y el COE Guayas exige reportes de albergues y kits. Si escala a cruce de culpas, ambas partes pierden credibilidad.",
-      "ids": ["ec221b83c7", "3d10db2b26", "b196c4731a", "6aaddcebc9"]
-    },
-    {
-      "titulo": "El Niño ya suma 14 muertos y miles afectados",
-      "explicacion": "Carolina da en Teleamazonas más de 35.000 damnificados; Ecuadorinmediato, 56.000 afectados; Diario Extra, más de 36.000 damnificados; medios extranjeros repiten 14 muertos con afectados de 77.000 a 91.222. Sin un corte oficial único, cada medio elige su número.",
-      "ids": ["4d359f9672", "09983f5dc6", "9c47827b24", "ab7f346c5d", "e18330a7d1", "d10b9070c2", "351f3c4e5e", "c3a0033a0b", "736383680d", "8f6dea556f", "48f3865d3e", "d88936215d", "88d31347ff", "6a68939ec0", "61c5343066", "9c276981b2", "86797b0948", "8b9faf0c6d", "3fc24f89c1", "8a0631a884", "e1db571201", "c66637344b", "a99cfcacd8", "743443eadb", "a4a05b9ae4", "0c7cab0447", "562cb4ace8", "adc4df3617", "f465508e49"]
-    },
-    {
-      "titulo": "La Costa se inunda otra vez y teme más",
-      "explicacion": "El Universo: Guayas concentra 13 de 14 ríos y esteros desbordados; Inamhi pone en alerta roja cinco provincias costeras y Guayaquil, Babahoyo y la E25 siguen anegadas. Riesgo: que la Secretaría parezca ir detrás del agua; oportunidad: liderar la información de alerta.",
-      "ids": ["86ce5ed867", "31141938d8", "0fa6a0eaa1", "96b8500d05", "176987bf3c", "2cda09bf22", "20110f7478", "d5a2668ac0", "9a3eb3f855", "c47d60cedd", "18151c0d16", "cd1a535184", "248f15f6b5", "518362a9f9", "f4172c967b", "86ecdc9414"]
-    },
-    {
-      "titulo": "Critican a los GAD por drenajes y obras",
-      "explicacion": "Ecuavisa: cinco muertos y 206 zanjas bajo revisión en Guayaquil; Metro: basura en sumideros; El Diario: familias de La Concordia dos meses incomunicadas y noveno socavón en Portoviejo; El Universo: Guayaquil no puede llegar tarde otra vez. Apunta a los GAD, no a la Secretaría.",
-      "ids": ["dac294c4d2", "95cb1b13ad", "b0a1100c69", "4a70633479", "d137cc68fc", "1345a2e2f7", "f1ba91a9c6", "05e3a5911b"]
-    },
-    {
-      "titulo": "Están en campaña y no en la emergencia",
-      "explicacion": "Con elecciones el 29 de noviembre, comentarios en YouTube acusan al Gobierno y a los políticos de hacer campaña en vez de atender; el ministro Luque responde que trabajan sin banderas. Son cuentas pequeñas: vigilar si un medio lo recoge; para la Secretaría, cuidar que la ayuda no lleve marcas políticas.",
-      "ids": ["c2835bbb4b", "360c259f41", "12628f8e81", "08ef72da25", "235f081eeb", "372733e2c4", "af7f8255dc"]
-    }
-  ],
-  "rumores": [],
-  "hitos": []
+  [
+   "cfe3ee0051",
+   "af7f8255dc",
+   "c0c6017bcf",
+   "c6d9a4d176",
+   "56ba9dffbc"
+  ]
+ ],
+ "acciones": [
+  {
+   "accion": "Publicar a las 18:00 un corte oficial único por cantón en web y redes",
+   "porque": "Carolina y Ecuadorinmediato: 35.000 damnificados y 56.000 afectados; Diario Extra, 36.000; RTP, 83.000; El Litoral, 91.222. Cada medio elige cifra.",
+   "base_legal": "Art. 61, 72 y 73",
+   "fuentes": [
+    "4d359f9672",
+    "ab7f346c5d",
+    "351f3c4e5e",
+    "3fc24f89c1",
+    "c3a0033a0b"
+   ]
+  },
+  {
+   "accion": "Acordar con alcaldía de Milagro y COE Guayas un parte diario conjunto de albergues",
+   "porque": "Radio Pichincha: Riesgos no registraba la emergencia de Milagro; COE Guayas exige reportes de albergues; Diario Extra: familias viven en un colegio.",
+   "base_legal": "Art. 13, 23.5 y 29",
+   "fuentes": [
+    "ec221b83c7",
+    "3d10db2b26",
+    "6aaddcebc9",
+    "a60731b952",
+    "b70f446a99"
+   ]
+  },
+  {
+   "accion": "Difundir con Inamhi y CNE aviso de feriado: Costa, vía Alóag y recintos inundados",
+   "porque": "El Diario Ecuador: lluvias fuertes del 20 al 22; Alóag con paso controlado de 06:00 a 18:00; CNE: siete recintos aún inundados.",
+   "base_legal": "Art. 23.5, 61 y 64.6",
+   "fuentes": [
+    "cfe3ee0051",
+    "e87c57fe3d",
+    "be6202b679",
+    "80e8174c72",
+    "c6d9a4d176"
+   ]
+  }
+ ],
+ "narrativas": [
+  {
+   "titulo": "La ayuda no llega a los aislados de Milagro",
+   "explicacion": "Diario Extra (familias en un colegio, cinco días entre inundaciones y serpientes) y videos de YouTube con miles de vistas muestran familias que piden refugio y comida; El Universo pide en editorial no agotar la atención. Es el reclamo que más rápido puede volverse contra la Secretaría.",
+   "ids": [
+    "b70f446a99",
+    "a5aae746e6",
+    "a60731b952",
+    "3c33f71d75",
+    "60e1a6b14e",
+    "a61ff4e948",
+    "02d9ef2b8a",
+    "1a655c206b",
+    "04eb3595fa",
+    "15926d0e47",
+    "c3eead9d58",
+    "d3cfc1ad15",
+    "3bba275d36",
+    "a21cc87c73"
+   ]
+  },
+  {
+   "titulo": "Riesgos y Municipio de Milagro, descoordinados",
+   "explicacion": "Radio Pichincha publica que la Secretaría no tenía registrada la emergencia que Milagro firmó el 16; El Universo recoge que Carolina señala fallas del Municipio, y el COE Guayas exige reportes de albergues y kits. Si escala a cruce de culpas, ambas partes pierden credibilidad.",
+   "ids": [
+    "ec221b83c7",
+    "3d10db2b26",
+    "b196c4731a",
+    "6aaddcebc9"
+   ]
+  },
+  {
+   "titulo": "El Niño ya suma 14 muertos y miles afectados",
+   "explicacion": "Carolina da en Teleamazonas más de 35.000 damnificados; Ecuadorinmediato, 56.000 afectados; Diario Extra, más de 36.000 damnificados; medios extranjeros repiten 14 muertos con afectados de 77.000 a 91.222. Sin un corte oficial único, cada medio elige su número.",
+   "ids": [
+    "4d359f9672",
+    "09983f5dc6",
+    "9c47827b24",
+    "ab7f346c5d",
+    "e18330a7d1",
+    "d10b9070c2",
+    "351f3c4e5e",
+    "c3a0033a0b",
+    "736383680d",
+    "8f6dea556f",
+    "48f3865d3e",
+    "d88936215d",
+    "88d31347ff",
+    "6a68939ec0",
+    "61c5343066",
+    "9c276981b2",
+    "86797b0948",
+    "8b9faf0c6d",
+    "3fc24f89c1",
+    "8a0631a884",
+    "e1db571201",
+    "c66637344b",
+    "a99cfcacd8",
+    "743443eadb",
+    "a4a05b9ae4",
+    "0c7cab0447",
+    "562cb4ace8",
+    "adc4df3617",
+    "f465508e49"
+   ]
+  },
+  {
+   "titulo": "La Costa se inunda otra vez y teme más",
+   "explicacion": "El Universo: Guayas concentra 13 de 14 ríos y esteros desbordados; Inamhi pone en alerta roja cinco provincias costeras y Guayaquil, Babahoyo y la E25 siguen anegadas. Riesgo: que la Secretaría parezca ir detrás del agua; oportunidad: liderar la información de alerta.",
+   "ids": [
+    "86ce5ed867",
+    "31141938d8",
+    "0fa6a0eaa1",
+    "96b8500d05",
+    "176987bf3c",
+    "2cda09bf22",
+    "20110f7478",
+    "d5a2668ac0",
+    "9a3eb3f855",
+    "c47d60cedd",
+    "18151c0d16",
+    "cd1a535184",
+    "248f15f6b5",
+    "518362a9f9",
+    "f4172c967b",
+    "86ecdc9414"
+   ]
+  },
+  {
+   "titulo": "El Gobierno llega con bonos y brigadas",
+   "explicacion": "Radio Centro (3.490 vistas): el Gobierno ha atendido a 54.000 personas; El Universo: bono de contingencia para la familia de Florida Norte y 184 equipos de salud; El Diario: bono de USD 303. Oportunidad para la Secretaría si la entrega en Milagro no falla.",
+   "ids": [
+    "f465508e49",
+    "35897b3133",
+    "9c4b64ab4d",
+    "8b72553980",
+    "372733e2c4"
+   ]
+  },
+  {
+   "titulo": "Critican a los GAD por drenajes y obras",
+   "explicacion": "Ecuavisa: cinco muertos y 206 zanjas bajo revisión en Guayaquil; Metro: basura en sumideros; El Diario: familias de La Concordia dos meses incomunicadas y noveno socavón en Portoviejo; El Universo: Guayaquil no puede llegar tarde otra vez. Apunta a los GAD, no a la Secretaría.",
+   "ids": [
+    "dac294c4d2",
+    "95cb1b13ad",
+    "b0a1100c69",
+    "4a70633479",
+    "d137cc68fc",
+    "1345a2e2f7",
+    "f1ba91a9c6",
+    "05e3a5911b"
+   ]
+  }
+ ],
+ "rumores": [],
+ "hitos": []
 }
