@@ -1,68 +1,74 @@
 {
   "vinetas": [
-    "Baja el ruido: 140 piezas en 24 h frente a 269 ayer, sin críticas; TC y El Telégrafo destacan asistencia de Riesgos en ocho provincias.",
-    "Dique de Alausí: El Comercio habla de barrera de hasta ocho metros; Teleamazonas, de nuevo deslizamiento. Ninguna pieza cita a Riesgos.",
-    "Feriado empieza con lluvias fuertes en Guayas y Los Ríos (El Universo); Balao inundado es lo más visto (Ecuavisa, 9.115 vistas).",
-    "Elecciones del 29: CNE prepara recintos alternativos; Carolina asegura plan de contingencia, con poco alcance (294 vistas)."
+    "Alausí manda en medios: nuevo deslave represa el río cerca de la zona de 2023; COE cantonal inspeccionó La Primavera.",
+    "Manabí sube: Portoviejo inundado con familias evacuadas (Extra, El Universo); El Diario cuenta 4.031 afectados del 1 al 17 de noviembre.",
+    "Elecciones: el CNE estará en sesión permanente el 29 por emergencias climáticas; el plan de contingencia de Carolina tuvo 1.080 vistas.",
+    "24 h: positivas caen de 34 a 6 y críticas son 2 comentarios de YouTube; sin datos de X, TikTok ni Facebook."
   ],
   "fuentes_vinetas": [
-    ["69ed9b6f2c", "3d03eb5543"],
-    ["2865e7a708", "468b3ecd3c", "a55051612b", "235112c307"],
-    ["5c767618c7", "9f569f1daf", "db36886f03"],
-    ["09b5587d4b", "99c866f37c", "4a8cf3373a"]
+    ["31bff4ea04", "9293d416ac", "f7164dfbfe", "f812ea84bb", "a55051612b", "86f8ef6cc7"],
+    ["5e558d70cb", "7fff5ba8f7", "29f7cff548", "9c458d5858", "1e6c146c11"],
+    ["4a1e01bde0", "b2da3d2e4a", "4a8cf3373a"],
+    ["787d72de53", "8de1cebfce"]
   ],
   "acciones": [
     {
-      "accion": "Con COE de Chimborazo, publicar hoy estado del dique de Alausí y riesgo aguas abajo.",
-      "porque": "El Comercio: barrera de hasta ocho metros; Ecuavisa (4.369 vistas): 66 metros obstruidos; Teleamazonas: nuevo deslizamiento. No hay voz oficial.",
-      "base_legal": "Art. 29, 61 y 72",
-      "fuentes": ["2865e7a708", "a55051612b", "468b3ecd3c", "456635fc96"]
+      "accion": "Publicar esta noche, con el COE cantonal, parte técnico del dique de Alausí en redes",
+      "porque": "Metro, Teleamazonas y FM Mundo informan río represado cerca de la zona de 2023 y preocupación comunitaria; ninguna pieza trae dato oficial de riesgo.",
+      "base_legal": "Art. 61, 62 y 72",
+      "fuentes": ["31bff4ea04", "9293d416ac", "f7164dfbfe", "f812ea84bb"]
     },
     {
-      "accion": "Difundir con Inamhi alerta de feriado para Guayas y Los Ríos por radios locales.",
-      "porque": "El Universo prevé lluvias fuertes el viernes en Guayas y Los Ríos; Teleamazonas reporta 16 ríos desbordados en Guayas, Los Ríos y El Oro.",
-      "base_legal": "Art. 61 y 64.6",
-      "fuentes": ["5c767618c7", "9f569f1daf", "dc39e26feb", "a8f4c716d8"]
-    },
-    {
-      "accion": "Publicar un corte diario único de afectados, damnificados y fallecidos en la web.",
-      "porque": "Medios dan 77.000, 83.000 o más de 91.000 afectados; damnificados: más de 35.000 (Teleamazonas) o 36.000 (Extra).",
+      "accion": "Difundir cada mañana un corte oficial único de afectados, damnificados y fallecidos",
+      "porque": "Medios citan 77.000, 83.000 o 91.000 afectados; Crónica TV habló de 90 mil evacuados; Riesgos reportó 56.000 afectados.",
       "base_legal": "Art. 61, 72 y 73",
-      "fuentes": ["0e23c94e37", "61c5343066", "3fc24f89c1", "d10b9070c2", "351f3c4e5e"]
+      "fuentes": ["0e23c94e37", "61c5343066", "3fc24f89c1", "019608bb09", "ab7f346c5d"]
+    },
+    {
+      "accion": "Presentar con el CNE, en rueda conjunta, el plan para recintos inundables del 29",
+      "porque": "El CNE reportó 21 recintos inundados y estará en sesión permanente; la explicación de Carolina sobre el plan tuvo poco alcance.",
+      "base_legal": "Art. 23.5 y 61",
+      "fuentes": ["4a1e01bde0", "56ba9dffbc", "4a8cf3373a"]
     }
   ],
   "narrativas": [
     {
       "titulo": "Las lluvias aíslan pueblos y cierran vías en la Sierra",
-      "explicacion": "Sigue viva: el dique de Alausí, puentes destruidos en Chaucha y Molleturo, cierres en la Alóag, inundaciones en Cuenca, Latacunga y Pujilí, apagones por tormenta en Quito y vías complicadas en Loja. Riesgo para la Secretaría si el dique de Alausí cede sin información oficial previa.",
-      "ids": ["2865e7a708", "468b3ecd3c", "235112c307", "456635fc96", "a55051612b", "d1b36b3a81", "ca963249af", "04d10c76ec", "5500b93d52", "28049c1b5a", "b37f08cf70", "1a05e717e2", "747dafb25b", "027907efcc", "7e5c4b9ad2", "1ee1b8ff8d", "e91b007577", "b7e8ef1313", "96b2110c74", "0df3516be6", "a24e7d6eb8", "882252644b", "47ff3cfbc3", "debb28c5c8"]
+      "explicacion": "Sigue creciendo con el nuevo deslave que represa el río Alausí, un bus atrapado en la Alóag–Santo Domingo y emergencias en Quito, Cuenca, Latacunga y Loja; las prefecturas se cruzan mensajes por el km 83. Riesgo para la Secretaría si el dique de Alausí cede sin información oficial previa.",
+      "ids": ["31bff4ea04", "9293d416ac", "f7164dfbfe", "a55051612b", "86f8ef6cc7", "fe979f6af6", "9ec7b66403", "8f4695b466", "c27e310728", "d5df5f3836", "1108342a94", "027907efcc", "e91b007577", "7e5c4b9ad2", "ca963249af"]
     },
     {
       "titulo": "La Costa se inunda otra vez y teme más",
-      "explicacion": "Balao desborda y evacúa (Ecuavisa 9.115 vistas, El Comercio, Primicias, Vistazo), Pijullo en Urdaneta con más de 200 familias afectadas y El Universo pronostica lluvias fuertes en Guayas y Los Ríos para el viernes de feriado. Oportunidad: liderar la información preventiva del feriado.",
-      "ids": ["db36886f03", "729bf11a3a", "c5a71f0793", "6b010578c2", "049f46f86c", "11ba44364c", "d1a3828e32", "6f7c1b7498", "93097a57de", "5c767618c7", "9f569f1daf", "dc39e26feb", "9affca533e", "16b6096533", "a8f4c716d8"]
+      "explicacion": "El foco pasa a Manabí (Portoviejo, Santa Ana, Charapotó, vía Portoviejo–Manta) y se suman Los Ceibos en Guayaquil, Urdaneta y Dos Mangas; medios cuentan 18 ríos desbordados y el ERFEN advierte lluvias muy fuertes a fines de noviembre. Oportunidad: liderar la información preventiva del feriado.",
+      "ids": ["5e558d70cb", "7fff5ba8f7", "9c458d5858", "1e6c146c11", "177a49638e", "807027af21", "f17b21e0d7", "97700cefee", "cab4f49d06", "8f43a3cfbb", "7912e1fda8", "db36886f03", "fe8d91e7fc"]
     },
     {
       "titulo": "El Gobierno llega con bonos y brigadas",
-      "explicacion": "El Universo, El Observador y el MDH: bono para 15.225 familias y cerca de 28.000 kits; TC Televisión y El Telégrafo: asistencia de Riesgos en ocho provincias; El Universo: asistencia y albergues en nueve; 180 bombas de agua en Los Ríos. Es la cobertura positiva del día; oportunidad si la entrega se sostiene.",
-      "ids": ["b48da8fb2c", "10254ebf67", "3973a6712b", "28a84f87b7", "69ed9b6f2c", "3d03eb5543", "aa2ee90c6f", "2955fa6cab", "492b323990", "e85e47ddf6", "bc1cfcabfb", "c76f71e3a2"]
-    },
-    {
-      "titulo": "El Niño ya suma 14 muertos y miles afectados",
-      "explicacion": "TN8 reporta 14 muertos y más de 91.000 afectados, pero otros medios dan 77.000 u 83.000 afectados; Teleamazonas habla de más de 35.000 damnificados y Extra de 36.000. Sin un corte oficial único, cada medio elige su número.",
-      "ids": ["0e23c94e37", "b1756ae838", "9c276981b2", "d10b9070c2", "e18330a7d1", "351f3c4e5e", "61c5343066", "3fc24f89c1", "c1fb3a901a"]
+      "explicacion": "El Universo, ElOriente y el MDH difunden el bono para 15.225 familias y cerca de 28.000 kits; TC Televisión, El Telégrafo y El Universo, la asistencia de Riesgos en ocho y nueve provincias. Hoy casi no hay piezas nuevas en este sentido: la cobertura positiva se apaga si no hay datos frescos de entrega.",
+      "ids": ["b48da8fb2c", "3973a6712b", "28a84f87b7", "69ed9b6f2c", "3d03eb5543", "aa2ee90c6f", "e85e47ddf6", "10254ebf67", "2955fa6cab"]
     },
     {
       "titulo": "La ayuda no llega a los aislados de Milagro",
-      "explicacion": "Milagro, en emergencia por 60 días, sigue entre los videos más vistos (Ecuavisa 7.923 vistas; N60 2.861 con una mujer recibiendo alimentos con el agua al cuello) y Extra relata cinco días entre inundaciones y serpientes. Radio Pichincha dijo que Riesgos no tenía registrada la emergencia municipal: es el reclamo que más rápido puede volverse contra la Secretaría.",
-      "ids": ["3c33f71d75", "979ecd5b6d", "7287bffc65", "a60731b952", "ec221b83c7", "3d10db2b26", "d3cfc1ad15", "29ccbaaff5", "35c421c008"]
+      "explicacion": "Cacme TV habla de más de 9.000 afectados en Milagro, Extra recuerda que las inundaciones se repiten hace 30 años y comentarios en Ecuavisa preguntan dónde está la ayuda. Apunta al Municipio (Carolina señaló sus fallas en El Universo) pero Radio Pichincha dijo que Riesgos desconocía la emergencia: riesgo directo para la Secretaría.",
+      "ids": ["4dec8f6d27", "2492f22627", "3c33f71d75", "979ecd5b6d", "787d72de53", "a21cc87c73", "ec221b83c7", "3d10db2b26"]
     },
     {
       "titulo": "Temen que la lluvia afecte las elecciones del 29",
-      "explicacion": "Metro, El Diario y Extra explican cómo consultar recintos; el CNE no descarta suspender o trasladar votaciones en zonas afectadas. Carolina dijo que hay plan de contingencia, pero con poco alcance: oportunidad de dar certeza junto al CNE.",
-      "ids": ["99c866f37c", "09b5587d4b", "c0c6017bcf", "601ba14e51", "d7f1c26d92", "f327e742c9", "4a8cf3373a", "aa9c25cb0a", "98e5ee7b7f", "f8b1b87299", "2bb3ce8ea2", "af7f8255dc", "56ba9dffbc"]
+      "explicacion": "El CNE reportó 21 recintos inundados, no descarta aplazar en zonas puntuales y estará en sesión permanente el 29; Metro y El Diario explican cómo consultar el recinto. Carolina habló de plan de contingencia con poco alcance: oportunidad de dar certeza junto al CNE.",
+      "ids": ["4a1e01bde0", "b2da3d2e4a", "56ba9dffbc", "2bb3ce8ea2", "99c866f37c", "be8c9a9f2b", "09b5587d4b", "4a8cf3373a"]
+    },
+    {
+      "titulo": "El Niño ya suma 14 muertos y miles afectados",
+      "explicacion": "TN8, LA17 y El Litoral dan más de 91.000 afectados, Urgente24 77.000, RTP 83.000; Teleamazonas más de 35.000 damnificados y Extra 36.000; Ecuadorinmediato citó a Riesgos con 56.000 afectados. Sin un corte oficial único, cada medio elige su número.",
+      "ids": ["0e23c94e37", "736383680d", "c3a0033a0b", "61c5343066", "3fc24f89c1", "d10b9070c2", "351f3c4e5e", "ab7f346c5d", "019608bb09"]
     }
   ],
-  "rumores": [],
+  "rumores": [
+    {
+      "titulo": "Más de 90 mil evacuados en Ecuador",
+      "explicacion": "Crónica TV (1.231 vistas) habla de más de 90 mil evacuados, mientras otros medios hablan de unos 91.000 afectados, no evacuados. Respuesta sugerida: corte oficial que distinga afectados, damnificados y evacuados (arts. 61 y 72).",
+      "ids": ["019608bb09", "c3a0033a0b"]
+    }
+  ],
   "hitos": []
 }
