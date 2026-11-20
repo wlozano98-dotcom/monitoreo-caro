@@ -1,31 +1,68 @@
 {
   "vinetas": [
-    "Alausí: deslave represó el río con barrera de hasta ocho metros; Ecuavisa suma 4.369 vistas y Teleamazonas reporta nuevo deslizamiento.",
-    "En YouTube domina Milagro: Ecuavisa 6.121 vistas; N60 muestra a mujer con agua al cuello recibiendo alimentos.",
-    "Medios críticos caen de 4 a 0; TC Televisión, El Telégrafo y El Universo destacan la asistencia de Riesgos.",
-    "Sin cifra oficial única: medios dan 77.000, 83.000 o 91.000 afectados; Teleamazonas 18 y luego 16 ríos desbordados."
+    "Baja el ruido: 140 piezas en 24 h frente a 269 ayer, sin críticas; TC y El Telégrafo destacan asistencia de Riesgos en ocho provincias.",
+    "Dique de Alausí: El Comercio habla de barrera de hasta ocho metros; Teleamazonas, de nuevo deslizamiento. Ninguna pieza cita a Riesgos.",
+    "Feriado empieza con lluvias fuertes en Guayas y Los Ríos (El Universo); Balao inundado es lo más visto (Ecuavisa, 9.115 vistas).",
+    "Elecciones del 29: CNE prepara recintos alternativos; Carolina asegura plan de contingencia, con poco alcance (294 vistas)."
   ],
   "fuentes_vinetas": [
-    ["2865e7a708", "a55051612b", "468b3ecd3c"],
-    ["e843b3d2ed", "979ecd5b6d"],
-    ["69ed9b6f2c", "3d03eb5543", "aa2ee90c6f"],
-    ["61c5343066", "3fc24f89c1", "0e23c94e37", "9affca533e", "dc39e26feb"]
+    ["69ed9b6f2c", "3d03eb5543"],
+    ["2865e7a708", "468b3ecd3c", "a55051612b", "235112c307"],
+    ["5c767618c7", "9f569f1daf", "db36886f03"],
+    ["09b5587d4b", "99c866f37c", "4a8cf3373a"]
   ],
   "acciones": [
-    {"accion": "Coordinar con COE Chimborazo boletines periódicos del dique de Alausí y zonas seguras.", "porque": "El Comercio: barrera de hasta ocho metros represa el río; Ecuavisa (4.369 vistas) y Teleamazonas reportan nuevo deslizamiento.", "base_legal": "Art. 29, 61 y 62", "fuentes": ["2865e7a708", "a55051612b", "468b3ecd3c", "235112c307"]},
-    {"accion": "Difundir con Inamhi y medios alerta para viajeros del feriado: Costa, Alóag y Alausí.", "porque": "El Universo prevé lluvias fuertes en Guayas y Los Ríos el viernes; la Alóag tuvo cierres en tres puntos el jueves.", "base_legal": "Art. 61 y 64.6", "fuentes": ["5c767618c7", "9f569f1daf", "5500b93d52", "cfe3ee0051"]},
-    {"accion": "Publicar en web y redes un corte oficial diario de afectados, fallecidos y ríos.", "porque": "Medios publican 77.000, 83.000 y 91.000 afectados; Teleamazonas dio 18 y luego 16 ríos desbordados el mismo día.", "base_legal": "Art. 61, 72 y 73", "fuentes": ["61c5343066", "3fc24f89c1", "0e23c94e37", "9affca533e", "dc39e26feb"]}
+    {
+      "accion": "Con COE de Chimborazo, publicar hoy estado del dique de Alausí y riesgo aguas abajo.",
+      "porque": "El Comercio: barrera de hasta ocho metros; Ecuavisa (4.369 vistas): 66 metros obstruidos; Teleamazonas: nuevo deslizamiento. No hay voz oficial.",
+      "base_legal": "Art. 29, 61 y 72",
+      "fuentes": ["2865e7a708", "a55051612b", "468b3ecd3c", "456635fc96"]
+    },
+    {
+      "accion": "Difundir con Inamhi alerta de feriado para Guayas y Los Ríos por radios locales.",
+      "porque": "El Universo prevé lluvias fuertes el viernes en Guayas y Los Ríos; Teleamazonas reporta 16 ríos desbordados en Guayas, Los Ríos y El Oro.",
+      "base_legal": "Art. 61 y 64.6",
+      "fuentes": ["5c767618c7", "9f569f1daf", "dc39e26feb", "a8f4c716d8"]
+    },
+    {
+      "accion": "Publicar un corte diario único de afectados, damnificados y fallecidos en la web.",
+      "porque": "Medios dan 77.000, 83.000 o más de 91.000 afectados; damnificados: más de 35.000 (Teleamazonas) o 36.000 (Extra).",
+      "base_legal": "Art. 61, 72 y 73",
+      "fuentes": ["0e23c94e37", "61c5343066", "3fc24f89c1", "d10b9070c2", "351f3c4e5e"]
+    }
   ],
   "narrativas": [
-    {"titulo": "Las lluvias aíslan pueblos y cierran vías en la Sierra", "explicacion": "Sigue creciendo: el dique de Alausí (El Comercio, Teleamazonas, Ecuavisa 4.369 vistas), puentes destruidos en Chaucha y Molleturo, cierres en la Alóag, inundaciones en Cuenca y Latacunga y la tormenta que dejó sin luz a sectores de Quito. Riesgo para la Secretaría si el dique de Alausí cede sin información oficial previa.", "ids": ["2865e7a708", "468b3ecd3c", "235112c307", "a55051612b", "456635fc96", "d1b36b3a81", "ca963249af", "5500b93d52", "28049c1b5a", "b37f08cf70", "04d10c76ec", "7e5c4b9ad2", "1ee1b8ff8d", "debb28c5c8", "47ff3cfbc3", "f239ff2174", "2d22994626", "1a05e717e2", "747dafb25b", "027907efcc", "b7e8ef1313", "882252644b", "e1b9010711"]},
-    {"titulo": "La Costa se inunda otra vez y teme más", "explicacion": "Balao desborda y evacúa (El Comercio, Primicias, Vistazo, Ecuadorinmediato 556 vistas), Pijullo en Urdaneta con más de 200 familias afectadas, preocupación en Babahoyo y El Universo pronostica lluvias fuertes en Guayas y Los Ríos para el viernes. Oportunidad: liderar la información preventiva del feriado.", "ids": ["729bf11a3a", "6b010578c2", "c5a71f0793", "11ba44364c", "d1a3828e32", "049f46f86c", "3fdfb2ba97", "db36886f03", "6f7c1b7498", "93097a57de", "dc39e26feb", "9affca533e", "16b6096533", "5c767618c7", "9f569f1daf"]},
-    {"titulo": "El Niño ya suma 14 muertos y miles afectados", "explicacion": "TN8 y El Diario repiten 14 muertos y más de 91.000 afectados, pero otros medios dan 77.000 u 83.000; Teleamazonas y Primicias hablan de más de 35.000 damnificados y Extra de 36.000. Sin un corte oficial único, cada medio elige su número.", "ids": ["0e23c94e37", "b1756ae838", "d10b9070c2", "e18330a7d1", "351f3c4e5e", "3fc24f89c1", "8b9faf0c6d", "61c5343066", "c3a0033a0b", "b4bd3dfdf0", "4b7916dc96", "a379094009", "9c47827b24"]},
-    {"titulo": "El Gobierno llega con bonos y brigadas", "explicacion": "El Universo, ElOriente y el MDH: bono para 15.225 familias y casi 28.000 kits; TC Televisión, El Telégrafo y El Universo: asistencia de Riesgos en ocho o nueve provincias según el medio; 180 bombas de agua en Los Ríos. Oportunidad si la entrega se sostiene en Milagro.", "ids": ["b48da8fb2c", "3973a6712b", "28a84f87b7", "69ed9b6f2c", "3d03eb5543", "aa2ee90c6f", "bc1cfcabfb", "e85e47ddf6", "492b323990", "2955fa6cab", "c76f71e3a2"]},
-    {"titulo": "La ayuda no llega a los aislados de Milagro", "explicacion": "Milagro, en emergencia por 60 días, sigue siendo lo más visto (Ecuavisa 6.121 y 7.923 vistas; N60 1.980; AV.TV.Digital 31.177). Diario Extra relata cinco días entre inundaciones, serpientes y pérdidas. Es el reclamo que más rápido puede volverse contra la Secretaría si la entrega falla.", "ids": ["979ecd5b6d", "3c33f71d75", "7287bffc65", "e843b3d2ed", "d3cfc1ad15", "a60731b952", "b70f446a99", "a5aae746e6", "c4307e13d9", "be23718d63"]},
-    {"titulo": "Dicen que el Gobierno está en campaña, no en territorio", "explicacion": "Comentarios en YouTube de cuentas pequeñas, con poco alcance, a días de las elecciones del 29; apunta al Gobierno central, no a la Secretaría. Riesgo latente: cualquier ayuda con marca política lo confirmaría (art. 78.5).", "ids": ["c2835bbb4b", "360c259f41", "12628f8e81", "235f081eeb"]}
+    {
+      "titulo": "Las lluvias aíslan pueblos y cierran vías en la Sierra",
+      "explicacion": "Sigue viva: el dique de Alausí, puentes destruidos en Chaucha y Molleturo, cierres en la Alóag, inundaciones en Cuenca, Latacunga y Pujilí, apagones por tormenta en Quito y vías complicadas en Loja. Riesgo para la Secretaría si el dique de Alausí cede sin información oficial previa.",
+      "ids": ["2865e7a708", "468b3ecd3c", "235112c307", "456635fc96", "a55051612b", "d1b36b3a81", "ca963249af", "04d10c76ec", "5500b93d52", "28049c1b5a", "b37f08cf70", "1a05e717e2", "747dafb25b", "027907efcc", "7e5c4b9ad2", "1ee1b8ff8d", "e91b007577", "b7e8ef1313", "96b2110c74", "0df3516be6", "a24e7d6eb8", "882252644b", "47ff3cfbc3", "debb28c5c8"]
+    },
+    {
+      "titulo": "La Costa se inunda otra vez y teme más",
+      "explicacion": "Balao desborda y evacúa (Ecuavisa 9.115 vistas, El Comercio, Primicias, Vistazo), Pijullo en Urdaneta con más de 200 familias afectadas y El Universo pronostica lluvias fuertes en Guayas y Los Ríos para el viernes de feriado. Oportunidad: liderar la información preventiva del feriado.",
+      "ids": ["db36886f03", "729bf11a3a", "c5a71f0793", "6b010578c2", "049f46f86c", "11ba44364c", "d1a3828e32", "6f7c1b7498", "93097a57de", "5c767618c7", "9f569f1daf", "dc39e26feb", "9affca533e", "16b6096533", "a8f4c716d8"]
+    },
+    {
+      "titulo": "El Gobierno llega con bonos y brigadas",
+      "explicacion": "El Universo, El Observador y el MDH: bono para 15.225 familias y cerca de 28.000 kits; TC Televisión y El Telégrafo: asistencia de Riesgos en ocho provincias; El Universo: asistencia y albergues en nueve; 180 bombas de agua en Los Ríos. Es la cobertura positiva del día; oportunidad si la entrega se sostiene.",
+      "ids": ["b48da8fb2c", "10254ebf67", "3973a6712b", "28a84f87b7", "69ed9b6f2c", "3d03eb5543", "aa2ee90c6f", "2955fa6cab", "492b323990", "e85e47ddf6", "bc1cfcabfb", "c76f71e3a2"]
+    },
+    {
+      "titulo": "El Niño ya suma 14 muertos y miles afectados",
+      "explicacion": "TN8 reporta 14 muertos y más de 91.000 afectados, pero otros medios dan 77.000 u 83.000 afectados; Teleamazonas habla de más de 35.000 damnificados y Extra de 36.000. Sin un corte oficial único, cada medio elige su número.",
+      "ids": ["0e23c94e37", "b1756ae838", "9c276981b2", "d10b9070c2", "e18330a7d1", "351f3c4e5e", "61c5343066", "3fc24f89c1", "c1fb3a901a"]
+    },
+    {
+      "titulo": "La ayuda no llega a los aislados de Milagro",
+      "explicacion": "Milagro, en emergencia por 60 días, sigue entre los videos más vistos (Ecuavisa 7.923 vistas; N60 2.861 con una mujer recibiendo alimentos con el agua al cuello) y Extra relata cinco días entre inundaciones y serpientes. Radio Pichincha dijo que Riesgos no tenía registrada la emergencia municipal: es el reclamo que más rápido puede volverse contra la Secretaría.",
+      "ids": ["3c33f71d75", "979ecd5b6d", "7287bffc65", "a60731b952", "ec221b83c7", "3d10db2b26", "d3cfc1ad15", "29ccbaaff5", "35c421c008"]
+    },
+    {
+      "titulo": "Temen que la lluvia afecte las elecciones del 29",
+      "explicacion": "Metro, El Diario y Extra explican cómo consultar recintos; el CNE no descarta suspender o trasladar votaciones en zonas afectadas. Carolina dijo que hay plan de contingencia, pero con poco alcance: oportunidad de dar certeza junto al CNE.",
+      "ids": ["99c866f37c", "09b5587d4b", "c0c6017bcf", "601ba14e51", "d7f1c26d92", "f327e742c9", "4a8cf3373a", "aa9c25cb0a", "98e5ee7b7f", "f8b1b87299", "2bb3ce8ea2", "af7f8255dc", "56ba9dffbc"]
+    }
   ],
   "rumores": [],
-  "hitos": [
-    {"dia": "2026-11-18", "titulo": "Milagro declara emergencia por 60 días", "ids": ["379b883b23", "99803d35dd", "7fe67c1fee", "cda0014d1e"]}
-  ]
+  "hitos": []
 }
