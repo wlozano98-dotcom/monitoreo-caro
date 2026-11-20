@@ -6,75 +6,226 @@
     "Feriado del 20 al 22 con lluvias fuertes: Inamhi alerta en cinco provincias hasta el sábado; vía Alóag cerrada en tres puntos."
   ],
   "fuentes_vinetas": [
-    ["bc1cfcabfb", "c5a71f0793", "6b010578c2", "456635fc96", "d1b36b3a81", "439ddf5ab0", "ca963249af"],
-    ["28a84f87b7", "3973a6712b", "49b4d92146"],
-    ["359b3c16ff", "897f353b2e", "f608c912b6", "93c88c0de1", "3c33f71d75"],
-    ["cfe3ee0051", "42968bfad4", "5500b93d52"]
+    [
+      "bc1cfcabfb",
+      "c5a71f0793",
+      "6b010578c2",
+      "456635fc96",
+      "d1b36b3a81",
+      "439ddf5ab0",
+      "ca963249af"
+    ],
+    [
+      "28a84f87b7",
+      "3973a6712b",
+      "49b4d92146"
+    ],
+    [
+      "359b3c16ff",
+      "897f353b2e",
+      "f608c912b6",
+      "93c88c0de1",
+      "3c33f71d75"
+    ],
+    [
+      "cfe3ee0051",
+      "42968bfad4",
+      "5500b93d52"
+    ]
   ],
   "acciones": [
     {
-      "accion": "Difundir hoy con Inamhi aviso de feriado: Costa, Alóag, Baeza-El Chaco y Alausí",
+      "accion": "Difundir esta noche con Inamhi aviso de feriado: Costa, Alóag, Baeza-El Chaco y Alausí",
       "porque": "Inamhi alerta hasta el sábado 21 en cinco provincias; Alóag cerrada en tres puntos; Baeza-El Chaco cerrada; deslave represa río Alausí.",
       "base_legal": "Art. 23.5, 61, 62 y 64.6",
-      "fuentes": ["42968bfad4", "cfe3ee0051", "5500b93d52", "ec09f47608", "456635fc96", "e88b2049e6"]
+      "fuentes": [
+        "42968bfad4",
+        "cfe3ee0051",
+        "5500b93d52",
+        "ec09f47608",
+        "456635fc96",
+        "e88b2049e6"
+      ]
     },
     {
       "accion": "Pedir al COE de Chimborazo informe técnico del represamiento en Alausí y alerta aguas abajo",
       "porque": "Teleamazonas y El Comercio: un deslizamiento bloquea el cauce del río Alausí y obliga a cerrar la vía.",
       "base_legal": "Art. 23.5, 29 y 62",
-      "fuentes": ["456635fc96", "d1b36b3a81"]
+      "fuentes": [
+        "456635fc96",
+        "d1b36b3a81"
+      ]
     },
     {
       "accion": "Publicar corte oficial único por provincia: afectados, damnificados, fallecidos y ayuda entregada",
       "porque": "Teleamazonas: 35.000 damnificados; TN8 y El Diario: 91.000 afectados y 14 muertos; MDH da kits y bonos por separado.",
       "base_legal": "Art. 61, 72 y 73",
-      "fuentes": ["d10b9070c2", "0e23c94e37", "b1756ae838", "28a84f87b7", "4b7916dc96"]
+      "fuentes": [
+        "d10b9070c2",
+        "0e23c94e37",
+        "b1756ae838",
+        "28a84f87b7",
+        "4b7916dc96"
+      ]
     }
   ],
   "narrativas": [
     {
       "titulo": "La ayuda no llega a los aislados de Milagro",
       "explicacion": "Milagro sigue siendo lo más visto (Ecuavisa 5.892 y 7.923 vistas; N60 muestra a una mujer con el agua al cuello recibiendo alimentos). Es el reclamo que más rápido puede volverse contra la Secretaría si la entrega falla.",
-      "ids": ["b70f446a99", "a5aae746e6", "a60731b952", "3c33f71d75", "60e1a6b14e", "a61ff4e948", "1a655c206b", "04eb3595fa", "15926d0e47", "c3eead9d58", "d3cfc1ad15", "a21cc87c73", "979ecd5b6d", "c4307e13d9", "e843b3d2ed", "4f7a0d802a"]
+      "ids": [
+        "b70f446a99",
+        "a5aae746e6",
+        "a60731b952",
+        "3c33f71d75",
+        "60e1a6b14e",
+        "a61ff4e948",
+        "1a655c206b",
+        "04eb3595fa",
+        "15926d0e47",
+        "c3eead9d58",
+        "d3cfc1ad15",
+        "a21cc87c73",
+        "979ecd5b6d",
+        "c4307e13d9",
+        "e843b3d2ed",
+        "4f7a0d802a"
+      ]
     },
     {
       "titulo": "Riesgos y Municipio de Milagro, descoordinados",
       "explicacion": "Radio Pichincha publicó que la Secretaría no tenía registrada la emergencia de Milagro; El Universo recoge que Carolina señala fallas del Municipio. Sin piezas nuevas hoy, pero un cruce de culpas restaría credibilidad a ambas partes.",
-      "ids": ["ec221b83c7", "3d10db2b26", "b196c4731a", "6aaddcebc9"]
+      "ids": [
+        "ec221b83c7",
+        "3d10db2b26",
+        "b196c4731a",
+        "6aaddcebc9"
+      ]
     },
     {
       "titulo": "El Niño ya suma 14 muertos y miles afectados",
       "explicacion": "TN8 y El Diario repiten 14 muertos y más de 91.000 afectados; Teleamazonas, más de 35.000 damnificados; El Universo suma 13.000 hectáreas de cultivos y 1.600 animales. Sin corte oficial único, cada medio elige su número.",
-      "ids": ["4d359f9672", "09983f5dc6", "9c47827b24", "ab7f346c5d", "e18330a7d1", "d10b9070c2", "351f3c4e5e", "c3a0033a0b", "9c276981b2", "3fc24f89c1", "8a0631a884", "b1756ae838", "0e23c94e37", "a379094009", "4b7916dc96", "b4bd3dfdf0", "6ac60614f2"]
+      "ids": [
+        "4d359f9672",
+        "09983f5dc6",
+        "9c47827b24",
+        "ab7f346c5d",
+        "e18330a7d1",
+        "d10b9070c2",
+        "351f3c4e5e",
+        "c3a0033a0b",
+        "9c276981b2",
+        "3fc24f89c1",
+        "8a0631a884",
+        "b1756ae838",
+        "0e23c94e37",
+        "a379094009",
+        "4b7916dc96",
+        "b4bd3dfdf0",
+        "6ac60614f2"
+      ]
     },
     {
       "titulo": "La Costa se inunda otra vez y teme más",
       "explicacion": "Balao desborda y evacúa (Primicias, El Comercio, Vistazo; Ecuadorinmediato 556 vistas), Pijullo en Urdaneta amanece bajo el agua y preocupa Babahoyo; Teleamazonas cuenta 18 ríos desbordados en tres provincias. Oportunidad: liderar la información de alerta.",
-      "ids": ["176987bf3c", "2cda09bf22", "20110f7478", "d5a2668ac0", "18151c0d16", "cd1a535184", "248f15f6b5", "86ecdc9414", "729bf11a3a", "6b010578c2", "c5a71f0793", "11ba44364c", "d1a3828e32", "049f46f86c", "3fdfb2ba97", "6f7c1b7498", "93097a57de", "9affca533e", "16b6096533"]
+      "ids": [
+        "176987bf3c",
+        "2cda09bf22",
+        "20110f7478",
+        "d5a2668ac0",
+        "18151c0d16",
+        "cd1a535184",
+        "248f15f6b5",
+        "86ecdc9414",
+        "729bf11a3a",
+        "6b010578c2",
+        "c5a71f0793",
+        "11ba44364c",
+        "d1a3828e32",
+        "049f46f86c",
+        "3fdfb2ba97",
+        "6f7c1b7498",
+        "93097a57de",
+        "9affca533e",
+        "16b6096533"
+      ]
     },
     {
       "titulo": "Las lluvias aíslan pueblos y cierran vías en la Sierra",
       "explicacion": "Deslave represa el río Alausí, crecientes destruyen puentes en Chaucha y Molleturo, Alóag y Baeza-El Chaco cerradas, rescate en Carchi (Jairala, 1.233 vistas). Gremios cuestionan la gestión vial de la Alóag: apunta a la gestión vial, no a la Secretaría.",
-      "ids": ["456635fc96", "d1b36b3a81", "ca963249af", "439ddf5ab0", "1ee1b8ff8d", "210b9ae6d0", "5500b93d52", "28049c1b5a", "b37f08cf70", "04d10c76ec", "83b40b3607", "bba8d7ef05", "debb28c5c8", "f239ff2174", "2d22994626", "1c2010068c", "ec09f47608", "e88b2049e6", "2b358eeb3f"]
+      "ids": [
+        "456635fc96",
+        "d1b36b3a81",
+        "ca963249af",
+        "439ddf5ab0",
+        "1ee1b8ff8d",
+        "210b9ae6d0",
+        "5500b93d52",
+        "28049c1b5a",
+        "b37f08cf70",
+        "04d10c76ec",
+        "83b40b3607",
+        "bba8d7ef05",
+        "debb28c5c8",
+        "f239ff2174",
+        "2d22994626",
+        "1c2010068c",
+        "ec09f47608",
+        "e88b2049e6",
+        "2b358eeb3f"
+      ]
     },
     {
       "titulo": "El Gobierno llega con bonos y brigadas",
       "explicacion": "MDH y ElOriente: casi 28.000 kits y bonos para 15.225 familias; TC Televisión: Riesgos despliega asistencia y brigadas médicas en ocho provincias; El Universo: 180 bombas de agua en Los Ríos. Oportunidad para la Secretaría si la entrega en Milagro no falla.",
-      "ids": ["35897b3133", "28a84f87b7", "3973a6712b", "69ed9b6f2c", "bc1cfcabfb", "e85e47ddf6", "5c792d3cdb", "4954fa953d"]
+      "ids": [
+        "35897b3133",
+        "28a84f87b7",
+        "3973a6712b",
+        "69ed9b6f2c",
+        "bc1cfcabfb",
+        "e85e47ddf6",
+        "5c792d3cdb",
+        "4954fa953d"
+      ]
     },
     {
       "titulo": "Critican a los GAD por drenajes y obras",
       "explicacion": "Ecuavisa: cinco muertos y 206 zanjas bajo revisión en Guayaquil; El Diario: familias de La Concordia dos meses incomunicadas; videos preguntan por qué Guayaquil se inunda una y otra vez. Apunta a los GAD, no a la Secretaría.",
-      "ids": ["dac294c4d2", "95cb1b13ad", "b0a1100c69", "4a70633479", "d137cc68fc", "1345a2e2f7", "f1ba91a9c6", "05e3a5911b", "9b691b2f51", "33007d158f"]
+      "ids": [
+        "dac294c4d2",
+        "95cb1b13ad",
+        "b0a1100c69",
+        "4a70633479",
+        "d137cc68fc",
+        "1345a2e2f7",
+        "f1ba91a9c6",
+        "05e3a5911b",
+        "9b691b2f51",
+        "33007d158f"
+      ]
     },
     {
       "titulo": "Dicen que el Gobierno está en campaña, no en territorio",
       "explicacion": "Comentarios en YouTube de cuentas pequeñas, con poco alcance, a días de las elecciones del 29. Riesgo latente: cualquier ayuda con marca política lo confirmaría (art. 78.5).",
-      "ids": ["c2835bbb4b", "235f081eeb", "360c259f41", "12628f8e81", "08ef72da25"]
+      "ids": [
+        "c2835bbb4b",
+        "235f081eeb",
+        "360c259f41",
+        "12628f8e81",
+        "08ef72da25"
+      ]
     }
   ],
   "rumores": [],
   "hitos": [
-    {"dia": "2026-11-19", "titulo": "Deslave represa el río Alausí", "ids": ["456635fc96", "d1b36b3a81"]}
+    {
+      "dia": "2026-11-19",
+      "titulo": "Deslave represa el río Alausí",
+      "ids": [
+        "456635fc96",
+        "d1b36b3a81"
+      ]
+    }
   ]
 }
