@@ -1,25 +1,24 @@
-# Contexto para el análisis de fondo (2026-11-24 01:28, hora de Ecuador)
+# Contexto para el análisis de fondo (2026-11-24 13:08, hora de Ecuador)
 
 Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Cita las piezas por su [id].
 
 ## Cifras: últimas 24 h frente a las 24 h anteriores
 
-- hoy · medios · neutro: 139
-- hoy · medios · positivo: 1
-- hoy · youtube · neutro: 53
+- hoy · medios · neutro: 72
+- hoy · youtube · neutro: 45
 - hoy · youtube · positivo: 1
 - ayer · medios · critico: 1
-- ayer · medios · neutro: 117
-- ayer · medios · positivo: 6
-- ayer · youtube · critico: 5
-- ayer · youtube · neutro: 49
+- ayer · medios · neutro: 122
+- ayer · medios · positivo: 4
+- ayer · youtube · critico: 3
+- ayer · youtube · neutro: 38
 
 ## Narrativas de la corrida anterior
 
-- Culpan a los municipios de inundarse cada año — 9 piezas; 2 en 24 h vs 1 antes. Difundido tanto por el Ejecutivo como por reportes sobre GADs que entregaron tarde sus planes de contingencia o fallaron en la limpieza de sumideros y alcantarillado. Desplaza parte de la presión política hacia los alcaldes, aliviando momentáneamente al Gobierno central.
-- El Gobierno llega con bonos y brigadas — 11 piezas; 1 en 24 h vs 6 antes. Impulsada por medios oficiales y tradicionales destacando la entrega de ayuda humanitaria, asistencia médica y bonos de arrendamiento a familias afectadas en Galápagos y la Costa. Representa una oportunidad clave para que la Secretaría de Riesgos y su titular muestren operatividad y cercanía con la ciudadanía.
-- Las autoridades están en campaña y no ayudan — 6 piezas; 0 en 24 h vs 4 antes. Críticas ciudadanas y de ciertos sectores en redes sociales que cuestionan la presencia del Presidente y acusan prioridades electorales por encima de la emergencia. Es un riesgo reputacional severo para la Secretaría y Carolina Lozano si se percibe politización en la respuesta.
-- El país no está preparado para emergencias — 4 piezas; 0 en 24 h vs 2 antes. Comentarios en redes y reportajes críticos que lamentan la falta de prevención estructural y la vulnerabilidad histórica del país frente a las lluvias. Supone un desafío de comunicación para la Secretaría de Riesgos en cuanto a la rendición de cuentas sobre la mitigación.
+- Culpan a los municipios de inundarse cada año — 7 piezas; 3 en 24 h vs 1 antes. Esta narrativa es empujada por usuarios en redes sociales y notas de prensa al señalar la falta de mantenimiento de alcantarillas y la entrega tardía de planes por parte de los GAD. Representa una oportunidad para la Secretaría y Carolina Lozano al desplazar la responsabilidad hacia la gestión local.
+- El Gobierno llega con bonos y brigadas — 8 piezas; 1 en 24 h vs 4 antes. Impulsada principalmente por medios informativos y canales oficiales al destacar la entrega de asistencia humanitaria, bonos de arrendamiento y monitoreo. Es una oportunidad para visibilizar el trabajo en territorio de la SNGR y la eficacia de la gestión gubernamental.
+- Las autoridades están en campaña y no ayudan — 5 piezas; 0 en 24 h vs 3 antes. Es promovida por medios críticos y comentarios en YouTube que acusan al Ejecutivo de ausentarse durante las emergencias por motivos electorales. Constituye un riesgo reputacional alto para la Secretaría al encasillar su respuesta dentro del desinterés político.
+- El país no está preparado para emergencias — 4 piezas; 0 en 24 h vs 1 antes. Sostenida por comentarios de la ciudadanía y reportajes críticos ante el número de víctimas y la falta de prevención a tiempo. Significa un riesgo directo para la gestión de Carolina Lozano al poner en duda la efectividad de la planificación preventiva de la SNGR.
 
 ## Hitos ya marcados (no los repitas)
 
@@ -64,7 +63,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Lluvias golpean a 13.000 personas en Los Ríos
     Lluvias golpean a 13.000 personas en la provincia de Los Ríos.
 
-[5f73b38a67] 2026-11-24 05:30 UTC · youtube · @ (RTS La Noticia) · neutro · Deslaves y vías · Bolívar · 1 interacciones · 16 vistas
+[5f73b38a67] 2026-11-24 05:30 UTC · youtube · @ (RTS La Noticia) · neutro · Deslaves y vías · Bolívar · 20 interacciones · 1706 vistas
     Fuertes lluvias dejan cuatro fallecidos por aluviones y deslaves en Bolívar y Los Ríos
     Lluvias provocan aluviones y deslaves dejando cuatro fallecidos en Bolívar y Los Ríos.
     Entre las víctimas figuran una madre, su hijo de 3 años y dos adolescentes.
@@ -86,11 +85,11 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Lluvias ponen en riesgo la conexión de comunidades rurales
     Lluvias ponen en riesgo conexión vial en comunidades rurales.
 
-[ea3fa500cd] 2026-11-24 05:00 UTC · youtube · @ (Abimael Abreu Green) · neutro · Lluvias e inundaciones · 6 interacciones · 115 vistas
+[ea3fa500cd] 2026-11-24 05:00 UTC · youtube · @ (Abimael Abreu Green) · neutro · Lluvias e inundaciones · 12 interacciones · 388 vistas
     El Niño Acaba con Todo #elniño #clima #ecuador #ecuatorianosenusa #ecuatorianosenelmundo #maltiempo
     Publicación muestra los severos impactos de El Niño en Ecuador.
 
-[4f510ca0dd] 2026-11-24 04:50 UTC · youtube · @ (Lo bueno de hoy con Radamés) · neutro · Lluvias e inundaciones · Guayas · pide: Evacuación y rescate
+[4f510ca0dd] 2026-11-24 04:50 UTC · youtube · @ (Lo bueno de hoy con Radamés) · neutro · Lluvias e inundaciones · Guayas · pide: Evacuación y rescate · 4 vistas
     ¡Lo volvió a hacer! Rescató a ciudadanos atrapados en las inundaciones de Guayaquil
     Una ciudadana rescata a personas atrapadas durante las inundaciones en Guayaquil.
     Una mujer rescató a ciudadanos atrapados en las inundaciones de Guayaquil y los llevó a salvo. ¡Gente ayudando a gente!
@@ -105,7 +104,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: Los apagones afectan a varias ciudades del país
     Los nuevos apagones ocurrieron a tan solo seis días de las elecciones seccionales del próximo domingo 29 de noviembre de 2026. La noche del lunes 23 de noviembre de 2026, pasadas las 20:30, y de manera intempestiva, varios sectores del país, como Quito, Guayaquil, Cuenca, Portovi
 
-[b663cf5561] 2026-11-24 04:09 UTC · youtube · @ (Ecuavisa) · neutro · Deslaves y vías · Los Ríos · pide: Maquinaria y limpieza · 15 interacciones · 612 vistas
+[b663cf5561] 2026-11-24 04:09 UTC · youtube · @ (Ecuavisa) · neutro · Deslaves y vías · Los Ríos · pide: Maquinaria y limpieza · 34 interacciones · 8372 vistas
     Últimas Noticias #Nacionales Ecuador | Televistazo Ecuavisa 23 Noviembre 2026
     Derrumbes y aluviones provocados por El Niño en Quevedo.
     Noticias de Ecuador 23 de noviembre del 2026 – Las lluvias del fenómeno de El Niño dejan derrumbes y aluviones en Quevedo, ...
@@ -127,7 +126,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Pronóstico de lluvias para este martes 24 de noviembre: las precipitaciones se intensificarán al final de la tarde
     Pronóstico anticipa intensificación de lluvias hacia el final de la tarde.
 
-[caab5adc2f] 2026-11-24 03:30 UTC · youtube · @ (Nachi te lo cuenta ) · neutro · Lluvias e inundaciones · Santa Elena · 16 interacciones · 661 vistas
+[caab5adc2f] 2026-11-24 03:30 UTC · youtube · @ (Nachi te lo cuenta ) · neutro · Lluvias e inundaciones · Santa Elena · 16 interacciones · 966 vistas
     🌧️🎉 ¡NI LA INUNDACIÓN DETUVO LA FIESTA EN LA COMUNA LIBERTADOR BOLÍVAR!
     Habitantes de Libertador Bolívar celebran un evento pese a las inundaciones en la comuna.
     En medio de las afectaciones provocadas por las inundaciones en esta comuna de Santa Elena, los anfitriones de una ...
@@ -142,7 +141,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Clima hoy en Quito, Ecuador: el pronóstico del tiempo para este martes 24 noviembre de 2026
     Pronóstico del clima para Quito este martes 24 de noviembre.
 
-[ecd4c0bee1] 2026-11-24 03:07 UTC · youtube · @ (Ecuavisa) · neutro · Lluvias e inundaciones · Los Ríos · 45 interacciones · 4776 vistas
+[ecd4c0bee1] 2026-11-24 03:07 UTC · youtube · @ (Ecuavisa) · neutro · Lluvias e inundaciones · Los Ríos · 86 interacciones · 14238 vistas
     Noticias Televistazo 7PM🔴 Alias Negro Willy: recapturado y con prisión preventiva | 23 Nov. 2026
     Reporte de emergencias por El Niño y recaptura de criminal.
     Televistazo 7PM del lunes 23 de noviembre de 2026: las lluvias por el fenómeno de El Niño dejan derrumbes, aluviones y ...
@@ -151,13 +150,13 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Testigo lamento pérdidas materiales de dos niñas en emergencia.
     Yo vivo a una cuadra de donde pasó eso y las dos niñas no les quedó nada Pobrecitas
 
-[7960c546d9] 2026-11-24 02:43 UTC · youtube · @ (Radio Forever 92.5 FM) · positivo · Respuesta del Gobierno · aspecto: Coordinación entre instituciones · dirigido a: Gobierno central (positivo) · 7 interacciones · 353 vistas
+[7960c546d9] 2026-11-24 02:43 UTC · youtube · @ (Radio Forever 92.5 FM) · positivo · Respuesta del Gobierno · aspecto: Coordinación entre instituciones · dirigido a: Gobierno central (positivo) · 7 interacciones · 367 vistas
     🔴 EN VIVO | COE Nacional activa ayuda por lluvias en Ecuador | INFORMATIVO FOREVER | 23-11-2026
     COE Nacional activa ayuda por lluvias en Ecuador.
     idea: El gobierno activa ayuda ante emergencias
     Emisión del 20-11-2026: Sintonízanos de lunes a viernes, de 05H30 a 09H30. Junto a nuestros panelistas, el Ing. Washington ...
 
-[07cc5cf13f] 2026-11-24 02:34 UTC · youtube · @ (Ecuavisa) · neutro · Deslaves y vías · Los Ríos · pide: Evacuación y rescate · 21 interacciones · 3208 vistas · ALERTA
+[07cc5cf13f] 2026-11-24 02:34 UTC · youtube · @ (Ecuavisa) · neutro · Deslaves y vías · Los Ríos · pide: Evacuación y rescate · 33 interacciones · 8629 vistas · ALERTA
     Tragedia en Quevedo: dos adolescentes mueren sepultadas por un deslizamiento de tierra | Televistazo
     Dos adolescentes mueren sepultadas por deslizamiento en Quevedo.
     Noticias de Ecuador 23 de noviembre del 2026 – Las fuertes lluvias asociadas al fenómeno de El Niño provocan emergencias y ...
@@ -179,7 +178,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Lluvias intensas volverán a zonas afectadas por El Niño: así estará el clima en Ecuador el martes 24 de noviembre
     Pronóstico de intensas lluvias por El Niño para este martes.
 
-[726cc4f073] 2026-11-24 01:35 UTC · youtube · @ (Banana News) · neutro · Lluvias e inundaciones · pide: Información y alertas · 21 interacciones · 936 vistas
+[726cc4f073] 2026-11-24 01:35 UTC · youtube · @ (Banana News) · neutro · Lluvias e inundaciones · pide: Información y alertas · 23 interacciones · 997 vistas
     ¿Ecuador está enfrentando un súper Niño histórico?
     Análisis sobre si Ecuador enfrenta un súper Fenómeno de El Niño.
 
@@ -226,7 +225,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Galápagos: La Cascada registra agua estancada y crece la preocupación por nuevas inundaciones
     Agua estancada en Galápagos genera preocupación por inundaciones.
 
-[4ef84a304a] 2026-11-24 00:29 UTC · youtube · @ (MUNDO TV ECUADOR) · neutro · Lluvias e inundaciones · Los Ríos · 30 vistas
+[4ef84a304a] 2026-11-24 00:29 UTC · youtube · @ (MUNDO TV ECUADOR) · neutro · Lluvias e inundaciones · Los Ríos · 1 interacciones · 43 vistas
     #Ventanas #LosRíos varios sectores de Ventanas se encuentran afectados por el fenómeno del niño.
     Sectores de Ventanas resultan afectados por el fenómeno de El Niño.
 
@@ -239,7 +238,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Disfraces y pijamas navideñas se ofertan en Guayaquil, pero las lluvias golpean las ventas
     Lluvias afectan las ventas navideñas en Guayaquil.
 
-[5a07be7a4d] 2026-11-23 23:51 UTC · youtube · @ (El Oriente) · neutro · Respuesta del Gobierno · 6 vistas
+[5a07be7a4d] 2026-11-23 23:51 UTC · youtube · @ (El Oriente) · neutro · Respuesta del Gobierno · 18 vistas
     #ECUADOR en emergencia por El Niño, la OCDE pide cambios en #COLOMBIA, y #PERÚ baja combustibles
     Ecuador en emergencia por El Niño en resumen internacional de noticias.
     Estas son las noticias más relevantes de hoy en #Ecuador, #Colombia y #Perú EN ESTE VIDEO: 00:00 - Fenómeno de El ...
@@ -279,7 +278,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Lluvias en Ecuador: Galápagos encabeza la tasa de afectación
     Galápagos encabeza la tasa de afectación por las lluvias en el país.
 
-[97d7df1698] 2026-11-23 23:08 UTC · youtube · @ (DNews) · neutro · Lluvias e inundaciones · Galápagos · 46 interacciones · 8113 vistas
+[97d7df1698] 2026-11-23 23:08 UTC · youtube · @ (DNews) · neutro · Lluvias e inundaciones · Galápagos · 49 interacciones · 9901 vistas
     🇪🇨 Devastación en Galápagos: El Niño provoca graves inundaciones | DNews
     Reporte sobre las graves inundaciones provocadas por El Niño en las Islas Galápagos.
     00:00 - Situación en Ecuador por el fenómeno de El Niño 00:40 - Impacto de las inundaciones en las Islas Galápagos 01:45 ...
@@ -326,7 +325,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: Las lluvias obligan a suspender el conteo rápido electoral
     El CNE descartó el conteo rápido para las elecciones del 29 de noviembre por las lluvias. Conoce cuándo y dónde consultar los resultados oficiales.
 
-[cd56c9061a] 2026-11-23 22:15 UTC · youtube · @ (INOS TV) · neutro · Lluvias e inundaciones · 9 interacciones · 279 vistas
+[cd56c9061a] 2026-11-23 22:15 UTC · youtube · @ (INOS TV) · neutro · Lluvias e inundaciones · 9 interacciones · 284 vistas
     🔴 EN VIVO | ¡NEGRO WILLY EN LA CÁRCEL DEL ENCUENTRO! ECUADOR EN ALERTA POR FUERTES LLUVIAS | INOS TV
     Resumen noticioso que abarca alertas meteorológicas por lluvias e información sobre un recluso.
     BIENVENIDOS A INOS TV AL DÍA La información que necesitas para comenzar o cerrar tu jornada. 🗞️ En Inos TV al Día te ...
@@ -536,7 +535,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Alausí coordinó acciones para vigilar deslizamiento de La Primavera.
     idea: Hay coordinación con los municipios
 
-[a811b3c67a] 2026-11-23 19:00 UTC · youtube · @ (La Prensa Gráfica Noticias de El Salvador) · neutro · Afectados y damnificados · 1 interacciones · 112 vistas
+[a811b3c67a] 2026-11-23 19:00 UTC · youtube · @ (La Prensa Gráfica Noticias de El Salvador) · neutro · Afectados y damnificados · 1 interacciones · 165 vistas
     Decenas de miles de afectados y 20 muertos por El Niño en Ecuador
     Reportan 20 muertos y miles de afectados por El Niño.
     Veinte personas han fallecido y más de 100.000 se han visto perjudicadas por las fuertes lluvias asociadas al fenómeno de El ...
@@ -600,7 +599,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     "Mega El Niño": Un mapa del mar con calor extremo frente a Chile, Perú y Ecuador alarma a científicos
     Científicos alertan por mapa térmico del mar de El Niño en la región.
 
-[b12117098b] 2026-11-23 17:30 UTC · youtube · @ (Radio Ecuantena) · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (neutro) · pide: Información y alertas · 1 interacciones · 56 vistas
+[b12117098b] 2026-11-23 17:30 UTC · youtube · @ (Radio Ecuantena) · neutro · Prevención y alertas · aspecto: Prevención y alertas · dirigido a: Secretaría de Gestión de Riesgos (neutro) · pide: Información y alertas · 1 interacciones · 84 vistas
     URGENTE: "Comandante Willy" llega a Ecuador, choque en debate de Guayaquil
     Inocar y Secretaría de Riesgos colocan bandera roja en balnearios.
     idea: Se emiten alertas preventivas en balnearios
@@ -764,7 +763,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     idea: Se proponen planes para prevenir inundaciones en la ciudad
     Juan Pablo Riquetti, candidato a alcalde de Cuenca por la lista 3, propone proteger los páramos, prevenir inundaciones y mejorar la seguridad.
 
-[a2677f4394] 2026-11-23 13:46 UTC · youtube · @ (El Universo) · neutro · Lluvias e inundaciones · Los Ríos · pide: Vías y puentes · 16 interacciones · 1517 vistas
+[a2677f4394] 2026-11-23 13:46 UTC · youtube · @ (El Universo) · neutro · Lluvias e inundaciones · Los Ríos · pide: Vías y puentes · 19 interacciones · 1705 vistas
     Ocho ríos se desbordan por las lluvias en la provincia de Los Ríos y afectan a ocho cantones
     Desbordamiento de ocho ríos afecta cantones y cierra vía en Los Ríos.
     La vía E-491 Montalvo-Balsapamba permanece cerrada al tránsito vehicular debido a las afectaciones provocadas por el ...
@@ -1024,7 +1023,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Noticia sobre celebración en inundación en medio de la emergencia nacional.
     Familia celebró fiesta en medio de inundación en Ecuador Ecuador actualmente se encuentra en emergencia debido a las ...
 
-[2823ceeeac] 2026-11-22 23:50 UTC · youtube · @ (Hechos Ecuador Noticias) · critico · Política y críticas · aspecto: Presencia en territorio · dirigido a: Gobierno central (critico) · 214 interacciones · 3974 vistas
+[2823ceeeac] 2026-11-22 23:50 UTC · youtube · @ (Hechos Ecuador Noticias) · critico · Política y críticas · aspecto: Presencia en territorio · dirigido a: Gobierno central (critico) · 217 interacciones · 4030 vistas
     ¡ECUADOR EN CRISIS! APAGONES, INUNDACIONES Y VIOLENCIA: ¿DÓNDE ESTÁ NOBOA?
     Medio critica la ausencia del presidente Noboa ante inundaciones y crisis del país.
     idea: El gobierno no está presente ante las inundaciones
@@ -1050,7 +1049,7 @@ Piezas ya clasificadas por Gemini (puede equivocarse: verifica con el texto). Ci
     Tránsito en la vía Alóag–Santo Domingo se habilita, pero persiste la congestión vehicular
     Se habilita el tránsito en la vía Alóag-Santo Domingo pero persiste la congestión.
 
-[d9c47ceffd] 2026-11-22 23:00 UTC · youtube · @ (ojo satelital) · neutro · Afectados y damnificados · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 26 interacciones · 1915 vistas
+[d9c47ceffd] 2026-11-22 23:00 UTC · youtube · @ (ojo satelital) · neutro · Afectados y damnificados · aspecto: Comunicación e información · dirigido a: Secretaría de Gestión de Riesgos (neutro) · 26 interacciones · 2001 vistas
     🇪🇨 Ecuador: El Niño deja 20 muertos y la alerta sigue hasta el martes 24 🌧️ El Niño
     SNGR reporta 20 fallecidos y más de 104 mil afectados por El Niño en Ecuador.
     El Niño ya deja 20 fallecidos y 104.896 afectados en Ecuador desde el 29 de agosto, según la Secretaría de Gestión de Riesgos, ...
