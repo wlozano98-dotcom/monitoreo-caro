@@ -1,177 +1,32 @@
 {
   "vinetas": [
-    "Datos con 17 h de atraso (corte 24 nov, 13:08). Quevedo: alud mató a dos hermanas de 13 y 15 años.",
-    "Cifras de víctimas difieren: SNGR, 20 muertos y 104.896 afectados (22 nov); El Diario Ecuador, 27 muertos y 110.000.",
-    "Aguaje máximo del 25 al 28 nov con olas de hasta 4,5 m, en vísperas de las elecciones del 29.",
-    "YouTube: Millones al Agua (Los Ceibos) suma 27.409 vistas y reclamos a alcaldes; ninguna crítica a la SNGR en 24 h."
+    "Aviso: el contexto es del 24 nov 13:08, unas 29 h de atraso; no hay datos de X, TikTok ni Facebook.",
+    "Cifras de muertos difieren: SNGR 20 al 22 nov; El Diario Ecuador y Amaru Salas ya hablan de 27.",
+    "Quevedo domina medios y YouTube: dos hermanas sepultadas por alud; Ecuavisa suma más de 8.000 vistas.",
+    "Video de MILLONES AL AGUA (27.409 vistas) culpa al Municipio de Guayaquil por Los Ceibos antes del aguaje del 25."
   ],
   "fuentes_vinetas": [
-    [
-      "196a039fe7",
-      "848af70bf3",
-      "07cc5cf13f",
-      "0c5c9ba50c",
-      "ac49af0b38"
-    ],
-    [
-      "d9c47ceffd",
-      "87964a0267",
-      "e5f601e3d4",
-      "ab849a0fab",
-      "4e8b6243af"
-    ],
-    [
-      "14a9df0b84",
-      "cec2cccb78",
-      "f341c2645a",
-      "287bac327b"
-    ],
-    [
-      "266f9b28f1",
-      "50c22f9dae",
-      "5b784e3217"
-    ]
+    [],
+    ["d9c47ceffd", "e5f601e3d4", "ab849a0fab"],
+    ["07cc5cf13f", "ac49af0b38", "44ba08dc93", "9ff4fa9b79"],
+    ["266f9b28f1", "f341c2645a"]
   ],
   "acciones": [
-    {
-      "accion": "Difundir con Inocar y CNE aviso de aguaje y recintos seguros para el 29.",
-      "porque": "Inocar prevé aguaje máximo del 25 al 28 con olas de 4,5 m; el CNE ya descartó conteo rápido por lluvias.",
-      "base_legal": "Art. 23.5, 61 y 62",
-      "fuentes": [
-        "14a9df0b84",
-        "cec2cccb78",
-        "287bac327b",
-        "207a917eb6",
-        "2fd0fb32bd"
-      ]
-    },
-    {
-      "accion": "Publicar hoy en web y redes una cifra oficial consolidada de fallecidos y afectados.",
-      "porque": "Circulan 20, 22 y 27 muertos, y de más de 100.000 a más de 110.000 afectados, según el medio.",
-      "base_legal": "Art. 61, 72 y 73",
-      "fuentes": [
-        "d9c47ceffd",
-        "87964a0267",
-        "e5f601e3d4",
-        "ab849a0fab",
-        "4e8b6243af",
-        "1924dc2d94"
-      ]
-    },
-    {
-      "accion": "Pedir al COE de Los Ríos revisar laderas habitadas de Quevedo; ofrecer apoyo técnico.",
-      "porque": "Alud mató a dos hermanas en Quevedo; ocho ríos desbordados en ocho cantones; La Hora: 13.000 personas golpeadas.",
-      "base_legal": "Art. 21.4, 29 y 68",
-      "fuentes": [
-        "196a039fe7",
-        "44ba08dc93",
-        "a2677f4394",
-        "edf532aad1",
-        "1c74f69c01"
-      ]
-    }
+    {"accion": "Publicar hoy balance oficial actualizado de fallecidos y afectados en web y redes SNGR.", "porque": "Circulan 20, 22 y 27 muertos según el medio; la cifra oficial del 22 nov ya quedó atrás.", "base_legal": "Art. 61 y 72", "fuentes": ["d9c47ceffd", "e5f601e3d4", "ab849a0fab", "731302161a"]},
+    {"accion": "Emitir con Inocar y COE cantonales mensaje de aguaje 25-28 nov para Guayaquil y costa.", "porque": "Inocar prevé aguaje máximo 25-28 nov, olas de hasta 4,50 m; marea alta ya inundó calles de Guayaquil.", "base_legal": "Art. 23.4, 61 y 62", "fuentes": ["14a9df0b84", "cec2cccb78", "67e56b56cc", "df45db0a57"]},
+    {"accion": "Coordinar con CNE información sobre recintos en zonas de riesgo para elecciones del 29 nov.", "porque": "Ecuador Chequea desmintió que el CNE suspenda elecciones; el CNE ya descartó el conteo rápido por las lluvias.", "base_legal": "Art. 23.5 y 61", "fuentes": ["2fd0fb32bd", "a8c53f0fa1", "207a917eb6"]}
   ],
   "narrativas": [
-    {
-      "titulo": "Culpan a los municipios de inundarse cada año",
-      "explicacion": "La empuja en YouTube Millones al Agua (Los Ceibos, 27.409 vistas) y sus comentarios contra alcaldes; El Universo pregunta si el paso a desnivel desvía el agua. Apunta a los GAD, no a la Secretaría.",
-      "ids": [
-        "266f9b28f1",
-        "50c22f9dae",
-        "5b784e3217",
-        "faa459703a",
-        "85df756e4e",
-        "53b33caef8",
-        "257bc17526",
-        "d93008aa6a",
-        "5cedde331d"
-      ]
-    },
-    {
-      "titulo": "El Gobierno llega con bonos y brigadas",
-      "explicacion": "Medios recogen bonos de arrendamiento a 19 familias en Santa Cruz, ayuda en Manabí, Santa Elena, Los Ríos y Bolívar, volquetas del MIT y alerta temprana anunciada por el ministro Luque. Oportunidad de mostrar resultados con cifras verificables.",
-      "ids": [
-        "dbabcf6393",
-        "9ea1ae1a32",
-        "489fae517f",
-        "0884f06622",
-        "7628768e15",
-        "6e20722685",
-        "3941053198",
-        "6ff9c7d5d6",
-        "7960c546d9"
-      ]
-    },
-    {
-      "titulo": "Las autoridades están en campaña y no ayudan",
-      "explicacion": "La sostiene Hechos Ecuador Noticias (¿Dónde está Noboa?, 4.030 vistas) y comentarios; apunta al Presidente. Sin piezas nuevas en las últimas 24 h, pero puede reactivarse antes del 29.",
-      "ids": [
-        "2823ceeeac",
-        "825b352959",
-        "38077ee5c8",
-        "d027dab9bf"
-      ]
-    },
-    {
-      "titulo": "El país no está preparado para emergencias",
-      "explicacion": "Radio Pichincha editorializa sobre abandono estatal en Galápagos y Hechos Ecuador pregunta si las autoridades estaban preparadas; Infobae compara con 1997. Riesgo directo para la planificación preventiva de la Secretaría.",
-      "ids": [
-        "b3aba3d791",
-        "731302161a",
-        "4e8b6243af",
-        "f795aca6d4",
-        "7dfa17478b"
-      ]
-    },
-    {
-      "titulo": "Viene un mega El Niño peor que 1997",
-      "explicacion": "Medios nacionales y extranjeros (Extra, TC, El Universo, BioBioChile) repiten la etiqueta mega El Niño; Teleamazonas: lluvias en Galápagos superan 1982 y 1997. Miedo que la Secretaría puede canalizar con preparación concreta.",
-      "ids": [
-        "5761daff3d",
-        "9967a85b16",
-        "5d7a5d461e",
-        "c846397561",
-        "67de94ed88",
-        "6a03e2881b",
-        "726cc4f073",
-        "bd99e97b40",
-        "e13c0c7e50"
-      ]
-    },
-    {
-      "titulo": "Las lluvias ponen en riesgo las elecciones",
-      "explicacion": "El CNE descartó el conteo rápido por las lluvias y explicó qué pasa si se inunda un recinto; Radio Pichincha liga los apagones del lunes a seis días de los comicios. Oportunidad de coordinar mensajes con el CNE.",
-      "ids": [
-        "287bac327b",
-        "a8c53f0fa1",
-        "814f06df08",
-        "207a917eb6",
-        "2fd0fb32bd",
-        "d3082e07d0",
-        "4b510b21cd"
-      ]
-    }
+    {"titulo": "Culpan a los municipios de inundarse cada año", "explicacion": "La empuja el canal MILLONES AL AGUA y sus comentarios sobre Los Ceibos y drenaje en Guayaquil; apunta a los GAD, no a la Secretaría, pero el aguaje puede volver a encenderla.", "ids": ["266f9b28f1", "50c22f9dae", "5b784e3217", "d93008aa6a"]},
+    {"titulo": "El Gobierno llega con bonos y brigadas", "explicacion": "Medios como El Universo y el Ministerio de Desarrollo Humano muestran ayuda y maquinaria en Manabí, Bolívar y Galápagos; oportunidad para visibilizar a la SNGR en territorio.", "ids": ["489fae517f", "0884f06622", "7628768e15", "7960c546d9"]},
+    {"titulo": "Las autoridades están en campaña y no ayudan", "explicacion": "Hechos Ecuador Noticias pregunta dónde está Noboa ante inundaciones y apagones, a días de las seccionales; riesgo de que la respuesta se lea en clave electoral.", "ids": ["2823ceeeac", "38077ee5c8"]},
+    {"titulo": "El país no está preparado para emergencias", "explicacion": "Un editorial de Radio Pichincha habla de abandono estatal en Galápagos y Hechos Ecuador exige responder por la prevención; toca de lleno la planificación de la SNGR.", "ids": ["b3aba3d791", "731302161a"]},
+    {"titulo": "Las lluvias vuelven a traer apagones", "explicacion": "Radio Pichincha, Metro y El Diario reportan cortes en varias provincias la noche del 23 nov; apunta a CNEL y al Gobierno central, y suma malestar general a la emergencia.", "ids": ["4b510b21cd", "dcee54c68b", "fc807981a5", "2b76c57727"]}
   ],
   "rumores": [
-    {
-      "titulo": "El CNE analiza suspender las elecciones por lluvias",
-      "explicacion": "Ecuador Chequea lo califica de engañoso. Respuesta sugerida: información oficial clara, junto al CNE, sobre cómo se votará y qué pasa con recintos inundados (arts. 61 y 72).",
-      "ids": [
-        "2fd0fb32bd",
-        "207a917eb6"
-      ]
-    }
+    {"titulo": "El CNE suspendería las elecciones por lluvias", "explicacion": "Ecuador Chequea lo calificó de engañoso. Respuesta sugerida: información oficial conjunta sobre la situación de recintos en zonas afectadas (arts. 61 y 72).", "ids": ["2fd0fb32bd"]}
   ],
   "hitos": [
-    {
-      "dia": "2026-11-23",
-      "titulo": "Alud mata a dos hermanas en Quevedo",
-      "ids": [
-        "196a039fe7",
-        "0c5c9ba50c",
-        "ac49af0b38",
-        "9ff4fa9b79"
-      ]
-    }
+    {"dia": "2026-11-23", "titulo": "Alud en Quevedo mata a dos hermanas adolescentes", "ids": ["ac49af0b38", "44ba08dc93", "9ff4fa9b79"]}
   ]
 }
