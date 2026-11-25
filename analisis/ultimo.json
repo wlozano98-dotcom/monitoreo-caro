@@ -1,31 +1,177 @@
 {
   "vinetas": [
-    "Manabí se suma al foco: Portoviejo, Santa Ana y Charapotó inundados; El Comercio habla de miles de afectados.",
-    "El dique del río Alausí, cerca de la tragedia de 2023, ocupa a seis medios; Ecuavisa suma 4.369 vistas.",
-    "Tono casi todo neutro: lo positivo en YouTube cae de 27 a 1 y en medios de 7 a 5.",
-    "ERFEN prevé lluvias muy fuertes a fines de noviembre (El Universo); el CNE estará en sesión permanente el 29."
+    "Datos con 17 h de atraso (corte 24 nov, 13:08). Quevedo: alud mató a dos hermanas de 13 y 15 años.",
+    "Cifras de víctimas difieren: SNGR, 20 muertos y 104.896 afectados (22 nov); El Diario Ecuador, 27 muertos y 110.000.",
+    "Aguaje máximo del 25 al 28 nov con olas de hasta 4,5 m, en vísperas de las elecciones del 29.",
+    "YouTube: Millones al Agua (Los Ceibos) suma 27.409 vistas y reclamos a alcaldes; ninguna crítica a la SNGR en 24 h."
   ],
   "fuentes_vinetas": [
-    ["7fff5ba8f7", "5e558d70cb", "1e6c146c11", "177a49638e", "65ac5b2e01", "4a9abfec7f"],
-    ["31bff4ea04", "9293d416ac", "86f8ef6cc7", "f812ea84bb", "f7164dfbfe", "2865e7a708", "a55051612b"],
-    [],
-    ["fe8d91e7fc", "4a1e01bde0"]
+    [
+      "196a039fe7",
+      "848af70bf3",
+      "07cc5cf13f",
+      "0c5c9ba50c",
+      "ac49af0b38"
+    ],
+    [
+      "d9c47ceffd",
+      "87964a0267",
+      "e5f601e3d4",
+      "ab849a0fab",
+      "4e8b6243af"
+    ],
+    [
+      "14a9df0b84",
+      "cec2cccb78",
+      "f341c2645a",
+      "287bac327b"
+    ],
+    [
+      "266f9b28f1",
+      "50c22f9dae",
+      "5b784e3217"
+    ]
   ],
   "acciones": [
-    {"accion": "Publicar con el COE cantonal el estado técnico del dique de Alausí.", "porque": "Seis medios cubren el río represado cerca de la zona de 2023; Metro reporta preocupación en las comunidades.", "base_legal": "Art. 29 y 61", "fuentes": ["31bff4ea04", "f7164dfbfe", "2865e7a708", "f812ea84bb", "9293d416ac"]},
-    {"accion": "Ofrecer apoyo subsidiario a Portoviejo y Santa Ana y difundir cifra oficial de afectados.", "porque": "El Comercio habla de miles de afectados en Manabí; El Diario, de 4.031 personas entre el 1 y el 17 de noviembre.", "base_legal": "Art. 21.4, 61 y 68", "fuentes": ["65ac5b2e01", "29f7cff548", "7fff5ba8f7", "1e6c146c11", "5e558d70cb"]},
-    {"accion": "Acordar con el CNE un mensaje conjunto sobre recintos y alertas para el 29.", "porque": "ERFEN prevé lluvias muy fuertes a fines de noviembre y el CNE estará en sesión permanente ese día.", "base_legal": "Art. 23.5 y 61", "fuentes": ["fe8d91e7fc", "4a1e01bde0", "99c866f37c", "4a8cf3373a"]}
+    {
+      "accion": "Difundir con Inocar y CNE aviso de aguaje y recintos seguros para el 29.",
+      "porque": "Inocar prevé aguaje máximo del 25 al 28 con olas de 4,5 m; el CNE ya descartó conteo rápido por lluvias.",
+      "base_legal": "Art. 23.5, 61 y 62",
+      "fuentes": [
+        "14a9df0b84",
+        "cec2cccb78",
+        "287bac327b",
+        "207a917eb6",
+        "2fd0fb32bd"
+      ]
+    },
+    {
+      "accion": "Publicar hoy en web y redes una cifra oficial consolidada de fallecidos y afectados.",
+      "porque": "Circulan 20, 22 y 27 muertos, y de más de 100.000 a más de 110.000 afectados, según el medio.",
+      "base_legal": "Art. 61, 72 y 73",
+      "fuentes": [
+        "d9c47ceffd",
+        "87964a0267",
+        "e5f601e3d4",
+        "ab849a0fab",
+        "4e8b6243af",
+        "1924dc2d94"
+      ]
+    },
+    {
+      "accion": "Pedir al COE de Los Ríos revisar laderas habitadas de Quevedo; ofrecer apoyo técnico.",
+      "porque": "Alud mató a dos hermanas en Quevedo; ocho ríos desbordados en ocho cantones; La Hora: 13.000 personas golpeadas.",
+      "base_legal": "Art. 21.4, 29 y 68",
+      "fuentes": [
+        "196a039fe7",
+        "44ba08dc93",
+        "a2677f4394",
+        "edf532aad1",
+        "1c74f69c01"
+      ]
+    }
   ],
   "narrativas": [
-    {"titulo": "Las lluvias aíslan pueblos y cierran vías en la Sierra", "explicacion": "Sigue viva: el dique del río Alausí (Teleamazonas, Metro, Ecuavisa, FM Mundo, El Comercio), un bus atrapado y el cruce entre prefecturas por el km 83 de la Alóag, inundaciones en Cuenca y Quito con cortes de luz de hasta 12 horas. Riesgo para la Secretaría si el dique cede sin información oficial previa.", "ids": ["31bff4ea04", "9293d416ac", "86f8ef6cc7", "f812ea84bb", "f7164dfbfe", "2865e7a708", "38a2584310", "fe979f6af6", "468b3ecd3c", "a55051612b", "9ec7b66403", "8f4695b466", "d5df5f3836", "c27e310728", "c5da2baa78", "7e5c4b9ad2", "1a05e717e2", "747dafb25b", "027907efcc", "e91b007577", "1108342a94", "eebc2e48e9"]},
-    {"titulo": "La Costa se inunda otra vez y teme más", "explicacion": "Manabí entra con fuerza (Portoviejo, Santa Ana, Charapotó, vía a Manta) y los medios cuentan 18 ríos y esteros desbordados en cuatro provincias; Ecuavisa sobre Balao llega a 18.941 vistas. Oportunidad: liderar la información preventiva del feriado.", "ids": ["7fff5ba8f7", "5e558d70cb", "1e6c146c11", "177a49638e", "65ac5b2e01", "4a9abfec7f", "9c458d5858", "5d4111b84d", "1a571b5179", "807027af21", "8f43a3cfbb", "7912e1fda8", "d1599bb0be", "97700cefee", "f17b21e0d7", "db36886f03", "fe8d91e7fc"]},
-    {"titulo": "La ayuda no llega a los aislados de Milagro", "explicacion": "Videos de Cacme Tv (más de 9.000 afectados) y Extra (30 años de inundaciones sin solución) mantienen a Milagro en pantalla; comentarios preguntan dónde está el Gobierno. Radio Pichincha ya dijo que Riesgos desconocía la emergencia municipal: riesgo directo para la Secretaría.", "ids": ["4dec8f6d27", "bf57ce6ae6", "2492f22627", "29ccbaaff5", "787d72de53", "3c33f71d75", "979ecd5b6d", "ec221b83c7", "7287bffc65"]},
-    {"titulo": "Temen que la lluvia afecte las elecciones del 29", "explicacion": "El Universo y Confirmado informan que el CNE vigila el clima y estará en sesión permanente; El Diario explica cómo consultar recintos. Carolina habló del plan de contingencia con poco alcance: oportunidad de dar certeza junto al CNE.", "ids": ["4a1e01bde0", "b2da3d2e4a", "99c866f37c", "be8c9a9f2b", "4a8cf3373a", "09b5587d4b", "44682ee818", "c0c6017bcf"]},
-    {"titulo": "El Gobierno llega con bonos y brigadas", "explicacion": "El Universo: bono de contingencia para 15.225 familias; bombas de agua para agricultores y asistencia de Riesgos en ocho y nueve provincias. Se apaga frente a ayer: hoy casi no hay piezas positivas nuevas.", "ids": ["b48da8fb2c", "10254ebf67", "492b323990", "2955fa6cab", "aa2ee90c6f", "3d03eb5543", "69ed9b6f2c", "3973a6712b", "28a84f87b7"]},
-    {"titulo": "Culpan a los municipios de inundarse cada año", "explicacion": "Vecinos de Los Ceibos piden explicaciones, El Diario muestra calles de Manta con lodo y aguas servidas y hay reclamos por la bomba de agua de Playas. Apunta a los GAD; Carolina ya señaló fallas del Municipio de Milagro, lo que puede leerse como choque político.", "ids": ["f5cbaefdd8", "d354f97ccd", "0928c11220", "1b032dcb03", "9b691b2f51", "33007d158f", "b196c4731a"]}
+    {
+      "titulo": "Culpan a los municipios de inundarse cada año",
+      "explicacion": "La empuja en YouTube Millones al Agua (Los Ceibos, 27.409 vistas) y sus comentarios contra alcaldes; El Universo pregunta si el paso a desnivel desvía el agua. Apunta a los GAD, no a la Secretaría.",
+      "ids": [
+        "266f9b28f1",
+        "50c22f9dae",
+        "5b784e3217",
+        "faa459703a",
+        "85df756e4e",
+        "53b33caef8",
+        "257bc17526",
+        "d93008aa6a",
+        "5cedde331d"
+      ]
+    },
+    {
+      "titulo": "El Gobierno llega con bonos y brigadas",
+      "explicacion": "Medios recogen bonos de arrendamiento a 19 familias en Santa Cruz, ayuda en Manabí, Santa Elena, Los Ríos y Bolívar, volquetas del MIT y alerta temprana anunciada por el ministro Luque. Oportunidad de mostrar resultados con cifras verificables.",
+      "ids": [
+        "dbabcf6393",
+        "9ea1ae1a32",
+        "489fae517f",
+        "0884f06622",
+        "7628768e15",
+        "6e20722685",
+        "3941053198",
+        "6ff9c7d5d6",
+        "7960c546d9"
+      ]
+    },
+    {
+      "titulo": "Las autoridades están en campaña y no ayudan",
+      "explicacion": "La sostiene Hechos Ecuador Noticias (¿Dónde está Noboa?, 4.030 vistas) y comentarios; apunta al Presidente. Sin piezas nuevas en las últimas 24 h, pero puede reactivarse antes del 29.",
+      "ids": [
+        "2823ceeeac",
+        "825b352959",
+        "38077ee5c8",
+        "d027dab9bf"
+      ]
+    },
+    {
+      "titulo": "El país no está preparado para emergencias",
+      "explicacion": "Radio Pichincha editorializa sobre abandono estatal en Galápagos y Hechos Ecuador pregunta si las autoridades estaban preparadas; Infobae compara con 1997. Riesgo directo para la planificación preventiva de la Secretaría.",
+      "ids": [
+        "b3aba3d791",
+        "731302161a",
+        "4e8b6243af",
+        "f795aca6d4",
+        "7dfa17478b"
+      ]
+    },
+    {
+      "titulo": "Viene un mega El Niño peor que 1997",
+      "explicacion": "Medios nacionales y extranjeros (Extra, TC, El Universo, BioBioChile) repiten la etiqueta mega El Niño; Teleamazonas: lluvias en Galápagos superan 1982 y 1997. Miedo que la Secretaría puede canalizar con preparación concreta.",
+      "ids": [
+        "5761daff3d",
+        "9967a85b16",
+        "5d7a5d461e",
+        "c846397561",
+        "67de94ed88",
+        "6a03e2881b",
+        "726cc4f073",
+        "bd99e97b40",
+        "e13c0c7e50"
+      ]
+    },
+    {
+      "titulo": "Las lluvias ponen en riesgo las elecciones",
+      "explicacion": "El CNE descartó el conteo rápido por las lluvias y explicó qué pasa si se inunda un recinto; Radio Pichincha liga los apagones del lunes a seis días de los comicios. Oportunidad de coordinar mensajes con el CNE.",
+      "ids": [
+        "287bac327b",
+        "a8c53f0fa1",
+        "814f06df08",
+        "207a917eb6",
+        "2fd0fb32bd",
+        "d3082e07d0",
+        "4b510b21cd"
+      ]
+    }
   ],
   "rumores": [
-    {"titulo": "Más de 90 mil evacuados en Ecuador", "explicacion": "Crónica TV (1.231 vistas) habla de más de 90 mil evacuados; las cifras de Riesgos citadas por medios son 35.000 damnificados y 56.000 afectados, y TN8 da 91.000 afectados, no evacuados. Respuesta: un corte oficial único de afectados, damnificados y evacuados (arts. 61 y 72).", "ids": ["019608bb09", "ab7f346c5d", "0e23c94e37"]}
+    {
+      "titulo": "El CNE analiza suspender las elecciones por lluvias",
+      "explicacion": "Ecuador Chequea lo califica de engañoso. Respuesta sugerida: información oficial clara, junto al CNE, sobre cómo se votará y qué pasa con recintos inundados (arts. 61 y 72).",
+      "ids": [
+        "2fd0fb32bd",
+        "207a917eb6"
+      ]
+    }
   ],
-  "hitos": []
+  "hitos": [
+    {
+      "dia": "2026-11-23",
+      "titulo": "Alud mata a dos hermanas en Quevedo",
+      "ids": [
+        "196a039fe7",
+        "0c5c9ba50c",
+        "ac49af0b38",
+        "9ff4fa9b79"
+      ]
+    }
+  ]
 }
