@@ -1,168 +1,73 @@
 {
   "vinetas": [
-    "Desbordes suben a 33 ríos y Los Ríos es la más afectada (Teleamazonas); otras notas dicen 27 o 32.",
-    "Manabí se agrava: río Manta desborda por segunda vez en la semana, 3.700 afectados; dos muertos en San Vicente.",
-    "Domingo 29: Pilar Cornejo prevé lluvias fuertes en la votación; el Inamhi dijo que la advertencia termina el viernes.",
-    "En medios las notas positivas caen de 10 a 2; en YouTube la crítica sigue baja (9 piezas) y apunta al Gobierno."
+    "Solo hay medios y YouTube, sin X, TikTok ni Facebook; notas positivas en medios caen de 10 a 2.",
+    "Desbordes suben a 33 ríos y Los Ríos es la más afectada (Teleamazonas); 276 personas en cinco albergues.",
+    "Río Manta desborda por segunda vez en la semana (3.700 afectados) y Guayaquil suma cuarta noche bajo agua.",
+    "Domingo 29: Pilar Cornejo prevé lluvias fuertes en la votación; el Inamhi dijo que la advertencia termina el viernes."
   ],
   "fuentes_vinetas": [
-    [
-      "a6b42a77b7",
-      "2665720406",
-      "6b3c3b0503",
-      "1b4fc01465"
-    ],
-    [
-      "7f69649348",
-      "4011b12b48",
-      "b86146c6a7",
-      "ca1f09c32d"
-    ],
-    [
-      "7d2e0b61c9",
-      "4484feb0ba",
-      "9658fd761a"
-    ],
-    [
-      "94485e2ec1",
-      "31646de3e0"
-    ]
+    [],
+    ["a6b42a77b7", "2665720406", "2b32b2cd48", "d0224afa15"],
+    ["7f69649348", "4011b12b48", "49f669e956", "514a4b0693"],
+    ["7d2e0b61c9", "4484feb0ba", "9658fd761a"]
   ],
   "acciones": [
     {
-      "accion": "Emitir con Inamhi y CNE un pronóstico oficial único para la votación del domingo.",
-      "porque": "Pilar Cornejo (Teleamazonas) prevé lluvias fuertes el domingo; el Inamhi anunció fin de la advertencia el viernes; Milagro reubica tres recintos.",
+      "accion": "Emitir con Inamhi y CNE un boletín único de riesgo para la votación del domingo.",
+      "porque": "Cornejo (Teleamazonas) prevé lluvias fuertes el domingo; el Inamhi anunció fin de la advertencia el viernes; Milagro reubica tres recintos.",
       "base_legal": "Art. 23.5, 61 y 62",
-      "fuentes": [
-        "7d2e0b61c9",
-        "4484feb0ba",
-        "9658fd761a",
-        "d2305b0939"
-      ]
+      "fuentes": ["7d2e0b61c9", "4484feb0ba", "9658fd761a", "d2305b0939", "63dec6a4ee"]
     },
     {
-      "accion": "Ofrecer a COE de Manta y San Vicente apoyo subsidiario y evaluación de necesidades.",
-      "porque": "Río Manta desborda por segunda vez en la semana con más de 3.700 afectados (El Diario); dos muertos en San Vicente.",
+      "accion": "Ofrecer al COE cantonal de Manta apoyo subsidiario y evaluación de necesidades con MIES.",
+      "porque": "Río Manta desborda por segunda vez en la semana; El Diario cuenta más de 3.700 afectados; dos muertos en San Vicente.",
       "base_legal": "Art. 14, 21.4 y 68",
-      "fuentes": [
-        "7f69649348",
-        "4011b12b48",
-        "b86146c6a7",
-        "ca1f09c32d"
-      ]
+      "fuentes": ["7f69649348", "4011b12b48", "2faa89ee3a", "b86146c6a7", "ca1f09c32d"]
     },
     {
-      "accion": "Publicar hoy en web y redes parte oficial de ríos desbordados y víctimas.",
-      "porque": "Medios dan 27, 32 y 33 ríos desbordados; prensa internacional replica 30 muertos y 121.000 afectados, otras 28 y 114.000.",
+      "accion": "Publicar en la web el parte oficial de ríos, víctimas y ayuda entregada por provincia.",
+      "porque": "Medios dan 32 o 33 ríos desbordados y 28 o 30 muertos; comentarios en YouTube acusan show con la ayuda.",
       "base_legal": "Art. 61, 72 y 73",
-      "fuentes": [
-        "a6b42a77b7",
-        "6b3c3b0503",
-        "1b4fc01465",
-        "8cb159e42d",
-        "0b5a1ae566"
-      ]
+      "fuentes": ["6b3c3b0503", "a6b42a77b7", "0b5a1ae566", "8cb159e42d", "511fc8b233"]
     }
   ],
   "narrativas": [
     {
       "titulo": "Babahoyo y Los Ríos quedaron bajo el agua",
-      "explicacion": "Videos de Ecuavisa y canales de YouTube con miles de vistas, más el colapso del puente en Montalvo y 276 personas en albergues. Es donde se medirá la llegada de la ayuda.",
-      "ids": [
-        "f37a3553da",
-        "8eb0825a4d",
-        "36b9c5a926",
-        "fad4e2745e",
-        "e1844262a9",
-        "f91777698b",
-        "f55678c65d",
-        "2b32b2cd48",
-        "d0224afa15",
-        "1667c07979",
-        "56e30a03b8",
-        "bd23dc7159"
-      ]
+      "explicacion": "Videos de Ecuavisa y canales de YouTube con miles de vistas, el colapso del puente en Montalvo y 276 personas en albergues. Es donde se medirá la llegada de la ayuda.",
+      "ids": ["f37a3553da", "8eb0825a4d", "36b9c5a926", "fad4e2745e", "e1844262a9", "f91777698b", "f55678c65d", "2b32b2cd48", "d0224afa15", "1667c07979", "56e30a03b8", "bd23dc7159"]
     },
     {
       "titulo": "La lluvia amenaza el voto del domingo",
-      "explicacion": "Medios (Teleamazonas, La Hora, El Mercurio) hablan de recintos inundados o reubicados y lluvias fuertes para el domingo. Si hay incidentes el día de la votación, se preguntará por la previsión del Estado.",
-      "ids": [
-        "c125112770",
-        "38c67ce18b",
-        "d2305b0939",
-        "7d2e0b61c9",
-        "4484feb0ba",
-        "4c92e02b6a",
-        "68c779bf62",
-        "819b70113e",
-        "ce2d15e840",
-        "63dec6a4ee"
-      ]
+      "explicacion": "Teleamazonas, La Hora y El Mercurio hablan de recintos inundados o reubicados y lluvias fuertes para el domingo. Si hay incidentes en la votación, se preguntará por la previsión del Estado.",
+      "ids": ["c125112770", "38c67ce18b", "d2305b0939", "7d2e0b61c9", "4484feb0ba", "4c92e02b6a", "68c779bf62", "819b70113e", "ce2d15e840", "63dec6a4ee"]
     },
     {
       "titulo": "El Gobierno llega con bonos y brigadas",
-      "explicacion": "La sostienen medios (TC Televisión, El Telégrafo, El Universo, Metro Ecuador) con bombas de agua, bonos y bienes del Senae para damnificados. Hoy pierde fuerza frente a ayer en notas positivas.",
-      "ids": [
-        "3f0b21d818",
-        "d8e121beb5",
-        "8e79d5f620",
-        "1647d3e699",
-        "f9bf7acef5",
-        "84ebde5a3a",
-        "1a74eaa534",
-        "6b5bbef691",
-        "af884aebf4",
-        "4f6d76bca9",
-        "4ab29a022b",
-        "b418b1474a",
-        "332c853b57"
-      ]
+      "explicacion": "La sostienen medios (TC Televisión, El Telégrafo, El Universo, Metro Ecuador) con bombas de agua, bonos y bienes del Senae para damnificados. Hoy tiene menos notas positivas que ayer.",
+      "ids": ["3f0b21d818", "d8e121beb5", "8e79d5f620", "1647d3e699", "f9bf7acef5", "84ebde5a3a", "1a74eaa534", "6b5bbef691", "af884aebf4", "4f6d76bca9", "4ab29a022b", "b418b1474a", "332c853b57"]
     },
     {
       "titulo": "Las autoridades están en campaña y no ayudan",
       "explicacion": "Comentarios en YouTube (Ecuavisa, Jimmy Jairala, Teleamazonas) acusan al Gobierno de pensar en las elecciones y de hacer show con la ayuda. Riesgo para Carolina si la entrega de ayuda se asocia a la campaña.",
-      "ids": [
-        "e2d472e00d",
-        "31646de3e0",
-        "511fc8b233",
-        "16dab5e742",
-        "26fb11c6c7",
-        "aa497974f6"
-      ]
+      "ids": ["e2d472e00d", "31646de3e0", "511fc8b233", "16dab5e742", "26fb11c6c7", "aa497974f6"]
     },
     {
       "titulo": "Culpan a los municipios de inundarse cada año",
       "explicacion": "FM Mundo recoge que, según Riesgos, municipios no ejecutan planes de prevención; Panorama Ecuador, que 21 de Guayas no informan sobre albergues. Respalda a la Secretaría, pero exige mostrar acompañamiento a esos GAD.",
-      "ids": [
-        "3990944078",
-        "563c38bdb4",
-        "107f47836c",
-        "b7a89ba49d",
-        "cc4bc11658"
-      ]
+      "ids": ["3990944078", "563c38bdb4", "107f47836c", "b7a89ba49d", "cc4bc11658"]
     },
     {
       "titulo": "El país no está preparado para emergencias",
       "explicacion": "Comentarios en YouTube piden declarar emergencia nacional y suspender clases como en Perú; Diario Extra reporta muertes en Manabí. Riesgo de que se atribuya falta de prevención a la Secretaría.",
-      "ids": [
-        "1a5ce1d2c3",
-        "94485e2ec1",
-        "8ebe8ef21d",
-        "8400d97877",
-        "65e65230dc",
-        "53c23cd339",
-        "9d9b30fcb1"
-      ]
+      "ids": ["1a5ce1d2c3", "94485e2ec1", "8ebe8ef21d", "8400d97877", "65e65230dc", "53c23cd339", "9d9b30fcb1"]
     }
   ],
   "rumores": [
     {
       "titulo": "Ecuador ya declaró emergencia nacional",
       "explicacion": "Lo afirma un video de NDTV World (85 vistas); ninguna pieza nacional lo confirma y Primicias habla de casi tres meses de alerta roja. Respuesta: aclarar con información oficial qué declaratoria está vigente (arts. 61 y 72).",
-      "ids": [
-        "ce27454687",
-        "3877919b0e"
-      ]
+      "ids": ["ce27454687", "3877919b0e"]
     }
   ],
   "hitos": []
