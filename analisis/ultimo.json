@@ -1,57 +1,32 @@
 {
   "vinetas": [
-    "Sube el volumen: 99 notas de medios y 47 videos en 24 h, frente a 66 y 16; crítica directa mínima.",
-    "Mocache (Los Ríos) declarada en emergencia por deslave; medios difieren: uno o dos fallecidos, más desaparecidos.",
-    "Radio Pichincha recoge que califican de improvisado el cambio de clases: de 19 provincias sin presencialidad a ocho.",
-    "Cifras dispersas: la SNGR reporta 25 ríos desbordados y otra nota 23; fallecidos, 27 en medios y 28 en YouTube."
+    "Medios replican 30 muertos y más de 121.000 afectados (EFE, Primicias); otros publican 28 muertos y 114.000.",
+    "Los Ríos concentra la alarma: Babahoyo en emergencia, 80 % bajo el agua, sin diésel y 16 ríos desbordados.",
+    "Anoche lluvia y marea de 4,47 m inundaron Guayaquil; Primicias reporta desborde del Guayas hacia Samborondón y Daule.",
+    "En YouTube la crítica sube de 9 a 10 piezas: comentarios acusan al Gobierno de priorizar las elecciones del domingo."
   ],
   "fuentes_vinetas": [
-    [],
-    ["806d4b9af2", "5b6b934d1c", "884126a5c9", "f3cd3ca25d"],
-    ["b3e34cc11a", "71b44e6623", "89c9178b28"],
-    ["a6b100893d", "33705d4f45", "355de513cd", "16d88f1bf5"]
+    ["658c1fad1b", "3877919b0e", "bbe782f93b", "0b5a1ae566", "be09e7e7a6"],
+    ["04fa458ce3", "f71aa1e45b", "36b9c5a926", "8eb0825a4d"],
+    ["24122db74c", "4b2a25f8d3", "1911fd236d", "07f425ee57"],
+    ["e2d472e00d", "31646de3e0", "aa497974f6", "16dab5e742", "26fb11c6c7", "40eb7c373c"]
   ],
   "acciones": [
-    {"accion": "Publicar hoy parte único SNGR: fallecidos, ríos desbordados y Mocache, en web y redes.",
-     "porque": "Medios difieren: 25 o 23 ríos desbordados; 27 o 28 fallecidos; Mocache con uno o dos muertos.",
-     "base_legal": "Art. 61 y 72",
-     "fuentes": ["a6b100893d", "33705d4f45", "355de513cd", "16d88f1bf5", "806d4b9af2", "5b6b934d1c"]},
-    {"accion": "Difundir con Inocar recomendaciones por aguaje máximo hasta el 28 en la Costa.",
-     "porque": "Inocar prevé aguaje máximo del 25 al 28; el mar destruyó casas en San Pablo y anegó nueve zonas de Guayaquil.",
-     "base_legal": "Art. 61 y 62",
-     "fuentes": ["14a9df0b84", "087b60744a", "7a51781f71", "72888c1ad6"]},
-    {"accion": "Coordinar con CNE y COE plan de riesgo para recintos del domingo 29.",
-     "porque": "CNE reubicó 10 recintos en cinco provincias; alerta de lluvias hasta el 27; comentarios ligan emergencia y elecciones.",
-     "base_legal": "Art. 23.5, 29 y 78.5",
-     "fuentes": ["17a305642b", "a54c62ea02", "7a9e32af4b"]}
+    {"accion": "Publicar hoy en web y redes cifra oficial única de fallecidos y afectados.", "porque": "Circulan cifras distintas: 30 muertos y 121.000 afectados (EFE, Primicias) frente a 28 y 114.000 (La Jornada, Gobernantes.com).", "base_legal": "Art. 61, 72 y 73", "fuentes": ["658c1fad1b", "3877919b0e", "0b5a1ae566", "be09e7e7a6"]},
+    {"accion": "Acordar con el CNE un mensaje conjunto sobre recintos inundados y riesgos para votar.", "porque": "CNE reporta 22 recintos afectados y analiza reubicar o suspender; en YouTube piden suspender las elecciones por las lluvias.", "base_legal": "Art. 23.5 y 61", "fuentes": ["7cc97716a7", "c125112770", "38c67ce18b", "aa497974f6", "40eb7c373c"]},
+    {"accion": "Ofrecer al COE de Babahoyo apoyo subsidiario en albergues, kits y evaluación de necesidades.", "porque": "Babahoyo declaró emergencia con 80 % del territorio bajo el agua y sin diésel; comentarios reportan familias sin comida.", "base_legal": "Art. 14, 21.4 y 68", "fuentes": ["04fa458ce3", "f71aa1e45b", "36b9c5a926", "e1844262a9"]}
   ],
   "narrativas": [
-    {"titulo": "El impacto climático altera los servicios básicos y la educación",
-     "explicacion": "Medios y comentarios siguen el ir y venir de clases y los apagones; Radio Pichincha recoge críticas de improvisación. Riesgo para el COE Nacional, del que la SNGR es parte.",
-     "ids": ["b3e34cc11a", "89c9178b28", "71b44e6623", "01636f2ec7", "4b510b21cd", "4ee3cd5672", "2d58096c48", "d510b5a9d8", "83bd6447c7", "a5ed0b0898", "ca6aeff797"]},
-    {"titulo": "El Estado emite alertas y coordina acciones preventivas",
-     "explicacion": "Se difunden los reportes de la SNGR, Inamhi e Inocar sobre ríos, tormentas y aguaje. Oportunidad para consolidar a la Secretaría como fuente oficial única.",
-     "ids": ["a6b100893d", "1a195fbf27", "2cb2b86674", "a54c62ea02", "14a9df0b84", "6ff9c7d5d6", "c343e4b88c", "1d8f42e2f1"]},
-    {"titulo": "El Gobierno llega con bonos y brigadas",
-     "explicacion": "Medios difunden el bono de contingencia, brigadas médicas, la donación de la Unión Europea y el crédito del FMI. Oportunidad si se rinde cuentas del uso de la ayuda.",
-     "ids": ["e09ef273c2", "a60e3e326b", "4f0bff6fad", "d02e1c9e1e", "3531bd539f", "7960c546d9"]},
-    {"titulo": "Culpan a los municipios de inundarse cada año",
-     "explicacion": "El video de Los Ceibos (27.409 vistas) y reclamos de moradores apuntan a alcantarillas, basura y obras locales. No se dirige a la Secretaría.",
-     "ids": ["266f9b28f1", "50c22f9dae", "d7ada45d3d", "35e700838e", "ef896a5406", "00134bea5b", "5b784e3217"]},
-    {"titulo": "El país no está preparado para emergencias",
-     "explicacion": "Primicias habla de obras millonarias fallidas en Galápagos y otros medios suman muertos y pérdidas repetidas en Manta. Riesgo de que la cifra de fallecidos se lea como falla del Estado.",
-     "ids": ["2779ab52f1", "74bcb52471", "2525560697", "fec8d99acd", "bfb501e9d9", "dd8d6558fe"]},
-    {"titulo": "Las autoridades están en campaña y no ayudan",
-     "explicacion": "Comentarios en YouTube ligan la emergencia con el adelanto de las elecciones del 29. Bajo alcance, pero sensible antes del domingo.",
-     "ids": ["7a9e32af4b", "a5ed0b0898"]}
+    {"titulo": "El Gobierno llega con bonos y brigadas", "explicacion": "La empujan medios (TC Televisión, El Telégrafo, El Universo) con bombas de agua, bonos y 58.461 personas atendidas. Oportunidad para la Secretaría de mostrar atención en territorio con datos verificables.", "ids": ["3f0b21d818", "d8e121beb5", "8e79d5f620", "1647d3e699", "b418b1474a", "f9bf7acef5", "84ebde5a3a", "a60e3e326b", "1a74eaa534", "e09ef273c2", "6b5bbef691", "af884aebf4"]},
+    {"titulo": "Las autoridades están en campaña y no ayudan", "explicacion": "Comentarios en YouTube (Ecuavisa, Jimmy Jairala, Teleamazonas) acusan al Gobierno de pensar en las elecciones del domingo y de hacer show con la ayuda. Riesgo para Carolina si la entrega de ayuda se percibe como proselitismo.", "ids": ["e2d472e00d", "31646de3e0", "511fc8b233", "16dab5e742", "26fb11c6c7", "aa497974f6", "40eb7c373c"]},
+    {"titulo": "Culpan a los municipios de inundarse cada año", "explicacion": "Medios recogen que, según Riesgos, municipios no ejecutan planes de prevención y 21 de Guayas no informan sobre albergues. Respalda a la Secretaría, pero exige mostrar acompañamiento a esos GAD.", "ids": ["3990944078", "563c38bdb4", "5dce57e7f1", "9335ea4e79", "107f47836c", "b7a89ba49d", "cc4bc11658"]},
+    {"titulo": "El Estado emite alertas y coordina acciones preventivas", "explicacion": "Medios difunden alertas del Inamhi y el Inocar (oleaje hasta el 30 de noviembre) y reportes de la SNGR sobre ríos desbordados. Legitima la capacidad técnica de la Secretaría.", "ids": ["9658fd761a", "38756bea96", "75dc97fd69", "09d2b6d2bd", "03a2bf3f7c", "3cf7bbca63", "6e571f0f02"]},
+    {"titulo": "El país no está preparado para emergencias", "explicacion": "Comentarios en YouTube piden declarar emergencia nacional y suspender clases como en Perú; Diario Extra reporta dos muertes en Manabí. Riesgo de que se atribuya falta de prevención a la Secretaría.", "ids": ["1a5ce1d2c3", "94485e2ec1", "8ebe8ef21d", "8400d97877", "65e65230dc", "53c23cd339", "9d9b30fcb1"]},
+    {"titulo": "Babahoyo y Los Ríos quedaron bajo el agua", "explicacion": "Videos de Ecuavisa y canales de YouTube con miles de vistas muestran Babahoyo inundada y comentarios hablan de familias sin comida. Es la zona donde se medirá la llegada de la ayuda.", "ids": ["f37a3553da", "8eb0825a4d", "f71aa1e45b", "36b9c5a926", "fad4e2745e", "e1844262a9"]}
   ],
-  "rumores": [
-    {"titulo": "El CNE suspendería las elecciones por lluvias",
-     "explicacion": "Ecuador Chequea lo calificó de engañoso; el CNE solo reubicó 10 recintos y descartó el conteo rápido. Responder con información oficial junto al CNE (arts. 61 y 72).",
-     "ids": ["2fd0fb32bd"]}
-  ],
+  "rumores": [],
   "hitos": [
-    {"dia": "2026-11-23", "titulo": "Deslave en Quevedo mata a dos adolescentes", "ids": ["ac49af0b38", "9ff4fa9b79", "0c5c9ba50c"]},
-    {"dia": "2026-11-25", "titulo": "Mocache declara emergencia tras deslave mortal", "ids": ["806d4b9af2", "5b6b934d1c"]}
+    {"dia": "2026-11-26", "titulo": "Babahoyo declara emergencia con 80 % inundado", "ids": ["04fa458ce3", "f71aa1e45b"]},
+    {"dia": "2026-11-26", "titulo": "Río Guayas desborda e inunda Guayaquil y Samborondón", "ids": ["4b2a25f8d3", "3df1d793c5", "24122db74c"]}
   ]
 }
