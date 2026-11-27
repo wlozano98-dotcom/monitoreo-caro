@@ -1,32 +1,169 @@
 {
   "vinetas": [
-    "Medios replican 30 muertos y más de 121.000 afectados (EFE, Primicias); otros publican 28 muertos y 114.000.",
-    "Los Ríos concentra la alarma: Babahoyo en emergencia, 80 % bajo el agua, sin diésel y 16 ríos desbordados.",
-    "Anoche lluvia y marea de 4,47 m inundaron Guayaquil; Primicias reporta desborde del Guayas hacia Samborondón y Daule.",
-    "En YouTube la crítica sube de 9 a 10 piezas: comentarios acusan al Gobierno de priorizar las elecciones del domingo."
+    "Desbordes suben a 33 ríos y Los Ríos es la más afectada (Teleamazonas); otras notas dicen 27 o 32.",
+    "Manabí se agrava: río Manta desborda por segunda vez en la semana, 3.700 afectados; dos muertos en San Vicente.",
+    "Domingo 29: Pilar Cornejo prevé lluvias fuertes en la votación; el Inamhi dijo que la advertencia termina el viernes.",
+    "En medios las notas positivas caen de 10 a 2; en YouTube la crítica sigue baja (9 piezas) y apunta al Gobierno."
   ],
   "fuentes_vinetas": [
-    ["658c1fad1b", "3877919b0e", "bbe782f93b", "0b5a1ae566", "be09e7e7a6"],
-    ["04fa458ce3", "f71aa1e45b", "36b9c5a926", "8eb0825a4d"],
-    ["24122db74c", "4b2a25f8d3", "1911fd236d", "07f425ee57"],
-    ["e2d472e00d", "31646de3e0", "aa497974f6", "16dab5e742", "26fb11c6c7", "40eb7c373c"]
+    [
+      "a6b42a77b7",
+      "2665720406",
+      "6b3c3b0503",
+      "1b4fc01465"
+    ],
+    [
+      "7f69649348",
+      "4011b12b48",
+      "b86146c6a7",
+      "ca1f09c32d"
+    ],
+    [
+      "7d2e0b61c9",
+      "4484feb0ba",
+      "9658fd761a"
+    ],
+    [
+      "94485e2ec1",
+      "31646de3e0"
+    ]
   ],
   "acciones": [
-    {"accion": "Publicar hoy en web y redes cifra oficial única de fallecidos y afectados.", "porque": "Circulan cifras distintas: 30 muertos y 121.000 afectados (EFE, Primicias) frente a 28 y 114.000 (La Jornada, Gobernantes.com).", "base_legal": "Art. 61, 72 y 73", "fuentes": ["658c1fad1b", "3877919b0e", "0b5a1ae566", "be09e7e7a6"]},
-    {"accion": "Acordar con el CNE un mensaje conjunto sobre recintos inundados y riesgos para votar.", "porque": "CNE reporta 22 recintos afectados y analiza reubicar o suspender; en YouTube piden suspender las elecciones por las lluvias.", "base_legal": "Art. 23.5 y 61", "fuentes": ["7cc97716a7", "c125112770", "38c67ce18b", "aa497974f6", "40eb7c373c"]},
-    {"accion": "Ofrecer al COE de Babahoyo apoyo subsidiario en albergues, kits y evaluación de necesidades.", "porque": "Babahoyo declaró emergencia con 80 % del territorio bajo el agua y sin diésel; comentarios reportan familias sin comida.", "base_legal": "Art. 14, 21.4 y 68", "fuentes": ["04fa458ce3", "f71aa1e45b", "36b9c5a926", "e1844262a9"]}
+    {
+      "accion": "Emitir con Inamhi y CNE un pronóstico oficial único para la votación del domingo.",
+      "porque": "Pilar Cornejo (Teleamazonas) prevé lluvias fuertes el domingo; el Inamhi anunció fin de la advertencia el viernes; Milagro reubica tres recintos.",
+      "base_legal": "Art. 23.5, 61 y 62",
+      "fuentes": [
+        "7d2e0b61c9",
+        "4484feb0ba",
+        "9658fd761a",
+        "d2305b0939"
+      ]
+    },
+    {
+      "accion": "Ofrecer a COE de Manta y San Vicente apoyo subsidiario y evaluación de necesidades.",
+      "porque": "Río Manta desborda por segunda vez en la semana con más de 3.700 afectados (El Diario); dos muertos en San Vicente.",
+      "base_legal": "Art. 14, 21.4 y 68",
+      "fuentes": [
+        "7f69649348",
+        "4011b12b48",
+        "b86146c6a7",
+        "ca1f09c32d"
+      ]
+    },
+    {
+      "accion": "Publicar hoy en web y redes parte oficial de ríos desbordados y víctimas.",
+      "porque": "Medios dan 27, 32 y 33 ríos desbordados; prensa internacional replica 30 muertos y 121.000 afectados, otras 28 y 114.000.",
+      "base_legal": "Art. 61, 72 y 73",
+      "fuentes": [
+        "a6b42a77b7",
+        "6b3c3b0503",
+        "1b4fc01465",
+        "8cb159e42d",
+        "0b5a1ae566"
+      ]
+    }
   ],
   "narrativas": [
-    {"titulo": "El Gobierno llega con bonos y brigadas", "explicacion": "La empujan medios (TC Televisión, El Telégrafo, El Universo) con bombas de agua, bonos y 58.461 personas atendidas. Oportunidad para la Secretaría de mostrar atención en territorio con datos verificables.", "ids": ["3f0b21d818", "d8e121beb5", "8e79d5f620", "1647d3e699", "b418b1474a", "f9bf7acef5", "84ebde5a3a", "a60e3e326b", "1a74eaa534", "e09ef273c2", "6b5bbef691", "af884aebf4"]},
-    {"titulo": "Las autoridades están en campaña y no ayudan", "explicacion": "Comentarios en YouTube (Ecuavisa, Jimmy Jairala, Teleamazonas) acusan al Gobierno de pensar en las elecciones del domingo y de hacer show con la ayuda. Riesgo para Carolina si la entrega de ayuda se percibe como proselitismo.", "ids": ["e2d472e00d", "31646de3e0", "511fc8b233", "16dab5e742", "26fb11c6c7", "aa497974f6", "40eb7c373c"]},
-    {"titulo": "Culpan a los municipios de inundarse cada año", "explicacion": "Medios recogen que, según Riesgos, municipios no ejecutan planes de prevención y 21 de Guayas no informan sobre albergues. Respalda a la Secretaría, pero exige mostrar acompañamiento a esos GAD.", "ids": ["3990944078", "563c38bdb4", "5dce57e7f1", "9335ea4e79", "107f47836c", "b7a89ba49d", "cc4bc11658"]},
-    {"titulo": "El Estado emite alertas y coordina acciones preventivas", "explicacion": "Medios difunden alertas del Inamhi y el Inocar (oleaje hasta el 30 de noviembre) y reportes de la SNGR sobre ríos desbordados. Legitima la capacidad técnica de la Secretaría.", "ids": ["9658fd761a", "38756bea96", "75dc97fd69", "09d2b6d2bd", "03a2bf3f7c", "3cf7bbca63", "6e571f0f02"]},
-    {"titulo": "El país no está preparado para emergencias", "explicacion": "Comentarios en YouTube piden declarar emergencia nacional y suspender clases como en Perú; Diario Extra reporta dos muertes en Manabí. Riesgo de que se atribuya falta de prevención a la Secretaría.", "ids": ["1a5ce1d2c3", "94485e2ec1", "8ebe8ef21d", "8400d97877", "65e65230dc", "53c23cd339", "9d9b30fcb1"]},
-    {"titulo": "Babahoyo y Los Ríos quedaron bajo el agua", "explicacion": "Videos de Ecuavisa y canales de YouTube con miles de vistas muestran Babahoyo inundada y comentarios hablan de familias sin comida. Es la zona donde se medirá la llegada de la ayuda.", "ids": ["f37a3553da", "8eb0825a4d", "f71aa1e45b", "36b9c5a926", "fad4e2745e", "e1844262a9"]}
+    {
+      "titulo": "Babahoyo y Los Ríos quedaron bajo el agua",
+      "explicacion": "Videos de Ecuavisa y canales de YouTube con miles de vistas, más el colapso del puente en Montalvo y 276 personas en albergues. Es donde se medirá la llegada de la ayuda.",
+      "ids": [
+        "f37a3553da",
+        "8eb0825a4d",
+        "36b9c5a926",
+        "fad4e2745e",
+        "e1844262a9",
+        "f91777698b",
+        "f55678c65d",
+        "2b32b2cd48",
+        "d0224afa15",
+        "1667c07979",
+        "56e30a03b8",
+        "bd23dc7159"
+      ]
+    },
+    {
+      "titulo": "La lluvia amenaza el voto del domingo",
+      "explicacion": "Medios (Teleamazonas, La Hora, El Mercurio) hablan de recintos inundados o reubicados y lluvias fuertes para el domingo. Si hay incidentes el día de la votación, se preguntará por la previsión del Estado.",
+      "ids": [
+        "c125112770",
+        "38c67ce18b",
+        "d2305b0939",
+        "7d2e0b61c9",
+        "4484feb0ba",
+        "4c92e02b6a",
+        "68c779bf62",
+        "819b70113e",
+        "ce2d15e840",
+        "63dec6a4ee"
+      ]
+    },
+    {
+      "titulo": "El Gobierno llega con bonos y brigadas",
+      "explicacion": "La sostienen medios (TC Televisión, El Telégrafo, El Universo, Metro Ecuador) con bombas de agua, bonos y bienes del Senae para damnificados. Hoy pierde fuerza frente a ayer en notas positivas.",
+      "ids": [
+        "3f0b21d818",
+        "d8e121beb5",
+        "8e79d5f620",
+        "1647d3e699",
+        "f9bf7acef5",
+        "84ebde5a3a",
+        "1a74eaa534",
+        "6b5bbef691",
+        "af884aebf4",
+        "4f6d76bca9",
+        "4ab29a022b",
+        "b418b1474a",
+        "332c853b57"
+      ]
+    },
+    {
+      "titulo": "Las autoridades están en campaña y no ayudan",
+      "explicacion": "Comentarios en YouTube (Ecuavisa, Jimmy Jairala, Teleamazonas) acusan al Gobierno de pensar en las elecciones y de hacer show con la ayuda. Riesgo para Carolina si la entrega de ayuda se asocia a la campaña.",
+      "ids": [
+        "e2d472e00d",
+        "31646de3e0",
+        "511fc8b233",
+        "16dab5e742",
+        "26fb11c6c7",
+        "aa497974f6"
+      ]
+    },
+    {
+      "titulo": "Culpan a los municipios de inundarse cada año",
+      "explicacion": "FM Mundo recoge que, según Riesgos, municipios no ejecutan planes de prevención; Panorama Ecuador, que 21 de Guayas no informan sobre albergues. Respalda a la Secretaría, pero exige mostrar acompañamiento a esos GAD.",
+      "ids": [
+        "3990944078",
+        "563c38bdb4",
+        "107f47836c",
+        "b7a89ba49d",
+        "cc4bc11658"
+      ]
+    },
+    {
+      "titulo": "El país no está preparado para emergencias",
+      "explicacion": "Comentarios en YouTube piden declarar emergencia nacional y suspender clases como en Perú; Diario Extra reporta muertes en Manabí. Riesgo de que se atribuya falta de prevención a la Secretaría.",
+      "ids": [
+        "1a5ce1d2c3",
+        "94485e2ec1",
+        "8ebe8ef21d",
+        "8400d97877",
+        "65e65230dc",
+        "53c23cd339",
+        "9d9b30fcb1"
+      ]
+    }
   ],
-  "rumores": [],
-  "hitos": [
-    {"dia": "2026-11-26", "titulo": "Babahoyo declara emergencia con 80 % inundado", "ids": ["04fa458ce3", "f71aa1e45b"]},
-    {"dia": "2026-11-26", "titulo": "Río Guayas desborda e inunda Guayaquil y Samborondón", "ids": ["4b2a25f8d3", "3df1d793c5", "24122db74c"]}
-  ]
+  "rumores": [
+    {
+      "titulo": "Ecuador ya declaró emergencia nacional",
+      "explicacion": "Lo afirma un video de NDTV World (85 vistas); ninguna pieza nacional lo confirma y Primicias habla de casi tres meses de alerta roja. Respuesta: aclarar con información oficial qué declaratoria está vigente (arts. 61 y 72).",
+      "ids": [
+        "ce27454687",
+        "3877919b0e"
+      ]
+    }
+  ],
+  "hitos": []
 }
