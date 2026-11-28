@@ -1,74 +1,68 @@
 {
   "vinetas": [
-    "Solo hay medios y YouTube, sin X, TikTok ni Facebook; notas positivas en medios caen de 10 a 2.",
-    "Desbordes suben a 33 ríos y Los Ríos es la más afectada (Teleamazonas); 276 personas en cinco albergues.",
-    "Río Manta desborda por segunda vez en la semana (3.700 afectados) y Guayaquil suma cuarta noche bajo agua.",
-    "Domingo 29: Pilar Cornejo prevé lluvias fuertes en la votación; el Inamhi dijo que la advertencia termina el viernes."
+    "Balance oficial sube de 30 a 34 muertos y 126.000 afectados; la prensa internacional replica la cifra.",
+    "CNE reubica 11 recintos en cinco provincias; Teleamazonas y Ecuavisa ya plantean si se suspenden las elecciones.",
+    "Tono crítico cae a 7 piezas (13 ayer); Radio Pichincha recoge reclamos por atención tardía en Manabí.",
+    "Babahoyo, 80 % inundado: Latina Noticias (3.181 vistas) reporta escasez de combustible; cruces en canoa sin chalecos."
   ],
   "fuentes_vinetas": [
-    [],
-    ["a6b42a77b7", "2665720406", "2b32b2cd48", "d0224afa15"],
-    ["7f69649348", "4011b12b48", "49f669e956", "514a4b0693"],
-    ["7d2e0b61c9", "4484feb0ba", "9658fd761a"]
+    ["6209aafff6", "bab5ae75c5", "8cb159e42d", "1538f53bac"],
+    ["be13294d48", "684dc2eacc", "819b70113e"],
+    ["67fa301bb6"],
+    ["f384254ebe", "dbd0540596"]
   ],
   "acciones": [
     {
-      "accion": "Emitir con Inamhi y CNE un boletín único de riesgo para la votación del domingo.",
-      "porque": "Cornejo (Teleamazonas) prevé lluvias fuertes el domingo; el Inamhi anunció fin de la advertencia el viernes; Milagro reubica tres recintos.",
-      "base_legal": "Art. 23.5, 61 y 62",
-      "fuentes": ["7d2e0b61c9", "4484feb0ba", "9658fd761a", "d2305b0939", "63dec6a4ee"]
+      "accion": "Con el CNE, difundir hoy recintos reubicados, vías cerradas y alertas para votar el domingo.",
+      "porque": "CNE reubicó 11 recintos; Ecuavisa reporta vías inundadas y Teleamazonas prevé lluvias fuertes el domingo 29.",
+      "base_legal": "Art. 61 y 72",
+      "fuentes": ["be13294d48", "6ca9e62ac1", "7d2e0b61c9", "e5dac6572f"]
     },
     {
-      "accion": "Ofrecer al COE cantonal de Manta apoyo subsidiario y evaluación de necesidades con MIES.",
-      "porque": "Río Manta desborda por segunda vez en la semana; El Diario cuenta más de 3.700 afectados; dos muertos en San Vicente.",
-      "base_legal": "Art. 14, 21.4 y 68",
-      "fuentes": ["7f69649348", "4011b12b48", "2faa89ee3a", "b86146c6a7", "ca1f09c32d"]
+      "accion": "Ofrecer al COE de Babahoyo apoyo subsidiario: agua segura y chalecos para cruces en canoa.",
+      "porque": "Ecuavisa: familias de Los Ríos sin agua y 75 atrapadas en Barreiro; cruces en canoa sin chalecos y hasta $8.",
+      "base_legal": "Art. 13, 14 y 21.4",
+      "fuentes": ["dd17602266", "f75706285a", "dbd0540596"]
     },
     {
-      "accion": "Publicar en la web el parte oficial de ríos, víctimas y ayuda entregada por provincia.",
-      "porque": "Medios dan 32 o 33 ríos desbordados y 28 o 30 muertos; comentarios en YouTube acusan show con la ayuda.",
-      "base_legal": "Art. 61, 72 y 73",
-      "fuentes": ["6b3c3b0503", "a6b42a77b7", "0b5a1ae566", "8cb159e42d", "511fc8b233"]
+      "accion": "Publicar un solo balance con hora de corte y ayuda entregada, sin imagen de autoridades.",
+      "porque": "Medios difieren: 34 muertos y 126.000 afectados, 28 y 114.000, 47.000 damnificados; acusan uso de la ayuda en campaña.",
+      "base_legal": "Art. 61, 72, 73 y 78.5",
+      "fuentes": ["6209aafff6", "0572e8cb53", "147e3e38c8", "67fa301bb6", "511fc8b233"]
     }
   ],
   "narrativas": [
     {
       "titulo": "Babahoyo y Los Ríos quedaron bajo el agua",
-      "explicacion": "Videos de Ecuavisa y canales de YouTube con miles de vistas, el colapso del puente en Montalvo y 276 personas en albergues. Es donde se medirá la llegada de la ayuda.",
-      "ids": ["f37a3553da", "8eb0825a4d", "36b9c5a926", "fad4e2745e", "e1844262a9", "f91777698b", "f55678c65d", "2b32b2cd48", "d0224afa15", "1667c07979", "56e30a03b8", "bd23dc7159"]
+      "explicacion": "Ecuavisa, Latina Noticias, El Universo y Primicias muestran el 80 % de Babahoyo inundado, canoas como transporte, familias atrapadas y sin agua; las cifras de albergados difieren (160 en Babahoyo, 276 en Los Ríos). Es donde se medirá la llegada de la ayuda.",
+      "ids": ["f384254ebe", "30afbb37cf", "e1a58f9ffb", "19d500302b", "d0224afa15", "2b32b2cd48", "f75706285a", "dbd0540596", "320f2ff2f2", "feb3d7fbe9", "dd17602266", "33486265b4", "3c7de4d58d", "8eb0825a4d", "d13efadc14"]
     },
     {
       "titulo": "La lluvia amenaza el voto del domingo",
-      "explicacion": "Teleamazonas, La Hora y El Mercurio hablan de recintos inundados o reubicados y lluvias fuertes para el domingo. Si hay incidentes en la votación, se preguntará por la previsión del Estado.",
-      "ids": ["c125112770", "38c67ce18b", "d2305b0939", "7d2e0b61c9", "4484feb0ba", "4c92e02b6a", "68c779bf62", "819b70113e", "ce2d15e840", "63dec6a4ee"]
+      "explicacion": "La reubicación de 11 recintos por el CNE se replica en una decena de medios y Teleamazonas y Ecuavisa preguntan si se suspenden las elecciones. Si hay incidentes el domingo, se preguntará por la previsión del Estado.",
+      "ids": ["850ca09d38", "be13294d48", "fc3cf85ba1", "244692d70d", "b4c14c1a7c", "b607050cf9", "fb7c5b727a", "cb5c8e103f", "4d6311279d", "684dc2eacc", "80bfb04830", "819b70113e", "7d2e0b61c9", "05edea2f65", "7589c504ff"]
     },
     {
       "titulo": "El Gobierno llega con bonos y brigadas",
-      "explicacion": "La sostienen medios (TC Televisión, El Telégrafo, El Universo, Metro Ecuador) con bombas de agua, bonos y bienes del Senae para damnificados. Hoy tiene menos notas positivas que ayer.",
-      "ids": ["3f0b21d818", "d8e121beb5", "8e79d5f620", "1647d3e699", "f9bf7acef5", "84ebde5a3a", "1a74eaa534", "6b5bbef691", "af884aebf4", "4f6d76bca9", "4ab29a022b", "b418b1474a", "332c853b57"]
+      "explicacion": "Medios como Vistazo, TC Televisión, El Universo y La República destacan bienes del Senae para damnificados, kits humanitarios y la visita de Noboa a Portoviejo con ayuda. Oportunidad para mostrar la ayuda con datos, no con imagen política.",
+      "ids": ["1919b87386", "657e2f4497", "b0bbf3c1e9", "4f6d76bca9", "67ddab36cb", "2360c60401", "e5245d7d73", "3f0b21d818", "d8e121beb5", "28c0b881d7"]
     },
     {
       "titulo": "Las autoridades están en campaña y no ayudan",
-      "explicacion": "Comentarios en YouTube (Ecuavisa, Jimmy Jairala, Teleamazonas) acusan al Gobierno de pensar en las elecciones y de hacer show con la ayuda. Riesgo para Carolina si la entrega de ayuda se asocia a la campaña.",
-      "ids": ["e2d472e00d", "31646de3e0", "511fc8b233", "16dab5e742", "26fb11c6c7", "aa497974f6"]
-    },
-    {
-      "titulo": "Culpan a los municipios de inundarse cada año",
-      "explicacion": "FM Mundo recoge que, según Riesgos, municipios no ejecutan planes de prevención; Panorama Ecuador, que 21 de Guayas no informan sobre albergues. Respalda a la Secretaría, pero exige mostrar acompañamiento a esos GAD.",
-      "ids": ["3990944078", "563c38bdb4", "107f47836c", "b7a89ba49d", "cc4bc11658"]
+      "explicacion": "Radio Pichincha recoge cuestionamientos a Noboa por priorizar la campaña frente al despliegue tardío de ayuda en Manabí; comentarios en YouTube repiten la idea. Riesgo para Carolina si la entrega de ayuda se asocia a la campaña.",
+      "ids": ["67fa301bb6", "511fc8b233", "e2d472e00d", "31646de3e0", "aa497974f6", "01db687ae6"]
     },
     {
       "titulo": "El país no está preparado para emergencias",
-      "explicacion": "Comentarios en YouTube piden declarar emergencia nacional y suspender clases como en Perú; Diario Extra reporta muertes en Manabí. Riesgo de que se atribuya falta de prevención a la Secretaría.",
-      "ids": ["1a5ce1d2c3", "94485e2ec1", "8ebe8ef21d", "8400d97877", "65e65230dc", "53c23cd339", "9d9b30fcb1"]
-    }
-  ],
-  "rumores": [
+      "explicacion": "Comentarios en YouTube acusan falta de plan de prevención y de obras, y comparan con Perú, que terminó el año escolar. Riesgo de que se atribuya falta de prevención a la Secretaría.",
+      "ids": ["e35c1d06d3", "a37fe6bbd3", "fbf0bd8f89", "3c3b46ef00", "94485e2ec1", "1a5ce1d2c3"]
+    },
     {
-      "titulo": "Ecuador ya declaró emergencia nacional",
-      "explicacion": "Lo afirma un video de NDTV World (85 vistas); ninguna pieza nacional lo confirma y Primicias habla de casi tres meses de alerta roja. Respuesta: aclarar con información oficial qué declaratoria está vigente (arts. 61 y 72).",
-      "ids": ["ce27454687", "3877919b0e"]
+      "titulo": "Culpan a los municipios de inundarse cada año",
+      "explicacion": "FM Mundo recoge que, según Riesgos, municipios no ejecutan planes de prevención; Panorama Ecuador, que 21 de Guayas no informan sobre albergues; se cuestiona el dragado del Guayas y la basura en canales de Guayaquil. Respalda a la Secretaría, pero exige mostrar acompañamiento a esos GAD.",
+      "ids": ["3990944078", "563c38bdb4", "eeb8ba7787", "888bdb1360", "9b8e054398", "107f47836c"]
     }
   ],
+  "rumores": [],
   "hitos": []
 }
