@@ -1,68 +1,81 @@
 {
   "vinetas": [
-    "Balance oficial sube de 30 a 34 muertos y 126.000 afectados; la prensa internacional replica la cifra.",
-    "CNE reubica 11 recintos en cinco provincias; Teleamazonas y Ecuavisa ya plantean si se suspenden las elecciones.",
-    "Tono crítico cae a 7 piezas (13 ayer); Radio Pichincha recoge reclamos por atención tardía en Manabí.",
-    "Babahoyo, 80 % inundado: Latina Noticias (3.181 vistas) reporta escasez de combustible; cruces en canoa sin chalecos."
+    "Balance oficial sube a 34 muertos y 126.935 afectados; medios difieren en damnificados: 47.000 o cerca de 50.000.",
+    "Ecuadorinmediato replica a Radio Pichincha: CNE podría suspender votación en recintos el domingo; FM Mundo: 37 en riesgo.",
+    "Crítica cae a 7 piezas (10 ayer); Radio Pichincha y comentarios en YouTube apuntan al Gobierno, no a SNGR.",
+    "Mayor alcance: AL ROJO ECUADOR, 25.293 vistas sobre Milagro bajo el agua; Loja y Esmeraldas suman aislamientos y evacuaciones."
   ],
   "fuentes_vinetas": [
-    ["6209aafff6", "bab5ae75c5", "8cb159e42d", "1538f53bac"],
-    ["be13294d48", "684dc2eacc", "819b70113e"],
-    ["67fa301bb6"],
-    ["f384254ebe", "dbd0540596"]
+    ["62f77aa965", "165125e3e5", "f4fb0a106a", "147e3e38c8", "8151d3b3db"],
+    ["c15bd1a1cc", "06b2cde256", "592a1c7c95"],
+    ["67fa301bb6", "e35c1d06d3", "a37fe6bbd3", "01db687ae6"],
+    ["65e9416076", "d1a56fffb1", "9866183cbf", "c5264d37f1"]
   ],
   "acciones": [
     {
-      "accion": "Con el CNE, difundir hoy recintos reubicados, vías cerradas y alertas para votar el domingo.",
-      "porque": "CNE reubicó 11 recintos; Ecuavisa reporta vías inundadas y Teleamazonas prevé lluvias fuertes el domingo 29.",
+      "accion": "Con CNE e Inamhi, publicar hoy y el domingo recintos reubicados, vías y pronóstico.",
+      "porque": "CNE podría suspender votación en recintos el domingo; 37 en riesgo; Inamhi prevé menos lluvia y Cornejo lluvias fuertes.",
       "base_legal": "Art. 61 y 72",
-      "fuentes": ["be13294d48", "6ca9e62ac1", "7d2e0b61c9", "e5dac6572f"]
+      "fuentes": ["c15bd1a1cc", "06b2cde256", "05edea2f65", "7d2e0b61c9", "c8b84b0106"]
     },
     {
-      "accion": "Ofrecer al COE de Babahoyo apoyo subsidiario: agua segura y chalecos para cruces en canoa.",
-      "porque": "Ecuavisa: familias de Los Ríos sin agua y 75 atrapadas en Barreiro; cruces en canoa sin chalecos y hasta $8.",
-      "base_legal": "Art. 13, 14 y 21.4",
-      "fuentes": ["dd17602266", "f75706285a", "dbd0540596"]
+      "accion": "Pedir al COE de Los Ríos cifra única de albergados y ofrecer apoyo subsidiario.",
+      "porque": "Cifras difieren (160 albergados en Babahoyo, 276 en Los Ríos); Ecuavisa: familias sin agua; SNGR: 63.000 expuestos.",
+      "base_legal": "Art. 13, 14, 21.4 y 68",
+      "fuentes": ["19d500302b", "2b32b2cd48", "dd17602266", "33486265b4"]
     },
     {
-      "accion": "Publicar un solo balance con hora de corte y ayuda entregada, sin imagen de autoridades.",
-      "porque": "Medios difieren: 34 muertos y 126.000 afectados, 28 y 114.000, 47.000 damnificados; acusan uso de la ayuda en campaña.",
-      "base_legal": "Art. 61, 72, 73 y 78.5",
-      "fuentes": ["6209aafff6", "0572e8cb53", "147e3e38c8", "67fa301bb6", "511fc8b233"]
+      "accion": "Publicar balance con hora de corte y aclarar cifra de damnificados a medios.",
+      "porque": "Medios difieren: 47.000 o cerca de 50.000 damnificados; prensa extranjera aún replica 30 muertos y 121.000 afectados.",
+      "base_legal": "Art. 61, 72 y 73",
+      "fuentes": ["147e3e38c8", "8151d3b3db", "035c3f0894", "62f77aa965"]
     }
   ],
   "narrativas": [
     {
-      "titulo": "Babahoyo y Los Ríos quedaron bajo el agua",
-      "explicacion": "Ecuavisa, Latina Noticias, El Universo y Primicias muestran el 80 % de Babahoyo inundado, canoas como transporte, familias atrapadas y sin agua; las cifras de albergados difieren (160 en Babahoyo, 276 en Los Ríos). Es donde se medirá la llegada de la ayuda.",
-      "ids": ["f384254ebe", "30afbb37cf", "e1a58f9ffb", "19d500302b", "d0224afa15", "2b32b2cd48", "f75706285a", "dbd0540596", "320f2ff2f2", "feb3d7fbe9", "dd17602266", "33486265b4", "3c7de4d58d", "8eb0825a4d", "d13efadc14"]
+      "titulo": "La lluvia amenaza el voto del domingo",
+      "explicacion": "Crece: una veintena de medios replican los 11 recintos reubicados, FM Mundo suma 37 en riesgo, La República dice que el CNE no logró sesionar sobre Babahoyo y Ecuadorinmediato que podría suspender recintos el mismo día. Si hay incidentes el domingo, se preguntará por la previsión del Estado.",
+      "ids": ["850ca09d38", "be13294d48", "fc3cf85ba1", "244692d70d", "b4c14c1a7c", "b607050cf9", "fb7c5b727a", "06b2cde256", "b547cffd9f", "51a70abb67", "3c34b9509a", "592a1c7c95", "c15bd1a1cc", "f4e39e83ca", "684dc2eacc", "819b70113e", "80bfb04830", "7d2e0b61c9", "7589c504ff", "cb5c8e103f", "4d6311279d", "84c5e92912", "c781c1fe73", "d2305b0939"]
     },
     {
-      "titulo": "La lluvia amenaza el voto del domingo",
-      "explicacion": "La reubicación de 11 recintos por el CNE se replica en una decena de medios y Teleamazonas y Ecuavisa preguntan si se suspenden las elecciones. Si hay incidentes el domingo, se preguntará por la previsión del Estado.",
-      "ids": ["850ca09d38", "be13294d48", "fc3cf85ba1", "244692d70d", "b4c14c1a7c", "b607050cf9", "fb7c5b727a", "cb5c8e103f", "4d6311279d", "684dc2eacc", "80bfb04830", "819b70113e", "7d2e0b61c9", "05edea2f65", "7589c504ff"]
+      "titulo": "Babahoyo y Los Ríos quedaron bajo el agua",
+      "explicacion": "Ecuavisa, Latina Noticias, El Universo y Primicias siguen mostrando el 80 % de Babahoyo inundado, canoas, familias sin agua, un puente caído en Montalvo y la búsqueda de un docente en la vía Babahoyo-Montalvo. Las cifras de albergados difieren (160 y 276); es donde se medirá la llegada de la ayuda.",
+      "ids": ["f384254ebe", "30afbb37cf", "e1a58f9ffb", "19d500302b", "d0224afa15", "2b32b2cd48", "f75706285a", "dbd0540596", "320f2ff2f2", "feb3d7fbe9", "dd17602266", "33486265b4", "3c7de4d58d", "2a8f1401c0", "dd13feb467", "784b0a2929", "e1844262a9", "ea636aa7f3", "8e01df5e3a"]
     },
     {
       "titulo": "El Gobierno llega con bonos y brigadas",
-      "explicacion": "Medios como Vistazo, TC Televisión, El Universo y La República destacan bienes del Senae para damnificados, kits humanitarios y la visita de Noboa a Portoviejo con ayuda. Oportunidad para mostrar la ayuda con datos, no con imagen política.",
-      "ids": ["1919b87386", "657e2f4497", "b0bbf3c1e9", "4f6d76bca9", "67ddab36cb", "2360c60401", "e5245d7d73", "3f0b21d818", "d8e121beb5", "28c0b881d7"]
+      "explicacion": "El Universo anuncia bono de contingencia para más de 4.000 damnificados en Los Ríos; Vistazo, TC Televisión y La República destacan bienes del Senae, kits y la visita de Noboa a Portoviejo. Oportunidad para mostrar la ayuda con datos, no con imagen política.",
+      "ids": ["1919b87386", "657e2f4497", "b0bbf3c1e9", "4f6d76bca9", "67ddab36cb", "2360c60401", "e5245d7d73", "3f0b21d818", "d8e121beb5", "28c0b881d7", "71486e43ca", "8ff496d746", "1647d3e699", "6b5bbef691"]
     },
     {
       "titulo": "Las autoridades están en campaña y no ayudan",
       "explicacion": "Radio Pichincha recoge cuestionamientos a Noboa por priorizar la campaña frente al despliegue tardío de ayuda en Manabí; comentarios en YouTube repiten la idea. Riesgo para Carolina si la entrega de ayuda se asocia a la campaña.",
-      "ids": ["67fa301bb6", "511fc8b233", "e2d472e00d", "31646de3e0", "aa497974f6", "01db687ae6"]
+      "ids": ["67fa301bb6", "511fc8b233", "e2d472e00d", "31646de3e0", "01db687ae6"]
     },
     {
       "titulo": "El país no está preparado para emergencias",
-      "explicacion": "Comentarios en YouTube acusan falta de plan de prevención y de obras, y comparan con Perú, que terminó el año escolar. Riesgo de que se atribuya falta de prevención a la Secretaría.",
-      "ids": ["e35c1d06d3", "a37fe6bbd3", "fbf0bd8f89", "3c3b46ef00", "94485e2ec1", "1a5ce1d2c3"]
+      "explicacion": "Comentarios en YouTube acusan falta de plan de prevención y de obras y comparan con Perú, que terminó el año escolar; buena parte viene de una misma cuenta. Riesgo de que se atribuya falta de prevención a la Secretaría.",
+      "ids": ["e35c1d06d3", "a37fe6bbd3", "fbf0bd8f89", "3c3b46ef00", "94485e2ec1", "cb5d5ecdbc"]
     },
     {
       "titulo": "Culpan a los municipios de inundarse cada año",
-      "explicacion": "FM Mundo recoge que, según Riesgos, municipios no ejecutan planes de prevención; Panorama Ecuador, que 21 de Guayas no informan sobre albergues; se cuestiona el dragado del Guayas y la basura en canales de Guayaquil. Respalda a la Secretaría, pero exige mostrar acompañamiento a esos GAD.",
-      "ids": ["3990944078", "563c38bdb4", "eeb8ba7787", "888bdb1360", "9b8e054398", "107f47836c"]
+      "explicacion": "FM Mundo recoge que, según Riesgos, municipios no ejecutan planes de prevención; Extra y Metro muestran el canal de Las Orquídeas lleno de basura por quinta vez y Radio Canal Aguila cuestiona el dragado del Guayas. Respalda a la Secretaría, pero exige mostrar acompañamiento a esos GAD.",
+      "ids": ["3990944078", "eeb8ba7787", "888bdb1360", "9b8e054398", "04eeaccb45", "812450e915", "b8fd8ec2ca"]
     }
   ],
-  "rumores": [],
-  "hitos": []
+  "rumores": [
+    {
+      "titulo": "No habrá elecciones en Manabí",
+      "explicacion": "Comentario en YouTube de Teleamazonas, sin fuente; el CNE solo ha reubicado recintos puntuales. Poco alcance, pero puede desalentar el voto: responder con la lista oficial de recintos y vías (arts. 61 y 72).",
+      "ids": ["c8b84b0106"]
+    },
+    {
+      "titulo": "Cantones desaparecerán y habrá más de mil muertos",
+      "explicacion": "Comentario en YouTube sin fuente que puede generar pánico; poco alcance. Responder con el balance oficial y los pronósticos del Inamhi (arts. 61 y 72).",
+      "ids": ["1ce78a9de6"]
+    }
+  ],
+  "hitos": [
+    {"dia": "2026-11-27", "titulo": "CNE reubica 11 recintos electorales por lluvias", "ids": ["be13294d48", "3c34b9509a", "fc3cf85ba1"]}
+  ]
 }
